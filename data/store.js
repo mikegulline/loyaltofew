@@ -111,8 +111,7 @@ const modalProduct = (values) => {
     ?.join(', ')
     .toLowerCase()} sizes.`;
   const imageSlug = `${category}${type}${logo}${color.replace(' ', '')}`;
-  const image =
-    `/images/products/${category}/${type}/${imageSlug}.jpg`.toLowerCase();
+  const image = `/images/products/${category.toLowerCase()}/${type.toLowerCase()}/${imageSlug}.jpg`;
   const id = imageSlug.toLowerCase();
   const linkCategory = `/products/${category}`.toLowerCase();
   const linkType = `/products/${category}/${type}`.toLowerCase();
