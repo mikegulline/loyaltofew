@@ -1,4 +1,4 @@
-import { newStore } from '../../../data/store';
+import { newStore } from '../../../data/storeModals';
 
 const handler = (req, res) => {
   const slug = req.query.slug;

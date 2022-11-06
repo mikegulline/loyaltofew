@@ -4,21 +4,137 @@ export const store = [
     products: [
       {
         type: 'Tee',
+        product: "Men's Comfort Tee",
         logo: ['Arch', 'Block', 'Horizontal', 'Round'],
         color: ['Black', 'Gray', 'Green', 'Maroon', 'Navy'],
-        size: ['Small', 'Medium', 'Large', 'XL'],
+        tags: ['Tops'],
+        size: [
+          {
+            size: 'S',
+            price: 30,
+            dimensions:
+              'Body Length: 28 1/2 in., Chest Width: 18 in., Sleeve Length: 8 in.',
+          },
+          {
+            size: 'M',
+            price: 30,
+            dimensions:
+              'Body Length: 29 1/2 in., Chest Width: 20 in., Sleeve Length: 8 1/4 in.',
+          },
+          {
+            size: 'L',
+            price: 30,
+            dimensions:
+              'Body Length: 30 1/2 in., Chest Width: 22 in., Sleeve Length: 8 1/2 in.',
+          },
+          {
+            size: 'XL',
+            price: 30,
+            dimensions:
+              'Body Length: 31 1/2 in., Chest Width: 24 in., Sleeve Length: 8 3/4 in.',
+          },
+          {
+            size: 'XXL',
+            price: 32,
+            dimensions: 'Body Length: 32 1/2 in. 26 in. 9 in.',
+          },
+        ],
+        details: [
+          'Designed, produced & printed in the USA',
+          'Perfect 50/50 blend of cotton & polyester',
+          'Super-soft, lightweight (3.8oz) & durable',
+          'S-XXL',
+        ],
       },
       {
         type: 'Tank',
+        product: "Men's Classic Cotton Tank",
         logo: ['Arch', 'Block', 'Horizontal', 'Round'],
         color: ['Black'],
-        size: ['Small', 'Medium', 'Large', 'XL'],
+        tags: ['Tops'],
+        size: [
+          {
+            size: 'XS',
+            price: 28,
+            dimensions: 'Body Length: 27 3/8 in., Chest Width: 16 1/2 in.',
+          },
+          {
+            size: 'S',
+            price: 28,
+            dimensions: 'Body Length: 28 3/8 in., Chest Width:  18 in.',
+          },
+          {
+            size: 'M',
+            price: 28,
+            dimensions: 'Body Length: 29 3/8 in., Chest Width:  20 in.',
+          },
+          {
+            size: 'L',
+            price: 28,
+            dimensions: 'Body Length: 30 3/8 in., Chest Width:  22 in.',
+          },
+          {
+            size: 'XL',
+            price: 28,
+            dimensions: 'Body Length: 31 3/8 in., Chest Width:  24 in.',
+          },
+          {
+            size: 'XXL',
+            price: 30,
+            dimensions: 'Body Length: 32 3/8 in., Chest Width:  26 in.',
+          },
+        ],
+        details: [
+          'Designed, produced & printed in the USA',
+          '100% Pre-washed, no-shrink cotton',
+          'Lightweight (6.5oz)  and durable',
+          'S-XXL',
+        ],
       },
       {
         type: 'Sleeves',
+        product: "Men's Cotton Long-Sleeve",
         logo: ['Arch', 'Block', 'Horizontal', 'Round'],
         color: ['Black', 'Gray', 'Navy'],
-        size: ['Small', 'Medium', 'Large', 'XL'],
+        tags: ['Tops'],
+        size: [
+          {
+            size: 'S',
+            price: 35,
+            dimensions:
+              'Body Length: 28 3/8 in., Chest Width: 18 in., Sleeve Length: 27 1/8 in.',
+          },
+          {
+            size: 'M',
+            price: 35,
+            dimensions:
+              'Body Length: 29 1/2 in., Chest Width: 20 in., Sleeve Length: 27 5/8 in.',
+          },
+          {
+            size: 'L',
+            price: 35,
+            dimensions:
+              'Body Length: 30 5/8 in., Chest Width: 22 in., Sleeve Length: 27 7/8 in.',
+          },
+          {
+            size: 'XL',
+            price: 35,
+            dimensions:
+              'Body Length: 31 1/4 in., Chest Width: 24 in., Sleeve Length: 28 1/4 in.',
+          },
+          {
+            size: 'XXL',
+            price: 37,
+            dimensions:
+              'Body Length: 32 7/8 in., Chest Width: 26 in., Sleeve Length: 28 5/8 in.',
+          },
+        ],
+        details: [
+          'Designed, produced & printed in the USA',
+          '100% cotton grown on a US farm',
+          'Lightweight (4.3oz.) & durable',
+          'S-XXL',
+        ],
       },
     ],
   },
@@ -27,21 +143,133 @@ export const store = [
     products: [
       {
         type: 'Crop',
+        product: "Women's Cotton Crop",
         logo: ['Arch', 'Block', 'Horizontal', 'Round'],
         color: ['Black', 'Gray', 'Navy', 'Red'],
-        size: ['Small', 'Medium', 'Large', 'XL'],
+        tags: ['Tops'],
+        size: [
+          {
+            size: 'S',
+            price: 25,
+            dimensions:
+              'Body Length: 16 in., Chest Width: 15 1/2 in., Sleeve Length: 6 7/8 in.',
+          },
+          {
+            size: 'M',
+            price: 25,
+            dimensions:
+              'Body Length: 16 1/2 in., Chest Width: 16 1/2 in., Sleeve Length: 7 1/8 in.',
+          },
+          {
+            size: 'L',
+            price: 25,
+            dimensions:
+              'Body Length: 17 in., Chest Width: 17 3/4 in., Sleeve Length: 7 3/8 in.',
+          },
+          {
+            size: 'XL',
+            price: 25,
+            dimensions:
+              'Body Length: 17 1/2 in., Chest Width: 19 in., Sleeve Length: 7 5/8 in.',
+          },
+          {
+            size: 'XXL',
+            price: 27,
+            dimensions:
+              'Body Length: 18 1/2 in., Chest Width: 20 1/2 in., Sleeve Length: 7 7/8 in. in.',
+          },
+        ],
+        details: [
+          'Designed, produced & printed in the USA',
+          '100% US Lightweight cotton (4.3oz)',
+          'Raw hem, riibbed crew-neck & short sleeves',
+          'S-XL ',
+        ],
       },
       {
         type: 'Tank',
+        product: "Women's Tri-Blend Tank",
         logo: ['Arch', 'Block', 'Horizontal', 'Round'],
         color: ['Blue', 'Gray', 'Maroon'],
-        size: ['Small', 'Medium', 'Large', 'XL'],
+        tags: ['Tops'],
+        size: [
+          {
+            size: 'XS',
+            price: 25,
+            dimensions: 'Body Length: 25 1/8 in., Chest Width: 12 5/8 in.',
+          },
+          {
+            size: 'S',
+            price: 25,
+            dimensions: 'Body Length: 25 3/4 in., Chest Width: 13 5/8 in.',
+          },
+          {
+            size: 'M',
+            price: 25,
+            dimensions: 'Body Length: 26 3/8 in., Chest Width: 14 5/8 in.',
+          },
+          {
+            size: 'L',
+            price: 25,
+            dimensions: 'Body Length: 27 1/4 in., Chest Width: 16 1/8 in.',
+          },
+          {
+            size: 'XL',
+            price: 25,
+            dimensions: 'Body Length: 27 3/4 in., Chest Width: 17 in.',
+          },
+        ],
+        details: [
+          'Designed, produced & printed in the USA',
+          '50% polyester, 25% cotton, 25% rayon',
+          'Lightweight (3.7oz) racerback design',
+          'XS-XL',
+        ],
       },
       {
         type: 'Tee',
+        product: "Women's Comfort Tee",
         logo: ['Arch', 'Block', 'Horizontal', 'Round'],
         color: ['Navy', 'Red'],
-        size: ['Small', 'Medium', 'Large', 'XL'],
+        tags: ['Tops'],
+        size: [
+          {
+            size: 'S',
+            price: 28,
+            dimensions:
+              'Body Length: 25 7/8 in., Chest Width: 16 1/8 in., Sleeve Length: 6 3/8 in.',
+          },
+          {
+            size: 'M',
+            price: 28,
+            dimensions:
+              'Body Length: 26 1/2 in., Chest Width: 16 5/8 in., Sleeve Length: 6 5/8 in.',
+          },
+          {
+            size: 'L',
+            price: 28,
+            dimensions:
+              'Body Length: 27 1/8 in., Chest Width: 17 1/8 in., Sleeve Length: 6 7/8 in.',
+          },
+          {
+            size: 'XL',
+            price: 28,
+            dimensions:
+              'Body Length: 27 3/4 in., Chest Width: 17 5/8 in., Sleeve Length: 7 1/8 in.',
+          },
+          {
+            size: 'XXL',
+            price: 30,
+            dimensions:
+              'Body Length: 28 1/4 in., Chest Width: 18 in., Sleeve Length: 7 3/8 in.	',
+          },
+        ],
+        details: [
+          'Designed, produced & printed in the USA',
+          '100% cotton grown on a US farm',
+          'Lightweight (4.3oz.) & durable',
+          'S-XXL',
+        ],
       },
     ],
   },
@@ -50,9 +278,95 @@ export const store = [
     products: [
       {
         type: 'Hoodie',
+        product: 'Heavy Fleece Hoodie',
         logo: ['Arch', 'Block', 'Horizontal', 'Round'],
         color: ['Black', 'Dolphin Blue', 'Gray', 'Green', 'Navy', 'Off Black'],
-        size: ['Small', 'Medium', 'Large', 'XL'],
+        tags: ['Tops'],
+        size: [
+          {
+            size: 'S',
+            price: 76,
+            dimensions:
+              'Body Length: 26 1/2 in., Chest Width: 20 1/8 in., Sleeve Length: 23 1/2 in.',
+          },
+          {
+            size: 'M',
+            price: 76,
+            dimensions:
+              'Body Length: 27 3/4 in., Chest Width: 22 1/8 in., Sleeve Length: 23 7/8 in.',
+          },
+          {
+            size: 'L',
+            price: 76,
+            dimensions:
+              'Body Length: 28 7/8 in., Chest Width: 24 1/8 in., Sleeve Length: 24 3/8 in.',
+          },
+          {
+            size: 'XL',
+            price: 76,
+            dimensions:
+              'Body Length: 30 in., Chest Width: 26 1/8 in., Sleeve Length: 25 in.',
+          },
+          {
+            size: 'XXL',
+            price: 78,
+            dimensions:
+              'Body Length: 31 1/8 in, Chest Width: 28 1/8 in., Sleeve Length: 25 1/2 in.',
+          },
+        ],
+        details: [
+          'Designed, produced & printed in the USA',
+          '100% US-grown, pre-washed, no-shrink cotton',
+          'Heavyweight (14oz) over-sized fit',
+          'Unisex, check size chart',
+          'S-XXL',
+        ],
+      },
+      {
+        type: '5050Hoodie',
+        product: '50/50 Hoodie',
+        logo: ['Arch', 'Block', 'Horizontal', 'Round'],
+        color: ['Black'],
+        tags: ['Tops'],
+        size: [
+          {
+            size: 'S',
+            price: 76,
+            dimensions:
+              'Body Length: 26 in., Chest Width: 22 in., Across Shoulder: 21 1/2 in.,	Armhole Depth: 11 1/2 in., Sleeve Length: 23 3/8 in.',
+          },
+          {
+            size: 'M',
+            price: 76,
+            dimensions:
+              'Body Length: 27 in., Chest Width: 24 in., Across Shoulder: 23 in.,	Armhole Depth: 11 7/8 in., Sleeve Length: 23 7/8 in.',
+          },
+          {
+            size: 'L',
+            price: 76,
+            dimensions:
+              'Body Length: 28 in., Chest Width: 26 in., Across Shoulder: 24 1/2 in.,	Armhole Depth: 12 1/4 in., Sleeve Length: 24 3/8 in.',
+          },
+          {
+            size: 'XL',
+            price: 76,
+            dimensions:
+              'Body Length: 29 in., Chest Width: 28 in., Across Shoulder: 26 in.,	Armhole Depth: 12 5/8 in., Sleeve Length: 24 7/8 in.',
+          },
+          {
+            size: 'XXL',
+            price: 78,
+            dimensions:
+              'Body Length: 30 in., Chest Width: 30 in., Across Shoulder: 27 1/2 in.,	Armhole Depth: 13 in., Sleeve Length: 25 3/8 in.',
+          },
+        ],
+        details: [
+          'Designed, produced & printed in the USA',
+          'Perfect 50/50 blend of cotton & polyester',
+          'Super-soft, midweight (10oz) & durable',
+          'Unisex, check size chart',
+          'S-XXL',
+        ],
       },
     ],
   },
@@ -61,79 +375,36 @@ export const store = [
     products: [
       {
         type: 'Beanie',
+        product: 'LTF Knit Beanie',
         logo: ['Block'],
         color: ['Black', 'Gray', 'Navy'],
-        size: ['All'],
+        tags: ['Accessories'],
+        size: [
+          {
+            size: 'Fits All',
+            price: 20,
+          },
+        ],
+        details: ['Made in the USA', 'Snug, comfort fit'],
       },
       {
         type: 'Snapback',
+        product: 'LTF Trucker Snapback',
         logo: ['Block'],
         color: ['Black', 'Black White', 'Gray White', 'Navy White'],
-        size: ['Adjustable'],
+        size: [
+          {
+            size: 'Adjustable',
+            price: 30,
+          },
+        ],
+        details: [
+          'Stitched in the USA',
+          'Flex-fit lining with adjustable snapback',
+          'Poly-spandex blend with performance mesh',
+          'One size fits most',
+        ],
       },
     ],
   },
 ];
-export const newStore = (useCategory, useType, useLogo, useColor) => {
-  const buildStore = [];
-  store.forEach(({ category, products }) => {
-    if (checkIf(useCategory, category)) {
-      products.forEach(({ type, logo: logos, color: colors, size: sizes }) => {
-        if (checkIf(useType, type)) {
-          logos.forEach((logo) => {
-            if (checkIf(useLogo, logo)) {
-              colors.forEach((color) => {
-                if (checkIf(useColor, color)) {
-                  buildStore.push(
-                    modalProduct({
-                      category,
-                      type,
-                      logo,
-                      color,
-                      colors,
-                      sizes,
-                    })
-                  );
-                }
-              });
-            }
-          });
-        }
-      });
-    }
-  });
-  return buildStore;
-};
-const modalProduct = (values) => {
-  const { category, type, logo, color, colors, sizes } = values;
-  const name = `${type} ${logo} ${color}`;
-  const description = `Loyal To Few ${category.toLowerCase()} custom ${color.toLowerCase()} ${type.toLowerCase()} with ${logo.toLowerCase()} logo. Get yours now in ${sizes
-    ?.join(', ')
-    .toLowerCase()} sizes.`;
-  const imageSlug = `${category}${type}${logo}${color.replace(' ', '')}`;
-  const image = `/images/products/${category.toLowerCase()}/${type.toLowerCase()}/${imageSlug}.jpg`;
-  const id = imageSlug.toLowerCase();
-  const linkCategory = `/products/${category}`.toLowerCase();
-  const linkType = `/products/${category}/${type}`.toLowerCase();
-  const linkLogo = `/products/${category}/${type}/${logo}`.toLowerCase();
-  const linkColor =
-    `/products/${category}/${type}/${logo}/${color}`.toLowerCase();
-  return {
-    id,
-    name,
-    description,
-    image,
-    category,
-    type,
-    logo,
-    color,
-    linkCategory,
-    linkType,
-    linkLogo,
-    linkColor,
-    colors,
-    sizes,
-  };
-};
-const checkIf = (useCheck, check) =>
-  !useCheck || check.toLocaleLowerCase() === useCheck.toLocaleLowerCase();
