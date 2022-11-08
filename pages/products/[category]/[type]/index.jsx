@@ -3,9 +3,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const Products = ({ products }) => {
-  const { category, type, name, image, link, logos } = products;
+  if (!products?.logos?.length) return <p>Loading…</p>;
 
-  if (!logos?.length) return <p>Loading…</p>;
+  const { category, type, name, image, link, logos } = products;
 
   return (
     <>
