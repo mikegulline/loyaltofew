@@ -1,14 +1,15 @@
 export const store = [
   {
     category: 'Mens',
+    name: "Men's",
     products: [
       {
         type: 'Tee',
         product: "Men's Comfort Tee",
         logo: ['Arch', 'Block', 'Horizontal', 'Round'],
-        color: ['Black', 'Gray', 'Green', 'Maroon', 'Navy'],
+        colors: ['Black', 'Gray', 'Green', 'Maroon', 'Navy'],
         tags: ['Tops'],
-        size: [
+        sizes: [
           {
             size: 'S',
             price: 30,
@@ -50,9 +51,9 @@ export const store = [
         type: 'Tank',
         product: "Men's Classic Cotton Tank",
         logo: ['Arch', 'Block', 'Horizontal', 'Round'],
-        color: ['Black'],
+        colors: ['Black'],
         tags: ['Tops'],
-        size: [
+        sizes: [
           {
             size: 'XS',
             price: 28,
@@ -95,9 +96,9 @@ export const store = [
         type: 'Sleeves',
         product: "Men's Cotton Long-Sleeve",
         logo: ['Arch', 'Block', 'Horizontal', 'Round'],
-        color: ['Black', 'Gray', 'Navy'],
+        colors: ['Black', 'Gray', 'Navy'],
         tags: ['Tops'],
-        size: [
+        sizes: [
           {
             size: 'S',
             price: 35,
@@ -140,14 +141,15 @@ export const store = [
   },
   {
     category: 'Womens',
+    name: "Women's",
     products: [
       {
         type: 'Crop',
         product: "Women's Cotton Crop",
         logo: ['Arch', 'Block', 'Horizontal', 'Round'],
-        color: ['Black', 'Gray', 'Navy', 'Red'],
+        colors: ['Black', 'Gray', 'Navy', 'Red'],
         tags: ['Tops'],
-        size: [
+        sizes: [
           {
             size: 'S',
             price: 25,
@@ -190,9 +192,9 @@ export const store = [
         type: 'Tank',
         product: "Women's Tri-Blend Tank",
         logo: ['Arch', 'Block', 'Horizontal', 'Round'],
-        color: ['Blue', 'Gray', 'Maroon'],
+        colors: ['Blue', 'Gray', 'Maroon'],
         tags: ['Tops'],
-        size: [
+        sizes: [
           {
             size: 'XS',
             price: 25,
@@ -230,9 +232,9 @@ export const store = [
         type: 'Tee',
         product: "Women's Comfort Tee",
         logo: ['Arch', 'Block', 'Horizontal', 'Round'],
-        color: ['Navy', 'Red'],
+        colors: ['Navy', 'Red'],
         tags: ['Tops'],
-        size: [
+        sizes: [
           {
             size: 'S',
             price: 28,
@@ -275,14 +277,15 @@ export const store = [
   },
   {
     category: 'Outerwear',
+    name: 'Outerwear',
     products: [
       {
         type: 'Hoodie',
         product: 'Heavy Fleece Hoodie',
         logo: ['Arch', 'Block', 'Horizontal', 'Round'],
-        color: ['Black', 'Dolphin Blue', 'Gray', 'Green', 'Navy', 'Off Black'],
+        colors: ['Dolphin Blue', 'Gray', 'Green', 'Navy', 'Off Black'],
         tags: ['Tops'],
-        size: [
+        sizes: [
           {
             size: 'S',
             price: 76,
@@ -326,9 +329,9 @@ export const store = [
         type: '5050Hoodie',
         product: '50/50 Hoodie',
         logo: ['Arch', 'Block', 'Horizontal', 'Round'],
-        color: ['Black'],
+        colors: ['Black'],
         tags: ['Tops'],
-        size: [
+        sizes: [
           {
             size: 'S',
             price: 76,
@@ -372,14 +375,15 @@ export const store = [
   },
   {
     category: 'Hats',
+    name: 'Hats',
     products: [
       {
         type: 'Beanie',
         product: 'LTF Knit Beanie',
         logo: ['Block'],
-        color: ['Black', 'Gray', 'Navy'],
+        colors: ['Black', 'Gray', 'Navy'],
         tags: ['Accessories'],
-        size: [
+        sizes: [
           {
             size: 'Fits All',
             price: 20,
@@ -391,8 +395,8 @@ export const store = [
         type: 'Snapback',
         product: 'LTF Trucker Snapback',
         logo: ['Block'],
-        color: ['Black', 'Black White', 'Gray White', 'Navy White'],
-        size: [
+        colors: ['Black', 'Black White', 'Gray White', 'Navy White'],
+        sizes: [
           {
             size: 'Adjustable',
             price: 30,
