@@ -1,7 +1,7 @@
-import { newStore } from '../../../data/store';
+import { getStore } from '../../../data/storeModals';
 
 const handler = (req, res) => {
-  res.status(200).json(newStore());
+  res.status(200).json(getStore());
 };
 
 export default handler;

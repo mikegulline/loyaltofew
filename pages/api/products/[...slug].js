@@ -1,23 +1,34 @@
-import { newStore } from '../../../data/storeModals';
+import {
+  getCategory,
+  getType,
+  getLogo,
+  getColor,
+} from '../../../data/storeModals';
 
 const handler = (req, res) => {
   const slug = req.query.slug;
+  let send;
   switch (slug.length) {
     case 1:
-      res.status(200).json(newStore(slug[0]));
+      checkSend(res, getCategory(...slug));
       break;
     case 2:
-      res.status(200).json(newStore(slug[0], slug[1]));
+      checkSend(res, getType(...slug));
       break;
     case 3:
-      res.status(200).json(newStore(slug[0], slug[1], slug[2]));
+      checkSend(res, getLogo(...slug));
       break;
     case 4:
-      res.status(200).json(newStore(slug[0], slug[1], slug[2], slug[3]));
+      checkSend(res, getColor(...slug));
       break;
     default:
       console.log('Error 404');
   }
+};
+
+const checkSend = (res, send) => {
+  if (send) res.status(200).json(send);
+  else res.status(404).send([]);
 };
 
 export default handler;
