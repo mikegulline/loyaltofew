@@ -132,7 +132,7 @@ export const getColor = (useCategory, useType, useLogo, useColor) => {
 
   return {
     name,
-    link: `${link}/${useColor}`,
+    link,
     image,
     logo,
     color,

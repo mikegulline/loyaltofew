@@ -2,18 +2,24 @@ import { getStore, getType } from '../../../../data/storeModals';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const Products = ({ category, product }) => {
-  if (!product?.logos?.length) return <p>Loading…</p>;
+const Products = ({ products }) => {
+  const { category, type, name, image, link, logos } = products;
+
+  if (!logos?.length) return <p>Loading…</p>;
 
   return (
     <>
-      <h3>{category}</h3>
-      {product.logos.map(({ logo, product, link, image }) => (
+      <h3>
+        <Link href='/products'>Products</Link> /{' '}
+        <Link href={category.link}>{category.name}</Link> /{' '}
+        <Link href={link}>{type}</Link>
+      </h3>
+      {logos.map(({ logo, name, link, image }) => (
         <div key={logo}>
           <Link href={link}>
-            <p>{product}</p>
+            <p>{name}</p>
             <div>
-              <Image src={image} alt={product} width='100' height='100' />
+              <Image src={image} alt={name} width='100' height='100' />
             </div>
           </Link>
         </div>
@@ -24,14 +30,13 @@ const Products = ({ category, product }) => {
 
 export async function getStaticProps(context) {
   const { category, type } = context.params;
-  const product = getType(category, type);
+  const products = getType(category, type);
 
-  if (!product) return { notFound: true };
+  if (!products) return { notFound: true };
 
   return {
     props: {
-      category,
-      product,
+      products,
     },
   };
 }

@@ -1,4 +1,4 @@
-import { getStore, getLogo } from '../../../../../data/storeModals';
+import { getStore, getColor } from '../../../../../../data/storeModals';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -31,8 +31,8 @@ const Products = ({ productLogo }) => {
 };
 
 export async function getStaticProps(context) {
-  const { category, type, logo } = context.params;
-  const productLogo = getLogo(category, type, logo);
+  const { category, type, logo, color } = context.params;
+  const productLogo = getColor(category, type, logo, color);
 
   if (!productLogo) return { notFound: true };
 
@@ -46,15 +46,18 @@ export async function getStaticProps(context) {
 export async function getStaticPaths() {
   const paths = [];
   getStore().map(({ category, products }) =>
-    products.map(({ type, logos }) =>
+    products.map(({ type, logos, colors }) =>
       logos.map(({ logo }) =>
-        paths.push({
-          params: {
-            category: category.toLowerCase(),
-            type: type.toLowerCase(),
-            logo: logo.toLowerCase(),
-          },
-        })
+        colors.map((color) =>
+          paths.push({
+            params: {
+              category: category.toLowerCase(),
+              type: type.toLowerCase(),
+              logo: logo.toLowerCase(),
+              color: color.toLowerCase(),
+            },
+          })
+        )
       )
     )
   );

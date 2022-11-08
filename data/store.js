@@ -5,7 +5,7 @@ export const store = [
     products: [
       {
         type: 'Tee',
-        product: "Men's Comfort Tee",
+        product: 'Comfort Tee',
         logo: ['Arch', 'Block', 'Horizontal', 'Round'],
         colors: ['Black', 'Gray', 'Green', 'Maroon', 'Navy'],
         tags: ['Tops'],
@@ -49,7 +49,7 @@ export const store = [
       },
       {
         type: 'Tank',
-        product: "Men's Classic Cotton Tank",
+        product: 'Classic Cotton Tank',
         logo: ['Arch', 'Block', 'Horizontal', 'Round'],
         colors: ['Black'],
         tags: ['Tops'],
@@ -94,7 +94,7 @@ export const store = [
       },
       {
         type: 'Sleeves',
-        product: "Men's Cotton Long-Sleeve",
+        product: 'Cotton Long-Sleeve',
         logo: ['Arch', 'Block', 'Horizontal', 'Round'],
         colors: ['Black', 'Gray', 'Navy'],
         tags: ['Tops'],
@@ -145,7 +145,7 @@ export const store = [
     products: [
       {
         type: 'Crop',
-        product: "Women's Cotton Crop",
+        product: 'Cotton Crop',
         logo: ['Arch', 'Block', 'Horizontal', 'Round'],
         colors: ['Black', 'Gray', 'Navy', 'Red'],
         tags: ['Tops'],
@@ -190,7 +190,7 @@ export const store = [
       },
       {
         type: 'Tank',
-        product: "Women's Tri-Blend Tank",
+        product: 'Tri-Blend Tank',
         logo: ['Arch', 'Block', 'Horizontal', 'Round'],
         colors: ['Blue', 'Gray', 'Maroon'],
         tags: ['Tops'],
@@ -230,7 +230,7 @@ export const store = [
       },
       {
         type: 'Tee',
-        product: "Women's Comfort Tee",
+        product: 'Comfort Tee',
         logo: ['Arch', 'Block', 'Horizontal', 'Round'],
         colors: ['Navy', 'Red'],
         tags: ['Tops'],
