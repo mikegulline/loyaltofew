@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { getStore, getCategory } from '../../../data/storeModals';
-import Breadcrumbs from '../../../components/breadcrumbs';
+import Breadcrumbs from '../../../components/Breadcrumbs';
 import Category from '../../../components/Category/Category';
 import getMeta from '../../../utils/getMeta';
 
