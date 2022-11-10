@@ -1,17 +1,24 @@
 import { store } from './store';
 
-export const getStore = () => processCategory();
+const storeRoot = 'Store';
+const storePath = 'store';
 
-export const processCategory = () =>
-  store.map((category) => modalCategory(category));
+export const getStore = () => ({
+  breadcrumbs: [[storeRoot, `/${storePath}`]],
+  categories: processCategory(),
+});
+// export const getStore = () => processCategory();
+
+const processCategory = () => store.map((category) => modalCategory(category));
 
 const modalCategory = (values) => {
-  const { category, products, name } = values;
-  const link = `/products/${category}`.toLowerCase();
+  const { category, products, name, meta } = values;
+  const link = `/${storePath}/${category}`.toLowerCase();
   return {
     category,
     name,
     link,
+    meta,
     products: processProducts(category, products),
   };
 };
@@ -20,9 +27,11 @@ const processProducts = (category, products) =>
   products.map((product) => modalProduct({ ...product, category }));
 
 const modalProduct = (values) => {
-  const { category, type, logo, colors, sizes, product, details } = values;
-  const link = `/products/${category}/${type}`.toLowerCase();
-  const imageSlug = `${category}${type}${rand(logo)}${rand(colors)}`.replace(
+  const { category, type, logo, colors, sizes, product, details, meta, tags } =
+    values;
+  const link = `/${storePath}/${category}/${type}`.toLowerCase();
+  //rand(colors)
+  const imageSlug = `${category}${type}${rand(logo)}${colors[0]}`.replace(
     ' ',
     ''
   );
@@ -32,6 +41,8 @@ const modalProduct = (values) => {
     name: product,
     link,
     image,
+    meta,
+    tags,
     logos: processLogos(logo, category, type, colors, product),
     sizes,
     colors,
@@ -46,8 +57,8 @@ const processLogos = (logos, category, type, colors, product) =>
 
 const modalLogo = (values) => {
   const { logo, category, type, colors, product } = values;
-  const link = `/products/${category}/${type}/${logo}`.toLowerCase();
-  const imageSlug = `${category}${type}${logo}${rand(colors)}`.replace(' ', '');
+  const link = `/${storePath}/${category}/${type}/${logo}`.toLowerCase();
+  const imageSlug = `${category}${type}${logo}${colors[0]}`.replace(' ', '');
   const image = `/images/products/${category.toLowerCase()}/${type.toLowerCase()}/${imageSlug}.jpg`;
   const name = `${product} with ${logo} Design`;
   return {
@@ -55,41 +66,35 @@ const modalLogo = (values) => {
     link,
     image,
     logo,
-    // sizes,
-    // colors: processColors(values),
   };
 };
 
-const processColors = (values) => {
-  const { colors } = values;
-  return colors.map((color) => modalColor({ ...values, color }));
-};
-const modalColor = (values) => {
-  const { logo, category, type, color } = values;
-  const link = `/products/${category}/${type}/${logo}/${color}`.toLowerCase();
-  const imageSlug = `${category}${type}${logo}${color}`.replace(' ', '');
-  const image = `/images/products/${category.toLowerCase()}/${type.toLowerCase()}/${imageSlug}.jpg`;
-  const sku = imageSlug.toLowerCase();
-  return { color, sku, link, image };
-};
-
 ////////////////////////////////////
 ////////////////////////////////////
 ////////////////////////////////////
 ////////////////////////////////////
 
-export const getCategory = (useCategory) =>
-  getStore().find(
+export const getCategory = (useCategory) => {
+  const { breadcrumbs, categories } = getStore();
+  const category = categories.find(
     ({ category }) => category.toLowerCase() === useCategory.toLowerCase()
   );
+  breadcrumbs.push([category.name, category.link]);
+  return {
+    breadcrumbs,
+    ...category,
+  };
+};
 export const getType = (useCategory, useType) => {
   const passCategory = getCategory(useCategory);
-  const { category, name, link } = passCategory;
-  const products = passCategory['products'].find(
+  const { category, name, link, breadcrumbs } = passCategory;
+  const product = passCategory['products'].find(
     ({ type }) => type.toLowerCase() === useType.toLowerCase()
   );
+  breadcrumbs.push([product.name, product.link]);
   return {
-    ...products,
+    breadcrumbs,
+    ...product,
     category: {
       category,
       name,
@@ -100,12 +105,27 @@ export const getType = (useCategory, useType) => {
 
 export const getLogo = (useCategory, useType, useLogo) => {
   const theType = getType(useCategory, useType);
-  const { type, link, sizes, colors, details, category, name } = theType;
+  const {
+    type,
+    link,
+    sizes,
+    colors,
+    details,
+    category,
+    name,
+    breadcrumbs,
+    meta,
+    tags,
+  } = theType;
   const passLogo = theType['logos'].find(
     ({ logo }) => logo.toLowerCase() === useLogo.toLowerCase()
   );
+  breadcrumbs.push([passLogo.logo, passLogo.link]);
   return {
+    breadcrumbs,
     ...passLogo,
+    tags,
+    meta,
     sizes,
     colors,
     details,
@@ -123,19 +143,34 @@ export const getColor = (useCategory, useType, useLogo, useColor) => {
   const color = product.colors.find(
     (color) => color.toLowerCase() === useColor.toLowerCase()
   );
-  const { logo, name, link, sizes, colors, details, category, type } = product;
+  const {
+    logo,
+    name,
+    link,
+    sizes,
+    colors,
+    details,
+    category,
+    type,
+    breadcrumbs,
+    meta,
+    tags,
+  } = product;
   const imageSlug = `${category.category}${type.type}${logo}${color}`.replace(
     ' ',
     ''
   );
   const image = `/images/products/${category.category.toLowerCase()}/${type.type.toLowerCase()}/${imageSlug}.jpg`;
-
+  breadcrumbs.push([color, `${link}/${useColor}`]);
   return {
+    breadcrumbs,
     name,
     link,
     image,
     logo,
     color,
+    tags,
+    meta,
     sizes,
     colors,
     details,
@@ -143,109 +178,5 @@ export const getColor = (useCategory, useType, useLogo, useColor) => {
     type,
   };
 };
-
-// export const getColor = (useCategory, useType, useLogo, useColor) =>
-//   getLogo(useCategory, useType, useLogo)['colors'].find(
-//     ({ color }) => color.toLowerCase() === useColor.toLowerCase()
-//   );
-
-////////////////////////////////////
-////////////////////////////////////
-////////////////////////////////////
-////////////////////////////////////
-
-// export const getCategoryItems = (useCategory) => {
-//   const buildStore = [];
-//   const { products, category } = store.find(
-//     ({ category }) => category.toLowerCase() === useCategory.toLowerCase()
-//   );
-
-//   products.forEach(({ type, logo: logos, color: colors, size: sizes }) => {
-//     const link = `/products/${category}/${type}`.toLowerCase();
-//     const imageSlug = `${category}${type}${rand(logos)}${rand(colors)}`.replace(
-//       ' ',
-//       ''
-//     );
-//     const image = `/images/products/${category.toLowerCase()}/${type.toLowerCase()}/${imageSlug}.jpg`;
-//     buildStore.push({ category, type, link, image, colors });
-//   });
-
-//   return buildStore;
-// };
-
-// export const newStore = (useCategory, useType, useLogo, useColor) => {
-//   const buildStore = [];
-//   store.forEach(({ category, products }) => {
-//     if (checkIf(useCategory, category)) {
-//       products.forEach(({ type, logo: logos, color: colors, size: sizes }) => {
-//         if (checkIf(useType, type)) {
-//           logos.forEach((logo) => {
-//             if (checkIf(useLogo, logo)) {
-//               if (useLogo) {
-//                 colors.forEach((color) => {
-//                   if (checkIf(useColor, color)) {
-//                     buildStore.push(
-//                       modalProduct({
-//                         category,
-//                         type,
-//                         logo,
-//                         color,
-//                         colors,
-//                         sizes,
-//                       })
-//                     );
-//                   }
-//                 });
-//               } else {
-//                 buildStore.push({
-//                   category,
-//                   type,
-//                   logo,
-//                   colors,
-//                 });
-//               }
-//             }
-//           });
-//         }
-//       });
-//     }
-//   });
-//   return buildStore;
-// };
-
-// const modalProduct = (values) => {
-//   const { category, type, logo, color, colors, sizes } = values;
-//   const name = `${type} ${logo} ${color}`;
-//   const description = `Loyal To Few ${category.toLowerCase()} custom ${color.toLowerCase()} ${type.toLowerCase()} with ${logo.toLowerCase()} logo. Get yours now in ${sizes
-//     ?.join(', ')
-//     .toLowerCase()} sizes.`;
-//   const imageSlug = `${category}${type}${logo}${color.replace(' ', '')}`;
-//   const image = `/images/products/${category.toLowerCase()}/${type.toLowerCase()}/${imageSlug}.jpg`;
-//   const id = imageSlug.toLowerCase();
-//   const linkCategory = `/products/${category}`.toLowerCase();
-//   const linkType = `/products/${category}/${type}`.toLowerCase();
-//   const linkLogo = `/products/${category}/${type}/${logo}`.toLowerCase();
-//   const linkColor =
-//     `/products/${category}/${type}/${logo}/${color}`.toLowerCase();
-//   return {
-//     id,
-//     name,
-//     description,
-//     image,
-//     category,
-//     type,
-//     logo,
-//     color,
-//     linkCategory,
-//     linkType,
-//     linkLogo,
-//     linkColor,
-//     colors,
-//     sizes,
-//   };
-// };
-// const checkIf = (useCheck, check) =>
-//   !useCheck ||
-//   (check && check.toLocaleLowerCase() === useCheck.toLocaleLowerCase());
 
 const rand = (arr) => arr[Math.floor(Math.random() * arr.length)];

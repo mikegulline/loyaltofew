@@ -2,6 +2,10 @@ export const store = [
   {
     category: 'Mens',
     name: "Men's",
+    meta: {
+      title: "Loyal To Few (LTF) Men's Clothing",
+      description: '',
+    },
     products: [
       {
         type: 'Tee',
@@ -9,6 +13,10 @@ export const store = [
         logo: ['Arch', 'Block', 'Horizontal', 'Round'],
         colors: ['Black', 'Gray', 'Green', 'Maroon', 'Navy'],
         tags: ['Tops'],
+        meta: {
+          title: '',
+          description: '',
+        },
         sizes: [
           {
             size: 'S',
@@ -37,7 +45,8 @@ export const store = [
           {
             size: 'XXL',
             price: 32,
-            dimensions: 'Body Length: 32 1/2 in. 26 in. 9 in.',
+            dimensions:
+              'Body Length: 32 1/2 in., Chest Width:  26 in., Sleeve Length: 9 in.',
           },
         ],
         details: [
@@ -53,6 +62,10 @@ export const store = [
         logo: ['Arch', 'Block', 'Horizontal', 'Round'],
         colors: ['Black'],
         tags: ['Tops'],
+        meta: {
+          title: '',
+          description: '',
+        },
         sizes: [
           {
             size: 'XS',
@@ -98,6 +111,10 @@ export const store = [
         logo: ['Arch', 'Block', 'Horizontal', 'Round'],
         colors: ['Black', 'Gray', 'Navy'],
         tags: ['Tops'],
+        meta: {
+          title: '',
+          description: '',
+        },
         sizes: [
           {
             size: 'S',
@@ -142,6 +159,10 @@ export const store = [
   {
     category: 'Womens',
     name: "Women's",
+    meta: {
+      title: "Loyal To Few (LTF) Women's Clothing",
+      description: '',
+    },
     products: [
       {
         type: 'Crop',
@@ -149,6 +170,10 @@ export const store = [
         logo: ['Arch', 'Block', 'Horizontal', 'Round'],
         colors: ['Black', 'Gray', 'Navy', 'Red'],
         tags: ['Tops'],
+        meta: {
+          title: '',
+          description: '',
+        },
         sizes: [
           {
             size: 'S',
@@ -194,6 +219,10 @@ export const store = [
         logo: ['Arch', 'Block', 'Horizontal', 'Round'],
         colors: ['Blue', 'Gray', 'Maroon'],
         tags: ['Tops'],
+        meta: {
+          title: '',
+          description: '',
+        },
         sizes: [
           {
             size: 'XS',
@@ -234,6 +263,10 @@ export const store = [
         logo: ['Arch', 'Block', 'Horizontal', 'Round'],
         colors: ['Navy', 'Red'],
         tags: ['Tops'],
+        meta: {
+          title: '',
+          description: '',
+        },
         sizes: [
           {
             size: 'S',
@@ -278,13 +311,21 @@ export const store = [
   {
     category: 'Outerwear',
     name: 'Outerwear',
+    meta: {
+      title: 'Loyal To Few (LTF) Outerwear',
+      description: '',
+    },
     products: [
       {
         type: 'Hoodie',
         product: 'Heavy Fleece Hoodie',
         logo: ['Arch', 'Block', 'Horizontal', 'Round'],
-        colors: ['Dolphin Blue', 'Gray', 'Green', 'Navy', 'Off Black'],
+        colors: ['Dolphin-Blue', 'Gray', 'Green', 'Navy', 'Off-Black'],
         tags: ['Tops'],
+        meta: {
+          title: 'Loyal To Few (LTF) Heavy Fleece Hoodie',
+          description: '',
+        },
         sizes: [
           {
             size: 'S',
@@ -331,6 +372,10 @@ export const store = [
         logo: ['Arch', 'Block', 'Horizontal', 'Round'],
         colors: ['Black'],
         tags: ['Tops'],
+        meta: {
+          title: 'Loyal To Few (LTF) 50/50 Hoodie',
+          description: '',
+        },
         sizes: [
           {
             size: 'S',
@@ -376,13 +421,21 @@ export const store = [
   {
     category: 'Hats',
     name: 'Hats',
+    meta: {
+      title: 'Loyal To Few (LTF) Beanies and Trucker Hats',
+      description: '',
+    },
     products: [
       {
         type: 'Beanie',
-        product: 'LTF Knit Beanie',
+        product: 'Knit Beanie',
         logo: ['Block'],
         colors: ['Black', 'Gray', 'Navy'],
         tags: ['Accessories'],
+        meta: {
+          title: 'Loyal To Few (LTF) Knit Beanie',
+          description: '',
+        },
         sizes: [
           {
             size: 'Fits All',
@@ -393,9 +446,14 @@ export const store = [
       },
       {
         type: 'Snapback',
-        product: 'LTF Trucker Snapback',
+        product: 'Trucker Snapback',
         logo: ['Block'],
-        colors: ['Black', 'Black White', 'Gray White', 'Navy White'],
+        colors: ['Black', 'Black-White', 'Gray-White', 'Navy-White'],
+        tags: ['Accessories'],
+        meta: {
+          title: 'Loyal To Few (LTF) Trucker Snapback Hat',
+          description: '',
+        },
         sizes: [
           {
             size: 'Adjustable',
