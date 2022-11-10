@@ -45,7 +45,6 @@ const getParams = (params) => {
   let product;
   if (!color) {
     product = getLogo(category, type, logo);
-    console.log(product);
     if (product) product = getColor(category, type, logo, product.colors[0]);
   } else product = getColor(category, type, logo, color);
 
