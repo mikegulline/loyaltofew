@@ -10,7 +10,7 @@ const ProductPage = ({ product }) => {
     <div className={styles.product}>
       <div>
         <div>
-          <Image src={image} alt={name} width='250' height='250' />
+          <Image src={image} alt={name} width='450' height='450' />
         </div>
         <h3>{name}</h3>
         <ColorLinks colors={colors} link={link} />
@@ -22,6 +22,7 @@ const ProductPage = ({ product }) => {
 };
 
 const Dimensions = ({ dimensions }) => {
+  if (!dimensions) return <></>;
   return (
     <ul>
       {dimensions.split(', ').map((info) => (

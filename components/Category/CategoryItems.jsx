@@ -2,13 +2,17 @@
 import Link from 'next/link';
 import CategoryItemsItem from './CategoryItemsItem';
 import styles from './CategoryItems.module.css';
+import { isPlural } from '../../utils/plural';
 
 const CategoryItems = ({ product }) => {
   const { name, link, logos } = product;
+  const titleLink = isPlural(logos)
+    ? link
+    : `${link}/${logos[0].logo.toLowerCase()}`;
   return (
     <div className={styles.category}>
       <h3 className={styles.header}>
-        <Link href={link} width={100}>
+        <Link href={titleLink} width={100}>
           {name}
         </Link>
       </h3>

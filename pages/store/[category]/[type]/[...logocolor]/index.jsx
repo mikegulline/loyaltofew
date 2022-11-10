@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { getStore, getLogo } from '../../../../../data/storeModals';
+import { getStore, getLogo, getColor } from '../../../../../data/storeModals';
 import Breadcrumbs from '../../../../../components/breadcrumbs';
 import ProductPage from '../../../../../components/ProductPage/ProductPage';
 import getMeta from '../../../../../utils/getMeta';
@@ -7,9 +7,9 @@ import getMeta from '../../../../../utils/getMeta';
 const Product = ({ product }) => {
   if (!product) return <p>Loading…</p>;
 
-  const { name, link, breadcrumbs } = product;
+  const { name, breadcrumbs, color, link } = product;
 
-  const meta = getMeta(product.meta, `Loyal To Few (LTF) ${name}`);
+  const meta = getMeta(product.meta, `Loyal To Few (LTF) ${name} (${color})`);
 
   return (
     <div key={link}>
@@ -24,8 +24,7 @@ const Product = ({ product }) => {
 };
 
 export async function getStaticProps(context) {
-  const { category, type, logo } = context.params;
-  const product = getLogo(category, type, logo);
+  const product = getParams(context.params);
 
   if (!product) return { notFound: true };
 
@@ -36,19 +35,38 @@ export async function getStaticProps(context) {
   };
 }
 
+const getParams = (params) => {
+  const {
+    category,
+    type,
+    logocolor: [logo, color],
+  } = params;
+
+  let product;
+  if (!color) {
+    product = getLogo(category, type, logo);
+    console.log(product);
+    if (product) product = getColor(category, type, logo, product.colors[0]);
+  } else product = getColor(category, type, logo, color);
+
+  return product;
+};
+
 export async function getStaticPaths() {
   const paths = [];
   const { categories } = getStore();
   categories.map(({ category, products }) =>
-    products.map(({ type, logos }) =>
+    products.map(({ type, logos, colors }) =>
       logos.map(({ logo }) =>
-        paths.push({
-          params: {
-            category: category.toLowerCase(),
-            type: type.toLowerCase(),
-            logo: logo.toLowerCase(),
-          },
-        })
+        colors.map((color) =>
+          paths.push({
+            params: {
+              category: category.toLowerCase(),
+              type: type.toLowerCase(),
+              logocolor: [logo.toLowerCase(), color.toLowerCase()],
+            },
+          })
+        )
       )
     )
   );

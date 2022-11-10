@@ -120,9 +120,12 @@ export const getLogo = (useCategory, useType, useLogo) => {
   const passLogo = theType['logos'].find(
     ({ logo }) => logo.toLowerCase() === useLogo.toLowerCase()
   );
-  breadcrumbs.push([passLogo.logo, passLogo.link]);
+  const bcText = `${passLogo.logo} (${colors[0]})`;
+  const bcLink = `${passLogo.link}/${colors[0].toLowerCase()}`;
+  breadcrumbs.push([bcText, bcLink]);
   return {
     breadcrumbs,
+    breadcrumbRoot: [passLogo.logo, passLogo.link],
     ...passLogo,
     tags,
     meta,
@@ -153,6 +156,7 @@ export const getColor = (useCategory, useType, useLogo, useColor) => {
     category,
     type,
     breadcrumbs,
+    breadcrumbRoot,
     meta,
     tags,
   } = product;
@@ -161,7 +165,11 @@ export const getColor = (useCategory, useType, useLogo, useColor) => {
     ''
   );
   const image = `/images/products/${category.category.toLowerCase()}/${type.type.toLowerCase()}/${imageSlug}.jpg`;
-  breadcrumbs.push([color, `${link}/${useColor}`]);
+  breadcrumbs.pop();
+  const bcText = `${logo} (${color})`;
+  const bcLink = `${link}/${color.toLowerCase()}`;
+  breadcrumbs.push([bcText, bcLink]);
+
   return {
     breadcrumbs,
     name,
