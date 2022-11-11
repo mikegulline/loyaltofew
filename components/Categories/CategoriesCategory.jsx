@@ -6,11 +6,11 @@ const CategoriesCategory = ({ category }) => {
   const { name, link, products } = category;
   return (
     <div className={styles.category}>
-      <h3 className={styles.header}>
+      <h2 className={styles.header}>
         <Link href={link} width={100}>
           {name}
         </Link>
-      </h3>
+      </h2>
       <div className={styles.products}>
         {products.map((product) => (
           <CategoriesCategoryItem key={product.name} product={product} />

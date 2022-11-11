@@ -5,14 +5,16 @@ import ColorLinks from '../ColorLinks';
 
 const ProductPage = ({ product }) => {
   const [sizeAndPriceIndex, setSizeAndPriceIndex] = useState(0);
-  const { name, image, link, colors, sizes, details } = product;
+  const { name, image, link, colors, sizes, details, color } = product;
   return (
     <div className={styles.product}>
       <div className={styles.imageBlock}>
         <Image src={image} alt={name} width='650' height='650' />
       </div>
       <div className={styles.infosBlock}>
-        <h3>LTF: {name}</h3>
+        <h1>
+          LTF: {name} ({color})
+        </h1>
         <ColorLinks colors={colors} link={link} align='left' />
         <Sizes sizes={sizes} onChange={setSizeAndPriceIndex} />
         <Dimensions dimensions={sizes[sizeAndPriceIndex].dimensions} />

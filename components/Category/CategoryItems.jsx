@@ -11,11 +11,11 @@ const CategoryItems = ({ product }) => {
     : `${link}/${logos[0].logo.toLowerCase()}`;
   return (
     <div className={styles.category}>
-      <h3 className={styles.header}>
+      <h2 className={styles.header}>
         <Link href={titleLink} width={100}>
           {name}
         </Link>
-      </h3>
+      </h2>
       <div className={styles.products}>
         {logos.map((logo) => (
           <CategoryItemsItem key={logo.name} logo={logo} product={product} />

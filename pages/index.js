@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import Script from 'next/script';
+
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -18,27 +18,18 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+      <main className={styles.main}>
         <h1 className={styles.title}>
           <Link href='/store'>Shop</Link>
         </h1>
         <br />
-        <br />
+        <p className={styles.menu}>
+          <Link href='/store/mens'>Mens</Link>,{' '}
+          <Link href='/store/womens'>Womens</Link>,{' '}
+          <Link href='/store/outerwear'>Outerwear</Link>,{' '}
+          <Link href='/store/hats'>Hats</Link>
+        </p>
       </main>
-
-      <Script src='https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.js' />
-      <div
-        hidden
-        id='snipcart'
-        data-api-key='N2UyNjBhNjEtOTJiOC00N2E4LWE3MmQtOTMwMDZkNzcwZDY2NjM4MDI5MTU0MjU4NjA0ODU2'
-      ></div>
     </div>
   );
 }
