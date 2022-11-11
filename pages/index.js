@@ -1,10 +1,11 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import Script from 'next/script';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Loyal To Few</title>
         <meta name='description' content='A Trademarked Way Of Life.' />
@@ -17,11 +18,21 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>Welcome to LTF!</h1>
+      <main>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <h1 className={styles.title}>
+          <Link href='/store'>Shop</Link>
+        </h1>
+        <br />
+        <br />
       </main>
 
-      <footer className={styles.footer}>LoyalToFew.com</footer>
       <Script src='https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.js' />
       <div
         hidden
