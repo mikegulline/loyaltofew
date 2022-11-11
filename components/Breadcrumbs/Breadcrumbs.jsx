@@ -1,9 +1,10 @@
 import Link from 'next/link';
 import { Fragment } from 'react';
+import styles from './Breadcrumbs.module.css';
 
 const Breadcrumbs = ({ links }) => {
   return (
-    <h5>
+    <h5 className={styles.breadcrumbs}>
       {links.map((link, i) => (
         <Fragment key={link[0]}>
           {i ? ' / ' : ''}

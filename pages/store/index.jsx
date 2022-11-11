@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { getStore } from '../../data/storeModals';
-import Breadcrumbs from '../../components/Breadcrumbs';
+import Breadcrumbs from '../../components/Breadcrumbs/Breadcrumbs';
 import Categories from '../../components/Categories/Categories';
 
 const CategoriesPage = ({ store }) => {

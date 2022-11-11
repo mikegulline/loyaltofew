@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { getStore, getLogo, getColor } from '../../../../../data/storeModals';
-import Breadcrumbs from '../../../../../components/Breadcrumbs';
+import Breadcrumbs from '../../../../../components/Breadcrumbs/Breadcrumbs';
 import ProductPage from '../../../../../components/ProductPage/ProductPage';
 import getMeta from '../../../../../utils/getMeta';
 

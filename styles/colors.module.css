@@ -5,6 +5,13 @@
   justify-content: center;
 }
 
+.colorSwatchesleft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+}
+
 .colorSwatch {
   width: 30px;
   height: 30px;
