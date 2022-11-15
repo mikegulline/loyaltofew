@@ -8,6 +8,7 @@
   width: 282px;
   height: auto;
   margin: auto;
+  fill: inherit;
 }
 .logo:hover {
   fill: #fff;
