@@ -81,6 +81,6 @@
   }
   .menu ul {
     column-gap: normal;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 }
