@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Container from '../Container/Container';
 import Menu from '../Menu/Menu';
 import styles from './Header.module.css';
-import LogoSVG from '../../public/logos/ltf-horizontal.svg';
+import LogoSVG from '../../public/logos/ltf-logo.svg';
 import { mainMenu } from '../../data/menu';
 
 const Header = () => {
