@@ -42,6 +42,7 @@
 .logo svg {
   display: block;
   width: 100%;
+  margin: auto;
 }
 
 .h1 {
