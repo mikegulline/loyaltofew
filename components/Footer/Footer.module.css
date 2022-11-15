@@ -1,5 +1,39 @@
 .footer {
-  margin-top: 100px;
-  border-top: 1px solid #f0f0f0;
+  padding: 15px 0 0 0;
+}
+.footer h4 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  border-bottom: 1px solid #555;
+}
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 50px;
+}
+
+.menu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.menu ul li a {
+  border-bottom: 1px solid #222;
+  display: block;
+  padding: 8px 20px;
+  font-size: 1.1rem;
+}
+.menu ul li a:hover {
+  background: #222;
+  color: #fff;
+}
+
+.copy {
+  margin: 0;
+  margin-top: 60px;
+  border-top: 1px solid #222;
+  border-bottom: 1px solid #000;
   padding: 20px 0;
 }

@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { getStore } from '../../data/storeModals';
 import Breadcrumbs from '../../components/Breadcrumbs/Breadcrumbs';
 import Categories from '../../components/Categories/Categories';
+import Container from '../../components/Container/Container';
 
 const CategoriesPage = ({ store }) => {
   if (!store) return <p>Loading…</p>;
@@ -20,8 +21,12 @@ const CategoriesPage = ({ store }) => {
         <title>{meta.title}</title>
         <meta name='description' content={meta.description} />
       </Head>
-      <Breadcrumbs links={breadcrumbs} />
-      <Categories categories={categories} />
+      <main>
+        <Breadcrumbs links={breadcrumbs} />
+        <Container>
+          <Categories categories={categories} />
+        </Container>
+      </main>
     </>
   );
 };

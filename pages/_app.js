@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
-import Container from '../components/Container/Container';
 // import Script from 'next/script';
 import '../styles/globals.css';
 
@@ -9,6 +8,12 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <Head>
+        {/* <link rel='preconnect' href='https://app.snipcart.com' />
+        <link rel='preconnect' href='https://cdn.snipcart.com' />
+        <link
+          rel='stylesheet'
+          href='https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.css'
+        /> */}
         <link
           rel='apple-touch-icon'
           sizes='180x180'
@@ -29,9 +34,9 @@ function MyApp({ Component, pageProps }) {
         <link rel='manifest' href='/images/favicon_io/site.webmanifest' />
       </Head>
       <Header />
-      <Container>
+      <div className='body'>
         <Component {...pageProps} />
-      </Container>
+      </div>
       <Footer />
       {/* <Script src='https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.js' />
       <div

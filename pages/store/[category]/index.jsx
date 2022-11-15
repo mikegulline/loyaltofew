@@ -3,6 +3,7 @@ import { getStore, getCategory } from '../../../data/storeModals';
 import Breadcrumbs from '../../../components/Breadcrumbs/Breadcrumbs';
 import Category from '../../../components/Category/Category';
 import getMeta from '../../../utils/getMeta';
+import Container from '../../../components/Container/Container';
 
 const CategoryPage = ({ category }) => {
   if (!category) return <p>Loading…</p>;
@@ -18,8 +19,12 @@ const CategoryPage = ({ category }) => {
         <title>{meta.title}</title>
         <meta name='description' content={meta.description} />
       </Head>
-      <Breadcrumbs links={category.breadcrumbs} />
-      <Category category={category} />
+      <main>
+        <Breadcrumbs links={category.breadcrumbs} />
+        <Container>
+          <Category category={category} />
+        </Container>
+      </main>
     </>
   );
 };

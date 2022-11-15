@@ -3,6 +3,7 @@ import { getStore, getType } from '../../../../data/storeModals';
 import Breadcrumbs from '../../../../components/Breadcrumbs/Breadcrumbs';
 import CategoryItems from '../../../../components/Category/CategoryItems';
 import getMeta from '../../../../utils/getMeta';
+import Container from '../../../../components/Container/Container';
 
 const Products = ({ product }) => {
   if (!product?.logos?.length) return <p>Loading…</p>;
@@ -17,8 +18,12 @@ const Products = ({ product }) => {
         <title>{meta.title}</title>
         <meta name='description' content={meta.description} />
       </Head>
-      <Breadcrumbs links={breadcrumbs} />
-      <CategoryItems key={product.name} product={product} />
+      <main>
+        <Breadcrumbs links={breadcrumbs} />
+        <Container>
+          <CategoryItems key={product.name} product={product} />
+        </Container>
+      </main>
     </>
   );
 };
