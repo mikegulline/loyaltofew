@@ -4,9 +4,9 @@
 .logo {
   max-width: 282px;
   height: auto;
-  display: block;
+  display: flex;
   width: 282px;
-  height: 80px;
+  height: auto;
   margin: auto;
 }
 .logo:hover {
@@ -41,6 +41,7 @@
 }
 .logo svg {
   display: block;
+  width: 100%;
 }
 
 .h1 {
@@ -72,5 +73,14 @@
   }
   .menuRight {
     display: none;
+  }
+  .logo {
+    max-width: 175px;
+    width: 175px;
+    margin-bottom: 15px;
+  }
+  .menu ul {
+    column-gap: normal;
+    justify-content: space-around;
   }
 }
