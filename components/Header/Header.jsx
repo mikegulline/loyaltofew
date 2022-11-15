@@ -30,13 +30,11 @@ const MenuRight = () => {
 const Logo = () => {
   return (
     <div>
-      <div className={styles.logo}>
-        <Link href='/'>
-          <LogoSVG />
-          <h1 className={styles.h1}>Loyal To Few</h1>
-          <p className={styles.tagline}>A trademarked way of life.</p>
-        </Link>
-      </div>
+      <Link href='/' className={styles.logo}>
+        <LogoSVG />
+        <h1 className={styles.h1}>Loyal To Few</h1>
+        <p className={styles.tagline}>A trademarked way of life.</p>
+      </Link>
     </div>
   );
 };
