@@ -1,14 +1,18 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 const Menu = ({
   menuData,
   className = 'mainMenu',
   withDropDowns = false,
   title = '',
+  activeClass,
 }) => {
+  const router = useRouter();
+
   const buildMenu = () => {
     return menuData.map(({ name, location, subMenu }) => (
-      <li key={name}>
+      <li key={name} className={router.pathname == location ? activeClass : ''}>
         <Link href={location}>{name}</Link>
         {subMenu && withDropDowns && (
           <Menu menuData={subMenu} className='subMenu' />

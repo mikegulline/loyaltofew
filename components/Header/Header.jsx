@@ -11,7 +11,11 @@ const Header = () => {
       <Container>
         <div className={styles.columns}>
           <Logo />
-          <Menu menuData={mainMenu} className={styles.menu} />
+          <Menu
+            menuData={mainMenu}
+            className={styles.menu}
+            activeClass={styles.active}
+          />
           <MenuRight />
         </div>
       </Container>

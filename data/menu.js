@@ -1,4 +1,5 @@
 export const categoryMenu = [
+  { name: 'Categories', location: '/store' },
   { name: "Men's", location: '/store/mens' },
   { name: "Woman's", location: '/store/womens' },
   { name: 'Outerwear', location: '/store/outerwear' },
@@ -23,4 +24,5 @@ export const mainMenu = [
   { name: 'Store', location: '/store', subMenu: categoryMenu },
   { name: 'About', location: '/about' },
   { name: 'Contact', location: '/contact' },
+  { name: 'Returns', location: '/returns' },
 ];
