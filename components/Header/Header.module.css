@@ -87,9 +87,9 @@
     display: none;
   }
   .logo {
-    max-width: 175px;
-    width: 175px;
-    margin-bottom: 15px;
+    max-width: 200px;
+    width: 200px;
+    margin-bottom: 8px;
   }
   .menu ul {
     column-gap: normal;
