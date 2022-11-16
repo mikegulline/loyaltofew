@@ -37,3 +37,13 @@
   border-bottom: 1px solid #000;
   padding: 20px 0;
 }
+
+@media (max-width: 1200px) {
+  .columns {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+  }
+  .copy {
+    font-size: 0.9rem;
+  }
+}
