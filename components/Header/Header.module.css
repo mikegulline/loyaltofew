@@ -26,6 +26,8 @@
 }
 .menu {
   flex-grow: 1;
+  font-size: 1.3rem;
+  font-weight: 200;
 }
 .menu ul {
   padding: 0;
@@ -38,10 +40,6 @@
 .menu ul li {
   padding: 0;
   margin: 0;
-}
-.menu ul li a {
-  font-size: 1.3rem;
-  font-weight: 200;
 }
 .menu ul li a:hover {
   color: #fff;
@@ -90,6 +88,9 @@
     max-width: 200px;
     width: 200px;
     margin-bottom: 8px;
+  }
+  .menu {
+    font-size: 1.1rem;
   }
   .menu ul {
     column-gap: normal;
