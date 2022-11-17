@@ -1,13 +1,10 @@
-import Head from 'next/head';
 import { getStore } from '../../data/storeModals';
-import Breadcrumbs from '../../components/Breadcrumbs/Breadcrumbs';
 import Categories from '../../components/Categories/Categories';
-import Container from '../../components/Container/Container';
+import StoreWrapper from '../../layout/StoreWrapper/StoreWrapper';
+import SEO from '../../components/SEO';
 
-const CategoriesPage = ({ store }) => {
-  if (!store) return <p>Loading…</p>;
-
-  const { categories, breadcrumbs } = store;
+const CategoriesPage = ({ categories, breadcrumbs }) => {
+  if (!categories) return <p>Loading…</p>;
 
   const meta = {
     title: 'Loyal To Few (LTF) Clothing Store',
@@ -17,16 +14,11 @@ const CategoriesPage = ({ store }) => {
 
   return (
     <>
-      <Head>
-        <title>{meta.title}</title>
-        <meta name='description' content={meta.description} />
-      </Head>
-      <main>
-        <Breadcrumbs links={breadcrumbs} />
-        <Container>
-          <Categories categories={categories} />
-        </Container>
-      </main>
+      <SEO {...meta} />
+
+      <StoreWrapper title='Store'>
+        <Categories categories={categories} />
+      </StoreWrapper>
     </>
   );
 };
@@ -38,7 +30,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      store,
+      ...store,
     },
   };
 }

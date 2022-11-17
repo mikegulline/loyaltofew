@@ -1,21 +1,17 @@
-import Head from 'next/head';
-import Container from '../components/Container/Container';
+import SEO from '../components/SEO';
+import InfoPage from '../layout/InfoPage/InfoPage';
 
 const Newsletter = () => {
   return (
     <>
-      <Head>
-        <title>Loyal To Few Newsletter</title>
-        <meta
-          name='description'
-          content='Learn more about Loyal To Few and start living "A Trademarked Way Of Life."'
-        />
-      </Head>
-      <main>
-        <Container>
-          <h1>Join The Few: Newsletter</h1>
-        </Container>
-      </main>
+      <SEO
+        title='Loyal To Few Newsletter'
+        description='Sign up for the Loyal To Few newsletter and start living "A Trademarked Way Of Life."'
+      />
+
+      <InfoPage>
+        <h1>Join The Few: Newsletter</h1>
+      </InfoPage>
     </>
   );
 };

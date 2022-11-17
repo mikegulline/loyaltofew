@@ -1,9 +1,8 @@
-import Head from 'next/head';
 import { getStore, getLogo, getColor } from '../../../../../data/storeModals';
-import Breadcrumbs from '../../../../../components/Breadcrumbs/Breadcrumbs';
-import ProductPage from '../../../../../components/ProductPage/ProductPage';
+import ProductPage from '../../../../../layout/ProductPage/ProductPage';
+import SEO from '../../../../../components/SEO';
 import getMeta from '../../../../../utils/getMeta';
-import Container from '../../../../../components/Container/Container';
+// import Category from '../../../../../components/Category/Category';
 
 const Product = ({ product }) => {
   if (!product) return <p>Loading…</p>;
@@ -13,18 +12,12 @@ const Product = ({ product }) => {
   const meta = getMeta(product.meta, `Loyal To Few (LTF) ${name} (${color})`);
 
   return (
-    <div key={link}>
-      <Head>
-        <title>{meta.title}</title>
-        <meta name='description' content={meta.description} />
-      </Head>
-      <main>
-        <Breadcrumbs links={breadcrumbs} />
-        <Container>
-          <ProductPage product={product} />
-        </Container>
-      </main>
-    </div>
+    <>
+      <SEO {...meta} />
+
+      <ProductPage product={product} />
+      {/* <Category category={product} /> */}
+    </>
   );
 };
 
@@ -48,8 +41,10 @@ const getParams = (params) => {
   } = params;
 
   let product;
+
   if (!color) {
     product = getLogo(category, type, logo);
+
     if (product) product = getColor(category, type, logo, product.colors[0]);
   } else product = getColor(category, type, logo, color);
 

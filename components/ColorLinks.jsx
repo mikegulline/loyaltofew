@@ -2,7 +2,6 @@ import Link from 'next/link';
 import colorStyles from '../styles/colors.module.css';
 
 const ColorLinks = ({ colors, link, align = '' }) => {
-  console.log(colorStyles[`colorSwatches${align}`]);
   return (
     <div className={colorStyles[`colorSwatches${align}`]}>
       {colors.map((color) => (

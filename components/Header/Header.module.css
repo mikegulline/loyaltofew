@@ -8,7 +8,7 @@
   width: 282px;
   height: auto;
   margin: auto;
-  fill: #e82929;
+  fill: #d61818;
 }
 .logo:hover {
   fill: #fff;
@@ -46,11 +46,11 @@
   text-decoration: underline;
 }
 .menu ul li.active a {
-  color: #ff3636;
+  color: #d61818;
   text-decoration: underline;
 }
 .menu ul li.active a:hover {
-  color: #ff3636;
+  color: #d61818;
   text-decoration: underline;
 }
 
@@ -66,15 +66,16 @@
 .menuRight a {
   font-size: 1.3rem;
   background: none;
-  border: 1px solid #aaa;
+  border: 1px solid #d61818;
   color: #aaa;
   font-weight: 200;
   padding: 10px 20px;
+  border-radius: 3px;
 }
 .menuRight a:hover {
-  border: 1px solid white;
-  color: #0a0a0a;
-  background-color: white;
+  border: 1px solid #d61818;
+  color: #fff;
+  background-color: #d61818;
 }
 
 @media (max-width: 1200px) {

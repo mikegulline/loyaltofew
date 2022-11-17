@@ -1,11 +1,12 @@
 import CategoriesCategory from './CategoriesCategory';
 
-const Categories = ({ categories }) => (
-  <div className='categories'>
-    {categories.map((category) => (
+const Categories = ({ categories }) => {
+  const buildCategories = () =>
+    categories.map((category) => (
       <CategoriesCategory key={category.name} category={category} />
-    ))}
-  </div>
-);
+    ));
+
+  return <div className='categories'>{buildCategories()}</div>;
+};
 
 export default Categories;

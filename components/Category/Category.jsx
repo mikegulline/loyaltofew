@@ -1,15 +1,11 @@
 import CategoryItems from './CategoryItems';
 
-const Category = ({ category }) => loopCategoryItems(category);
+const Category = ({ category }) => {
+  const buildCategoryItems = category.products.map((product) => (
+    <CategoryItems key={product.name} product={product} />
+  ));
 
-const loopCategoryItems = (category) => {
-  return (
-    <div className='category'>
-      {category.products.map((product) => (
-        <CategoryItems key={product.name} product={product} />
-      ))}
-    </div>
-  );
+  return <div className='category'>{buildCategoryItems}!</div>;
 };
 
 export default Category;

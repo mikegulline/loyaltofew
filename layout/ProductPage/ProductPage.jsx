@@ -1,27 +1,35 @@
 import { useState, Fragment } from 'react';
 import styles from './ProductPage.module.css';
 import Image from 'next/image';
-import ColorLinks from '../ColorLinks';
+import ColorLinks from '../../components/ColorLinks';
+import Container from '../../components/Container/Container';
+import Breadcrumbs from '../../components/Breadcrumbs/Breadcrumbs';
 
 const ProductPage = ({ product }) => {
   const [sizeAndPriceIndex, setSizeAndPriceIndex] = useState(0);
-  const { name, image, link, colors, sizes, details, color } = product;
+  const { name, image, link, colors, sizes, details, color, breadcrumbs } =
+    product;
   return (
-    <div className={styles.product}>
-      <div className={styles.imageBlock}>
-        <Image src={image} alt={name} width='650' height='650' />
+    <>
+      <Breadcrumbs links={breadcrumbs} />
+      <div className={styles.wrapper}>
+        <Container className={styles.product}>
+          <div className={styles.imageBlock}>
+            <Image src={image} alt={name} width='650' height='650' />
+          </div>
+          <div className={styles.infosBlock}>
+            <h1>
+              {name} ({color})
+            </h1>
+            <ColorLinks colors={colors} link={link} align='left' />
+            <Sizes sizes={sizes} onChange={setSizeAndPriceIndex} />
+            <Dimensions dimensions={sizes[sizeAndPriceIndex].dimensions} />
+            <Details details={details} />
+            <button disabled>Buy Now</button>
+          </div>
+        </Container>
       </div>
-      <div className={styles.infosBlock}>
-        <h1>
-          LTF: {name} ({color})
-        </h1>
-        <ColorLinks colors={colors} link={link} align='left' />
-        <Sizes sizes={sizes} onChange={setSizeAndPriceIndex} />
-        <Dimensions dimensions={sizes[sizeAndPriceIndex].dimensions} />
-        <Details details={details} />
-        <button disabled>Buy Now</button>
-      </div>
-    </div>
+    </>
   );
 };
 

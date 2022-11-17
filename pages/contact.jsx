@@ -1,21 +1,17 @@
-import Head from 'next/head';
-import Container from '../components/Container/Container';
+import SEO from '../components/SEO';
+import InfoPage from '../layout/InfoPage/InfoPage';
 
 const Contact = () => {
   return (
     <>
-      <Head>
-        <title>Contact Loyal To Few</title>
-        <meta
-          name='description'
-          content='Get in touch with Loyal To Few and start living "A Trademarked Way Of Life."'
-        />
-      </Head>
-      <main>
-        <Container>
-          <h1>Contact LTF</h1>
-        </Container>
-      </main>
+      <SEO
+        title='Contact Loyal To Few'
+        description='Get in touch with Loyal To Few and start living "A Trademarked Way Of Life."'
+      />
+
+      <InfoPage>
+        <h1>Contact LTF</h1>
+      </InfoPage>
     </>
   );
 };

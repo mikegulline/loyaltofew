@@ -3,13 +3,43 @@
 }
 
 .header {
-  display: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 7px 20px;
+  margin-bottom: 30px;
+  background: #d61818;
+  border-radius: 3px;
+}
+.header h2 {
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 1.3rem;
+}
+.header a {
+  font-weight: 300;
+  color: #000;
+  display: block;
+  padding: 4px 15px;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 2px;
+}
+.header a:hover {
+  background: #000;
+  color: #fff;
+  border: 1px solid #fff;
 }
 
 .products {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 30px;
+  margin-bottom: 60px;
 }
 
 @media (max-width: 700px) {

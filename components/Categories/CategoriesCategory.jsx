@@ -4,18 +4,19 @@ import styles from './CategoriesCategory.module.css';
 
 const CategoriesCategory = ({ category }) => {
   const { name, link, products } = category;
+
+  const buildCategoryItems = () =>
+    products.map((product) => (
+      <CategoriesCategoryItem key={product.name} product={product} />
+    ));
+
   return (
     <div className={styles.category}>
-      <h2 className={styles.header}>
-        <Link href={link} width={100}>
-          {name}
-        </Link>
-      </h2>
-      <div className={styles.products}>
-        {products.map((product) => (
-          <CategoriesCategoryItem key={product.name} product={product} />
-        ))}
+      <div className={styles.header}>
+        <h2>{name}</h2>
+        <Link href={link}>View All</Link>
       </div>
+      <div className={styles.products}>{buildCategoryItems()}</div>
     </div>
   );
 };

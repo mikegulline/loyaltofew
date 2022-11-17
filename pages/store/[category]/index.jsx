@@ -1,30 +1,20 @@
-import Head from 'next/head';
 import { getStore, getCategory } from '../../../data/storeModals';
-import Breadcrumbs from '../../../components/Breadcrumbs/Breadcrumbs';
 import Category from '../../../components/Category/Category';
-import getMeta from '../../../utils/getMeta';
-import Container from '../../../components/Container/Container';
+import StoreWrapper from '../../../layout/StoreWrapper/StoreWrapper';
+import SEO from '../../../components/SEO';
 
 const CategoryPage = ({ category }) => {
   if (!category) return <p>Loading…</p>;
 
-  const meta = getMeta(
-    category.meta,
-    `Loyal To Few (LTF) ${category.name} Products`
-  );
-
+  const meta = category.meta;
+  console.log(category);
   return (
     <>
-      <Head>
-        <title>{meta.title}</title>
-        <meta name='description' content={meta.description} />
-      </Head>
-      <main>
-        <Breadcrumbs links={category.breadcrumbs} />
-        <Container>
-          <Category category={category} />
-        </Container>
-      </main>
+      <SEO {...meta} />
+
+      <StoreWrapper breadcrumbs={category.breadcrumbs} title={category.name}>
+        <Category category={category} />
+      </StoreWrapper>
     </>
   );
 };

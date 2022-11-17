@@ -1,29 +1,25 @@
-import Head from 'next/head';
 import { getStore, getType } from '../../../../data/storeModals';
-import Breadcrumbs from '../../../../components/Breadcrumbs/Breadcrumbs';
 import CategoryItems from '../../../../components/Category/CategoryItems';
 import getMeta from '../../../../utils/getMeta';
-import Container from '../../../../components/Container/Container';
+import StoreWrapper from '../../../../layout/StoreWrapper/StoreWrapper';
+import SEO from '../../../../components/SEO';
 
-const Products = ({ product }) => {
+const Products = ({ product, breadcrumbs, name }) => {
   if (!product?.logos?.length) return <p>Loading…</p>;
-
-  const { breadcrumbs, name } = product;
 
   const meta = getMeta(product.meta, `Loyal To Few (LTF) ${name}`);
 
   return (
     <>
-      <Head>
-        <title>{meta.title}</title>
-        <meta name='description' content={meta.description} />
-      </Head>
-      <main>
-        <Breadcrumbs links={breadcrumbs} />
-        <Container>
-          <CategoryItems key={product.name} product={product} />
-        </Container>
-      </main>
+      <SEO {...meta} />
+
+      <StoreWrapper breadcrumbs={breadcrumbs} title={product.name}>
+        <CategoryItems
+          key={product.name}
+          product={product}
+          title='Logo Options'
+        />
+      </StoreWrapper>
     </>
   );
 };
@@ -35,9 +31,13 @@ export async function getStaticProps(context) {
 
   if (!product) return { notFound: true };
 
+  const { breadcrumbs, name } = product;
+
   return {
     props: {
       product,
+      breadcrumbs,
+      name,
     },
   };
 }
