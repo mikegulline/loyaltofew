@@ -6,7 +6,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   padding: 7px 20px;
   margin-bottom: 30px;
   background: #d61818;
@@ -44,8 +43,12 @@
 
 @media (max-width: 700px) {
   .products {
-    display: flex;
-    flex-direction: column;
-    row-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-bottom: 30px;
+  }
+  .header {
+    margin-bottom: 10px;
   }
 }

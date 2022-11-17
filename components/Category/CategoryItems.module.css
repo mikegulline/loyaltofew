@@ -46,6 +46,12 @@
 @media (max-width: 1200px) {
   .products {
     grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-bottom: 30px;
+  }
+  .header {
+    margin-bottom: 10px;
   }
 }
 
