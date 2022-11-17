@@ -5,7 +5,7 @@ const Category = ({ category }) => {
     <CategoryItems key={product.name} product={product} />
   ));
 
-  return <div className='category'>{buildCategoryItems}!</div>;
+  return <div className='category'>{buildCategoryItems}</div>;
 };
 
 export default Category;
