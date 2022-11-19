@@ -1,7 +1,7 @@
 export const categoryMenu = [
   { name: 'Categories', location: '/store' },
   { name: "Men's", location: '/store/mens' },
-  { name: "Woman's", location: '/store/womens' },
+  { name: "Women's", location: '/store/womens' },
   { name: 'Outerwear', location: '/store/outerwear' },
   {
     name: 'Hats',
