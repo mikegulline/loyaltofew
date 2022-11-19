@@ -51,4 +51,7 @@
   .header {
     margin-bottom: 10px;
   }
+  .header h2 {
+    font-size: 1rem;
+  }
 }

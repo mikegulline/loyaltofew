@@ -18,7 +18,7 @@ const CategoryItems = ({ product, title }) => {
   const addHeader = (
     <div className={styles.header}>
       <h2>{name}</h2>
-      <Link href={titleLink}>Logo Options</Link>
+      <Link href={titleLink}>Options</Link>
     </div>
   );
   const addLogoOptionsHead = (
