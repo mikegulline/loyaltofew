@@ -9,6 +9,8 @@ const ProductPage = ({ product }) => {
   const [sizeAndPriceIndex, setSizeAndPriceIndex] = useState(0);
   const { name, image, link, colors, sizes, details, color, breadcrumbs } =
     product;
+  const productId = `${name}:${color}:${sizes[sizeAndPriceIndex].size}`;
+  console.log(productId);
   return (
     <>
       <Breadcrumbs links={breadcrumbs} />
@@ -25,7 +27,17 @@ const ProductPage = ({ product }) => {
             <Sizes sizes={sizes} onChange={setSizeAndPriceIndex} />
             <Dimensions dimensions={sizes[sizeAndPriceIndex].dimensions} />
             <Details details={details} />
-            <button disabled>Buy Now</button>
+            <button
+              className='snipcart-add-item'
+              data-item-id={productId}
+              data-item-price={sizes[sizeAndPriceIndex].price}
+              data-item-description={`${name} (${color}) ${sizes[sizeAndPriceIndex].size}`}
+              data-item-image={image}
+              data-item-name={`${name} (${color}) ${sizes[sizeAndPriceIndex].size}`}
+              data-item-url={link}
+            >
+              Add to cart
+            </button>
           </div>
         </Container>
       </div>
