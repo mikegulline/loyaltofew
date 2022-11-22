@@ -4,10 +4,13 @@ import { plural, isPlural } from '../../utils/plural';
 import styles from './CategoriesCategoryItem.module.css';
 
 const CategoriesCategoryItem = ({ product }) => {
-  const { link: checkLink, image, name, logos, colors } = product;
-  let link;
-  if (!isPlural(logos)) link = `${checkLink}/${logos[0].logo.toLowerCase()}`;
-  else link = checkLink;
+  const { link, image, name, logos, colors } = product;
+  // let link;
+  // if (!isPlural(logos)) link = `${checkLink}/${logos[0].logo.toLowerCase()}`;
+  // else link = checkLink;
+
+  // link = `${checkLink}/${logos[0].logo.toLowerCase()}`;
+
   return (
     <div className={styles.item}>
       <Link href={link}>

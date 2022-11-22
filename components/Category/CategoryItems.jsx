@@ -7,9 +7,9 @@ import { isPlural } from '../../utils/plural';
 const CategoryItems = ({ product, title, color }) => {
   const { name, link, logos } = product;
 
-  const titleLink = isPlural(logos)
-    ? link
-    : `${link}/${logos[0].logo.toLowerCase()}`;
+  // const titleLink = isPlural(logos)
+  //   ? link
+  //   : `${link}/${logos[0].logo.toLowerCase()}`;
 
   const buildCategoryItems = logos.map((logo) => (
     <CategoryItemsItem
@@ -23,7 +23,7 @@ const CategoryItems = ({ product, title, color }) => {
   const addHeader = (
     <div className={styles.header}>
       <h2>{name}</h2>
-      <Link href={titleLink}>Options</Link>
+      {/* <Link href={titleLink}>Options</Link> */}
     </div>
   );
   const addLogoOptionsHead = (

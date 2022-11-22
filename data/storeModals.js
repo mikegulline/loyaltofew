@@ -39,8 +39,11 @@ const modalProduct = ({
   meta,
   tags,
 }) => {
-  const link = `/${storePath}/${category}/${type}`.toLowerCase();
-  const imageSlug = `${category}${type}${rand(logosArray)}${colors[0]}`.replace(
+  const randLogo = rand(logosArray);
+  const randColor = rand(colors);
+  const link =
+    `/${storePath}/${category}/${type}/${randLogo}/${randColor}`.toLowerCase();
+  const imageSlug = `${category}${type}${randLogo}${randColor}`.replace(
     ' ',
     ''
   );
