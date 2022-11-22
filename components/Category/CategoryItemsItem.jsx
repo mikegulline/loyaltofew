@@ -11,7 +11,7 @@ const CategoryItemsItem = ({ logo, product, color }) => {
   let imageLink, imageSrc;
   if (color) {
     imageLink = `${link}/${color.toLowerCase()}`;
-    imageSrc = `${imageColorRoot}${color.toLowerCase()}.jpg`;
+    imageSrc = `${imageColorRoot}${color}.jpg`;
   } else {
     imageLink = `${link}/${colors[0].toLowerCase()}`;
     imageSrc = image;
