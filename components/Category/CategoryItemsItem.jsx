@@ -3,18 +3,25 @@ import Image from 'next/image';
 import ColorLinks from '../ColorLinks';
 import styles from './CategoryItemsItem.module.css';
 
-const CategoryItemsItem = ({ logo, product }) => {
-  const { link, image, name } = logo;
+const CategoryItemsItem = ({ logo, product, color }) => {
+  const { link, image, imageColorRoot, name } = logo;
 
   const { colors } = product;
 
-  const imageLink = `${link}/${colors[0].toLowerCase()}`;
+  let imageLink, imageSrc;
+  if (color) {
+    imageLink = `${link}/${color.toLowerCase()}`;
+    imageSrc = `${imageColorRoot}${color.toLowerCase()}.jpg`;
+  } else {
+    imageLink = `${link}/${colors[0].toLowerCase()}`;
+    imageSrc = image;
+  }
 
   return (
     <div className={styles.item}>
       <Link href={imageLink}>
         <Image
-          src={image}
+          src={imageSrc}
           alt={name}
           className={styles.image}
           width={150}

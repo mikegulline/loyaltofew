@@ -4,13 +4,14 @@ import Image from 'next/image';
 import ColorLinks from '../../components/ColorLinks';
 import Container from '../../components/Container/Container';
 import Breadcrumbs from '../../components/Breadcrumbs/Breadcrumbs';
+import CategoryItems from '../../components/Category/CategoryItems';
 
-const ProductPage = ({ product }) => {
+const ProductPage = ({ product, logoOptions }) => {
   const [sizeAndPriceIndex, setSizeAndPriceIndex] = useState(0);
-  const { name, image, link, colors, sizes, details, color, breadcrumbs } =
+  const { id, name, image, link, colors, sizes, details, color, breadcrumbs } =
     product;
-  const productId = `${name}:${color}:${sizes[sizeAndPriceIndex].size}`;
-  console.log(productId);
+  const productId = `${id}:${sizes[sizeAndPriceIndex].size}`;
+
   return (
     <>
       <Breadcrumbs links={breadcrumbs} />
@@ -23,7 +24,12 @@ const ProductPage = ({ product }) => {
             <h1>
               {name} ({color})
             </h1>
-            <ColorLinks colors={colors} link={link} align='left' />
+            <ColorLinks
+              colors={colors}
+              link={link}
+              align='left'
+              scroll={false}
+            />
             <Sizes sizes={sizes} onChange={setSizeAndPriceIndex} />
             <Dimensions dimensions={sizes[sizeAndPriceIndex].dimensions} />
             <Details details={details} />
@@ -40,52 +46,65 @@ const ProductPage = ({ product }) => {
             </button>
           </div>
         </Container>
+        <Container className={styles.logoOptions}>
+          <CategoryItems
+            key={name}
+            product={logoOptions}
+            title='Logo Options'
+            color={color}
+          />
+        </Container>
       </div>
     </>
   );
 };
 
 const Details = ({ details }) => {
-  return (
-    <p>
-      {details.map((info, i) => (
-        <Fragment key={i}>
-          {i > 0 ? ' ' : ''}
-          {info}.
-        </Fragment>
-      ))}
-    </p>
-  );
+  const buildDetails = details.map((info, i) => {
+    const space = i > 0 ? ' ' : '';
+    return (
+      <Fragment key={i}>
+        {space}
+        {info}.
+      </Fragment>
+    );
+  });
+
+  return <p>{buildDetails}</p>;
 };
 
 const Dimensions = ({ dimensions }) => {
   if (!dimensions) return <></>;
+
+  const buildDimensions = dimensions
+    .split(', ')
+    .map((info) => <li key={info}>{info}</li>);
+
   return (
     <>
       <p>
         <strong>Dimensions:</strong>
       </p>
-      <ul>
-        {dimensions.split(', ').map((info) => (
-          <li key={info}>{info}</li>
-        ))}
-      </ul>
+      <ul>{buildDimensions}</ul>
     </>
   );
 };
 
 const Sizes = ({ sizes, onChange }) => {
-  const handleChange = (e) => {
+  const handleSizeChange = (e) => {
     onChange(e.target.value);
   };
+
+  const buildSizes = sizes.map(({ size, price, dimensions }, i) => (
+    <option key={size} value={i}>
+      {size} | ${price}
+    </option>
+  ));
+
   return (
     <p>
-      <select name='size' onChange={handleChange}>
-        {sizes.map(({ size, price, dimensions }, i) => (
-          <option key={size} value={i}>
-            {size} | ${price}
-          </option>
-        ))}
+      <select name='size' onChange={handleSizeChange}>
+        {buildSizes}
       </select>
     </p>
   );

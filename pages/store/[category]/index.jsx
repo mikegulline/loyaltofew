@@ -7,7 +7,7 @@ const CategoryPage = ({ category }) => {
   if (!category) return <p>Loading…</p>;
 
   const meta = category.meta;
-  console.log(category);
+
   return (
     <>
       <SEO {...meta} />

@@ -4,7 +4,7 @@ import CategoryItemsItem from './CategoryItemsItem';
 import styles from './CategoryItems.module.css';
 import { isPlural } from '../../utils/plural';
 
-const CategoryItems = ({ product, title }) => {
+const CategoryItems = ({ product, title, color }) => {
   const { name, link, logos } = product;
 
   const titleLink = isPlural(logos)
@@ -12,7 +12,12 @@ const CategoryItems = ({ product, title }) => {
     : `${link}/${logos[0].logo.toLowerCase()}`;
 
   const buildCategoryItems = logos.map((logo) => (
-    <CategoryItemsItem key={logo.name} logo={logo} product={product} />
+    <CategoryItemsItem
+      key={logo.name}
+      logo={logo}
+      product={product}
+      color={color}
+    />
   ));
 
   const addHeader = (

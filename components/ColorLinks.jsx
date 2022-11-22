@@ -1,23 +1,29 @@
 import Link from 'next/link';
-import colorStyles from '../styles/colors.module.css';
+import styles from '../styles/colors.module.css';
 
-const ColorLinks = ({ colors, link, align = '' }) => {
-  return (
-    <div className={colorStyles[`colorSwatches${align}`]}>
-      {colors.map((color) => (
-        <Link
-          className={`${colorStyles.colorSwatch} ${
-            colorStyles[color.toLowerCase().replace(' ', '')]
-          }`}
-          key={color}
-          href={`${link}/${color.toLowerCase().replace(' ', '')}`}
-          title={color}
-        >
-          <div className={colorStyles.colorSwatchName}>{color}</div>
-        </Link>
-      ))}
-    </div>
-  );
+const ColorLinks = ({ colors, link, align = '', scroll = true }) => {
+  const wrapperClass = styles[`colorSwatches${align}`];
+
+  const buildLinks = colors.map((color) => {
+    const linkClasses = `${styles.colorSwatch} ${
+      styles[color.toLowerCase().replace(' ', '')]
+    }`;
+    const href = `${link}/${color.toLowerCase().replace(' ', '')}`;
+
+    return (
+      <Link
+        className={linkClasses}
+        key={color}
+        href={href}
+        title={color}
+        scroll={scroll}
+      >
+        <div className={styles.colorSwatchName}>{color}</div>
+      </Link>
+    );
+  });
+
+  return <div className={wrapperClass}>{buildLinks}</div>;
 };
 
 export default ColorLinks;

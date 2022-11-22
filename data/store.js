@@ -10,12 +10,13 @@ export const store = [
       {
         type: 'Tee',
         product: 'Comfort Tee',
-        logo: ['Arch', 'Block', 'Horizontal', 'Round'],
+        logos: ['Arch', 'Block', 'Horizontal', 'Round'],
         colors: ['Black', 'Gray', 'Green', 'Maroon', 'Navy'],
         tags: ['Tops'],
         meta: {
-          title: '',
-          description: '',
+          title: "Men's Comfort Tee",
+          description:
+            'Perfect 50/50 blend of cotton & polyester. Super-soft, lightweight (3.8oz) & durable.',
         },
         sizes: [
           {
@@ -59,12 +60,13 @@ export const store = [
       {
         type: 'Tank',
         product: 'Classic Cotton Tank',
-        logo: ['Arch', 'Block', 'Horizontal', 'Round'],
+        logos: ['Arch', 'Block', 'Horizontal', 'Round'],
         colors: ['Black'],
         tags: ['Tops'],
         meta: {
-          title: '',
-          description: '',
+          title: "Men's Classic Cotton Tank",
+          description:
+            '100% Pre-washed, no-shrink cotton. Lightweight (6.5oz)  and durable',
         },
         sizes: [
           {
@@ -108,12 +110,13 @@ export const store = [
       {
         type: 'Sleeves',
         product: 'Cotton Long-Sleeve',
-        logo: ['Arch', 'Block', 'Horizontal', 'Round'],
+        logos: ['Arch', 'Block', 'Horizontal', 'Round'],
         colors: ['Black', 'Gray', 'Navy'],
         tags: ['Tops'],
         meta: {
-          title: '',
-          description: '',
+          title: "Men's Cotton Long-Sleeve",
+          description:
+            '100% cotton grown on a US farm. Lightweight (4.3oz.) & durable.',
         },
         sizes: [
           {
@@ -167,12 +170,13 @@ export const store = [
       {
         type: 'Crop',
         product: 'Cotton Crop',
-        logo: ['Arch', 'Block', 'Horizontal', 'Round'],
+        logos: ['Arch', 'Block', 'Horizontal', 'Round'],
         colors: ['Black', 'Gray', 'Navy', 'Red'],
         tags: ['Tops'],
         meta: {
-          title: '',
-          description: '',
+          title: "Women's Cotton Crop",
+          description:
+            'Raw hem, riibbed crew-neck & short sleeves. 100% US Lightweight cotton (4.3oz).',
         },
         sizes: [
           {
@@ -216,12 +220,13 @@ export const store = [
       {
         type: 'Tank',
         product: 'Tri-Blend Tank',
-        logo: ['Arch', 'Block', 'Horizontal', 'Round'],
+        logos: ['Arch', 'Block', 'Horizontal', 'Round'],
         colors: ['Blue', 'Gray', 'Maroon'],
         tags: ['Tops'],
         meta: {
-          title: '',
-          description: '',
+          title: "Women's Tri-Blend Tank",
+          description:
+            '50% polyester, 25% cotton, 25% rayon. Lightweight (3.7oz) racerback design.',
         },
         sizes: [
           {
@@ -260,12 +265,13 @@ export const store = [
       {
         type: 'Tee',
         product: 'Comfort Tee',
-        logo: ['Arch', 'Block', 'Horizontal', 'Round'],
+        logos: ['Arch', 'Block', 'Horizontal', 'Round'],
         colors: ['Navy', 'Red'],
         tags: ['Tops'],
         meta: {
-          title: '',
-          description: '',
+          title: "Women's Comfort Tee",
+          description:
+            '100% cotton grown on a US farm. Lightweight (4.3oz.) & durable.',
         },
         sizes: [
           {
@@ -319,12 +325,12 @@ export const store = [
       {
         type: 'Hoodie',
         product: 'Heavy Fleece Hoodie',
-        logo: ['Arch', 'Block', 'Horizontal', 'Round'],
+        logos: ['Arch', 'Block', 'Horizontal', 'Round'],
         colors: ['Dolphin-Blue', 'Gray', 'Green', 'Navy', 'Off-Black'],
         tags: ['Tops'],
         meta: {
-          title: 'Loyal To Few (LTF) Heavy Fleece Hoodie',
-          description: '',
+          title: 'Heavy Fleece Hoodie',
+          description: 'Unisex. Heavyweight (14oz) over-sized fit.',
         },
         sizes: [
           {
@@ -369,12 +375,13 @@ export const store = [
       {
         type: '5050Hoodie',
         product: '50/50 Hoodie',
-        logo: ['Arch', 'Block', 'Horizontal', 'Round'],
+        logos: ['Arch', 'Block', 'Horizontal', 'Round'],
         colors: ['Black'],
         tags: ['Tops'],
         meta: {
-          title: 'Loyal To Few (LTF) 50/50 Hoodie',
-          description: '',
+          title: '50/50 Hoodie',
+          description:
+            'Unisex. Perfect 50/50 blend of cotton & polyester. Super-soft, midweight (10oz) & durable.',
         },
         sizes: [
           {
@@ -429,12 +436,12 @@ export const store = [
       {
         type: 'Beanie',
         product: 'Knit Beanie',
-        logo: ['Block'],
+        logos: ['Block'],
         colors: ['Black', 'Gray', 'Navy'],
         tags: ['Accessories'],
         meta: {
-          title: 'Loyal To Few (LTF) Knit Beanie',
-          description: '',
+          title: 'Knit Beanie',
+          description: 'Snug, comfort fit. Fits all.',
         },
         sizes: [
           {
@@ -447,12 +454,13 @@ export const store = [
       {
         type: 'Snapback',
         product: 'Trucker Snapback',
-        logo: ['Block'],
+        logos: ['Block'],
         colors: ['Black', 'Black-White', 'Gray-White', 'Navy-White'],
         tags: ['Accessories'],
         meta: {
-          title: 'Loyal To Few (LTF) Trucker Snapback Hat',
-          description: '',
+          title: 'Trucker Snapback Hat',
+          description:
+            'Flex-fit lining with adjustable snapback. Poly-spandex blend with performance mesh.',
         },
         sizes: [
           {

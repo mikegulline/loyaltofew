@@ -1,13 +1,18 @@
-import { getStore, getLogo, getColor } from '../../../../../data/storeModals';
+import {
+  getStore,
+  getLogo,
+  getColor,
+  getType,
+} from '../../../../../data/storeModals';
 import ProductPage from '../../../../../layout/ProductPage/ProductPage';
 import SEO from '../../../../../components/SEO';
 import getMeta from '../../../../../utils/getMeta';
-// import Category from '../../../../../components/Category/Category';
+import CategoryItems from '../../../../../components/Category/CategoryItems';
 
-const Product = ({ product }) => {
+const Product = ({ product, logoOptions }) => {
   if (!product) return <p>Loading…</p>;
 
-  const { name, breadcrumbs, color, link } = product;
+  const { name, color } = product;
 
   const meta = getMeta(product.meta, `Loyal To Few (LTF) ${name} (${color})`);
 
@@ -15,8 +20,7 @@ const Product = ({ product }) => {
     <>
       <SEO {...meta} />
 
-      <ProductPage product={product} />
-      {/* <Category category={product} /> */}
+      <ProductPage product={product} logoOptions={logoOptions} />
     </>
   );
 };
@@ -26,9 +30,13 @@ export async function getStaticProps(context) {
 
   if (!product) return { notFound: true };
 
+  const { category, type } = context.params;
+  const logoOptions = getType(category, type);
+
   return {
     props: {
       product,
+      logoOptions,
     },
   };
 }

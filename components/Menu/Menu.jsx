@@ -10,20 +10,19 @@ const Menu = ({
 }) => {
   const router = useRouter();
 
-  const buildMenu = () => {
-    return menuData.map(({ name, location, subMenu }) => (
-      <li key={name} className={router.pathname == location ? activeClass : ''}>
-        <Link href={location}>{name}</Link>
-        {subMenu && withDropDowns && (
-          <Menu menuData={subMenu} className='subMenu' />
-        )}
-      </li>
-    ));
-  };
+  const buildMenu = menuData.map(({ name, location, subMenu }) => (
+    <li key={name} className={router.pathname == location ? activeClass : ''}>
+      <Link href={location}>{name}</Link>
+      {subMenu && withDropDowns && (
+        <Menu menuData={subMenu} className='subMenu' />
+      )}
+    </li>
+  ));
+
   return (
     <div className={className}>
       {title && <h4>{title}</h4>}
-      <ul>{buildMenu()}</ul>
+      <ul>{buildMenu}</ul>
     </div>
   );
 };
