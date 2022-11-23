@@ -11,7 +11,6 @@ const ProductPage = ({ product, logoOptions }) => {
   const { id, name, image, link, colors, sizes, details, color, breadcrumbs } =
     product;
   const productId = `${id}:${sizes[sizeAndPriceIndex].size}`;
-
   return (
     <>
       <Breadcrumbs links={breadcrumbs} />

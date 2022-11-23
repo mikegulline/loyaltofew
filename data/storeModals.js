@@ -120,7 +120,7 @@ export const getType = (useCategory, useType) => {
   const product = passCategory['products'].find(
     ({ type }) => type.toLowerCase() === useType.toLowerCase()
   );
-  breadcrumbs.push([product.name, product.link]);
+  breadcrumbs.push([product.name, '']);
   const category = {
     category: categoryName,
     name,
@@ -152,9 +152,9 @@ export const getLogo = (useCategory, useType, useLogo) => {
   const passLogo = theType['logos'].find(
     ({ logo }) => logo.toLowerCase() === useLogo.toLowerCase()
   );
-  const bcText = `${passLogo.logo} (${colors[0]})`;
-  const bcLink = `${passLogo.link}/${colors[0].toLowerCase()}`;
-  breadcrumbs.push([bcText, bcLink]);
+  const bcLast = breadcrumbs.pop();
+  const bcText = `${bcLast[0]} ${passLogo.logo}`;
+  breadcrumbs.push([bcText, '']);
   return {
     ...passLogo,
     breadcrumbRoot: [passLogo.logo, passLogo.link],
@@ -201,10 +201,10 @@ export const getColor = (useCategory, useType, useLogo, useColor) => {
   const id = imageSlug.toLowerCase();
   const imageRoot = `/images/products/${category.category.toLowerCase()}/${type.type.toLowerCase()}/`;
   const image = `${imageRoot}${imageSlug}.jpg`;
-  breadcrumbs.pop();
-  const breadcrumbText = `${logo} (${color})`;
-  const breadcrumbLink = `${link}/${color.toLowerCase()}`;
-  breadcrumbs.push([breadcrumbText, breadcrumbLink]);
+
+  const bcLast = breadcrumbs.pop();
+  const bcText = `${bcLast[0]} (${color})`;
+  breadcrumbs.push([bcText, '']);
 
   return {
     id,
