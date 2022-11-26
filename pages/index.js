@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          <Link href='/store'>Shop</Link>
+          <Link href='/store'>Shop!</Link>
         </h1>
         <br />
         <p className={styles.menu}>
