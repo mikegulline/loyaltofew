@@ -26,9 +26,8 @@ const Header = () => {
 const MenuRight = () => {
   return (
     <div className={styles.menuRight}>
-      {/* <Link href='/newsletter'>Join The Few</Link> */}
       <a className='snipcart-checkout snipcart-summary' href='#'>
-        <strong>Cart:</strong> <span className='snipcart-total-price'></span>
+        <span className='snipcart-total-price'></span>
       </a>
     </div>
   );

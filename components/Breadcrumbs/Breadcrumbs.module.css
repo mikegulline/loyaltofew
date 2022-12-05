@@ -1,24 +1,26 @@
 .wrapper {
-  border-bottom: 1px solid #f0f0f0;
-  padding: 20px 0;
-  margin-bottom: -30px;
+  padding: 15px 0;
+  margin-bottom: 0;
+  background: #222;
+  color: #aaa;
 }
 
 .breadcrumbs {
+  font-weight: 400;
   margin: 0;
 }
 
 .breadcrumbs a {
-  text-decoration: underline;
+  color: #ddd;
 }
 
 .breadcrumbs a:hover {
-  color: #d61818;
+  color: #fff;
+  text-decoration: underline;
 }
 
 @media (max-width: 1200px) {
   .wrapper {
     padding: 10px 0;
-    margin-bottom: -10px;
   }
 }

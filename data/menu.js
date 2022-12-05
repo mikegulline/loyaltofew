@@ -1,28 +1,31 @@
-export const categoryMenu = [
-  { name: 'Categories', location: '/store' },
-  { name: "Men's", location: '/store/mens' },
-  { name: "Women's", location: '/store/womens' },
-  { name: 'Outerwear', location: '/store/outerwear' },
-  {
-    name: 'Hats',
-    location: '/store/hats',
-    subMenu: [
-      {
-        name: 'Knit Beanie',
-        location: '/store/hats/beanies',
-      },
-      {
-        name: 'Trucker Snapback',
-        location: '/store/hats/snapback',
-      },
-    ],
-  },
-];
-
 export const mainMenu = [
   { name: 'Home', location: '/' },
-  { name: 'Store', location: '/store', subMenu: categoryMenu },
+  { name: 'Mens', location: '/store/mens' },
+  { name: 'Womens', location: '/store/womens' },
+  { name: 'Outerwear', location: '/store/outerwear' },
+  { name: 'Hats', location: '/store/hats' },
+];
+
+// footer menus
+
+export const footerShopMenu = [
+  { name: 'Mens', location: '/store/mens' },
+  { name: 'Womens', location: '/store/womens' },
+  { name: 'Outerwear', location: '/store/outerwear' },
+  { name: 'Hats', location: '/store/hats' },
+];
+
+export const footerSiteMenu = [
+  { name: 'Home', location: '/' },
   { name: 'About', location: '/about' },
   { name: 'Contact', location: '/contact' },
   { name: 'Returns', location: '/returns' },
 ];
+
+// export const footerSiteMenu = [
+//   { name: 'Home', location: '/' },
+//   { name: 'Store', location: '/store', subMenu: footerShopMenu },
+//   { name: 'About', location: '/about' },
+//   { name: 'Contact', location: '/contact' },
+//   { name: 'Returns', location: '/returns' },
+// ];

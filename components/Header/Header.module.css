@@ -1,5 +1,8 @@
 .header {
+  border-bottom: 4px solid #d61818;
   padding: 15px 0;
+  background-color: #fff;
+  position: relative;
 }
 .logo {
   max-width: 282px;
@@ -8,10 +11,10 @@
   width: 282px;
   height: auto;
   margin: auto;
-  fill: #d61818;
+  fill: #333;
 }
 .logo:hover {
-  fill: #fff;
+  fill: #d61818;
 }
 .logo svg {
   display: flex;
@@ -22,27 +25,28 @@
 .columns {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 40px;
 }
 .menu {
   flex-grow: 1;
-  font-size: 1.3rem;
-  font-weight: 200;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 .menu ul {
   padding: 0;
   margin: 0;
   list-style: none;
   display: flex;
-  column-gap: 50px;
-  justify-content: center;
+  column-gap: 40px;
+  justify-content: right;
 }
 .menu ul li {
   padding: 0;
   margin: 0;
 }
 .menu ul li a:hover {
-  color: #fff;
+  color: #d61818;
   text-decoration: underline;
 }
 .menu ul li.active a {
@@ -64,16 +68,16 @@
   display: none;
 }
 .menuRight a {
-  font-size: 1.3rem;
+  font-size: 1rem;
   background: none;
-  border: 1px solid #d61818;
-  color: #aaa;
+  color: #ccc;
   font-weight: 200;
   padding: 10px 20px;
   border-radius: 3px;
+  background: #222;
+  display: block;
 }
 .menuRight a:hover {
-  border: 1px solid #d61818;
   color: #fff;
   background-color: #d61818;
 }
@@ -83,15 +87,18 @@
     display: block;
   }
   .menuRight {
-    display: none;
+    position: absolute;
+    top: 25px;
+    right: 15px;
   }
   .logo {
     max-width: 220px;
     width: 220px;
-    margin-bottom: 12px;
+    margin-bottom: 15px;
+    margin-left: 0;
   }
   .menu {
-    font-size: 1.15rem;
+    font-size: 1rem;
   }
   .menu ul {
     column-gap: normal;

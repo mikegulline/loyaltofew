@@ -1,9 +1,8 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import ColorLinks from '../ColorLinks';
-import styles from './CategoryItemsItem.module.css';
+import styles from './LogoOptionsItem.module.css';
 
-const CategoryItemsItem = ({ logo, product, color, options }) => {
+const CategoryItemsItem = ({ logo, product, color }) => {
   const { link, image, imageColorRoot, name } = logo;
 
   const { colors } = product;
@@ -24,12 +23,10 @@ const CategoryItemsItem = ({ logo, product, color, options }) => {
           src={imageSrc}
           alt={name}
           className={styles.image}
-          width={150}
-          height={150}
+          width={310}
+          height={310}
         />
-        <h4 className={styles.title}>{name}</h4>
       </Link>
-      <ColorLinks colors={colors} link={link} />
     </div>
   );
 };

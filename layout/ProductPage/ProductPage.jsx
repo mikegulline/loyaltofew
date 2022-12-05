@@ -4,7 +4,7 @@ import Image from 'next/image';
 import ColorLinks from '../../components/ColorLinks';
 import Container from '../../components/Container/Container';
 import Breadcrumbs from '../../components/Breadcrumbs/Breadcrumbs';
-import CategoryItems from '../../components/Category/CategoryItems';
+import LogoOptions from '../../components/LogoOptions/LogoOptions';
 
 const ProductPage = ({ product, logoOptions }) => {
   const [sizeAndPriceIndex, setSizeAndPriceIndex] = useState(0);
@@ -17,7 +17,7 @@ const ProductPage = ({ product, logoOptions }) => {
       <div className={styles.wrapper}>
         <Container className={styles.product}>
           <div className={styles.imageBlock}>
-            <Image src={image} alt={name} width='650' height='650' />
+            <Image src={image} alt={name} width='752' height='752' />
           </div>
           <div className={styles.infosBlock}>
             <h1>
@@ -46,12 +46,7 @@ const ProductPage = ({ product, logoOptions }) => {
           </div>
         </Container>
         <Container className={styles.logoOptions}>
-          <CategoryItems
-            key={name}
-            product={logoOptions}
-            title='Logo Options'
-            color={color}
-          />
+          <LogoOptions key={name} product={logoOptions} color={color} />
         </Container>
       </div>
     </>

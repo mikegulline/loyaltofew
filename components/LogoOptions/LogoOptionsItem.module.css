@@ -1,0 +1,27 @@
+.item {
+  text-align: center;
+}
+
+.item img {
+  max-width: 100%;
+  height: auto;
+  background: #f3f3f3;
+  padding: 70px;
+}
+
+@media (max-width: 1480px) {
+  .item img {
+    padding: 45px;
+  }
+}
+@media (max-width: 1220px) {
+  .item img {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 753px) {
+  .container {
+    padding: 0 15px;
+  }
+}

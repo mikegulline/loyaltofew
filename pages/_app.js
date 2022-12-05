@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Overlay from '../components/Overlay/Overlay';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import '../styles/globals.css';
@@ -26,6 +27,7 @@ function MyApp({ Component, pageProps }) {
         />
         <link rel='manifest' href='/images/favicon_io/site.webmanifest' />
       </Head>
+      <Overlay />
       <Header />
       <div className='body'>
         <Component {...pageProps} />
