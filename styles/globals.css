@@ -61,3 +61,26 @@ body {
 .snipcart-total-price:empty {
   display: none;
 }
+
+.menuRight a .snipcart-total-price {
+  font-size: 1rem;
+  background: none;
+  color: #ccc;
+  font-weight: 200;
+  padding: 10px 20px;
+  border-radius: 3px;
+  background: #222;
+  display: block;
+}
+.menuRight a:hover .snipcart-total-price {
+  color: #fff;
+  background-color: #d61818;
+}
+
+@media (max-width: 1220px) {
+  .menuRight {
+    position: absolute;
+    top: 25px;
+    right: 15px;
+  }
+}

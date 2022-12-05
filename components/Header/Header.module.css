@@ -67,7 +67,7 @@
   margin-top: 5px;
   display: none;
 }
-.menuRight a {
+/* .menuRight a {
   font-size: 1rem;
   background: none;
   color: #ccc;
@@ -80,16 +80,11 @@
 .menuRight a:hover {
   color: #fff;
   background-color: #d61818;
-}
+} */
 
-@media (max-width: 1200px) {
+@media (max-width: 1220px) {
   .columns {
     display: block;
-  }
-  .menuRight {
-    position: absolute;
-    top: 25px;
-    right: 15px;
   }
   .logo {
     max-width: 220px;

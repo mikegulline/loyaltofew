@@ -25,7 +25,7 @@ const Header = () => {
 
 const MenuRight = () => {
   return (
-    <div className={styles.menuRight}>
+    <div className='menuRight'>
       <a className='snipcart-checkout snipcart-summary' href='#'>
         <span className='snipcart-total-price'></span>
       </a>
