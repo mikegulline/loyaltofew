@@ -14,6 +14,7 @@ const ProductPage = ({ product, logoOptions }) => {
   return (
     <>
       <Breadcrumbs links={breadcrumbs} />
+
       <div className={styles.wrapper}>
         <Container className={styles.product}>
           <div className={styles.imageBlock}>

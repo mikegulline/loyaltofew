@@ -2,7 +2,7 @@
 import LogoOptionsItem from './LogoOptionsItem';
 import styles from './LogoOptions.module.css';
 
-const CategoryItems = ({ product, color }) => {
+const LogoOptions = ({ product, color }) => {
   const { logos } = product;
 
   const buildLogoOptions = logos.map((logo) => (
@@ -24,4 +24,4 @@ const CategoryItems = ({ product, color }) => {
   );
 };
 
-export default CategoryItems;
+export default LogoOptions;

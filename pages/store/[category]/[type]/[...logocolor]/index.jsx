@@ -7,7 +7,6 @@ import {
 import ProductPage from '../../../../../layout/ProductPage/ProductPage';
 import SEO from '../../../../../components/SEO';
 import getMeta from '../../../../../utils/getMeta';
-import CategoryItems from '../../../../../components/Category/CategoryItems';
 
 const Product = ({ product, logoOptions }) => {
   if (!product) return <p>Loading…</p>;

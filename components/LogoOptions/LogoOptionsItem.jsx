@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import styles from './LogoOptionsItem.module.css';
 
-const CategoryItemsItem = ({ logo, product, color }) => {
+const LogoOptionsItem = ({ logo, product, color }) => {
   const { link, image, imageColorRoot, name } = logo;
 
   const { colors } = product;
@@ -31,4 +31,4 @@ const CategoryItemsItem = ({ logo, product, color }) => {
   );
 };
 
-export default CategoryItemsItem;
+export default LogoOptionsItem;
