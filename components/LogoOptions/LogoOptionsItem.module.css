@@ -21,7 +21,7 @@
   border-radius: 50%;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.3);
   transform: scale(0);
-  transition: all 0.5s ease-in-out;
+  transition: all 0.35s ease-in-out;
 }
 
 @media (max-width: 1480px) {
@@ -32,5 +32,11 @@
 @media (max-width: 1220px) {
   .item img {
     padding: 20px;
+  }
+  .selectCheck {
+    top: 8px;
+    right: 8px;
+    height: 30px;
+    width: 30px;
   }
 }
