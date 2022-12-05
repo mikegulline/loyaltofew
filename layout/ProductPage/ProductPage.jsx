@@ -33,7 +33,7 @@ const ProductPage = ({ product, logoOptions }) => {
             <Dimensions dimensions={sizes[sizeAndPriceIndex].dimensions} />
             <Details details={details} />
             <button
-              className='snipcart-add-item'
+              className={`snipcart-add-item ${styles.button}`}
               data-item-id={productId}
               data-item-price={sizes[sizeAndPriceIndex].price}
               data-item-description={`${name} (${color}) ${sizes[sizeAndPriceIndex].size}`}

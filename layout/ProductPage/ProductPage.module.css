@@ -25,6 +25,22 @@
   padding-top: 30px;
 }
 
+.button {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  color: #ccc;
+  font-weight: 200;
+  padding: 10px 20px;
+  border-radius: 3px;
+  background: #222;
+  display: block;
+}
+.button:hover {
+  color: #fff;
+  background: #d61818;
+}
+
 @media (max-width: 1480px) {
   .container {
     max-width: 1200px;
