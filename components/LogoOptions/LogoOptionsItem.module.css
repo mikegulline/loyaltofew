@@ -1,5 +1,6 @@
 .item {
   text-align: center;
+  position: relative;
 }
 
 .item img {
@@ -7,6 +8,20 @@
   height: auto;
   background: #f3f3f3;
   padding: 70px;
+}
+
+.selectCheck {
+  display: block;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #fff;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.3);
+  transform: scale(0);
+  transition: all 0.3s ease-in;
 }
 
 @media (max-width: 1480px) {

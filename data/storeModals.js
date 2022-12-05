@@ -148,6 +148,7 @@ export const getLogo = (useCategory, useType, useLogo) => {
     breadcrumbs,
     meta,
     tags,
+    logos,
   } = theType;
   const passLogo = theType['logos'].find(
     ({ logo }) => logo.toLowerCase() === useLogo.toLowerCase()
@@ -163,6 +164,7 @@ export const getLogo = (useCategory, useType, useLogo) => {
     meta,
     sizes,
     colors,
+    logos,
     details,
     category,
     type: {
@@ -192,6 +194,7 @@ export const getColor = (useCategory, useType, useLogo, useColor) => {
     breadcrumbs,
     meta,
     tags,
+    logos,
   } = product;
 
   const imageSlug = `${category.category}${type.type}${logo}${color}`.replace(
@@ -216,6 +219,7 @@ export const getColor = (useCategory, useType, useLogo, useColor) => {
     logo,
     meta,
     colors,
+    logos,
     sizes,
     details,
     category,

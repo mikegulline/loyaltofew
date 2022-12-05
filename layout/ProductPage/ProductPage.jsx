@@ -6,7 +6,7 @@ import Container from '../../components/Container/Container';
 import Breadcrumbs from '../../components/Breadcrumbs/Breadcrumbs';
 import LogoOptions from '../../components/LogoOptions/LogoOptions';
 
-const ProductPage = ({ product, logoOptions }) => {
+const ProductPage = ({ product }) => {
   const [sizeAndPriceIndex, setSizeAndPriceIndex] = useState(0);
   const { id, name, image, link, colors, sizes, details, color, breadcrumbs } =
     product;
@@ -47,7 +47,7 @@ const ProductPage = ({ product, logoOptions }) => {
           </div>
         </Container>
         <Container className={styles.logoOptions}>
-          <LogoOptions key={name} product={logoOptions} color={color} />
+          <LogoOptions product={product} />
         </Container>
       </div>
     </>

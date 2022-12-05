@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import styles from './LogoOptionsItem.module.css';
 
-const LogoOptionsItem = ({ logo, product, color }) => {
+const LogoOptionsItem = ({ logo, product, color, current }) => {
   const { link, image, imageColorRoot, name } = logo;
 
   const { colors } = product;
@@ -26,6 +26,10 @@ const LogoOptionsItem = ({ logo, product, color }) => {
           width={310}
           height={310}
         />
+        <div
+          className={styles.selectCheck}
+          style={{ transform: `scale(${current ? 1 : 0})` }}
+        ></div>
       </Link>
     </div>
   );

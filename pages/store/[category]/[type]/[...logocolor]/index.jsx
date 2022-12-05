@@ -1,8 +1,8 @@
 import {
   getStore,
   getLogo,
+  // getType,
   getColor,
-  getType,
 } from '../../../../../data/storeModals';
 import ProductPage from '../../../../../layout/ProductPage/ProductPage';
 import SEO from '../../../../../components/SEO';
@@ -19,7 +19,8 @@ const Product = ({ product, logoOptions }) => {
     <>
       <SEO {...meta} />
 
-      <ProductPage product={product} logoOptions={logoOptions} />
+      <ProductPage product={product} />
+      {/* <ProductPage product={product} logoOptions={logoOptions} /> */}
     </>
   );
 };
@@ -30,12 +31,12 @@ export async function getStaticProps(context) {
   if (!product) return { notFound: true };
 
   const { category, type } = context.params;
-  const logoOptions = getType(category, type);
+  // const logoOptions = getType(category, type);
 
   return {
     props: {
       product,
-      logoOptions,
+      // logoOptions,
     },
   };
 }

@@ -2,8 +2,8 @@
 import LogoOptionsItem from './LogoOptionsItem';
 import styles from './LogoOptions.module.css';
 
-const LogoOptions = ({ product, color }) => {
-  const { logos } = product;
+const LogoOptions = ({ product }) => {
+  const { logos, color } = product;
 
   const buildLogoOptions = logos.map((logo) => (
     <LogoOptionsItem
@@ -11,6 +11,7 @@ const LogoOptions = ({ product, color }) => {
       logo={logo}
       product={product}
       color={color}
+      current={product.logo === logo.logo}
     />
   ));
 
