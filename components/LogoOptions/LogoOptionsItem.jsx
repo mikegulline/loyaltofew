@@ -18,7 +18,7 @@ const LogoOptionsItem = ({ logo, product, color, current }) => {
 
   return (
     <div className={styles.item}>
-      <Link href={imageLink}>
+      <Link href={imageLink} scroll={false}>
         <Image
           src={imageSrc}
           alt={name}
