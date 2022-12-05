@@ -1,9 +1,9 @@
 export const store = [
   {
     category: 'Mens',
-    name: "Men's",
+    name: 'Mens',
     meta: {
-      title: "Loyal To Few (LTF) Men's Clothing",
+      title: 'Loyal To Few (LTF) Mens Clothing',
       description: '',
     },
     products: [
@@ -14,7 +14,7 @@ export const store = [
         colors: ['Black', 'Gray', 'Green', 'Maroon', 'Navy'],
         tags: ['Tops'],
         meta: {
-          title: "Men's Comfort Tee",
+          title: 'Mens Comfort Tee',
           description:
             'Perfect 50/50 blend of cotton & polyester. Super-soft, lightweight (3.8oz) & durable.',
         },
@@ -64,7 +64,7 @@ export const store = [
         colors: ['Black'],
         tags: ['Tops'],
         meta: {
-          title: "Men's Classic Cotton Tank",
+          title: 'Mens Classic Cotton Tank',
           description:
             '100% Pre-washed, no-shrink cotton. Lightweight (6.5oz)  and durable',
         },
@@ -114,7 +114,7 @@ export const store = [
         colors: ['Black', 'Gray', 'Navy'],
         tags: ['Tops'],
         meta: {
-          title: "Men's Cotton Long-Sleeve",
+          title: 'Mens Cotton Long-Sleeve',
           description:
             '100% cotton grown on a US farm. Lightweight (4.3oz.) & durable.',
         },
@@ -161,9 +161,9 @@ export const store = [
   },
   {
     category: 'Womens',
-    name: "Women's",
+    name: 'Womens',
     meta: {
-      title: "Loyal To Few (LTF) Women's Clothing",
+      title: 'Loyal To Few (LTF) Womens Clothing',
       description: '',
     },
     products: [
@@ -174,7 +174,7 @@ export const store = [
         colors: ['Black', 'Gray', 'Navy', 'Red'],
         tags: ['Tops'],
         meta: {
-          title: "Women's Cotton Crop",
+          title: 'Womens Cotton Crop',
           description:
             'Raw hem, riibbed crew-neck & short sleeves. 100% US Lightweight cotton (4.3oz).',
         },
@@ -224,7 +224,7 @@ export const store = [
         colors: ['Blue', 'Gray', 'Maroon'],
         tags: ['Tops'],
         meta: {
-          title: "Women's Tri-Blend Tank",
+          title: 'Womens Tri-Blend Tank',
           description:
             '50% polyester, 25% cotton, 25% rayon. Lightweight (3.7oz) racerback design.',
         },
@@ -269,7 +269,7 @@ export const store = [
         colors: ['Navy', 'Red'],
         tags: ['Tops'],
         meta: {
-          title: "Women's Comfort Tee",
+          title: 'Womens Comfort Tee',
           description:
             '100% cotton grown on a US farm. Lightweight (4.3oz.) & durable.',
         },
