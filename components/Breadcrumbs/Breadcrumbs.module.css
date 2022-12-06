@@ -19,7 +19,7 @@
   text-decoration: underline;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1220px) {
   .wrapper {
     padding: 10px 0;
   }

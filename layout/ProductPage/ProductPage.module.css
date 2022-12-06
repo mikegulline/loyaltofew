@@ -10,6 +10,7 @@
 .product img {
   max-width: 645px;
   height: auto;
+  display: block;
 }
 
 .imageBlock {
@@ -18,7 +19,8 @@
 
 .infosBlock {
   padding-left: 120px;
-  width: 600px;
+  padding-right: 120px;
+  width: 100%;
 }
 
 .logoOptions {
@@ -42,9 +44,17 @@
 }
 
 @media (max-width: 1480px) {
+  .wrapper {
+    padding: 40px 0 80px 0;
+  }
   .container {
     max-width: 1200px;
     padding: 0 15px;
+  }
+  .infosBlock {
+    padding-left: 80px;
+    padding-right: 80px;
+    width: 100%;
   }
   .product img {
     max-width: 580px;
@@ -52,6 +62,9 @@
 }
 
 @media (max-width: 1220px) {
+  .wrapper {
+    padding: 30px 0 60px 0;
+  }
   .product {
     flex-direction: column;
   }
@@ -61,6 +74,7 @@
   .infosBlock {
     width: 100%;
     padding-left: 0px;
+    padding-right: 0px;
   }
 }
 

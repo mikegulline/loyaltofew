@@ -22,13 +22,12 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 30px;
   row-gap: 30px;
-  margin-bottom: 30px;
 }
 
 @media (max-width: 1480px) {
   .products {
     column-gap: 10px;
-    row-gap: 6px;
+    row-gap: 10px;
   }
 }
 

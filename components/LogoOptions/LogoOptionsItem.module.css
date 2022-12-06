@@ -8,6 +8,7 @@
   height: auto;
   background: #f3f3f3;
   padding: 70px;
+  display: block;
 }
 
 .selectCheck {
