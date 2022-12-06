@@ -27,7 +27,7 @@ const MenuRight = () => {
   return (
     <div className='menuRight'>
       <a className='snipcart-checkout snipcart-summary' href='#'>
-        <span className='snipcart-total-price'></span>
+        <span className='snipcart-total-price'>$0.00</span>
       </a>
     </div>
   );
