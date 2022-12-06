@@ -1,9 +1,8 @@
 import Head from 'next/head';
-import Link from 'next/link';
 import Slideshow from '../components/Slideshow/Slideshow';
 import Container from '../components/Container/Container';
-
-import styles from '../styles/Home.module.css';
+import Breadcrumbs from '../components/Breadcrumbs/Breadcrumbs';
+import { breadcrumbs } from '../data/menu';
 
 export default function Home() {
   return (
@@ -12,7 +11,8 @@ export default function Home() {
         <title>Loyal To Few</title>
         <meta name='description' content='A Trademarked Way Of Life.' />
       </Head>
-      <Container>
+      <Breadcrumbs links={breadcrumbs} />
+      <Container size='large'>
         <Slideshow />
       </Container>
     </div>

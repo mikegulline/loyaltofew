@@ -4,6 +4,16 @@
   margin: auto;
 }
 
+.containerLarge {
+  max-width: 1600px;
+}
+.containerSmall {
+  max-width: 1200px;
+}
+.containerExtraSmall {
+  max-width: 1000px;
+}
+
 @media (max-width: 1480px) {
   .container {
     max-width: 1200px;

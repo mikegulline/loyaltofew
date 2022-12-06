@@ -6,6 +6,13 @@ export const mainMenu = [
   { name: 'Hats', location: '/store/hats' },
 ];
 
+export const breadcrumbs = [
+  ['Store', '/store'],
+  ['About', '/about'],
+  ['Contact', '/contact'],
+  ['Returns', '/returns'],
+];
+
 // footer menus
 
 export const footerShopMenu = [
