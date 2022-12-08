@@ -26,6 +26,7 @@ const SlideShowTouch = () => {
       link: '/store/hats',
     },
   ];
+  const [index, setIndex] = useState(1);
 
   const wrapper = useRef();
   const items = useRef();
@@ -37,18 +38,10 @@ const SlideShowTouch = () => {
   const posFinal = useRef(null);
   const threshold = useRef(100);
   const allowShift = useRef(true);
-  const index = useRef(0);
   const slidesLength = useRef(slidesArr.length);
 
   function preventDefault(e) {
     e.preventDefault();
-  }
-
-  function preventDefaultForScrollKeys(e) {
-    if (keys[e.keyCode]) {
-      preventDefault(e);
-      return false;
-    }
   }
 
   // modern Chrome requires { passive: false } when adding event
@@ -116,10 +109,8 @@ const SlideShowTouch = () => {
       shiftSlide(1, 'drag');
     } else if (posFinal.current - posInitial.current > threshold.current) {
       shiftSlide(-1, 'drag');
-    } else {
-      items.current.style.left = posInitial.current + 'px';
     }
-
+    items.current.style.left = '0px';
     document.onmouseup = null;
     document.onmousemove = null;
   }
@@ -128,18 +119,10 @@ const SlideShowTouch = () => {
     items.current.classList.add(styles.shifting);
 
     if (allowShift.current) {
-      if (!action) {
-        posInitial.current = items.current.offsetLeft;
-      }
-
       if (dir == 1) {
-        items.current.style.left =
-          posInitial.current - wrapper.current.offsetWidth + 'px';
-        index.current = index.current + 1;
+        setIndex((i) => i + 1);
       } else if (dir === -1) {
-        items.current.style.left =
-          posInitial.current + wrapper.current.offsetWidth + 'px';
-        index.current = index.current - 1;
+        setIndex((i) => i - 1);
       }
     }
 
@@ -149,15 +132,11 @@ const SlideShowTouch = () => {
   function checkIndex() {
     items.current.classList.remove(styles.shifting);
 
-    if (index.current === -1) {
-      items.current.style.left =
-        -(slidesLength.current * wrapper.current.offsetWidth) + 'px';
-      index.current = slidesLength.current - 1;
+    if (index === 0) {
+      setIndex(slidesLength.current);
     }
-
-    if (index.current === slidesLength.current) {
-      items.current.style.left = -(1 * wrapper.current.offsetWidth) + 'px';
-      index.current = 0;
+    if (index === slidesLength.current + 1) {
+      setIndex(1);
     }
 
     allowShift.current = true;
@@ -218,7 +197,12 @@ const SlideShowTouch = () => {
       <div className={styles.wrapper}>
         <div
           {...slideParams}
-          style={{ width: `${(slidesLength.current + 2) * 100}%` }}
+          style={{
+            width: `${(slidesLength.current + 2) * 100}%`,
+            transform: `translate(-${
+              100 / ((slidesLength.current + 2) / index)
+            }%)`,
+          }}
         >
           {buildSlides}
         </div>
