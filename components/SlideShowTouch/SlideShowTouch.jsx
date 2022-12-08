@@ -40,6 +40,43 @@ const SlideShowTouch = () => {
   const index = useRef(0);
   const slidesLength = useRef(slidesArr.length);
 
+  function preventDefault(e) {
+    e.preventDefault();
+  }
+
+  function preventDefaultForScrollKeys(e) {
+    if (keys[e.keyCode]) {
+      preventDefault(e);
+      return false;
+    }
+  }
+
+  // modern Chrome requires { passive: false } when adding event
+  var supportsPassive = false;
+  try {
+    window.addEventListener(
+      'test',
+      null,
+      Object.defineProperty({}, 'passive', {
+        get: function () {
+          supportsPassive = true;
+        },
+      })
+    );
+  } catch (e) {}
+
+  var wheelOpt = supportsPassive ? { passive: false } : false;
+
+  // call this to Disable
+  function disableScroll() {
+    window.addEventListener('touchmove', preventDefault, wheelOpt); // mobile
+  }
+
+  // call this to Enable
+  function enableScroll() {
+    window.removeEventListener('touchmove', preventDefault, wheelOpt);
+  }
+
   function dragStart(e) {
     e = e || window.event;
     e.preventDefault();
@@ -48,6 +85,7 @@ const SlideShowTouch = () => {
 
     if (e.type === 'touchstart') {
       posX1.current = e.touches[0].clientX;
+      disableScroll();
     } else {
       posX1.current = e.clientX;
       document.onmouseup = dragEnd;
@@ -71,6 +109,8 @@ const SlideShowTouch = () => {
 
   function dragEnd(e) {
     posFinal.current = items.current.offsetLeft;
+
+    enableScroll();
 
     if (posFinal.current - posInitial.current < -threshold.current) {
       shiftSlide(1, 'drag');
