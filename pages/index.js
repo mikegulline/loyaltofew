@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Slideshow from '../components/Slideshow/Slideshow';
+import SlideShowTouch from '../components/SlideShowTouch/SlideShowTouch';
 import Container from '../components/Container/Container';
 import Breadcrumbs from '../components/Breadcrumbs/Breadcrumbs';
 import { breadcrumbs } from '../data/menu';
@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
       <Breadcrumbs links={breadcrumbs} />
       <Container size='large'>
-        <Slideshow />
+        <SlideShowTouch />
       </Container>
     </div>
   );

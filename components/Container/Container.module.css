@@ -6,6 +6,7 @@
 
 .containerLarge {
   max-width: 1600px;
+  padding: 0 0px;
 }
 .containerSmall {
   max-width: 1200px;
@@ -19,6 +20,10 @@
     max-width: 1200px;
     padding: 0 15px;
   }
+  .containerLarge {
+    max-width: 100%;
+    padding: 0 0px;
+  }
 }
 
 @media (max-width: 1220px) {
@@ -26,10 +31,18 @@
     max-width: 752px;
     padding: 0 15px;
   }
+  .containerLarge {
+    max-width: 100%;
+    padding: 0 0px;
+  }
 }
 
 @media (max-width: 753px) {
   .container {
     padding: 0 15px;
+  }
+  .containerLarge {
+    max-width: 100%;
+    padding: 0 0px;
   }
 }
