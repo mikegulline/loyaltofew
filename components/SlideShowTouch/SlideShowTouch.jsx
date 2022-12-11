@@ -1,6 +1,6 @@
-import { useRef, useState, useEffect } from 'react';
+import { useRef, useState } from 'react';
+import { useRouter } from 'next/router';
 import Image from 'next/image';
-import Link from 'next/link';
 import styles from './SlideShowTouch.module.css';
 
 const SlideShowTouch = () => {
@@ -27,6 +27,7 @@ const SlideShowTouch = () => {
     },
   ];
   const [index, setIndex] = useState(1);
+  const router = useRouter();
 
   const wrapper = useRef();
   const items = useRef();
@@ -109,6 +110,8 @@ const SlideShowTouch = () => {
       shiftSlide(1, 'drag');
     } else if (posFinal.current - posInitial.current > threshold.current) {
       shiftSlide(-1, 'drag');
+    } else if (posFinal.current - posInitial.current === 0) {
+      router.push(slidesArr[index - 1].link);
     }
     items.current.style.left = '0px';
     document.onmouseup = null;
@@ -165,15 +168,8 @@ const SlideShowTouch = () => {
     );
   };
 
-  // const buildSlides = slidesArr.map(({ image, alt, link }, i) => (
-  //   <span key={i} className={styles.slide}>
-  //     <Link href={link}>
-  //       <Image src={image} alt={alt} width='1320' height='660' />
-  //     </Link>
-  //   </span>
-  // ));
   const buildSlides = slidesArr.map(({ image, alt, link }, i) => (
-    <span key={i} className={styles.slide}>
+    <span key={i} className={styles.slide} data-link={link}>
       <Image src={image} alt={alt} width='1320' height='660' />
     </span>
   ));
