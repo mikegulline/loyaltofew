@@ -26,21 +26,26 @@
 .logoOptions {
   padding-top: 30px;
 }
+.buttons {
+  display: flex;
+  gap: 4px;
+}
 
 .button {
-  border: none;
+  border: 1px solid #333;
   outline: none;
   font-size: 1rem;
   color: #ccc;
   font-weight: 200;
   padding: 10px 20px;
   border-radius: 3px;
-  background: #222;
+  background: #333;
   display: block;
 }
 .button:hover {
   color: #fff;
   background: #d61818;
+  border: 1px solid #d61818;
 }
 
 @media (max-width: 1480px) {

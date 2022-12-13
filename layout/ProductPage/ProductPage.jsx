@@ -30,20 +30,23 @@ const ProductPage = ({ product }) => {
               align='left'
               scroll={false}
             />
-            <Sizes sizes={sizes} onChange={setSizeAndPriceIndex} />
+
             <Dimensions dimensions={sizes[sizeAndPriceIndex].dimensions} />
             <Details details={details} />
-            <button
-              className={`snipcart-add-item ${styles.button}`}
-              data-item-id={productId}
-              data-item-price={sizes[sizeAndPriceIndex].price}
-              data-item-description={`${name} (${color}) ${sizes[sizeAndPriceIndex].size}`}
-              data-item-image={image}
-              data-item-name={`${name} (${color}) ${sizes[sizeAndPriceIndex].size}`}
-              data-item-url={link}
-            >
-              Add to cart
-            </button>
+            <div className={styles.buttons}>
+              <Sizes sizes={sizes} onChange={setSizeAndPriceIndex} />
+              <button
+                className={`snipcart-add-item ${styles.button}`}
+                data-item-id={productId}
+                data-item-price={sizes[sizeAndPriceIndex].price}
+                data-item-description={`${name} (${color}) ${sizes[sizeAndPriceIndex].size}`}
+                data-item-image={image}
+                data-item-name={`${name} (${color}) ${sizes[sizeAndPriceIndex].size}`}
+                data-item-url={link}
+              >
+                Add to cart
+              </button>
+            </div>
           </div>
         </Container>
         <Container className={styles.logoOptions}>
@@ -97,11 +100,9 @@ const Sizes = ({ sizes, onChange }) => {
   ));
 
   return (
-    <p>
-      <select name='size' onChange={handleSizeChange}>
-        {buildSizes}
-      </select>
-    </p>
+    <select name='size' onChange={handleSizeChange}>
+      {buildSizes}
+    </select>
   );
 };
 
