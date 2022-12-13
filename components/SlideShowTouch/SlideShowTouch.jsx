@@ -76,6 +76,7 @@ const SlideShowTouch = () => {
     e.preventDefault();
 
     posInitial.current = items.current.offsetLeft;
+    items.current.classList.add(styles.grabbing);
 
     if (e.type === 'touchstart') {
       posX1.current = e.touches[0].clientX;
@@ -120,6 +121,7 @@ const SlideShowTouch = () => {
 
   function shiftSlide(dir, action) {
     items.current.classList.add(styles.shifting);
+    items.current.classList.remove(styles.grabbing);
 
     if (allowShift.current) {
       if (dir == 1) {

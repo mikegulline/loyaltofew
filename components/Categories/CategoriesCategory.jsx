@@ -3,7 +3,7 @@ import CategoriesCategoryItem from './CategoriesCategoryItem';
 import styles from './CategoriesCategory.module.css';
 
 const CategoriesCategory = ({ category }) => {
-  const { name, link, products } = category;
+  const { name, products, link } = category;
 
   const buildCategoryItems = products.map((product) => (
     <CategoriesCategoryItem key={product.name} product={product} />
@@ -13,9 +13,19 @@ const CategoriesCategory = ({ category }) => {
     <div className={styles.category}>
       <div className={styles.header}>
         <h2>{name}</h2>
-        <Link href={link}>View All</Link>
       </div>
-      <div className={styles.products}>{buildCategoryItems}</div>
+      <div className={styles.products}>
+        {buildCategoryItems}
+        <div className={styles.viewAll}>
+          <Link
+            href={link}
+            title='view all name'
+            className={styles.viewAllButton}
+          >
+            View All
+          </Link>
+        </div>
+      </div>
     </div>
   );
 };

@@ -1,9 +1,23 @@
 .item {
   text-align: center;
-  padding: 20px;
+  position: relative;
 }
+
 .item img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   background: #f3f3f3;
+  padding: 70px;
+  display: block;
+}
+
+@media (max-width: 1480px) {
+  .item img {
+    padding: 45px;
+  }
+}
+@media (max-width: 1220px) {
+  .item img {
+    padding: 20px;
+  }
 }

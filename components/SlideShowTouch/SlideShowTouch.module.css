@@ -11,6 +11,10 @@
   display: flex;
   position: relative;
   transform: translate(-100%);
+  cursor: grab;
+}
+.grabbing {
+  cursor: grabbing;
 }
 
 .shifting {
