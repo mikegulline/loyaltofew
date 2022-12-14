@@ -29,34 +29,24 @@ function MyApp({ Component, pageProps, router }) {
         />
         <link rel='manifest' href='/images/favicon_io/site.webmanifest' />
       </Head>
-      <AddMotion router={router}>
-        <>
-          <Overlay />
-          <Header />
-          <div className='body'>
-            <Component {...pageProps} />
-          </div>
-          <Footer />
-        </>
-      </AddMotion>
+
+      <Overlay />
+      <Header />
+      <AnimatePresence mode='wait'>
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.5 }}
+          key={router.asPath}
+          className='body'
+        >
+          <Component {...pageProps} />
+        </motion.div>
+      </AnimatePresence>
+      <Footer />
     </>
   );
 }
 
 export default MyApp;
-
-const AddMotion = ({ router, children }) => {
-  return (
-    <AnimatePresence mode='wait'>
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-        transition={{ duration: 0.5 }}
-        key={router.asPath}
-      >
-        {children}
-      </motion.div>
-    </AnimatePresence>
-  );
-};
