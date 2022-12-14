@@ -1,12 +1,14 @@
+import { AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import Head from 'next/head';
 import Overlay from '../components/Overlay/Overlay';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import '../styles/globals.css';
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps, router }) {
   return (
-    <div>
+    <AddMotion router={router}>
       <Head>
         <link
           rel='apple-touch-icon'
@@ -33,8 +35,24 @@ function MyApp({ Component, pageProps }) {
         <Component {...pageProps} />
       </div>
       <Footer />
-    </div>
+    </AddMotion>
   );
 }
 
 export default MyApp;
+
+const AddMotion = ({ router, children }) => {
+  return (
+    <AnimatePresence mode='wait'>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.5 }}
+        key={router.asPath}
+      >
+        {children}
+      </motion.div>
+    </AnimatePresence>
+  );
+};
