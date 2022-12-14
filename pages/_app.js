@@ -8,7 +8,7 @@ import '../styles/globals.css';
 
 function MyApp({ Component, pageProps, router }) {
   return (
-    <AddMotion router={router}>
+    <>
       <Head>
         <link
           rel='apple-touch-icon'
@@ -29,13 +29,17 @@ function MyApp({ Component, pageProps, router }) {
         />
         <link rel='manifest' href='/images/favicon_io/site.webmanifest' />
       </Head>
-      <Overlay />
-      <Header />
-      <div className='body'>
-        <Component {...pageProps} />
-      </div>
-      <Footer />
-    </AddMotion>
+      <AddMotion router={router}>
+        <>
+          <Overlay />
+          <Header />
+          <div className='body'>
+            <Component {...pageProps} />
+          </div>
+          <Footer />
+        </>
+      </AddMotion>
+    </>
   );
 }
 
