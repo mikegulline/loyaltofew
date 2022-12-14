@@ -1,7 +1,6 @@
 import { useRef, useState } from 'react';
 import { useRouter } from 'next/router';
 import Image from 'next/image';
-import styles from './SlideShowTouch.module.css';
 
 const SlideShowTouch = () => {
   const slidesArr = [
@@ -76,7 +75,8 @@ const SlideShowTouch = () => {
     e.preventDefault();
 
     posInitial.current = items.current.offsetLeft;
-    items.current.classList.add(styles.grabbing);
+    items.current.classList.remove('cursor-grab');
+    items.current.classList.add('cursor-grabbing');
 
     if (e.type === 'touchstart') {
       posX1.current = e.touches[0].clientX;
@@ -120,8 +120,14 @@ const SlideShowTouch = () => {
   }
 
   function shiftSlide(dir, action) {
-    items.current.classList.add(styles.shifting);
-    items.current.classList.remove(styles.grabbing);
+    items.current.classList.add(
+      'transition',
+      'translate-all',
+      'ease-in-out',
+      'duration-500'
+    );
+    items.current.classList.add('cursor-grab');
+    items.current.classList.remove('cursor-grabbing');
 
     if (allowShift.current) {
       if (dir == 1) {
@@ -135,7 +141,12 @@ const SlideShowTouch = () => {
   }
 
   function checkIndex() {
-    items.current.classList.remove(styles.shifting);
+    items.current.classList.remove(
+      'transition',
+      'translate-all',
+      'ease-in-out',
+      'duration-500'
+    );
 
     if (index === 0) {
       setIndex(slidesLength.current);
@@ -149,11 +160,11 @@ const SlideShowTouch = () => {
 
   const Nav = () => {
     return (
-      <div className={styles.nav}>
+      <div className='absolute bottom-0 right-0 flex gap-px'>
         <a
           id='prev'
           onClick={() => shiftSlide(-1)}
-          className={styles.prev}
+          className='flex h-20 w-20 cursor-pointer items-center justify-center bg-black/50 pb-2 text-4xl text-white/50 transition-all ease-in-out hover:bg-black hover:pb-1 hover:text-white'
           ref={prev}
         >
           {'<'}
@@ -161,7 +172,7 @@ const SlideShowTouch = () => {
         <a
           id='next'
           onClick={() => shiftSlide(1)}
-          className={styles.next}
+          className='flex h-20 w-20 cursor-pointer items-center justify-center bg-black/50 pb-2 text-4xl text-white/50 transition-all ease-in-out hover:bg-black hover:pb-1 hover:text-white'
           ref={next}
         >
           {'>'}
@@ -171,8 +182,14 @@ const SlideShowTouch = () => {
   };
 
   const buildSlides = slidesArr.map(({ image, alt, link }, i) => (
-    <span key={i} className={styles.slide} data-link={link}>
-      <Image src={image} alt={alt} width='1320' height='660' />
+    <span key={i} className='inline-block w-full' data-link={link}>
+      <Image
+        src={image}
+        alt={alt}
+        width='1320'
+        height='660'
+        className='block h-auto w-full'
+      />
     </span>
   ));
 
@@ -181,7 +198,7 @@ const SlideShowTouch = () => {
 
   const slideParams = {
     id: 'slides',
-    className: styles.slides,
+    className: 'flex relative transform translate-x-full cursor-grab',
     ref: items,
     onMouseDown: dragStart,
     onTouchStart: dragStart,
@@ -191,8 +208,8 @@ const SlideShowTouch = () => {
   };
 
   return (
-    <div id='slider' className={styles.slider} ref={wrapper}>
-      <div className={styles.wrapper}>
+    <div id='slider' className='relative my-12' ref={wrapper}>
+      <div className='overflow-hidden'>
         <div
           {...slideParams}
           style={{
