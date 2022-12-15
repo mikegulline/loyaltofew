@@ -4,19 +4,23 @@ import Container from './Container/Container';
 
 const Breadcrumbs = ({ links }) => {
   const buildLinks = links.map((link, i) => {
+    let addSlash = i ? ' / ' : '';
+
+    let showLink = !link[1] ? (
+      link[0]
+    ) : (
+      <Link
+        href={link[1]}
+        className=' text-zinc-200 hover:text-white  hover:underline'
+      >
+        {link[0]}
+      </Link>
+    );
+
     return (
       <Fragment key={link[0]}>
-        {i ? ' / ' : ''}
-        {!link[1] ? (
-          link[0]
-        ) : (
-          <Link
-            href={link[1]}
-            className=' text-zinc-200 hover:text-white  hover:underline'
-          >
-            {link[0]}
-          </Link>
-        )}
+        {addSlash}
+        {showLink}
       </Fragment>
     );
   });
