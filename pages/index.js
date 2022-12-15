@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import SlideShowTouch from '../components/SlideShowTouch/SlideShowTouch';
 import Container from '../components/Container/Container';
-import Breadcrumbs from '../components/Breadcrumbs/Breadcrumbs';
+import Breadcrumbs from '../components/Breadcrumbs';
 import { breadcrumbs } from '../data/menu';
 
 export default function Home() {

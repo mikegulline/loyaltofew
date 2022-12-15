@@ -1,5 +1,5 @@
 import Container from '../../components/Container/Container';
-import Breadcrumbs from '../../components/Breadcrumbs/Breadcrumbs';
+import Breadcrumbs from '../../components/Breadcrumbs';
 import styles from './StoreWrapper.module.css';
 
 const StoreWrapper = ({ title, children, breadcrumbs }) => {

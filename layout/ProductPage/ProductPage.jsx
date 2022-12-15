@@ -3,7 +3,7 @@ import styles from './ProductPage.module.css';
 import Image from 'next/image';
 import ColorLinks from '../../components/ColorLinks';
 import Container from '../../components/Container/Container';
-import Breadcrumbs from '../../components/Breadcrumbs/Breadcrumbs';
+import Breadcrumbs from '../../components/Breadcrumbs';
 import LogoOptions from '../../components/LogoOptions/LogoOptions';
 
 const ProductPage = ({ product }) => {
