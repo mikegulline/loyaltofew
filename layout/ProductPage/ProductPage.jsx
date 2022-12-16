@@ -1,5 +1,4 @@
 import { useState, Fragment } from 'react';
-import styles from './ProductPage.module.css';
 import Image from 'next/image';
 import ColorLinks from '../../components/ColorLinks';
 import Container from '../../components/Container/Container';
@@ -15,13 +14,21 @@ const ProductPage = ({ product }) => {
     <>
       <Breadcrumbs links={breadcrumbs} />
 
-      <div className={styles.wrapper}>
-        <Container className={styles.product}>
-          <div className={styles.imageBlock}>
-            <Image src={image} alt={name} width='752' height='752' />
+      <div className='wrapper py-5 lg:py-8  xl:py-12 2xl:py-16'>
+        <Container className='flex flex-col items-center xl:flex-row'>
+          <div className='image-column'>
+            <div className='image-wrapper bg-zinc-200'>
+              <Image
+                src={image}
+                alt={name}
+                width='645'
+                height='645'
+                className='max-width-100 block h-auto xl:max-w-[580px] 2xl:max-w-[645px]'
+              />
+            </div>
           </div>
-          <div className={styles.infosBlock}>
-            <h1>
+          <div className='info-column mt-8 w-full px-0 xl:mt-0 xl:px-20 2xl:px-28'>
+            <h1 className='mb-8 text-4xl font-black'>
               {name} ({color})
             </h1>
             <ColorLinks
@@ -29,14 +36,15 @@ const ProductPage = ({ product }) => {
               link={link}
               align='left'
               scroll={false}
+              className='mb-8'
             />
 
             <Dimensions dimensions={sizes[sizeAndPriceIndex].dimensions} />
             <Details details={details} />
-            <div className={styles.buttons}>
+            <div className='buttons flex gap-1'>
               <Sizes sizes={sizes} onChange={setSizeAndPriceIndex} />
               <button
-                className={`snipcart-add-item ${styles.button}`}
+                className='snipcart-add-item font-lighter rounded border border-zinc-800 bg-zinc-800 text-white hover:border-red-600 hover:bg-red-600 '
                 data-item-id={productId}
                 data-item-price={sizes[sizeAndPriceIndex].price}
                 data-item-description={`${name} (${color}) ${sizes[sizeAndPriceIndex].size}`}
@@ -49,7 +57,7 @@ const ProductPage = ({ product }) => {
             </div>
           </div>
         </Container>
-        <Container className={styles.logoOptions}>
+        <Container className='pt-8'>
           <LogoOptions product={product} />
         </Container>
       </div>
@@ -58,17 +66,11 @@ const ProductPage = ({ product }) => {
 };
 
 const Details = ({ details }) => {
-  const buildDetails = details.map((info, i) => {
-    const space = i > 0 ? ' ' : '';
-    return (
-      <Fragment key={i}>
-        {space}
-        {info}.
-      </Fragment>
-    );
-  });
+  const buildDetails = details.map((info, i) => (
+    <Fragment key={i}>{info}. </Fragment>
+  ));
 
-  return <p>{buildDetails}</p>;
+  return <p className='mb-8'>{buildDetails}</p>;
 };
 
 const Dimensions = ({ dimensions }) => {
@@ -80,10 +82,8 @@ const Dimensions = ({ dimensions }) => {
 
   return (
     <>
-      <p>
-        <strong>Dimensions:</strong>
-      </p>
-      <ul>{buildDimensions}</ul>
+      <p className='mb-1 font-bold'>Dimensions:</p>
+      <ul className='ml-4 mb-4 list-disc pl-4'>{buildDimensions}</ul>
     </>
   );
 };
@@ -100,7 +100,11 @@ const Sizes = ({ sizes, onChange }) => {
   ));
 
   return (
-    <select name='size' onChange={handleSizeChange}>
+    <select
+      name='size'
+      className='bg-zinc-100 hover:border-red-600 hover:bg-white'
+      onChange={handleSizeChange}
+    >
       {buildSizes}
     </select>
   );

@@ -1,7 +1,13 @@
 import Link from 'next/link';
 import styles from '../styles/colors.module.css';
 
-const ColorLinks = ({ colors, link, align = '', scroll = true }) => {
+const ColorLinks = ({
+  colors,
+  link,
+  align = '',
+  scroll = true,
+  className = '',
+}) => {
   const wrapperClass = styles[`colorSwatches${align}`];
 
   const buildLinks = colors.map((color) => {
@@ -23,7 +29,7 @@ const ColorLinks = ({ colors, link, align = '', scroll = true }) => {
     );
   });
 
-  return <div className={wrapperClass}>{buildLinks}</div>;
+  return <div className={wrapperClass + ' ' + className}>{buildLinks}</div>;
 };
 
 export default ColorLinks;
