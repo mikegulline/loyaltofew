@@ -1,14 +1,13 @@
 import Container from '../../components/Container/Container';
 import Breadcrumbs from '../../components/Breadcrumbs';
-import styles from './StoreWrapper.module.css';
 
 const StoreWrapper = ({ title, children, breadcrumbs }) => {
   return (
     <>
-      {breadcrumbs && <Breadcrumbs links={breadcrumbs} />}
-      <div className={styles.wrapper}>
+      <Breadcrumbs links={breadcrumbs} />
+      <div>
         <Container>
-          <h1>{title}</h1>
+          <h1 className='mb-8 mt-8 text-7xl font-black'>{title}</h1>
           {children}
         </Container>
       </div>

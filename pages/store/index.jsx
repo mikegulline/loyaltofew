@@ -17,8 +17,7 @@ const CategoriesPage = ({ categories }) => {
   return (
     <>
       <SEO {...meta} />
-      <Breadcrumbs links={breadcrumbs} />
-      <StoreWrapper title='Store'>
+      <StoreWrapper title='Store' breadcrumbs={breadcrumbs}>
         <Categories categories={categories} />
       </StoreWrapper>
     </>
