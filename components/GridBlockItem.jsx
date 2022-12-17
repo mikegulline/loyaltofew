@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const GridBlockItem = ({ link, image, name, children }) => {
   return (
-    <div className='relative '>
+    <div className='relative text-center'>
       <Link href={link}>
         <Image
           src={image}
