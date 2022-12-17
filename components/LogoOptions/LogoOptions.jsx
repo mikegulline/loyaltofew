@@ -1,6 +1,6 @@
 // import Image from 'next/image';
 import LogoOptionsItem from './LogoOptionsItem';
-import styles from './LogoOptions.module.css';
+import GridBlock from '../GridBlock';
 
 const LogoOptions = ({ product }) => {
   const { logos, color } = product;
@@ -15,14 +15,7 @@ const LogoOptions = ({ product }) => {
     />
   ));
 
-  return (
-    <div className={styles.category}>
-      <div className={styles.header}>
-        <h2>Logo Options</h2>
-      </div>
-      <div className={styles.products}>{buildLogoOptions}</div>
-    </div>
-  );
+  return <GridBlock name='Logo Options'>{buildLogoOptions}</GridBlock>;
 };
 
 export default LogoOptions;

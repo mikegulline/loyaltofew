@@ -1,8 +1,5 @@
-// import Image from 'next/image';
-import Link from 'next/link';
 import CategoryItemsItem from './CategoryItemsItem';
-import styles from './CategoryItems.module.css';
-import { isPlural } from '../../utils/plural';
+import GridBlock from '../GridBlock';
 
 const CategoryItems = ({ product, title, color }) => {
   const { name, logos } = product;
@@ -16,21 +13,8 @@ const CategoryItems = ({ product, title, color }) => {
     />
   ));
 
-  const addHeader = (
-    <div className={styles.header}>
-      <h2>{name}</h2>
-    </div>
-  );
-  const addLogoOptionsHead = (
-    <div className={styles.header}>
-      <h2>{title}</h2>
-    </div>
-  );
   return (
-    <div className={styles.category}>
-      {title ? addLogoOptionsHead : addHeader}
-      <div className={styles.products}>{buildCategoryItems}</div>
-    </div>
+    <GridBlock name={title ? title : name}>{buildCategoryItems}</GridBlock>
   );
 };
 

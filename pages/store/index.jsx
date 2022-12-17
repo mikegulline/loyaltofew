@@ -1,7 +1,6 @@
 import { getStore } from '../../data/storeModals';
 import Categories from '../../components/Categories/Categories';
 import StoreWrapper from '../../layout/StoreWrapper/StoreWrapper';
-import Breadcrumbs from '../../components/Breadcrumbs';
 import { breadcrumbs } from '../../data/menu';
 import SEO from '../../components/SEO';
 
@@ -25,13 +24,13 @@ const CategoriesPage = ({ categories }) => {
 };
 
 export async function getStaticProps() {
-  const store = getStore();
+  const { categories } = getStore();
 
-  if (!store) return { notFound: true };
+  if (!categories) return { notFound: true };
 
   return {
     props: {
-      ...store,
+      categories,
     },
   };
 }
