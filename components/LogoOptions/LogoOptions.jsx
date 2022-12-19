@@ -1,19 +1,19 @@
-import GridBlockItem from '../GridBlockItem';
 import GridBlock from '../GridBlock';
+import GridBlockItem from '../GridBlockItem';
 import GridBlockItemSelectDot from '../GridBlockItemSelectDot';
 
 const LogoOptions = ({ product }) => {
-  const { logos, colors } = product;
+  const { logos, color } = product;
 
   const buildLogoOptions = logos.map((logo) => {
-    const { link, image, name } = logo;
+    const { link, name, imageColorRoot } = logo;
     const current = product.logo === logo.logo;
 
     return (
       <GridBlockItem
         key={name}
-        link={`${link}/${colors[0].toLowerCase()}`}
-        image={image}
+        link={`${link}/${color.toLowerCase()}`}
+        image={`${imageColorRoot}${color}.jpg`}
         name={name}
       >
         <GridBlockItemSelectDot current={current} />
