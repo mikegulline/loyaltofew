@@ -1,24 +1,23 @@
-import styles from './Container.module.css';
-
 const getSizeClass = (size) => {
-  if (!size) return;
-
   let returnSize;
 
   switch (size) {
     case 'large':
     case 'lg':
-      returnSize = styles.containerLarge;
+      returnSize = 'px-0 2xl:max-w-screen-2xl';
       break;
     case 'small':
     case 'sm':
-      returnSize = styles.containerSmall;
+      returnSize = 'px-4 md:max-w-screen-md lg:max-w-screen-lg';
       break;
     case 'extra small':
     case 'extrasmall':
     case 'xs':
-      returnSize = styles.containerExtraSmall;
+      returnSize = 'px-4 md:max-w-screen-md lg:max-w-screen-lg';
       break;
+    default:
+      returnSize =
+        'px-4 md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl';
   }
 
   return returnSize;
@@ -28,7 +27,7 @@ const Container = ({ children, className, size }) => {
   const passSizeClass = getSizeClass(size);
   const passClassName = className ? className : '';
   return (
-    <div className={`${styles.container} ${passSizeClass} ${passClassName}`}>
+    <div className={`mx-auto   ${passSizeClass} ${passClassName}`}>
       {children}
     </div>
   );
