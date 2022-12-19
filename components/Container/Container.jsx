@@ -13,7 +13,7 @@ const getSizeClass = (size) => {
     case 'extra small':
     case 'extrasmall':
     case 'xs':
-      returnSize = 'px-4 md:max-w-screen-md lg:max-w-screen-lg';
+      returnSize = 'px-4 md:max-w-screen-md md:max-w-screen-md';
       break;
     default:
       returnSize =

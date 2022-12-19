@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import styles from '../styles/colors.module.css';
 
 const ColorLinks = ({
   colors,
@@ -8,12 +7,14 @@ const ColorLinks = ({
   scroll = true,
   className = '',
 }) => {
-  const wrapperClass = styles[`colorSwatches${align}`];
+  const wrapperClass = `flex items-center ${
+    align ? 'content-left' : 'content-center'
+  }`;
 
   const buildLinks = colors.map((color) => {
-    const linkClasses = `${styles.colorSwatch} ${
-      styles[color.toLowerCase().replace(' ', '')]
-    }`;
+    const linkClasses = `w-8 h-8 rounded-full border solid border-white -mr-1 -ml-1 ${color
+      .toLowerCase()
+      .replace(' ', '')}`;
     const href = `${link}/${color.toLowerCase().replace(' ', '')}`;
 
     return (
@@ -24,7 +25,7 @@ const ColorLinks = ({
         title={color}
         scroll={scroll}
       >
-        <div className={styles.colorSwatchName}>{color}</div>
+        <div className='hidden'>{color}</div>
       </Link>
     );
   });

@@ -252,3 +252,51 @@ select[multiple] {
   /* Move the label to the top */
   vertical-align: top;
 }
+
+.black {
+  background: black;
+}
+
+.gray {
+  background: gray;
+}
+
+.green {
+  background: green;
+}
+
+.blue {
+  background: blue;
+}
+
+.maroon {
+  background: maroon;
+}
+
+.navy {
+  background: navy;
+}
+
+.off-black {
+  background: #333;
+}
+
+.dolphin-blue {
+  background: darkblue;
+}
+
+.red {
+  background: red;
+}
+
+.black-white {
+  background: black;
+}
+
+.gray-white {
+  background: gray;
+}
+
+.navy-white {
+  background: navy;
+}
