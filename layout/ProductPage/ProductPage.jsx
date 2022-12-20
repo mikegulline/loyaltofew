@@ -21,9 +21,9 @@ const ProductPage = ({ product }) => {
               <Image
                 src={image}
                 alt={name}
-                width='645'
-                height='645'
-                className='max-width-100 block h-auto xl:max-w-[580px] 2xl:max-w-[645px]'
+                width='744'
+                height='744'
+                className='max-width-100 block h-auto p-4 lg:p-12 xl:max-w-[580px] 2xl:max-w-[734px]'
               />
             </div>
           </div>

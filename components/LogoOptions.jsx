@@ -14,7 +14,6 @@ const LogoOptions = ({ product }) => {
         key={name}
         link={`${link}/${color.toLowerCase()}`}
         image={`${imageColorRoot}${color}.jpg`}
-        name={name}
       >
         <GridBlockItemSelectDot current={current} />
       </GridBlockItem>
