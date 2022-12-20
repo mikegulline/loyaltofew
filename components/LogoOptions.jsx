@@ -1,6 +1,6 @@
-import GridBlock from '../GridBlock';
-import GridBlockItem from '../GridBlockItem';
-import GridBlockItemSelectDot from '../GridBlockItemSelectDot';
+import GridBlock from './GridBlock';
+import GridBlockItem from './GridBlockItem';
+import GridBlockItemSelectDot from './GridBlockItemSelectDot';
 
 const LogoOptions = ({ product }) => {
   const { logos, color } = product;

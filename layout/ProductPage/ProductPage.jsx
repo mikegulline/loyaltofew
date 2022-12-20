@@ -3,7 +3,7 @@ import Image from 'next/image';
 import ColorLinks from '../../components/ColorLinks';
 import Container from '../../components/Container/Container';
 import Breadcrumbs from '../../components/Breadcrumbs';
-import LogoOptions from '../../components/LogoOptions/LogoOptions';
+import LogoOptions from '../../components/LogoOptions';
 
 const ProductPage = ({ product }) => {
   const [sizeAndPriceIndex, setSizeAndPriceIndex] = useState(0);
