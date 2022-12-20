@@ -1,7 +1,7 @@
 import { useState, Fragment } from 'react';
 import Image from 'next/image';
 import ColorLinks from '../../components/ColorLinks';
-import Container from '../../components/Container/Container';
+import Container from '../../components/Container';
 import Breadcrumbs from '../../components/Breadcrumbs';
 import LogoOptions from '../../components/LogoOptions';
 

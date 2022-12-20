@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { Fragment } from 'react';
-import Container from './Container/Container';
+import Container from './Container';
 
 const Breadcrumbs = ({ links }) => {
   const buildLinks = links.map((link, i) => {

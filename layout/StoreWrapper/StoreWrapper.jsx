@@ -1,4 +1,4 @@
-import Container from '../../components/Container/Container';
+import Container from '../../components/Container';
 import Breadcrumbs from '../../components/Breadcrumbs';
 
 const StoreWrapper = ({ title, children, breadcrumbs }) => {

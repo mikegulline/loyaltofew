@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import styles from './Footer.module.css';
-import Container from '../Container/Container';
+import Container from '../Container';
 import Menu from '../Menu';
 import { footerSiteMenu, footerShopMenu } from '../../data/menu';
 

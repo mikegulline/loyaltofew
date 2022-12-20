@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Container from '../Container/Container';
+import Container from '../Container';
 import Menu from '../Menu';
 import styles from './Header.module.css';
 import LogoSVG from '../../public/logos/ltf-logo.svg';
