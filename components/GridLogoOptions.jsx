@@ -2,7 +2,7 @@ import GridBlock from './GridBlock';
 import GridBlockItem from './GridBlockItem';
 import GridBlockItemSelectDot from './GridBlockItemSelectDot';
 
-const LogoOptions = ({ product }) => {
+const GridLogoOptions = ({ product }) => {
   const { logos, color } = product;
 
   const buildLogoOptions = logos.map((logo) => {
@@ -13,7 +13,10 @@ const LogoOptions = ({ product }) => {
       <GridBlockItem
         key={name}
         link={`${link}/${color.toLowerCase()}`}
+        scroll='focus'
         image={`${imageColorRoot}${color}.jpg`}
+        name={name}
+        showName={false}
       >
         <GridBlockItemSelectDot current={current} />
       </GridBlockItem>
@@ -23,4 +26,4 @@ const LogoOptions = ({ product }) => {
   return <GridBlock name='Logo Options'>{buildLogoOptions}</GridBlock>;
 };
 
-export default LogoOptions;
+export default GridLogoOptions;

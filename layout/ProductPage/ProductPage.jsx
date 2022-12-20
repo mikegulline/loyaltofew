@@ -3,7 +3,7 @@ import Image from 'next/image';
 import ColorLinks from '../../components/ColorLinks';
 import Container from '../../components/Container';
 import Breadcrumbs from '../../components/Breadcrumbs';
-import LogoOptions from '../../components/LogoOptions';
+import GridLogoOptions from '../../components/GridLogoOptions';
 
 const ProductPage = ({ product }) => {
   const [sizeAndPriceIndex, setSizeAndPriceIndex] = useState(0);
@@ -23,7 +23,7 @@ const ProductPage = ({ product }) => {
                 alt={name}
                 width='744'
                 height='744'
-                className='max-width-100 block h-auto p-4 lg:p-12 xl:max-w-[580px] 2xl:max-w-[734px]'
+                className='max-width-100 block h-auto p-4 lg:p-12 xl:max-w-[606px] 2xl:max-w-[734px]'
               />
             </div>
           </div>
@@ -58,7 +58,7 @@ const ProductPage = ({ product }) => {
           </div>
         </Container>
         <Container className='pt-8'>
-          <LogoOptions product={product} />
+          <GridLogoOptions product={product} />
         </Container>
       </div>
     </>

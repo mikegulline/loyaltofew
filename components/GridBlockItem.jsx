@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from './Link';
 
-const GridBlockItem = ({ link, image, name, children }) => {
+const GridBlockItem = ({ link, image, name, children, showName = true }) => {
   return (
     <div className='relative text-center'>
       <Link href={link}>
@@ -12,7 +12,7 @@ const GridBlockItem = ({ link, image, name, children }) => {
           width={310}
           height={310}
         />
-        <h4 className='mt-4 text-lg font-black'>{name}</h4>
+        {showName && <h4 className='mt-4 mb-2 font-medium'>{name}</h4>}
       </Link>
       {children}
     </div>
