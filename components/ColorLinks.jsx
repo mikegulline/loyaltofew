@@ -8,7 +8,7 @@ const ColorLinks = ({
   className = '',
 }) => {
   const wrapperClass = `flex items-center ${
-    align ? 'content-left' : 'content-center'
+    align ? 'justify-left' : 'justify-center'
   }`;
 
   const buildLinks = colors.map((color) => {
