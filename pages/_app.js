@@ -1,7 +1,6 @@
-import { AnimatePresence } from 'framer-motion';
-import { motion } from 'framer-motion';
+import { AnimatePresence, motion } from 'framer-motion';
 import Head from 'next/head';
-import Overlay from '../components/Overlay/Overlay';
+import Overlay from '../components/Overlay';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import '../styles/globals.css';
