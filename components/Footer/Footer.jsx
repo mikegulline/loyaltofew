@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from '../Link';
 import styles from './Footer.module.css';
 import Container from '../Container';
 import Menu from '../Menu';

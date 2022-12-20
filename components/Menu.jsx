@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from './Link';
 import { useRouter } from 'next/router';
 
 const Menu = ({

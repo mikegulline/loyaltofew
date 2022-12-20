@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from '../Link';
 import Container from '../Container';
 import Menu from '../Menu';
 import styles from './Header.module.css';

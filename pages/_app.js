@@ -30,8 +30,15 @@ function MyApp({ Component, pageProps, router }) {
       </Head>
 
       <Overlay />
-      <Header />
-      <AnimatePresence mode='wait' initial={false}>
+      <AnimatePresence
+        mode='wait'
+        initial={false}
+        onExitComplete={() => {
+          if (typeof window !== 'undefined') {
+            window.scrollTo({ top: 0 });
+          }
+        }}
+      >
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -40,10 +47,11 @@ function MyApp({ Component, pageProps, router }) {
           key={router.asPath}
           className='body'
         >
+          <Header />
           <Component {...pageProps} />
+          <Footer />
         </motion.div>
       </AnimatePresence>
-      <Footer />
     </>
   );
 }

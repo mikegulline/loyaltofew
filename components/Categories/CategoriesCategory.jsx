@@ -1,7 +1,7 @@
 import GridBlock from '../GridBlock';
 import GridBlockItem from '../GridBlockItem';
 import ViewAll from './ViewAll';
-import Link from 'next/link';
+import Link from '../Link';
 import { plural } from '../../utils/plural';
 
 const CategoriesCategory = ({ category }) => {
