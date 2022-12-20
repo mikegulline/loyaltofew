@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import styles from './Footer.module.css';
 import Container from '../Container/Container';
-import Menu from '../Menu/Menu';
+import Menu from '../Menu';
 import { footerSiteMenu, footerShopMenu } from '../../data/menu';
 
 const Footer = () => {
