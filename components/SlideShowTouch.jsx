@@ -105,6 +105,8 @@ const SlideShowTouch = () => {
   function dragEnd(e) {
     posFinal.current = items.current.offsetLeft;
 
+    items.current.classList.add('cursor-grabbing');
+
     enableScroll();
 
     if (posFinal.current - posInitial.current < -threshold.current) {
@@ -198,7 +200,7 @@ const SlideShowTouch = () => {
 
   const slideParams = {
     id: 'slides',
-    className: 'flex relative transform translate-x-full cursor-grab',
+    className: 'flex relative translate-x-full cursor-grab left-0 ',
     ref: items,
     onMouseDown: dragStart,
     onTouchStart: dragStart,

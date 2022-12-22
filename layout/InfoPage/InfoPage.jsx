@@ -7,7 +7,7 @@ const InfoPage = ({ children }) => {
     <>
       <Breadcrumbs links={breadcrumbs} />
       <div className='wrapper pb-5 lg:pb-14'>
-        <Container size='xs'>{children}</Container>
+        <Container size='sm'>{children}</Container>
       </div>
     </>
   );
