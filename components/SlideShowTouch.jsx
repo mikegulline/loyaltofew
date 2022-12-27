@@ -25,6 +25,7 @@ const SlideShowTouch = () => {
       link: '/store/hats',
     },
   ];
+
   const [index, setIndex] = useState(1);
   const router = useRouter();
 
@@ -183,20 +184,26 @@ const SlideShowTouch = () => {
     );
   };
 
-  const buildSlides = slidesArr.map(({ image, alt, link }, i) => (
-    <span key={i} className='inline-block w-full' data-link={link}>
-      <Image
-        src={image}
-        alt={alt}
-        width='1320'
-        height='660'
-        className='block h-auto w-full'
-      />
-    </span>
-  ));
+  const buildSlides = () => {
+    const buildSlidesArray = [...slidesArr];
+    buildSlidesArray.unshift(slidesArr[slidesArr.length - 1]);
+    buildSlidesArray.push(slidesArr[1]);
 
-  buildSlides.unshift(buildSlides[buildSlides.length - 1]);
-  buildSlides.push(buildSlides[1]);
+    return buildSlidesArray.map(({ image, alt, link }, i) => (
+      <span key={i} className='inline-block w-full' data-link={link}>
+        <Image
+          src={image}
+          alt={alt}
+          width='1320'
+          height='660'
+          className='block h-auto w-full'
+        />
+      </span>
+    ));
+  };
+
+  // buildSlides.unshift(buildSlides[buildSlides.length - 1]);
+  // buildSlides.push(buildSlides[1]);
 
   const slideParams = {
     id: 'slides',
@@ -221,7 +228,7 @@ const SlideShowTouch = () => {
             }%)`,
           }}
         >
-          {buildSlides}
+          {buildSlides()}
         </div>
       </div>
       <Nav />
