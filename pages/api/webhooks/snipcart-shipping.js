@@ -3,17 +3,17 @@ import nc from 'next-connect';
 const handler = nc();
 
 handler.post(async (req, res) => {
-  const token = req.headers['X-Snipcart-RequestToken'];
-  if (!token) {
-    return res.json({
-      errors: [
-        {
-          key: 'no_token',
-          message: 'Missing or invalid RequestToken',
-        },
-      ],
-    });
-  }
+  // const token = req.headers['X-Snipcart-RequestToken'];
+  // if (!token) {
+  //   return res.json({
+  //     errors: [
+  //       {
+  //         key: 'no_token',
+  //         message: 'Missing or invalid RequestToken',
+  //       },
+  //     ],
+  //   });
+  // }
 
   return res.json({
     rates: [
