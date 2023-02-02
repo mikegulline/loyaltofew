@@ -2,7 +2,7 @@ import nc from 'next-connect';
 
 const handler = nc();
 
-handler.get(async (req, res) => {
+handler.post(async (req, res) => {
   const token = req.headers['X-Snipcart-RequestToken'];
   if (!token) {
     return res.json({
