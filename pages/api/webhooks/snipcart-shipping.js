@@ -43,42 +43,57 @@ handler.post(async (req, res) => {
   // const { rates, errors } = await getRates(req.body);
 
   const errors = null;
+  const {
+    eventName = '',
+    content: {
+      shippingAddressName: name = '',
+      shippingAddressCompanyName: company = '',
+      shippingAddressAddress1: street1 = '',
+      shippingAddressAddress2: street2 = '',
+      shippingAddressCity: city = '',
+      shippingAddressCountry: country = '',
+      shippingAddressProvince: state = '',
+      shippingAddressPostalCode: zip = '',
+      shippingAddressPhone: phone = '',
+      totalWeight: weight = 33.3,
+    },
+  } = req.body;
   const rates = [
     {
       cost: 8.14,
-      description: '$8.14 shipping',
+      description: '$8.14 shipping ' + eventName,
     },
     {
       cost: 8.31,
-      description: '$8.31 shipping',
+      description: '$8.31 shipping ' + name,
     },
     {
       cost: 12.73,
-      description: '$12.73 shipping',
+      description: '$12.73 shipping ' + street1,
     },
     {
       cost: 19.68,
-      description: '$19.68 shipping',
+      description: '$19.68 shipping ' + city,
     },
     {
       cost: 20.78,
-      description: '$20.78 shipping',
+      description: '$20.78 shipping ' + country,
     },
     {
       cost: 21.93,
-      description: '$21.93 shipping',
+      description: '$21.93 shipping ' + zip,
     },
     {
       cost: 23.12,
-      description: '$23.12 shipping',
+      description: '$23.12 shipping ' + phone,
     },
     {
       cost: 33.16,
-      description: '$33.16 shipping',
+      description: '$33.16 shipping ' + weight,
     },
     {
       cost: 39.05,
-      description: '$39.05 shipping',
+      description: '$39.05 shipping ' + state,
     },
     {
       cost: 40.15,
