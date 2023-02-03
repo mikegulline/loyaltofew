@@ -9,6 +9,35 @@ const API_KEY = process.env.EASYPOST_API_TEST;
 
 const handler = nc();
 
+// handler.get(async (req, res) => {
+//   const body = {
+//     eventName: '',
+//     content: {
+//       shippingAddressName: 'Mike Gulline',
+//       shippingAddressCompanyName: '',
+//       shippingAddressAddress1: '7624 Potter Valley Dr.',
+//       shippingAddressAddress2: '',
+//       shippingAddressCity: 'Eastvale',
+//       shippingAddressCountry: 'USA',
+//       shippingAddressProvince: 'CA',
+//       shippingAddressPostalCode: '92880',
+//       shippingAddressPhone: '',
+//       totalWeight: 10.0,
+//     },
+//   };
+
+//   // get rates or errors
+//   const { rates, errors } = await getRates(body);
+
+//   // return errors
+//   if (errors) {
+//     return res.json({ errors });
+//   }
+
+//   // return rates
+//   return res.json({ rates });
+// });
+
 handler.post(async (req, res) => {
   // get rates or errors
   const { rates, errors } = await getRates(req.body);
@@ -42,7 +71,7 @@ async function getRates(body) {
       shippingAddressProvince: state = '',
       shippingAddressPostalCode: zip = '',
       shippingAddressPhone: phone = '',
-      totalWeight: weight = '',
+      totalWeight: weight = 10.0,
     },
   } = body;
 
@@ -79,24 +108,53 @@ async function getRates(body) {
       },
     });
 
+    console.log({
+      from_address: {
+        street1: '417 MONTGOMERY ST',
+        street2: 'FLOOR 5',
+        city: 'SAN FRANCISCO',
+        state: 'CA',
+        zip: '94104',
+        country: 'US',
+        company: 'EasyPost',
+        phone: '415-123-4567',
+      },
+      to_address: {
+        name,
+        company,
+        street1,
+        street2,
+        city,
+        country,
+        state,
+        zip,
+        phone,
+      },
+      parcel: {
+        weight,
+      },
+    });
+
     // save shipment
     const save = await shipment.save();
     // get lowest rate
     const lowestRate = shipment.lowestRate();
 
     // map rates
-    const rates = save.rates.map((rate) => {
-      return {
-        cost: Number(rate),
-        description: `$${rate} shipping`,
-      };
-    });
+    const rates = save.rates
+      .map(({ rate }) => {
+        return {
+          cost: Number(rate),
+          description: `$${rate} shipping`,
+        };
+      })
+      .sort((a, b) => a.cost - b.cost);
 
     // return rates with no errors
-    return res.json({ rates, errors: null });
+    return { rates, errors: null };
   } catch (errors) {
     // return errors with no rates
-    return res.json({ rates: null, errors });
+    return { rates: null, errors };
   }
 }
 
