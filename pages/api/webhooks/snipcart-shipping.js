@@ -40,9 +40,8 @@ handler.get(async (req, res) => {
 
 handler.post(async (req, res) => {
   // get rates or errors
-  // const { rates, errors } = await getRates(req.body);
+  const { rates: r, errors } = await getRates(req.body);
 
-  const errors = null;
   const {
     eventName = '',
     content: {
@@ -61,11 +60,11 @@ handler.post(async (req, res) => {
   const rates = [
     {
       cost: 8.14,
-      description: '$8.14 shipping ' + eventName,
+      description: '$8.14 shipping ' + r.name,
     },
     {
       cost: 8.31,
-      description: '$8.31 shipping ' + name,
+      description: '$8.31 shipping ' + r.weight,
     },
     {
       cost: 12.73,
@@ -154,7 +153,7 @@ async function getRates(body) {
       shippingAddressProvince: state = '',
       shippingAddressPostalCode: zip = '',
       shippingAddressPhone: phone = '',
-      totalWeight: weight = 33.3,
+      // totalWeight: weight = 33.3,
     },
   } = body;
 
@@ -194,7 +193,7 @@ async function getRates(body) {
     // save shipment
     const save = await shipment.save();
     // get lowest rate
-    const lowestRate = shipment.lowestRate();
+    // const lowestRate = shipment.lowestRate();
 
     // map rates
     const rates = save.rates
