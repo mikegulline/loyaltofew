@@ -22,7 +22,7 @@ const handler = nc();
 //       shippingAddressProvince: 'CA',
 //       shippingAddressPostalCode: '92880',
 //       shippingAddressPhone: '',
-//       totalWeight: 10.0,
+//       totalWeight: 33.3,
 //     },
 //   };
 
@@ -71,7 +71,7 @@ async function getRates(body) {
       shippingAddressProvince: state = '',
       shippingAddressPostalCode: zip = '',
       shippingAddressPhone: phone = '',
-      totalWeight: weight = 10.0,
+      totalWeight: weight = 33.3,
     },
   } = body;
 
@@ -104,34 +104,7 @@ async function getRates(body) {
         phone,
       },
       parcel: {
-        weight,
-      },
-    });
-
-    console.log({
-      from_address: {
-        street1: '417 MONTGOMERY ST',
-        street2: 'FLOOR 5',
-        city: 'SAN FRANCISCO',
-        state: 'CA',
-        zip: '94104',
-        country: 'US',
-        company: 'EasyPost',
-        phone: '415-123-4567',
-      },
-      to_address: {
-        name,
-        company,
-        street1,
-        street2,
-        city,
-        country,
-        state,
-        zip,
-        phone,
-      },
-      parcel: {
-        weight,
+        weight: 33.3,
       },
     });
 
