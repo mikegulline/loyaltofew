@@ -1,7 +1,9 @@
 import Link from './Link';
+import { useRouter } from 'next/router';
 
 const ColorLinks = (props) => {
-  const { colors, link, align = ``, scroll = true, className = `` } = props;
+  const router = useRouter();
+  const { colors, link, align = ``, scroll, className = ``, hover } = props;
   const alignClass = align ? `justify-${align}` : `justify-center`;
   const wrapperClasses = `flex items-center ${alignClass} ${className}`;
 
@@ -9,8 +11,25 @@ const ColorLinks = (props) => {
     <div className={wrapperClasses}>
       {colors.map((color) => {
         const colorName = color.toLowerCase().replace(` `, ``);
-        const linkClasses = `w-8 h-8 rounded-full border solid border-white -mr-1 -ml-1 ${colorName}`;
+        const linkClasses = `w-8 h-8 cursor-pointer rounded-full border solid border-white -mr-1 -ml-1 ${colorName}`;
         const href = `${link}/${colorName}`;
+
+        const handleEnter = () => {
+          router.push(href, undefined, { scroll: false });
+        };
+
+        if (hover) {
+          return (
+            <div
+              className={linkClasses}
+              key={colorName}
+              title={color}
+              onMouseEnter={() => handleEnter()}
+            >
+              <div className='hidden'>{color}</div>
+            </div>
+          );
+        }
 
         return (
           <Link

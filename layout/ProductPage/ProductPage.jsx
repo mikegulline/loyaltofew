@@ -1,29 +1,21 @@
-import { Fragment } from 'react';
+import { useState, Fragment } from 'react';
 import Image from 'next/image';
 import ColorLinks from '../../components/ColorLinks';
 import Container from '../../components/Container';
 import GridLogoOptions from '../../components/GridLogoOptions';
 
-const ProductPage = ({ product, passState }) => {
-  const [sizeAndPriceIndex, setSizeAndPriceIndex] = passState;
+const ProductPage = ({ product }) => {
+  const [sizeAndPriceIndex, setSizeAndPriceIndex] = useState(0);
   const { id, name, image, link, colors, sizes, weight, details, color } =
     product;
   const productId = `${id}:${sizes[sizeAndPriceIndex].size}`;
+  const productName = `${name} (${color}) ${sizes[sizeAndPriceIndex].size}`;
   return (
     <>
       <div className='wrapper py-5 lg:py-8  xl:py-12 2xl:py-16'>
         <Container className='flex flex-col items-center xl:flex-row'>
-          <div className='image-column'>
-            <div className='image-wrapper bg-zinc-200'>
-              <Image
-                src={image}
-                alt={name}
-                width='744'
-                height='744'
-                className='max-width-100 block h-auto p-4 lg:p-12 xl:max-w-[606px] 2xl:max-w-[734px]'
-              />
-            </div>
-          </div>
+          <HeroImage image={image} name={name} />
+
           <div className='info-column mt-8 w-full px-0 xl:mt-0 xl:px-20 2xl:px-28'>
             <h1 className='mb-8 text-4xl font-black'>
               {name} ({color})
@@ -34,6 +26,7 @@ const ProductPage = ({ product, passState }) => {
               align='left'
               scroll={false}
               className='mb-8'
+              hover
             />
 
             <Dimensions dimensions={sizes[sizeAndPriceIndex].dimensions} />
@@ -48,9 +41,9 @@ const ProductPage = ({ product, passState }) => {
                 className='snipcart-add-item font-lighter rounded border border-zinc-800 bg-zinc-800 text-white hover:border-red-600 hover:bg-red-600 '
                 data-item-id={productId}
                 data-item-price={sizes[sizeAndPriceIndex].price}
-                data-item-description={`${name} (${color}) ${sizes[sizeAndPriceIndex].size}`}
+                data-item-description={productName}
                 data-item-image={image}
-                data-item-name={`${name} (${color}) ${sizes[sizeAndPriceIndex].size}`}
+                data-item-name={productName}
                 data-item-url={link}
                 data-item-weight={weight}
               >
@@ -64,6 +57,22 @@ const ProductPage = ({ product, passState }) => {
         </Container>
       </div>
     </>
+  );
+};
+
+const HeroImage = ({ image, name }) => {
+  return (
+    <div className='image-column'>
+      <div className='image-wrapper bg-zinc-200'>
+        <Image
+          src={image}
+          alt={name}
+          width='744'
+          height='744'
+          className='max-width-100 block h-auto p-4 lg:p-12 xl:max-w-[606px] 2xl:max-w-[734px]'
+        />
+      </div>
+    </div>
   );
 };
 
@@ -96,7 +105,7 @@ const Sizes = ({ sizes, onChange, current }) => {
   };
 
   const buildSizes = sizes.map(({ size, price }, i) => (
-    <option key={size} value={i} selected={current === i}>
+    <option key={size} value={i}>
       {size} | ${price}
     </option>
   ));

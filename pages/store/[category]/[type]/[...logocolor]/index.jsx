@@ -6,9 +6,6 @@ import getMeta from '../../../../../utils/getMeta';
 import Breadcrumbs from '../../../../../components/Breadcrumbs';
 
 const Product = ({ product }) => {
-  const [sizeAndPriceIndex, setSizeAndPriceIndex] = useState(0);
-  const passState = [sizeAndPriceIndex, setSizeAndPriceIndex];
-
   if (!product) return <p>Loading…</p>;
 
   const { name, color, breadcrumbs } = product;
@@ -21,7 +18,7 @@ const Product = ({ product }) => {
 
       <Breadcrumbs links={breadcrumbs} />
 
-      <ProductPage product={product} passState={passState} />
+      <ProductPage product={product} />
     </>
   );
 };
