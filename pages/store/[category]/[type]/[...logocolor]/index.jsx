@@ -1,17 +1,17 @@
-import {
-  getStore,
-  getLogo,
-  // getType,
-  getColor,
-} from '../../../../../data/storeModals';
+import { useState } from 'react';
+import { getStore, getLogo, getColor } from '../../../../../data/storeModals';
 import ProductPage from '../../../../../layout/ProductPage/ProductPage';
 import SEO from '../../../../../components/SEO';
 import getMeta from '../../../../../utils/getMeta';
+import Breadcrumbs from '../../../../../components/Breadcrumbs';
 
-const Product = ({ product, logoOptions }) => {
+const Product = ({ product }) => {
+  const [sizeAndPriceIndex, setSizeAndPriceIndex] = useState(0);
+  const passState = [sizeAndPriceIndex, setSizeAndPriceIndex];
+
   if (!product) return <p>Loading…</p>;
 
-  const { name, color } = product;
+  const { name, color, breadcrumbs } = product;
 
   const meta = getMeta(product.meta, `Loyal To Few (LTF) ${name} (${color})`);
 
@@ -19,27 +19,12 @@ const Product = ({ product, logoOptions }) => {
     <>
       <SEO {...meta} />
 
-      <ProductPage product={product} />
-      {/* <ProductPage product={product} logoOptions={logoOptions} /> */}
+      <Breadcrumbs links={breadcrumbs} />
+
+      <ProductPage product={product} passState={passState} />
     </>
   );
 };
-
-export async function getStaticProps(context) {
-  const product = getParams(context.params);
-
-  if (!product) return { notFound: true };
-
-  const { category, type } = context.params;
-  // const logoOptions = getType(category, type);
-
-  return {
-    props: {
-      product,
-      // logoOptions,
-    },
-  };
-}
 
 const getParams = (params) => {
   const {
@@ -58,6 +43,18 @@ const getParams = (params) => {
 
   return product;
 };
+
+export async function getStaticProps(context) {
+  const product = getParams(context.params);
+
+  if (!product) return { notFound: true };
+
+  return {
+    props: {
+      product,
+    },
+  };
+}
 
 export async function getStaticPaths() {
   const paths = [];

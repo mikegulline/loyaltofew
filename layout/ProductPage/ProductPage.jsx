@@ -1,29 +1,16 @@
-import { useState, Fragment } from 'react';
+import { Fragment } from 'react';
 import Image from 'next/image';
 import ColorLinks from '../../components/ColorLinks';
 import Container from '../../components/Container';
-import Breadcrumbs from '../../components/Breadcrumbs';
 import GridLogoOptions from '../../components/GridLogoOptions';
 
-const ProductPage = ({ product }) => {
-  const [sizeAndPriceIndex, setSizeAndPriceIndex] = useState(0);
-  const {
-    id,
-    name,
-    image,
-    link,
-    colors,
-    sizes,
-    weight,
-    details,
-    color,
-    breadcrumbs,
-  } = product;
+const ProductPage = ({ product, passState }) => {
+  const [sizeAndPriceIndex, setSizeAndPriceIndex] = passState;
+  const { id, name, image, link, colors, sizes, weight, details, color } =
+    product;
   const productId = `${id}:${sizes[sizeAndPriceIndex].size}`;
   return (
     <>
-      <Breadcrumbs links={breadcrumbs} />
-
       <div className='wrapper py-5 lg:py-8  xl:py-12 2xl:py-16'>
         <Container className='flex flex-col items-center xl:flex-row'>
           <div className='image-column'>
@@ -52,7 +39,7 @@ const ProductPage = ({ product }) => {
             <Dimensions dimensions={sizes[sizeAndPriceIndex].dimensions} />
             <Details details={details} />
             <div className='buttons flex gap-1'>
-              <Sizes sizes={sizes} onChange={setSizeAndPriceIndex} />
+              <Sizes sizes={sizes} onChange={setSizeAndPriceIndex} key={id} />
               <button
                 className='snipcart-add-item font-lighter rounded border border-zinc-800 bg-zinc-800 text-white hover:border-red-600 hover:bg-red-600 '
                 data-item-id={productId}
@@ -104,7 +91,7 @@ const Sizes = ({ sizes, onChange }) => {
     onChange(e.target.value);
   };
 
-  const buildSizes = sizes.map(({ size, price, dimensions }, i) => (
+  const buildSizes = sizes.map(({ size, price }, i) => (
     <option key={size} value={i}>
       {size} | ${price}
     </option>
