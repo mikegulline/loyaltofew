@@ -7,8 +7,18 @@ import GridLogoOptions from '../../components/GridLogoOptions';
 
 const ProductPage = ({ product }) => {
   const [sizeAndPriceIndex, setSizeAndPriceIndex] = useState(0);
-  const { id, name, image, link, colors, sizes, details, color, breadcrumbs } =
-    product;
+  const {
+    id,
+    name,
+    image,
+    link,
+    colors,
+    sizes,
+    weight,
+    details,
+    color,
+    breadcrumbs,
+  } = product;
   const productId = `${id}:${sizes[sizeAndPriceIndex].size}`;
   return (
     <>
@@ -51,6 +61,7 @@ const ProductPage = ({ product }) => {
                 data-item-image={image}
                 data-item-name={`${name} (${color}) ${sizes[sizeAndPriceIndex].size}`}
                 data-item-url={link}
+                data-item-weight={weight}
               >
                 Add to cart
               </button>

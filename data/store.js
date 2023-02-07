@@ -13,6 +13,7 @@ export const store = [
         logos: ['Arch', 'Block', 'Horizontal', 'Round'],
         colors: ['Black', 'Gray', 'Green', 'Maroon', 'Navy'],
         tags: ['Tops'],
+        weight: 7,
         meta: {
           title: 'Mens Comfort Tee',
           description:
@@ -63,6 +64,7 @@ export const store = [
         logos: ['Arch', 'Block', 'Horizontal', 'Round'],
         colors: ['Black'],
         tags: ['Tops'],
+        weight: 5.7,
         meta: {
           title: 'Mens Classic Cotton Tank',
           description:
@@ -113,6 +115,7 @@ export const store = [
         logos: ['Arch', 'Block', 'Horizontal', 'Round'],
         colors: ['Black', 'Gray', 'Navy'],
         tags: ['Tops'],
+        weight: 9.8,
         meta: {
           title: 'Mens Cotton Long-Sleeve',
           description:
@@ -173,6 +176,7 @@ export const store = [
         logos: ['Arch', 'Block', 'Horizontal', 'Round'],
         colors: ['Black', 'Gray', 'Navy', 'Red'],
         tags: ['Tops'],
+        weight: 2.9,
         meta: {
           title: 'Womens Cotton Crop',
           description:
@@ -223,6 +227,7 @@ export const store = [
         logos: ['Arch', 'Block', 'Horizontal', 'Round'],
         colors: ['Blue', 'Gray', 'Maroon'],
         tags: ['Tops'],
+        weight: 2.6,
         meta: {
           title: 'Womens Tri-Blend Tank',
           description:
@@ -268,6 +273,7 @@ export const store = [
         logos: ['Arch', 'Block', 'Horizontal', 'Round'],
         colors: ['Navy', 'Red'],
         tags: ['Tops'],
+        weight: 3.6,
         meta: {
           title: 'Womens Comfort Tee',
           description:
@@ -324,12 +330,13 @@ export const store = [
     products: [
       {
         type: 'Hoodie',
-        product: 'Heavy Fleece Hoodie',
+        product: 'Premium Hoodie',
         logos: ['Arch', 'Block', 'Horizontal', 'Round'],
-        colors: ['Dolphin-Blue', 'Gray', 'Green', 'Navy', 'Off-Black'],
+        colors: ['Dolphin', 'Green', 'Navy', 'Black'],
         tags: ['Tops'],
+        weight: 34.3,
         meta: {
-          title: 'Heavy Fleece Hoodie',
+          title: 'Premium Hoodie',
           description: 'Unisex. Heavyweight (14oz) over-sized fit.',
         },
         sizes: [
@@ -372,57 +379,6 @@ export const store = [
           'S-XXL',
         ],
       },
-      {
-        type: '5050Hoodie',
-        product: '50/50 Hoodie',
-        logos: ['Arch', 'Block', 'Horizontal', 'Round'],
-        colors: ['Black'],
-        tags: ['Tops'],
-        meta: {
-          title: '50/50 Hoodie',
-          description:
-            'Unisex. Perfect 50/50 blend of cotton & polyester. Super-soft, midweight (10oz) & durable.',
-        },
-        sizes: [
-          {
-            size: 'S',
-            price: 76,
-            dimensions:
-              'Body Length: 26 in., Chest Width: 22 in., Across Shoulder: 21 1/2 in.,	Armhole Depth: 11 1/2 in., Sleeve Length: 23 3/8 in.',
-          },
-          {
-            size: 'M',
-            price: 76,
-            dimensions:
-              'Body Length: 27 in., Chest Width: 24 in., Across Shoulder: 23 in.,	Armhole Depth: 11 7/8 in., Sleeve Length: 23 7/8 in.',
-          },
-          {
-            size: 'L',
-            price: 76,
-            dimensions:
-              'Body Length: 28 in., Chest Width: 26 in., Across Shoulder: 24 1/2 in.,	Armhole Depth: 12 1/4 in., Sleeve Length: 24 3/8 in.',
-          },
-          {
-            size: 'XL',
-            price: 76,
-            dimensions:
-              'Body Length: 29 in., Chest Width: 28 in., Across Shoulder: 26 in.,	Armhole Depth: 12 5/8 in., Sleeve Length: 24 7/8 in.',
-          },
-          {
-            size: 'XXL',
-            price: 78,
-            dimensions:
-              'Body Length: 30 in., Chest Width: 30 in., Across Shoulder: 27 1/2 in.,	Armhole Depth: 13 in., Sleeve Length: 25 3/8 in.',
-          },
-        ],
-        details: [
-          'Designed, produced & printed in the USA',
-          'Perfect 50/50 blend of cotton & polyester',
-          'Super-soft, midweight (10oz) & durable',
-          'Unisex, check size chart',
-          'S-XXL',
-        ],
-      },
     ],
   },
   {
@@ -439,6 +395,7 @@ export const store = [
         logos: ['Block'],
         colors: ['Black', 'Gray', 'Navy'],
         tags: ['Accessories'],
+        weight: 2.2,
         meta: {
           title: 'Knit Beanie',
           description: 'Snug, comfort fit. Fits all.',
@@ -457,6 +414,7 @@ export const store = [
         logos: ['Block'],
         colors: ['Black', 'Black-White', 'Gray-White', 'Navy-White'],
         tags: ['Accessories'],
+        weight: 14.4,
         meta: {
           title: 'Trucker Snapback Hat',
           description:

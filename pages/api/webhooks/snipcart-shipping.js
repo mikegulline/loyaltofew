@@ -1,5 +1,6 @@
 import EasyPost from '@easypost/api';
 import nc from 'next-connect';
+// import DB connection
 
 // use TEST API KEY
 const API_KEY = process.env.EASYPOST_API_TEST;
@@ -39,15 +40,24 @@ handler.get(async (req, res) => {
 });
 
 handler.post(async (req, res) => {
-  // get rates or errors
+  const { token } = req.body.content;
+
+  // connect to DB
+  //  check for entry by {token}
+  //    (if found)
+  //      disconnect from DB
+  //      return formatted rate
+
   const { rates, errors } = await getRates(req.body);
 
-  // return errors
   if (errors) {
+    // disconnect from DB
     return res.json({ errors });
   }
 
-  // return rates
+  //  save rate by {token}
+  // disconnect from DB
+
   return res.json({ rates });
 });
 
@@ -58,7 +68,7 @@ handler.post(async (req, res) => {
 ///////////////////////////////////
 
 async function getRates(body) {
-  // convert Snipcart vars to EasyPost vars
+  // convert Snipcart vars to EasyPost vars with defaults
   const {
     eventName = '',
     content: {
@@ -71,7 +81,8 @@ async function getRates(body) {
       shippingAddressProvince: state = '',
       shippingAddressPostalCode: zip = '',
       shippingAddressPhone: phone = '',
-      // totalWeight: weight = 33.3,
+      totalWeight: weight = 33.3,
+      token,
     },
   } = body;
 
@@ -114,14 +125,30 @@ async function getRates(body) {
 
     // map rates
     const rates = save.rates
-      .map(({ rate }) => {
-        return {
-          cost: Number(rate),
-          description: `$${rate} shipping`,
-        };
-      })
+      .map(
+        ({
+          id: rate_id,
+          shipment_id,
+          rate,
+          service,
+          carrier,
+          delivery_days,
+          est_delivery_days,
+        }) => {
+          const days = delivery_days || est_delivery_days || null;
+          return {
+            cost: Number(rate),
+            description: `$${rate} shipping (${service} ${carrier}) ${
+              days ? 'est. ' + days + ' days' : ''
+            }`,
+            rate_id,
+            shipment_id,
+            token,
+          };
+        }
+      )
       .sort((a, b) => a.cost - b.cost)
-      .slice(0, 3);
+      .slice(0, 4);
 
     return { rates, errors: null };
   } catch (errors) {
@@ -130,3 +157,28 @@ async function getRates(body) {
 }
 
 export default handler;
+
+// [
+//   {
+//     id: 'rate_455ac7c9213e44438a88810ef95bec41',
+//     object: 'Rate',
+//     created_at: '2023-02-03T21:37:48Z',
+//     updated_at: '2023-02-03T21:37:48Z',
+//     mode: 'test',
+//     service: 'Express',
+//     carrier: 'USPS',
+//     rate: '39.05',
+//     currency: 'USD',
+//     retail_rate: '45.00',
+//     retail_currency: 'USD',
+//     list_rate: '39.05',
+//     list_currency: 'USD',
+//     billing_type: 'easypost',
+//     delivery_days: null,
+//     delivery_date: null,
+//     delivery_date_guaranteed: false,
+//     est_delivery_days: null,
+//     shipment_id: 'shp_2e688ae5a42b4974b81c1519f4b6b9d2',
+//     carrier_account_id: 'ca_c96ca3ce49094b3795fe439c3f95d39f'
+//   },
+// ]
