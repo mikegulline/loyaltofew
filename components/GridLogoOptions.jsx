@@ -17,6 +17,7 @@ const GridLogoOptions = ({ product }) => {
         image={`${imageColorRoot}${color}.jpg`}
         name={name}
         showName={false}
+        shallow={false}
       >
         <GridBlockItemSelectDot current={current} />
       </GridBlockItem>

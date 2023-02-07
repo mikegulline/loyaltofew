@@ -39,7 +39,11 @@ const ProductPage = ({ product, passState }) => {
             <Dimensions dimensions={sizes[sizeAndPriceIndex].dimensions} />
             <Details details={details} />
             <div className='buttons flex gap-1'>
-              <Sizes sizes={sizes} onChange={setSizeAndPriceIndex} key={id} />
+              <Sizes
+                sizes={sizes}
+                onChange={setSizeAndPriceIndex}
+                current={sizeAndPriceIndex}
+              />
               <button
                 className='snipcart-add-item font-lighter rounded border border-zinc-800 bg-zinc-800 text-white hover:border-red-600 hover:bg-red-600 '
                 data-item-id={productId}
@@ -86,13 +90,13 @@ const Dimensions = ({ dimensions }) => {
   );
 };
 
-const Sizes = ({ sizes, onChange }) => {
+const Sizes = ({ sizes, onChange, current }) => {
   const handleSizeChange = (e) => {
     onChange(e.target.value);
   };
 
   const buildSizes = sizes.map(({ size, price }, i) => (
-    <option key={size} value={i}>
+    <option key={size} value={i} selected={current === i}>
       {size} | ${price}
     </option>
   ));

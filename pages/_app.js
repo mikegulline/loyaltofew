@@ -30,7 +30,7 @@ function MyApp({ Component, pageProps, router }) {
       </Head>
 
       <Overlay />
-      <AnimatePresence
+      {/* <AnimatePresence
         mode='wait'
         initial={false}
         onExitComplete={() => {
@@ -51,7 +51,10 @@ function MyApp({ Component, pageProps, router }) {
           <Component {...pageProps} />
           <Footer />
         </motion.div>
-      </AnimatePresence>
+      </AnimatePresence> */}
+      <Header />
+      <Component {...pageProps} />
+      <Footer />
     </>
   );
 }

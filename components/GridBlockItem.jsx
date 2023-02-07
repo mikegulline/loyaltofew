@@ -1,10 +1,17 @@
 import Image from 'next/image';
 import Link from './Link';
 
-const GridBlockItem = ({ link, image, name, children, showName = true }) => {
+const GridBlockItem = ({
+  link,
+  image,
+  name,
+  children,
+  showName = true,
+  shallow = false,
+}) => {
   return (
     <div className='relative text-center'>
-      <Link href={link}>
+      <Link href={link} shallow={shallow}>
         <Image
           src={image}
           alt={name}
