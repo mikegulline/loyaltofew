@@ -10,6 +10,15 @@ const ProductPage = ({ product }) => {
     product;
   const productId = `${id}:${sizes[sizeAndPriceIndex].size}`;
   const productName = `${name} (${color}) ${sizes[sizeAndPriceIndex].size}`;
+  const buttonData = {
+    'data-item-id': productId,
+    'data-item-price': sizes[sizeAndPriceIndex].price,
+    'data-item-description': productName,
+    'data-item-image': image,
+    'data-item-name': productName,
+    'data-item-url': link,
+    'data-item-weight': weight,
+  };
   return (
     <>
       <div className='wrapper py-5 lg:py-8  xl:py-12 2xl:py-16'>
@@ -38,14 +47,8 @@ const ProductPage = ({ product }) => {
                 current={sizeAndPriceIndex}
               />
               <button
+                {...buttonData}
                 className='snipcart-add-item font-lighter rounded border border-zinc-800 bg-zinc-800 text-white hover:border-red-600 hover:bg-red-600 '
-                data-item-id={productId}
-                data-item-price={sizes[sizeAndPriceIndex].price}
-                data-item-description={productName}
-                data-item-image={image}
-                data-item-name={productName}
-                data-item-url={link}
-                data-item-weight={weight}
               >
                 Add to cart
               </button>

@@ -1,43 +1,9 @@
-import EasyPost from '@easypost/api';
+// Snipcart shipping calculator
+// connect to Easypost for rates
 import nc from 'next-connect';
-// import DB connection
-
-// use TEST API KEY
-const API_KEY = process.env.EASYPOST_API_TEST;
-
-// use PRODUCTION API KEY
-// const API_KEY = process.env.EASYPOST_API
+import getRates from './utils/getRates';
 
 const handler = nc();
-
-handler.get(async (req, res) => {
-  const body = {
-    eventName: '',
-    content: {
-      shippingAddressName: 'Mike Gulline',
-      shippingAddressCompanyName: '',
-      shippingAddressAddress1: '7624 Potter Valley Dr.',
-      shippingAddressAddress2: '',
-      shippingAddressCity: 'Eastvale',
-      shippingAddressCountry: 'USA',
-      shippingAddressProvince: 'CA',
-      shippingAddressPostalCode: '92880',
-      shippingAddressPhone: '',
-      totalWeight: 33.3,
-    },
-  };
-
-  // get rates or errors
-  const { rates, errors } = await getRates(body);
-
-  // return errors
-  if (errors) {
-    return res.json({ errors });
-  }
-
-  // return rates
-  return res.json({ rates });
-});
 
 handler.post(async (req, res) => {
   const { token } = req.body.content;
@@ -67,94 +33,31 @@ handler.post(async (req, res) => {
 ///////////////////////////////////
 ///////////////////////////////////
 
-async function getRates(body) {
-  // convert Snipcart vars to EasyPost vars with defaults
-  const {
-    eventName = '',
+// the following it a GET handler for testing LOCALLY
+// uses static body var instead of req.body
+handler.get(async (req, res) => {
+  const body = {
+    eventName: '',
     content: {
-      shippingAddressName: name = '',
-      shippingAddressCompanyName: company = '',
-      shippingAddressAddress1: street1 = '',
-      shippingAddressAddress2: street2 = '',
-      shippingAddressCity: city = '',
-      shippingAddressCountry: country = '',
-      shippingAddressProvince: state = '',
-      shippingAddressPostalCode: zip = '',
-      shippingAddressPhone: phone = '',
-      totalWeight: weight = 33.3,
-      token,
+      shippingAddressName: 'Mike Gulline',
+      shippingAddressCompanyName: '',
+      shippingAddressAddress1: '7624 Potter Valley Dr.',
+      shippingAddressAddress2: '',
+      shippingAddressCity: 'Eastvale',
+      shippingAddressCountry: 'USA',
+      shippingAddressProvince: 'CA',
+      shippingAddressPostalCode: '92880',
+      shippingAddressPhone: '',
+      totalWeight: 33.3,
     },
-  } = body;
+  };
 
-  // try to get rates
-  try {
-    // init EasyPost API
-    const api = new EasyPost(API_KEY);
+  const { rates, errors } = await getRates(body);
 
-    // build shipment
-    const shipment = new api.Shipment({
-      from_address: {
-        street1: '417 MONTGOMERY ST',
-        street2: 'FLOOR 5',
-        city: 'SAN FRANCISCO',
-        state: 'CA',
-        zip: '94104',
-        country: 'US',
-        company: 'EasyPost',
-        phone: '415-123-4567',
-      },
-      to_address: {
-        name,
-        company,
-        street1,
-        street2,
-        city,
-        country,
-        state,
-        zip,
-        phone,
-      },
-      parcel: {
-        weight: 33.3,
-      },
-    });
+  if (errors) return res.json({ errors });
 
-    const save = await shipment.save();
-    // get lowest rate
-    // const lowestRate = shipment.lowestRate();
-
-    // map rates
-    const rates = save.rates
-      .map(
-        ({
-          id: rate_id,
-          shipment_id,
-          rate,
-          service,
-          carrier,
-          delivery_days,
-          est_delivery_days,
-        }) => {
-          const days = delivery_days || est_delivery_days || null;
-          return {
-            cost: Number(rate),
-            description: `$${rate} shipping (${service} ${carrier}) ${
-              days ? 'est. ' + days + ' days' : ''
-            }`,
-            rate_id,
-            shipment_id,
-            token,
-          };
-        }
-      )
-      .sort((a, b) => a.cost - b.cost)
-      .slice(0, 4);
-
-    return { rates, errors: null };
-  } catch (errors) {
-    return { rates: null, errors };
-  }
-}
+  return res.json({ rates });
+});
 
 export default handler;
 

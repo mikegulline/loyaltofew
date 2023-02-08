@@ -234,11 +234,11 @@ export const store = [
             '50% polyester, 25% cotton, 25% rayon. Lightweight (3.7oz) racerback design.',
         },
         sizes: [
-          {
-            size: 'XS',
-            price: 25,
-            dimensions: 'Body Length: 25 1/8 in., Chest Width: 12 5/8 in.',
-          },
+          // {
+          //   size: 'XS',
+          //   price: 25,
+          //   dimensions: 'Body Length: 25 1/8 in., Chest Width: 12 5/8 in.',
+          // },
           {
             size: 'S',
             price: 25,
