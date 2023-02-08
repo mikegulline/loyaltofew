@@ -1,16 +1,16 @@
-import { useState, Fragment } from 'react';
+import { useState, useEffect, Fragment } from 'react';
 import Image from 'next/image';
 import ColorLinks from '../../components/ColorLinks';
 import Container from '../../components/Container';
 import GridLogoOptions from '../../components/GridLogoOptions';
 
-const ProductPage = ({ product }) => {
+const ProductPage = ({ product, size }) => {
   const [sizeAndPriceIndex, setSizeAndPriceIndex] = useState(0);
   const { id, name, image, link, colors, sizes, weight, details, color } =
     product;
-  const productId = `${id}:${sizes[sizeAndPriceIndex].size}`;
+  const productId = `${id}:${sizes[sizeAndPriceIndex].size.toLowerCase()}`;
   const productName = `${name} (${color}) ${sizes[sizeAndPriceIndex].size}`;
-  const productUrl = `${link}/${color.toLowerCase()}`;
+  const productUrl = `${link}/${color.toLowerCase()}?s=${sizeAndPriceIndex}`;
   const buttonData = {
     'data-item-id': productId,
     'data-item-price': sizes[sizeAndPriceIndex].price,
@@ -20,6 +20,11 @@ const ProductPage = ({ product }) => {
     'data-item-url': productUrl,
     'data-item-weight': weight,
   };
+
+  useEffect(() => {
+    setSizeAndPriceIndex(size);
+  }, [size]);
+
   return (
     <>
       <div className='wrapper py-5 lg:py-8  xl:py-12 2xl:py-16'>

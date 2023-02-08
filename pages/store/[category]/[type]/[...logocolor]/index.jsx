@@ -1,13 +1,15 @@
-import { useState } from 'react';
 import { getStore, getLogo, getColor } from '../../../../../data/storeModals';
+import { useRouter } from 'next/router';
 import ProductPage from '../../../../../layout/ProductPage/ProductPage';
 import SEO from '../../../../../components/SEO';
 import getMeta from '../../../../../utils/getMeta';
 import Breadcrumbs from '../../../../../components/Breadcrumbs';
 
 const Product = ({ product }) => {
-  if (!product) return <p>Loading…</p>;
+  const router = useRouter();
+  const size = router?.query?.s || 0;
 
+  if (!product) return <p>Loading…</p>;
   const { name, color, breadcrumbs } = product;
 
   const meta = getMeta(product.meta, `Loyal To Few (LTF) ${name} (${color})`);
@@ -18,7 +20,7 @@ const Product = ({ product }) => {
 
       <Breadcrumbs links={breadcrumbs} />
 
-      <ProductPage product={product} />
+      <ProductPage product={product} size={size} />
     </>
   );
 };
