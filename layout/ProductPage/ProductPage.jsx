@@ -10,13 +10,14 @@ const ProductPage = ({ product }) => {
     product;
   const productId = `${id}:${sizes[sizeAndPriceIndex].size}`;
   const productName = `${name} (${color}) ${sizes[sizeAndPriceIndex].size}`;
+  const productUrl = `${link}/${color.toLowerCase()}`;
   const buttonData = {
     'data-item-id': productId,
     'data-item-price': sizes[sizeAndPriceIndex].price,
     'data-item-description': productName,
     'data-item-image': image,
     'data-item-name': productName,
-    'data-item-url': link,
+    'data-item-url': productUrl,
     'data-item-weight': weight,
   };
   return (
