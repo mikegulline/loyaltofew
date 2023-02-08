@@ -1,13 +1,22 @@
 import nc from 'next-connect';
+import db from '../../../utils/db';
+import Order from '../../../models/order';
 
 const handler = nc();
 
-nc.post(async (req, res) => {
+handler.get(async (req, res) => {
+  const saveOrder = req.body;
   try {
-  } catch (error) {
-    res.json(error);
+    await db.connectDB();
+
+    const order = await new Order(saveOrder).save();
+
+    res.json({ message: order });
+
+    await db.disconnectDB();
+  } catch (errors) {
+    res.status(500).json({ errors });
   }
-  const { complete } = req.body;
 });
 
 export default handler;
