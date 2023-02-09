@@ -6,17 +6,22 @@ const handler = nc();
 
 handler.post(async (req, res) => {
   const saveOrder = { ...req.body };
-  try {
-    await db.connectDB();
 
-    const order = await new Order(saveOrder).save();
+  if (saveOrder.eventName === 'order.completed') {
+    try {
+      await db.connectDB();
 
-    res.json({ message: order });
+      const order = await new Order(saveOrder).save();
 
-    await db.disconnectDB();
-  } catch (errors) {
-    res.status(500).json({ errors });
+      res.json({ message: order });
+
+      await db.disconnectDB();
+    } catch (errors) {
+      res.status(500).json({ errors });
+    }
   }
+
+  return res.status(200);
 });
 
 export default handler;
