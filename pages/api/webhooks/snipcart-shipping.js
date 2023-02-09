@@ -13,7 +13,7 @@ handler.post(async (req, res) => {
     const hasRates = await Rate.find({
       orderToken: req.body.content.token,
     }).exec();
-    if (hasRates) return res.json({ rates: hasRates });
+    if (hasRates?.length) return res.json({ rates: hasRates });
     await db.disconnectDB();
   } catch (errors) {
     return res.status(500).json({ errors });
