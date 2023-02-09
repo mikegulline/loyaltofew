@@ -4,7 +4,7 @@ import Order from '../../../models/order';
 
 const handler = nc();
 
-handler.get(async (req, res) => {
+handler.post(async (req, res) => {
   const saveOrder = req.body;
   try {
     await db.connectDB();
