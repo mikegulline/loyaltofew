@@ -10,6 +10,7 @@ const rateSchema = new mongoose.Schema(
     },
     rate_id: {
       type: 'String',
+      unique: true,
     },
     shipment_id: {
       type: 'String',
