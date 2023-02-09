@@ -8,7 +8,7 @@ handler.post(async (req, res) => {
   const saveOrder = {
     eventName: 'order.completed',
     content: {
-      token: '1912e4c1-d008-4c15-ab12-fe21a76d30d4',
+      token: req.body.content.token,
     },
   };
   try {
