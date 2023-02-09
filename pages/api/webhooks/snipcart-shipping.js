@@ -2,28 +2,25 @@
 // connect to Easypost for rates
 import nc from 'next-connect';
 import getRates from './utils/getRates';
+import db from '../../../utils/db';
+import Rate from '../../../models/rate';
 
 const handler = nc();
 
 handler.post(async (req, res) => {
-  const { token } = req.body.content;
-
-  // connect to DB
-  //  check for entry by {token}
-  //    (if found)
-  //      disconnect from DB
-  //      return formatted rate
-
   const { rates, errors } = await getRates(req.body);
 
   if (errors) {
-    // disconnect from DB
     return res.json({ errors });
   }
 
-  //  save rate by {token}
-  // disconnect from DB
-
+  try {
+    await db.connectDB();
+    await Rate.insertMany(rates);
+    await db.disconnectDB();
+  } catch (errors) {
+    return res.status(500).json({ errors });
+  }
   return res.json({ rates });
 });
 
