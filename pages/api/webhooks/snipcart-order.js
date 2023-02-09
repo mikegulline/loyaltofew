@@ -5,7 +5,12 @@ import Order from '../../../models/order';
 const handler = nc();
 
 handler.post(async (req, res) => {
-  const saveOrder = req.body;
+  const saveOrder = {
+    eventName: 'order.completed',
+    content: {
+      token: '1912e4c1-d008-4c15-ab12-fe21a76d30d4',
+    },
+  };
   try {
     await db.connectDB();
 
