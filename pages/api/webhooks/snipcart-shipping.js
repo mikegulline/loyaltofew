@@ -9,11 +9,15 @@ const handler = nc();
 
 handler.post(async (req, res) => {
   try {
+    await db.connectDB();
     const hasRates = await Rate.find({
       orderToken: req.body.content.token,
     }).exec();
     if (hasRates) return res.json({ rates: hasRates });
-  } catch (errors) {}
+    await db.disconnectDB();
+  } catch (errors) {
+    return res.status(500).json({ errors });
+  }
 
   const { rates, errors } = await getRates(req.body);
 
