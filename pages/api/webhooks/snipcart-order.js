@@ -5,12 +5,7 @@ import Order from '../../../models/order';
 const handler = nc();
 
 handler.post(async (req, res) => {
-  const saveOrder = {
-    eventName: 'order.completed',
-    content: {
-      token: req.body.content.token,
-    },
-  };
+  const saveOrder = { ...req.body };
   try {
     await db.connectDB();
 
