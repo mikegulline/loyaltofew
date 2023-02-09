@@ -8,6 +8,13 @@ import Rate from '../../../models/rate';
 const handler = nc();
 
 handler.post(async (req, res) => {
+  try {
+    const hasRates = await Rate.find({
+      orderToken: req.body.content.token,
+    }).exec();
+    if (hasRates) return res.json({ rates: hasRates });
+  } catch (errors) {}
+
   const { rates, errors } = await getRates(req.body);
 
   if (errors) {
