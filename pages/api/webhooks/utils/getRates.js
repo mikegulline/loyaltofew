@@ -1,15 +1,10 @@
-import EasyPost from '@easypost/api';
-
-const API_KEY = process.env.EASYPOST_API_TEST;
-// const API_KEY = process.env.EASYPOST_API
+import EasyPostApi from './easyPostApi';
 
 export default async function getRates(body) {
   const { token, to_address, from_address, parcel } = getVars(body);
 
   try {
-    const api = new EasyPost(API_KEY);
-
-    const shipment = new api.Shipment({
+    const shipment = new EasyPostApi.Shipment({
       from_address,
       to_address,
       parcel,

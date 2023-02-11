@@ -1,5 +1,10 @@
 // Snipcart shipping calculator
+// check for saved rates and return
+// if none
 // connect to Easypost for rates
+// save returned rates
+// return rates
+
 import nc from 'next-connect';
 import getRates from './utils/getRates';
 import db from '../../../utils/db';
@@ -8,6 +13,7 @@ import Rate from '../../../models/rate';
 const handler = nc();
 
 handler.post(async (req, res) => {
+  // check for saved rates and send
   try {
     await db.connectDB();
     const hasRates = await Rate.find({
@@ -19,12 +25,15 @@ handler.post(async (req, res) => {
     return res.status(500).json({ errors });
   }
 
+  // get rates if none found
   const { rates, errors } = await getRates(req.body);
 
+  // return errors if found
   if (errors) {
     return res.json({ errors });
   }
 
+  // save returned rates
   try {
     await db.connectDB();
     await Rate.insertMany(rates);
@@ -32,6 +41,8 @@ handler.post(async (req, res) => {
   } catch (errors) {
     return res.status(500).json({ errors });
   }
+
+  // return rates
   return res.json({ rates });
 });
 
