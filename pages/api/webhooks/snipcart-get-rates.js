@@ -30,7 +30,7 @@ handler.post(async (req, res) => {
 
   // return errors if found
   if (errors) {
-    return res.json({ errors });
+    return res.json({ errors, message: 'problem getting rates' });
   }
 
   // save returned rates
