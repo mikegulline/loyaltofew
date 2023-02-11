@@ -1,12 +1,9 @@
-import EasyPost from '@easypost/api';
-import EP_API_KEY from './easyPostApi';
+import api from './easyPostApi';
 
 export default async function getRates(body) {
   const { token, to_address, from_address, parcel } = getVars(body);
 
   try {
-    const api = new EasyPost(EP_API_KEY);
-
     const shipment = new api.Shipment({
       from_address,
       to_address,

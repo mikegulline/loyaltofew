@@ -2,8 +2,7 @@ import nc from 'next-connect';
 import db from '../../../utils/db';
 import Order from '../../../models/order';
 import Rate from '../../../models/rate';
-import EasyPost from '@easypost/api';
-import EP_API_KEY from './utils/easyPostApi';
+import api from './utils/easyPostApi';
 
 const handler = nc();
 
@@ -25,8 +24,6 @@ handler.post(async (req, res) => {
 
     // buy shipping
     try {
-      const api = new EasyPost(EP_API_KEY);
-
       const shipment = await api.Shipment.retrieve(rates.shipment_id);
 
       const save = await shipment.buy(rates.cost);
