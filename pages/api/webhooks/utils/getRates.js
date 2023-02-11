@@ -4,7 +4,7 @@ export default async function getRates(body) {
   const { token, to_address, from_address, parcel } = getVars(body);
 
   try {
-    const shipment = new EasyPostApi.Shipment({
+    const shipment = EasyPostApi.Shipment({
       from_address,
       to_address,
       parcel,
