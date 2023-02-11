@@ -3,7 +3,7 @@ import db from '../../../utils/db';
 import Order from '../../../models/order';
 import Rate from '../../../models/rate';
 import EasyPost from '@easypost/api';
-import EP_API_KEY from './easyPostApi';
+import EP_API_KEY from './utils/easyPostApi';
 
 const handler = nc();
 
