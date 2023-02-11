@@ -17,7 +17,7 @@ handler.post(async (req, res) => {
         orderToken: req.body.content.token,
         cost: req.body.content.shippingFees,
       });
-      if (!rates.length)
+      if (!rates?.length)
         return res.status(500).json({ errors: 'could not find rates' });
     } catch (errors) {
       return res.status(500).json({ errors });
