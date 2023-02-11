@@ -15,7 +15,7 @@ handler.post(async (req, res) => {
       const rates = await Rate.find({
         orderToken: req.body.content.token,
         cost: req.body.content.shippingFees,
-      });
+      }).exec();
       if (!rates?.length)
         return res.status(500).json({ errors: 'could not find rates' });
     } catch (errors) {
