@@ -1,7 +1,9 @@
 import nc from 'next-connect';
 import db from '../../../utils/db';
 import Order from '../../../models/order';
-import EasyPostApi from './utils/easyPostApi';
+import Rate from '../../../models/rate';
+import EasyPost from '@easypost/api';
+import { EP_API_KEY } from './easyPostApi';
 
 const handler = nc();
 
@@ -9,17 +11,32 @@ handler.post(async (req, res) => {
   const saveOrder = { ...req.body };
 
   if (saveOrder.eventName === 'order.completed') {
+    // get saved rates from db
     try {
-      const shipment = EasyPostApi.Shipment.retrieve('shp_...').then(
-        (shipment) => {
-          shipment.buy(shipment.lowestRate(), 249.99).then(console.log);
-        }
-      );
-
-      const save = await shipment.save();
+      const rates = await Rate.find({
+        orderToken: req.body.content.token,
+        cost: req.body.content.shippingFees,
+      });
+      if (!rates.length)
+        return res.status(500).json({ errors: 'could not find rates' });
     } catch (errors) {
       return res.status(500).json({ errors });
     }
+
+    // buy shipping
+    try {
+      const api = new EasyPost(EP_API_KEY);
+
+      const shipment = await api.Shipment.retrieve(rates.shipment_id);
+
+      const save = await shipment.buy(rates.cost);
+
+      return res.json({ save });
+    } catch (errors) {
+      return res.status(500).json({ errors });
+    }
+
+    // save tracking infos
     try {
       await db.connectDB();
 
