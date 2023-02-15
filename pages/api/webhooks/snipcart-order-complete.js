@@ -16,12 +16,12 @@ handler.post(async (req, res) => {
 
     // 1. get saved rates by orderToken and cost from db
     try {
-      db.connectDB();
+      await db.connectDB();
       rates = await Rate.find({
         orderToken: saveOrder.content.token,
         cost: saveOrder.content.shippingFees,
       }).exec();
-      db.disconnectDB();
+      await db.disconnectDB();
       if (!rates?.length) {
         return res.status(500).json({ errors: 'could not find rates' });
       }
