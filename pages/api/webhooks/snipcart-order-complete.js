@@ -72,6 +72,15 @@ handler.post(async (req, res) => {
     } catch (errors) {
       res.status(500).json({ message: 'tracking to snipcart', errors });
     }
+
+    // delete rates
+    try {
+      await db.connectDB();
+      await Rate.deleteMany({ orderToken: saveOrder.content.token });
+      await db.disconnectDB();
+    } catch (errors) {
+      res.status(500).json({ message: 'error deleting rates', errors });
+    }
   }
 
   return res.json({ message: 'success' });
