@@ -48,7 +48,7 @@ handler.post(async (req, res) => {
   if(!req?.body?.content?.metadata?.rates?.length){
     try{
       const metadataToSave = {
-        status: 'Unconfirmed',
+        status: 'InProgress',
         metadata: {
           rates
         },
