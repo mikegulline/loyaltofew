@@ -15,7 +15,7 @@ handler.post(async (req, res) => {
     // get saved rates from db
   }
 
-  return res.status(200);
+  return res.json({ message: 'success' });
 });
 
 //get test//////////////////////////
