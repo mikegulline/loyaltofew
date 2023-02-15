@@ -9,20 +9,22 @@ import nc from 'next-connect';
 import getRates from './utils/getRates';
 import db from '../../../utils/db';
 import Rate from '../../../models/rate';
+import axios from 'axios';
 
 const handler = nc();
 
 handler.post(async (req, res) => {
   // check for saved rates and send
+  const token = req?.body?.content?.token
   try {
     await db.connectDB();
     const hasRates = await Rate.find({
-      orderToken: req.body.content.token,
+      orderToken: token,
     }).exec();
     if (hasRates?.length) return res.json({ rates: hasRates });
     await db.disconnectDB();
   } catch (errors) {
-    return res.status(500).json({ errors });
+    return res.status(500).json({ message: 'error finding rates in db',errors });
   }
 
   // get rates if none found
@@ -39,9 +41,30 @@ handler.post(async (req, res) => {
     await Rate.insertMany(rates);
     await db.disconnectDB();
   } catch (errors) {
-    return res.status(500).json({ errors });
+    return res.status(500).json({message: 'error saving rates to db', errors });
   }
 
+  // save rates to snipcart order metadata
+  if(!req?.body?.content?.metadata?.rates?.length){
+    try{
+      const metadataToSave = {
+        status: 'Unconfirmed',
+        metadata: {
+          rates
+        },
+      };
+      const secret = process.env.SNIPCART_SECRET + ':';
+      const saveToOrderMetadata = await axios.put(`https://app.snipcart.com/api/orders/${token}`, metadataToSave, {
+        headers: {
+          Authorization: `Basic ${btoa(secret)}`,
+          Accept: 'application/json',
+        },
+      } )
+
+    }catch(errors){
+      return res.status(500).json({message: 'error saving rates to order metadata',errors})
+    }
+  }
   // return rates
   return res.json({ rates });
 });
@@ -54,29 +77,29 @@ handler.post(async (req, res) => {
 
 // the following it a GET handler for testing LOCALLY
 // uses static body var instead of req.body
-handler.get(async (req, res) => {
-  const body = {
-    eventName: '',
-    content: {
-      shippingAddressName: 'Mike Gulline',
-      shippingAddressCompanyName: '',
-      shippingAddressAddress1: '7624 Potter Valley Dr.',
-      shippingAddressAddress2: '',
-      shippingAddressCity: 'Eastvale',
-      shippingAddressCountry: 'USA',
-      shippingAddressProvince: 'CA',
-      shippingAddressPostalCode: '92880',
-      shippingAddressPhone: '',
-      totalWeight: 33.3,
-    },
-  };
+// handler.get(async (req, res) => {
+//   const body = {
+//     eventName: '',
+//     content: {
+//       shippingAddressName: 'Mike Gulline',
+//       shippingAddressCompanyName: '',
+//       shippingAddressAddress1: '7624 Potter Valley Dr.',
+//       shippingAddressAddress2: '',
+//       shippingAddressCity: 'Eastvale',
+//       shippingAddressCountry: 'USA',
+//       shippingAddressProvince: 'CA',
+//       shippingAddressPostalCode: '92880',
+//       shippingAddressPhone: '',
+//       totalWeight: 33.3,
+//     },
+//   };
 
-  const { rates, errors } = await getRates(body);
+//   const { rates, errors } = await getRates(body);
 
-  if (errors) return res.json({ errors });
+//   if (errors) return res.json({ errors });
 
-  return res.json({ rates });
-});
+//   return res.json({ rates });
+// });
 
 export default handler;
 

@@ -106,373 +106,374 @@ handler.post(async (req, res) => {
 //get test//////////////////////////
 //get test//////////////////////////
 
-// handler.get(async (req, res) => {
-//   const saveOrder = {
-//     eventName: 'order.completed',
-//     mode: 'Test',
-//     createdOn: '2023-02-15T01:27:15.3334304Z',
-//     content: {
-//       discounts: [],
-//       items: [
-//         {
-//           paymentSchedule: {
-//             interval: 0,
-//             intervalCount: 1,
-//             trialPeriodInDays: null,
-//             startsOn: '2023-02-15T00:00:00Z',
-//           },
-//           pausingAction: 'None',
-//           cancellationAction: 'None',
-//           token: '2566bb42-376e-4db1-9e5b-ac163b5f4564',
-//           name: 'Cotton Long-Sleeve with Round Design (Navy) S',
-//           price: 35,
-//           quantity: 1,
-//           fileGuid: null,
-//           url: 'https://loyaltofew-staging.vercel.app/store/mens/sleeves/round/navy?s=0',
-//           id: 'menssleevesroundnavy:s',
-//           initialData: '',
-//           description: 'Cotton Long-Sleeve with Round Design (Navy) S',
-//           categories: [],
-//           totalPriceWithoutTaxes: 35,
-//           weight: 9.8,
-//           image: '/images/products/mens/sleeves/MensSleevesRoundNavy.jpg',
-//           originalPrice: null,
-//           uniqueId: '8cc975b0-19ad-450f-9f01-6b49cbba867e',
-//           stackable: true,
-//           minQuantity: null,
-//           maxQuantity: null,
-//           addedOn: '2023-02-15T00:34:56Z',
-//           modificationDate: '2023-02-15T00:34:56Z',
-//           shippable: true,
-//           taxable: true,
-//           duplicatable: false,
-//           width: null,
-//           height: null,
-//           length: null,
-//           metadata: null,
-//           totalPrice: 35,
-//           totalWeight: 9.8,
-//           taxes: [],
-//           alternatePrices: {},
-//           customFields: [],
-//           unitPrice: 35,
-//           hasDimensions: false,
-//           parcels: null,
-//           hasTaxesIncluded: false,
-//           totalPriceWithoutDiscountsAndTaxes: 35,
-//         },
-//       ],
-//       plans: [],
-//       refunds: [],
-//       taxes: [],
-//       user: {
-//         id: 'b34fbdb2-f716-4618-b198-18820acac954',
-//         email: 'mike@mikegulline.com',
-//         mode: 'Test',
-//         statistics: {
-//           ordersCount: 0,
-//           ordersAmount: null,
-//           subscriptionsCount: 0,
-//         },
-//         creationDate: '2023-02-09T01:00:48Z',
-//         billingAddressFirstName: null,
-//         billingAddressName: 'Mike Gulline',
-//         billingAddressCompanyName: null,
-//         billingAddressAddress1: '7624 Potter Valley Drive',
-//         billingAddressAddress2: '',
-//         billingAddressCity: 'Corona',
-//         billingAddressCountry: 'US',
-//         billingAddressProvince: 'CA',
-//         billingAddressPostalCode: '92880',
-//         billingAddressPhone: '',
-//         shippingAddressFirstName: null,
-//         shippingAddressName: 'Mike Gulline',
-//         shippingAddressCompanyName: null,
-//         shippingAddressAddress1: '7624 Potter Valley Drive',
-//         shippingAddressAddress2: '',
-//         shippingAddressCity: 'Corona',
-//         shippingAddressCountry: 'US',
-//         shippingAddressProvince: 'CA',
-//         shippingAddressPostalCode: '92880',
-//         shippingAddressPhone: '',
-//         shippingAddressSameAsBilling: false,
-//         status: 'Unconfirmed',
-//         sessionToken: null,
-//         gravatarUrl:
-//           'https://www.gravatar.com/avatar/9248356a37f4f5912915ff0d0ecab455?s=70&d=https%3a%2f%2fcdn.snipcart.com%2fassets%2fimages%2favatar.jpg',
-//         billingAddress: {
-//           fullName: 'Mike Gulline',
-//           firstName: null,
-//           name: 'Mike Gulline',
-//           company: null,
-//           address1: '7624 Potter Valley Drive',
-//           address2: '',
-//           fullAddress: '7624 Potter Valley Drive',
-//           city: 'Corona',
-//           country: 'US',
-//           postalCode: '92880',
-//           province: 'CA',
-//           phone: '',
-//           vatNumber: null,
-//           hasMinimalRequiredInfo: true,
-//           validationErrors: {},
-//         },
-//         shippingAddress: {
-//           fullName: 'Mike Gulline',
-//           firstName: null,
-//           name: 'Mike Gulline',
-//           company: null,
-//           address1: '7624 Potter Valley Drive',
-//           address2: '',
-//           fullAddress: '7624 Potter Valley Drive',
-//           city: 'Corona',
-//           country: 'US',
-//           postalCode: '92880',
-//           province: 'CA',
-//           phone: '',
-//           vatNumber: null,
-//           hasMinimalRequiredInfo: true,
-//           validationErrors: {},
-//         },
-//       },
-//       token: '2566bb42-376e-4db1-9e5b-ac163b5f4564',
-//       isRecurringOrder: false,
-//       isRecurringV3Order: false,
-//       parentToken: null,
-//       parentInvoiceNumber: null,
-//       subscriptionId: null,
-//       currency: 'usd',
-//       creationDate: '2023-02-15T00:34:56Z',
-//       modificationDate: '2023-02-15T00:35:54Z',
-//       recoveredFromCampaignId: null,
-//       status: 'Processed',
-//       paymentStatus: 'Paid',
-//       email: 'mike@mikegulline.com',
-//       willBePaidLater: false,
-//       billingAddress: {
-//         fullName: 'Mike Gulline',
-//         firstName: null,
-//         name: 'Mike Gulline',
-//         company: null,
-//         address1: '7624 Potter Valley Drive',
-//         address2: '',
-//         fullAddress: '7624 Potter Valley Drive',
-//         city: 'Corona',
-//         country: 'US',
-//         postalCode: '92880',
-//         province: 'CA',
-//         phone: '',
-//         vatNumber: null,
-//         hasMinimalRequiredInfo: true,
-//         validationErrors: {},
-//       },
-//       shippingAddress: {
-//         fullName: 'Mike Gulline',
-//         firstName: null,
-//         name: 'Mike Gulline',
-//         company: null,
-//         address1: '7624 Potter Valley Drive',
-//         address2: '',
-//         fullAddress: '7624 Potter Valley Drive',
-//         city: 'Corona',
-//         country: 'US',
-//         postalCode: '92880',
-//         province: 'CA',
-//         phone: '',
-//         vatNumber: null,
-//         hasMinimalRequiredInfo: true,
-//         validationErrors: {},
-//       },
-//       shippingAddressSameAsBilling: true,
-//       creditCardLast4Digits: '4242',
-//       trackingNumber: null,
-//       trackingUrl: null,
-//       shippingFees: 4.81,
-//       shippingProvider: null,
-//       shippingMethod: '$4.81 shipping (First USPS) est. 3 days',
-//       shippingLocalizedMethod: '$4.81 shipping (First USPS) est. 3 days',
-//       cardHolderName: 'Mike Gulline',
-//       paymentMethod: 'CreditCard',
-//       notes: null,
-//       mode: 'Test',
-//       customFieldsJson: '[]',
-//       userId: 'b34fbdb2-f716-4618-b198-18820acac954',
-//       completionDate: '2023-02-15T00:35:54Z',
-//       cardType: 'Visa',
-//       paymentGatewayUsed: 'SnipcartPaymentService',
-//       paymentDetails: {
-//         iconUrl: null,
-//         display: null,
-//         instructions: null,
-//       },
-//       taxProvider: 'Default',
-//       lang: 'en',
-//       refundsAmount: 0,
-//       adjustedAmount: 39.81,
-//       finalGrandTotal: 39.81,
-//       billingAddressFirstName: null,
-//       billingAddressName: 'Mike Gulline',
-//       billingAddressCompanyName: null,
-//       billingAddressAddress1: '7624 Potter Valley Drive',
-//       billingAddressAddress2: '',
-//       billingAddressCity: 'Corona',
-//       billingAddressCountry: 'US',
-//       billingAddressProvince: 'CA',
-//       billingAddressPostalCode: '92880',
-//       billingAddressPhone: '',
-//       shippingAddressFirstName: null,
-//       shippingAddressName: 'Mike Gulline',
-//       shippingAddressCompanyName: null,
-//       shippingAddressAddress1: '7624 Potter Valley Drive',
-//       shippingAddressAddress2: '',
-//       shippingAddressCity: 'Corona',
-//       shippingAddressCountry: 'US',
-//       shippingAddressProvince: 'CA',
-//       shippingAddressPostalCode: '92880',
-//       shippingAddressPhone: '',
-//       totalNumberOfItems: 0,
-//       invoiceNumber: 'LTF1017',
-//       billingAddressComplete: true,
-//       shippingAddressComplete: true,
-//       shippingMethodComplete: true,
-//       savedAmount: 0,
-//       subtotal: 35,
-//       baseTotal: 39.81,
-//       itemsTotal: 35,
-//       totalPriceWithoutDiscountsAndTaxes: 35,
-//       taxableTotal: 35,
-//       grandTotal: 39.81,
-//       total: 39.81,
-//       totalWeight: 9.8,
-//       totalRebateRate: 0,
-//       customFields: [],
-//       shippingEnabled: true,
-//       numberOfItemsInOrder: 1,
-//       paymentTransactionId: '83d52ece-438f-463f-b1eb-8305e5f8b622',
-//       metadata: null,
-//       taxesTotal: 0,
-//       itemsCount: 1,
-//       summary: {
-//         subtotal: 35,
-//         taxableTotal: 35,
-//         total: 39.81,
-//         payableNow: 39.81,
-//         paymentMethod: 'CreditCard',
-//         taxes: [],
-//         discountInducedTaxesVariation: 0,
-//         adjustedTotal: 39.81,
-//         shipping: null,
-//       },
-//       ipAddress: '99.8.112.175',
-//       userAgent:
-//         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0',
-//       hasSubscriptions: false,
-//     },
-//   };
+handler.get(async (req, res) => {
+  const saveOrder = {
+    eventName: 'order.completed',
+    mode: 'Test',
+    createdOn: '2023-02-15T01:27:15.3334304Z',
+    content: {
+      discounts: [],
+      items: [
+        {
+          paymentSchedule: {
+            interval: 0,
+            intervalCount: 1,
+            trialPeriodInDays: null,
+            startsOn: '2023-02-15T00:00:00Z',
+          },
+          pausingAction: 'None',
+          cancellationAction: 'None',
+          token: '2566bb42-376e-4db1-9e5b-ac163b5f4564',
+          name: 'Cotton Long-Sleeve with Round Design (Navy) S',
+          price: 35,
+          quantity: 1,
+          fileGuid: null,
+          url: 'https://loyaltofew-staging.vercel.app/store/mens/sleeves/round/navy?s=0',
+          id: 'menssleevesroundnavy:s',
+          initialData: '',
+          description: 'Cotton Long-Sleeve with Round Design (Navy) S',
+          categories: [],
+          totalPriceWithoutTaxes: 35,
+          weight: 9.8,
+          image: '/images/products/mens/sleeves/MensSleevesRoundNavy.jpg',
+          originalPrice: null,
+          uniqueId: '8cc975b0-19ad-450f-9f01-6b49cbba867e',
+          stackable: true,
+          minQuantity: null,
+          maxQuantity: null,
+          addedOn: '2023-02-15T00:34:56Z',
+          modificationDate: '2023-02-15T00:34:56Z',
+          shippable: true,
+          taxable: true,
+          duplicatable: false,
+          width: null,
+          height: null,
+          length: null,
+          metadata: null,
+          totalPrice: 35,
+          totalWeight: 9.8,
+          taxes: [],
+          alternatePrices: {},
+          customFields: [],
+          unitPrice: 35,
+          hasDimensions: false,
+          parcels: null,
+          hasTaxesIncluded: false,
+          totalPriceWithoutDiscountsAndTaxes: 35,
+        },
+      ],
+      plans: [],
+      refunds: [],
+      taxes: [],
+      user: {
+        id: 'b34fbdb2-f716-4618-b198-18820acac954',
+        email: 'mike@mikegulline.com',
+        mode: 'Test',
+        statistics: {
+          ordersCount: 0,
+          ordersAmount: null,
+          subscriptionsCount: 0,
+        },
+        creationDate: '2023-02-09T01:00:48Z',
+        billingAddressFirstName: null,
+        billingAddressName: 'Mike Gulline',
+        billingAddressCompanyName: null,
+        billingAddressAddress1: '7624 Potter Valley Drive',
+        billingAddressAddress2: '',
+        billingAddressCity: 'Corona',
+        billingAddressCountry: 'US',
+        billingAddressProvince: 'CA',
+        billingAddressPostalCode: '92880',
+        billingAddressPhone: '',
+        shippingAddressFirstName: null,
+        shippingAddressName: 'Mike Gulline',
+        shippingAddressCompanyName: null,
+        shippingAddressAddress1: '7624 Potter Valley Drive',
+        shippingAddressAddress2: '',
+        shippingAddressCity: 'Corona',
+        shippingAddressCountry: 'US',
+        shippingAddressProvince: 'CA',
+        shippingAddressPostalCode: '92880',
+        shippingAddressPhone: '',
+        shippingAddressSameAsBilling: false,
+        status: 'Unconfirmed',
+        sessionToken: null,
+        gravatarUrl:
+          'https://www.gravatar.com/avatar/9248356a37f4f5912915ff0d0ecab455?s=70&d=https%3a%2f%2fcdn.snipcart.com%2fassets%2fimages%2favatar.jpg',
+        billingAddress: {
+          fullName: 'Mike Gulline',
+          firstName: null,
+          name: 'Mike Gulline',
+          company: null,
+          address1: '7624 Potter Valley Drive',
+          address2: '',
+          fullAddress: '7624 Potter Valley Drive',
+          city: 'Corona',
+          country: 'US',
+          postalCode: '92880',
+          province: 'CA',
+          phone: '',
+          vatNumber: null,
+          hasMinimalRequiredInfo: true,
+          validationErrors: {},
+        },
+        shippingAddress: {
+          fullName: 'Mike Gulline',
+          firstName: null,
+          name: 'Mike Gulline',
+          company: null,
+          address1: '7624 Potter Valley Drive',
+          address2: '',
+          fullAddress: '7624 Potter Valley Drive',
+          city: 'Corona',
+          country: 'US',
+          postalCode: '92880',
+          province: 'CA',
+          phone: '',
+          vatNumber: null,
+          hasMinimalRequiredInfo: true,
+          validationErrors: {},
+        },
+      },
+      token: '2566bb42-376e-4db1-9e5b-ac163b5f4564',
+      isRecurringOrder: false,
+      isRecurringV3Order: false,
+      parentToken: null,
+      parentInvoiceNumber: null,
+      subscriptionId: null,
+      currency: 'usd',
+      creationDate: '2023-02-15T00:34:56Z',
+      modificationDate: '2023-02-15T00:35:54Z',
+      recoveredFromCampaignId: null,
+      status: 'Processed',
+      paymentStatus: 'Paid',
+      email: 'mike@mikegulline.com',
+      willBePaidLater: false,
+      billingAddress: {
+        fullName: 'Mike Gulline',
+        firstName: null,
+        name: 'Mike Gulline',
+        company: null,
+        address1: '7624 Potter Valley Drive',
+        address2: '',
+        fullAddress: '7624 Potter Valley Drive',
+        city: 'Corona',
+        country: 'US',
+        postalCode: '92880',
+        province: 'CA',
+        phone: '',
+        vatNumber: null,
+        hasMinimalRequiredInfo: true,
+        validationErrors: {},
+      },
+      shippingAddress: {
+        fullName: 'Mike Gulline',
+        firstName: null,
+        name: 'Mike Gulline',
+        company: null,
+        address1: '7624 Potter Valley Drive',
+        address2: '',
+        fullAddress: '7624 Potter Valley Drive',
+        city: 'Corona',
+        country: 'US',
+        postalCode: '92880',
+        province: 'CA',
+        phone: '',
+        vatNumber: null,
+        hasMinimalRequiredInfo: true,
+        validationErrors: {},
+      },
+      shippingAddressSameAsBilling: true,
+      creditCardLast4Digits: '4242',
+      trackingNumber: null,
+      trackingUrl: null,
+      shippingFees: 4.81,
+      shippingProvider: null,
+      shippingMethod: '$4.81 shipping (First USPS) est. 3 days',
+      shippingLocalizedMethod: '$4.81 shipping (First USPS) est. 3 days',
+      cardHolderName: 'Mike Gulline',
+      paymentMethod: 'CreditCard',
+      notes: null,
+      mode: 'Test',
+      customFieldsJson: '[]',
+      userId: 'b34fbdb2-f716-4618-b198-18820acac954',
+      completionDate: '2023-02-15T00:35:54Z',
+      cardType: 'Visa',
+      paymentGatewayUsed: 'SnipcartPaymentService',
+      paymentDetails: {
+        iconUrl: null,
+        display: null,
+        instructions: null,
+      },
+      taxProvider: 'Default',
+      lang: 'en',
+      refundsAmount: 0,
+      adjustedAmount: 39.81,
+      finalGrandTotal: 39.81,
+      billingAddressFirstName: null,
+      billingAddressName: 'Mike Gulline',
+      billingAddressCompanyName: null,
+      billingAddressAddress1: '7624 Potter Valley Drive',
+      billingAddressAddress2: '',
+      billingAddressCity: 'Corona',
+      billingAddressCountry: 'US',
+      billingAddressProvince: 'CA',
+      billingAddressPostalCode: '92880',
+      billingAddressPhone: '',
+      shippingAddressFirstName: null,
+      shippingAddressName: 'Mike Gulline',
+      shippingAddressCompanyName: null,
+      shippingAddressAddress1: '7624 Potter Valley Drive',
+      shippingAddressAddress2: '',
+      shippingAddressCity: 'Corona',
+      shippingAddressCountry: 'US',
+      shippingAddressProvince: 'CA',
+      shippingAddressPostalCode: '92880',
+      shippingAddressPhone: '',
+      totalNumberOfItems: 0,
+      invoiceNumber: 'LTF1017',
+      billingAddressComplete: true,
+      shippingAddressComplete: true,
+      shippingMethodComplete: true,
+      savedAmount: 0,
+      subtotal: 35,
+      baseTotal: 39.81,
+      itemsTotal: 35,
+      totalPriceWithoutDiscountsAndTaxes: 35,
+      taxableTotal: 35,
+      grandTotal: 39.81,
+      total: 39.81,
+      totalWeight: 9.8,
+      totalRebateRate: 0,
+      customFields: [],
+      shippingEnabled: true,
+      numberOfItemsInOrder: 1,
+      paymentTransactionId: '83d52ece-438f-463f-b1eb-8305e5f8b622',
+      metadata: null,
+      taxesTotal: 0,
+      itemsCount: 1,
+      summary: {
+        subtotal: 35,
+        taxableTotal: 35,
+        total: 39.81,
+        payableNow: 39.81,
+        paymentMethod: 'CreditCard',
+        taxes: [],
+        discountInducedTaxesVariation: 0,
+        adjustedTotal: 39.81,
+        shipping: null,
+      },
+      ipAddress: '99.8.112.175',
+      userAgent:
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0',
+      hasSubscriptions: false,
+    },
+  };
 
-//   if (saveOrder.eventName === 'order.completed') {
-//     let rates;
-//     let shipping;
-//     let tracking;
-//     // get saved rates by orderToken and cost from db
-//     try {
-//       db.connectDB();
-//       rates = await Rate.find({
-//         orderToken: saveOrder.content.token,
-//         cost: saveOrder.content.shippingFees,
-//       }).exec();
-//       db.disconnectDB();
-//       if (!rates?.length) {
-//         return res.status(500).json({ errors: 'could not find rates' });
-//       }
+  if (saveOrder.eventName === 'order.completed') {
+    let rates;
+    let shipping;
+    let tracking;
+    // get saved rates by orderToken and cost from db
+    try {
+      db.connectDB();
+      rates = await Rate.find({
+        orderToken: saveOrder.content.token,
+        cost: saveOrder.content.shippingFees,
+      }).exec();
+      db.disconnectDB();
+      if (!rates?.length) {
+        return res.status(500).json({ errors: 'could not find rates' });
+      }
 
-//       console.log('found rates, now buy shipping', rates[0]);
-//     } catch (errors) {
-//       return res.status(500).json({ message: 'db error', errors });
-//     }
+      console.log('1. got rates from db ->', rates[0]);
+    } catch (errors) {
+      return res.status(500).json({ message: 'db error', errors });
+    }
 
-//     // buy shipping
-//     try {
-//       const shipment = await api.Shipment.retrieve(rates[0].shipment_id);
+    // buy shipping
+    try {
+      const shipment = await api.Shipment.retrieve(rates[0].shipment_id);
 
-//       shipping = await shipment.buy(rates[0].rate_id);
+      shipping = await shipment.buy(rates[0].rate_id);
 
-//       console.log('bought shipping from easypost', shipping);
-//     } catch (errors) {
-//       return res.status(500).json({ message: 'shipping errors', errors });
-//     }
+      console.log('2. bought shipping from easypost ->', shipping);
+    } catch (errors) {
+      return res.status(500).json({ message: 'shipping errors', errors });
+    }
 
-//     // save ship infos to db
-//     try {
-//       await db.connectDB();
-//       await new Shipping(shipping).save();
-//       await db.disconnectDB();
-//     } catch (errors) {
-//       res.status(500).json({ message: 'error saving shipment to db', errors });
-//     }
+    // save ship infos to db
+    try {
+      await db.connectDB();
+      await new Shipping(shipping).save();
+      console.log('3. saved shipping to db')
+      await db.disconnectDB();
+    } catch (errors) {
+      res.status(500).json({ message: 'error saving shipment to db', errors });
+    }
 
-//     // get tracking url from api
-//     try {
-//       tracking = await api.Tracker.retrieve(shipping.tracker.id);
+    // get tracking url from api
+    try {
+      tracking = await api.Tracker.retrieve(shipping.tracker.id);
 
-//       console.log('tracking info retrieved from ep api', tracking);
-//     } catch (errors) {
-//       res.status(500).json({ message: 'error getting tracking url', errors });
-//     }
+      console.log('4. got tracking info from ep api ->', tracking);
+    } catch (errors) {
+      res.status(500).json({ message: 'error getting tracking url', errors });
+    }
 
-//     // convert tracking vars
-//     const trackingForSnipcart = {
-//       status: 'Processed',
-//       trackingNumber: shipping.tracking_code,
-//       trackingUrl: tracking.public_url,
-//       metadata: {
-//         trackerId: shipping.tracker.id,
-//         carrier: tracking.carrierl,
-//         postageLabel: shipping.postage_label,
-//         selectedRate: shipping.selected_rate,
-//       },
-//     };
+    // convert tracking vars
+    const trackingForSnipcart = {
+      status: 'Processed',
+      trackingNumber: shipping.tracking_code,
+      trackingUrl: tracking.public_url,
+      metadata: {
+        trackerId: shipping.tracker.id,
+        carrier: tracking.carrierl,
+        postageLabel: shipping.postage_label,
+        selectedRate: shipping.selected_rate,
+      },
+    };
 
-//     // save tracking info to snipcart
-//     try {
-//       const secret = process.env.SNIPCART_SECRET + ':';
-//       const saveToSnipcart = await axios.put(
-//         `https://app.snipcart.com/api/orders/${saveOrder.content.token}`,
-//         trackingForSnipcart,
-//         {
-//           headers: {
-//             Authorization: `Basic ${btoa(secret)}`,
-//             Accept: 'application/json',
-//           },
-//         }
-//       );
+    // save tracking info to snipcart
+    try {
+      const secret = process.env.SNIPCART_SECRET + ':';
+      const saveToSnipcart = await axios.put(
+        `https://app.snipcart.com/api/orders/${saveOrder.content.token}`,
+        trackingForSnipcart,
+        {
+          headers: {
+            Authorization: `Basic ${btoa(secret)}`,
+            Accept: 'application/json',
+          },
+        }
+      );
 
-//       console.log('save tracking to snipcart', saveToSnipcart);
-//     } catch (errors) {
-//       res
-//         .status(500)
-//         .json({ message: 'problem saving tracking to snipcart', errors });
-//     }
+      console.log('5. saved tracking to snipcart', saveToSnipcart);
+    } catch (errors) {
+      res
+        .status(500)
+        .json({ message: 'problem saving tracking to snipcart', errors });
+    }
 
-//     ///
-//     // save order to db
-//     try {
-//       await db.connectDB();
+    ///
+    // save order to db
+    // try {
+    //   await db.connectDB();
 
-//       saveOrder.content.trackingNumber = shipping.tracking_code;
-//       saveOrder.content.trackingUrl = tracking.public_url;
+    //   saveOrder.content.trackingNumber = shipping.tracking_code;
+    //   saveOrder.content.trackingUrl = tracking.public_url;
 
-//       const order = await new Order(saveOrder).save();
-//       res.json({ message: 'saved order to db', order });
+    //   const order = await new Order(saveOrder).save();
+    //   res.json({ message: 'saved order to db', order });
 
-//       await db.disconnectDB();
-//     } catch (errors) {
-//       res.status(500).json({ errors });
-//     }
-//   }
+    //   await db.disconnectDB();
+    // } catch (errors) {
+    //   res.status(500).json({ errors });
+    // }
+  }
 
-//   return res.status(200);
-// });
+  return res.status(200);
+});
 
 export default handler;
 
