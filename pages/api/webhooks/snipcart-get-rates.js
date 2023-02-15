@@ -45,26 +45,26 @@ handler.post(async (req, res) => {
   }
 
   // save rates to snipcart order metadata
-  if(!req?.body?.content?.metadata?.rates?.length){
-    try{
-      const metadataToSave = {
-        status: 'InProgress',
-        metadata: {
-          rates
-        },
-      };
-      const secret = process.env.SNIPCART_SECRET + ':';
-      const saveToOrderMetadata = await axios.put(`https://app.snipcart.com/api/orders/${token}`, metadataToSave, {
-        headers: {
-          Authorization: `Basic ${btoa(secret)}`,
-          Accept: 'application/json',
-        },
-      } )
 
-    }catch(errors){
-      return res.status(500).json({message: 'error saving rates to order metadata',errors})
-    }
+  try{
+    const metadataToSave = {
+      status: 'InProgress',
+      metadata: {
+        rrates
+      },
+    };
+    const secret = process.env.SNIPCART_SECRET + ':';
+    await axios.put(`https://app.snipcart.com/api/orders/${token}`, metadataToSave, {
+      headers: {
+        Authorization: `Basic ${btoa(secret)}`,
+        Accept: 'application/json',
+      },
+    } )
+
+  }catch(errors){
+    return res.status(500).json({message: 'error saving rates to order metadata',errors})
   }
+
   // return rates
   return res.json({ rates });
 });
