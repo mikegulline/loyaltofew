@@ -9,7 +9,6 @@ import nc from 'next-connect';
 import getRates from './utils/getRates';
 import db from '../../../utils/db';
 import Rate from '../../../models/rate';
-import axios from 'axios';
 
 const handler = nc();
 
@@ -43,8 +42,6 @@ handler.post(async (req, res) => {
   } catch (errors) {
     return res.status(500).json({message: 'error saving rates to db', errors });
   }
-
-  
 
   // return rates
   return res.json({ rates });
