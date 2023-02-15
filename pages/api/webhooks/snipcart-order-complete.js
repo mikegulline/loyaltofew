@@ -1,7 +1,5 @@
 import nc from 'next-connect';
 import db from '../../../utils/db';
-// import Order from '../../../models/order';
-// import Shipping from '../../../models/shipping';
 import Rate from '../../../models/rate';
 import api from './utils/easyPostApi';
 import axios from 'axios';
@@ -16,7 +14,7 @@ handler.post(async (req, res) => {
     let shipping;
     let tracking;
 
-    // get saved rates by orderToken and cost from db
+    // 1. get saved rates by orderToken and cost from db
     try {
       db.connectDB();
       rates = await Rate.find({
@@ -31,7 +29,7 @@ handler.post(async (req, res) => {
       return res.status(500).json({ message: 'db error', errors });
     }
 
-    // get and buy shipping
+    // 2. get and buy shipping
     try {
       const shipment = await api.Shipment.retrieve(rates[0].shipment_id);
 
@@ -40,30 +38,28 @@ handler.post(async (req, res) => {
       return res.status(500).json({ message: 'shipping errors', errors });
     }
 
-    // get tracking url from api
+    // 3. get tracking url from api
     try {
       tracking = await api.Tracker.retrieve(shipping.tracker.id);
     } catch (errors) {
       res.status(500).json({ message: 'error getting tracking url', errors });
     }
 
-    // convert tracking vars to order vars
-    const trackingForSnipcart = {
-      status: 'Processed',
-      trackingNumber: shipping.tracking_code,
-      trackingUrl: tracking.public_url,
-      metadata: {
-        trackerId: shipping.tracker.id,
-        carrier: tracking.carrierl,
-        postageLabel: shipping.postage_label,
-        selectedRate: shipping.selected_rate,
-      },
-    };
-
-    // save tracking info to snipcart
+    // 4. save tracking info to snipcart
     try {
+      const trackingForSnipcart = {
+        status: 'Processed',
+        trackingNumber: shipping.tracking_code,
+        trackingUrl: tracking.public_url,
+        metadata: {
+          trackerId: shipping.tracker.id,
+          carrier: tracking.carrierl,
+          postageLabel: shipping.postage_label,
+          selectedRate: shipping.selected_rate,
+        },
+      };
       const secret = process.env.SNIPCART_SECRET + ':';
-      const saveToSnipcart = await axios.put(
+      await axios.put(
         `https://app.snipcart.com/api/orders/${saveOrder.content.token}`,
         trackingForSnipcart,
         {
