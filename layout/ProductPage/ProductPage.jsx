@@ -8,18 +8,26 @@ const ProductPage = ({ product, size }) => {
   const [sizeAndPriceIndex, setSizeAndPriceIndex] = useState(0);
   const { id, name, image, link, colors, sizes, weight, details, color } =
     product;
-  const productId = `${id}:${sizes[sizeAndPriceIndex].size.toLowerCase()}`;
-  const productName = `${name} (${color}) ${sizes[sizeAndPriceIndex].size}`;
-  const productUrl = `${link}/${color.toLowerCase()}?s=${sizeAndPriceIndex}`;
-  const buttonData = {
-    'data-item-id': productId,
-    'data-item-price': sizes[sizeAndPriceIndex].price,
-    'data-item-description': productName,
-    'data-item-image': image,
-    'data-item-name': productName,
-    'data-item-url': productUrl,
-    'data-item-weight': weight,
-  };
+
+  const showButtons = sizes.map((s, i) => {
+    return (
+      <button
+        key={i}
+        data-item-id={`${id}:${s.size.toLowerCase()}`}
+        data-item-price={s.price}
+        data-item-description={`${name} (${color}) ${s.size}`}
+        data-item-image={image}
+        data-item-name={`${name} (${color}) ${s.size}`}
+        data-item-url={`${link}/${color.toLowerCase()}`}
+        data-item-weight={weight}
+        className={`${
+          i != sizeAndPriceIndex ? 'hidden ' : ''
+        } snipcart-add-item font-lighter rounded border border-zinc-800 bg-zinc-800 text-white hover:border-red-600 hover:bg-red-600`}
+      >
+        Add to cart
+      </button>
+    );
+  });
 
   useEffect(() => {
     setSizeAndPriceIndex(size);
@@ -52,12 +60,7 @@ const ProductPage = ({ product, size }) => {
                 onChange={setSizeAndPriceIndex}
                 current={sizeAndPriceIndex}
               />
-              <button
-                {...buttonData}
-                className='snipcart-add-item font-lighter rounded border border-zinc-800 bg-zinc-800 text-white hover:border-red-600 hover:bg-red-600 '
-              >
-                Add to cart
-              </button>
+              {showButtons}
             </div>
           </div>
         </Container>
