@@ -9,13 +9,13 @@ export const store = [
     products: [
       {
         type: 'Tee',
-        product: 'Comfort Tee',
-        logos: ['Arch', 'Block', 'Horizontal', 'Round'],
+        product: 'Original Tee',
+        logos: ['Arch', 'Block', 'Original', 'Stamp'],
         colors: ['Black', 'Gray', 'Green', 'Maroon', 'Navy'],
         tags: ['Tops'],
         weight: 7,
         meta: {
-          title: 'Mens Comfort Tee',
+          title: 'Mens Original Tee',
           description:
             'Perfect 50/50 blend of cotton & polyester. Super-soft, lightweight (3.8oz) & durable.',
         },
@@ -60,13 +60,13 @@ export const store = [
       },
       {
         type: 'Tank',
-        product: 'Classic Cotton Tank',
-        logos: ['Arch', 'Block', 'Horizontal', 'Round'],
+        product: 'Original Tank',
+        logos: ['Arch', 'Block', 'Original', 'Stamp'],
         colors: ['Black'],
         tags: ['Tops'],
         weight: 5.7,
         meta: {
-          title: 'Mens Classic Cotton Tank',
+          title: 'Mens Original Tank',
           description:
             '100% Pre-washed, no-shrink cotton. Lightweight (6.5oz)  and durable',
         },
@@ -111,13 +111,13 @@ export const store = [
       },
       {
         type: 'Sleeves',
-        product: 'Cotton Long-Sleeve',
-        logos: ['Arch', 'Block', 'Horizontal', 'Round'],
+        product: 'Original Long-Sleeve',
+        logos: ['Arch', 'Block', 'Original', 'Stamp'],
         colors: ['Black', 'Gray', 'Navy'],
         tags: ['Tops'],
         weight: 9.8,
         meta: {
-          title: 'Mens Cotton Long-Sleeve',
+          title: 'Mens Original Long-Sleeve',
           description:
             '100% cotton grown on a US farm. Lightweight (4.3oz.) & durable.',
         },
@@ -160,6 +160,57 @@ export const store = [
           'S-XXL',
         ],
       },
+      {
+        type: 'Crew',
+        product: 'Original Crew',
+        logos: ['Arch', 'Block', 'Original', 'Stamp'],
+        colors: ['Black', 'Navy', 'Green', 'Dolphin'],
+        tags: ['Tops'],
+        weight: 9.8,
+        meta: {
+          title: 'Mens Original Long-Sleeve',
+          description:
+            '100% cotton grown on a US farm. Lightweight (4.3oz.) & durable.',
+        },
+        sizes: [
+          {
+            size: 'S',
+            price: 70,
+            dimensions:
+              'Body Length: 26 7/8 in, Chest Width: 20 in., Sleeve Length: 23 3/4 in.',
+          },
+          {
+            size: 'M',
+            price: 70,
+            dimensions:
+              'Body Length: 28 in., Chest Width: 22 in., Sleeve Length: 24 1/4 in.',
+          },
+          {
+            size: 'L',
+            price: 70,
+            dimensions:
+              'Body Length: 29 1/8 in., Chest Width: 24 in., Sleeve Length: 24 3/4 in.',
+          },
+          {
+            size: 'XL',
+            price: 70,
+            dimensions:
+              'Body Length: 30 1/4 in., Chest Width: 26 in., Sleeve Length: 25 1/4 in.',
+          },
+          {
+            size: 'XXL',
+            price: 70,
+            dimensions:
+              'Body Length: 31 3/8 in., Chest Width: 28 in., Sleeve Length: 25 3/4 in.',
+          },
+        ],
+        details: [
+          'Designed, produced & printed in the USA',
+          '100% US grown, pre-washed, no-shrink cotton',
+          'Heavyweight (14oz) oversized fit',
+          'Unisex, check size-chart, S-XXL',
+        ],
+      },
     ],
   },
   {
@@ -171,14 +222,111 @@ export const store = [
     },
     products: [
       {
+        type: 'Tee',
+        product: 'Original Tee',
+        logos: ['Arch', 'Block', 'Original', 'Stamp'],
+        colors: ['Navy', 'Red'],
+        tags: ['Tops'],
+        weight: 3.6,
+        meta: {
+          title: 'Womens Original Tee',
+          description:
+            '100% cotton grown on a US farm. Lightweight (4.3oz.) & durable.',
+        },
+        sizes: [
+          {
+            size: 'S',
+            price: 28,
+            dimensions:
+              'Body Length: 25 7/8 in., Chest Width: 16 1/8 in., Sleeve Length: 6 3/8 in.',
+          },
+          {
+            size: 'M',
+            price: 28,
+            dimensions:
+              'Body Length: 26 1/2 in., Chest Width: 16 5/8 in., Sleeve Length: 6 5/8 in.',
+          },
+          {
+            size: 'L',
+            price: 28,
+            dimensions:
+              'Body Length: 27 1/8 in., Chest Width: 17 1/8 in., Sleeve Length: 6 7/8 in.',
+          },
+          {
+            size: 'XL',
+            price: 28,
+            dimensions:
+              'Body Length: 27 3/4 in., Chest Width: 17 5/8 in., Sleeve Length: 7 1/8 in.',
+          },
+          {
+            size: 'XXL',
+            price: 30,
+            dimensions:
+              'Body Length: 28 1/4 in., Chest Width: 18 in., Sleeve Length: 7 3/8 in.	',
+          },
+        ],
+        details: [
+          'Designed, produced & printed in the USA',
+          '100% cotton grown on a US farm',
+          'Lightweight (4.3oz.) & durable',
+          'S-XXL',
+        ],
+      },
+      {
+        type: 'Tank',
+        product: 'Original Tank',
+        logos: ['Arch', 'Block', 'Original', 'Stamp'],
+        colors: ['Blue', 'Gray', 'Maroon'],
+        tags: ['Tops'],
+        weight: 2.6,
+        meta: {
+          title: 'Womens Original Tank',
+          description:
+            '50% polyester, 25% cotton, 25% rayon. Lightweight (3.7oz) racerback design.',
+        },
+        sizes: [
+          // {
+          //   size: 'XS',
+          //   price: 25,
+          //   dimensions: 'Body Length: 25 1/8 in., Chest Width: 12 5/8 in.',
+          // },
+          {
+            size: 'S',
+            price: 25,
+            dimensions: 'Body Length: 25 3/4 in., Chest Width: 13 5/8 in.',
+          },
+          {
+            size: 'M',
+            price: 25,
+            dimensions: 'Body Length: 26 3/8 in., Chest Width: 14 5/8 in.',
+          },
+          {
+            size: 'L',
+            price: 25,
+            dimensions: 'Body Length: 27 1/4 in., Chest Width: 16 1/8 in.',
+          },
+          {
+            size: 'XL',
+            price: 25,
+            dimensions: 'Body Length: 27 3/4 in., Chest Width: 17 in.',
+          },
+        ],
+        details: [
+          'Designed, produced & printed in the USA',
+          '50% polyester, 25% cotton, 25% rayon',
+          'Lightweight (3.7oz) racerback design',
+          'XS-XL',
+        ],
+      },
+      {
         type: 'Crop',
-        product: 'Cotton Crop',
-        logos: ['Arch', 'Block', 'Horizontal', 'Round'],
+        product: 'Original Crop',
+        logos: ['Arch', 'Block', 'Original', 'Stamp'],
         colors: ['Black', 'Gray', 'Navy', 'Red'],
         tags: ['Tops'],
         weight: 2.9,
         meta: {
-          title: 'Womens Cotton Crop',
+          title: 'Womens Original Crop',
           description:
             'Raw hem, riibbed crew-neck & short sleeves. 100% US Lightweight cotton (4.3oz).',
         },
@@ -222,100 +370,30 @@ export const store = [
         ],
       },
       {
-        type: 'Tank',
-        product: 'Tri-Blend Tank',
-        logos: ['Arch', 'Block', 'Horizontal', 'Round'],
-        colors: ['Blue', 'Gray', 'Maroon'],
+        type: 'Oversized-Crop',
+        product: 'Original Oversized Crop',
+        logos: ['Arch', 'Block', 'Original', 'Stamp'],
+        colors: ['Black', 'Dolphin', 'Baby-Blue', 'Mauve'],
         tags: ['Tops'],
-        weight: 2.6,
+        weight: 2.9,
         meta: {
-          title: 'Womens Tri-Blend Tank',
-          description:
-            '50% polyester, 25% cotton, 25% rayon. Lightweight (3.7oz) racerback design.',
-        },
-        sizes: [
-          // {
-          //   size: 'XS',
-          //   price: 25,
-          //   dimensions: 'Body Length: 25 1/8 in., Chest Width: 12 5/8 in.',
-          // },
-          {
-            size: 'S',
-            price: 25,
-            dimensions: 'Body Length: 25 3/4 in., Chest Width: 13 5/8 in.',
-          },
-          {
-            size: 'M',
-            price: 25,
-            dimensions: 'Body Length: 26 3/8 in., Chest Width: 14 5/8 in.',
-          },
-          {
-            size: 'L',
-            price: 25,
-            dimensions: 'Body Length: 27 1/4 in., Chest Width: 16 1/8 in.',
-          },
-          {
-            size: 'XL',
-            price: 25,
-            dimensions: 'Body Length: 27 3/4 in., Chest Width: 17 in.',
-          },
-        ],
-        details: [
-          'Designed, produced & printed in the USA',
-          '50% polyester, 25% cotton, 25% rayon',
-          'Lightweight (3.7oz) racerback design',
-          'XS-XL',
-        ],
-      },
-      {
-        type: 'Tee',
-        product: 'Comfort Tee',
-        logos: ['Arch', 'Block', 'Horizontal', 'Round'],
-        colors: ['Navy', 'Red'],
-        tags: ['Tops'],
-        weight: 3.6,
-        meta: {
-          title: 'Womens Comfort Tee',
-          description:
-            '100% cotton grown on a US farm. Lightweight (4.3oz.) & durable.',
+          title: 'Womens Original Oversized Crop',
+          description: 'Wide-fit, oversized, 100% cotto. One size fits most.',
         },
         sizes: [
           {
-            size: 'S',
-            price: 28,
-            dimensions:
-              'Body Length: 25 7/8 in., Chest Width: 16 1/8 in., Sleeve Length: 6 3/8 in.',
-          },
-          {
-            size: 'M',
-            price: 28,
-            dimensions:
-              'Body Length: 26 1/2 in., Chest Width: 16 5/8 in., Sleeve Length: 6 5/8 in.',
-          },
-          {
-            size: 'L',
-            price: 28,
-            dimensions:
-              'Body Length: 27 1/8 in., Chest Width: 17 1/8 in., Sleeve Length: 6 7/8 in.',
-          },
-          {
-            size: 'XL',
-            price: 28,
-            dimensions:
-              'Body Length: 27 3/4 in., Chest Width: 17 5/8 in., Sleeve Length: 7 1/8 in.',
-          },
-          {
-            size: 'XXL',
+            size: 'One Size Fits Most',
             price: 30,
             dimensions:
-              'Body Length: 28 1/4 in., Chest Width: 18 in., Sleeve Length: 7 3/8 in.	',
+              'Body Length: 19 3/4 in., Chest Width: 20 3/4 in., Sleeve Length: 8 5/8 in.',
           },
         ],
         details: [
           'Designed, produced & printed in the USA',
-          '100% cotton grown on a US farm',
-          'Lightweight (4.3oz.) & durable',
-          'S-XXL',
+          'Wide-fit',
+          'Oversized',
+          '100% cotton',
+          'One size fits most',
         ],
       },
     ],
@@ -331,7 +409,7 @@ export const store = [
       {
         type: 'Hoodie',
         product: 'Premium Hoodie',
-        logos: ['Arch', 'Block', 'Horizontal', 'Round'],
+        logos: ['Arch', 'Block', 'Original', 'Stamp'],
         colors: ['Dolphin', 'Green', 'Navy', 'Black'],
         tags: ['Tops'],
         weight: 34.3,

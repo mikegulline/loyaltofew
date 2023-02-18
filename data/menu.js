@@ -10,7 +10,7 @@ export const breadcrumbs = [
   ['Store', '/store'],
   ['About', '/about'],
   ['Contact', '/contact'],
-  ['Returns', '/returns'],
+  ['Orders', '/orders'],
 ];
 
 // footer menus
@@ -26,7 +26,7 @@ export const footerSiteMenu = [
   { name: 'Home', location: '/' },
   { name: 'About', location: '/about' },
   { name: 'Contact', location: '/contact' },
-  { name: 'Returns', location: '/returns' },
+  { name: 'Orders', location: '/orders' },
 ];
 
 // export const footerSiteMenu = [
@@ -34,5 +34,5 @@ export const footerSiteMenu = [
 //   { name: 'Store', location: '/store', subMenu: footerShopMenu },
 //   { name: 'About', location: '/about' },
 //   { name: 'Contact', location: '/contact' },
-//   { name: 'Returns', location: '/returns' },
+//   { name: 'Orders', location: '/returns' },
 // ];
