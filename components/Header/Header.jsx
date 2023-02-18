@@ -27,8 +27,11 @@ const Header = () => {
 const MenuRight = () => {
   return (
     <div className='menuRight'>
-      <a className='snipcart-checkout snipcart-summary ' href='#'>
-        <IoCartOutline />
+      <a
+        className='snipcart-checkout snipcart-summary flex items-center justify-center gap-2 rounded bg-red-600 px-5 py-3 text-base text-gray-100 hover:bg-black'
+        href='#'
+      >
+        <IoCartOutline className='text-3xl' />
         <span className='snipcart-total-price'>$0.00</span>
       </a>
     </div>

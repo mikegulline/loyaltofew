@@ -1,5 +1,5 @@
 export const mainMenu = [
-  { name: 'Home', location: '/' },
+  // { name: 'Home', location: '/' },
   { name: 'Mens', location: '/store/mens' },
   { name: 'Womens', location: '/store/womens' },
   { name: 'Outerwear', location: '/store/outerwear' },

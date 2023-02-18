@@ -66,7 +66,7 @@ body {
   display: none;
 }
 
-.menuRight a .snipcart-total-price {
+/* .menuRight a .snipcart-total-price {
   font-size: 1rem;
   color: #ccc;
   font-weight: 200;
@@ -78,7 +78,7 @@ body {
 .menuRight a:hover .snipcart-total-price {
   color: #fff;
   background-color: #d61818;
-}
+} */
 
 @media (max-width: 1220px) {
   .menuRight {
