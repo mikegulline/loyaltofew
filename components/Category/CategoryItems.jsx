@@ -6,12 +6,18 @@ const CategoryItems = ({ product, title, color }) => {
   const { name, logos, colors } = product;
 
   const buildCategoryItems = logos.map((logo) => {
-    const { link, image, name } = logo;
+    const { link, image, name, logo: logoName } = logo;
 
     let imageLink = `${link}/${colors[0].toLowerCase()}`;
 
     return (
-      <GridBlockItem key={name} link={imageLink} image={image} name={name}>
+      <GridBlockItem
+        key={name}
+        link={imageLink}
+        image={image}
+        name={name}
+        h4={`${logoName} Design`}
+      >
         <ColorLinks colors={product.colors} link={link} />
       </GridBlockItem>
     );

@@ -7,10 +7,10 @@ import { plural } from '../../utils/plural';
 const CategoriesCategory = ({ category }) => {
   const { name, products, link } = category;
 
-  const buildCategoryItems = products.map((product) => {
+  const buildCategoryItems = products.slice(0, 3).map((product) => {
     const { link, image, name, logos, colors } = product;
     return (
-      <GridBlockItem key={name} link={link} image={image} name={name}>
+      <GridBlockItem key={name} link={link} image={image} name={name} h4={name}>
         <p>
           {plural(logos, ['Design', 'Designs'])},{' '}
           {plural(colors, ['Color', 'Colors'])}

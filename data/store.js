@@ -457,16 +457,6 @@ export const store = [
           'S-XXL',
         ],
       },
-    ],
-  },
-  {
-    category: 'Hats',
-    name: 'Hats',
-    meta: {
-      title: 'Loyal To Few (LTF) Beanies and Trucker Hats',
-      description: '',
-    },
-    products: [
       {
         type: 'Beanie',
         product: 'Knit Beanie',
@@ -513,4 +503,15 @@ export const store = [
       },
     ],
   },
+  // {
+  //   category: 'Hats',
+  //   name: 'Hats',
+  //   meta: {
+  //     title: 'Loyal To Few (LTF) Beanies and Trucker Hats',
+  //     description: '',
+  //   },
+  //   products: [
+
+  //   ],
+  // },
 ];

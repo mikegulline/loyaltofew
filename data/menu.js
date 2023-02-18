@@ -3,7 +3,9 @@ export const mainMenu = [
   { name: 'Mens', location: '/store/mens' },
   { name: 'Womens', location: '/store/womens' },
   { name: 'Outerwear', location: '/store/outerwear' },
-  { name: 'Hats', location: '/store/hats' },
+  { name: 'About', location: '/about' },
+  { name: 'Contact', location: '/contact' },
+  { name: 'Orders', location: '/orders' },
 ];
 
 export const breadcrumbs = [
@@ -16,10 +18,10 @@ export const breadcrumbs = [
 // footer menus
 
 export const footerShopMenu = [
+  { name: 'Shop All', location: '/store' },
   { name: 'Mens', location: '/store/mens' },
   { name: 'Womens', location: '/store/womens' },
   { name: 'Outerwear', location: '/store/outerwear' },
-  { name: 'Hats', location: '/store/hats' },
 ];
 
 export const footerSiteMenu = [

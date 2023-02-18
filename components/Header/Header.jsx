@@ -4,6 +4,7 @@ import Menu from '../Menu';
 import styles from './Header.module.css';
 import LogoSVG from '../../public/logos/ltf-logo.svg';
 import { mainMenu } from '../../data/menu';
+import { IoCartOutline } from 'react-icons/io5';
 
 const Header = () => {
   return (
@@ -26,7 +27,8 @@ const Header = () => {
 const MenuRight = () => {
   return (
     <div className='menuRight'>
-      <a className='snipcart-checkout snipcart-summary' href='#'>
+      <a className='snipcart-checkout snipcart-summary ' href='#'>
+        <IoCartOutline />
         <span className='snipcart-total-price'>$0.00</span>
       </a>
     </div>

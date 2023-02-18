@@ -6,7 +6,7 @@ const GridLogoOptions = ({ product }) => {
   const { logos, color } = product;
 
   const buildLogoOptions = logos.map((logo) => {
-    const { link, name, imageColorRoot } = logo;
+    const { link, name, imageColorRoot, logo: logoName } = logo;
     const current = product.logo === logo.logo;
 
     return (
@@ -16,6 +16,7 @@ const GridLogoOptions = ({ product }) => {
         scroll='focus'
         image={`${imageColorRoot}${color}.jpg`}
         name={name}
+        h4={`${logoName} Design`}
         showName={false}
       >
         <GridBlockItemSelectDot current={current} />
