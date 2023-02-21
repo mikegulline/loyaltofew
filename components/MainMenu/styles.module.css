@@ -120,11 +120,15 @@
     top: 89px;
     left: 0;
     width: 100vw;
-    height: calc(100vh);
+    height: calc(100vh - 98px);
     background: #f0f0f0;
     z-index: 99;
   }
-
+  [data-scroll-lock-locked='true'][style*='padding-right: 15px;']
+    .menu_wrapper.menu_open {
+    margin-right: 15px;
+    width: calc(100vw - 15px);
+  }
   .close_mobile_menu_button {
     display: block;
     position: absolute;
@@ -184,7 +188,7 @@
     font-weight: 700;
     text-transform: uppercase;
     display: block;
-    padding: 10px 10px;
+    padding: 10px 0px;
   }
   .main_link:hover {
     color: #d61818;
