@@ -11,13 +11,8 @@ const CategoryItems = ({ product, title, color }) => {
     let imageLink = `${link}/${colors[0].toLowerCase()}`;
 
     return (
-      <GridBlockItem
-        key={name}
-        link={imageLink}
-        image={image}
-        name={name}
-        h4={`${logoName} Design`}
-      >
+      <GridBlockItem key={name} link={imageLink} image={image} name={name}>
+        <h4 className='mt-2 font-medium'>{`${logoName} Design`}</h4>
         <ColorLinks colors={product.colors} link={link} scroll={true} />
       </GridBlockItem>
     );

@@ -13,13 +13,12 @@ const GridLogoOptions = ({ product }) => {
       <GridBlockItem
         key={name}
         link={`${link}/${color.toLowerCase()}`}
-        scroll='focus'
         image={`${imageColorRoot}${color}.jpg`}
         name={name}
-        h4={`${logoName} Design`}
         showName={false}
       >
         <GridBlockItemSelectDot current={current} />
+        <h4 className='mt-2 font-medium'>{`${logoName} Design`}</h4>
       </GridBlockItem>
     );
   });

@@ -43,6 +43,9 @@ const ProductPage = ({ product, size }) => {
             <h1 className='mb-8 text-4xl font-black'>
               {name} ({color})
             </h1>
+
+            <Dimensions dimensions={sizes[sizeAndPriceIndex].dimensions} />
+            <Details details={details} />
             <ColorLinks
               colors={colors}
               link={link}
@@ -50,9 +53,6 @@ const ProductPage = ({ product, size }) => {
               scroll={false}
               className='mb-8'
             />
-
-            <Dimensions dimensions={sizes[sizeAndPriceIndex].dimensions} />
-            <Details details={details} />
             <div className='buttons flex gap-1'>
               <Sizes
                 sizes={sizes}
@@ -74,7 +74,7 @@ const ProductPage = ({ product, size }) => {
 const HeroImage = ({ image, name }) => {
   return (
     <div className='image-column'>
-      <div className='image-wrapper bg-zinc-200'>
+      <div className='image-wrapper rounded bg-zinc-200'>
         <Image
           src={image}
           alt={name}
@@ -90,7 +90,7 @@ const HeroImage = ({ image, name }) => {
 const Details = ({ details }) => {
   const buildDetails = details.map((info, i) => <li key={i}>{info} </li>);
 
-  return <ul className='ml-4 mb-8 list-disc pl-4'>{buildDetails}</ul>;
+  return <ul className='ml-2 mb-8 list-disc pl-2'>{buildDetails}</ul>;
 };
 
 const Dimensions = ({ dimensions }) => {

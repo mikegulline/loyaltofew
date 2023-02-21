@@ -10,7 +10,8 @@ const CategoriesCategory = ({ category }) => {
   const buildCategoryItems = products.slice(0, 3).map((product) => {
     const { link, image, name, logos, colors } = product;
     return (
-      <GridBlockItem key={name} link={link} image={image} name={name} h4={name}>
+      <GridBlockItem key={name} link={link} image={image} name={name}>
+        <h4 className='mt-2 font-medium'>{name}</h4>
         <p>
           {plural(logos, ['Design', 'Designs'])},{' '}
           {plural(colors, ['Color', 'Colors'])}
