@@ -102,17 +102,16 @@
   }
   .menu_wrapper.menu_open {
     display: flex;
-    align-items: center;
     position: fixed;
-    top: 0;
+    top: 89px;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh - 89px);
     background: #f0f0f0;
     z-index: 99;
   }
 
-  .menu_close {
+  .close_mobile_menu_button {
     display: block;
     position: absolute;
     top: 16px;
@@ -126,7 +125,7 @@
     margin-right: 5px;
     cursor: pointer;
   }
-  .menu_close:hover {
+  .close_mobile_menu_button:hover {
     background-color: #d61818;
   }
 
@@ -179,5 +178,9 @@
   .main_active .main.link {
     color: #d61818;
     text-decoration: underline;
+  }
+
+  .main_li:hover .sub_ul {
+    height: 0;
   }
 }

@@ -30,15 +30,24 @@ const MainMenu = ({ menuData }) => {
           openMobileMenu ? styles.menu_open : ''
         }`}
       >
-        <div className={styles.menu_close}>
-          <SlClose />
-        </div>
         <ul className={styles.main_ul}>{buildMenu}</ul>
       </div>
       <div className={styles.mobile_menu_button}>
-        <button onClick={() => setOpenMobileMenu(1)}>
-          <SlMenu />
-        </button>
+        {openMobileMenu ? (
+          <button
+            className={styles.mobile_menu_close}
+            onClick={() => setOpenMobileMenu(0)}
+          >
+            <SlClose />
+          </button>
+        ) : (
+          <button
+            className={styles.mobile_menu_open}
+            onClick={() => setOpenMobileMenu(1)}
+          >
+            <SlMenu />
+          </button>
+        )}
       </div>
       <AddToCartButton />
     </>

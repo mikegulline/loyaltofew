@@ -1,6 +1,6 @@
 .header {
   border-bottom: 4px solid #d61818;
-  padding: 15px 0;
+  padding: 0;
   background-color: #fff;
   position: relative;
 }
@@ -25,6 +25,7 @@
 .columns {
   display: flex;
   align-items: center;
+  height: 95px;
 }
 
 .h1 {
@@ -38,12 +39,12 @@
 }
 
 @media (max-width: 1279px) {
-  .header {
-    padding: 15px 0;
-  }
   .logo {
     max-width: 220px;
     width: 220px;
     margin-left: 0;
+  }
+  .columns {
+    height: 85px;
   }
 }
