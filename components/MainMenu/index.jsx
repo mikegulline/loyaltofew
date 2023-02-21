@@ -35,6 +35,7 @@ const MainMenu = ({ menuData }) => {
     <>
       <div
         onClick={() => setOpenMobileMenu(0)}
+        onTouchStart={() => setOpenMobileMenu(0)}
         className={`${styles.menu_wrapper} ${
           openMobileMenu ? styles.menu_open : ''
         }`}
