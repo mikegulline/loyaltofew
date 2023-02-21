@@ -18,6 +18,7 @@
   column-gap: 15px;
   padding-right: 30px;
   justify-content: right;
+  color: #27272a;
 }
 .main_li {
   padding: 0;
@@ -136,6 +137,7 @@
     padding: 15px;
     border-radius: 99px;
     background-color: #f0f0f0;
+    color: #27272a;
     border: 0;
     outline: 0;
     margin-right: 5px;
@@ -177,31 +179,5 @@
   .main_active .main.link {
     color: #d61818;
     text-decoration: underline;
-  }
-  /* submenu */
-
-  .main_li:hover .sub_ul {
-    height: 0;
-  }
-
-  .sub_ul {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 200px;
-    background: #f0f0f0;
-    height: 0%;
-    overflow: hidden;
-    z-index: 999;
-  }
-
-  .sub_link {
-    padding: 8px 10px;
-    display: block;
-  }
-
-  .sub_link:hover {
-    background-color: #d61818;
-    color: #fff;
   }
 }
