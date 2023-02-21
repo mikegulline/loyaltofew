@@ -31,7 +31,7 @@ const MainMenu = ({ menuData }) => {
         >
           {name}
         </Link>
-        {subMenu && <SubMenu menuData={subMenu} />}
+        {subMenu && !openMobileMenu && <SubMenu menuData={subMenu} />}
       </li>
     );
   });
