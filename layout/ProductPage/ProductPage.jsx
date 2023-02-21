@@ -49,7 +49,6 @@ const ProductPage = ({ product, size }) => {
               align='left'
               scroll={false}
               className='mb-8'
-              hover
             />
 
             <Dimensions dimensions={sizes[sizeAndPriceIndex].dimensions} />
@@ -89,11 +88,9 @@ const HeroImage = ({ image, name }) => {
 };
 
 const Details = ({ details }) => {
-  const buildDetails = details.map((info, i) => (
-    <Fragment key={i}>{info}. </Fragment>
-  ));
+  const buildDetails = details.map((info, i) => <li key={i}>{info} </li>);
 
-  return <p className='mb-8'>{buildDetails}</p>;
+  return <ul className='ml-4 mb-8 list-disc pl-4'>{buildDetails}</ul>;
 };
 
 const Dimensions = ({ dimensions }) => {
@@ -104,10 +101,10 @@ const Dimensions = ({ dimensions }) => {
     .map((info) => <li key={info}>{info}</li>);
 
   return (
-    <>
+    <div className='hidden'>
       <p className='mb-1 font-bold'>Dimensions:</p>
       <ul className='ml-4 mb-4 list-disc pl-4'>{buildDimensions}</ul>
-    </>
+    </div>
   );
 };
 

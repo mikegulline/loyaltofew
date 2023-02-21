@@ -259,35 +259,41 @@ select[multiple] {
 }
 
 .gray {
-  background: gray;
+  background: #545455;
 }
 
 .green {
-  background: green;
+  background: #5c675c;
 }
 
 .blue {
-  background: blue;
+  background: #3c458a;
 }
 
 .maroon {
-  background: maroon;
+  background: #813f4c;
 }
 
 .navy {
-  background: navy;
+  background: #414662;
+}
+.mauve {
+  background: #74565c;
 }
 
 .off-black {
   background: #333;
 }
+.baby-blue {
+  background: #225686;
+}
 
 .dolphin {
-  background: darkblue;
+  background: #3a3c49;
 }
 
 .red {
-  background: red;
+  background: #ba051a;
 }
 
 .black-white {

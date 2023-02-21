@@ -18,7 +18,7 @@ const CategoryItems = ({ product, title, color }) => {
         name={name}
         h4={`${logoName} Design`}
       >
-        <ColorLinks colors={product.colors} link={link} />
+        <ColorLinks colors={product.colors} link={link} scroll={true} />
       </GridBlockItem>
     );
   });

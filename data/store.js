@@ -410,7 +410,7 @@ export const store = [
         type: 'Hoodie',
         product: 'Premium Hoodie',
         logos: ['Arch', 'Block', 'Original', 'Stamp'],
-        colors: ['Dolphin', 'Green', 'Navy', 'Black'],
+        colors: ['Black', 'Dolphin', 'Green', 'Navy'],
         tags: ['Tops'],
         weight: 34.3,
         meta: {
