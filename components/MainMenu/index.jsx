@@ -51,27 +51,15 @@ const MainMenu = ({ menuData }) => {
             if (openMobileMenu && width === 0) setOpenMobileMenu(0);
           }}
         >
-          {openMobileMenu ? (
-            <div
-              className={styles.mobile_menu_close}
-              onClick={(e) => {
-                setOpenMobileMenu(0);
-                e.preventDefault();
-              }}
-            >
-              <SlClose />
-            </div>
-          ) : (
-            <div
-              className={styles.mobile_menu_open}
-              onClick={(e) => {
-                setOpenMobileMenu(1);
-                e.preventDefault();
-              }}
-            >
-              <SlMenu />
-            </div>
-          )}
+          <div
+            className={styles.mobile_menu_close}
+            onClick={(e) => {
+              setOpenMobileMenu((open) => !open);
+              e.preventDefault();
+            }}
+          >
+            {openMobileMenu ? <SlClose /> : <SlMenu />}
+          </div>
         </ResizeObserver>
       </div>
       <AddToCartButton handleClick={() => setOpenMobileMenu(0)} />
