@@ -1686,12 +1686,12 @@
     "core-js-pure" "^3.25.1"
     "regenerator-runtime" "^0.13.10"
 
-"@babel/runtime@^7.10.2", "@babel/runtime@^7.18.9", "@babel/runtime@^7.8.4":
-  "integrity" "sha512-mrzLkl6U9YLF8qpqI7TB82PESyEGjm/0Ly91jG575eVxMMlb8fYfOXFZIJ8XfLrJZQbm7dlKry2bJmXBUEkdFg=="
-  "resolved" "https://registry.npmjs.org/@babel/runtime/-/runtime-7.20.1.tgz"
-  "version" "7.20.1"
+"@babel/runtime@^7.10.2", "@babel/runtime@^7.18.3", "@babel/runtime@^7.18.9", "@babel/runtime@^7.20.7", "@babel/runtime@^7.8.4":
+  "integrity" "sha512-xwII0//EObnq89Ji5AKYQaRYiW/nZ3llSv29d49IuxPhKbtJoLP+9QUUZ4nVragQVtaVGeZrpB+ZtG/Pdy/POw=="
+  "resolved" "https://registry.npmjs.org/@babel/runtime/-/runtime-7.21.0.tgz"
+  "version" "7.21.0"
   dependencies:
-    "regenerator-runtime" "^0.13.10"
+    "regenerator-runtime" "^0.13.11"
 
 "@babel/template@^7.18.10":
   "integrity" "sha512-TI+rCtooWHr3QJ27kJxfjutghu44DLnasDMwpDqCXVTal9RLp3RSYNh4NdBrRP2cQAoG9A8juOQl6P6oZG4JxA=="
@@ -2463,6 +2463,11 @@
   "integrity" "sha512-jJ0bqzaylmJtVnNgzTeSOs8DPavpbYgEr/b0YL8/2GO3xJEhInFmhKMUnEJQjZumK7KXGFhUy89PrsJWlakBVg=="
   "resolved" "https://registry.npmjs.org/chownr/-/chownr-1.1.4.tgz"
   "version" "1.1.4"
+
+"classnames@^2.2.1":
+  "integrity" "sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw=="
+  "resolved" "https://registry.npmjs.org/classnames/-/classnames-2.3.2.tgz"
+  "version" "2.3.2"
 
 "client-only@0.0.1":
   "integrity" "sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA=="
@@ -4244,6 +4249,24 @@
   "resolved" "https://registry.npmjs.org/quick-lru/-/quick-lru-5.1.1.tgz"
   "version" "5.1.1"
 
+"rc-resize-observer@^1.3.1":
+  "integrity" "sha512-iFUdt3NNhflbY3mwySv5CA1TC06zdJ+pfo0oc27xpf4PIOvfZwZGtD9Kz41wGYqC4SLio93RVAirSSpYlV/uYg=="
+  "resolved" "https://registry.npmjs.org/rc-resize-observer/-/rc-resize-observer-1.3.1.tgz"
+  "version" "1.3.1"
+  dependencies:
+    "@babel/runtime" "^7.20.7"
+    "classnames" "^2.2.1"
+    "rc-util" "^5.27.0"
+    "resize-observer-polyfill" "^1.5.1"
+
+"rc-util@^5.27.0":
+  "integrity" "sha512-KYDjhGodswVj29v0TRciKTqRPgumIFvFDndbCD227pitQ+0Cei196rxk+OXb/blu6V8zdTRK5RjCJn+WmHLvBA=="
+  "resolved" "https://registry.npmjs.org/rc-util/-/rc-util-5.28.0.tgz"
+  "version" "5.28.0"
+  dependencies:
+    "@babel/runtime" "^7.18.3"
+    "react-is" "^16.12.0"
+
 "rc@^1.2.7":
   "integrity" "sha512-y3bGgqKj3QBdxLbLkomlohkvsA8gdAiUQlSBJnBhfn+BPxg4bc62d8TcBW15wavDfgexCgccckhcZvywyQYPOw=="
   "resolved" "https://registry.npmjs.org/rc/-/rc-1.2.8.tgz"
@@ -4254,7 +4277,7 @@
     "minimist" "^1.2.0"
     "strip-json-comments" "~2.0.1"
 
-"react-dom@^18.0.0", "react-dom@^18.2.0", "react-dom@18.2.0":
+"react-dom@^18.0.0", "react-dom@^18.2.0", "react-dom@>=16.9.0", "react-dom@18.2.0":
   "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   "version" "18.2.0"
@@ -4267,12 +4290,12 @@
   "resolved" "https://registry.npmjs.org/react-icons/-/react-icons-4.7.1.tgz"
   "version" "4.7.1"
 
-"react-is@^16.13.1":
+"react-is@^16.12.0", "react-is@^16.13.1":
   "integrity" "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ=="
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   "version" "16.13.1"
 
-"react@*", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^18.0.0", "react@^18.2.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@18.2.0":
+"react@*", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^18.0.0", "react@^18.2.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=16.9.0", "react@18.2.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
@@ -4314,10 +4337,10 @@
   "resolved" "https://registry.npmjs.org/regenerate/-/regenerate-1.4.2.tgz"
   "version" "1.4.2"
 
-"regenerator-runtime@^0.13.10":
-  "integrity" "sha512-KepLsg4dU12hryUO7bp/axHAKvwGOCV0sGloQtpagJ12ai+ojVDqkeGSiRX1zlq+kjIMZ1t7gpze+26QqtdGqw=="
-  "resolved" "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.10.tgz"
-  "version" "0.13.10"
+"regenerator-runtime@^0.13.10", "regenerator-runtime@^0.13.11":
+  "integrity" "sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg=="
+  "resolved" "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz"
+  "version" "0.13.11"
 
 "regenerator-runtime@0.13.9":
   "integrity" "sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA=="
@@ -4378,6 +4401,11 @@
   "integrity" "sha512-fGxEI7+wsG9xrvdjsrlmL22OMTTiHRwAMroiEeMgq8gzoLC/PQr7RsRDSTLUg/bZAZtF+TVIkHc6/4RIKrui+Q=="
   "resolved" "https://registry.npmjs.org/require-directory/-/require-directory-2.1.1.tgz"
   "version" "2.1.1"
+
+"resize-observer-polyfill@^1.5.1":
+  "integrity" "sha512-LwZrotdHOo12nQuZlHEmtuXdqGoOD0OhaxopaNFxWzInpEgaLWoVuAMbTzixuosCx2nEG58ngzW3vxdWoxIgdg=="
+  "resolved" "https://registry.npmjs.org/resize-observer-polyfill/-/resize-observer-polyfill-1.5.1.tgz"
+  "version" "1.5.1"
 
 "resolve-from@^4.0.0":
   "integrity" "sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g=="

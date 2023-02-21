@@ -4,6 +4,7 @@ import { useRouter } from 'next/router';
 import styles from './styles.module.css';
 import { SlBag, SlMenu, SlClose } from 'react-icons/sl';
 import { disablePageScroll, enablePageScroll } from 'scroll-lock';
+import ResizeObserver from 'rc-resize-observer';
 
 const MainMenu = ({ menuData }) => {
   const [openMobileMenu, setOpenMobileMenu] = useState(0);
@@ -43,21 +44,27 @@ const MainMenu = ({ menuData }) => {
         <ul className={styles.main_ul}>{buildMenu}</ul>
       </div>
       <div className={styles.mobile_menu_button}>
-        {openMobileMenu ? (
-          <button
-            className={styles.mobile_menu_close}
-            onClick={() => setOpenMobileMenu(0)}
-          >
-            <SlClose />
-          </button>
-        ) : (
-          <button
-            className={styles.mobile_menu_open}
-            onClick={() => setOpenMobileMenu(1)}
-          >
-            <SlMenu />
-          </button>
-        )}
+        <ResizeObserver
+          onResize={({ width }) => {
+            if (openMobileMenu && width === 0) setOpenMobileMenu(0);
+          }}
+        >
+          {openMobileMenu ? (
+            <button
+              className={styles.mobile_menu_close}
+              onClick={() => setOpenMobileMenu(0)}
+            >
+              <SlClose />
+            </button>
+          ) : (
+            <button
+              className={styles.mobile_menu_open}
+              onClick={() => setOpenMobileMenu(1)}
+            >
+              <SlMenu />
+            </button>
+          )}
+        </ResizeObserver>
       </div>
       <AddToCartButton />
     </>
