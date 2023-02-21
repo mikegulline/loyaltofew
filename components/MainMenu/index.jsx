@@ -5,6 +5,7 @@ import styles from './styles.module.css';
 import { SlBag, SlMenu, SlClose } from 'react-icons/sl';
 import { disablePageScroll, enablePageScroll } from 'scroll-lock';
 import ResizeObserver from 'rc-resize-observer';
+import Container from '../Container';
 
 const MainMenu = ({ menuData }) => {
   const [openMobileMenu, setOpenMobileMenu] = useState(0);
@@ -36,6 +37,18 @@ const MainMenu = ({ menuData }) => {
     );
   });
 
+  const withContainerShow = (addContainer) => {
+    if (addContainer) {
+      return (
+        <Container>
+          <ul className={styles.main_ul}>{buildMenu}</ul>
+        </Container>
+      );
+    } else {
+      return <ul className={styles.main_ul}>{buildMenu}</ul>;
+    }
+  };
+
   return (
     <>
       <div
@@ -43,7 +56,7 @@ const MainMenu = ({ menuData }) => {
           openMobileMenu ? styles.menu_open : ''
         }`}
       >
-        <ul className={styles.main_ul}>{buildMenu}</ul>
+        {withContainerShow(openMobileMenu)}
       </div>
       <div className={styles.mobile_menu_button}>
         <ResizeObserver
@@ -55,7 +68,6 @@ const MainMenu = ({ menuData }) => {
             className={styles.mobile_menu_close}
             onClick={(e) => {
               setOpenMobileMenu((open) => !open);
-              e.preventDefault();
             }}
           >
             {openMobileMenu ? <SlClose /> : <SlMenu />}
