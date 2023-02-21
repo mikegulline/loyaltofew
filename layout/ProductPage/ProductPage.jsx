@@ -40,7 +40,7 @@ const ProductPage = ({ product, size }) => {
           <HeroImage image={image} name={name} />
 
           <div className='info-column mt-8 w-full px-0 xl:mt-0 xl:px-20 2xl:px-28'>
-            <h1 className='mb-8 text-4xl font-black'>
+            <h1 className='mb-6 text-4xl font-black'>
               {name} ({color})
             </h1>
 
@@ -52,8 +52,9 @@ const ProductPage = ({ product, size }) => {
               link={link}
               align='left'
               scroll={false}
-              className='mb-8'
+              className='mb-6'
             />
+            <p className='mb-2 font-bold'>Size Options</p>
             <div className='buttons flex gap-1'>
               <Sizes
                 sizes={sizes}
@@ -91,7 +92,7 @@ const HeroImage = ({ image, name }) => {
 const Details = ({ details }) => {
   const buildDetails = details.map((info, i) => <li key={i}>{info} </li>);
 
-  return <ul className='ml-2 mb-6 list-disc pl-2'>{buildDetails}</ul>;
+  return <ul className='ml-3 mb-6 list-disc pl-3'>{buildDetails}</ul>;
 };
 
 const Dimensions = ({ dimensions }) => {
@@ -104,7 +105,7 @@ const Dimensions = ({ dimensions }) => {
   return (
     <div className='hidden'>
       <p className='mb-1 font-bold'>Dimensions:</p>
-      <ul className='ml-4 mb-4 list-disc pl-4'>{buildDimensions}</ul>
+      <ul className='ml-4 mb-6 list-disc pl-4'>{buildDimensions}</ul>
     </div>
   );
 };
