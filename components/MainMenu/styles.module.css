@@ -146,7 +146,7 @@
   .mobile_menu_button {
     display: flex;
   }
-  .mobile_menu_button button {
+  .mobile_menu_button div {
     padding: 15px;
     border-radius: 99px;
     background-color: #f0f0f0;
@@ -154,8 +154,9 @@
     border: 0;
     outline: 0;
     margin-right: 5px;
+    cursor: pointer;
   }
-  .mobile_menu_button button:hover {
+  .mobile_menu_button div:hover {
     background-color: #27272a;
     color: #fff;
   }

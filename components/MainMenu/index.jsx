@@ -52,7 +52,7 @@ const MainMenu = ({ menuData }) => {
           }}
         >
           {openMobileMenu ? (
-            <button
+            <div
               className={styles.mobile_menu_close}
               onClick={(e) => {
                 setOpenMobileMenu(0);
@@ -60,9 +60,9 @@ const MainMenu = ({ menuData }) => {
               }}
             >
               <SlClose />
-            </button>
+            </div>
           ) : (
-            <button
+            <div
               className={styles.mobile_menu_open}
               onClick={(e) => {
                 setOpenMobileMenu(1);
@@ -70,7 +70,7 @@ const MainMenu = ({ menuData }) => {
               }}
             >
               <SlMenu />
-            </button>
+            </div>
           )}
         </ResizeObserver>
       </div>
