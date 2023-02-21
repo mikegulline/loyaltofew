@@ -4449,6 +4449,11 @@
   dependencies:
     "loose-envify" "^1.1.0"
 
+"scroll-lock@^2.1.5":
+  "integrity" "sha512-GN8Lp0AzXbkrPFUUNkMUruiiv019UvarNKE/SnXi+AxZRjMnDc2R22VB9RcUtL4P/uub04cKibmpHKIKTyWwYQ=="
+  "resolved" "https://registry.npmjs.org/scroll-lock/-/scroll-lock-2.1.5.tgz"
+  "version" "2.1.5"
+
 "semver@^6.1.1", "semver@^6.1.2", "semver@^6.3.0":
   "integrity" "sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw=="
   "resolved" "https://registry.npmjs.org/semver/-/semver-6.3.0.tgz"

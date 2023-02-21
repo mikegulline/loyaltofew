@@ -1,12 +1,21 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from '../Link';
 import { useRouter } from 'next/router';
 import styles from './styles.module.css';
 import { SlBag, SlMenu, SlClose } from 'react-icons/sl';
+import { disablePageScroll, enablePageScroll } from 'scroll-lock';
 
 const MainMenu = ({ menuData }) => {
   const [openMobileMenu, setOpenMobileMenu] = useState(0);
   const router = useRouter();
+
+  useEffect(() => {
+    if (openMobileMenu) {
+      disablePageScroll();
+    } else {
+      enablePageScroll();
+    }
+  }, [openMobileMenu]);
 
   const buildMenu = menuData.map(({ name, location, subMenu }) => {
     const active_class = `${styles.main_li} ${
