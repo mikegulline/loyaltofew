@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import Link from 'next/link'
+import Link from 'next/link';
 import { useRouter } from 'next/router';
 import styles from './styles.module.css';
 import { SlBag, SlMenu, SlClose } from 'react-icons/sl';
@@ -54,14 +54,20 @@ const MainMenu = ({ menuData }) => {
           {openMobileMenu ? (
             <button
               className={styles.mobile_menu_close}
-              onClick={() => setOpenMobileMenu(0)}
+              onClick={(e) => {
+                setOpenMobileMenu(0);
+                e.preventDefault();
+              }}
             >
               <SlClose />
             </button>
           ) : (
             <button
               className={styles.mobile_menu_open}
-              onClick={() => setOpenMobileMenu(1)}
+              onClick={(e) => {
+                setOpenMobileMenu(1);
+                e.preventDefault();
+              }}
             >
               <SlMenu />
             </button>
