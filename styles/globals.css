@@ -246,6 +246,7 @@ select {
     calc(100% - 15px) calc(1em + 2px);
   background-size: 5px 5px, 5px 5px;
   background-repeat: no-repeat;
+  color: #27272a;
 }
 
 select[multiple] {
