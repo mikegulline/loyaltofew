@@ -24,7 +24,11 @@ const MainMenu = ({ menuData }) => {
     }`;
     return (
       <li key={name} className={active_class}>
-        <Link href={location} className={styles.main_link}>
+        <Link
+          href={location}
+          className={styles.main_link}
+          handleClick={() => setOpenMobileMenu(0)}
+        >
           {name}
         </Link>
         {subMenu && <SubMenu menuData={subMenu} />}
@@ -35,8 +39,6 @@ const MainMenu = ({ menuData }) => {
   return (
     <>
       <div
-        onClick={() => setOpenMobileMenu(0)}
-        onTouchEnd={() => setOpenMobileMenu(0)}
         className={`${styles.menu_wrapper} ${
           openMobileMenu ? styles.menu_open : ''
         }`}
@@ -66,7 +68,7 @@ const MainMenu = ({ menuData }) => {
           )}
         </ResizeObserver>
       </div>
-      <AddToCartButton />
+      <AddToCartButton handleClick={() => setOpenMobileMenu(0)} />
     </>
   );
 };
@@ -94,9 +96,9 @@ const SubMenu = ({ menuData }) => {
   );
 };
 
-const AddToCartButton = () => {
+const AddToCartButton = ({ handleClick }) => {
   return (
-    <div className={styles.add_to_cart_button}>
+    <div className={styles.add_to_cart_button} onClick={handleClick}>
       <a className='snipcart-checkout snipcart-summary' href='#'>
         <SlBag />
         <span className='snipcart-total-price'>$0.00</span>
