@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import Link from '../Link';
+import Link from 'next/link'
 import { useRouter } from 'next/router';
 import styles from './styles.module.css';
 import { SlBag, SlMenu, SlClose } from 'react-icons/sl';
@@ -27,7 +27,7 @@ const MainMenu = ({ menuData }) => {
         <Link
           href={location}
           className={styles.main_link}
-          handleClick={() => setOpenMobileMenu(0)}
+          onClick={() => setOpenMobileMenu(0)}
         >
           {name}
         </Link>
