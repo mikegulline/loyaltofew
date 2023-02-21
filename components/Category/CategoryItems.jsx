@@ -12,7 +12,7 @@ const CategoryItems = ({ product, title, color }) => {
 
     return (
       <GridBlockItem key={name} link={imageLink} image={image} name={name}>
-        <h4 className='mt-2 font-medium'>{`${logoName} Design`}</h4>
+        <h4 className='mt-2 mb-2 font-medium'>{`${logoName} Design`}</h4>
         <ColorLinks colors={product.colors} link={link} scroll={true} />
       </GridBlockItem>
     );

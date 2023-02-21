@@ -17,15 +17,12 @@ export default function Home({ categories }) {
       <Container size='large'>
         <SlideShowTouch />
       </Container>
-      <Container className="mt-8">
+      <Container className='mt-8'>
         <Categories categories={categories} />
       </Container>
-
     </div>
   );
-} 
-
-
+}
 
 export async function getStaticProps() {
   const { categories } = getStore();

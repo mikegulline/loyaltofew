@@ -11,7 +11,7 @@ const ColorLinks = (props) => {
     <div className={wrapperClasses}>
       {colors.map((color) => {
         const colorName = color.toLowerCase().replace(` `, ``);
-        const linkClasses = `w-11 h-11 cursor-pointer rounded-full border solid border-white -mr-1 -ml-1 ${colorName}`;
+        const linkClasses = `w-9 h-9  md:w-11 md:h-11 cursor-pointer rounded-full border solid border-white -mr-1 -ml-1 ${colorName}`;
         const href = `${link}/${colorName}`;
 
         const handleEnter = () => {

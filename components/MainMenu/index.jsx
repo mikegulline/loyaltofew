@@ -70,7 +70,11 @@ const SubMenu = ({ menuData }) => {
     );
   });
 
-  return <ul className={styles.sub_ul}>{buildMenu}</ul>;
+  return (
+    <div className={styles.sub_menu_wrapper}>
+      <ul className={styles.sub_ul}>{buildMenu}</ul>
+    </div>
+  );
 };
 
 const AddToCartButton = () => {

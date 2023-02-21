@@ -46,6 +46,7 @@ const ProductPage = ({ product, size }) => {
 
             <Dimensions dimensions={sizes[sizeAndPriceIndex].dimensions} />
             <Details details={details} />
+            <p className='mb-2 font-bold'>Color Options</p>
             <ColorLinks
               colors={colors}
               link={link}
@@ -90,7 +91,7 @@ const HeroImage = ({ image, name }) => {
 const Details = ({ details }) => {
   const buildDetails = details.map((info, i) => <li key={i}>{info} </li>);
 
-  return <ul className='ml-2 mb-8 list-disc pl-2'>{buildDetails}</ul>;
+  return <ul className='ml-2 mb-6 list-disc pl-2'>{buildDetails}</ul>;
 };
 
 const Dimensions = ({ dimensions }) => {

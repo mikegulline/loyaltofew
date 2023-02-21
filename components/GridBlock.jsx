@@ -6,7 +6,7 @@ const GridBlock = ({ name, children }) => {
           {name}
         </h2>
       </div>
-      <div className='mb-8 grid grid-cols-2 gap-2 xl:grid-cols-4 xl:gap-8'>
+      <div className='mb-8 grid grid-cols-2 gap-2 lg:grid-cols-4 lg:gap-4  xl:gap-8'>
         {children}
       </div>
     </div>

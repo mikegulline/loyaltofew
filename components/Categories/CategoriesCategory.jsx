@@ -12,7 +12,7 @@ const CategoriesCategory = ({ category }) => {
     return (
       <GridBlockItem key={name} link={link} image={image} name={name}>
         <h4 className='mt-2 font-medium'>{name}</h4>
-        <p>
+        {/* <p>
           {plural(logos, ['Design', 'Designs'])},{' '}
           {plural(colors, ['Color', 'Colors'])}
         </p>
@@ -20,7 +20,7 @@ const CategoriesCategory = ({ category }) => {
           <Link href={link} className='text-red-700 underline hover:text-black'>
             View All
           </Link>
-        </p>
+        </p> */}
       </GridBlockItem>
     );
   });

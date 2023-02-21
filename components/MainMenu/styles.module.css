@@ -43,18 +43,32 @@
 /* submenu */
 
 .main_li:hover .sub_ul {
+  transform: translateY(0);
+  transition: all 0.35s;
+}
+.main_li:hover .sub_menu_wrapper {
   height: auto;
+  z-index: 999;
 }
 
-.sub_ul {
+.sub_menu_wrapper {
   position: absolute;
   top: 100%;
   left: 0;
+  height: 0px;
   width: 200px;
-  background: #f0f0f0;
-  height: 0%;
   overflow: hidden;
-  z-index: 999;
+  border-radius: 4px;
+}
+
+.sub_ul {
+  transform: translateY(-100%);
+
+  background: #e4e4e7;
+
+  overflow: hidden;
+
+  border-radius: 4px;
 }
 
 .sub_link {

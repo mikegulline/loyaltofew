@@ -34,12 +34,7 @@ export const mainMenu = [
   { name: 'Orders', location: '/orders' },
 ];
 
-export const breadcrumbs = [
-  ['Store', '/store'],
-  ['About', '/about'],
-  ['Contact', '/contact'],
-  ['Orders', '/orders'],
-];
+export const breadcrumbs = [['Welcome to Loyal to Few Clothing ~ Est. 2022']];
 
 // footer menus
 
