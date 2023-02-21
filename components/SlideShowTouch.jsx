@@ -19,11 +19,6 @@ const SlideShowTouch = () => {
       alt: 'Outerwear',
       link: '/store/outerwear',
     },
-    {
-      image: '/images/slideshow/ltf-slide-4.jpg',
-      alt: 'Hats',
-      link: '/store/hats',
-    },
   ];
 
   const [index, setIndex] = useState(1);
@@ -187,7 +182,7 @@ const SlideShowTouch = () => {
   const buildSlides = () => {
     const buildSlidesArray = [...slidesArr];
     buildSlidesArray.unshift(slidesArr[slidesArr.length - 1]);
-    buildSlidesArray.push(slidesArr[1]);
+    buildSlidesArray.push(slidesArr[0]);
 
     return buildSlidesArray.map(({ image, alt, link }, i) => (
       <span key={i} className='inline-block w-full' data-link={link}>

@@ -3,7 +3,6 @@ import Link from './Link';
 
 const GridBlockItem = (props) => {
   const { link, image, name, children, h4 } = props;
-  console.log(props);
   return (
     <div className='relative text-center'>
       <Link href={link}>
