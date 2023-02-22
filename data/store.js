@@ -10,6 +10,7 @@ export const store = [
       {
         type: 'Tee',
         product: 'Original Tee',
+        has_image_back: true,
         logos: ['Arch', 'Block', 'Original', 'Stamp'],
         colors: ['Black', 'Gray', 'Green', 'Maroon', 'Navy'],
         tags: ['Tops'],
@@ -61,6 +62,7 @@ export const store = [
       {
         type: 'Tank',
         product: 'Original Tank',
+        has_image_back: true,
         logos: ['Arch', 'Block', 'Original', 'Stamp'],
         colors: ['Black'],
         tags: ['Tops'],
@@ -112,6 +114,7 @@ export const store = [
       {
         type: 'Sleeves',
         product: 'Original Long-Sleeve',
+        has_image_back: true,
         logos: ['Arch', 'Block', 'Original', 'Stamp'],
         colors: ['Black', 'Gray', 'Navy'],
         tags: ['Tops'],
@@ -163,6 +166,7 @@ export const store = [
       {
         type: 'Crew',
         product: 'Original Crew',
+        has_image_back: true,
         logos: ['Arch', 'Block', 'Original', 'Stamp'],
         colors: ['Black', 'Navy', 'Green', 'Dolphin'],
         tags: ['Tops'],
@@ -224,6 +228,7 @@ export const store = [
       {
         type: 'Tee',
         product: 'Original Tee',
+        has_image_back: true,
         logos: ['Arch', 'Block', 'Original', 'Stamp'],
         colors: ['Navy', 'Red'],
         tags: ['Tops'],
@@ -275,6 +280,7 @@ export const store = [
       {
         type: 'Tank',
         product: 'Original Tank',
+        has_image_back: true,
         logos: ['Arch', 'Block', 'Original', 'Stamp'],
         colors: ['Blue', 'Gray', 'Maroon'],
         tags: ['Tops'],
@@ -321,6 +327,7 @@ export const store = [
       {
         type: 'Crop',
         product: 'Original Crop',
+        has_image_back: true,
         logos: ['Arch', 'Block', 'Original', 'Stamp'],
         colors: ['Black', 'Gray', 'Navy', 'Red'],
         tags: ['Tops'],
@@ -371,6 +378,7 @@ export const store = [
       },
       {
         type: 'Oversized-Crop',
+        has_image_back: true,
         product: 'Original Oversized Crop',
         logos: ['Arch', 'Block', 'Original', 'Stamp'],
         colors: ['Black', 'Dolphin', 'Baby-Blue', 'Mauve'],
@@ -409,6 +417,7 @@ export const store = [
       {
         type: 'Hoodie',
         product: 'Premium Hoodie',
+        has_image_back: false,
         logos: ['Arch', 'Block', 'Original', 'Stamp'],
         colors: ['Black', 'Dolphin', 'Green', 'Navy'],
         tags: ['Tops'],
@@ -460,6 +469,7 @@ export const store = [
       {
         type: 'Beanie',
         product: 'Knit Beanie',
+        has_image_back: false,
         logos: ['Block'],
         colors: ['Black', 'Gray', 'Navy'],
         tags: ['Accessories'],
@@ -479,6 +489,7 @@ export const store = [
       {
         type: 'Snapback',
         product: 'Trucker Snapback',
+        has_image_back: false,
         logos: ['Block'],
         colors: ['Black', 'Black-White', 'Gray-White', 'Navy-White'],
         tags: ['Accessories'],

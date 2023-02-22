@@ -35,6 +35,7 @@ const modalProduct = ({
   colors,
   sizes,
   product: name,
+  has_image_back,
   details,
   weight,
   meta,
@@ -50,7 +51,7 @@ const modalProduct = ({
   );
   const image = `/images/products/${category.toLowerCase()}/${type.toLowerCase()}/${imageSlug}.jpg`;
   const logos = logosArray.map((logo) =>
-    modalLogo({ logo, category, type, colors, name })
+    modalLogo({ logo, category, type, colors, name, has_image_back })
   );
 
   return {
@@ -58,6 +59,7 @@ const modalProduct = ({
     name,
     link,
     image,
+    has_image_back,
     weight,
     meta,
     tags,
@@ -69,22 +71,33 @@ const modalProduct = ({
 };
 
 const modalLogo = (values) => {
-  const { logo, category, type, colors, name: product } = values;
+  const {
+    logo,
+    category,
+    type,
+    colors,
+    name: product,
+    has_image_back,
+  } = values;
   const link = `/${storePath}/${category}/${type}/${logo}`.toLowerCase();
-  const imageColorRoot =
-    `/images/products/${category.toLowerCase()}/${type.toLowerCase()}/${category}${type}${logo}`.replace(
-      ' ',
-      ''
-    );
-  const imageSlug = `${category}${type}${logo}${colors[0]}`.replace(' ', '');
-  const image = `/images/products/${category.toLowerCase()}/${type.toLowerCase()}/${imageSlug}.jpg`;
+  const imageDir = `/images/products/${category}/${type}`.toLowerCase();
+  const imageColorBackRoot = `${imageDir}/${category}${type}Back`;
+  const imageColorRoot = `${imageDir}/${category}${type}${logo}`.replace(
+    ' ',
+    ''
+  );
+  const imageBack = `${imageColorBackRoot}${colors[0]}.jpg`;
+  const image = `${imageColorRoot}${colors[0]}.jpg`;
   const name = `${product} with ${logo} Design`;
 
   return {
     name,
     link,
+    has_image_back,
+    imageBack,
     image,
     imageColorRoot,
+    imageColorBackRoot,
     logo,
   };
 };
@@ -152,6 +165,7 @@ export const getLogo = (useCategory, useType, useLogo) => {
     meta,
     tags,
     logos,
+    has_image_back,
   } = theType;
   const passLogo = theType['logos'].find(
     ({ logo }) => logo.toLowerCase() === useLogo.toLowerCase()
@@ -161,6 +175,7 @@ export const getLogo = (useCategory, useType, useLogo) => {
   breadcrumbs.push([bcText, '']);
   return {
     ...passLogo,
+    has_image_back,
     breadcrumbRoot: [passLogo.logo, passLogo.link],
     breadcrumbs,
     tags,
@@ -200,6 +215,9 @@ export const getColor = (useCategory, useType, useLogo, useColor) => {
     meta,
     tags,
     logos,
+    imageColorRoot,
+    imageColorBackRoot,
+    has_image_back,
   } = product;
 
   const imageSlug = `${category.category}${type.type}${logo}${color}`.replace(
@@ -208,7 +226,8 @@ export const getColor = (useCategory, useType, useLogo, useColor) => {
   );
   const id = imageSlug.toLowerCase();
   const imageRoot = `/images/products/${category.category.toLowerCase()}/${type.type.toLowerCase()}/`;
-  const image = `${imageRoot}${imageSlug}.jpg`;
+  const image = `${imageColorRoot}${color}.jpg`;
+  const imageBack = `${imageColorBackRoot}${color}.jpg`;
 
   const bcLast = breadcrumbs.pop();
   const bcText = `${bcLast[0]} (${color})`;
@@ -220,6 +239,8 @@ export const getColor = (useCategory, useType, useLogo, useColor) => {
     link,
     imageRoot,
     image,
+    imageBack,
+    has_image_back,
     color,
     logo,
     weight,

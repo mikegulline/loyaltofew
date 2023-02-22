@@ -6,8 +6,19 @@ import GridLogoOptions from '../../components/GridLogoOptions';
 
 const ProductPage = ({ product, size }) => {
   const [sizeAndPriceIndex, setSizeAndPriceIndex] = useState(0);
-  const { id, name, image, link, colors, sizes, weight, details, color } =
-    product;
+  const {
+    id,
+    name,
+    image,
+    imageBack,
+    has_image_back,
+    link,
+    colors,
+    sizes,
+    weight,
+    details,
+    color,
+  } = product;
 
   const showButtons = sizes.map((s, i) => {
     return (
@@ -37,7 +48,12 @@ const ProductPage = ({ product, size }) => {
     <>
       <div className='wrapper py-5 lg:py-8  xl:py-12 2xl:py-16'>
         <Container className='flex flex-col items-center xl:flex-row'>
-          <HeroImage image={image} name={name} />
+          <HeroImage
+            image={image}
+            name={name}
+            imageBack={imageBack}
+            has_image_back={has_image_back}
+          />
 
           <div className='info-column mt-8 w-full px-0 xl:mt-0 xl:px-20 2xl:px-28'>
             <h1 className='mb-6 text-4xl font-black'>
@@ -73,12 +89,18 @@ const ProductPage = ({ product, size }) => {
   );
 };
 
-const HeroImage = ({ image, name }) => {
+const HeroImage = ({ image, name, imageBack, has_image_back }) => {
+  const [showBack, setShowBack] = useState(0);
+
   return (
     <div className='image-column'>
-      <div className='image-wrapper rounded bg-zinc-200'>
+      <div
+        className='image-wrapper rounded bg-zinc-200'
+        onMouseEnter={() => setShowBack(1)}
+        onMouseLeave={() => setShowBack(0)}
+      >
         <Image
-          src={image}
+          src={has_image_back ? (showBack ? imageBack : image) : image}
           alt={name}
           width='744'
           height='744'
