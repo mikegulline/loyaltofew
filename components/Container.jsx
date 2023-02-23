@@ -4,7 +4,7 @@ const getSizeClass = (size) => {
   switch (size) {
     case 'large':
     case 'lg':
-      returnSize = 'px-0 w-full 2xl:max-2xl';
+      returnSize = 'px-0 w-full 2xl:max-w-screen-2xl';
       break;
     case 'small':
     case 'sm':

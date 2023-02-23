@@ -3,6 +3,7 @@ import Image from 'next/image';
 import ColorLinks from '../../components/ColorLinks';
 import Container from '../../components/Container';
 import GridLogoOptions from '../../components/GridLogoOptions';
+import styles from './ProductPage.module.css';
 
 const ProductPage = ({ product, size }) => {
   const [sizeAndPriceIndex, setSizeAndPriceIndex] = useState(0);
@@ -132,7 +133,7 @@ const Dimensions = ({ dimensions }) => {
   );
 };
 
-const Sizes = ({ sizes, onChange, current }) => {
+const Sizes = ({ sizes, onChange }) => {
   const handleSizeChange = (e) => {
     onChange(e.target.value);
   };

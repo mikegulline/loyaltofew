@@ -3,7 +3,7 @@ import Link from '../Link';
 const ViewAll = ({ href, name }) => {
   return (
     <div className=''>
-      <div className='relative  w-full  bg-zinc-100/50 pb-[100%]'>
+      <div className='relative  w-full  rounded bg-zinc-100/50 pb-[100%]'>
         <div className='absolute top-0 bottom-0 right-0 left-0 flex items-center justify-center'>
           <Link
             href={href}
