@@ -53,9 +53,9 @@ handler.post(async (req, res) => {
         trackingUrl: tracking.public_url,
         metadata: {
           trackerId: shipping.tracker.id,
-          carrier: tracking.carrierl,
-          postageLabel: shipping.postage_label,
-          selectedRate: shipping.selected_rate,
+          carrier: tracking.carrier,
+          ...shipping.postage_label,
+          ...shipping.selected_rate,
         },
       };
       const secret = process.env.SNIPCART_SECRET + ':';
