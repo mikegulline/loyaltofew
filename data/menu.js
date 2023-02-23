@@ -2,7 +2,6 @@ export const mensMenu = [
   { name: 'Original Tee', location: '/store/mens/tee/arch/black' },
   { name: 'Original Tank', location: '/store/mens/tank/arch/black' },
   { name: 'Original Long-Sleeve', location: '/store/mens/sleeves/arch/black' },
-  { name: 'Original Crew', location: '/store/mens/crew/arch/black' },
 ];
 
 export const womensMenu = [
@@ -16,6 +15,7 @@ export const womensMenu = [
 ];
 
 export const outerwearMenu = [
+  { name: 'Original Crew', location: '/store/outerwear/crew/arch/black' },
   { name: 'Premium Hoodie', location: '/store/outerwear/hoodie/arch/black' },
   { name: 'Knit Beanie', location: '/store/outerwear/beanie/block/black' },
   {

@@ -163,58 +163,6 @@ export const store = [
           'S-XXL',
         ],
       },
-      {
-        type: 'Crew',
-        product: 'Original Crew',
-        has_image_back: true,
-        logos: ['Arch', 'Block', 'Original', 'Stamp'],
-        colors: ['Black', 'Navy', 'Green', 'Dolphin'],
-        tags: ['Tops'],
-        weight: 9.8,
-        meta: {
-          title: 'Mens Original Long-Sleeve',
-          description:
-            '100% cotton grown on a US farm. Lightweight (4.3oz.) & durable.',
-        },
-        sizes: [
-          {
-            size: 'S',
-            price: 70,
-            dimensions:
-              'Body Length: 26 7/8 in, Chest Width: 20 in., Sleeve Length: 23 3/4 in.',
-          },
-          {
-            size: 'M',
-            price: 70,
-            dimensions:
-              'Body Length: 28 in., Chest Width: 22 in., Sleeve Length: 24 1/4 in.',
-          },
-          {
-            size: 'L',
-            price: 70,
-            dimensions:
-              'Body Length: 29 1/8 in., Chest Width: 24 in., Sleeve Length: 24 3/4 in.',
-          },
-          {
-            size: 'XL',
-            price: 70,
-            dimensions:
-              'Body Length: 30 1/4 in., Chest Width: 26 in., Sleeve Length: 25 1/4 in.',
-          },
-          {
-            size: 'XXL',
-            price: 70,
-            dimensions:
-              'Body Length: 31 3/8 in., Chest Width: 28 in., Sleeve Length: 25 3/4 in.',
-          },
-        ],
-        details: [
-          'Designed, produced & printed in the USA',
-          '100% US grown, pre-washed, no-shrink cotton',
-          'Heavyweight (14oz) oversized fit',
-          'Unisex, check size-chart, S-XXL',
-        ],
-      },
     ],
   },
   {
@@ -414,6 +362,58 @@ export const store = [
       description: '',
     },
     products: [
+      {
+        type: 'Crew',
+        product: 'Original Crew',
+        has_image_back: true,
+        logos: ['Arch', 'Block', 'Original', 'Stamp'],
+        colors: ['Black', 'Navy', 'Green', 'Dolphin'],
+        tags: ['Tops'],
+        weight: 9.8,
+        meta: {
+          title: 'Mens Original Long-Sleeve',
+          description:
+            '100% cotton grown on a US farm. Lightweight (4.3oz.) & durable.',
+        },
+        sizes: [
+          {
+            size: 'S',
+            price: 70,
+            dimensions:
+              'Body Length: 26 7/8 in, Chest Width: 20 in., Sleeve Length: 23 3/4 in.',
+          },
+          {
+            size: 'M',
+            price: 70,
+            dimensions:
+              'Body Length: 28 in., Chest Width: 22 in., Sleeve Length: 24 1/4 in.',
+          },
+          {
+            size: 'L',
+            price: 70,
+            dimensions:
+              'Body Length: 29 1/8 in., Chest Width: 24 in., Sleeve Length: 24 3/4 in.',
+          },
+          {
+            size: 'XL',
+            price: 70,
+            dimensions:
+              'Body Length: 30 1/4 in., Chest Width: 26 in., Sleeve Length: 25 1/4 in.',
+          },
+          {
+            size: 'XXL',
+            price: 70,
+            dimensions:
+              'Body Length: 31 3/8 in., Chest Width: 28 in., Sleeve Length: 25 3/4 in.',
+          },
+        ],
+        details: [
+          'Designed, produced & printed in the USA',
+          '100% US grown, pre-washed, no-shrink cotton',
+          'Heavyweight (14oz) oversized fit',
+          'Unisex, check size-chart, S-XXL',
+        ],
+      },
       {
         type: 'Hoodie',
         product: 'Premium Hoodie',

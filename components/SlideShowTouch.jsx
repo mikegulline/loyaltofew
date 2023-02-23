@@ -162,7 +162,7 @@ const SlideShowTouch = () => {
         <a
           id='prev'
           onClick={() => shiftSlide(-1)}
-          className='flex h-12 w-12 cursor-pointer items-center justify-center bg-black/50 pb-2 text-xl text-white/50 transition-all ease-in-out hover:bg-black hover:pb-1 hover:text-white lg:h-14 lg:w-14 lg:text-3xl 2xl:h-20 2xl:w-20 2xl:text-4xl'
+          className='flex h-12 w-12 cursor-pointer items-center justify-center bg-black/50 pb-2 text-xl text-white/50 transition-all ease-in-out hover:bg-black hover:pb-1 hover:text-white lg:h-14 lg:w-14 lg:text-3xl 2xl:h-20 2xl:w-20 2xl:rounded 2xl:text-4xl'
           ref={prev}
         >
           {'<'}
@@ -170,7 +170,7 @@ const SlideShowTouch = () => {
         <a
           id='next'
           onClick={() => shiftSlide(1)}
-          className='flex h-12 w-12 cursor-pointer items-center justify-center bg-black/50 pb-2 text-xl text-white/50 transition-all ease-in-out hover:bg-black hover:pb-1 hover:text-white lg:h-14 lg:w-14 lg:text-3xl 2xl:h-20 2xl:w-20 2xl:text-4xl'
+          className='flex h-12 w-12 cursor-pointer items-center justify-center bg-black/50 pb-2 text-xl text-white/50 transition-all ease-in-out hover:bg-black hover:pb-1 hover:text-white lg:h-14 lg:w-14 lg:text-3xl 2xl:h-20 2xl:w-20 2xl:rounded 2xl:text-4xl'
           ref={next}
         >
           {'>'}
@@ -213,7 +213,7 @@ const SlideShowTouch = () => {
 
   return (
     <div id='slider' className='relative 2xl:my-12' ref={wrapper}>
-      <div className='overflow-hidden'>
+      <div className='overflow-hidden 2xl:rounded'>
         <div
           {...slideParams}
           style={{
