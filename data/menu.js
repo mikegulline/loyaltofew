@@ -15,7 +15,15 @@ export const womensMenu = [
 ];
 
 export const outerwearMenu = [
+  {
+    name: 'Original 50/50 Crew',
+    location: '/store/outerwear/50-50-crew/arch/black',
+  },
   { name: 'Original Crew', location: '/store/outerwear/crew/arch/black' },
+  {
+    name: 'Original 50/50 Hoodie',
+    location: '/store/outerwear/50-50-hoodie/arch/black',
+  },
   { name: 'Premium Hoodie', location: '/store/outerwear/hoodie/arch/black' },
   { name: 'Knit Beanie', location: '/store/outerwear/beanie/block/black' },
   {
@@ -34,7 +42,7 @@ export const mainMenu = [
   { name: 'Orders', location: '/orders' },
 ];
 
-export const breadcrumbs = [['Welcome to Loyal to Few Clothing ~ Est. 2022']];
+export const breadcrumbs = [['Welcome to Loyal to Few Clothing ~ Est. 2020']];
 
 // footer menus
 

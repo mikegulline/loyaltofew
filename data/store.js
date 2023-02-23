@@ -363,6 +363,60 @@ export const store = [
     },
     products: [
       {
+        type: '50-50-Crew',
+        product: 'Original 50/50 Crew',
+        has_image_back: true,
+        logos: ['Arch', 'Block', 'Original', 'Stamp'],
+        colors: ['Black'],
+        tags: ['Tops'],
+        weight: 9.8,
+        meta: {
+          title: 'Original 50/50 Crew (Unisex)',
+          description:
+            '100% cotton grown on a US farm. Lightweight (4.3oz.) & durable.',
+        },
+        sizes: [
+          {
+            size: 'S',
+            price: 60,
+            dimensions:
+              'Body Length: 26 in, Chest Width: 22 in., Across Shoulder: 21 1/2 in, Armhole Depth: 11 1/2 in, Sleeve Length: 23 3/8 in.',
+          },
+          {
+            size: 'M',
+            price: 60,
+            dimensions:
+              'Body Length: 27 in., Chest Width: 24 in., Across Shoulder: 23 in, Armhole Depth: 11 7/8 in, Sleeve Length: 23 7/8 in.',
+          },
+          {
+            size: 'L',
+            price: 60,
+            dimensions:
+              'Body Length: 28 in., Chest Width: 26 in., Across Shoulder: 24 1/2 in, Armhole Depth: 12 1/4in, Sleeve Length: 24 3/8 in.',
+          },
+          {
+            size: 'XL',
+            price: 60,
+            dimensions:
+              'Body Length: 29 in., Chest Width: 28 in., Across Shoulder: 26 in, Armhole Depth: 12 5/8in, Sleeve Length: 24 7/8 in.',
+          },
+          {
+            size: 'XXL',
+            price: 60,
+            dimensions:
+              'Body Length: 30 in., Chest Width: 30 in., Across Shoulder: 27 1/2 in, Armhole Depth: 13 in, Sleeve Length: 25 3/8 in.',
+          },
+        ],
+        details: [
+          'Designed, produced & printed in the USA',
+          '50% Cotton, 50% Polyester',
+          'Higher neck line & wide stretch fit',
+          'Mid-weight (10oz) & durable',
+          'Unisex, check size chart',
+          'S-XXL',
+        ],
+      },
+      {
         type: 'Crew',
         product: 'Original Crew',
         has_image_back: true,
@@ -371,7 +425,7 @@ export const store = [
         tags: ['Tops'],
         weight: 9.8,
         meta: {
-          title: 'Mens Original Long-Sleeve',
+          title: 'Original Crew (Unisex)',
           description:
             '100% cotton grown on a US farm. Lightweight (4.3oz.) & durable.',
         },
@@ -414,6 +468,61 @@ export const store = [
           'Unisex, check size-chart, S-XXL',
         ],
       },
+
+      {
+        type: '50-50-Hoodie',
+        product: 'Original 50/50 Hoodie',
+        has_image_back: false,
+        logos: ['Arch', 'Block', 'Original', 'Stamp'],
+        colors: ['Black'],
+        tags: ['Tops'],
+        weight: 34.3,
+        meta: {
+          title: 'Original 50/50 Hoodie (Unisex)',
+          description: 'Unisex. Heavyweight (14oz) over-sized fit.',
+        },
+        sizes: [
+          {
+            size: 'S',
+            price: 60,
+            dimensions:
+              'Body Length: 26 in, Chest Width: 22 in., Across Shoulder: 21 1/2 in, Armhole Depth: 11 1/2 in, Sleeve Length: 23 3/8 in.',
+          },
+          {
+            size: 'M',
+            price: 60,
+            dimensions:
+              'Body Length: 27 in., Chest Width: 24 in., Across Shoulder: 23 in, Armhole Depth: 11 7/8 in, Sleeve Length: 23 7/8 in.',
+          },
+          {
+            size: 'L',
+            price: 60,
+            dimensions:
+              'Body Length: 28 in., Chest Width: 26 in., Across Shoulder: 24 1/2 in, Armhole Depth: 12 1/4in, Sleeve Length: 24 3/8 in.',
+          },
+          {
+            size: 'XL',
+            price: 60,
+            dimensions:
+              'Body Length: 29 in., Chest Width: 28 in., Across Shoulder: 26 in, Armhole Depth: 12 5/8in, Sleeve Length: 24 7/8 in.',
+          },
+          {
+            size: 'XXL',
+            price: 60,
+            dimensions:
+              'Body Length: 30 in., Chest Width: 30 in., Across Shoulder: 27 1/2 in, Armhole Depth: 13 in, Sleeve Length: 25 3/8 in.',
+          },
+        ],
+
+        details: [
+          'Designed, produced & printed in the USA',
+          '50% Cotton, 50% Polyester',
+          'Minimal stretch & wide fit',
+          'Mid-weight (10oz) & durable',
+          'Unisex, check size chart',
+          'S-XXL',
+        ],
+      },
       {
         type: 'Hoodie',
         product: 'Premium Hoodie',
@@ -423,9 +532,10 @@ export const store = [
         tags: ['Tops'],
         weight: 34.3,
         meta: {
-          title: 'Premium Hoodie',
+          title: 'Premium Hoodie (Unisex)',
           description: 'Unisex. Heavyweight (14oz) over-sized fit.',
         },
+
         sizes: [
           {
             size: 'S',
@@ -491,7 +601,7 @@ export const store = [
         product: 'Trucker Snapback',
         has_image_back: false,
         logos: ['Block'],
-        colors: ['Black', 'Black-White', 'Gray-White', 'Navy-White'],
+        colors: ['Black-White', 'Gray-White', 'Navy-White'],
         tags: ['Accessories'],
         weight: 14.4,
         meta: {
