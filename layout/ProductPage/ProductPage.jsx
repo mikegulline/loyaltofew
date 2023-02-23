@@ -4,6 +4,7 @@ import ColorLinks from '../../components/ColorLinks';
 import Container from '../../components/Container';
 import GridLogoOptions from '../../components/GridLogoOptions';
 import styles from './ProductPage.module.css';
+import { SlRefresh } from 'react-icons/sl';
 
 const ProductPage = ({ product, size }) => {
   const [sizeAndPriceIndex, setSizeAndPriceIndex] = useState(0);
@@ -93,15 +94,36 @@ const ProductPage = ({ product, size }) => {
 const HeroImage = ({ image, name, imageBack, has_image_back }) => {
   const [showBack, setShowBack] = useState(0);
 
+  if (has_image_back) {
+    return (
+      <div className='image-column'>
+        <div className='image-wrapper relative rounded bg-zinc-200'>
+          <Image
+            src={showBack ? imageBack : image}
+            alt={name}
+            width='744'
+            height='744'
+            className='max-width-100 block h-auto p-4 lg:p-12 xl:max-w-[606px] 2xl:max-w-[734px]'
+          />
+          <div
+            className={`${styles.view_back_button} ${
+              showBack ? styles.hover : ''
+            }`}
+            onMouseEnter={() => setShowBack(1)}
+            onMouseLeave={() => setShowBack(0)}
+          >
+            <SlRefresh />
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className='image-column'>
-      <div
-        className='image-wrapper rounded bg-zinc-200'
-        onMouseEnter={() => setShowBack(1)}
-        onMouseLeave={() => setShowBack(0)}
-      >
+      <div className='image-wrapper rounded bg-zinc-200'>
         <Image
-          src={has_image_back ? (showBack ? imageBack : image) : image}
+          src={image}
           alt={name}
           width='744'
           height='744'
