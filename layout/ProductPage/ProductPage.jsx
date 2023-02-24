@@ -111,6 +111,8 @@ const HeroImage = ({ image, name, imageBack, has_image_back }) => {
             }`}
             onMouseEnter={() => setShowBack(1)}
             onMouseLeave={() => setShowBack(0)}
+            onTouchStart={() => setShowBack(1)}
+            onTouchEnd={() => setShowBack(0)}
           >
             <SlRefresh />
           </div>
