@@ -105,15 +105,17 @@ const HeroImage = ({ image, name, imageBack, has_image_back }) => {
             height='744'
             className='max-width-100 block h-auto p-4 lg:p-12 xl:max-w-[606px] 2xl:max-w-[734px]'
           />
-          <div
-            className={`${styles.view_back_button} ${
-              showBack ? styles.hover : ''
-            }`}
-            onMouseEnter={() => setShowBack(1)}
-            onMouseLeave={() => setShowBack(0)}
-            onTouchStart={() => setShowBack((current) => !current)}
-          >
-            <SlRefresh />
+          <div className={styles.wrapper_view_back_button}>
+            <div
+              className={`${styles.view_back_button} ${
+                showBack ? styles.hover : ''
+              }`}
+              onMouseEnter={() => setShowBack(1)}
+              onMouseLeave={() => setShowBack(0)}
+              onTouchStart={() => setShowBack((current) => !current)}
+            >
+              <SlRefresh />
+            </div>
           </div>
         </div>
       </div>

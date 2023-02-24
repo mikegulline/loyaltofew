@@ -1,18 +1,30 @@
+.wrapper_view_back_button {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 25px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 1;
+  flex-grow: 1;
+}
 .view_back_button {
-  padding: 15px;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
   border-radius: 99px;
-  background-color: #d61818;
-  color: #f0f0f0;
+  background-color: #fff;
+  color: #27272a;
+
   border: 0;
   outline: 0;
-  margin-right: 5px;
   cursor: pointer;
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  z-index: 1;
-  transform: rotate(0) scale(1);
-  transition: transform 0.2s;
+  transform: rotate(0) scale(1.3);
+  transition: transform 0.35s;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -23,6 +35,6 @@
 .view_back_button.hover {
   background-color: #27272a;
   color: #fff;
-  transform: rotate(-180deg) scale(1.5);
+  transform: rotate(-180deg) scale(1.6);
   transition: transform 0.35s;
 }
