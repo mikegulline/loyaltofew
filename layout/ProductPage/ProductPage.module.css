@@ -13,6 +13,12 @@
   z-index: 1;
   transform: rotate(0) scale(1);
   transition: transform 0.2s;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 .view_back_button.hover {
   background-color: #27272a;
