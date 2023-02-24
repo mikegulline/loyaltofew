@@ -99,11 +99,22 @@ const HeroImage = ({ image, name, imageBack, has_image_back }) => {
       <div className='image-column'>
         <div className='image-wrapper relative rounded bg-zinc-200'>
           <Image
-            src={showBack ? imageBack : image}
+            src={image}
             alt={name}
             width='744'
             height='744'
-            className='max-width-100 block h-auto p-4 lg:p-12 xl:max-w-[606px] 2xl:max-w-[734px]'
+            className={`${showBack ? styles.image_off : styles.image_on} ${
+              styles.image_front
+            } max-width-100 block h-auto p-4 lg:p-12 xl:max-w-[606px] 2xl:max-w-[734px]`}
+          />
+          <Image
+            src={imageBack}
+            alt={name}
+            width='744'
+            height='744'
+            className={`${
+              showBack ? styles.image_on : styles.image_off
+            } max-width-100 block h-auto p-4 lg:p-12 xl:max-w-[606px] 2xl:max-w-[734px]`}
           />
           <div className={styles.wrapper_view_back_button}>
             <div
