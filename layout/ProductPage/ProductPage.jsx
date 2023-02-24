@@ -93,6 +93,14 @@ const ProductPage = ({ product, size }) => {
 
 const HeroImage = ({ image, name, imageBack, has_image_back }) => {
   const [showBack, setShowBack] = useState(0);
+  const [animate, setAnimate] = useState(0);
+
+  useEffect(() => {
+    setAnimate(1);
+    let animateId = setTimeout(() => setAnimate(0), 650);
+
+    return () => clearTimeout(animateId);
+  }, [showBack]);
 
   if (has_image_back) {
     return (
@@ -105,6 +113,8 @@ const HeroImage = ({ image, name, imageBack, has_image_back }) => {
             height='744'
             className={`${showBack ? styles.image_off : styles.image_on} ${
               styles.image_front
+            } ${
+              animate ? styles.animate : ''
             } max-width-100 block h-auto p-4 lg:p-12 xl:max-w-[606px] 2xl:max-w-[734px]`}
           />
           <Image
@@ -112,8 +122,8 @@ const HeroImage = ({ image, name, imageBack, has_image_back }) => {
             alt={name}
             width='744'
             height='744'
-            className={`${
-              showBack ? styles.image_on : styles.image_off
+            className={`${showBack ? styles.image_on : styles.image_off} ${
+              animate ? styles.animate : ''
             } max-width-100 block h-auto p-4 lg:p-12 xl:max-w-[606px] 2xl:max-w-[734px]`}
           />
           <div className={styles.wrapper_view_back_button}>

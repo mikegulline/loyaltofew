@@ -67,7 +67,10 @@ const MainMenu = ({ menuData }) => {
           <div
             className={styles.mobile_menu_close}
             onClick={(e) => {
-              setOpenMobileMenu((open) => !open);
+              setOpenMobileMenu((open) => {
+                if (!open) window.scrollTo(0, 0);
+                return !open;
+              });
             }}
           >
             {openMobileMenu ? <SlClose /> : <SlMenu />}

@@ -112,9 +112,6 @@
 
 @media (max-width: 1023px) {
   .menu_wrapper {
-    display: none;
-  }
-  .menu_wrapper.menu_open {
     display: flex;
     position: fixed;
     top: 89px;
@@ -123,6 +120,10 @@
     height: calc(100vh - 89px);
     background: #f0f0f0;
     z-index: 99;
+    transform: translateX(100vw);
+  }
+  .menu_wrapper.menu_open {
+    transform: translateX(0vw);
   }
   [data-scroll-lock-locked='true'][style*='padding-right: 15px;']
     .menu_wrapper.menu_open {
