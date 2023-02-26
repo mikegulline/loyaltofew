@@ -1,4 +1,11 @@
-import H1 from '../../../components/Type/H1';
+import Container from '../../../components/Container';
+import { H1, P } from '../../../components/Type';
+
 export default function OrderId() {
-  return <H1>Order by Id</H1>;
+  return (
+    <Container>
+      <H1>Order by Id</H1>
+      <P>dashboard</P>
+    </Container>
+  );
 }

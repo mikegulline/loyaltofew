@@ -1,10 +1,11 @@
-import { Container } from 'postcss';
+import Container from '../../components/Container';
+import { H1, P } from '../../components/Type';
 
 export default function Orders() {
   return (
     <Container>
-      <h1>Admin</h1>
-      <p>dashboard</p>
+      <H1>Admin</H1>
+      <P>dashboard</P>
     </Container>
   );
 }
