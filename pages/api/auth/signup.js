@@ -1,6 +1,6 @@
 import nc from 'next-connect';
 import db from '../../../utils/db';
-import User from '../../../models/User';
+import User from '../../../models/user';
 import bcrypt from 'bcrypt';
 import { validateEmail } from '../../../utils/validation';
 // import { createActivationToken } from '../../../utils/tokens';
