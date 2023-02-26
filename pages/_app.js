@@ -1,11 +1,12 @@
 import { AnimatePresence, motion } from 'framer-motion';
+import { SessionProvider } from 'next-auth/react';
 import Head from 'next/head';
 import Overlay from '../components/Overlay';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import '../styles/globals.css';
 
-function MyApp({ Component, pageProps, router }) {
+function MyApp({ Component, pageProps, session, router }) {
   return (
     <>
       <Head>
@@ -28,9 +29,9 @@ function MyApp({ Component, pageProps, router }) {
         />
         <link rel='manifest' href='/images/favicon_io/site.webmanifest' />
       </Head>
-
-      <Overlay />
-      {/* <AnimatePresence
+      <SessionProvider session={session}>
+        <Overlay />
+        {/* <AnimatePresence
         mode='wait'
         initial={false}
         onExitComplete={() => {
@@ -52,9 +53,10 @@ function MyApp({ Component, pageProps, router }) {
           <Footer />
         </motion.div>
       </AnimatePresence> */}
-      <Header />
-      <Component {...pageProps} />
-      <Footer />
+        <Header />
+        <Component {...pageProps} />
+        <Footer />
+      </SessionProvider>
     </>
   );
 }

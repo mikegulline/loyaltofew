@@ -1,3 +1,5 @@
+import { signOut } from 'next-auth/react';
+
 export const mensMenu = [
   { name: 'Original Tee', location: '/store/mens/tee/arch/black' },
   { name: 'Original Tank', location: '/store/mens/tank/arch/black' },
@@ -41,6 +43,18 @@ export const mainMenu = [
   { name: 'Contact', location: '/contact' },
   { name: 'Orders', location: '/orders' },
 ];
+
+export const adminSubMenu = [
+  { name: 'Logout', location: '', onClick: () => signOut() },
+  { name: 'Orders', location: '/admin/orders' },
+  { name: 'Mail', location: '/admin/mail' },
+];
+
+export const adminMenu = {
+  name: 'Admin',
+  location: '/admin',
+  subMenu: adminSubMenu,
+};
 
 export const breadcrumbs = [['Welcome to Loyal to Few Clothing ~ Est. 2020']];
 

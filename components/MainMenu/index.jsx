@@ -6,9 +6,12 @@ import { SlBag, SlMenu, SlClose } from 'react-icons/sl';
 import { disablePageScroll, enablePageScroll } from 'scroll-lock';
 import ResizeObserver from 'rc-resize-observer';
 import Container from '../Container';
+import { useSession } from 'next-auth/react';
+import { mainMenu, adminMenu } from '../../data/menu';
 
-const MainMenu = ({ menuData }) => {
+const MainMenu = () => {
   const [openMobileMenu, setOpenMobileMenu] = useState(0);
+  const { data: session } = useSession();
   const router = useRouter();
 
   useEffect(() => {
@@ -19,7 +22,11 @@ const MainMenu = ({ menuData }) => {
     }
   }, [openMobileMenu]);
 
-  const buildMenu = menuData.map(({ name, location, subMenu }) => {
+  if (session?.user?.name && mainMenu[mainMenu.length - 1].name !== 'Admin') {
+    mainMenu.push(adminMenu);
+  }
+
+  const buildMenu = mainMenu.map(({ name, location, subMenu }) => {
     const active_class = `${styles.main_li} ${
       router.asPath == location ? styles.main_active : ''
     }`;
@@ -37,8 +44,8 @@ const MainMenu = ({ menuData }) => {
     );
   });
 
-  const withContainerShow = (addContainer) => {
-    if (addContainer) {
+  const withContainerShow = () => {
+    if (openMobileMenu) {
       return (
         <Container>
           <ul className={styles.main_ul}>{buildMenu}</ul>
@@ -56,7 +63,7 @@ const MainMenu = ({ menuData }) => {
           openMobileMenu ? styles.menu_open : ''
         }`}
       >
-        {withContainerShow(openMobileMenu)}
+        {withContainerShow()}
       </div>
       <div className={styles.mobile_menu_button}>
         <ResizeObserver
@@ -85,13 +92,13 @@ const MainMenu = ({ menuData }) => {
 const SubMenu = ({ menuData }) => {
   const router = useRouter();
 
-  const buildMenu = menuData.map(({ name, location }) => {
+  const buildMenu = menuData.map(({ name, location, onClick = () => {} }) => {
     const active_class = `${styles.sub_li} ${
       router.asPath == location ? styles.sub_active : ''
     }`;
     return (
       <li key={name} className={active_class}>
-        <Link href={location} className={styles.sub_link}>
+        <Link href={location} className={styles.sub_link} onClick={onClick}>
           {name}
         </Link>
       </li>

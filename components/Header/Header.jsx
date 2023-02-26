@@ -3,7 +3,6 @@ import Container from '../Container';
 import MainMenu from '../MainMenu';
 import styles from './Header.module.css';
 import LogoSVG from '../../public/logos/ltf-logo.svg';
-import { mainMenu } from '../../data/menu';
 
 const Header = () => {
   return (
@@ -11,7 +10,7 @@ const Header = () => {
       <Container>
         <div className={styles.columns}>
           <Logo />
-          <MainMenu menuData={mainMenu} />
+          <MainMenu />
         </div>
       </Container>
     </div>
