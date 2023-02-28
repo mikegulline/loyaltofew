@@ -70,7 +70,6 @@ export async function getServerSideProps(context) {
     limit,
     offset,
   };
-  console.log(orders.data);
   return {
     props: {
       paging,

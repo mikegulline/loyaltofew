@@ -1,3 +1,5 @@
+// https://github.com/nextauthjs/next-auth-example
+
 import NextAuth from 'next-auth';
 import CredentialsProvider from 'next-auth/providers/credentials';
 import { MongoDBAdapter } from '@next-auth/mongodb-adapter';
@@ -31,7 +33,9 @@ export const authOptions = {
   ],
   callbacks: {
     async session({ session, token }) {
+      await db.connectDB();
       let user = await User.findById(token.sub);
+      await db.disconnectDB();
       session.user._id = token.sub || user._id.toString();
       session.user.role = user.role || 'user';
       session.user.emailVerified = user.emailVerified;
@@ -44,7 +48,7 @@ export const authOptions = {
   session: {
     strategy: 'jwt',
   },
-  secret: process.env.SECRET,
+  secret: process.env.JWT_SECRET,
 };
 
 const SignInUser = async ({ password, user }) => {
