@@ -6,8 +6,6 @@ import clientPromise from './lib/mongodb';
 import User from '../../../models/user';
 import db from '../../../utils/db';
 
-db.connectDB();
-
 export const authOptions = {
   adapter: MongoDBAdapter(clientPromise),
   providers: [
@@ -20,9 +18,11 @@ export const authOptions = {
       async authorize(credentials, req) {
         const email = credentials.email;
         const password = credentials.password;
+        await db.connectDB();
         const user = await User.findOne({ email });
+        await db.disconnectDB();
         if (user) {
-          return SignInUser({ password, user });
+          return await SignInUser({ password, user });
         } else {
           throw new Error('This email does not exist.');
         }
@@ -52,6 +52,7 @@ const SignInUser = async ({ password, user }) => {
     throw new Error('Please enter your password.');
   }
   const testPassword = await bcrypt.compare(password, user.password);
+
   if (!testPassword) {
     throw new Error('Email or password is wrong!');
   }
