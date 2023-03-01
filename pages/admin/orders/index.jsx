@@ -1,41 +1,68 @@
 import axios from 'axios';
+import { useState } from 'react';
 import { getSession } from 'next-auth/react';
 import Container from '../../../components/Container';
 import Link from 'next/link';
+import Image from 'next/image';
 import { H1 } from '../../../components/Type';
 
 export default function Orders({ orders }) {
+  const [current, setCurrent] = useState(null);
   return (
-    <Container size='xs' className='py-10'>
-      <H1>Orders</H1>
-      <ul>
-        {orders?.map((order) => {
-          const { token, finalGrandTotal, metadata, items, invoiceNumber } =
-            order;
-          if (!metadata) return;
-          const { label_url } = metadata;
-          console.log(order);
-          return (
-            <li key={token}>
-              {invoiceNumber} {finalGrandTotal}{' '}
-              {label_url && <Link href={label_url}>Label</Link>}
-              {/* <ul>
-                {items.map((item) => {
-                  const { description, id, quantity } = item;
-                  return (
-                    <li key={id}>
-                      -- x{quantity}: {description}
-                    </li>
-                  );
-                })}
-              </ul> */}
-            </li>
-          );
-        })}
-      </ul>
-    </Container>
+    <>
+      <OrderProcessOverlay order={current} />
+      <Container size='xs' className='py-10'>
+        <H1>Orders</H1>
+        <ul>
+          {orders?.map((order) => {
+            const { token, finalGrandTotal, metadata, items, invoiceNumber } =
+              order;
+            if (!metadata) return;
+            const { label_url } = metadata;
+            // console.log(order);
+            return (
+              <li
+                key={token}
+                onClick={() =>
+                  setCurrent((c) => (c?.token === token ? null : order))
+                }
+              >
+                {invoiceNumber} {finalGrandTotal}{' '}
+                {label_url && <Link href={label_url}>Label</Link>}
+                {token === current?.token && <OrderItems items={items} />}
+              </li>
+            );
+          })}
+        </ul>
+      </Container>
+    </>
   );
 }
+
+const OrderProcessOverlay = ({ order }) => {
+  if (!order) return <></>;
+  const { token, finalGrandTotal, metadata, items, invoiceNumber } = order;
+  return (
+    <div className=' fixed top-0 right-0 bottom-0 left-0 bg-slate-100 '></div>
+  );
+};
+
+const OrderItems = ({ items }) => {
+  return (
+    <ul>
+      {items.map((item) => {
+        const { description, id, quantity, image } = item;
+        // console.log(item);
+        return (
+          <li key={id}>
+            <Image src={image} alt={id} width={75} height={75} />
+            -- x{quantity}: {description}
+          </li>
+        );
+      })}
+    </ul>
+  );
+};
 
 export async function getServerSideProps(context) {
   const { req } = context;
@@ -62,7 +89,7 @@ export async function getServerSideProps(context) {
       }
     );
   } catch (errors) {
-    console.log({ message: 'tracking to snipcart', errors });
+    console.log({ message: 'getting orders', errors });
   }
   const { totalItems, limit, offset, items } = orders.data;
   const paging = {

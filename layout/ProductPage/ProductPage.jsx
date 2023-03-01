@@ -92,7 +92,7 @@ const ProductPage = ({ product, size }) => {
 };
 
 const HeroImage = ({ image, name, imageBack, has_image_back }) => {
-  const [showBack, setShowBack] = useState(0);
+  const [showBack, setShowBack] = useState(false);
   const [animate, setAnimate] = useState(0);
 
   useEffect(() => {
@@ -133,7 +133,8 @@ const HeroImage = ({ image, name, imageBack, has_image_back }) => {
               }`}
               onMouseEnter={() => setShowBack(1)}
               onMouseLeave={() => setShowBack(0)}
-              onTouchStart={() => setShowBack((current) => !current)}
+              onTouchStart={() => setShowBack(1)}
+              onTouchEnd={() => setShowBack(0)}
             >
               <SlRefresh />
             </div>
