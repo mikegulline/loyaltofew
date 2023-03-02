@@ -16,22 +16,15 @@ export default function OrderProcessOverlay({
   const hideNextButton = orders.length - 1 === current;
 
   const processOrder = async (token) => {
-    console.log('trying');
+    console.log('trying', process.env.NEXT_PUBLIC_BASE_URL);
     try {
-      const setStatus = {
-        status: 'Shipped',
-      };
-      const secret = process.env.SNIPCART_SECRET + ':';
-      await axios.put(
-        `https://app.snipcart.com/api/orders/${token}`,
-        setStatus,
+      const { data } = await axios.put(
+        `${process.env.NEXT_PUBLIC_BASE_URL}api/admin/orders/${token}`,
         {
-          headers: {
-            Authorization: `Basic ${btoa(secret)}`,
-            Accept: 'application/json',
-          },
+          status: 'Shipped',
         }
       );
+      console.log('success', data);
     } catch (errors) {
       console.log({ message: 'set status shipped', errors });
     }
