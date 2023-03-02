@@ -5,16 +5,27 @@ import Container from '../../../components/Container';
 import Link from 'next/link';
 import Image from 'next/image';
 import { H1 } from '../../../components/Type';
+import OrderProcessOverlay from './components/OrderProcessOverlay';
 
-export default function Orders({ orders }) {
+export default function Orders({ passOrders }) {
+  const [orders, setOrders] = useState(passOrders);
   const [current, setCurrent] = useState(null);
+  const [overlay, setOverlay] = useState(false);
   return (
     <>
-      <OrderProcessOverlay order={current} />
+      {current >= 0 && (
+        <OrderProcessOverlay
+          orders={orders}
+          current={current}
+          setCurrent={setCurrent}
+          overlay={overlay}
+          setOverlay={setOverlay}
+        />
+      )}
       <Container size='xs' className='py-10'>
         <H1>Orders</H1>
         <ul>
-          {orders?.map((order) => {
+          {orders?.map((order, i) => {
             const { token, finalGrandTotal, metadata, items, invoiceNumber } =
               order;
             if (!metadata) return;
@@ -23,9 +34,10 @@ export default function Orders({ orders }) {
             return (
               <li
                 key={token}
-                onClick={() =>
-                  setCurrent((c) => (c?.token === token ? null : order))
-                }
+                onClick={() => {
+                  setCurrent(i);
+                  setOverlay(true);
+                }}
               >
                 {invoiceNumber} {finalGrandTotal}{' '}
                 {label_url && <Link href={label_url}>Label</Link>}
@@ -38,14 +50,6 @@ export default function Orders({ orders }) {
     </>
   );
 }
-
-const OrderProcessOverlay = ({ order }) => {
-  if (!order) return <></>;
-  const { token, finalGrandTotal, metadata, items, invoiceNumber } = order;
-  return (
-    <div className=' fixed top-0 right-0 bottom-0 left-0 bg-slate-100 '></div>
-  );
-};
 
 const OrderItems = ({ items }) => {
   return (
@@ -80,7 +84,7 @@ export async function getServerSideProps(context) {
   try {
     const secret = process.env.SNIPCART_SECRET + ':';
     orders = await axios.get(
-      `https://app.snipcart.com/api/orders?offset=0&limit=5&status=pending`, //processed
+      `https://app.snipcart.com/api/orders?offset=0&limit=10&status=pending`, //processed
       {
         headers: {
           Authorization: `Basic ${btoa(secret)}`,
@@ -100,7 +104,7 @@ export async function getServerSideProps(context) {
   return {
     props: {
       paging,
-      orders: items.reverse(),
+      passOrders: items.reverse(),
     },
   };
 }
