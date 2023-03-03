@@ -29,9 +29,6 @@ export default function Orders({ passOrders }) {
           {orders?.map((order, i) => {
             const { token, finalGrandTotal, metadata, items, invoiceNumber } =
               order;
-            if (!metadata) return;
-            const { label_url } = metadata;
-            // console.log(order);
             return (
               <li
                 key={token}
@@ -40,9 +37,7 @@ export default function Orders({ passOrders }) {
                   setOverlay(true);
                 }}
               >
-                {invoiceNumber} {finalGrandTotal}{' '}
-                {/* {label_url && <Link href={label_url}>Label</Link>} */}
-                {token === current?.token && <OrderItems items={items} />}
+                {invoiceNumber} {finalGrandTotal}
               </li>
             );
           })}
@@ -51,23 +46,6 @@ export default function Orders({ passOrders }) {
     </>
   );
 }
-
-const OrderItems = ({ items }) => {
-  return (
-    <ul>
-      {items.map((item) => {
-        const { description, id, quantity, image } = item;
-        // console.log(item);
-        return (
-          <li key={id}>
-            <Image src={image} alt={id} width={75} height={75} />
-            -- x{quantity}: {description}
-          </li>
-        );
-      })}
-    </ul>
-  );
-};
 
 export async function getServerSideProps(context) {
   const { req } = context;

@@ -44,7 +44,9 @@ handler.post(async (req, res) => {
     } catch (errors) {
       res.status(500).json({ message: 'error getting tracking url', errors });
     }
-
+    // create a 0 filled array for packing
+    let a = new Array(saveOrder.totalNumberOfItems);
+    for (let i = 0; i < saveOrder.totalNumberOfItems; i++) a[i] = 0;
     // 4. save tracking info to snipcart
     try {
       const trackingForSnipcart = {
@@ -60,7 +62,7 @@ handler.post(async (req, res) => {
           label_size: shipping.postage_label.label_size,
           mode: shipping.postage_label.mode,
           status: 'Pending',
-          packed: [],
+          packed: a,
         },
       };
       const secret = process.env.SNIPCART_SECRET + ':';
