@@ -3,7 +3,7 @@ import { useReactToPrint } from 'react-to-print';
 import Image from 'next/image';
 import { H1 } from '../../../../components/Type';
 import { SlClose } from 'react-icons/sl';
-import processOrder from '../utils/processOrder';
+import processOrder from '../../../../utils/processOrder';
 
 export default function OrderProcessOverlay({
   orders,

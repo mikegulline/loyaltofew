@@ -6,7 +6,7 @@ const processOrder = async (token, update) => {
       `${process.env.NEXT_PUBLIC_BASE_URL}api/admin/orders/${token}`,
       update
     );
-    console.log('response', data);
+    return data;
   } catch (errors) {
     console.log({ message: 'set status shipped', errors });
   }
