@@ -1,8 +1,9 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
+import { useReactToPrint } from 'react-to-print';
 import Image from 'next/image';
 import { H1 } from '../../../../components/Type';
 import { SlClose } from 'react-icons/sl';
-import axios from 'axios';
+import processOrder from '../utils/processOrder';
 
 export default function OrderProcessOverlay({
   orders,
@@ -14,36 +15,23 @@ export default function OrderProcessOverlay({
   if (current === null || !overlay) return <></>;
 
   const hideNextButton = orders.length - 1 === current;
-
-  const processOrder = async (token) => {
-    console.log('trying', process.env.NEXT_PUBLIC_BASE_URL);
-    try {
-      const { data } = await axios.put(
-        `${process.env.NEXT_PUBLIC_BASE_URL}api/admin/orders/${token}`,
-        {
-          status: 'Shipped',
-        }
-      );
-      console.log('success', data);
-    } catch (errors) {
-      console.log({ message: 'set status shipped', errors });
-    }
-  };
+  const order = orders[current];
+  const token = order.token;
+  const total = orders.length;
+  const label_image = order.metadata.label_url;
 
   return (
     <div className=' fixed top-0 right-0 bottom-0 left-0 flex items-center justify-center bg-white'>
       <div className='w-full max-w-screen-lg'>
-        <OrderDetail order={orders[current]}>
-          <CountPos current={current} total={orders.length} />
-        </OrderDetail>
+        <OrderHeader order={order}>
+          <CountPos current={current} total={total} />
+        </OrderHeader>
+        <OrderItems order={order} />
         <CloseButton setOverlay={setOverlay} />
         <div className='flex justify-end gap-3 pt-20'>
-          <PackedButton />
-          <PrintButton />
-          <ShippedButton
-            handleClick={processOrder}
-            token={orders[current].token}
-          />
+          <PackedButton token={token} />
+          <PrintButton token={token} image={label_image} />
+          <ShippedButton token={token} />
           <NextButton hide={hideNextButton} setCurrent={setCurrent} />
         </div>
       </div>
@@ -51,55 +39,56 @@ export default function OrderProcessOverlay({
   );
 }
 
-const OrderDetail = ({ order, children }) => {
-  const { invoiceNumber, finalGrandTotal, metadata, items } = order;
+const OrderHeader = ({ order, children }) => {
+  const { invoiceNumber } = order;
   return (
-    <div>
-      <H1 className='flex'>
-        <span className='flex-1'>{invoiceNumber}</span>
-        {children}
-      </H1>
-      <OrderItems items={items} />
-    </div>
+    <H1 className='flex'>
+      <span className='flex-1'>{invoiceNumber}</span>
+      {children}
+    </H1>
   );
 };
 
-const OrderItems = ({ items }) => {
+const OrderItems = ({ order }) => {
+  const { items } = order;
   return (
     <ul className='flex justify-center gap-4'>
-      {items.map((item) => {
-        const { image, id, quantity, description } = item;
-
-        return (
-          <li
-            key={id}
-            className='first-letter: border-#e4e4e6 flex h-96 w-1/4 flex-col items-center gap-2 rounded-md border p-4'
-          >
-            <div>
-              <Image
-                src={image}
-                width={210}
-                height={210}
-                alt={''}
-                style={{
-                  background: '#e4e4e6',
-                  border: '10px solid #e4e4e6',
-                  borderRadius: '4px',
-                }}
-              />
-            </div>
-            <ul className='flex flex-1 flex-col'>
-              <li>{description}</li>
-              <li className='flex flex-1 flex-col justify-end'>
-                <div>
-                  <strong>Quantity:</strong> {quantity}
-                </div>
-              </li>
-            </ul>
-          </li>
-        );
-      })}
+      {items.map((item) => (
+        <OrderItem item={item} key={item.id} />
+      ))}
     </ul>
+  );
+};
+
+const OrderItem = ({ item }) => {
+  const { image, id, quantity, description } = item;
+  return (
+    <li
+      key={id}
+      className='border-#e4e4e6 flex h-96 w-1/4 flex-col items-center gap-2 rounded-md border p-4'
+    >
+      <div>
+        <Image
+          src={image}
+          width={210}
+          height={210}
+          alt={''}
+          style={{
+            background: '#e4e4e6',
+            border: '10px solid #e4e4e6',
+            borderRadius: '4px',
+          }}
+        />
+      </div>
+      <ul className='flex flex-1 flex-col'>
+        <li>{description}</li>
+        <li className='flex flex-1 flex-col justify-end'>
+          <div>
+            <strong>Quantity:</strong> {quantity}
+          </div>
+        </li>
+      </ul>
+    </li>
   );
 };
 
@@ -126,11 +115,34 @@ const PackedButton = () => {
   return <button>Packed</button>;
 };
 
-const PrintButton = () => {
-  return <button>Print Label</button>;
+const PrintButton = ({ image }) => {
+  const componentRef = useRef(null);
+  const handlePrint = useReactToPrint({
+    content: () => componentRef.current,
+  });
+  return (
+    <div>
+      <div className='hidden'>
+        <div ref={componentRef} className='p-[.25in]'>
+          <Image
+            src={image}
+            width={1200}
+            height={1800}
+            className='h-[6in] w-[4in]'
+            alt='shipping label'
+          />
+        </div>
+      </div>
+      <button onClick={() => handlePrint()}>Print Label</button>
+    </div>
+  );
 };
-const ShippedButton = ({ handleClick, token }) => {
-  return <button onClick={() => handleClick(token)}>Shipped</button>;
+const ShippedButton = ({ token }) => {
+  return (
+    <button onClick={() => processOrder(token, { status: 'Shipped' })}>
+      Shipped
+    </button>
+  );
 };
 
 const NextButton = ({ hide, setCurrent }) => {

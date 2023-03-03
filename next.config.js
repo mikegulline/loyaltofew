@@ -15,4 +15,12 @@ module.exports = {
 
     return config;
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'easypost-files.s3.us-west-2.amazonaws.com',
+      },
+    ],
+  },
 };

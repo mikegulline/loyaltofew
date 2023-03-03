@@ -16,6 +16,7 @@ export default function Orders({ passOrders }) {
       {current >= 0 && (
         <OrderProcessOverlay
           orders={orders}
+          setOrders={setOrders}
           current={current}
           setCurrent={setCurrent}
           overlay={overlay}
@@ -40,7 +41,7 @@ export default function Orders({ passOrders }) {
                 }}
               >
                 {invoiceNumber} {finalGrandTotal}{' '}
-                {label_url && <Link href={label_url}>Label</Link>}
+                {/* {label_url && <Link href={label_url}>Label</Link>} */}
                 {token === current?.token && <OrderItems items={items} />}
               </li>
             );
@@ -82,18 +83,21 @@ export async function getServerSideProps(context) {
 
   let orders;
   try {
-    const secret = process.env.SNIPCART_SECRET + ':';
     orders = await axios.get(
-      `https://app.snipcart.com/api/orders?offset=0&limit=10&status=pending`, //processed
+      `${process.env.NEXT_PUBLIC_BASE_URL}api/admin/orders`,
       {
-        headers: {
-          Authorization: `Basic ${btoa(secret)}`,
-          Accept: 'application/json',
+        params: {
+          status: 'pending',
+          limit: 10,
+          offset: 0,
         },
       }
     );
   } catch (errors) {
-    console.log({ message: 'getting orders', errors });
+    console.log({
+      message: 'getting orders',
+      errors,
+    });
   }
   const { totalItems, limit, offset, items } = orders.data;
   const paging = {
@@ -104,7 +108,7 @@ export async function getServerSideProps(context) {
   return {
     props: {
       paging,
-      passOrders: items.reverse(),
+      passOrders: items,
     },
   };
 }

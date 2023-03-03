@@ -52,10 +52,15 @@ handler.post(async (req, res) => {
         trackingNumber: shipping.tracking_code,
         trackingUrl: tracking.public_url,
         metadata: {
+          shipment_id: shipping.selected_rate.shipment_id,
           trackerId: shipping.tracker.id,
-          carrier: tracking.carrier,
-          ...shipping.postage_label,
-          ...shipping.selected_rate,
+          rate_id: shipping.postage_label.id,
+          rate: shipping.postage_label.rate,
+          label_url: shipping.postage_label.label_url,
+          label_size: shipping.postage_label.label_size,
+          mode: shipping.postage_label.mode,
+          status: 'Pending',
+          packed: [],
         },
       };
       const secret = process.env.SNIPCART_SECRET + ':';

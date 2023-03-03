@@ -26,6 +26,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1",
+    "react-to-print": "^2.14.12",
     "scroll-lock": "^2.1.5",
     "sharp": "^0.31.2",
     "yup": "^1.0.0"
