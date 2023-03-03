@@ -19,6 +19,7 @@ export default function OrderProcessOverlay({
   const token = order.token;
   const total = orders.length;
   const label_image = order.metadata.label_url;
+  console.log(order.metadata);
 
   return (
     <div className=' fixed top-0 right-0 bottom-0 left-0 flex items-center justify-center bg-white'>
