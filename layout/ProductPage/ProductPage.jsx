@@ -26,7 +26,7 @@ const ProductPage = ({ product, size }) => {
     return (
       <button
         key={i}
-        data-item-id={`${id}:${s.size.toLowerCase()}`}
+        data-item-id={`${id}:${s.size.toLowerCase().split(' ').join('-')}`}
         data-item-price={s.price}
         data-item-description={`${name} (${color}) ${s.size}`}
         data-item-image={image}

@@ -7,6 +7,7 @@ import processOrder from '../../../../utils/processOrder';
 
 export default function OrderProcessOverlay({
   orders,
+  setOrders,
   current,
   setCurrent,
   overlay,
@@ -18,21 +19,27 @@ export default function OrderProcessOverlay({
   const order = orders[current];
   const token = order.token;
   const total = orders.length;
-  const label_image = order.metadata.label_url;
-  console.log(order.metadata);
+  const label_image = order?.metadata?.label_url;
+
+  const updateOrder = async (update) => {
+    const { data } = await processOrder(token, update);
+    const updated = orders?.map((order, i) => (current === i ? data : order));
+    setOrders(updated);
+  };
 
   return (
     <div className=' fixed top-0 right-0 bottom-0 left-0 flex items-center justify-center bg-white'>
       <div className='w-full max-w-screen-lg'>
+        {order.status}
         <OrderHeader order={order}>
           <CountPos current={current} total={total} />
         </OrderHeader>
-        <OrderItems order={order} />
+        <OrderItems order={order} handleUpdate={updateOrder} />
         <CloseButton setOverlay={setOverlay} />
         <div className='flex justify-end gap-3 pt-20'>
           <PackedButton token={token} />
           <PrintButton token={token} image={label_image} />
-          <ShippedButton token={token} />
+          <ShippedButton handleUpdate={updateOrder} />
           <NextButton hide={hideNextButton} setCurrent={setCurrent} />
         </div>
       </div>
@@ -50,19 +57,34 @@ const OrderHeader = ({ order, children }) => {
   );
 };
 
-const OrderItems = ({ order }) => {
-  const { items } = order;
+const OrderItems = ({ order, handleUpdate }) => {
+  const { items, metadata } = order;
   return (
     <ul className='flex justify-center gap-4'>
-      {items.map((item) => (
-        <OrderItem item={item} key={item.id} />
+      {items.map((item, i) => (
+        <OrderItem
+          item={item}
+          key={item.id}
+          metadata={metadata}
+          index={i}
+          handleUpdate={handleUpdate}
+        />
       ))}
     </ul>
   );
 };
 
-const OrderItem = ({ item }) => {
+const OrderItem = ({ item, metadata, index, handleUpdate }) => {
   const { image, id, quantity, description } = item;
+  const packed = metadata.packed;
+  const updatePacked = [...packed];
+  updatePacked[index] = updatePacked[index] ? 0 : 1;
+  const sendUpdate = {
+    metadata: {
+      ...metadata,
+      packed: updatePacked,
+    },
+  };
   return (
     <li
       key={id}
@@ -84,8 +106,9 @@ const OrderItem = ({ item }) => {
       <ul className='flex flex-1 flex-col'>
         <li>{description}</li>
         <li className='flex flex-1 flex-col justify-end'>
-          <div>
+          <div onClick={() => handleUpdate(sendUpdate)}>
             <strong>Quantity:</strong> {quantity}
+            <strong>Packed:</strong> {packed[index]}
           </div>
         </li>
       </ul>
@@ -138,9 +161,9 @@ const PrintButton = ({ image }) => {
     </div>
   );
 };
-const ShippedButton = ({ token }) => {
+const ShippedButton = ({ handleUpdate }) => {
   return (
-    <button onClick={() => processOrder(token, { status: 'Shipped' })}>
+    <button onClick={async () => await handleUpdate({ status: 'Shipped' })}>
       Shipped
     </button>
   );

@@ -7,10 +7,11 @@ import Image from 'next/image';
 import { H1 } from '../../../components/Type';
 import OrderProcessOverlay from './components/OrderProcessOverlay';
 
-export default function Orders({ passOrders }) {
+export default function Orders({ passOrders, paging }) {
   const [orders, setOrders] = useState(passOrders);
   const [current, setCurrent] = useState(null);
   const [overlay, setOverlay] = useState(false);
+  console.log(paging);
   return (
     <>
       {current >= 0 && (
@@ -29,6 +30,7 @@ export default function Orders({ passOrders }) {
           {orders?.map((order, i) => {
             const { token, finalGrandTotal, metadata, items, invoiceNumber } =
               order;
+            if (!metadata.packed) return <li key={token}></li>;
             return (
               <li
                 key={token}
