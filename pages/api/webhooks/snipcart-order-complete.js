@@ -13,6 +13,7 @@ handler.post(async (req, res) => {
     let rates;
     let shipping;
     let tracking;
+    const totalItems = saveOrder.content.items.length;
 
     // 1. get saved rates by orderToken and cost from db
     try {
@@ -45,8 +46,8 @@ handler.post(async (req, res) => {
       res.status(500).json({ message: 'error getting tracking url', errors });
     }
     // create a 0 filled array for packing
-    let a = new Array(saveOrder.content.totalNumberOfItems);
-    for (let i = 0; i < saveOrder.content.totalNumberOfItems; i++) a[i] = 0;
+    let a = new Array(totalItems);
+    for (let i = 0; i < totalItems; i++) a[i] = 0;
     // 4. save tracking info to snipcart
     try {
       const trackingForSnipcart = {
