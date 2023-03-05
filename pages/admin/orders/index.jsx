@@ -2,8 +2,6 @@ import axios from 'axios';
 import { useState } from 'react';
 import { getSession } from 'next-auth/react';
 import Container from '../../../components/Container';
-import Link from 'next/link';
-import Image from 'next/image';
 import { H1 } from '../../../components/Type';
 import OrderProcessOverlay from './components/OrderProcessOverlay';
 
@@ -11,16 +9,14 @@ export default function Orders({ passOrders, paging }) {
   const [orders, setOrders] = useState(passOrders);
   const [current, setCurrent] = useState(null);
   const [overlay, setOverlay] = useState(false);
-  console.log(paging);
   return (
     <>
-      {current >= 0 && (
+      {current != null && overlay && (
         <OrderProcessOverlay
           orders={orders}
           setOrders={setOrders}
           current={current}
           setCurrent={setCurrent}
-          overlay={overlay}
           setOverlay={setOverlay}
         />
       )}

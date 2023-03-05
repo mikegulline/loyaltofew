@@ -8,7 +8,7 @@ const processOrder = async (token, update) => {
     );
     return data;
   } catch (errors) {
-    console.log({ message: 'set status shipped', errors });
+    console.log({ update, errors });
   }
 };
 

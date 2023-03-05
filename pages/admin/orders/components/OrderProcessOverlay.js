@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import { useReactToPrint } from 'react-to-print';
 import Image from 'next/image';
 import { H1 } from '../../../../components/Type';
@@ -10,16 +10,33 @@ export default function OrderProcessOverlay({
   setOrders,
   current,
   setCurrent,
-  overlay,
   setOverlay,
 }) {
-  if (current === null || !overlay) return <></>;
-
-  const hideNextButton = orders.length - 1 === current;
   const order = orders[current];
+  const hideNextButton = orders.length - 1 === current;
   const token = order.token;
   const total = orders.length;
-  const label_image = order?.metadata?.label_url;
+  const label_image = order.metadata.label_url;
+  const packed = order.metadata.packed;
+  const [isPacked, setIsPacked] = useState(
+    () =>
+      packed.length ===
+      packed.reduce((acc, curr) => Number(curr) + Number(acc), [0])
+  );
+  const [itemsPacked, setItemsPacked] = useState(packed);
+
+  useEffect(() => {
+    setItemsPacked(packed);
+  }, [current]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  useEffect(() => {
+    setIsPacked(
+      () =>
+        itemsPacked.length ===
+        itemsPacked.reduce((acc, curr) => Number(curr) + Number(acc), [0])
+    );
+  }, [itemsPacked]); // eslint-disable-line react-hooks/exhaustive-deps
+  console.log(isPacked);
 
   const updateOrder = async (update) => {
     const { data } = await processOrder(token, update);
@@ -29,12 +46,17 @@ export default function OrderProcessOverlay({
 
   return (
     <div className=' fixed top-0 right-0 bottom-0 left-0 flex items-center justify-center bg-white'>
-      <div className='w-full max-w-screen-lg'>
+      <div className='w-full max-w-screen-lg' key={token}>
         {order.status}
         <OrderHeader order={order}>
           <CountPos current={current} total={total} />
         </OrderHeader>
-        <OrderItems order={order} handleUpdate={updateOrder} />
+        <OrderItems
+          order={order}
+          handleUpdate={updateOrder}
+          itemsPacked={itemsPacked}
+          setItemsPacked={setItemsPacked}
+        />
         <CloseButton setOverlay={setOverlay} />
         <div className='flex justify-end gap-3 pt-20'>
           <PackedButton token={token} />
@@ -47,6 +69,10 @@ export default function OrderProcessOverlay({
   );
 }
 
+const UI = () => {
+  return <></>;
+};
+
 const OrderHeader = ({ order, children }) => {
   const { invoiceNumber } = order;
   return (
@@ -57,15 +83,18 @@ const OrderHeader = ({ order, children }) => {
   );
 };
 
-const OrderItems = ({ order, handleUpdate }) => {
+const OrderItems = ({ order, handleUpdate, itemsPacked, setItemsPacked }) => {
   const { items, metadata } = order;
+
   return (
     <ul className='flex justify-center gap-4'>
       {items.map((item, i) => (
         <OrderItem
-          item={item}
           key={item.id}
+          item={item}
           metadata={metadata}
+          itemsPacked={itemsPacked}
+          setItemsPacked={setItemsPacked}
           index={i}
           handleUpdate={handleUpdate}
         />
@@ -74,21 +103,33 @@ const OrderItems = ({ order, handleUpdate }) => {
   );
 };
 
-const OrderItem = ({ item, metadata, index, handleUpdate }) => {
-  const { image, id, quantity, description } = item;
-  const packed = metadata.packed;
-  const updatePacked = [...packed];
-  updatePacked[index] = updatePacked[index] ? 0 : 1;
-  const sendUpdate = {
-    metadata: {
-      ...metadata,
-      packed: updatePacked,
-    },
+const OrderItem = ({
+  item,
+  metadata,
+  index,
+  handleUpdate,
+  itemsPacked,
+  setItemsPacked,
+}) => {
+  const { image, quantity, description } = item;
+
+  const updateItemsPacked = () => {
+    const updatePacked = [...itemsPacked];
+    updatePacked[index] = updatePacked[index] ? 0 : 1;
+    const sendUpdate = {
+      metadata: {
+        ...metadata,
+        packed: updatePacked,
+      },
+    };
+    setItemsPacked(updatePacked);
+    handleUpdate(sendUpdate);
   };
+
   return (
     <li
-      key={id}
-      className='border-#e4e4e6 flex h-96 w-1/4 flex-col items-center gap-2 rounded-md border p-4'
+      className='border-#e4e4e6 flex h-96 w-1/4 cursor-pointer flex-col items-center gap-2 rounded-md border p-4'
+      onClick={() => updateItemsPacked()}
     >
       <div>
         <Image
@@ -106,9 +147,9 @@ const OrderItem = ({ item, metadata, index, handleUpdate }) => {
       <ul className='flex flex-1 flex-col'>
         <li>{description}</li>
         <li className='flex flex-1 flex-col justify-end'>
-          <div onClick={() => handleUpdate(sendUpdate)}>
+          <div>
             <strong>Quantity:</strong> {quantity}
-            <strong>Packed:</strong> {packed[index]}
+            <strong>Packed:</strong> {itemsPacked[index]}
           </div>
         </li>
       </ul>
@@ -157,13 +198,18 @@ const PrintButton = ({ image }) => {
           />
         </div>
       </div>
-      <button onClick={() => handlePrint()}>Print Label</button>
+      <button onClick={() => handlePrint()} className='disabled:opacity-25'>
+        Print Label
+      </button>
     </div>
   );
 };
 const ShippedButton = ({ handleUpdate }) => {
   return (
-    <button onClick={async () => await handleUpdate({ status: 'Shipped' })}>
+    <button
+      onClick={async () => await handleUpdate({ status: 'Shipped' })}
+      className='disabled:opacity-25'
+    >
       Shipped
     </button>
   );
@@ -171,7 +217,11 @@ const ShippedButton = ({ handleUpdate }) => {
 
 const NextButton = ({ hide, setCurrent }) => {
   return (
-    <button disabled={hide} onClick={() => setCurrent((c) => c + 1)}>
+    <button
+      disabled={hide}
+      onClick={() => setCurrent((c) => c + 1)}
+      className='disabled:opacity-25'
+    >
       Next
     </button>
   );

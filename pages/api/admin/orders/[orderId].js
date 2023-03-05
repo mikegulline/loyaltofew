@@ -22,7 +22,7 @@ handler.put(async (req, res) => {
     );
     return res.status(200).json({ data });
   } catch (errors) {
-    console.log({ message: 'set status shipped', errors });
+    console.log({ passData, errors });
   }
 });
 
