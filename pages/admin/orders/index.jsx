@@ -8,6 +8,9 @@ import OrderProcessOverlay from './components/OrderProcessOverlay';
 export default function Orders({ passOrders, paging }) {
   const [orders, setOrders] = useState(passOrders);
   const [current, setCurrent] = useState(null);
+  console.log(paging);
+
+  const Pagination = () => {};
 
   // update orders state
   // set current order
@@ -76,7 +79,7 @@ export async function getServerSideProps(context) {
       {
         params: {
           status: 'pending',
-          limit: 10,
+          limit: 2,
           offset: 0,
         },
       }
