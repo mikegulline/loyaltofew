@@ -8,37 +8,49 @@ import OrderProcessOverlay from './components/OrderProcessOverlay';
 export default function Orders({ passOrders, paging }) {
   const [orders, setOrders] = useState(passOrders);
   const [current, setCurrent] = useState(null);
-  const [overlay, setOverlay] = useState(false);
+
+  // update orders state
+  // set current order
+  const updateOrdersNextClose = (orderToUpdate, close) => {
+    setOrders(
+      orders.map((order, i) => (current === i ? orderToUpdate : order))
+    );
+    setCurrent(close ? null : current + 1);
+  };
+
+  const Overlay = () =>
+    current != null ? (
+      <OrderProcessOverlay
+        order={orders[current]}
+        total={orders.length}
+        current={current}
+        nextClose={updateOrdersNextClose}
+      />
+    ) : null;
+
+  const OrderItems = () =>
+    orders?.map((order, i) => {
+      const { token, finalGrandTotal, metadata, items, invoiceNumber } = order;
+      if (!metadata.packed) return <li key={token}></li>;
+      return (
+        <li
+          key={token}
+          onClick={() => {
+            setCurrent(i);
+          }}
+        >
+          {invoiceNumber} | {items.length} | ${finalGrandTotal}
+        </li>
+      );
+    });
+
   return (
     <>
-      {current != null && overlay && (
-        <OrderProcessOverlay
-          orders={orders}
-          setOrders={setOrders}
-          current={current}
-          setCurrent={setCurrent}
-          setOverlay={setOverlay}
-        />
-      )}
+      <Overlay />
       <Container size='xs' className='py-10'>
         <H1>Orders</H1>
         <ul>
-          {orders?.map((order, i) => {
-            const { token, finalGrandTotal, metadata, items, invoiceNumber } =
-              order;
-            if (!metadata.packed) return <li key={token}></li>;
-            return (
-              <li
-                key={token}
-                onClick={() => {
-                  setCurrent(i);
-                  setOverlay(true);
-                }}
-              >
-                {invoiceNumber} {finalGrandTotal}
-              </li>
-            );
-          })}
+          <OrderItems />
         </ul>
       </Container>
     </>
