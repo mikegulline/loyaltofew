@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { getSession } from 'next-auth/react';
 import Container from '../../../components/Container';
 import { H1 } from '../../../components/Type';
-import OrderProcessOverlay from './components/OrderProcessOverlay';
+import OrderProcessOverlay from '../../../components/OrderProcessOverlay';
 
 export default function Orders({ passOrders, paging }) {
   const [orders, setOrders] = useState(passOrders);

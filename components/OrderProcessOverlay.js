@@ -1,7 +1,7 @@
 import { useState, useCallback } from 'react';
 import Image from 'next/image';
-import { H1 } from '../../../../components/Type';
-import processOrder from '../../../../utils/processOrder';
+import { H1 } from './Type';
+import processOrder from '../utils/processOrder';
 import Buttons from './Buttons';
 
 export default function OrderProcessOverlay({
