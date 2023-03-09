@@ -2,7 +2,7 @@ import { useState, useCallback } from 'react';
 import Image from 'next/image';
 import { H1 } from './Type';
 import processOrder from '../utils/processOrder';
-import Buttons from './Buttons';
+import Buttons from './OrderProcessButtons';
 
 export default function OrderProcessOverlay({
   order,
@@ -11,60 +11,65 @@ export default function OrderProcessOverlay({
   nextClose,
 }) {
   const [currentOrder, setCurrentOrder] = useState(order);
+
   const {
     token,
     invoiceNumber,
-    status,
     items,
     metadata,
-    metadata: { label_url },
+    metadata: { label_url, status },
   } = currentOrder;
 
-  // immediately update order state
-  // async update API data
   const updateOrder = async (update) => {
     setCurrentOrder({ ...currentOrder, ...update });
     const { data } = await processOrder(token, update);
     return data;
   };
 
-  // update orders state
-  // handle next or close
-  // refresh on currentOrder change
   const handleNextClose = useCallback(
-    (close) => nextClose(currentOrder, close),
+    (next) => nextClose(currentOrder, next),
     [currentOrder, nextClose]
   );
 
   const Wrapper = ({ children }) => (
-    <div className=' fixed top-0 right-0 bottom-0 left-0 flex items-center justify-center bg-white'>
-      <Buttons.Close handleClose={handleNextClose} />
-      <div className='w-full max-w-screen-lg' key={token}>
-        {status}
-
+    <div className=' fixed top-0 right-0 bottom-0 left-0 z-50 flex items-center justify-center bg-gray-100 '>
+      <div
+        className='w-full max-w-screen-lg rounded-md bg-white p-10 drop-shadow-2xl'
+        key={token}
+      >
         {children}
       </div>
     </div>
   );
 
   const Header = () => (
-    <H1 className='flex'>
+    <H1 className='mb-10 flex items-center gap-1 border-b-4 border-red-600 pb-6'>
       <span className='flex-1'>{invoiceNumber}</span>
-      <span style={{ color: '#e4e4e6' }}>
-        {current + 1}/{total}
-      </span>
+      <Buttons.Close handleClose={handleNextClose} />
     </H1>
   );
 
   const UI = () => (
-    <div className='flex justify-end gap-3 pt-20'>
-      <Buttons.Packed token={token} />
-      <Buttons.Print token={token} image={label_url} />
-      <Buttons.Shipped handleUpdate={updateOrder} />
-      <Buttons.Next
-        disable={total - 1 === current}
-        handleNext={handleNextClose}
-      />
+    <div className='mt-10 flex gap-3 border-t-4 border-gray-500 pt-6'>
+      <div className='w-20'>
+        <Buttons.Back disable={current === 0} handleNext={handleNextClose} />
+      </div>
+      <div className='flex grow justify-center gap-3 '>
+        <Buttons.Packed handleUpdate={updateOrder} metadata={metadata} />
+        <Buttons.Print
+          handleUpdate={updateOrder}
+          metadata={metadata}
+          image={label_url}
+        />
+        <Buttons.Shipped handleUpdate={updateOrder} metadata={metadata} />
+      </div>
+      <div className='w-20'>
+        <Buttons.Next
+          disable={total - 1 === current}
+          metadata={metadata}
+          handleNext={handleNextClose}
+        />
+      </div>
     </div>
   );
 
