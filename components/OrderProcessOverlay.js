@@ -12,12 +12,14 @@ export default function OrderProcessOverlay({
 }) {
   const [currentOrder, setCurrentOrder] = useState(order);
 
+  if (!order) return <></>;
+  console.log(total);
   const {
     token,
     invoiceNumber,
     items,
     metadata,
-    metadata: { label_url, status },
+    metadata: { label_url },
   } = currentOrder;
 
   const updateOrder = async (update) => {
@@ -26,10 +28,7 @@ export default function OrderProcessOverlay({
     return data;
   };
 
-  const handleNextClose = useCallback(
-    (next) => nextClose(currentOrder, next),
-    [currentOrder, nextClose]
-  );
+  const handleNextClose = (next) => nextClose(currentOrder, next);
 
   const Wrapper = ({ children }) => (
     <div className=' fixed top-0 right-0 bottom-0 left-0 z-50 flex items-center justify-center bg-gray-100 '>
@@ -42,12 +41,63 @@ export default function OrderProcessOverlay({
     </div>
   );
 
-  const Header = () => (
-    <H1 className='mb-10 flex items-center gap-1 border-b-4 border-red-600 pb-6'>
-      <span className='flex-1'>{invoiceNumber}</span>
-      <Buttons.Close handleClose={handleNextClose} />
-    </H1>
-  );
+  const Header = () => {
+    const {
+      finalGrandTotal,
+      items,
+      invoiceNumber,
+      creationDate,
+      shippingAddressName,
+      shippingAddressAddress1,
+      shippingAddressAddress2,
+      shippingAddressPostalCode,
+      shippingAddressProvince,
+      shippingAddressCity,
+      email,
+    } = currentOrder;
+    console.log(currentOrder);
+    const totalItems = items.reduce(
+      (acc, curr) => Number(acc + curr.quantity),
+      [0]
+    );
+    const date = new Date(creationDate);
+    return (
+      <div className='mb-10  border-b-4 border-red-600 pb-6'>
+        <H1 className='mb-4 flex items-center gap-1 '>
+          <span className='flex-1'>{invoiceNumber}</span>
+          <Buttons.Close handleClose={handleNextClose} />
+        </H1>
+        <ul className='flex gap-6'>
+          <li className='flex flex-col items-center justify-center rounded border border-[#333] py-2 px-6'>
+            <p className='font text-[50px] font-black leading-none'>
+              {totalItems}
+            </p>
+            <p className=' text-xs font-bold uppercase leading-none'>Itmes</p>
+          </li>
+          <li className='flex items-center'>
+            <p>
+              <strong>{shippingAddressName}</strong>
+              <br />
+              {shippingAddressAddress1}{' '}
+              {shippingAddressAddress2 ? shippingAddressAddress2 : ''}
+              <br />
+              {shippingAddressCity}, {shippingAddressProvince}{' '}
+              {shippingAddressPostalCode}
+            </p>
+          </li>
+          <li className='flex items-center pl-8'>
+            <p>
+              <strong>${finalGrandTotal}</strong>
+              <br />
+              {date.toLocaleDateString()} @ {date.toLocaleTimeString()}
+              <br />
+              {email}
+            </p>
+          </li>
+        </ul>
+      </div>
+    );
+  };
 
   const UI = () => (
     <div className='mt-10 flex gap-3 border-t-4 border-gray-500 pt-6'>
@@ -65,8 +115,7 @@ export default function OrderProcessOverlay({
       </div>
       <div className='w-20'>
         <Buttons.Next
-          disable={total - 1 === current}
-          metadata={metadata}
+          disable={Number(total - 1) === current}
           handleNext={handleNextClose}
         />
       </div>
@@ -117,9 +166,13 @@ const OrderItems = ({ items, metadata, handleUpdate }) => {
 const OrderItem = ({ item, isPacked, handleUpdateItemsPacked }) => {
   const { image, quantity, description } = item;
 
+  const classes = isPacked
+    ? 'border-green-600 bg-green-100 '
+    : 'border-gray-200 transition-all duration-300 hover:scale-105 hover:border-gray-400';
+
   const Wrapper = ({ children }) => (
     <li
-      className='border-#e4e4e6 flex h-96 w-1/4 cursor-pointer flex-col items-center gap-2 rounded-md border p-4'
+      className={`${classes} border-#e4e4e6 group flex h-96 w-1/4 cursor-pointer flex-col items-center gap-2 rounded-md border p-4`}
       onClick={() => handleUpdateItemsPacked()}
     >
       {children}
@@ -132,25 +185,20 @@ const OrderItem = ({ item, isPacked, handleUpdateItemsPacked }) => {
       width={210}
       height={210}
       alt={''}
-      style={{
-        background: '#e4e4e6',
-        border: '10px solid #e4e4e6',
-        borderRadius: '4px',
-      }}
+      className={`rounded  border  bg-[#e4e4e6] p-2 ${
+        isPacked ? `border-green-600` : `border-white`
+      }`}
     />
   );
 
   const Infos = () => (
     <ul className='flex flex-1 flex-col'>
       <li>{description}</li>
+      <li></li>
       <li className='flex flex-1 flex-col justify-end'>
         <div className='flex'>
-          <div className='grow'>
-            <strong>Quantity:</strong> {quantity}
-          </div>
-          <div>
-            <strong>Packed:</strong> {isPacked}
-          </div>
+          <strong>Quantity:</strong> {quantity}
+          <div className='grow'></div>
         </div>
       </li>
     </ul>

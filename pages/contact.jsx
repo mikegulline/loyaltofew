@@ -11,7 +11,7 @@ const Contact = () => {
       />
 
       <InfoPage>
-        <H1>Contact</H1>
+        <H1 className='mt-10 text-gray-800'>Contact</H1>
         <P>
           Get in touch with Loyal To Few and start living &quot;A Trademarked
           Way Of Life.&quot;

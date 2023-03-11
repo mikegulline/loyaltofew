@@ -7,7 +7,7 @@ import { disablePageScroll, enablePageScroll } from 'scroll-lock';
 import ResizeObserver from 'rc-resize-observer';
 import Container from '../Container';
 import { useSession } from 'next-auth/react';
-import { mainMenu, adminMenu } from '../../data/menu';
+import { mainMenu } from '../../data/menu';
 
 const MainMenu = () => {
   const [openMobileMenu, setOpenMobileMenu] = useState(0);
@@ -21,10 +21,6 @@ const MainMenu = () => {
       enablePageScroll();
     }
   }, [openMobileMenu]);
-
-  if (session?.user?.name && mainMenu[mainMenu.length - 1].name !== 'Admin') {
-    mainMenu.push(adminMenu);
-  }
 
   const buildMenu = mainMenu.map(({ name, location, subMenu }) => {
     const active_class = `${styles.main_li} ${

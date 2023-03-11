@@ -120,14 +120,12 @@ const Shipped = ({ handleUpdate, metadata }) => {
   );
 };
 
-const Next = ({ disable, handleNext, metadata }) => {
-  const disabled = metadata.status !== 'Shipped';
+const Next = ({ disable, handleNext }) => {
   if (disable) {
     return (
       <button
-        disabled={disabled}
         onClick={() => handleNext()}
-        className='disabled:opacity-25'
+        className='flex w-full items-center gap-2 border-red-600 text-center  text-red-600 hover:border-red-600 hover:bg-red-600 hover:text-white '
       >
         Done
       </button>
@@ -135,9 +133,8 @@ const Next = ({ disable, handleNext, metadata }) => {
   }
   return (
     <button
-      disabled={disabled}
       onClick={() => handleNext(1)}
-      className='flex items-center gap-2 hover:bg-black  hover:text-white disabled:bg-white disabled:text-black disabled:opacity-25'
+      className='flex w-full items-center gap-2  text-center hover:bg-black hover:text-white disabled:bg-white disabled:text-black disabled:opacity-25'
     >
       Next
     </button>
@@ -150,7 +147,7 @@ const Back = ({ disable, handleNext }) => {
     <button
       disabled={disabled}
       onClick={() => handleNext(-1)}
-      className='flex items-center gap-2 hover:bg-black  hover:text-white disabled:bg-white disabled:text-black disabled:opacity-25'
+      className='flex w-full items-center gap-2  text-center hover:bg-black hover:text-white disabled:bg-white disabled:text-black disabled:opacity-25'
     >
       Back
     </button>

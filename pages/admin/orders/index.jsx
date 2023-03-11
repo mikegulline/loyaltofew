@@ -33,6 +33,7 @@ export default function Orders({ passOrders, limit, totalItems }) {
     current != null ? (
       <OrderProcessOverlay
         order={orders[current]}
+        total={orders.length}
         current={current}
         nextClose={updateOrdersNextClose}
       />
@@ -41,7 +42,20 @@ export default function Orders({ passOrders, limit, totalItems }) {
   const OrderItems = () => (
     <ul className='my-6 flex flex-col gap-1 border-y-4 border-red-600 border-b-gray-500 py-6'>
       {orders?.map((order, i) => {
-        const { token, finalGrandTotal, items, invoiceNumber } = order;
+        const {
+          token,
+          finalGrandTotal,
+          items,
+          invoiceNumber,
+          creationDate,
+          shippingAddressName,
+          shippingAddressAddress1,
+          shippingAddressAddress2,
+          shippingAddressPostalCode,
+          shippingAddressProvince,
+          hippingAddressPostalCode,
+        } = order;
+
         const totalItems = items.reduce(
           (acc, curr) => Number(acc + curr.quantity),
           [0]
@@ -52,10 +66,15 @@ export default function Orders({ passOrders, limit, totalItems }) {
             onClick={() => {
               setCurrent(i);
             }}
-            className={`flex cursor-pointer items-center rounded border p-4 hover:border-green-600 hover:bg-green-100`}
+            className={`flex cursor-pointer items-center gap-4 rounded border p-4 hover:border-green-600 hover:bg-green-100`}
           >
-            <div className='w-28'>{invoiceNumber}</div>
+            <div className='w-20'>
+              <strong>{invoiceNumber}</strong>
+            </div>
+            <div className='w-36 truncate'>{shippingAddressName}</div>
+            <div className='w-16'>{shippingAddressProvince}</div>
             <div>Items: {totalItems}</div>
+
             <div className='flex grow justify-end'>${finalGrandTotal}</div>
           </li>
         );
@@ -104,8 +123,8 @@ export default function Orders({ passOrders, limit, totalItems }) {
   return (
     <>
       <Overlay />
-      <Container size='xs' className='py-10'>
-        <H1 className='flex items-center'>
+      <Container size='xs' className='pb-20'>
+        <H1 className='mt-10 flex items-center text-gray-800'>
           <span className='grow'>Orders</span>{' '}
           <span className='text-gray-200'>
             {orders.length} of {total}

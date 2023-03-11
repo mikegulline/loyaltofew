@@ -11,7 +11,7 @@ const About = () => {
       />
 
       <InfoPage>
-        <H1>About</H1>
+        <H1 className='mt-10 text-gray-800'>About</H1>
         <P>
           Loyal To Few is a family-owned business started in 2020 by a retired
           firefighter/paramedic. What began as a simple mindset, turned into a

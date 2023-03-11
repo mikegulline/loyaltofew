@@ -307,3 +307,25 @@ select[multiple] {
 .navy-white {
   background: navy;
 }
+
+.adminSubMenu ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: -20px;
+}
+.adminSubMenu a {
+  display: block;
+  padding: 5px 20px;
+  color: #bbb;
+}
+.adminSubMenu a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.adminSubMenu .active a {
+  color: #fff;
+  background: #d61818;
+}
+.adminSubMenu .active a:hover {
+  text-decoration: none;
+}

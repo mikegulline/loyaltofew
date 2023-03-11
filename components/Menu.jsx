@@ -6,7 +6,7 @@ const Menu = ({
   className = 'mainMenu',
   withDropDowns = false,
   title = '',
-  activeClass,
+  activeClass = 'active',
 }) => {
   const router = useRouter();
 

@@ -3,10 +3,12 @@ import Container from '../Container';
 import MainMenu from '../MainMenu';
 import styles from './Header.module.css';
 import LogoSVG from '../../public/logos/ltf-logo.svg';
+import AdminMenu from '../AdminMenu';
 
 const Header = () => {
   return (
     <div className={`header ${styles.header}`}>
+      <AdminMenu />
       <Container>
         <div className={styles.columns}>
           <Logo />

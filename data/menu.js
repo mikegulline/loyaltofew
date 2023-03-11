@@ -45,9 +45,9 @@ export const mainMenu = [
 ];
 
 export const adminSubMenu = [
-  { name: 'Logout', location: '', onClick: () => signOut() },
   { name: 'Orders', location: '/admin/orders' },
   { name: 'Mail', location: '/admin/mail' },
+  { name: 'Logout', location: '', onClick: () => signOut() },
 ];
 
 export const adminMenu = {
