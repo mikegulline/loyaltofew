@@ -619,6 +619,7 @@ export const store = [
         sizes: [
           {
             size: 'Adjustable',
+
             price: 30,
           },
         ],

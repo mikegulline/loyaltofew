@@ -8,6 +8,9 @@ import { SlRefresh } from 'react-icons/sl';
 
 const ProductPage = ({ product, size }) => {
   const [sizeAndPriceIndex, setSizeAndPriceIndex] = useState(0);
+  const [colorsState, setColorsState] = useState(() =>
+    product.sizes?.colors ? product.sizes.colors : product.colors
+  );
   const {
     id,
     name,
@@ -43,8 +46,10 @@ const ProductPage = ({ product, size }) => {
   });
 
   useEffect(() => {
-    setSizeAndPriceIndex(size);
-  }, [size]);
+    if (sizes[sizeAndPriceIndex]?.colors)
+      setColorsState(sizes[sizeAndPriceIndex]?.colors);
+    else setColorsState(colors);
+  }, [sizeAndPriceIndex, sizes, colors]);
 
   return (
     <>
@@ -62,11 +67,11 @@ const ProductPage = ({ product, size }) => {
               {name} ({color})
             </h1>
 
-            <Dimensions dimensions={sizes[sizeAndPriceIndex].dimensions} />
+            <Dimensions dimensions={sizes[sizeAndPriceIndex]?.dimensions} />
             <Details details={details} />
             <p className='mb-2 font-bold'>Color Options</p>
             <ColorLinks
-              colors={colors}
+              colors={colorsState}
               link={link}
               align='left'
               scroll={false}
@@ -78,6 +83,7 @@ const ProductPage = ({ product, size }) => {
                 sizes={sizes}
                 onChange={setSizeAndPriceIndex}
                 current={sizeAndPriceIndex}
+                color={color}
               />
               {showButtons}
             </div>
@@ -180,16 +186,24 @@ const Dimensions = ({ dimensions }) => {
   );
 };
 
-const Sizes = ({ sizes, onChange }) => {
+const Sizes = ({ sizes, onChange, color }) => {
   const handleSizeChange = (e) => {
     onChange(e.target.value);
   };
 
-  const buildSizes = sizes.map(({ size, price }, i) => (
-    <option key={size} value={i}>
-      {size} | ${price}
-    </option>
-  ));
+  const buildSizes = sizes
+    .filter((obj) => {
+      if (obj?.colors) {
+        if (obj?.colors.includes(color)) return obj;
+        else return;
+      }
+      return obj;
+    })
+    .map(({ size, price }, i) => (
+      <option key={size} value={i}>
+        {size} | ${price}
+      </option>
+    ));
 
   return (
     <select
