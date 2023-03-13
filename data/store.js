@@ -51,7 +51,6 @@ export const store = [
             dimensions:
               'Body Length: 32 1/2 in., Chest Width:  26 in., Sleeve Length: 9 in.',
           },
-          ,
           {
             size: 'XXXL',
             price: 35,
