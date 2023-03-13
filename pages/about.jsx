@@ -22,12 +22,13 @@ const About = () => {
         </P>
 
         <P>
-          Sometimes in life you realize you have let people in who don't want
-          the best for you, who take and never give. Surrounding yourself with
-          family and a small circle of friends who will remain in your corner no
-          matter how difficult the circumstances has become our trademarked way
-          of life. Trim the fat, divorce the bullshit, and don't waste time or
-          energy on people who hinder your personal growth and success.
+          Sometimes in life you realize you have let people in who don&apos;t
+          want the best for you, who take and never give. Surrounding yourself
+          with family and a small circle of friends who will remain in your
+          corner no matter how difficult the circumstances has become our
+          trademarked way of life. Trim the fat, divorce the bullshit, and
+          don&apos;t waste time or energy on people who hinder your personal
+          growth and success.
         </P>
 
         <P>
