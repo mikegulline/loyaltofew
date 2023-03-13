@@ -23,33 +23,41 @@ export const store = [
         sizes: [
           {
             size: 'S',
-            price: 30,
+            price: 35,
             dimensions:
               'Body Length: 28 1/2 in., Chest Width: 18 in., Sleeve Length: 8 in.',
           },
           {
             size: 'M',
-            price: 30,
+            price: 35,
             dimensions:
               'Body Length: 29 1/2 in., Chest Width: 20 in., Sleeve Length: 8 1/4 in.',
           },
           {
             size: 'L',
-            price: 30,
+            price: 35,
             dimensions:
               'Body Length: 30 1/2 in., Chest Width: 22 in., Sleeve Length: 8 1/2 in.',
           },
           {
             size: 'XL',
-            price: 30,
+            price: 35,
             dimensions:
               'Body Length: 31 1/2 in., Chest Width: 24 in., Sleeve Length: 8 3/4 in.',
           },
           {
             size: 'XXL',
-            price: 32,
+            price: 35,
             dimensions:
               'Body Length: 32 1/2 in., Chest Width:  26 in., Sleeve Length: 9 in.',
+          },
+          ,
+          {
+            size: 'XXXL',
+            price: 35,
+            dimensions:
+              'Body Length: 32 1/2 in., Chest Width:  26 in., Sleeve Length: 9 in.',
+            colors: ['Black', 'Gray', 'Maroon', 'Navy'],
           },
         ],
         details: [
@@ -127,31 +135,31 @@ export const store = [
         sizes: [
           {
             size: 'S',
-            price: 35,
+            price: 38,
             dimensions:
               'Body Length: 28 3/8 in., Chest Width: 18 in., Sleeve Length: 27 1/8 in.',
           },
           {
             size: 'M',
-            price: 35,
+            price: 38,
             dimensions:
               'Body Length: 29 1/2 in., Chest Width: 20 in., Sleeve Length: 27 5/8 in.',
           },
           {
             size: 'L',
-            price: 35,
+            price: 38,
             dimensions:
               'Body Length: 30 5/8 in., Chest Width: 22 in., Sleeve Length: 27 7/8 in.',
           },
           {
             size: 'XL',
-            price: 35,
+            price: 38,
             dimensions:
               'Body Length: 31 1/4 in., Chest Width: 24 in., Sleeve Length: 28 1/4 in.',
           },
           {
             size: 'XXL',
-            price: 37,
+            price: 38,
             dimensions:
               'Body Length: 32 7/8 in., Chest Width: 26 in., Sleeve Length: 28 5/8 in.',
           },
@@ -173,58 +181,58 @@ export const store = [
       description: '',
     },
     products: [
-      {
-        type: 'Tee',
-        product: 'Original Tee',
-        has_image_back: true,
-        logos: ['Arch', 'Block', 'Original', 'Stamp'],
-        colors: ['Navy', 'Red'],
-        tags: ['Tops'],
-        weight: 3.6,
-        meta: {
-          title: 'Womens Original Tee',
-          description:
-            '100% cotton grown on a US farm. Lightweight (4.3oz.) & durable.',
-        },
-        sizes: [
-          {
-            size: 'S',
-            price: 28,
-            dimensions:
-              'Body Length: 25 7/8 in., Chest Width: 16 1/8 in., Sleeve Length: 6 3/8 in.',
-          },
-          {
-            size: 'M',
-            price: 28,
-            dimensions:
-              'Body Length: 26 1/2 in., Chest Width: 16 5/8 in., Sleeve Length: 6 5/8 in.',
-          },
-          {
-            size: 'L',
-            price: 28,
-            dimensions:
-              'Body Length: 27 1/8 in., Chest Width: 17 1/8 in., Sleeve Length: 6 7/8 in.',
-          },
-          {
-            size: 'XL',
-            price: 28,
-            dimensions:
-              'Body Length: 27 3/4 in., Chest Width: 17 5/8 in., Sleeve Length: 7 1/8 in.',
-          },
-          {
-            size: 'XXL',
-            price: 30,
-            dimensions:
-              'Body Length: 28 1/4 in., Chest Width: 18 in., Sleeve Length: 7 3/8 in.	',
-          },
-        ],
-        details: [
-          'Designed, produced & printed in the USA',
-          '100% cotton grown on a US farm',
-          'Lightweight (4.3oz.) & durable',
-          'S-XXL',
-        ],
-      },
+      // {
+      //   type: 'Tee',
+      //   product: 'Original Tee',
+      //   has_image_back: true,
+      //   logos: ['Arch', 'Block', 'Original', 'Stamp'],
+      //   colors: ['Navy', 'Red'],
+      //   tags: ['Tops'],
+      //   weight: 3.6,
+      //   meta: {
+      //     title: 'Womens Original Tee',
+      //     description:
+      //       '100% cotton grown on a US farm. Lightweight (4.3oz.) & durable.',
+      //   },
+      //   sizes: [
+      //     {
+      //       size: 'S',
+      //       price: 28,
+      //       dimensions:
+      //         'Body Length: 25 7/8 in., Chest Width: 16 1/8 in., Sleeve Length: 6 3/8 in.',
+      //     },
+      //     {
+      //       size: 'M',
+      //       price: 28,
+      //       dimensions:
+      //         'Body Length: 26 1/2 in., Chest Width: 16 5/8 in., Sleeve Length: 6 5/8 in.',
+      //     },
+      //     {
+      //       size: 'L',
+      //       price: 28,
+      //       dimensions:
+      //         'Body Length: 27 1/8 in., Chest Width: 17 1/8 in., Sleeve Length: 6 7/8 in.',
+      //     },
+      //     {
+      //       size: 'XL',
+      //       price: 28,
+      //       dimensions:
+      //         'Body Length: 27 3/4 in., Chest Width: 17 5/8 in., Sleeve Length: 7 1/8 in.',
+      //     },
+      //     {
+      //       size: 'XXL',
+      //       price: 30,
+      //       dimensions:
+      //         'Body Length: 28 1/4 in., Chest Width: 18 in., Sleeve Length: 7 3/8 in.	',
+      //     },
+      //   ],
+      //   details: [
+      //     'Designed, produced & printed in the USA',
+      //     '100% cotton grown on a US farm',
+      //     'Lightweight (4.3oz.) & durable',
+      //     'S-XXL',
+      //   ],
+      // },
       {
         type: 'Tank',
         product: 'Original Tank',
@@ -418,14 +426,14 @@ export const store = [
       },
       {
         type: 'Crew',
-        product: 'Original Crew',
+        product: 'Original Cotton Crew',
         has_image_back: true,
         logos: ['Arch', 'Block', 'Original', 'Stamp'],
         colors: ['Black', 'Navy', 'Green', 'Dolphin'],
         tags: ['Tops'],
         weight: 9.8,
         meta: {
-          title: 'Original Crew (Unisex)',
+          title: 'Original Cotton Crew (Unisex)',
           description:
             '100% cotton grown on a US farm. Lightweight (4.3oz.) & durable.',
         },
@@ -525,14 +533,14 @@ export const store = [
       },
       {
         type: 'Hoodie',
-        product: 'Premium Hoodie',
+        product: 'Original Cotton Hoodie',
         has_image_back: false,
         logos: ['Arch', 'Block', 'Original', 'Stamp'],
         colors: ['Black', 'Dolphin', 'Green', 'Navy'],
         tags: ['Tops'],
         weight: 34.3,
         meta: {
-          title: 'Premium Hoodie (Unisex)',
+          title: 'Original Cotton Hoodie (Unisex)',
           description: 'Unisex. Heavyweight (14oz) over-sized fit.',
         },
 
