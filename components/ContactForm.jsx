@@ -90,7 +90,7 @@ const ContactForm = () => {
             <Input
               type='text'
               name='invoice'
-              placeholder='Order Invoice'
+              placeholder='Invoice Number'
               onChange={handleChange}
               value={invoice}
             />
