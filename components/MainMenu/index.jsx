@@ -44,6 +44,17 @@ const MainMenu = () => {
     if (openMobileMenu) {
       return (
         <Container>
+          <div
+            className={styles.mobile_menu_close}
+            onClick={(e) => {
+              setOpenMobileMenu((open) => {
+                if (!open) window.scrollTo(0, 0);
+                return !open;
+              });
+            }}
+          >
+            {openMobileMenu ? <SlClose /> : <SlMenu />}
+          </div>
           <ul className={styles.main_ul}>{buildMenu}</ul>
         </Container>
       );
@@ -68,7 +79,7 @@ const MainMenu = () => {
           }}
         >
           <div
-            className={styles.mobile_menu_close}
+            className={styles.mobile_menu_open}
             onClick={(e) => {
               setOpenMobileMenu((open) => {
                 if (!open) window.scrollTo(0, 0);
@@ -76,7 +87,7 @@ const MainMenu = () => {
               });
             }}
           >
-            {openMobileMenu ? <SlClose /> : <SlMenu />}
+            <SlMenu />
           </div>
         </ResizeObserver>
       </div>

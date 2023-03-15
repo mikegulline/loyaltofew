@@ -1,4 +1,4 @@
-import Link from './Link';
+import Link from 'next/link';
 import { useRouter } from 'next/router';
 
 const Menu = ({
@@ -10,14 +10,18 @@ const Menu = ({
 }) => {
   const router = useRouter();
 
-  const buildMenu = menuData.map(({ name, location, subMenu }) => (
-    <li key={name} className={router.asPath == location ? activeClass : ''}>
-      <Link href={location}>{name}</Link>
-      {subMenu && withDropDowns && (
-        <Menu menuData={subMenu} className='subMenu' />
-      )}
-    </li>
-  ));
+  const buildMenu = menuData.map(
+    ({ name, location, subMenu, onClick = () => {} }) => (
+      <li key={name} className={router.asPath == location ? activeClass : ''}>
+        <Link href={location} onClick={onClick}>
+          {name}
+        </Link>
+        {subMenu && withDropDowns && (
+          <Menu menuData={subMenu} className='subMenu' />
+        )}
+      </li>
+    )
+  );
 
   return (
     <div className={className}>

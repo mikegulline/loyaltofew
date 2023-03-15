@@ -114,10 +114,10 @@
   .menu_wrapper {
     display: flex;
     position: fixed;
-    top: 89px;
+    top: 0;
     left: 0;
     width: 100vw;
-    height: calc(100vh - 89px);
+    height: calc(100vh);
     background: #f0f0f0;
     z-index: 99;
     transform: translateX(100vw);
@@ -151,7 +151,8 @@
   .mobile_menu_button {
     display: flex;
   }
-  .mobile_menu_button div {
+  .mobile_menu_button div,
+  .mobile_menu_close {
     padding: 15px;
     border-radius: 99px;
     background-color: #f0f0f0;
@@ -164,6 +165,15 @@
   .mobile_menu_button div:hover {
     background-color: #27272a;
     color: #fff;
+  }
+
+  .mobile_menu_close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 999999;
+    color: #fff;
+    background-color: #d61818;
   }
 
   .add_to_cart_button a {

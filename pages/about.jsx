@@ -1,6 +1,7 @@
 import SEO from '../components/SEO';
-import InfoPage from '../layout/InfoPage/InfoPage';
+import Split from '../layout/Split/Split';
 import { P, H1 } from '../components/Type';
+import image from '../public/images/lifestyle/contact-page.jpg';
 
 const About = () => {
   return (
@@ -10,8 +11,8 @@ const About = () => {
         description='Learn more about Loyal To Few and start living "A Trademarked Way Of Life."'
       />
 
-      <InfoPage>
-        <H1 className='mt-10 text-gray-800'>About</H1>
+      <Split image={image}>
+        <H1 className=' text-gray-800'>About</H1>
 
         <P>
           Loyal To Few® is a family-owned business started by a retired
@@ -38,7 +39,7 @@ const About = () => {
           you see the ones still standing by your side, you have found your
           Loyal to Few.
         </P>
-      </InfoPage>
+      </Split>
     </>
   );
 };

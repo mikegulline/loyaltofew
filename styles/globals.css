@@ -137,9 +137,9 @@ input:focus {
 /* All of our custom controls should be what we expect them to be */
 input,
 textarea {
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* These elements are usually rendered a certain way by the browser */
@@ -195,7 +195,7 @@ input[type='file'] {
 /* Make webkit render the search input like a normal text field */
 input[type='search'] {
   -webkit-appearance: textfield;
-  -webkit-box-sizing: content-box;
+  -webkit-box-sizing: border-box;
 }
 
 /* Turn off the recent search for webkit. It adds about 15px padding on the left */
@@ -328,4 +328,9 @@ select[multiple] {
 }
 .adminSubMenu .active a:hover {
   text-decoration: none;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
 }
