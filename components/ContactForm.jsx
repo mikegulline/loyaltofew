@@ -74,6 +74,7 @@ const ContactForm = () => {
         {(form) => (
           <Form className='contact-form pt-10'>
             <Input
+              disabled={loading}
               type='text'
               name='name'
               placeholder='Name'
@@ -81,6 +82,7 @@ const ContactForm = () => {
               value={name}
             />
             <Input
+              disabled={loading}
               type='text'
               name='email'
               placeholder='Email Address'
@@ -88,6 +90,7 @@ const ContactForm = () => {
               value={email}
             />
             <Input
+              disabled={loading}
               type='text'
               name='invoice'
               placeholder='Invoice Number'
@@ -95,6 +98,7 @@ const ContactForm = () => {
               value={invoice}
             />
             <Input
+              disabled={loading}
               type='textarea'
               name='message'
               placeholder='Your message.'
@@ -102,8 +106,9 @@ const ContactForm = () => {
               value={message}
             />
             <button
+              disabled={loading}
               type='submit'
-              className='mt-4 border-0 border-red-600 bg-red-600 text-white hover:bg-gray-900'
+              className='mt-4 border-0 border-red-600 bg-red-600 text-white hover:bg-gray-900 disabled:opacity-25'
             >
               Send Message
             </button>
