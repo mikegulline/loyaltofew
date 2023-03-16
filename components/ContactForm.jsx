@@ -121,15 +121,15 @@ const ContactForm = () => {
         )}
       </Formik>
       <div
-        className={`relative transition-all duration-500 ${
-          error || success || loading ? 'h-20' : 'h-0 delay-500'
+        className={`relative overflow-hidden transition-all duration-500 ${
+          error || success || loading ? ' h-32' : 'h-0 delay-500'
         }`}
       >
         <div
           className={` absolute mt-5 mb-4 w-full rounded border border-red-600 bg-red-50 px-5 py-2 text-red-900 transition-all duration-500 ${
             error
-              ? ' translate-x-0  opacity-100  delay-500'
-              : ' translate-x-20  opacity-0'
+              ? ' translate-y-0  opacity-100  delay-500'
+              : ' translate-y-10  opacity-0'
           }`}
         >
           {error}
@@ -138,8 +138,8 @@ const ContactForm = () => {
         <div
           className={` absolute mt-5 mb-4 flex w-full items-center gap-2 rounded border border-green-600 bg-green-50 px-5 py-2 text-green-900 transition-all duration-500 ${
             success
-              ? ' translate-x-0  opacity-100  delay-500'
-              : ' translate-x-20  opacity-0'
+              ? ' translate-y-0  opacity-100  delay-500'
+              : ' translate-y-10  opacity-0'
           }`}
         >
           <SlCheck />
@@ -149,8 +149,8 @@ const ContactForm = () => {
         <div
           className={` absolute mt-5 mb-4  flex w-full items-center gap-2 rounded border border-gray-600 bg-gray-50 px-5 py-2 text-gray-900 transition-all duration-500 ${
             loading
-              ? ' translate-x-0  opacity-100'
-              : ' translate-x-20  opacity-0'
+              ? ' translate-y-0  opacity-100'
+              : ' translate-y-10  opacity-0'
           }`}
         >
           <div className='animate-spin'>
