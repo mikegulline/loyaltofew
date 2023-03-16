@@ -3,6 +3,7 @@ import axios from 'axios';
 import { Formik, Form } from 'formik';
 import * as Yup from 'yup';
 import Input from './Input';
+import { SlRefresh, SlCheck } from 'react-icons/sl';
 
 const initialValues = {
   name: '',
@@ -47,17 +48,17 @@ const ContactForm = () => {
       setMail({ ...initialValues, success: data.message });
 
       setLoading(false);
-      // setTimeout(() => {
-      //   router.push('/');
-      // }, 2000);
+
+      setTimeout(() => {
+        setMail(initialValues);
+      }, 10000);
     } catch (error) {
-      setUser({ ...user, success: '', error: error.response.data.message });
+      setMail({ ...mail, success: '', error: error.response.data.message });
       setLoading(false);
     }
   };
   return (
     <>
-      {loading && <div>Loading…</div>}
       <Formik
         enableReinitialize
         initialValues={{
@@ -80,6 +81,7 @@ const ContactForm = () => {
               placeholder='Name'
               onChange={handleChange}
               value={name}
+              className=' disabled:opacity-25'
             />
             <Input
               disabled={loading}
@@ -88,6 +90,7 @@ const ContactForm = () => {
               placeholder='Email Address'
               onChange={handleChange}
               value={email}
+              className=' disabled:opacity-25'
             />
             <Input
               disabled={loading}
@@ -96,6 +99,7 @@ const ContactForm = () => {
               placeholder='Invoice Number'
               onChange={handleChange}
               value={invoice}
+              className=' disabled:opacity-25'
             />
             <Input
               disabled={loading}
@@ -104,6 +108,7 @@ const ContactForm = () => {
               placeholder='Your message.'
               onChange={handleChange}
               value={message}
+              className=' disabled:opacity-25'
             />
             <button
               disabled={loading}
@@ -115,8 +120,45 @@ const ContactForm = () => {
           </Form>
         )}
       </Formik>
-      {error && <div>{error}</div>}
-      {success && <div>{success}</div>}
+      <div
+        className={`relative transition-all duration-500 ${
+          error || success || loading ? 'h-20' : 'h-0 delay-500'
+        }`}
+      >
+        <div
+          className={` absolute mt-5 mb-4 w-full rounded border border-red-600 bg-red-50 px-5 py-2 text-red-900 transition-all duration-500 ${
+            error
+              ? ' translate-x-0  opacity-100  delay-500'
+              : ' translate-x-20  opacity-0'
+          }`}
+        >
+          {error}
+          <span>&nbsp;</span>
+        </div>
+        <div
+          className={` absolute mt-5 mb-4 flex w-full items-center gap-2 rounded border border-green-600 bg-green-50 px-5 py-2 text-green-900 transition-all duration-500 ${
+            success
+              ? ' translate-x-0  opacity-100  delay-500'
+              : ' translate-x-20  opacity-0'
+          }`}
+        >
+          <SlCheck />
+          {success}
+          <span>&nbsp;</span>
+        </div>
+        <div
+          className={` absolute mt-5 mb-4  flex w-full items-center gap-2 rounded border border-gray-600 bg-gray-50 px-5 py-2 text-gray-900 transition-all duration-500 ${
+            loading
+              ? ' translate-x-0  opacity-100'
+              : ' translate-x-20  opacity-0'
+          }`}
+        >
+          <div className='animate-spin'>
+            <SlRefresh className='-scale-x-100' />
+          </div>{' '}
+          Sending Mail
+        </div>
+      </div>
     </>
   );
 };

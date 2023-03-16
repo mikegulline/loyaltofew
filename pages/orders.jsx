@@ -13,7 +13,7 @@ const Returns = () => {
       />
 
       <Split image={image}>
-        <H1 className='mt-10 text-gray-800'>Orders &amp; Returns </H1>
+        <H1 className='text-gray-800'>Orders &amp; Returns </H1>
         <P>
           Orders will be processed and shipped within 3-5 business days. You
           will receive an email confirmation once the order is received, as well

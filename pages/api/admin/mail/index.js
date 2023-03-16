@@ -10,29 +10,25 @@ handler.post(async (req, res) => {
     await db.connectDB();
     const mail = await new Mail({ name, email, invoice, message }).save();
 
-    // using Twilio SendGrid's v3 Node.js Library
-    // https://github.com/sendgrid/sendgrid-nodejs
     const sgMail = require('@sendgrid/mail');
     sgMail.setApiKey(process.env.SENDGRID_FULL_API);
     const msg = {
-      to: email,
-      from: 'orders@loyaltofew.com',
+      to: 'orders@loyaltofew.com',
+      from: email,
       subject:
         'LTF Contact Form' + (invoice ? ' (Invoice: ' + invoice + ')' : ''),
       text: `
-From: ${name}
-${invoice ? `Invoice:  ${invoice}` : ``}
+    From: ${name}
+    ${invoice ? `Invoice:  ${invoice}` : ``}
 
-<hr />
-
-${message}`,
+    ${message}`,
       html: `
-      <p><strong>From:</strong> ${name}
-      ${invoice ? `<br /><strong>Invoice:</strong>  ${invoice}` : ``}</p>
-      
-      <hr />
-      
-      <p>${message}</p>`,
+          <p><strong>From:</strong> ${name}
+          ${invoice ? `<br /><strong>Invoice:</strong>  ${invoice}` : ``}</p>
+
+          <hr />
+
+          <p>${message}</p>`,
     };
     sgMail
       .send(msg)
@@ -43,12 +39,19 @@ ${message}`,
         console.error(error);
       });
     await db.disconnectDB();
+    // await later(5000);
 
     return res.status(200).json({ message: 'Message sent!' });
   } catch (errors) {
     return res.status(500).json({ message: 'Trouble saving mail.', errors });
   }
 });
+
+function later(delay) {
+  return new Promise(function (resolve) {
+    setTimeout(resolve, delay);
+  });
+}
 
 handler.get(async (req, res) => {
   console.log('getting mail');

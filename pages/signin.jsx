@@ -3,7 +3,9 @@ import * as Yup from 'yup';
 import { useState } from 'react';
 import Input from '../components/Input';
 import Link from 'next/link';
-import Container from '../components/Container';
+import Split from '../layout/Split/Split';
+import { P, H1 } from '../components/Type';
+import image from '../public/images/lifestyle/contact-page.jpg';
 import {
   getCsrfToken,
   getProviders,
@@ -118,9 +120,9 @@ export default function SignIn({ providers, csrfToken, callbackUrl }) {
   };
 
   return (
-    <Container size='sm' className='py-10'>
+    <Split image={image}>
       <div>
-        <h1>Sign In</h1>
+        <H1>Sign In</H1>
         <Formik
           enableReinitialize
           initialValues={{
@@ -133,7 +135,11 @@ export default function SignIn({ providers, csrfToken, callbackUrl }) {
           }}
         >
           {(form) => (
-            <Form method='post' action='/api/auth/signin/email'>
+            <Form
+              method='post'
+              action='/api/auth/signin/email'
+              className='contact-form pt-10 '
+            >
               <input type='hidden' name='csrfToken' defaultValue={csrfToken} />
               <Input
                 type='text'
@@ -151,32 +157,20 @@ export default function SignIn({ providers, csrfToken, callbackUrl }) {
                 onChange={handleChange}
                 value={login_password}
               />
-              <p>
-                <Link href='/auth/forgot'>Forgot password</Link>
-              </p>
-              <button type='submit'>Sign In</button>
+
+              <button
+                type='submit'
+                className='mt-4 border-0 border-red-600 bg-red-600 text-white hover:bg-gray-900 disabled:opacity-25'
+              >
+                Sign In
+              </button>
             </Form>
           )}
         </Formik>
         {login_error && <div>{login_error}</div>}
-        <br />
-        <div>Or sign in with…</div>
-        {providers.map(({ name, id }) => {
-          if (name === 'Credentials') return;
-
-          return (
-            <span key={id}>
-              <button onClick={() => signIn(id)}>{name}</button>{' '}
-            </span>
-          );
-        })}
       </div>
 
-      <br />
-      <hr />
-      <br />
-
-      <div>
+      <div className='hidden'>
         {loading && <div>Loading…</div>}
         <h1>Sign Up</h1>
         <Formik
@@ -233,7 +227,7 @@ export default function SignIn({ providers, csrfToken, callbackUrl }) {
         {error && <div>{error}</div>}
         {success && <div>{success}</div>}
       </div>
-    </Container>
+    </Split>
   );
 }
 
