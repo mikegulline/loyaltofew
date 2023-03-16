@@ -102,7 +102,6 @@ const HeroImage = ({ image, name, imageBack, has_image_back }) => {
   const [animate, setAnimate] = useState(0);
 
   useEffect(() => {
-    setAnimate(1);
     let animateId = setTimeout(() => setAnimate(0), 650);
 
     return () => clearTimeout(animateId);
@@ -137,8 +136,12 @@ const HeroImage = ({ image, name, imageBack, has_image_back }) => {
               className={`${styles.view_back_button} ${
                 showBack ? styles.hover : ''
               }`}
-              onMouseEnter={() => setShowBack(1)}
-              onMouseLeave={() => setShowBack(0)}
+              onClick={() => {
+                setShowBack(showBack > 0 ? 0 : 1);
+                setAnimate(1);
+              }}
+              // onMouseEnter={() => setShowBack(1)}
+              // onMouseLeave={() => setShowBack(0)}
             >
               <SlRefresh />
             </div>
