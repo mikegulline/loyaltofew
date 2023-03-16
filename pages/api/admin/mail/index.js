@@ -7,39 +7,39 @@ const handler = new nc();
 handler.post(async (req, res) => {
   try {
     const { name, email, invoice, message } = req.body;
-    await db.connectDB();
-    const mail = await new Mail({ name, email, invoice, message }).save();
+    // await db.connectDB();
+    // const mail = await new Mail({ name, email, invoice, message }).save();
 
-    const sgMail = require('@sendgrid/mail');
-    sgMail.setApiKey(process.env.SENDGRID_FULL_API);
-    const msg = {
-      to: 'orders@loyaltofew.com',
-      from: email,
-      subject:
-        'LTF Contact Form' + (invoice ? ' (Invoice: ' + invoice + ')' : ''),
-      text: `
-    From: ${name}
-    ${invoice ? `Invoice:  ${invoice}` : ``}
+    // const sgMail = require('@sendgrid/mail');
+    // sgMail.setApiKey(process.env.SENDGRID_FULL_API);
+    // const msg = {
+    //   to: 'orders@loyaltofew.com',
+    //   from: email,
+    //   subject:
+    //     'LTF Contact Form' + (invoice ? ' (Invoice: ' + invoice + ')' : ''),
+    //   text: `
+    // From: ${name}
+    // ${invoice ? `Invoice:  ${invoice}` : ``}
 
-    ${message}`,
-      html: `
-          <p><strong>From:</strong> ${name}
-          ${invoice ? `<br /><strong>Invoice:</strong>  ${invoice}` : ``}</p>
+    // ${message}`,
+    //   html: `
+    //       <p><strong>From:</strong> ${name}
+    //       ${invoice ? `<br /><strong>Invoice:</strong>  ${invoice}` : ``}</p>
 
-          <hr />
+    //       <hr />
 
-          <p>${message}</p>`,
-    };
-    sgMail
-      .send(msg)
-      .then(() => {
-        console.log('Email sent');
-      })
-      .catch((error) => {
-        console.error(error);
-      });
-    await db.disconnectDB();
-    // await later(5000);
+    //       <p>${message}</p>`,
+    // };
+    // sgMail
+    //   .send(msg)
+    //   .then(() => {
+    //     console.log('Email sent');
+    //   })
+    //   .catch((error) => {
+    //     console.error(error);
+    //   });
+    // await db.disconnectDB();
+    await later(5000);
 
     return res.status(200).json({ message: 'Message sent!' });
   } catch (errors) {

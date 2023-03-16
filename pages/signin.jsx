@@ -2,7 +2,7 @@ import { Formik, Form } from 'formik';
 import * as Yup from 'yup';
 import { useState } from 'react';
 import Input from '../components/Input';
-import Link from 'next/link';
+import FormToasts from '../components/FormToasts';
 import Split from '../layout/Split/Split';
 import { P, H1 } from '../components/Type';
 import image from '../public/images/lifestyle/contact-page.jpg';
@@ -16,44 +16,31 @@ import axios from 'axios';
 import { useRouter } from 'next/router';
 
 const initialValues = {
-  login_email: '',
-  login_password: '',
   name: '',
   email: '',
   password: '',
   confirm_password: '',
   success: '',
   error: '',
-  login_error: '',
+};
+const initialValuesSignIn = {
+  email: '',
+  password: '',
+  success: '',
+  error: '',
 };
 
-export default function SignIn({ providers, csrfToken, callbackUrl }) {
+export default function SignIn({ csrfToken, callbackUrl }) {
   const router = useRouter();
-  const [loading, setLoading] = useState(false);
+  const [fetching, setFetching] = useState('');
   const [user, setUser] = useState(initialValues);
-  const {
-    login_email,
-    login_password,
-    name,
-    email,
-    password,
-    confirm_password,
-    success,
-    error,
-    login_error,
-  } = user;
+  const { name, email, password, confirm_password, success, error } = user;
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setUser({ ...user, [name]: value });
   };
 
-  const loginValidation = Yup.object({
-    login_email: Yup.string()
-      .required('Email address is required.')
-      .email('Please enter a valid email.'),
-    login_password: Yup.string().required('Please enter a strong password'),
-  });
   const signUpValidation = Yup.object({
     name: Yup.string()
       .matches(/^[aA-zZ]+$/, 'Numbers and special characters are not allowed.')
@@ -78,14 +65,14 @@ export default function SignIn({ providers, csrfToken, callbackUrl }) {
 
   const signUpHandler = async () => {
     try {
-      setLoading(true);
+      setFetching('Signing up…');
       const { data } = await axios.post('/api/auth/signup', {
         name,
         email,
         password,
       });
       setUser({ ...user, error: '', success: data.message });
-      setLoading(false);
+      setFetching('');
       setTimeout(async () => {
         let options = {
           redirect: false,
@@ -97,81 +84,16 @@ export default function SignIn({ providers, csrfToken, callbackUrl }) {
       }, 2000);
     } catch (error) {
       setUser({ ...user, success: '', error: error.response.data.message });
-      setLoading(false);
-    }
-  };
-
-  const signInHandler = async () => {
-    setLoading(true);
-    let options = {
-      redirect: false,
-      email: login_email,
-      password: login_password,
-    };
-    const res = await signIn('credentials', options);
-    setUser({ ...user, success: '', error: '' });
-    setLoading(false);
-    if (res?.error) {
-      setLoading(false);
-      setUser({ ...user, login_error: res?.error });
-    } else {
-      return router.push(callbackUrl || '/');
+      setFetching('');
     }
   };
 
   return (
     <Split image={image}>
-      <div>
-        <H1>Sign In</H1>
-        <Formik
-          enableReinitialize
-          initialValues={{
-            login_email,
-            login_password,
-          }}
-          validationSchema={loginValidation}
-          onSubmit={() => {
-            signInHandler();
-          }}
-        >
-          {(form) => (
-            <Form
-              method='post'
-              action='/api/auth/signin/email'
-              className='contact-form pt-10 '
-            >
-              <input type='hidden' name='csrfToken' defaultValue={csrfToken} />
-              <Input
-                type='text'
-                name='login_email'
-                icon='email'
-                placeholder='Email Address'
-                onChange={handleChange}
-                value={login_email}
-              />
-              <Input
-                type='password'
-                name='login_password'
-                icon='password'
-                placeholder='Password'
-                onChange={handleChange}
-                value={login_password}
-              />
-
-              <button
-                type='submit'
-                className='mt-4 border-0 border-red-600 bg-red-600 text-white hover:bg-gray-900 disabled:opacity-25'
-              >
-                Sign In
-              </button>
-            </Form>
-          )}
-        </Formik>
-        {login_error && <div>{login_error}</div>}
-      </div>
+      <SignInForm csrfToken={csrfToken} callbackUrl={callbackUrl} />
 
       <div className='hidden'>
-        {loading && <div>Loading…</div>}
+        {fetching && <div>Loading…</div>}
         <h1>Sign Up</h1>
         <Formik
           enableReinitialize
@@ -224,12 +146,105 @@ export default function SignIn({ providers, csrfToken, callbackUrl }) {
             </Form>
           )}
         </Formik>
-        {error && <div>{error}</div>}
-        {success && <div>{success}</div>}
+        <FormToasts fetching={fetching} error={error} success={success} />
       </div>
     </Split>
   );
 }
+
+const SignInForm = ({ csrfToken, callbackUrl }) => {
+  const [fetching, setFetching] = useState('');
+  const [user, setUser] = useState(initialValuesSignIn);
+  const { email, password, success, error } = user;
+  const router = useRouter();
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setUser({ ...user, [name]: value });
+  };
+
+  const signInHandler = async () => {
+    setFetching('Signing in…');
+    let options = {
+      redirect: false,
+      email: email,
+      password: password,
+    };
+    const res = await signIn('credentials', options);
+    setFetching('');
+    if (res?.error) {
+      setUser({ ...user, success: '', error: res?.error });
+    } else {
+      setUser({ ...user, success: 'Signed in successfully!', error: '' });
+      setTimeout(() => {
+        setUser({ ...user, success: 'Redirecting…', error: '' });
+      }, 4000);
+      setTimeout(() => {
+        setUser({ ...user, success: '', error: '' });
+        // router.push(callbackUrl || '/');
+      }, 6000);
+    }
+  };
+
+  const loginValidation = Yup.object({
+    email: Yup.string()
+      .required('Email address is required.')
+      .email('Please enter a valid email.'),
+    password: Yup.string().required('Please enter a strong password'),
+  });
+
+  return (
+    <div>
+      <H1>Sign In</H1>
+      <Formik
+        enableReinitialize
+        initialValues={{
+          email,
+          password,
+        }}
+        validationSchema={loginValidation}
+        onSubmit={() => {
+          signInHandler();
+        }}
+      >
+        {(form) => (
+          <Form
+            method='post'
+            action='/api/auth/signin/email'
+            className='contact-form pt-10 '
+          >
+            <input type='hidden' name='csrfToken' defaultValue={csrfToken} />
+            <Input
+              type='text'
+              name='email'
+              icon='email'
+              placeholder='Email Address'
+              onChange={handleChange}
+              value={email}
+            />
+            <Input
+              type='password'
+              name='password'
+              icon='password'
+              placeholder='Password'
+              onChange={handleChange}
+              value={password}
+            />
+
+            <button
+              type='submit'
+              className='mt-4 border-0 border-red-600 bg-red-600 text-white hover:bg-gray-900 disabled:opacity-25'
+            >
+              Sign In
+            </button>
+          </Form>
+        )}
+      </Formik>
+
+      <FormToasts fetching={fetching} error={error} success={success} />
+    </div>
+  );
+};
 
 export async function getServerSideProps(context) {
   const { req, query } = context;
@@ -243,9 +258,8 @@ export async function getServerSideProps(context) {
     };
   }
   const csrfToken = await getCsrfToken(context);
-  const providers = Object.values(await getProviders());
 
   return {
-    props: { providers, csrfToken, callbackUrl: callbackUrl || '/' },
+    props: { csrfToken, callbackUrl: callbackUrl || '/' },
   };
 }

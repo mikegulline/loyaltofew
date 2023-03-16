@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Formik, Form } from 'formik';
 import * as Yup from 'yup';
 import Input from './Input';
-import { SlRefresh, SlCheck } from 'react-icons/sl';
+import FormToasts from './FormToasts';
 
 const initialValues = {
   name: '',
@@ -15,7 +15,7 @@ const initialValues = {
 };
 
 const ContactForm = () => {
-  const [loading, setLoading] = useState(false);
+  const [fetching, setFetching] = useState(null);
   const [mail, setMail] = useState(initialValues);
   const { name, email, invoice, message, error, success } = mail;
 
@@ -38,7 +38,7 @@ const ContactForm = () => {
 
   const sendMailHandler = async () => {
     try {
-      setLoading(true);
+      setFetching('Sending message…');
       const { data } = await axios.post('/api/admin/mail', {
         name,
         email,
@@ -47,14 +47,14 @@ const ContactForm = () => {
       });
       setMail({ ...initialValues, success: data.message });
 
-      setLoading(false);
+      setFetching(null);
 
       setTimeout(() => {
         setMail(initialValues);
-      }, 10000);
+      }, 8000);
     } catch (error) {
       setMail({ ...mail, success: '', error: error.response.data.message });
-      setLoading(false);
+      setFetching(null);
     }
   };
   return (
@@ -75,7 +75,7 @@ const ContactForm = () => {
         {(form) => (
           <Form className='contact-form pt-10'>
             <Input
-              disabled={loading}
+              disabled={fetching}
               type='text'
               name='name'
               placeholder='Name'
@@ -84,7 +84,7 @@ const ContactForm = () => {
               className=' disabled:opacity-25'
             />
             <Input
-              disabled={loading}
+              disabled={fetching}
               type='text'
               name='email'
               placeholder='Email Address'
@@ -93,7 +93,7 @@ const ContactForm = () => {
               className=' disabled:opacity-25'
             />
             <Input
-              disabled={loading}
+              disabled={fetching}
               type='text'
               name='invoice'
               placeholder='Invoice Number'
@@ -102,7 +102,7 @@ const ContactForm = () => {
               className=' disabled:opacity-25'
             />
             <Input
-              disabled={loading}
+              disabled={fetching}
               type='textarea'
               name='message'
               placeholder='Your message.'
@@ -111,7 +111,7 @@ const ContactForm = () => {
               className=' disabled:opacity-25'
             />
             <button
-              disabled={loading}
+              disabled={fetching}
               type='submit'
               className='mt-4 border-0 border-red-600 bg-red-600 text-white hover:bg-gray-900 disabled:opacity-25'
             >
@@ -120,45 +120,7 @@ const ContactForm = () => {
           </Form>
         )}
       </Formik>
-      <div
-        className={`relative overflow-hidden transition-all duration-500 ${
-          error || success || loading ? ' h-32' : 'h-0 delay-500'
-        }`}
-      >
-        <div
-          className={` absolute mt-5 mb-4 w-full rounded border border-red-600 bg-red-50 px-5 py-2 text-red-900 transition-all duration-500 ${
-            error
-              ? ' translate-y-0  opacity-100  delay-500'
-              : ' translate-y-10  opacity-0'
-          }`}
-        >
-          {error}
-          <span>&nbsp;</span>
-        </div>
-        <div
-          className={` absolute mt-5 mb-4 flex w-full items-center gap-2 rounded border border-green-600 bg-green-50 px-5 py-2 text-green-900 transition-all duration-500 ${
-            success
-              ? ' translate-y-0  opacity-100  delay-500'
-              : ' translate-y-10  opacity-0'
-          }`}
-        >
-          <SlCheck />
-          {success}
-          <span>&nbsp;</span>
-        </div>
-        <div
-          className={` absolute mt-5 mb-4  flex w-full items-center gap-2 rounded border border-gray-600 bg-gray-50 px-5 py-2 text-gray-900 transition-all duration-500 ${
-            loading
-              ? ' translate-y-0  opacity-100'
-              : ' translate-y-10  opacity-0'
-          }`}
-        >
-          <div className='animate-spin'>
-            <SlRefresh className='-scale-x-100' />
-          </div>{' '}
-          Sending Mail
-        </div>
-      </div>
+      <FormToasts fetching={fetching} error={error} success={success} />
     </>
   );
 };

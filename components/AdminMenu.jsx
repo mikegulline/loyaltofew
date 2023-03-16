@@ -7,11 +7,11 @@ export default function AdminMenu({}) {
   const { data: session } = useSession();
 
   if (!session?.user?.name) {
-    return <></>;
+    return <div className='h-0 bg-gray-800 text-white' />;
   }
 
   return (
-    <div className='bg-gray-800 text-white'>
+    <div className='flex h-10 transform items-center overflow-hidden bg-gray-800 text-white duration-500'>
       <Container>
         <Menu menuData={adminSubMenu} className='adminSubMenu' />
       </Container>
