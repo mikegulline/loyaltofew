@@ -108,7 +108,7 @@ const ContactForm = () => {
               placeholder='Your message.'
               onChange={handleChange}
               value={message}
-              className=' disabled:opacity-25'
+              className=' whitespace-pre-line disabled:opacity-25'
             />
             <button
               disabled={fetching}

@@ -18,16 +18,18 @@ handler.post(async (req, res) => {
     sgMail.setApiKey(process.env.SENDGRID_FULL_API);
     const msg = {
       to: 'orders@loyaltofew.com',
-      from: email,
+      from: 'orders@loyaltofew.com',
       subject:
         'LTF Contact Form' + (invoice ? ' (Invoice: ' + invoice + ')' : ''),
       text: `
     From: ${name}
+    Email: ${email}
     ${invoice ? `Invoice:  ${invoice}` : ``}
 
     ${message}`,
       html: `
-          <p><strong>From:</strong> ${name}
+          <p><strong>From:</strong> ${name}<br />
+          <strong>Email:</strong> ${email}
           ${invoice ? `<br /><strong>Invoice:</strong>  ${invoice}` : ``}</p>
 
           <hr />

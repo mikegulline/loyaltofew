@@ -2,10 +2,11 @@ import { ErrorMessage, useField } from 'formik';
 
 export default function Input({ ...props }) {
   const [field, meta] = useField(props);
+  const { placeholder, ...textAreaProps } = props;
   return (
     <div className='mb-2'>
       {props.type === 'textarea' ? (
-        <textarea {...field} {...props}></textarea>
+        <textarea {...field} {...textAreaProps} rows='4' cols='50'></textarea>
       ) : (
         <input {...field} {...props} />
       )}
