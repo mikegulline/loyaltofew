@@ -26,7 +26,7 @@ const Breadcrumbs = ({ links }) => {
   });
 
   return (
-    <div className='bg-zinc-800 py-2 text-sm font-light text-zinc-400 lg:py-3 xl:text-base'>
+    <div className='bg-gray-900 py-2 text-sm font-light text-zinc-400 lg:py-3 xl:text-base'>
       <Container>
         <h5 className='truncate'>{buildLinks}</h5>
       </Container>

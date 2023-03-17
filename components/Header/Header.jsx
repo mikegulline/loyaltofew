@@ -7,7 +7,9 @@ import AdminMenu from '../AdminMenu';
 
 const Header = () => {
   return (
-    <div className={`header ${styles.header}`}>
+    <div
+      className={`header border-b-4 border-red-600 bg-white ${styles.header}`}
+    >
       <AdminMenu />
       <Container>
         <div className={styles.columns}>
@@ -23,7 +25,7 @@ const Logo = () => {
   return (
     <div>
       <Link href='/' className={styles.logo}>
-        <LogoSVG />
+        <LogoSVG className='fill-gray-900 hover:fill-red-600' />
         <h1 className={styles.h1}>Loyal To Few</h1>
         <p className={styles.tagline}>A trademarked way of life.</p>
       </Link>

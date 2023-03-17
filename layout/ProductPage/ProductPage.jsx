@@ -38,7 +38,7 @@ const ProductPage = ({ product, size }) => {
         data-item-weight={weight}
         className={`${
           i != sizeAndPriceIndex ? 'hidden ' : ''
-        } snipcart-add-item font-lighter rounded border border-zinc-800 bg-zinc-800 text-white hover:border-red-600 hover:bg-red-600`}
+        } snipcart-add-item font-lighter rounded border border-gray-900 bg-gray-900 text-white hover:border-red-600 hover:bg-red-600`}
       >
         Add to cart
       </button>
@@ -63,7 +63,7 @@ const ProductPage = ({ product, size }) => {
           />
 
           <div className='info-column mt-8 w-full px-0 xl:mt-0 xl:px-20 2xl:px-28'>
-            <h1 className='mb-6 text-4xl font-black'>
+            <h1 className='mb-6 text-4xl font-black text-gray-900'>
               {name} ({color})
             </h1>
 
@@ -110,7 +110,7 @@ const HeroImage = ({ image, name, imageBack, has_image_back }) => {
   if (has_image_back) {
     return (
       <div className='image-column'>
-        <div className='image-wrapper relative rounded bg-zinc-200'>
+        <div className='image-wrapper relative rounded bg-gray-200'>
           <Image
             src={image}
             alt={name}
@@ -153,7 +153,7 @@ const HeroImage = ({ image, name, imageBack, has_image_back }) => {
 
   return (
     <div className='image-column'>
-      <div className='image-wrapper rounded bg-zinc-200'>
+      <div className='image-wrapper rounded bg-gray-200'>
         <Image
           src={image}
           alt={name}
@@ -169,7 +169,9 @@ const HeroImage = ({ image, name, imageBack, has_image_back }) => {
 const Details = ({ details }) => {
   const buildDetails = details.map((info, i) => <li key={i}>{info} </li>);
 
-  return <ul className='ml-3 mb-6 list-disc pl-3'>{buildDetails}</ul>;
+  return (
+    <ul className='ml-3 mb-6 list-disc pl-3 text-gray-900'>{buildDetails}</ul>
+  );
 };
 
 const Dimensions = ({ dimensions }) => {
@@ -209,7 +211,7 @@ const Sizes = ({ sizes, onChange, color }) => {
   return (
     <select
       name='size'
-      className='bg-zinc-100 hover:border-red-600 hover:bg-white'
+      className='bg-gray-100 hover:border-red-600 hover:bg-white'
       onChange={handleSizeChange}
     >
       {buildSizes}

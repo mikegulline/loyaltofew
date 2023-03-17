@@ -1,4 +1,5 @@
 import { AnimatePresence, motion } from 'framer-motion';
+import PageTransition from '../components/PageTransition';
 import { SessionProvider } from 'next-auth/react';
 import Head from 'next/head';
 import Overlay from '../components/Overlay';
@@ -29,6 +30,7 @@ function MyApp({ Component, pageProps, session, router }) {
         />
         <link rel='manifest' href='/images/favicon_io/site.webmanifest' />
       </Head>
+      {/* <PageTransition /> */}
       <SessionProvider session={session}>
         <Overlay />
         {/* <AnimatePresence

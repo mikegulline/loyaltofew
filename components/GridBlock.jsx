@@ -2,7 +2,7 @@ const GridBlock = ({ name, children }) => {
   return (
     <div className='relative mb-16 xl:mb-24 '>
       <div className='mb-8 flex items-center justify-between'>
-        <h2 className='relative pb-2 text-xl font-black uppercase after:absolute after:bottom-0 after:left-0 after:block after:h-1 after:w-16 after:bg-red-700'>
+        <h2 className='relative pb-2 text-xl font-black uppercase text-gray-900 after:absolute after:bottom-0 after:left-0 after:block after:h-1 after:w-16 after:bg-red-600'>
           {name}
         </h2>
       </div>

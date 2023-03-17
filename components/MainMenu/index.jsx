@@ -6,21 +6,22 @@ import { SlBag, SlMenu, SlClose } from 'react-icons/sl';
 import { disablePageScroll, enablePageScroll } from 'scroll-lock';
 import ResizeObserver from 'rc-resize-observer';
 import Container from '../Container';
-import { useSession } from 'next-auth/react';
 import { mainMenu } from '../../data/menu';
 
 const MainMenu = () => {
   const [openMobileMenu, setOpenMobileMenu] = useState(0);
-  const { data: session } = useSession();
   const router = useRouter();
 
-  useEffect(() => {
-    if (openMobileMenu) {
+  const openCloseMobileMenu = (open) => {
+    window.scrollTo(0, 0);
+    if (open) {
+      setOpenMobileMenu(1);
       disablePageScroll();
     } else {
+      setOpenMobileMenu(0);
       enablePageScroll();
     }
-  }, [openMobileMenu]);
+  };
 
   const buildMenu = mainMenu.map(({ name, location, subMenu }) => {
     const active_class = `${styles.main_li} ${
@@ -31,7 +32,7 @@ const MainMenu = () => {
         <Link
           href={location}
           className={styles.main_link}
-          onClick={() => setOpenMobileMenu(0)}
+          onClick={() => openCloseMobileMenu(0)}
         >
           {name}
         </Link>
@@ -47,13 +48,10 @@ const MainMenu = () => {
           <div
             className={styles.mobile_menu_close}
             onClick={(e) => {
-              setOpenMobileMenu((open) => {
-                if (!open) window.scrollTo(0, 0);
-                return !open;
-              });
+              openCloseMobileMenu(0);
             }}
           >
-            {openMobileMenu ? <SlClose /> : <SlMenu />}
+            <SlClose />
           </div>
           <ul className={styles.main_ul}>{buildMenu}</ul>
         </Container>
@@ -75,23 +73,20 @@ const MainMenu = () => {
       <div className={styles.mobile_menu_button}>
         <ResizeObserver
           onResize={({ width }) => {
-            if (openMobileMenu && width === 0) setOpenMobileMenu(0);
+            if (openMobileMenu && width === 0) openCloseMobileMenu(0);
           }}
         >
           <div
             className={styles.mobile_menu_open}
             onClick={(e) => {
-              setOpenMobileMenu((open) => {
-                if (!open) window.scrollTo(0, 0);
-                return !open;
-              });
+              openCloseMobileMenu(1);
             }}
           >
             <SlMenu />
           </div>
         </ResizeObserver>
       </div>
-      <AddToCartButton handleClick={() => setOpenMobileMenu(0)} />
+      <AddToCartButton handleClick={() => openCloseMobileMenu(0)} />
     </>
   );
 };

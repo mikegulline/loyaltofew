@@ -28,7 +28,7 @@ const Footer = () => {
 
 const Copyright = () => {
   return (
-    <div className={`footer ${styles.copy}`}>
+    <div className={`footer bg-gray-900 ${styles.copy}`}>
       <Container>
         <p className={styles.copyP}>
           &copy; {new Date().getFullYear()} <Link href='/'>Loyal To Few</Link>.

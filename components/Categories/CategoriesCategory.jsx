@@ -11,7 +11,7 @@ const CategoriesCategory = ({ category }) => {
     const { link, image, name, logos, colors } = product;
     return (
       <GridBlockItem key={name} link={link} image={image} name={name}>
-        <h4 className='mt-2 font-medium'>{name}</h4>
+        <h4 className='mt-2 font-medium '>{name}</h4>
         {/* <p>
           {plural(logos, ['Design', 'Designs'])},{' '}
           {plural(colors, ['Color', 'Colors'])}

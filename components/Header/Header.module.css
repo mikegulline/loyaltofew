@@ -1,7 +1,5 @@
 .header {
-  border-bottom: 4px solid #d61818;
   padding: 0;
-  background-color: #fff;
   position: relative;
 }
 .logo {
@@ -9,12 +7,7 @@
   height: auto;
   display: flex;
   width: 282px;
-  height: auto;
   margin: auto;
-  fill: #333;
-}
-.logo:hover {
-  fill: #d61818;
 }
 .logo svg {
   display: flex;

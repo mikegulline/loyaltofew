@@ -7,39 +7,43 @@ const handler = new nc();
 handler.post(async (req, res) => {
   try {
     const { name, email, invoice, message } = req.body;
-    // await db.connectDB();
-    // const mail = await new Mail({ name, email, invoice, message }).save();
 
-    // const sgMail = require('@sendgrid/mail');
-    // sgMail.setApiKey(process.env.SENDGRID_FULL_API);
-    // const msg = {
-    //   to: 'orders@loyaltofew.com',
-    //   from: email,
-    //   subject:
-    //     'LTF Contact Form' + (invoice ? ' (Invoice: ' + invoice + ')' : ''),
-    //   text: `
-    // From: ${name}
-    // ${invoice ? `Invoice:  ${invoice}` : ``}
+    if (invoice) {
+      await db.connectDB();
+      await new Mail({ name, email, invoice, message }).save();
+      await db.disconnectDB();
+    }
 
-    // ${message}`,
-    //   html: `
-    //       <p><strong>From:</strong> ${name}
-    //       ${invoice ? `<br /><strong>Invoice:</strong>  ${invoice}` : ``}</p>
+    const sgMail = require('@sendgrid/mail');
+    sgMail.setApiKey(process.env.SENDGRID_FULL_API);
+    const msg = {
+      to: 'orders@loyaltofew.com',
+      from: email,
+      subject:
+        'LTF Contact Form' + (invoice ? ' (Invoice: ' + invoice + ')' : ''),
+      text: `
+    From: ${name}
+    ${invoice ? `Invoice:  ${invoice}` : ``}
 
-    //       <hr />
+    ${message}`,
+      html: `
+          <p><strong>From:</strong> ${name}
+          ${invoice ? `<br /><strong>Invoice:</strong>  ${invoice}` : ``}</p>
 
-    //       <p>${message}</p>`,
-    // };
-    // sgMail
-    //   .send(msg)
-    //   .then(() => {
-    //     console.log('Email sent');
-    //   })
-    //   .catch((error) => {
-    //     console.error(error);
-    //   });
-    // await db.disconnectDB();
-    await later(5000);
+          <hr />
+
+          <p>${message}</p>`,
+    };
+    sgMail
+      .send(msg)
+      .then(() => {
+        console.log('Email sent');
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+
+    // await later(5000);
 
     return res.status(200).json({ message: 'Message sent!' });
   } catch (errors) {
@@ -47,11 +51,11 @@ handler.post(async (req, res) => {
   }
 });
 
-function later(delay) {
-  return new Promise(function (resolve) {
-    setTimeout(resolve, delay);
-  });
-}
+// function later(delay) {
+//   return new Promise(function (resolve) {
+//     setTimeout(resolve, delay);
+//   });
+// }
 
 handler.get(async (req, res) => {
   console.log('getting mail');
