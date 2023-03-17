@@ -40,14 +40,14 @@ handler.post(async (req, res) => {
       .send(msg)
       .then(() => {
         console.log('Email sent');
+        return res.status(200).json({ message: 'Message sent!' });
       })
       .catch((error) => {
         console.error(error);
+        return res.status(200).json({ message: 'Error!', error });
       });
 
     // await later(5000);
-
-    return res.status(200).json({ message: 'Message sent!' });
   } catch (errors) {
     return res.status(500).json({ message: 'Trouble saving mail.', errors });
   }
