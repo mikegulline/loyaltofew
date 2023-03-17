@@ -17,7 +17,7 @@ handler.post(async (req, res) => {
     const sgMail = require('@sendgrid/mail');
     sgMail.setApiKey(process.env.SENDGRID_FULL_API);
     const msg = {
-      to: 'orders@loyaltofew.com',
+      to: 'mike@mikegulline.com',
       from: 'orders@loyaltofew.com',
       subject:
         'LTF Contact Form' + (invoice ? ' (Invoice: ' + invoice + ')' : ''),
