@@ -11,9 +11,9 @@ export default function AdminMenu({}) {
   }
 
   return (
-    <div className='flex h-10 transform items-center overflow-hidden bg-gray-800 text-white duration-500'>
-      <Container>
-        <Menu menuData={adminSubMenu} className='adminSubMenu' />
+    <div className='flex h-8 transform items-center overflow-hidden bg-gray-800 text-white duration-500'>
+      <Container className='h-full'>
+        <Menu menuData={adminSubMenu} className='adminSubMenu flex h-full' />
       </Container>
     </div>
   );

@@ -4,11 +4,16 @@ import { getSession } from 'next-auth/react';
 import Container from '../../../components/Container';
 import { H1 } from '../../../components/Type';
 import OrderProcessOverlay from '../../../components/OrderProcessOverlay';
+import FormToasts from '../../../components/FormToasts';
 
 export default function Orders({ passOrders, limit, totalItems }) {
   const [orders, setOrders] = useState(passOrders);
   const [current, setCurrent] = useState(null);
   const [total, setTotal] = useState(totalItems);
+  const [fetching, setFetching] = useState(false);
+  const [error, setError] = useState('');
+  const [success, setSuccess] = useState('');
+  const [loaded, setLoaded] = useState(0);
 
   // update orders state
   // set current order
@@ -85,6 +90,9 @@ export default function Orders({ passOrders, limit, totalItems }) {
   const LoadMore = () => {
     const handleLoadMore = async () => {
       try {
+        setFetching('Fetching orders…');
+        setSuccess('');
+        setError('');
         const { data } = await axios.get(
           `${process.env.NEXT_PUBLIC_BASE_URL}api/admin/orders`,
           {
@@ -95,11 +103,17 @@ export default function Orders({ passOrders, limit, totalItems }) {
             },
           }
         );
-        console.log(data);
         setTotal(data.totalItems);
         setOrders([...orders, ...data.items]);
+        setFetching(false);
+        setSuccess(`Loaded ${data.items.length} orders!`);
+        setTimeout(() => {
+          setSuccess('');
+        }, 2000);
       } catch (errors) {
         console.log(errors);
+        setFetching(false);
+        setError(errors);
       }
     };
 
@@ -132,6 +146,7 @@ export default function Orders({ passOrders, limit, totalItems }) {
         </H1>
         <OrderItems />
         <LoadMore />
+        <FormToasts fetching={fetching} error={error} success={success} />
       </Container>
     </>
   );
@@ -156,7 +171,7 @@ export async function getServerSideProps(context) {
       {
         params: {
           status: 'pending',
-          limit: 5,
+          limit: 2,
           offset: 0,
         },
       }

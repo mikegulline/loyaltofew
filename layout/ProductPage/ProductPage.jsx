@@ -110,7 +110,7 @@ const HeroImage = ({ image, name, imageBack, has_image_back }) => {
   if (has_image_back) {
     return (
       <div className='image-column'>
-        <div className='image-wrapper relative rounded bg-gray-200'>
+        <div className='image-wrapper relative rounded bg-[#e5e5e7]'>
           <Image
             src={image}
             alt={name}
@@ -153,7 +153,7 @@ const HeroImage = ({ image, name, imageBack, has_image_back }) => {
 
   return (
     <div className='image-column'>
-      <div className='image-wrapper rounded bg-gray-200'>
+      <div className='image-wrapper rounded bg-[#e5e5e7]'>
         <Image
           src={image}
           alt={name}

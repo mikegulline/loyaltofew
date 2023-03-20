@@ -1,6 +1,7 @@
 import nc from 'next-connect';
 import Mail from '../../../../models/mail';
 import db from '../../../../utils/db';
+import emailContactForm from '../../../../email/emailContactForm';
 
 const handler = new nc();
 
@@ -17,7 +18,7 @@ handler.post(async (req, res) => {
     const sgMail = require('@sendgrid/mail');
     sgMail.setApiKey(process.env.SENDGRID_FULL_API);
     const msg = {
-      to: 'orders@loyaltofew.com',
+      to: 'mike@mikegulline.com',
       from: 'orders@loyaltofew.com',
       subject:
         'LTF Contact Form' + (invoice ? ' (Invoice: ' + invoice + ')' : ''),
@@ -27,14 +28,14 @@ handler.post(async (req, res) => {
     ${invoice ? `Invoice:  ${invoice}` : ``}
 
     ${message}`,
-      html: `
+      html: emailContactForm(`
           <p><strong>From:</strong> ${name}<br />
           <strong>Email:</strong> ${email}
           ${invoice ? `<br /><strong>Invoice:</strong>  ${invoice}` : ``}</p>
 
           <hr />
 
-          <p>${message}</p>`,
+          <p>${message}</p>`),
     };
     sgMail
       .send(msg)

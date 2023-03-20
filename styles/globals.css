@@ -307,14 +307,21 @@ select[multiple] {
 .navy-white {
   background: navy;
 }
-
-.adminSubMenu ul {
+.adminSubMenu {
   display: flex;
   justify-content: flex-end;
+}
+.adminSubMenu ul {
+  display: flex;
+
   margin-right: -20px;
 }
+.adminSubMenu li {
+  display: flex;
+}
 .adminSubMenu a {
-  display: block;
+  display: flex;
+  align-items: center;
   padding: 5px 20px;
   color: #bbb;
 }
