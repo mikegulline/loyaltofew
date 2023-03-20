@@ -6,7 +6,7 @@ import 'swiper/css';
 export default function Carousel({ children }) {
   return (
     <Swiper
-      slidesPerView={2.5}
+      slidesPerView={2.2}
       spaceBetween={8}
       breakpoints={{
         640: {
