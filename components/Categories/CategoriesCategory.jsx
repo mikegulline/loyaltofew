@@ -7,7 +7,7 @@ import { plural } from '../../utils/plural';
 const CategoriesCategory = ({ category }) => {
   const { name, products, link } = category;
 
-  const buildCategoryItems = products.slice(0, 3).map((product) => {
+  const buildCategoryItems = products.map((product) => {
     const { link, image, name, logos, colors } = product;
     return (
       <GridBlockItem key={name} link={link} image={image} name={name}>
@@ -25,12 +25,7 @@ const CategoriesCategory = ({ category }) => {
     );
   });
 
-  return (
-    <GridBlock name={name}>
-      {buildCategoryItems}
-      <ViewAll href={link} name={name} />
-    </GridBlock>
-  );
+  return <GridBlock name={name}>{buildCategoryItems}</GridBlock>;
 };
 
 export default CategoriesCategory;

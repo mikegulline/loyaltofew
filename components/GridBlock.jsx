@@ -1,3 +1,5 @@
+import Carousel from './Carousel/Carousel';
+
 const GridBlock = ({ name, children }) => {
   return (
     <div className='relative mb-16 xl:mb-24 '>
@@ -6,9 +8,10 @@ const GridBlock = ({ name, children }) => {
           {name}
         </h2>
       </div>
-      <div className='mb-8 grid grid-cols-2 gap-2 lg:grid-cols-4 lg:gap-4  xl:gap-8'>
+      <Carousel>{children}</Carousel>
+      {/* <div className='mb-8 grid grid-cols-2 gap-2 lg:grid-cols-4 lg:gap-4  xl:gap-8'>
         {children}
-      </div>
+      </div> */}
     </div>
   );
 };
