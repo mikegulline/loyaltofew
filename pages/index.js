@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import SlideShowTouch from '../components/SlideShowTouch';
+import HomeSlideshow from '../components/Slideshow/HomeSlideshow';
 import { getStore } from '../data/storeModals';
 import Categories from '../components/Categories/Categories';
 import Container from '../components/Container';
@@ -15,7 +15,7 @@ export default function Home({ categories }) {
       </Head>
       <Breadcrumbs links={breadcrumbs} />
       <Container size='large'>
-        <SlideShowTouch />
+        <HomeSlideshow />
       </Container>
       <Container className='mt-8'>
         <Categories categories={categories} />

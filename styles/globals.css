@@ -331,7 +331,7 @@ select[multiple] {
 }
 .adminSubMenu .active a {
   color: #fff;
-  background: #d61818;
+  background: #dc2626;
 }
 .adminSubMenu .active a:hover {
   text-decoration: none;
@@ -340,4 +340,14 @@ select[multiple] {
 .contact-form input,
 .contact-form textarea {
   width: 100%;
+}
+.swiper-pagination-bullet-active {
+  background-color: #dc2626 !important;
+}
+.swiper-wrapper {
+  padding-bottom: 20px;
+}
+
+.home-slideshow .swiper-wrapper {
+  padding-bottom: 40px;
 }
