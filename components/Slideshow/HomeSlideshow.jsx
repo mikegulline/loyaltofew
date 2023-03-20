@@ -22,7 +22,7 @@ const slidesArr = [
 
 export default function HomeSlideshow() {
   return (
-    <Slideshow className='home-slideshow 2xl:my-12'>
+    <Slideshow className='home-slideshow pb-5 2xl:my-12'>
       {slidesArr.map(({ image, alt, link }, i) => (
         <Link key={i} href={link}>
           <Image src={image} alt={alt} width='1536' height='768' />
