@@ -90,7 +90,7 @@ const ProductPage = ({ product, size }) => {
           </div>
         </Container>
         <Container className='pt-8'>
-          <GridLogoOptions product={product} />
+          <GridLogoOptions key={name} product={product} />
         </Container>
       </div>
     </>

@@ -9,7 +9,7 @@ const GridBlockItem = (props) => {
         <Image
           src={image}
           alt={name}
-          className='block h-auto w-full rounded bg-zinc-200 p-8 xl:p-16'
+          className='block h-auto w-full rounded bg-zinc-200 p-4 xl:p-8'
           width={310}
           height={310}
         />
