@@ -5,6 +5,8 @@ import GridBlockItemSelectDot from './GridBlockItemSelectDot';
 const GridLogoOptions = ({ product }) => {
   const { logos, color } = product;
 
+  if (logos.length === 1) return <></>;
+
   const buildLogoOptions = logos.map((logo) => {
     const { link, name, imageColorRoot, logo: logoName } = logo;
     const current = product.logo === logo.logo;

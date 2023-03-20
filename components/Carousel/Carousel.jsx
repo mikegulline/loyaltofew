@@ -6,12 +6,14 @@ import 'swiper/css';
 export default function Carousel({ children }) {
   return (
     <Swiper
-      slidesPerView={2}
+      slidesPerView={1.5}
       spaceBetween={8}
+      // centeredSlides={true}
       breakpoints={{
         640: {
           slidesPerView: 2,
           spaceBetween: 8,
+          centeredSlides: false,
         },
         768: {
           slidesPerView: 4,
