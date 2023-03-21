@@ -13,7 +13,6 @@ export default function Orders({ passOrders, limit, totalItems }) {
   const [fetching, setFetching] = useState(false);
   const [error, setError] = useState('');
   const [success, setSuccess] = useState('');
-  const [loaded, setLoaded] = useState(0);
 
   // update orders state
   // set current order
@@ -43,68 +42,6 @@ export default function Orders({ passOrders, limit, totalItems }) {
         nextClose={updateOrdersNextClose}
       />
     ) : null;
-
-  const OrderItems = () => {
-    const heightRef = useRef(null);
-    const [addStyles, setAddStyles] = useState(() => {
-      height: '0px';
-    });
-    console.log('render');
-    useEffect(() => {
-      setAddStyles({ height: heightRef.current.offsetHeight + 'px' });
-    }, []);
-
-    return (
-      <div
-        className={`relative h-0 overflow-hidden transition-all duration-500`}
-        style={{ ...addStyles }}
-      >
-        <ul
-          ref={heightRef}
-          className='my-6 flex flex-col gap-1 border-y-4 border-red-600 border-b-gray-500 py-6 '
-        >
-          {orders?.map((order, i) => {
-            const {
-              token,
-              finalGrandTotal,
-              items,
-              invoiceNumber,
-              creationDate,
-              shippingAddressName,
-              shippingAddressAddress1,
-              shippingAddressAddress2,
-              shippingAddressPostalCode,
-              shippingAddressProvince,
-              hippingAddressPostalCode,
-            } = order;
-
-            const totalItems = items.reduce(
-              (acc, curr) => Number(acc + curr.quantity),
-              [0]
-            );
-            return (
-              <li
-                key={token}
-                onClick={() => {
-                  setCurrent(i);
-                }}
-                className={`flex cursor-pointer items-center gap-4 rounded border p-4 hover:border-green-600 hover:bg-green-100`}
-              >
-                <div className='w-20'>
-                  <strong>{invoiceNumber}</strong>
-                </div>
-                <div className='w-36 truncate'>{shippingAddressName}</div>
-                <div className='w-16'>{shippingAddressProvince}</div>
-                <div>Items: {totalItems}</div>
-
-                <div className='flex grow justify-end'>${finalGrandTotal}</div>
-              </li>
-            );
-          })}
-        </ul>
-      </div>
-    );
-  };
 
   const LoadMore = () => {
     const handleLoadMore = async () => {
@@ -153,23 +90,91 @@ export default function Orders({ passOrders, limit, totalItems }) {
     );
   };
 
+  const PageHeader = () => (
+    <H1 className='mt-10 flex items-center text-gray-800'>
+      <span className='grow'>Orders</span>{' '}
+      <span className='text-base text-gray-200 md:text-7xl'>
+        {orders.length} of {total}
+      </span>
+    </H1>
+  );
+
   return (
     <>
       <Overlay />
       <Container size='xs' className='pb-20'>
-        <H1 className='mt-10 flex items-center text-gray-800'>
-          <span className='grow'>Orders</span>{' '}
-          <span className='text-gray-200'>
-            {orders.length} of {total}
-          </span>
-        </H1>
-        <OrderItems />
+        <PageHeader />
+        <OrderItems orders={orders} setCurrent={setCurrent} />
         <LoadMore />
         <FormToasts fetching={fetching} error={error} success={success} />
       </Container>
     </>
   );
 }
+
+const OrderItems = ({ orders, setCurrent }) => {
+  const heightRef = useRef(null);
+  const [currentHeight, setCurrentHeight] = useState(0);
+
+  useEffect(() => {
+    setCurrentHeight(heightRef.current.offsetHeight);
+  }, [orders.length]);
+
+  return (
+    <div className='my-6 border-y-4 border-red-600 border-b-gray-500 py-6'>
+      <div
+        className={`relative overflow-hidden transition-all duration-500`}
+        style={{ height: currentHeight ? `${currentHeight}px` : `auto` }}
+      >
+        <div ref={heightRef}>
+          <ul className=' flex flex-col gap-1'>
+            {orders?.map((order, i) => {
+              const {
+                token,
+                finalGrandTotal,
+                items,
+                invoiceNumber,
+                shippingAddressName,
+                shippingAddressProvince,
+              } = order;
+
+              const totalItems = items.reduce(
+                (acc, curr) => Number(acc + curr.quantity),
+                [0]
+              );
+              return (
+                <li
+                  key={token}
+                  onClick={() => {
+                    setCurrent(i);
+                  }}
+                  className={`flex cursor-pointer items-center gap-4 rounded border p-4 hover:border-green-600 hover:bg-green-100`}
+                >
+                  <div className='w-20'>
+                    <strong>{invoiceNumber}</strong>
+                  </div>
+                  <div className='w-36 truncate'>{shippingAddressName}</div>
+                  <div className='w-16'>{shippingAddressProvince}</div>
+                  <div>Items: {totalItems}</div>
+
+                  <div className='flex grow justify-end'>
+                    ${finalGrandTotal}
+                  </div>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+////////////////////////////////
+////////////////////////////////
+////////////////////////////////
+////////////////////////////////
+////////////////////////////////
 
 export async function getServerSideProps(context) {
   const { req } = context;
@@ -190,7 +195,7 @@ export async function getServerSideProps(context) {
       {
         params: {
           status: 'pending',
-          limit: 2,
+          limit: 5,
           offset: 0,
         },
       }
@@ -201,7 +206,7 @@ export async function getServerSideProps(context) {
       errors,
     });
   }
-  const { totalItems, limit, offset, items } = orders.data;
+  const { totalItems, limit, items } = orders.data;
   const passPaging = {
     totalItems,
     limit,

@@ -2,11 +2,7 @@ import { SlRefresh, SlCheck } from 'react-icons/sl';
 
 const FormToasts = ({ fetching, error, success }) => {
   return (
-    <div
-      className={`relative overflow-hidden transition-all duration-500 ${
-        fetching || error || success ? ' h-32' : 'h-0'
-      }`}
-    >
+    <div className={`relative h-24`}>
       <div
         className={` absolute mt-5 mb-4 w-full rounded border border-red-600 bg-red-50 px-5 py-2 text-red-900 ${
           error
