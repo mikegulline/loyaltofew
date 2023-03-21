@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { useState } from 'react';
+import { useState, useRef, useEffect, useLayoutEffect } from 'react';
 import { getSession } from 'next-auth/react';
 import Container from '../../../components/Container';
 import { H1 } from '../../../components/Type';
@@ -44,48 +44,67 @@ export default function Orders({ passOrders, limit, totalItems }) {
       />
     ) : null;
 
-  const OrderItems = () => (
-    <ul className='my-6 flex flex-col gap-1 border-y-4 border-red-600 border-b-gray-500 py-6'>
-      {orders?.map((order, i) => {
-        const {
-          token,
-          finalGrandTotal,
-          items,
-          invoiceNumber,
-          creationDate,
-          shippingAddressName,
-          shippingAddressAddress1,
-          shippingAddressAddress2,
-          shippingAddressPostalCode,
-          shippingAddressProvince,
-          hippingAddressPostalCode,
-        } = order;
+  const OrderItems = () => {
+    const heightRef = useRef(null);
+    const [addStyles, setAddStyles] = useState(() => {
+      height: '0px';
+    });
+    console.log('render');
+    useEffect(() => {
+      setAddStyles({ height: heightRef.current.offsetHeight + 'px' });
+    }, []);
 
-        const totalItems = items.reduce(
-          (acc, curr) => Number(acc + curr.quantity),
-          [0]
-        );
-        return (
-          <li
-            key={token}
-            onClick={() => {
-              setCurrent(i);
-            }}
-            className={`flex cursor-pointer items-center gap-4 rounded border p-4 hover:border-green-600 hover:bg-green-100`}
-          >
-            <div className='w-20'>
-              <strong>{invoiceNumber}</strong>
-            </div>
-            <div className='w-36 truncate'>{shippingAddressName}</div>
-            <div className='w-16'>{shippingAddressProvince}</div>
-            <div>Items: {totalItems}</div>
+    return (
+      <div
+        className={`relative h-0 overflow-hidden transition-all duration-500`}
+        style={{ ...addStyles }}
+      >
+        <ul
+          ref={heightRef}
+          className='my-6 flex flex-col gap-1 border-y-4 border-red-600 border-b-gray-500 py-6 '
+        >
+          {orders?.map((order, i) => {
+            const {
+              token,
+              finalGrandTotal,
+              items,
+              invoiceNumber,
+              creationDate,
+              shippingAddressName,
+              shippingAddressAddress1,
+              shippingAddressAddress2,
+              shippingAddressPostalCode,
+              shippingAddressProvince,
+              hippingAddressPostalCode,
+            } = order;
 
-            <div className='flex grow justify-end'>${finalGrandTotal}</div>
-          </li>
-        );
-      })}
-    </ul>
-  );
+            const totalItems = items.reduce(
+              (acc, curr) => Number(acc + curr.quantity),
+              [0]
+            );
+            return (
+              <li
+                key={token}
+                onClick={() => {
+                  setCurrent(i);
+                }}
+                className={`flex cursor-pointer items-center gap-4 rounded border p-4 hover:border-green-600 hover:bg-green-100`}
+              >
+                <div className='w-20'>
+                  <strong>{invoiceNumber}</strong>
+                </div>
+                <div className='w-36 truncate'>{shippingAddressName}</div>
+                <div className='w-16'>{shippingAddressProvince}</div>
+                <div>Items: {totalItems}</div>
+
+                <div className='flex grow justify-end'>${finalGrandTotal}</div>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    );
+  };
 
   const LoadMore = () => {
     const handleLoadMore = async () => {
