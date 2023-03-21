@@ -13,7 +13,11 @@ const CategoriesCategory = ({ category }) => {
     );
   });
 
-  return <GridBlock name={name}>{buildCategoryItems}</GridBlock>;
+  return (
+    <GridBlock name={name} className='mb-16 xl:mb-24 '>
+      {buildCategoryItems}
+    </GridBlock>
+  );
 };
 
 export default CategoriesCategory;

@@ -19,7 +19,9 @@ const CategoryItems = ({ product, title, color }) => {
   });
 
   return (
-    <GridBlock name={title ? title : name}>{buildCategoryItems}</GridBlock>
+    <GridBlock name={title ? title : name} className='mb-16 xl:mb-24 '>
+      {buildCategoryItems}
+    </GridBlock>
   );
 };
 
