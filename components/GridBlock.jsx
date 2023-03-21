@@ -1,4 +1,4 @@
-import Carousel from './Carousel/Carousel';
+import Carousel from './Carousel';
 
 const GridBlock = ({ name, children }) => {
   return (

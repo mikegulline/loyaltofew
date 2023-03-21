@@ -8,15 +8,23 @@ export default function Carousel({ children }) {
   if (children.length >= 5) {
     breakpoints = {
       640: {
-        slidesPerView: 3.5,
-        spaceBetween: 8,
+        slidesPerView: 2.25,
+        spaceBetween: 12,
         centeredSlides: false,
       },
       768: {
-        slidesPerView: 4.5,
-        spaceBetween: 16,
+        slidesPerView: 3.25,
+        spaceBetween: 10,
       },
-      1024: {
+      992: {
+        slidesPerView: 4.25,
+        spaceBetween: 10,
+      },
+      1200: {
+        slidesPerView: 4.25,
+        spaceBetween: 10,
+      },
+      1400: {
         slidesPerView: 5,
         spaceBetween: 32,
       },
@@ -24,15 +32,23 @@ export default function Carousel({ children }) {
   } else if (children.length === 4) {
     breakpoints = {
       640: {
-        slidesPerView: 3.5,
-        spaceBetween: 8,
+        slidesPerView: 2.25,
+        spaceBetween: 12,
         centeredSlides: false,
       },
       768: {
-        slidesPerView: 4,
-        spaceBetween: 16,
+        slidesPerView: 3.25,
+        spaceBetween: 10,
       },
-      1024: {
+      992: {
+        slidesPerView: 3.25,
+        spaceBetween: 10,
+      },
+      1200: {
+        slidesPerView: 4,
+        spaceBetween: 10,
+      },
+      1400: {
         slidesPerView: 4,
         spaceBetween: 32,
       },
@@ -40,15 +56,31 @@ export default function Carousel({ children }) {
   } else if (children.length === 3) {
     breakpoints = {
       640: {
-        slidesPerView: 3,
-        spaceBetween: 8,
+        slidesPerView: 2.25,
+        spaceBetween: 12,
         centeredSlides: false,
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 10,
+      },
+      992: {
+        slidesPerView: 3,
+        spaceBetween: 10,
+      },
+      1200: {
+        slidesPerView: 3,
+        spaceBetween: 10,
+      },
+      1400: {
+        slidesPerView: 3,
+        spaceBetween: 32,
       },
     };
   }
   return (
     <Swiper
-      slidesPerView={2.2}
+      slidesPerView={2.25}
       spaceBetween={8}
       breakpoints={breakpoints}
       pagination={{
