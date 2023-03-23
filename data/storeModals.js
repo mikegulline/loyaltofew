@@ -80,6 +80,8 @@ const modalLogo = (values) => {
     has_image_back,
   } = values;
   const link = `/${storePath}/${category}/${type}/${logo}`.toLowerCase();
+  const linkColor =
+    `/${storePath}/${category}/${type}/${logo}/${colors[0]}`.toLowerCase();
   const imageDir = `/images/products/${category}/${type}`.toLowerCase();
   const imageColorBackRoot = `${imageDir}/${category}${type}Back`;
   const imageColorRoot = `${imageDir}/${category}${type}${logo}`.replace(
@@ -93,6 +95,7 @@ const modalLogo = (values) => {
   return {
     name,
     link,
+    linkColor,
     has_image_back,
     imageBack,
     image,

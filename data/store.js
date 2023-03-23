@@ -180,58 +180,58 @@ export const store = [
       description: '',
     },
     products: [
-      // {
-      //   type: 'Tee',
-      //   product: 'Original Tee',
-      //   has_image_back: true,
-      //   logos: ['Arch', 'Block', 'Original', 'Stamp', 'Stenciled'],
-      //   colors: ['Navy', 'Red'],
-      //   tags: ['Tops'],
-      //   weight: 3.6,
-      //   meta: {
-      //     title: 'Womens Original Tee',
-      //     description:
-      //       '100% cotton grown on a US farm. Lightweight (4.3oz.) & durable.',
-      //   },
-      //   sizes: [
-      //     {
-      //       size: 'S',
-      //       price: 28,
-      //       dimensions:
-      //         'Body Length: 25 7/8 in., Chest Width: 16 1/8 in., Sleeve Length: 6 3/8 in.',
-      //     },
-      //     {
-      //       size: 'M',
-      //       price: 28,
-      //       dimensions:
-      //         'Body Length: 26 1/2 in., Chest Width: 16 5/8 in., Sleeve Length: 6 5/8 in.',
-      //     },
-      //     {
-      //       size: 'L',
-      //       price: 28,
-      //       dimensions:
-      //         'Body Length: 27 1/8 in., Chest Width: 17 1/8 in., Sleeve Length: 6 7/8 in.',
-      //     },
-      //     {
-      //       size: 'XL',
-      //       price: 28,
-      //       dimensions:
-      //         'Body Length: 27 3/4 in., Chest Width: 17 5/8 in., Sleeve Length: 7 1/8 in.',
-      //     },
-      //     {
-      //       size: 'XXL',
-      //       price: 30,
-      //       dimensions:
-      //         'Body Length: 28 1/4 in., Chest Width: 18 in., Sleeve Length: 7 3/8 in.	',
-      //     },
-      //   ],
-      //   details: [
-      //     'Designed, produced & printed in the USA',
-      //     '100% cotton grown on a US farm',
-      //     'Lightweight (4.3oz.) & durable',
-      //     'S-XXL',
-      //   ],
-      // },
+      {
+        type: 'Tee',
+        product: 'Original Tee',
+        has_image_back: true,
+        logos: ['Arch', 'Block', 'Original', 'Stamp', 'Stenciled'],
+        colors: ['Navy', 'Red'],
+        tags: ['Tops'],
+        weight: 3.6,
+        meta: {
+          title: 'Womens Original Tee',
+          description:
+            '100% cotton grown on a US farm. Lightweight (4.3oz.) & durable.',
+        },
+        sizes: [
+          {
+            size: 'S',
+            price: 28,
+            dimensions:
+              'Body Length: 25 7/8 in., Chest Width: 16 1/8 in., Sleeve Length: 6 3/8 in.',
+          },
+          {
+            size: 'M',
+            price: 28,
+            dimensions:
+              'Body Length: 26 1/2 in., Chest Width: 16 5/8 in., Sleeve Length: 6 5/8 in.',
+          },
+          {
+            size: 'L',
+            price: 28,
+            dimensions:
+              'Body Length: 27 1/8 in., Chest Width: 17 1/8 in., Sleeve Length: 6 7/8 in.',
+          },
+          {
+            size: 'XL',
+            price: 28,
+            dimensions:
+              'Body Length: 27 3/4 in., Chest Width: 17 5/8 in., Sleeve Length: 7 1/8 in.',
+          },
+          {
+            size: 'XXL',
+            price: 30,
+            dimensions:
+              'Body Length: 28 1/4 in., Chest Width: 18 in., Sleeve Length: 7 3/8 in.	',
+          },
+        ],
+        details: [
+          'Designed, produced & printed in the USA',
+          '100% cotton grown on a US farm',
+          'Lightweight (4.3oz.) & durable',
+          'S-XXL',
+        ],
+      },
       {
         type: 'Tank',
         product: 'Original Tank',
@@ -279,58 +279,58 @@ export const store = [
           'XS-XL',
         ],
       },
-      {
-        type: 'Crop',
-        product: 'Original Crop',
-        has_image_back: true,
-        logos: ['Arch', 'Block', 'Original', 'Stamp'],
-        colors: ['Black', 'Gray', 'Navy', 'Red'],
-        tags: ['Tops'],
-        weight: 2.9,
-        meta: {
-          title: 'Womens Original Crop',
-          description:
-            'Raw hem, riibbed crew-neck & short sleeves. 100% US Lightweight cotton (4.3oz).',
-        },
-        sizes: [
-          {
-            size: 'S',
-            price: 25,
-            dimensions:
-              'Body Length: 16 in., Chest Width: 15 1/2 in., Sleeve Length: 6 7/8 in.',
-          },
-          {
-            size: 'M',
-            price: 25,
-            dimensions:
-              'Body Length: 16 1/2 in., Chest Width: 16 1/2 in., Sleeve Length: 7 1/8 in.',
-          },
-          {
-            size: 'L',
-            price: 25,
-            dimensions:
-              'Body Length: 17 in., Chest Width: 17 3/4 in., Sleeve Length: 7 3/8 in.',
-          },
-          {
-            size: 'XL',
-            price: 25,
-            dimensions:
-              'Body Length: 17 1/2 in., Chest Width: 19 in., Sleeve Length: 7 5/8 in.',
-          },
-          {
-            size: 'XXL',
-            price: 27,
-            dimensions:
-              'Body Length: 18 1/2 in., Chest Width: 20 1/2 in., Sleeve Length: 7 7/8 in. in.',
-          },
-        ],
-        details: [
-          'Designed, produced & printed in the USA',
-          '100% US Lightweight cotton (4.3oz)',
-          'Raw hem, riibbed crew-neck & short sleeves',
-          'S-XL ',
-        ],
-      },
+      // {
+      //   type: 'Crop',
+      //   product: 'Original Crop',
+      //   has_image_back: true,
+      //   logos: ['Arch', 'Block', 'Original', 'Stamp'],
+      //   colors: ['Black', 'Gray', 'Navy', 'Red'],
+      //   tags: ['Tops'],
+      //   weight: 2.9,
+      //   meta: {
+      //     title: 'Womens Original Crop',
+      //     description:
+      //       'Raw hem, riibbed crew-neck & short sleeves. 100% US Lightweight cotton (4.3oz).',
+      //   },
+      //   sizes: [
+      //     {
+      //       size: 'S',
+      //       price: 25,
+      //       dimensions:
+      //         'Body Length: 16 in., Chest Width: 15 1/2 in., Sleeve Length: 6 7/8 in.',
+      //     },
+      //     {
+      //       size: 'M',
+      //       price: 25,
+      //       dimensions:
+      //         'Body Length: 16 1/2 in., Chest Width: 16 1/2 in., Sleeve Length: 7 1/8 in.',
+      //     },
+      //     {
+      //       size: 'L',
+      //       price: 25,
+      //       dimensions:
+      //         'Body Length: 17 in., Chest Width: 17 3/4 in., Sleeve Length: 7 3/8 in.',
+      //     },
+      //     {
+      //       size: 'XL',
+      //       price: 25,
+      //       dimensions:
+      //         'Body Length: 17 1/2 in., Chest Width: 19 in., Sleeve Length: 7 5/8 in.',
+      //     },
+      //     {
+      //       size: 'XXL',
+      //       price: 27,
+      //       dimensions:
+      //         'Body Length: 18 1/2 in., Chest Width: 20 1/2 in., Sleeve Length: 7 7/8 in. in.',
+      //     },
+      //   ],
+      //   details: [
+      //     'Designed, produced & printed in the USA',
+      //     '100% US Lightweight cotton (4.3oz)',
+      //     'Raw hem, riibbed crew-neck & short sleeves',
+      //     'S-XL ',
+      //   ],
+      // },
       {
         type: 'Oversized-Crop',
         has_image_back: true,
@@ -373,7 +373,7 @@ export const store = [
         type: '50-50-Crew',
         product: 'Original 50/50 Crew',
         has_image_back: true,
-        logos: ['Arch', 'Block', 'Original', 'Stamp'],
+        logos: ['Arch', 'Block', 'Original', 'Stamp', 'Stenciled'],
         colors: ['Black'],
         tags: ['Tops'],
         weight: 9.8,
@@ -480,7 +480,7 @@ export const store = [
         type: '50-50-Hoodie',
         product: 'Original 50/50 Hoodie',
         has_image_back: false,
-        logos: ['Arch', 'Block', 'Original', 'Stamp'],
+        logos: ['Arch', 'Block', 'Original', 'Stamp', 'Stenciled'],
         colors: ['Black'],
         tags: ['Tops'],
         weight: 34.3,

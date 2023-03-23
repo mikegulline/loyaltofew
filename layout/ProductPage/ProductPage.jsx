@@ -1,10 +1,12 @@
-import { useState, useEffect, Fragment } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import Image from 'next/image';
 import ColorLinks from '../../components/ColorLinks';
 import Container from '../../components/Container';
-import GridLogoOptions from '../../components/GridLogoOptions';
 import styles from './ProductPage.module.css';
 import { SlRefresh } from 'react-icons/sl';
+import SlideshowGridGallery from '../../components/SlideshowGridGallery';
+import GridBlockItem from '../../components/GridBlockItem';
+import GridBlockItemSelectDot from '../../components/GridBlockItemSelectDot';
 
 const ProductPage = ({ product, size }) => {
   const [sizeAndPriceIndex, setSizeAndPriceIndex] = useState(0);
@@ -23,7 +25,24 @@ const ProductPage = ({ product, size }) => {
     weight,
     details,
     color,
+    logos,
   } = product;
+  const galleryArray = logos.map((logo) => {
+    const { link, name, imageColorRoot, logo: logoName } = logo;
+    const current = product.logo === logo.logo;
+    const buildProduct = {
+      link: `${link}/${color.toLowerCase()}`,
+      image: `${imageColorRoot}${color}.jpg`,
+      name,
+    };
+    console.log(name);
+    return (
+      <GridBlockItem key={name} product={buildProduct}>
+        <GridBlockItemSelectDot current={current} />
+        <h4 className='mt-2 font-medium'>{`${logoName} Design`}</h4>
+      </GridBlockItem>
+    );
+  });
 
   const showButtons = sizes.map((s, i) => {
     return (
@@ -89,9 +108,13 @@ const ProductPage = ({ product, size }) => {
             </div>
           </div>
         </Container>
-        <Container className='pt-8'>
-          <GridLogoOptions key={name} product={product} />
-        </Container>
+        {galleryArray.length > 1 ? (
+          <Container className='pt-8'>
+            <SlideshowGridGallery key={name} title='Logo Options'>
+              {galleryArray}
+            </SlideshowGridGallery>
+          </Container>
+        ) : null}
       </div>
     </>
   );
@@ -140,8 +163,6 @@ const HeroImage = ({ image, name, imageBack, has_image_back }) => {
                 setShowBack(showBack > 0 ? 0 : 1);
                 setAnimate(1);
               }}
-              // onMouseEnter={() => setShowBack(1)}
-              // onMouseLeave={() => setShowBack(0)}
             >
               <SlRefresh />
             </div>

@@ -13,7 +13,7 @@ const CategoryPage = ({ category }) => {
       <SEO {...meta} />
 
       <StoreWrapper breadcrumbs={category.breadcrumbs} title={category.name}>
-        <Category category={category} />
+        <Category products={category.products} />
       </StoreWrapper>
     </>
   );
