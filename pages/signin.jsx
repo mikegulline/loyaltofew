@@ -78,6 +78,7 @@ export default function SignIn({ csrfToken, callbackUrl }) {
         name,
         email,
         password,
+        secret_code,
       });
       setUser({ ...user, error: '', success: data.message });
       setFetching('');
@@ -88,7 +89,7 @@ export default function SignIn({ csrfToken, callbackUrl }) {
           password,
         };
         const res = await signIn('credentials', options);
-        router.push(callbackUrl || '/');
+        router.push('/admin/orders');
       }, 2000);
     } catch (error) {
       setUser({ ...user, success: '', error: error.response.data.message });
@@ -99,9 +100,7 @@ export default function SignIn({ csrfToken, callbackUrl }) {
   return (
     <Split image={image}>
       <SignInForm csrfToken={csrfToken} callbackUrl={callbackUrl} />
-
       <div className=''>
-        {fetching && <div>Loading…</div>}
         <H1>Sign Up</H1>
         <Formik
           enableReinitialize

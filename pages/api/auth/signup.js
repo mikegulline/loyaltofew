@@ -14,6 +14,8 @@ handler.post(async (req, res) => {
     await db.connectDB();
     const { name, email, password, secret_code } = req.body;
 
+    console.log(secret_code, process.env.SECRET_CODE);
+    
     if (secret_code !== process.env.SECRET_CODE)
       return res.status(400).json({ message: 'Secret code incorrect.' });
 
