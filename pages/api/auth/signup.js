@@ -13,7 +13,8 @@ handler.post(async (req, res) => {
   try {
     await db.connectDB();
     const { name, email, password, secret_code } = req.body;
-    if (secret_code !== process.env.secret_code)
+
+    if (secret_code !== process.env.SECRET_CODE)
       return res.status(400).json({ message: 'Secret code incorrect.' });
 
     if (!name || !email || !password) {
