@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import ColorLinks from '../../components/ColorLinks';
 import Container from '../../components/Container';
@@ -8,7 +8,7 @@ import SlideshowGridGallery from '../../components/SlideshowGridGallery';
 import GridBlockItem from '../../components/GridBlockItem';
 import GridBlockItemSelectDot from '../../components/GridBlockItemSelectDot';
 
-const ProductPage = ({ product, size }) => {
+const ProductPage = ({ product }) => {
   const [sizeAndPriceIndex, setSizeAndPriceIndex] = useState(0);
   const [colorsState, setColorsState] = useState(() =>
     product.sizes?.colors ? product.sizes.colors : product.colors
@@ -35,7 +35,6 @@ const ProductPage = ({ product, size }) => {
       image: `${imageColorRoot}${color}.jpg`,
       name,
     };
-    console.log(name);
     return (
       <GridBlockItem key={name} product={buildProduct}>
         <GridBlockItemSelectDot current={current} />

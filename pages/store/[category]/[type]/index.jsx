@@ -8,34 +8,30 @@ import GridBlockItem from '../../../../components/GridBlockItem';
 const Products = ({ product, breadcrumbs, name }) => {
   if (!product?.logos?.length) return <p>Loading…</p>;
 
-  const galleryArray = product.logos.map(
-    ({ link, name, imageColorRoot, logo }) => {
-      const color = product.colors[0];
-      return (
-        <GridBlockItem
-          key={name}
-          product={{
-            link: `${link}/${color.toLowerCase()}`,
-            image: `${imageColorRoot}${color}.jpg`,
-            name,
-          }}
-        >
-          <h4 className='mt-2 font-medium'>{`${logo} Design`}</h4>
-        </GridBlockItem>
-      );
-    }
-  );
-
   const meta = getMeta(product.meta, `Loyal To Few (LTF) ${name}`);
-  console.log(product);
+
   return (
     <>
       <SEO {...meta} />
 
       <StoreWrapper breadcrumbs={breadcrumbs} title={product.name}>
-        <SlideshowGridGallery title='Logo Options'>
-          {galleryArray}
-        </SlideshowGridGallery>
+        {product.colors.map((color) => (
+          <SlideshowGridGallery title={color} key={color}>
+            {product.logos.map((logo) => {
+              const { link, name, imageColorRoot, logo: logoName } = logo;
+              const buildProduct = {
+                link: `${link}/${color.toLowerCase()}`,
+                image: `${imageColorRoot}${color}.jpg`,
+                name,
+              };
+              return (
+                <GridBlockItem key={name} product={buildProduct}>
+                  <h4 className='mt-2 font-medium'>{`${logoName} Design`}</h4>
+                </GridBlockItem>
+              );
+            })}
+          </SlideshowGridGallery>
+        ))}
       </StoreWrapper>
     </>
   );

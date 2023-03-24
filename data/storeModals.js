@@ -138,7 +138,7 @@ export const getType = (useCategory, useType) => {
   const product = passCategory['products'].find(
     ({ type }) => type.toLowerCase() === useType.toLowerCase()
   );
-  breadcrumbs.push([product.name, '']);
+  breadcrumbs.push([product.name, `${link}/${product.type}`.toLowerCase()]);
   const category = {
     category: categoryName,
     name,
@@ -173,9 +173,7 @@ export const getLogo = (useCategory, useType, useLogo) => {
   const passLogo = theType['logos'].find(
     ({ logo }) => logo.toLowerCase() === useLogo.toLowerCase()
   );
-  const bcLast = breadcrumbs.pop();
-  const bcText = `${bcLast[0]} ${passLogo.logo}`;
-  breadcrumbs.push([bcText, '']);
+  breadcrumbs.push([passLogo.logo, '']);
   return {
     ...passLogo,
     has_image_back,
