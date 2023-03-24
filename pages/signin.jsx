@@ -15,6 +15,7 @@ const initialValues = {
   email: '',
   password: '',
   confirm_password: '',
+  secret_code: '',
   success: '',
   error: '',
 };
@@ -29,7 +30,15 @@ export default function SignIn({ csrfToken, callbackUrl }) {
   const router = useRouter();
   const [fetching, setFetching] = useState('');
   const [user, setUser] = useState(initialValues);
-  const { name, email, password, confirm_password, success, error } = user;
+  const {
+    name,
+    email,
+    password,
+    confirm_password,
+    secret_code,
+    success,
+    error,
+  } = user;
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -56,6 +65,10 @@ export default function SignIn({ csrfToken, callbackUrl }) {
     confirm_password: Yup.string()
       .required('Please enter a strong password')
       .oneOf([Yup.ref('password')], 'Passwords do not match.'),
+    secret_code: Yup.string()
+      .required('Please enter your secret code.')
+      .min(3, 'Secret code must be between 3 and 16 characters.')
+      .max(16, 'Secret code must be between 3 and 16 characters.'),
   });
 
   const signUpHandler = async () => {
@@ -97,6 +110,7 @@ export default function SignIn({ csrfToken, callbackUrl }) {
             email,
             password,
             confirm_password,
+            secret_code,
           }}
           validationSchema={signUpValidation}
           onSubmit={() => {
@@ -108,7 +122,6 @@ export default function SignIn({ csrfToken, callbackUrl }) {
               <Input
                 type='text'
                 name='name'
-                icon='user'
                 placeholder='Name'
                 onChange={handleChange}
                 value={name}
@@ -116,7 +129,6 @@ export default function SignIn({ csrfToken, callbackUrl }) {
               <Input
                 type='text'
                 name='email'
-                icon='email'
                 placeholder='Email Address'
                 onChange={handleChange}
                 value={email}
@@ -124,7 +136,6 @@ export default function SignIn({ csrfToken, callbackUrl }) {
               <Input
                 type='password'
                 name='password'
-                icon='password'
                 placeholder='Password'
                 onChange={handleChange}
                 value={password}
@@ -132,10 +143,16 @@ export default function SignIn({ csrfToken, callbackUrl }) {
               <Input
                 type='password'
                 name='confirm_password'
-                icon='password'
                 placeholder='Confirm Password'
                 onChange={handleChange}
                 value={confirm_password}
+              />
+              <Input
+                type='text'
+                name='secret_code'
+                placeholder='Secret Code'
+                onChange={handleChange}
+                value={secret_code}
               />
               <button
                 type='submit'

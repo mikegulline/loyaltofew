@@ -12,7 +12,9 @@ const handler = nc();
 handler.post(async (req, res) => {
   try {
     await db.connectDB();
-    const { name, email, password } = req.body;
+    const { name, email, password, secret_code } = req.body;
+    if (secret_code !== process.env.secret_code)
+      return res.status(400).json({ message: 'Secret code incorrect.' });
 
     if (!name || !email || !password) {
       return res.status(400).json({ message: 'Please fill in all fields.' });
