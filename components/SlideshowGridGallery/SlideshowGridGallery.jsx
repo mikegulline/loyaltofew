@@ -14,7 +14,7 @@ export default function SlideshowGridGallery({ title, children }) {
     <Wrapper>
       <TitleWrapper>
         <Title content={title} />
-        {children.length > 3 && (
+        {children?.length > 3 && (
           <ToggleButton handleClick={setShowFirstChild}>
             <ToggleView showFirst={showFirstChild}>
               <>Show Grid</>
