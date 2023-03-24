@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from './Link';
 
-const GridBlockItem = ({ product: { link, image, name }, children }) => (
+const GridItem = ({ product: { link, image, name }, children }) => (
   <div className='relative pb-6 text-center'>
     <Link href={link}>
       <Image
@@ -16,4 +16,4 @@ const GridBlockItem = ({ product: { link, image, name }, children }) => (
   </div>
 );
 
-export default GridBlockItem;
+export default GridItem;

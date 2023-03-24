@@ -1,6 +1,6 @@
 import GridBlock from './GridBlock';
-import GridBlockItem from './GridBlockItem';
-import GridBlockItemSelectDot from './GridBlockItemSelectDot';
+import GridItem from './GridItem';
+import GridItemSelectDot from './GridItemSelectDot';
 
 const GridLogoOptions = ({ product }) => {
   const { logos, color } = product;
@@ -12,16 +12,16 @@ const GridLogoOptions = ({ product }) => {
     const current = product.logo === logo.logo;
 
     return (
-      <GridBlockItem
+      <GridItem
         key={name}
         link={`${link}/${color.toLowerCase()}`}
         image={`${imageColorRoot}${color}.jpg`}
         name={name}
         showName={false}
       >
-        <GridBlockItemSelectDot current={current} />
+        <GridItemSelectDot current={current} />
         <h4 className='mt-2 font-medium'>{`${logoName} Design`}</h4>
-      </GridBlockItem>
+      </GridItem>
     );
   });
 

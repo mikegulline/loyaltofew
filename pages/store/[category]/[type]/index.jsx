@@ -3,7 +3,7 @@ import getMeta from '../../../../utils/getMeta';
 import StoreWrapper from '../../../../layout/StoreWrapper/StoreWrapper';
 import SEO from '../../../../components/SEO';
 import SlideshowGridGallery from '../../../../components/SlideshowGridGallery';
-import GridBlockItem from '../../../../components/GridBlockItem';
+import GridItem from '../../../../components/GridItem';
 
 const Products = ({ product, breadcrumbs, name }) => {
   if (!product?.logos?.length) return <p>Loading…</p>;
@@ -25,9 +25,9 @@ const Products = ({ product, breadcrumbs, name }) => {
                 name,
               };
               return (
-                <GridBlockItem key={name} product={buildProduct}>
+                <GridItem key={name} product={buildProduct}>
                   <h4 className='mt-2 font-medium'>{`${logoName} Design`}</h4>
-                </GridBlockItem>
+                </GridItem>
               );
             })}
           </SlideshowGridGallery>

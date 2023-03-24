@@ -4,14 +4,9 @@ import { useState } from 'react';
 import Input from '../components/Input';
 import FormToasts from '../components/FormToasts';
 import Split from '../layout/Split/Split';
-import { P, H1 } from '../components/Type';
+import { H1 } from '../components/Type';
 import image from '../public/images/lifestyle/contact-page.jpg';
-import {
-  getCsrfToken,
-  getProviders,
-  getSession,
-  signIn,
-} from 'next-auth/react';
+import { getCsrfToken, getSession, signIn } from 'next-auth/react';
 import axios from 'axios';
 import { useRouter } from 'next/router';
 
@@ -92,9 +87,9 @@ export default function SignIn({ csrfToken, callbackUrl }) {
     <Split image={image}>
       <SignInForm csrfToken={csrfToken} callbackUrl={callbackUrl} />
 
-      <div className='hidden'>
+      <div className=''>
         {fetching && <div>Loading…</div>}
-        <h1>Sign Up</h1>
+        <H1>Sign Up</H1>
         <Formik
           enableReinitialize
           initialValues={{
@@ -109,7 +104,7 @@ export default function SignIn({ csrfToken, callbackUrl }) {
           }}
         >
           {(form) => (
-            <Form>
+            <Form className='contact-form pt-10 '>
               <Input
                 type='text'
                 name='name'
@@ -142,7 +137,12 @@ export default function SignIn({ csrfToken, callbackUrl }) {
                 onChange={handleChange}
                 value={confirm_password}
               />
-              <button type='submit'>Sign Up</button>
+              <button
+                type='submit'
+                className='mt-4 border-0 border-red-600 bg-red-600 text-white hover:bg-gray-900 disabled:opacity-25'
+              >
+                Sign Up
+              </button>
             </Form>
           )}
         </Formik>
@@ -177,11 +177,15 @@ const SignInForm = ({ csrfToken, callbackUrl }) => {
     } else {
       setUser({ ...user, success: 'Signed in successfully!', error: '' });
       setTimeout(() => {
-        setUser({ ...user, success: 'Redirecting…', error: '' });
-      }, 4000);
+        setUser({
+          ...user,
+          success: 'Redirecting to orders admin…',
+          error: '',
+        });
+      }, 3000);
       setTimeout(() => {
         setUser({ ...user, success: '', error: '' });
-        // router.push(callbackUrl || '/');
+        router.push('/admin/orders');
       }, 6000);
     }
   };

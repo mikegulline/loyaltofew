@@ -65,7 +65,7 @@ export default function Orders({ passOrders, limit, totalItems }) {
         setSuccess(`Loaded ${data.items.length} orders!`);
         setTimeout(() => {
           setSuccess('');
-        }, 2000);
+        }, 1000);
       } catch (errors) {
         console.log(errors);
         setFetching(false);
@@ -73,7 +73,7 @@ export default function Orders({ passOrders, limit, totalItems }) {
       }
     };
 
-    const disabled = total === orders.length;
+    const disabled = fetching || total === orders.length;
     const countToLoad = total - orders.length;
     const loadMore = countToLoad > limit ? limit : countToLoad;
 
@@ -123,7 +123,7 @@ const OrderItems = ({ orders, setCurrent }) => {
   return (
     <div className='my-6 border-y-4 border-red-600 border-b-gray-500 py-6'>
       <div
-        className={`relative overflow-hidden transition-all duration-500`}
+        className={`relative overflow-hidden transition-all delay-1000 duration-1000 ease-in-out`}
         style={{ height: currentHeight ? `${currentHeight}px` : `auto` }}
       >
         <div ref={heightRef}>

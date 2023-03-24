@@ -5,8 +5,8 @@ import Container from '../../components/Container';
 import styles from './ProductPage.module.css';
 import { SlRefresh } from 'react-icons/sl';
 import SlideshowGridGallery from '../../components/SlideshowGridGallery';
-import GridBlockItem from '../../components/GridBlockItem';
-import GridBlockItemSelectDot from '../../components/GridBlockItemSelectDot';
+import GridItem from '../../components/GridItem';
+import GridItemSelectDot from '../../components/GridItemSelectDot';
 
 const ProductPage = ({ product }) => {
   const [sizeAndPriceIndex, setSizeAndPriceIndex] = useState(0);
@@ -36,10 +36,10 @@ const ProductPage = ({ product }) => {
       name,
     };
     return (
-      <GridBlockItem key={name} product={buildProduct}>
-        <GridBlockItemSelectDot current={current} />
+      <GridItem key={name} product={buildProduct}>
+        <GridItemSelectDot current={current} />
         <h4 className='mt-2 font-medium'>{`${logoName} Design`}</h4>
-      </GridBlockItem>
+      </GridItem>
     );
   });
 

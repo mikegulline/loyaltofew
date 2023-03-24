@@ -1,4 +1,4 @@
-const GridBlockItemSelectDot = ({ current }) => {
+const GridItemSelectDot = ({ current }) => {
   return (
     <div
       className='absolute top-4 right-4 block h-8 w-8 scale-0 transform rounded-full bg-white shadow-lg'
@@ -10,4 +10,4 @@ const GridBlockItemSelectDot = ({ current }) => {
   );
 };
 
-export default GridBlockItemSelectDot;
+export default GridItemSelectDot;

@@ -52,6 +52,7 @@ export const authOptions = {
 };
 
 const SignInUser = async ({ password, user }) => {
+  console.log('trying?');
   if (!user.password) {
     throw new Error('Please enter your password.');
   }
