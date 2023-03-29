@@ -1,26 +1,30 @@
 import nc from 'next-connect';
 import db from '../../../utils/db';
 import Rate from '../../../models/rate';
+import Order from '../../../models/order';
 import api from './utils/easyPostApi';
 import axios from 'axios';
 
 const handler = nc();
 
 handler.post(async (req, res) => {
-  const saveOrder = { ...req.body };
+  const {
+    eventName,
+    content: { items, token, shippingFees, invoiceNumber },
+  } = { ...req.body };
 
-  if (saveOrder.eventName === 'order.completed') {
+  if (eventName === 'order.completed') {
     let rates;
     let shipping;
     let tracking;
-    const totalItems = saveOrder.content.items.length;
+    const totalItems = items.length;
 
     // 1. get saved rates by orderToken and cost from db
     try {
       await db.connectDB();
       rates = await Rate.find({
-        orderToken: saveOrder.content.token,
-        cost: saveOrder.content.shippingFees,
+        orderToken: token,
+        cost: shippingFees,
       }).exec();
       await db.disconnectDB();
       if (!rates?.length) {
@@ -43,7 +47,9 @@ handler.post(async (req, res) => {
     try {
       tracking = await api.Tracker.retrieve(shipping.tracker.id);
     } catch (errors) {
-      res.status(500).json({ message: 'error getting tracking url', errors });
+      return res
+        .status(500)
+        .json({ message: 'error getting tracking url', errors });
     }
     // create a 0 filled array for packing
     let a = new Array(totalItems);
@@ -68,7 +74,7 @@ handler.post(async (req, res) => {
       };
       const secret = process.env.SNIPCART_SECRET + ':';
       await axios.put(
-        `https://app.snipcart.com/api/orders/${saveOrder.content.token}`,
+        `https://app.snipcart.com/api/orders/${token}`,
         trackingForSnipcart,
         {
           headers: {
@@ -78,16 +84,27 @@ handler.post(async (req, res) => {
         }
       );
     } catch (errors) {
-      res.status(500).json({ message: 'tracking to snipcart', errors });
+      return res.status(500).json({ message: 'tracking to snipcart', errors });
+    }
+
+    // save order token and invoice number to mongodb
+    try {
+      await db.connectDB();
+      await Order.create({ orderToken: token, invoiceNumber });
+      await db.disconnectDB();
+    } catch (errors) {
+      return res
+        .status(500)
+        .json({ message: 'Error saving order info to mongodb.', errors });
     }
 
     // delete rates
     try {
       await db.connectDB();
-      await Rate.deleteMany({ orderToken: saveOrder.content.token });
+      await Rate.deleteMany({ orderToken: token });
       await db.disconnectDB();
     } catch (errors) {
-      res.status(500).json({ message: 'error deleting rates', errors });
+      return res.status(500).json({ message: 'error deleting rates', errors });
     }
   }
 

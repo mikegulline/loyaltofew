@@ -27,14 +27,14 @@ export default async function getRates(body) {
 
 const getVars = (body) => {
   const from_address = {
-    street1: '417 MONTGOMERY ST',
-    street2: 'FLOOR 5',
-    city: 'SAN FRANCISCO',
+    street1: '395 Sunset Drive',
+    street2: '',
+    city: 'Encinitas',
     state: 'CA',
-    zip: '94104',
+    zip: '92024',
     country: 'US',
-    company: 'EasyPost',
-    phone: '415-123-4567',
+    company: 'Loyal to Few',
+    phone: '949-338-7474',
   };
 
   const {

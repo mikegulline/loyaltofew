@@ -13,10 +13,8 @@ export default function OrderProcessOverlay({
   const [currentOrder, setCurrentOrder] = useState(order);
 
   if (!order) return <></>;
-  console.log(total);
   const {
     token,
-    invoiceNumber,
     items,
     metadata,
     metadata: { label_url },
