@@ -3,7 +3,7 @@ import { getSession } from 'next-auth/react';
 import { H1 } from '../../../components/Type';
 import Container from '../../../components/Container';
 import axios from 'axios';
-import MailProcessOverlay from '../../../components/MailProcessOverlay';
+import MailProcessOverlay from '../../../features/mail/components/MailProcessOverlay';
 
 export default function Mail({ mail }) {
   const [current, setCurrent] = useState(null);
@@ -66,13 +66,6 @@ export async function getServerSideProps(context) {
   try {
     const { data } = await axios.get(
       `${process.env.NEXT_PUBLIC_BASE_URL}api/admin/mail`
-      // {
-      //   params: {
-      //     status: 'pending',
-      //     limit: 5,
-      //     offset: 0,
-      //   },
-      // }
     );
     return { props: { mail: data } };
   } catch (errors) {

@@ -1,5 +1,6 @@
 import nc from 'next-connect';
 import Mail from '../../../../models/mail';
+import Order from '../../../../models/order';
 import db from '../../../../utils/db';
 import emailContactForm from '../../../../email/emailContactForm';
 
@@ -11,6 +12,7 @@ handler.post(async (req, res) => {
 
     if (invoice) {
       await db.connectDB();
+
       await new Mail({ name, email, invoice, message }).save();
       await db.disconnectDB();
     }
