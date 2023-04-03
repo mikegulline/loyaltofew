@@ -70,6 +70,14 @@ handler.post(async (req, res) => {
           mode: shipping.postage_label.mode,
           status: 'Pending',
           packed: a,
+          shipping: {
+            status: 'Pending',
+            packed: a,
+          },
+          returns: {
+            status: 'None',
+            packed: a,
+          },
         },
       };
       const secret = process.env.SNIPCART_SECRET + ':';

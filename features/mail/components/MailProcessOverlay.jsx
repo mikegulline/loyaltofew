@@ -1,5 +1,5 @@
 import { useCallback } from 'react';
-import Buttons from '../../../components/OrderProcessButtons';
+import { Buttons } from '../../ProcessOrder';
 import { H1 } from '../../../components/Type';
 
 export default function MailProcessOverlay({

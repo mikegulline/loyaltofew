@@ -1,25 +1,46 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { getSession } from 'next-auth/react';
 import { H1 } from '../../../components/Type';
 import Container from '../../../components/Container';
 import axios from 'axios';
 import MailProcessOverlay from '../../../features/mail/components/MailProcessOverlay';
+import { ProcessReturn } from '../../../features/ProcessReturn';
 
 export default function Mail({ mail }) {
   const [current, setCurrent] = useState(null);
+  const [order, setOrder] = useState(null);
+
+  useEffect(() => {
+    const getOrder = async () => {
+      if (current !== null) {
+        try {
+          const { data } = await axios.get(
+            `/api/admin/order/${mail[current].invoice}`
+          );
+          if (data.order) {
+            setOrder(data.order);
+            console.log('update order');
+          }
+        } catch (error) {}
+      }
+    };
+    getOrder();
+  }, [current, mail]);
 
   const handleNextClose = (next) => {
-    console.log('next', next);
-    if (!next) setCurrent(null);
-    else setCurrent((c) => Number(c + next));
+    if (!next) {
+      setCurrent(null);
+      setOrder(null);
+    } else setCurrent((c) => Number(c + next));
   };
 
   const Overlay = () =>
-    current != null ? (
-      <MailProcessOverlay
-        mail={mail[current]}
-        handleNextClose={handleNextClose}
-      />
+    current !== null && order !== null ? (
+      // <MailProcessOverlay
+      //   mail={mail[current]}
+      //   handleNextClose={handleNextClose}
+      // />
+      <ProcessReturn order={order} nextClose={handleNextClose} />
     ) : null;
 
   return (
