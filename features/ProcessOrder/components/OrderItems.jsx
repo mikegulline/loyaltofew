@@ -1,5 +1,4 @@
 import OrderItem from './OrderItem';
-
 const OrderItems = ({ items, metadata, updateOrder }) => {
   return (
     <ul className='flex justify-center gap-4'>
