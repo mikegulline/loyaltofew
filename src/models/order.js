@@ -8,6 +8,15 @@ const orderSchema = new mongoose.Schema(
     invoiceNumber: {
       type: 'String',
     },
+    parcel: {
+      type: 'String',
+    },
+    from_address: {
+      type: 'String',
+    },
+    to_address: {
+      type: 'String',
+    },
   },
   {
     timestamps: true,

@@ -98,7 +98,13 @@ handler.post(async (req, res) => {
     // save order token and invoice number to mongodb
     try {
       await db.connectDB();
-      await Order.create({ orderToken: token, invoiceNumber });
+      await Order.create({
+        orderToken: token,
+        invoiceNumber,
+        parcel: shipping.parcel.id,
+        from_address: shipping.from_address.id,
+        to_address: shipping.to_address.id,
+      });
       await db.disconnectDB();
     } catch (errors) {
       return res
