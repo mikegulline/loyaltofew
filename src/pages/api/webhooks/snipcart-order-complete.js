@@ -5,11 +5,11 @@
 //save orderToken, invoiceId, (more?) to MongoDB
 //delete rates placeholder
 import nc from 'next-connect';
+import axios from 'axios';
 import db from '@/utils/db';
+import api from '@/utils/easyPostApi';
 import Rate from '@/models/rate';
 import Order from '@/models/order';
-import api from './utils/easyPostApi';
-import axios from 'axios';
 
 const handler = nc();
 
@@ -67,6 +67,9 @@ handler.post(async (req, res) => {
         trackingNumber: shipping.tracking_code,
         trackingUrl: tracking.public_url,
         metadata: {
+          parcel: { id: shipping.parcel.id },
+          to_address: { id: shipping.to_address.id },
+          from_address: { id: shipping.from_address.id },
           shipment_id: shipping.selected_rate.shipment_id,
           trackerId: shipping.tracker.id,
           rate_id: shipping.postage_label.id,

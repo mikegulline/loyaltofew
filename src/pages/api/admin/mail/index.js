@@ -1,3 +1,10 @@
+// api for mail
+// post = used in @/components/ContactForm.jsx
+// get  = used in @/pages/admin/returns/index.jsx
+// @NTU need to update…
+// change model Mail to Returns
+// move get to returns endpoing
+
 import nc from 'next-connect';
 import Mail from '@/models/mail';
 import db from '@/utils/db';
@@ -12,6 +19,10 @@ handler.post(async (req, res) => {
     if (invoice) {
       await db.connectDB();
 
+      // @NTU need to update…
+      // look for invoiceNumber in Orders DB
+      // send error if no match
+      // change Mail to Returns
       await new Mail({ name, email, invoice, message }).save();
       await db.disconnectDB();
     }

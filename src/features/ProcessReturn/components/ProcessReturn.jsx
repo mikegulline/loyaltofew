@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react';
-import handleProcessOrder from '../api/handleProcessOrder';
+import handleProcessOrder from '@/utils/handleProcessOrder';
 import OrderItems from './OrderItems';
 import UIReturns from './UIReturns';
 import Wrapper from './Wrapper';
@@ -32,8 +32,8 @@ export default function ProcessOrder({ order, message, nextClose }) {
   };
 
   const uiReturns = {
-    metadata,
     currentOrder,
+    metadata,
     updateOrder,
   };
 

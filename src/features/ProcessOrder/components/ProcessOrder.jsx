@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react';
-import handleProcessOrder from '../api/handleProcessOrder';
+import handleProcessOrder from '@/utils/handleProcessOrder';
 import OrderItems from './OrderItems';
 import UIShipping from './UIShipping';
 import Wrapper from './Wrapper';
