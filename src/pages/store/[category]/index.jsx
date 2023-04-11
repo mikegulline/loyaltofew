@@ -1,6 +1,6 @@
 import { getStore, getCategory } from '@/data/storeModals';
-import Category from '@/components/Category/Category';
 import StoreWrapper from '@/layout/StoreWrapper/StoreWrapper';
+import Category from '@/components/Category/Category';
 import SEO from '@/components/SEO';
 
 const CategoryPage = ({ category }) => {
