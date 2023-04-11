@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const mailSchema = new mongoose.Schema(
+const returnSchema = new mongoose.Schema(
   {
     name: {
       type: String,
@@ -28,6 +28,6 @@ const mailSchema = new mongoose.Schema(
   }
 );
 
-const Mail = mongoose.models.Mail || mongoose.model('Mail', mailSchema);
+const Return = mongoose.models.Return || mongoose.model('Return', returnSchema);
 
-export default Mail;
+export default Return;

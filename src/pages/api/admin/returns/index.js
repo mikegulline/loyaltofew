@@ -6,7 +6,7 @@
 // move get to returns endpoing
 
 import nc from 'next-connect';
-import Mail from '@/models/mail';
+import Return from '@/models/return';
 import db from '@/utils/db';
 import emailContactForm from '@/email/emailContactForm';
 
@@ -23,7 +23,7 @@ handler.post(async (req, res) => {
       // look for invoiceNumber in Orders DB
       // send error if no match
       // change Mail to Returns
-      await new Mail({ name, email, invoice, message }).save();
+      await new Return({ name, email, invoice, message }).save();
       await db.disconnectDB();
     }
 
@@ -74,15 +74,15 @@ handler.post(async (req, res) => {
 // }
 
 handler.get(async (req, res) => {
-  console.log('getting mail');
+  console.log('getting returns');
   try {
     await db.connectDB();
-    const mail = await Mail.find({});
+    const returns = await Return.find({});
     await db.disconnectDB();
 
-    return res.status(200).json(mail.reverse());
+    return res.status(200).json(returns.reverse());
   } catch (errors) {
-    return res.status(500).json({ message: 'Trouble getting mail', errors });
+    return res.status(500).json({ message: 'Trouble getting returns', errors });
   }
 });
 

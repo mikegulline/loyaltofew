@@ -95,11 +95,11 @@ export async function getServerSideProps(context) {
 
   try {
     const { data } = await axios.get(
-      `${process.env.NEXT_PUBLIC_BASE_URL}api/admin/mail`
+      `${process.env.NEXT_PUBLIC_BASE_URL}api/admin/returns`
     );
     return { props: { mail: data } };
   } catch (errors) {
-    console.log({ message: 'Trouble getting mail', errors });
+    console.log({ message: 'Trouble getting returns', errors });
   }
   return { props: { mail: [] } };
 }

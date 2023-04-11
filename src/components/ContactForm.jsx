@@ -39,7 +39,7 @@ const ContactForm = () => {
   const sendMailHandler = async () => {
     try {
       setFetching('Sending message…');
-      const { data } = await axios.post('/api/admin/mail', {
+      const { data } = await axios.post('/api/admin/returns', {
         name,
         email,
         invoice,
