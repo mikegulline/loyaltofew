@@ -1,3 +1,5 @@
+//update an order in Snipcart by token
+//used in handleProcessOrder.js
 import nc from 'next-connect';
 import axios from 'axios';
 

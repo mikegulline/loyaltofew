@@ -1,7 +1,13 @@
+//Snipcart order complete webhook endpoint
+//find rates in MongoDB
+//purchase shipping from Easypost
+//update Snipcart with shipping infos
+//save orderToken, invoiceId, (more?) to MongoDB
+//delete rates placeholder
 import nc from 'next-connect';
-import db from '../../../utils/db';
-import Rate from '../../../models/rate';
-import Order from '../../../models/order';
+import db from '@/utils/db';
+import Rate from '@/models/rate';
+import Order from '@/models/order';
 import api from './utils/easyPostApi';
 import axios from 'axios';
 

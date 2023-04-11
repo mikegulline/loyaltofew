@@ -1,3 +1,5 @@
+// Get order info from Snipcart by InvoiceNumber
+// Used in pages/admin/returns/
 import nc from 'next-connect';
 import axios from 'axios';
 import getOrderByInvoiceNumber from '@/utils/getOrderByInvoiceNumber';

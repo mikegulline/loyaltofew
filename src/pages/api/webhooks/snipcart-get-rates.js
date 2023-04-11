@@ -7,8 +7,8 @@
 
 import nc from 'next-connect';
 import getRates from './utils/getRates';
-import db from '../../../utils/db';
-import Rate from '../../../models/rate';
+import db from '@/utils/db';
+import Rate from '@/models/rate';
 
 const handler = nc();
 
