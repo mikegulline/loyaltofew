@@ -1,62 +1,4 @@
-import { useRef } from 'react';
-import { useReactToPrint } from 'react-to-print';
-import Image from 'next/image';
-import {
-  SlClose,
-  SlCheck,
-  SlArrowDownCircle,
-  SlPlane,
-  SlGrid,
-} from 'react-icons/sl';
-
-const Print = ({ image, handleUpdate, metadata }) => {
-  const componentRef = useRef(null);
-  const handlePrint = useReactToPrint({
-    content: () => componentRef.current,
-  });
-  const update = {
-    status: 'Pending',
-    metadata: { ...metadata, status: 'Label Printed' },
-  };
-  const isPacked =
-    metadata.packed.reduce((acc, cur) => Number(acc + cur), [0]) ===
-    metadata.packed.length;
-
-  const disable = !isPacked;
-
-  const isPrinted =
-    metadata.status === 'Label Printed' || metadata.status === 'Shipped';
-
-  return (
-    <>
-      <div className='hidden'>
-        <div ref={componentRef} className='p-[.25in]'>
-          <Image
-            src={image}
-            width={1200}
-            height={1800}
-            className='h-[6in] w-[4in]'
-            alt='shipping label'
-          />
-        </div>
-      </div>
-      <button
-        disabled={disable}
-        onClick={async () => {
-          handlePrint();
-          await handleUpdate(update);
-        }}
-        className={`flex items-center gap-2  disabled:text-black disabled:opacity-25 ${
-          isPrinted
-            ? 'border-green-600 bg-green-100 text-green-600 hover:border-green-600 hover:bg-green-100 hover:text-green-600'
-            : 'hover:bg-black  hover:text-white disabled:bg-white'
-        }`}
-      >
-        Print Label {isPrinted ? <SlCheck /> : <SlArrowDownCircle />}
-      </button>
-    </>
-  );
-};
+import { SlClose, SlCheck } from 'react-icons/sl';
 
 const Close = ({ handleClose }) => {
   return (
@@ -69,98 +11,50 @@ const Close = ({ handleClose }) => {
   );
 };
 
-const Packed = ({ handleUpdate, metadata }) => {
-  const update = {
-    status: 'Pending',
-    metadata: {
-      ...metadata,
-      status: 'Packed',
-      packed: metadata.packed.map(() => 1),
-    },
-  };
-  const isPacked =
-    metadata.packed.reduce((acc, cur) => Number(acc + cur), [0]) ===
-    metadata.packed.length;
+const StartReturn = ({ handleUpdate, metadata }) => {
+  const isReturnStarted = metadata?.returnData?.labelSent;
+
+  const disabled = !metadata?.returnData?.returnQuantity || isReturnStarted;
 
   return (
     <button
-      onClick={async () => await handleUpdate(update)}
+      disabled={disabled}
+      onClick={async () => await handleUpdate()}
       className={`flex items-center gap-2  disabled:text-black disabled:opacity-25 ${
-        isPacked
+        isReturnStarted
           ? 'border-green-600 bg-green-100 text-green-600 hover:border-green-600 hover:bg-green-100 hover:text-green-600'
           : 'hover:bg-black  hover:text-white disabled:bg-white'
       }`}
     >
-      Packed {isPacked ? <SlCheck /> : <SlGrid />}
+      Start Return {isReturnStarted ? <SlCheck /> : null}
     </button>
   );
 };
 
-const Shipped = ({ handleUpdate, metadata }) => {
-  const update = {
-    status: 'Shipped',
-    metadata: { ...metadata, status: 'Shipped' },
-  };
-  const disabled = !(
-    metadata.status === 'Label Printed' || metadata.status === 'Shipped'
-  );
-  const isShipped = metadata.status === 'Shipped';
+const IssueRefund = ({ handleUpdate, metadata }) => {
+  const isRefunded = metadata?.returnData?.refundIssued;
+
+  const disabled = !metadata?.returnData?.labelSent || isRefunded;
+
   return (
     <button
       disabled={disabled}
-      onClick={async () => await handleUpdate(update)}
+      onClick={async () => await handleUpdate()}
       className={`flex items-center gap-2  disabled:text-black disabled:opacity-25 ${
-        isShipped
+        isRefunded
           ? 'border-green-600 bg-green-100 text-green-600 hover:border-green-600 hover:bg-green-100 hover:text-green-600'
           : 'hover:bg-black  hover:text-white disabled:bg-white'
       }`}
     >
-      Shipped {isShipped ? <SlCheck /> : <SlPlane />}
-    </button>
-  );
-};
-
-const Next = ({ disable, handleNext }) => {
-  if (disable) {
-    return (
-      <button
-        onClick={() => handleNext()}
-        className='flex w-full items-center gap-2 border-red-600 text-center  text-red-600 hover:border-red-600 hover:bg-red-600 hover:text-white '
-      >
-        Done
-      </button>
-    );
-  }
-  return (
-    <button
-      onClick={() => handleNext(1)}
-      className='flex w-full items-center gap-2  text-center hover:bg-black hover:text-white disabled:bg-white disabled:text-black disabled:opacity-25'
-    >
-      Next
-    </button>
-  );
-};
-
-const Back = ({ disable, handleNext }) => {
-  const disabled = disable;
-  return (
-    <button
-      disabled={disabled}
-      onClick={() => handleNext(-1)}
-      className='flex w-full items-center gap-2  text-center hover:bg-black hover:text-white disabled:bg-white disabled:text-black disabled:opacity-25'
-    >
-      Back
+      Issue Refund {isRefunded ? <SlCheck /> : null}
     </button>
   );
 };
 
 const Buttons = {
   Close,
-  Back,
-  Packed,
-  Print,
-  Shipped,
-  Next,
+  StartReturn,
+  IssueRefund,
 };
 
 export default Buttons;

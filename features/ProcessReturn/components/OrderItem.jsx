@@ -1,6 +1,11 @@
 import Image from 'next/image';
 
-const OrderItem = ({ item, isPacked, handleUpdateItemsPacked }) => {
+const OrderItem = ({
+  item,
+  isPacked,
+  handleUpdateItemsPacked,
+  returnTotal,
+}) => {
   const { image, quantity, description } = item;
 
   const classes = isPacked
@@ -33,9 +38,11 @@ const OrderItem = ({ item, isPacked, handleUpdateItemsPacked }) => {
       <li>{description}</li>
       <li></li>
       <li className='flex flex-1 flex-col justify-end'>
-        <div className='flex'>
-          <strong>Quantity:</strong> {quantity}
-          <div className='grow'></div>
+        <div>
+          <strong>Purchased: </strong> {quantity}
+        </div>
+        <div>
+          <strong>Return: </strong> {returnTotal}
         </div>
       </li>
     </ul>

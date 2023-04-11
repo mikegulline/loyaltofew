@@ -185,7 +185,7 @@ export const store = [
         product: 'Original Tee',
         has_image_back: true,
         logos: ['Arch', 'Block', 'Original', 'Stamp', 'Stenciled'],
-        colors: ['Navy', 'Red'],
+        colors: ['Navy', 'Baby-Blue', 'Gray', 'Maroon', 'Red'],
         tags: ['Tops'],
         weight: 3.6,
         meta: {

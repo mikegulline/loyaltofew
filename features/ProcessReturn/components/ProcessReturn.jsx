@@ -1,19 +1,13 @@
 import { useState, useCallback } from 'react';
 import handleProcessOrder from '../api/handleProcessOrder';
 import OrderItems from './OrderItems';
-import UIShipping from './UIShipping';
+import UIReturns from './UIReturns';
 import Wrapper from './Wrapper';
 import Header from './Header';
 
-export default function ProcessOrder({ order, nextClose }) {
+export default function ProcessOrder({ order, message, nextClose }) {
   const [currentOrder, setCurrentOrder] = useState(order);
   const { token, items, metadata } = currentOrder;
-
-  if (!metadata?.returns) {
-    let a = new Array(items.length);
-    for (let i = 0; i < items.length; i++) a[i] = 0;
-    metadata.returns.packed = a;
-  }
 
   const updateOrder = useCallback(
     async (update) => {
@@ -37,20 +31,18 @@ export default function ProcessOrder({ order, nextClose }) {
     updateOrder,
   };
 
-  // const uiShippingProps = {
-  //   current,
-  //   total,
-  //   metadata,
-  //   updateOrder,
-  //   label_url,
-  //   handleNextClose,
-  // };
+  const uiReturns = {
+    metadata,
+    currentOrder,
+    updateOrder,
+  };
 
   return (
     <Wrapper token={token}>
       <Header {...headerProps} />
+      <div className=' mb-8 max-h-32 overflow-y-auto'>{message}</div>
       <OrderItems {...orderItemsProps} />
-      {/* <UIShipping {...uiShippingProps} /> */}
+      <UIReturns {...uiReturns} />
     </Wrapper>
   );
 }

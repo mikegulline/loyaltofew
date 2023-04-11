@@ -52,7 +52,7 @@ export const mainMenu = [
 
 export const adminSubMenu = [
   { name: 'Orders', location: '/admin/orders' },
-  { name: 'Mail', location: '/admin/mail' },
+  { name: 'Returns', location: '/admin/returns' },
   {
     name: 'Logout',
     location: '',
