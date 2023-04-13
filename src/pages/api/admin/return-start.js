@@ -50,7 +50,7 @@ function getItemsToReturn(returnItems) {
     items += `<li>(${returnItems[key].quantity}) <a href="${returnItems[key].url}">${returnItems[key].name}</a></li>`;
   }
   console.log('items prepared');
-  return `<p><strong>Items to pack:</strong></p><ul>${items}</ul><br />`;
+  return `<p><strong>Items to pack:</strong></p><ul>${items}</ul>`;
 }
 
 function sendStartReturnEmail(email, items, label_url, carrier, refund) {
@@ -73,7 +73,7 @@ function sendStartReturnEmail(email, items, label_url, carrier, refund) {
     <li>Tape the return shipping label over the original shipping label.</li>
     <li>Pack and seal the original shipping container with the items listed below.</li> 
     <li>Drop off the package at your local ${carrier} store.</li>
-    </ol><br />
+    </ol>
     <p>Once the items have been received, we will issue a refund for $${refund.toFixed(
       2
     )}.</p><br />
