@@ -13,10 +13,10 @@ function MyApp({ Component, pageProps, session, router }) {
       <Head>
         <meta
           http-equiv='Content-Security-Policy'
-          content='connect-src, https://checkout.stripe.com;
-          frame-src, https://checkout.stripe.com;
-          script-src, https://checkout.stripe.com;
-          img-src, https://*.stripe.com'
+          content='connect-src https://checkout.stripe.com;
+          frame-src https://checkout.stripe.com;
+          script-src https://checkout.stripe.com;
+          img-src https://*.stripe.com'
         />
         <link
           rel='apple-touch-icon'
