@@ -1,7 +1,7 @@
 import Order from '@/models/order';
-import db from './db';
+import db from '@/utils/db';
 
-const getOrderByInvoiceNumber = async (invoiceNumber) => {
+const getTokenByInvoiceNumber = async (invoiceNumber) => {
   const findOrder = { invoiceNumber: invoiceNumber.toUpperCase() };
   try {
     await db.connectDB();
@@ -27,4 +27,4 @@ const getOrderByInvoiceNumber = async (invoiceNumber) => {
   }
 };
 
-export default getOrderByInvoiceNumber;
+export default getTokenByInvoiceNumber;

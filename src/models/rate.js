@@ -3,20 +3,20 @@ import mongoose from 'mongoose';
 const rateSchema = new mongoose.Schema(
   {
     cost: {
-      type: 'Number',
+      type: Number,
     },
     description: {
-      type: 'String',
+      type: String,
     },
     rate_id: {
-      type: 'String',
+      type: String,
       unique: true,
     },
     shipment_id: {
-      type: 'String',
+      type: String,
     },
     orderToken: {
-      type: 'String',
+      type: String,
     },
   },
   {

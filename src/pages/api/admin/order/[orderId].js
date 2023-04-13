@@ -2,13 +2,13 @@
 // Used in pages/admin/returns/
 import nc from 'next-connect';
 import axios from 'axios';
-import getOrderByInvoiceNumber from '@/utils/getOrderByInvoiceNumber';
+import getTokenByInvoiceNumber from '@/utils/getTokenByInvoiceNumber';
 
 const handler = new nc();
 
 handler.get(async (req, res) => {
-  const { invoiceNumber } = req.query;
-  const { orderToken, error } = await getOrderByInvoiceNumber(invoiceNumber);
+  const { orderId: invoiceNumber } = req.query;
+  const { orderToken, error } = await getTokenByInvoiceNumber(invoiceNumber);
   if (orderToken) {
     try {
       const secret = process.env.SNIPCART_SECRET + ':';
@@ -27,6 +27,28 @@ handler.get(async (req, res) => {
     }
   }
   return res.status(200).json({ error, order: null });
+});
+
+handler.put(async (req, res) => {
+  const passData = req.body;
+  const { orderId: token } = req.query;
+
+  try {
+    const secret = process.env.SNIPCART_SECRET + ':';
+    const { data } = await axios.put(
+      `https://app.snipcart.com/api/orders/${token}`,
+      passData,
+      {
+        headers: {
+          Authorization: `Basic ${btoa(secret)}`,
+          Accept: 'application/json',
+        },
+      }
+    );
+    return res.status(200).json({ data });
+  } catch (errors) {
+    console.log({ passData, errors });
+  }
 });
 
 export default handler;

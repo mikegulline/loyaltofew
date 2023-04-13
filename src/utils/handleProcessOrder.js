@@ -3,7 +3,7 @@ import axios from 'axios';
 const handleProcessOrder = async (token, update) => {
   try {
     const { data } = await axios.put(
-      `${process.env.NEXT_PUBLIC_BASE_URL}api/admin/orders/${token}`,
+      `${process.env.NEXT_PUBLIC_BASE_URL}api/admin/order/${token}`,
       update
     );
     return data;

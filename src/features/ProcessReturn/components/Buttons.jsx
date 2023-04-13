@@ -11,10 +11,11 @@ const Close = ({ handleClose }) => {
   );
 };
 
-const StartReturn = ({ handleUpdate, metadata }) => {
+const StartReturn = ({ handleUpdate, metadata, fetching }) => {
   const isReturnStarted = metadata?.returnData?.labelSent;
 
-  const disabled = !metadata?.returnData?.returnQuantity || isReturnStarted;
+  const disabled =
+    !metadata?.returnData?.returnQuantity || isReturnStarted || fetching;
 
   return (
     <button
@@ -31,10 +32,10 @@ const StartReturn = ({ handleUpdate, metadata }) => {
   );
 };
 
-const IssueRefund = ({ handleUpdate, metadata }) => {
+const IssueRefund = ({ handleUpdate, metadata, fetching }) => {
   const isRefunded = metadata?.returnData?.refundIssued;
 
-  const disabled = !metadata?.returnData?.labelSent || isRefunded;
+  const disabled = !metadata?.returnData?.labelSent || isRefunded || fetching;
 
   return (
     <button

@@ -2,67 +2,38 @@ import { useState } from 'react';
 import Buttons from './Buttons';
 import axios from 'axios';
 
-const UIShipping = ({ metadata, currentOrder, updateOrder }) => {
+const UIReturns = ({ metadata, currentOrder, updateOrder }) => {
   const [fetching, setFetching] = useState(false);
   const handleClickStartReturn = async () => {
     setFetching(true);
 
-    const status = 'Return Started';
-    const update = {
-      metadata: {
-        ...metadata,
-        returnData: {
-          ...metadata?.returnData,
-          labelSent: true,
-        },
-        status,
-      },
-    };
-
-    const { totalWeight, refund } = metadata.returnData;
-
-    const {
-      shippingAddressName,
-      shippingAddressCompanyName,
-      shippingAddressAddress1,
-      shippingAddressAddress2,
-      shippingAddressCity,
-      shippingAddressCountry,
-      shippingAddressProvince,
-      shippingAddressPostalCode,
-      shippingAddressPhone,
-      token,
-    } = currentOrder;
-    // return console.log(currentOrder);
-
-    const body = {
-      content: {
-        shippingAddressName,
-        shippingAddressCompanyName,
-        shippingAddressAddress1,
-        shippingAddressAddress2,
-        shippingAddressCity,
-        shippingAddressCountry,
-        shippingAddressProvince,
-        shippingAddressPostalCode,
-        shippingAddressPhone,
-        totalWeight,
-        refund,
-        token,
-      },
-    };
-
     try {
-      const { data } = await axios.post('/api/webhooks/startReturn', body);
+      const { data } = await axios.post('/api/admin/return-start', {
+        ...metadata,
+        email: currentOrder.email,
+        invoiceNumber: currentOrder.invoiceNumber,
+      });
 
-      // buy shipping
-
-      console.log(data);
+      const status = 'Return Started';
+      const update = {
+        metadata: {
+          ...metadata,
+          returnData: {
+            ...metadata?.returnData,
+            labelSent: true,
+          },
+          status,
+          returnInfos: {
+            ...data,
+          },
+        },
+      };
+      await updateOrder(update);
     } catch (error) {
       return console.log('error getting shipping', error);
+    } finally {
+      setFetching(false);
     }
-
-    //await updateOrder(update);
   };
 
   const handleClickIssueRefund = async () => {
@@ -86,14 +57,16 @@ const UIShipping = ({ metadata, currentOrder, updateOrder }) => {
         <Buttons.StartReturn
           handleUpdate={handleClickStartReturn}
           metadata={metadata}
+          fetching={fetching}
         />
         <Buttons.IssueRefund
           handleUpdate={handleClickIssueRefund}
           metadata={metadata}
+          fetching={fetching}
         />
       </div>
     </div>
   );
 };
 
-export default UIShipping;
+export default UIReturns;

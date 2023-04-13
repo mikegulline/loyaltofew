@@ -2,6 +2,9 @@ import mongoose from 'mongoose';
 
 const returnSchema = new mongoose.Schema(
   {
+    invoiceNumber: {
+      type: String,
+    },
     name: {
       type: String,
       required: 'Please enter your name.',
@@ -10,9 +13,6 @@ const returnSchema = new mongoose.Schema(
       type: String,
       required: 'Please enter your email address.',
       trim: true,
-    },
-    invoice: {
-      type: String,
     },
     message: {
       type: String,

@@ -99,8 +99,8 @@ handler.post(async (req, res) => {
     try {
       await db.connectDB();
       await Order.create({
-        orderToken: token,
         invoiceNumber,
+        orderToken: token,
         parcel: shipping.parcel.id,
         from_address: shipping.from_address.id,
         to_address: shipping.to_address.id,

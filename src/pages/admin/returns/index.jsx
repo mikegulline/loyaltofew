@@ -15,7 +15,7 @@ export default function Mail({ mail }) {
       if (current !== null) {
         try {
           const { data } = await axios.get(
-            `/api/admin/order/${mail[current].invoice}`
+            `/api/admin/order/${mail[current].invoiceNumber}`
           );
           if (data.order) {
             setOrder(data.order);
@@ -56,25 +56,27 @@ export default function Mail({ mail }) {
         <ul
           className={`my-6 flex flex-col gap-1 border-y-4 border-red-600 border-b-gray-500 py-6`}
         >
-          {mail?.map(({ _id, name, email, invoice, message, status }, i) => {
-            return (
-              <li
-                key={_id}
-                className={`flex cursor-pointer items-center gap-4 rounded border p-4 hover:border-green-600 hover:bg-green-100`}
-                onClick={() => {
-                  setCurrent(i);
-                  setMessage(message);
-                }}
-              >
-                <div className='w-20'>
-                  <strong>{invoice}</strong>
-                </div>
-                <div className={` w-40 truncate`}>{name}</div>
-                <div>{status}</div>
-                <div className={`flex grow justify-end`}>{email}</div>
-              </li>
-            );
-          })}
+          {mail?.map(
+            ({ _id, name, email, invoiceNumber, message, status }, i) => {
+              return (
+                <li
+                  key={_id}
+                  className={`flex cursor-pointer items-center gap-4 rounded border p-4 hover:border-green-600 hover:bg-green-100`}
+                  onClick={() => {
+                    setCurrent(i);
+                    setMessage(message);
+                  }}
+                >
+                  <div className='w-20'>
+                    <strong>{invoiceNumber}</strong>
+                  </div>
+                  <div className={` w-40 truncate`}>{name}</div>
+                  <div>{status}</div>
+                  <div className={`flex grow justify-end`}>{email}</div>
+                </li>
+              );
+            }
+          )}
         </ul>
       </Container>
     </>

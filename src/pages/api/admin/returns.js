@@ -8,7 +8,7 @@
 import nc from 'next-connect';
 import Return from '@/models/return';
 import db from '@/utils/db';
-import emailContactForm from '@/email/emailContactForm';
+import emailTemplate from '@/email/emailTemplate';
 
 const handler = new nc();
 
@@ -18,20 +18,19 @@ handler.post(async (req, res) => {
 
     if (invoice) {
       await db.connectDB();
-
+      const invoiceNumber = invoice.toUpperCase();
       // @NTU need to update…
       // look for invoiceNumber in Orders DB
       // send error if no match
       // change Mail to Returns
-      await new Return({ name, email, invoice, message }).save();
+      await new Return({ name, email, invoiceNumber, message }).save();
       await db.disconnectDB();
     }
 
     const sgMail = require('@sendgrid/mail');
     sgMail.setApiKey(process.env.SENDGRID_FULL_API);
     const msg = {
-      to: 'mike@mikegulline.com',
-      // to: 'orders@loyaltofew.com',
+      to: process.env.EMAIL,
       from: 'orders@loyaltofew.com',
       subject:
         'LTF Contact Form' + (invoice ? ' (Invoice: ' + invoice + ')' : ''),
@@ -41,7 +40,7 @@ handler.post(async (req, res) => {
     ${invoice ? `Invoice:  ${invoice}` : ``}
 
     ${message}`,
-      html: emailContactForm(`
+      html: emailTemplate(`
           <p><strong>From:</strong> ${name}<br />
           <strong>Email:</strong> ${email}
           ${invoice ? `<br /><strong>Invoice:</strong>  ${invoice}` : ``}</p>

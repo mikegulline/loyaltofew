@@ -7,8 +7,8 @@ const OrderItems = ({ items, metadata, updateOrder }) => {
   if (metadata?.returns) {
     delete metadata.returns;
   }
-  if (!metadata?.return) {
-    metadata = { ...metadata, return: {} };
+  if (!metadata?.returnItems) {
+    metadata = { ...metadata, returnItems: {} };
   }
   // console.log(metadata);
   return (
@@ -22,19 +22,19 @@ const OrderItems = ({ items, metadata, updateOrder }) => {
             updateOrder({
               metadata: {
                 ...metadata,
-                return: updatePacked,
+                returnItems: updatePacked,
                 returnData,
               },
             });
           }
         };
         const returnTotal =
-          metadata?.return[item.uniqueId]?.returnQuantity || 0;
+          metadata?.returnItems[item.uniqueId]?.returnQuantity || 0;
         return (
           <OrderItem
             key={item.id}
             item={item}
-            isPacked={item.uniqueId in metadata.return}
+            isPacked={item.uniqueId in metadata.returnItems}
             returnTotal={returnTotal}
             handleUpdateItemsPacked={updateItemsReturn}
           />
@@ -45,8 +45,8 @@ const OrderItems = ({ items, metadata, updateOrder }) => {
 };
 
 const processUpdatePacked = (item, metadata) => {
-  const { quantity, price, weight, name, uniqueId } = item;
-  const updatePacked = { ...metadata.return };
+  const { quantity, price, weight, name, uniqueId, url, image } = item;
+  const updatePacked = { ...metadata.returnItems };
   if (
     uniqueId in updatePacked &&
     updatePacked[uniqueId].returnQuantity === quantity
@@ -64,6 +64,8 @@ const processUpdatePacked = (item, metadata) => {
       price,
       weight,
       name,
+      url,
+      image,
       returnQuantity: 1,
       refund: price,
       totalWeight: weight,
