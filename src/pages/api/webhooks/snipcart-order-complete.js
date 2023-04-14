@@ -16,7 +16,7 @@ const handler = nc();
 handler.post(async (req, res) => {
   const {
     eventName,
-    content: { items, token, shippingFees, invoiceNumber },
+    content: { items, token, shippingFees, email, invoiceNumber },
   } = { ...req.body };
 
   if (eventName === 'order.completed') {
@@ -77,6 +77,7 @@ handler.post(async (req, res) => {
           tracking_url: tracking.public_url,
           label_url: shipping.postage_label.label_url,
           label_size: shipping.postage_label.label_size,
+          email,
           status: 'Pending',
           packed: a,
         },
