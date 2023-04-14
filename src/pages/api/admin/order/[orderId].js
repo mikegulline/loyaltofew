@@ -1,16 +1,16 @@
-// Get order info from Snipcart by _numberNumber
+// Get order info from Snipcart by InvoiceNumber
 // Used in pages/admin/returns/
 import nc from 'next-connect';
 import axios from 'axios';
-import getTokenBy_numberNumber from '@/utils/getTokenBy_numberNumber';
+import getTokenByInvoiceNumber from '@/utils/getTokenByInvoiceNumber';
 import emailTemplate from '@/email/emailTemplate';
 
 const handler = new nc();
 
 // get order info from snipcart
 handler.get(async (req, res) => {
-  const { orderId: _numberNumber } = req.query;
-  const { orderToken, error } = await getTokenBy_numberNumber(_numberNumber);
+  const { orderId: invoiceNumber } = req.query;
+  const { orderToken, error } = await getTokenByInvoiceNumber(invoiceNumber);
   if (orderToken) {
     try {
       const secret = process.env.SNIPCART_SECRET + ':';
