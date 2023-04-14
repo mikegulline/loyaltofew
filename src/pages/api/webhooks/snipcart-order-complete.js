@@ -65,11 +65,11 @@ handler.post(async (req, res) => {
       const trackingForSnipcart = {
         status: 'Pending',
         trackingNumber: shipping.tracking_code,
-        email,
         trackingUrl: tracking.public_url,
         metadata: {
           order_token: token,
           invoice_number: invoiceNumber,
+          email,
           parcel: { id: shipping.parcel.id },
           to_address: { id: shipping.to_address.id },
           from_address: { id: shipping.from_address.id },

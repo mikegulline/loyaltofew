@@ -65,6 +65,7 @@ handler.put(async (req, res) => {
 ////////////////////////
 
 function sendTrackingEmail(email, tracking_url, invoice_number) {
+  console.log(email, tracking_url, invoice_number);
   const sgMail = require('@sendgrid/mail');
   sgMail.setApiKey(process.env.SENDGRID_FULL_API);
   const msg = {
@@ -85,7 +86,7 @@ function sendTrackingEmail(email, tracking_url, invoice_number) {
   return;
 }
 
-function textEmail(tracking_url) {
+function textEmail(tracking_url, invoice_number) {
   return `
 Order Packed (${invoice_number})
 
@@ -102,7 +103,7 @@ Owner, Loyal To Few
   `;
 }
 
-function htmlEmail(tracking_url) {
+function htmlEmail(tracking_url, invoice_number) {
   const body = `
   <h2>Order Packed (${invoice_number})</h2>
   <p>Your order has been packed and will be shipped either today or tomorrow.</p>
