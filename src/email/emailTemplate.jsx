@@ -25,7 +25,7 @@ export default function emailTemplate(content) {
       <style type="text/css">
         body, p, div {
           font-family: arial;
-          font-size: 14px;
+          font-size: 16px;
         }
         body {
           color: #000000;
@@ -34,7 +34,8 @@ export default function emailTemplate(content) {
           color: #1188E6;
           text-decoration: none;
         }
-        p { margin: 0; padding: 0; }
+        p { margin: 20px 0; padding: 0; }
+        ul, ol { margin: 20px 0;}
         table.wrapper {
           width:100% !important;
           table-layout: fixed;

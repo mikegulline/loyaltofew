@@ -2,8 +2,14 @@ import { useState } from 'react';
 import Buttons from './Buttons';
 import axios from 'axios';
 
-const UIReturns = ({ metadata, currentOrder, updateOrder }) => {
-  const [fetching, setFetching] = useState(false);
+const UIReturns = ({
+  metadata,
+  currentOrder,
+  updateOrder,
+  setStatus,
+  fetching,
+  setFetching,
+}) => {
   const handleClickStartReturn = async () => {
     setFetching(true);
 
@@ -14,13 +20,13 @@ const UIReturns = ({ metadata, currentOrder, updateOrder }) => {
         invoiceNumber: currentOrder.invoiceNumber,
       });
 
-      const status = 'Return Started';
+      const status = 'RETURN STARTED';
       const update = {
         metadata: {
           ...metadata,
           returnData: {
             ...metadata?.returnData,
-            labelSent: true,
+            labelSent: new Date().toLocaleDateString(),
           },
           status,
           returnInfos: {
@@ -28,6 +34,7 @@ const UIReturns = ({ metadata, currentOrder, updateOrder }) => {
           },
         },
       };
+      setStatus(status);
       await updateOrder(update);
     } catch (error) {
       return console.log('error getting shipping', error);

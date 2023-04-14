@@ -5,8 +5,10 @@ import UIReturns from './UIReturns';
 import Wrapper from './Wrapper';
 import Header from './Header';
 
-export default function ProcessOrder({ order, message, nextClose }) {
+export default function ProcessOrder({ order, message, handleClose }) {
+  const [fetching, setFetching] = useState(false);
   const [currentOrder, setCurrentOrder] = useState(order);
+  const [status, setStatus] = useState(null);
   const { token, items, metadata } = currentOrder;
 
   const updateOrder = useCallback(
@@ -18,11 +20,15 @@ export default function ProcessOrder({ order, message, nextClose }) {
     [token, currentOrder]
   );
 
-  const handleNextClose = useCallback((next) => nextClose(), [nextClose]);
+  const handleCloseWithStatus = useCallback(
+    () => handleClose(status),
+    [handleClose, status]
+  );
 
   const headerProps = {
+    fetching,
     currentOrder,
-    handleNextClose,
+    handleClose: handleCloseWithStatus,
   };
 
   const orderItemsProps = {
@@ -35,6 +41,9 @@ export default function ProcessOrder({ order, message, nextClose }) {
     currentOrder,
     metadata,
     updateOrder,
+    setStatus,
+    fetching,
+    setFetching,
   };
 
   return (

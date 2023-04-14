@@ -65,8 +65,8 @@ function sendStartReturnEmail(email, items, label_url, carrier, refund) {
     ${label_url}`,
     html: emailTemplate(`
     <h2>Return started.</h2>
-    <p>Sorry to hear you are not 100% satisfied with your order.</p><br />
-    <p>Please follow the instructions below to return your items.</p><br />
+    <p>Sorry to hear you are not 100% satisfied with your order.</p>
+    <p>Please follow the instructions below to return your items.</p>
     <p><strong>Instructions:</strong></p>
     <ol>
     <li>Find and print the return shipping label attached.</li>
@@ -76,12 +76,12 @@ function sendStartReturnEmail(email, items, label_url, carrier, refund) {
     </ol>
     <p>Once the items have been received, we will issue a refund for $${refund.toFixed(
       2
-    )}.</p><br />
-    <p>We will notify you by email when your refund has been issued</p><br />
+    )}.</p>
+    <p>We will notify you by email when your refund has been issued</p>
     ${items}
-    <p>Thank you for being a loyal customer.<br/>Matt Sagoian<br/>Owner, Loyal To Few</p><br />
-    <p>If you are having trouble finding the shipping label in this email, please <a href="${label_url}">click here to view your shipping label online</a>.</p><br />
-    <p><img src="${label_url}" alt="shipping label" style="width: 350px; height: auto" /></p>
+    <p>Thank you for being a loyal customer,<br/>Matt Sagoian<br/>Owner, Loyal To Few</p>
+    <p>If you are having trouble finding the shipping label in this email, please <a href="${label_url}">click here to view your shipping label online</a>.</p>
+    <center><a href="${label_url}"><img src="${label_url}" alt="shipping label" style="width: 350px; max-width: 100%; height: auto" /></a></center>
     `),
   };
   sgMail

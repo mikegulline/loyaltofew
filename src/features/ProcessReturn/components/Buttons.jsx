@@ -4,7 +4,7 @@ const Close = ({ handleClose }) => {
   return (
     <button
       onClick={() => handleClose()}
-      className='bg flex h-14 w-14 cursor-pointer items-center justify-center rounded-full border-none bg-[#d61818] text-xl text-white outline-0 hover:bg-black'
+      className='bg absolute top-10 right-10 flex h-14 w-14 cursor-pointer items-center justify-center rounded-full border-none bg-[#d61818] text-xl text-white outline-0 hover:bg-black'
     >
       <SlClose />
     </button>

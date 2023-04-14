@@ -1,18 +1,13 @@
 import { H1 } from '@/components/Type';
 import Buttons from './Buttons';
 
-const Header = ({ currentOrder, handleNextClose }) => {
+const Header = ({ currentOrder, handleClose, fetching }) => {
   const {
     finalGrandTotal,
     items,
     invoiceNumber,
     creationDate,
     shippingAddressName,
-    shippingAddressAddress1,
-    shippingAddressAddress2,
-    shippingAddressPostalCode,
-    shippingAddressProvince,
-    shippingAddressCity,
     email,
     metadata,
   } = currentOrder;
@@ -27,49 +22,74 @@ const Header = ({ currentOrder, handleNextClose }) => {
       <div className=' absolute left-0 top-0 w-full bg-red-600 text-center  text-sm text-white'>
         RETURNS
       </div>
-      <H1 className='mb-4 flex items-center gap-1 text-gray-800'>
-        <span className='flex-1'>{invoiceNumber}</span>
-        <Buttons.Close handleClose={handleNextClose} />
-      </H1>
+      <Buttons.Close handleClose={handleClose} />
       <ul className='flex gap-6'>
-        <li className='flex flex-col items-center justify-center rounded border border-gray-800 py-2 px-6'>
-          <p className='font text-[50px] font-black leading-none text-gray-800'>
-            {totalItems}
-          </p>
-          <p className=' text-xs font-bold uppercase leading-none text-gray-800'>
-            Items
-          </p>
-        </li>
-        <li className='flex items-center'>
+        <li className='flex'>
           <p className='text-gray-800'>
-            <strong>{shippingAddressName}</strong>
+            <strong>{invoiceNumber}</strong>
+
             <br />
-            {shippingAddressAddress1}{' '}
-            {shippingAddressAddress2 ? shippingAddressAddress2 : ''}
-            <br />
-            {shippingAddressCity}, {shippingAddressProvince}{' '}
-            {shippingAddressPostalCode}
+            <a
+              href={`mailto: ${email}`}
+              title={`Click to email ${shippingAddressName}`}
+              className='text-red-600 underline'
+            >
+              {shippingAddressName}
+            </a>
           </p>
         </li>
-        <li className='flex items-center pl-8'>
+        <li className='flex pl-8'>
           <p className='text-gray-800'>
             <strong>Purchase: ${finalGrandTotal.toFixed(2)}</strong>
             <br />
-            {date.toLocaleDateString()} @ {date.toLocaleTimeString()}
+            Items: {totalItems}
             <br />
-            {email}
+            {date.toLocaleDateString()}
           </p>
         </li>
         {'returnData' in metadata && metadata.returnData.refund > 0 && (
-          <li className='flex items-center pl-8'>
+          <li className='flex pl-8'>
             <p className='text-gray-800'>
               <strong>Refund: ${metadata.returnData.refund.toFixed(2)}</strong>
               <br />
-              {new Date().toLocaleDateString()} @{' '}
-              {new Date().toLocaleTimeString()}
-              <br />
               Items: {metadata.returnData.returnQuantity}
+              <br />
+              {!metadata.returnData?.labelSent
+                ? 'Click Start Return to process'
+                : metadata.returnData?.labelSent}
             </p>
+          </li>
+        )}
+        {'returnInfos' in metadata && metadata.returnInfos?.label_url ? (
+          <li className='flex pl-8'>
+            <p className='text-gray-800'>
+              <strong>{metadata.status}</strong>
+              <br />
+              <a
+                href={metadata.returnInfos.label_url}
+                className='text-red-600 underline'
+                target='_blank'
+                rel='noreferrer'
+              >
+                Shipping Label
+              </a>{' '}
+              (${metadata.returnInfos?.rate})
+              <br />
+              <a
+                href={metadata.returnInfos.tracking_url}
+                className='text-red-600 underline'
+                target='_blank'
+                rel='noreferrer'
+              >
+                Track Package
+              </a>
+            </p>
+          </li>
+        ) : (
+          <li className='flex items-center pl-8 '>
+            {fetching && (
+              <p className='text-gray-800'>Geting label and tracking…</p>
+            )}
           </li>
         )}
       </ul>

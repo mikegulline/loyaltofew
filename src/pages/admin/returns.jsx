@@ -5,17 +5,20 @@ import { H1 } from '@/components/Type';
 import Container from '@/components/Container';
 import { ProcessReturn } from '@/features/ProcessReturn';
 
-export default function Mail({ mail }) {
-  const [current, setCurrent] = useState(null);
+export default function Returns({ passReturns }) {
+  const [returns, setReturns] = useState(passReturns);
+  const [currentInvoice, setCurrentInvoice] = useState(null);
+  const [currentIndex, setCurrentIndex] = useState(null);
   const [order, setOrder] = useState(null);
   const [message, setMessage] = useState(null);
+  const [currentStatus, setCurrentStatus] = useState(null);
 
   useEffect(() => {
     const getOrder = async () => {
-      if (current !== null) {
+      if (currentInvoice !== null) {
         try {
           const { data } = await axios.get(
-            `/api/admin/order/${mail[current].invoiceNumber}`
+            `/api/admin/order/${currentInvoice}`
           );
           if (data.order) {
             setOrder(data.order);
@@ -25,26 +28,30 @@ export default function Mail({ mail }) {
       }
     };
     getOrder();
-  }, [current, mail]);
+  }, [currentInvoice]);
 
-  const handleNextClose = (next) => {
-    if (!next) {
-      setCurrent(null);
-      setMessage(null);
-      setOrder(null);
-    } else setCurrent((c) => Number(c + next));
+  const handleClose = (status) => {
+    if (status && order.status !== status) {
+      setReturns(
+        returns.map((r, i) =>
+          i === currentIndex ? { ...r, status: status } : r
+        )
+      );
+    }
+    setCurrentStatus(null);
+    setCurrentIndex(null);
+    setCurrentInvoice(null);
+    setMessage(null);
+    setOrder(null);
   };
 
   const Overlay = () =>
-    current !== null && order !== null ? (
-      // <MailProcessOverlay
-      //   mail={mail[current]}
-      //   handleNextClose={handleNextClose}
-      // />
+    currentInvoice !== null && order !== null ? (
       <ProcessReturn
         order={order}
         message={message}
-        nextClose={handleNextClose}
+        status={currentStatus}
+        handleClose={handleClose}
       />
     ) : null;
 
@@ -56,15 +63,17 @@ export default function Mail({ mail }) {
         <ul
           className={`my-6 flex flex-col gap-1 border-y-4 border-red-600 border-b-gray-500 py-6`}
         >
-          {mail?.map(
+          {returns?.map(
             ({ _id, name, email, invoiceNumber, message, status }, i) => {
               return (
                 <li
                   key={_id}
                   className={`flex cursor-pointer items-center gap-4 rounded border p-4 hover:border-green-600 hover:bg-green-100`}
                   onClick={() => {
-                    setCurrent(i);
+                    setCurrentIndex(i);
+                    setCurrentInvoice(returns[i].invoiceNumber);
                     setMessage(message);
+                    setCurrentStatus(status);
                   }}
                 >
                   <div className='w-20'>
@@ -99,9 +108,9 @@ export async function getServerSideProps(context) {
     const { data } = await axios.get(
       `${process.env.NEXT_PUBLIC_BASE_URL}api/admin/returns`
     );
-    return { props: { mail: data } };
+    return { props: { passReturns: data } };
   } catch (errors) {
     console.log({ message: 'Trouble getting returns', errors });
   }
-  return { props: { mail: [] } };
+  return { props: { passReturns: [] } };
 }

@@ -13,6 +13,7 @@ handler.get(async (req, res) => {
     try {
       const secret = process.env.SNIPCART_SECRET + ':';
       const { data } = await axios.get(
+        // `https://app.snipcart.com/api/orders?invoiceNumber=${invoiceNumber}`,
         `https://app.snipcart.com/api/orders/${orderToken}`,
         {
           headers: {
