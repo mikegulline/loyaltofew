@@ -18,9 +18,9 @@ export default function ProcessOrder({ orders, current, nextClose }) {
   } = currentOrder;
 
   const updateOrder = useCallback(
-    async (update) => {
+    async (update, ship = null) => {
       setCurrentOrder({ ...currentOrder, ...update });
-      const { data } = await handleProcessOrder(token, update);
+      const { data } = await handleProcessOrder(token, update, ship);
       return data;
     },
     [token, currentOrder]

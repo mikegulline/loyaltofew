@@ -127,7 +127,7 @@ async function getShipping(req) {
       label_size: shipping.postage_label.label_size,
       tracking_url: tracking.public_url,
       tracking_number: shipping.tracking_code,
-      tracker_Id: shipping.tracker.id,
+      tracker_id: shipping.tracker.id,
       shipment_id: shipping.selected_rate.shipment_id,
       service: shipping.selected_rate.service,
       carrier: shipping.selected_rate.carrier,

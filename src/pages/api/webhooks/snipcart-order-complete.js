@@ -74,6 +74,7 @@ handler.post(async (req, res) => {
           tracker_id: shipping.tracker.id,
           rate_id: rates[0].rate_id,
           rate: rates[0].cost,
+          tracking_url: tracking.public_url,
           label_url: shipping.postage_label.label_url,
           label_size: shipping.postage_label.label_size,
           status: 'Pending',

@@ -34,6 +34,10 @@ handler.put(async (req, res) => {
   const passData = req.body;
   const { orderId: token } = req.query;
 
+  if (req.query?.ship) {
+    // email tracking infos
+    console.log('ship', passData);
+  }
   try {
     const secret = process.env.SNIPCART_SECRET + ':';
     const { data } = await axios.put(

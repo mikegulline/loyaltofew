@@ -27,8 +27,8 @@ const UIReturns = ({
           returnData: {
             ...metadata?.returnData,
             labelSent: new Date().toLocaleDateString(),
+            status,
           },
-          status,
           returnInfos: {
             ...data,
           },

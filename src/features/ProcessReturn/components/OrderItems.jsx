@@ -90,6 +90,7 @@ const processReturnData = (updatePacked) =>
       totalWeight: 0,
       labelSent: false,
       refundIssued: false,
+      status: 'PENDING',
     }
   );
 

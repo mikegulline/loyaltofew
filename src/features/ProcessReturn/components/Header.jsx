@@ -63,10 +63,11 @@ const Header = ({ currentOrder, handleClose, fetching }) => {
         {'returnInfos' in metadata && metadata.returnInfos?.label_url ? (
           <li className='flex pl-8'>
             <p className='text-gray-800'>
-              <strong>{metadata.status}</strong>
+              <strong>{metadata.returnData.status}</strong>
               <br />
               <a
                 href={metadata.returnInfos.label_url}
+                title='Click to view shipping label'
                 className='text-red-600 underline'
                 target='_blank'
                 rel='noreferrer'
@@ -77,6 +78,7 @@ const Header = ({ currentOrder, handleClose, fetching }) => {
               <br />
               <a
                 href={metadata.returnInfos.tracking_url}
+                title='Click to track package'
                 className='text-red-600 underline'
                 target='_blank'
                 rel='noreferrer'

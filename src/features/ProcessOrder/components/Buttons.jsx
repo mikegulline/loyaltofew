@@ -105,10 +105,11 @@ const Shipped = ({ handleUpdate, metadata }) => {
     metadata.status === 'Label Printed' || metadata.status === 'Shipped'
   );
   const isShipped = metadata.status === 'Shipped';
+  const ship = true;
   return (
     <button
       disabled={disabled}
-      onClick={async () => await handleUpdate(update)}
+      onClick={async () => await handleUpdate(update, ship)}
       className={`flex items-center gap-2  disabled:text-black disabled:opacity-25 ${
         isShipped
           ? 'border-green-600 bg-green-100 text-green-600 hover:border-green-600 hover:bg-green-100 hover:text-green-600'
