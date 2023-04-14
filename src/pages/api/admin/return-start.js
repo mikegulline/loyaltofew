@@ -18,7 +18,14 @@ handler.post(async (req, res) => {
   } = await getShipping(req);
 
   // send email
-  sendStartReturnEmail(email, label_url, carrier, refund, returnItems);
+  sendStartReturnEmail(
+    email,
+    invoiceNumber,
+    label_url,
+    carrier,
+    refund,
+    returnItems
+  );
 
   // update mongo
   await updateReturnsDB(invoiceNumber);
@@ -54,16 +61,23 @@ function getItemsToReturn(returnItems) {
   return `<p><strong>Items to pack:</strong></p><ul>${items}</ul>`;
 }
 
-function sendStartReturnEmail(email, label_url, carrier, refund, returnItems) {
+function sendStartReturnEmail(
+  email,
+  invoiceNumber,
+  label_url,
+  carrier,
+  refund,
+  returnItems
+) {
   const items = getItemsToReturn(returnItems);
   const sgMail = require('@sendgrid/mail');
   sgMail.setApiKey(process.env.SENDGRID_FULL_API);
   const msg = {
     to: email,
     from: 'orders@loyaltofew.com',
-    subject: `LTF: Returns`,
-    text: textEmail(carrier, refund, label_url),
-    html: htmlEmail(carrier, refund, label_url, items),
+    subject: `LTF: Returns (${invoiceNumber})`,
+    text: textEmail(carrier, invoiceNumber, refund, label_url),
+    html: htmlEmail(carrier, invoiceNumber, refund, label_url, items),
   };
   sgMail
     .send(msg)
@@ -76,8 +90,8 @@ function sendStartReturnEmail(email, label_url, carrier, refund, returnItems) {
   return;
 }
 
-function textEmail(carrier, refund, label_url) {
-  return `Return started.
+function textEmail(carrier, invoiceNumber, refund, label_url) {
+  return `Return started  (${invoiceNumber})
 
   Sorry to hear you are not 100% satisfied with your order.
   
@@ -103,9 +117,9 @@ function textEmail(carrier, refund, label_url) {
   Shipping Label URL: ${label_url}`;
 }
 
-function htmlEmail() {
+function htmlEmail(carrier, invoiceNumber, refund, label_url, items) {
   const body = `
-  <h2>Return started.</h2>
+  <h2>Return started (${invoiceNumber})</h2>
   Sorry to hear you are not 100% satisfied with your order.</p>
   <p>Please follow the instructions below to return your items.</p>
   <p><strong>Instructions:</strong></p>

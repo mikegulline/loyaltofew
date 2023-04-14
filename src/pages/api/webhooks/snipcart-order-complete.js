@@ -65,6 +65,7 @@ handler.post(async (req, res) => {
       const trackingForSnipcart = {
         status: 'Pending',
         trackingNumber: shipping.tracking_code,
+        email,
         trackingUrl: tracking.public_url,
         metadata: {
           order_token: token,
@@ -79,7 +80,6 @@ handler.post(async (req, res) => {
           tracking_url: tracking.public_url,
           label_url: shipping.postage_label.label_url,
           label_size: shipping.postage_label.label_size,
-          email,
           status: 'Pending',
           packed: a,
         },

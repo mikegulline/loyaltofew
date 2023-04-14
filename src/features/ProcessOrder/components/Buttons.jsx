@@ -22,10 +22,10 @@ const Print = ({ image, handleUpdate, metadata }) => {
     metadata.packed.reduce((acc, cur) => Number(acc + cur), [0]) ===
     metadata.packed.length;
 
-  const disable = !isPacked;
-
   const isPrinted =
     metadata.status === 'Label Printed' || metadata.status === 'Shipped';
+
+  const disable = !isPacked || isPrinted;
 
   return (
     <>
@@ -84,6 +84,7 @@ const Packed = ({ handleUpdate, metadata }) => {
 
   return (
     <button
+      disabled={isPacked}
       onClick={async () => await handleUpdate(update)}
       className={`flex items-center gap-2  disabled:text-black disabled:opacity-25 ${
         isPacked
@@ -101,9 +102,8 @@ const Shipped = ({ handleUpdate, metadata }) => {
     status: 'Shipped',
     metadata: { ...metadata, status: 'Shipped' },
   };
-  const disabled = !(
-    metadata.status === 'Label Printed' || metadata.status === 'Shipped'
-  );
+  const disabled =
+    metadata.status !== 'Label Printed' || metadata.status === 'Shipped';
   const isShipped = metadata.status === 'Shipped';
   const ship = true;
   return (

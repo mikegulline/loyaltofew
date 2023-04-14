@@ -1,6 +1,6 @@
 import OrderItem from './OrderItem';
 
-const OrderItems = ({ items, metadata, updateOrder }) => {
+const OrderItems = ({ items, metadata, updateOrder, fetching }) => {
   if (metadata?.shipping) {
     delete metadata.shipping;
   }
@@ -15,7 +15,7 @@ const OrderItems = ({ items, metadata, updateOrder }) => {
     <ul className='flex justify-center gap-4'>
       {items.map((item, i) => {
         const updateItemsReturn = () => {
-          if (!metadata?.returnData?.labelSent) {
+          if (!metadata?.returnData?.labelSent && !fetching) {
             const updatePacked = processUpdatePacked(item, metadata);
             const returnData = processReturnData(updatePacked);
 

@@ -5,13 +5,21 @@ const OrderItems = ({ items, metadata, updateOrder }) => {
       {items.map((item, i) => {
         const updateItemsPacked = () => {
           const updatePacked = [...metadata.packed];
-          updatePacked[i] = updatePacked[i] ? 0 : 1;
-          updateOrder({
-            metadata: {
-              ...metadata,
-              packed: updatePacked,
-            },
-          });
+          if (!updatePacked[i]) {
+            const status =
+              updatePacked.reduce((acc, cur) => Number(acc + cur), [0]) ===
+              updatePacked.length - 1
+                ? 'Packed'
+                : 'Pending';
+            updatePacked[i] = 1;
+            updateOrder({
+              metadata: {
+                ...metadata,
+                packed: updatePacked,
+                status,
+              },
+            });
+          }
         };
 
         return (

@@ -32,6 +32,7 @@ export default function ProcessOrder({ order, message, handleClose }) {
   };
 
   const orderItemsProps = {
+    fetching,
     items,
     metadata,
     updateOrder,
