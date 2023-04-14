@@ -67,6 +67,8 @@ handler.post(async (req, res) => {
         trackingNumber: shipping.tracking_code,
         trackingUrl: tracking.public_url,
         metadata: {
+          order_token: token,
+          invoice_number: invoiceNumber,
           parcel: { id: shipping.parcel.id },
           to_address: { id: shipping.to_address.id },
           from_address: { id: shipping.from_address.id },

@@ -17,17 +17,18 @@ handler.post(async (req, res) => {
     shippingInfo: { label_url, carrier },
   } = await getShipping(req);
 
-  // prepare list of return items for email
-  const items = getItemsToReturn(returnItems);
-
   // send email
-  sendStartReturnEmail(email, items, label_url, carrier, refund);
+  sendStartReturnEmail(email, label_url, carrier, refund, returnItems);
 
   // update mongo
   await updateReturnsDB(invoiceNumber);
 
   return res.json(shippingInfo);
 });
+
+////////////////////////
+// helper funcitions
+////////////////////////
 
 async function updateReturnsDB(invoiceNumber) {
   try {
@@ -53,36 +54,16 @@ function getItemsToReturn(returnItems) {
   return `<p><strong>Items to pack:</strong></p><ul>${items}</ul>`;
 }
 
-function sendStartReturnEmail(email, items, label_url, carrier, refund) {
+function sendStartReturnEmail(email, label_url, carrier, refund, returnItems) {
+  const items = getItemsToReturn(returnItems);
   const sgMail = require('@sendgrid/mail');
   sgMail.setApiKey(process.env.SENDGRID_FULL_API);
   const msg = {
     to: email,
     from: 'orders@loyaltofew.com',
-    subject: `LTF Returns`,
-    text: `Return started.
-    
-    ${label_url}`,
-    html: emailTemplate(`
-    <h2>Return started.</h2>
-    <p>Sorry to hear you are not 100% satisfied with your order.</p>
-    <p>Please follow the instructions below to return your items.</p>
-    <p><strong>Instructions:</strong></p>
-    <ol>
-    <li>Find and print the return shipping label attached.</li>
-    <li>Tape the return shipping label over the original shipping label.</li>
-    <li>Pack and seal the original shipping container with the items listed below.</li> 
-    <li>Drop off the package at your local ${carrier} store.</li>
-    </ol>
-    <p>Once the items have been received, we will issue a refund for $${refund.toFixed(
-      2
-    )}.</p>
-    <p>We will notify you by email when your refund has been issued</p>
-    ${items}
-    <p>Thank you for being a loyal customer,<br/>Matt Sagoian<br/>Owner, Loyal To Few</p>
-    <p>If you are having trouble finding the shipping label in this email, please <a href="${label_url}">click here to view your shipping label online</a>.</p>
-    <center><a href="${label_url}"><img src="${label_url}" alt="shipping label" style="width: 350px; max-width: 100%; height: auto" /></a></center>
-    `),
+    subject: `LTF: Returns`,
+    text: textEmail(carrier, refund, label_url),
+    html: htmlEmail(carrier, refund, label_url, items),
   };
   sgMail
     .send(msg)
@@ -93,6 +74,57 @@ function sendStartReturnEmail(email, items, label_url, carrier, refund) {
       console.error('error in sendStartReturnEmail()', error);
     });
   return;
+}
+
+function textEmail(carrier, refund, label_url) {
+  return `Return started.
+
+  Sorry to hear you are not 100% satisfied with your order.
+  
+  Please follow the instructions below to return your items.
+  
+  Instructions:
+  
+  1.) Use the URL below to print the return shipping label.
+  2.) Tape the return shipping label over the original shipping label.
+  3.) Pack and seal the original shipping container with the return items. 
+  4.) Drop off the package at your local ${carrier} store.
+  
+  Once the items have been received, we will issue a refund for $${refund.toFixed(
+    2
+  )}.
+      
+  We will notify you by email when your refund has been issued
+  
+  Thank you for being a loyal customer,
+  Matt Sagoian
+  Owner, Loyal To Few
+  
+  Shipping Label URL: ${label_url}`;
+}
+
+function htmlEmail() {
+  const body = `
+  <h2>Return started.</h2>
+  Sorry to hear you are not 100% satisfied with your order.</p>
+  <p>Please follow the instructions below to return your items.</p>
+  <p><strong>Instructions:</strong></p>
+  <ol>
+  <li>Find and print the return shipping label attached.</li>
+  <li>Tape the return shipping label over the original shipping label.</li>
+  <li>Pack and seal the original shipping container with the items listed below.</li> 
+  <li>Drop off the package at your local ${carrier} store.</li>
+  </ol>
+  <p>Once the items have been received, we will issue a refund for $${refund.toFixed(
+    2
+  )}.</p>
+  <p>We will notify you by email when your refund has been issued</p>
+  ${items}
+  <p>Thank you for being a loyal customer,<br/>Matt Sagoian<br/>Owner, Loyal To Few</p>
+  <p>If you are having trouble finding the shipping label in this email, please <a href="${label_url}">click here to view your shipping label online</a>.</p>
+  <center><a href="${label_url}"><img src="${label_url}" alt="shipping label" style="width: 350px; max-width: 100%; height: auto" /></a></center>
+  `;
+  return emailTemplate(body);
 }
 
 async function getShipping(req) {

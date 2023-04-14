@@ -38,7 +38,7 @@ handler.put(async (req, res) => {
 
   if (req.query?.ship) {
     // email tracking infos
-    const {email, tracking_url} = passData.metadata
+    const { email, tracking_url } = passData.metadata;
     sendTrackingEmail(email, tracking_url);
   }
 
@@ -60,6 +60,10 @@ handler.put(async (req, res) => {
   }
 });
 
+////////////////////////
+// helper funcitions
+////////////////////////
+
 function sendTrackingEmail(email, tracking_url) {
   const sgMail = require('@sendgrid/mail');
   sgMail.setApiKey(process.env.SENDGRID_FULL_API);
@@ -67,14 +71,8 @@ function sendTrackingEmail(email, tracking_url) {
     to: email,
     from: 'orders@loyaltofew.com',
     subject: `LTF: Order Packed`,
-    text: `Order Packed
-    
-    ${label_url}`,
-    html: emailTemplate(`
-    <h2>Order Packed</h2>
-    <p>Your order has been packed and is ready to ship.</p>
-    <p></p>
-    `),
+    text: textEmail(tracking_url),
+    html: htmlEmail(tracking_url),
   };
   sgMail
     .send(msg)
@@ -85,6 +83,31 @@ function sendTrackingEmail(email, tracking_url) {
       console.error('error in sendTrackingEmail()', error);
     });
   return;
+}
+
+function textEmail(tracking_url) {
+  return `
+Your order has been packed and will be shipped either today or tomorrow.
+    
+You may track your package using the following URL.
+
+${tracking_url}
+
+Thank you for being a loyal customer,
+Matt Sagoian
+Owner, Loyal To Few
+  
+  `;
+}
+
+function htmlEmail(tracking_url) {
+  const body = `
+  <h2>Order Packed</h2>
+  <p>Your order has been packed and will be shipped either today or tomorrow.</p>
+  <p>You may click here to <a href="${tracking_url}" title="Click here to track your package">track your package</a>.</p>
+  <p>Thank you for being a loyal customer,<br/>Matt Sagoian<br/>Owner, Loyal To Few</p>
+  `;
+  return emailTemplate(body);
 }
 
 export default handler;
