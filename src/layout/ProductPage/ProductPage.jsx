@@ -27,7 +27,7 @@ const ProductPage = ({ product }) => {
     color,
     logos,
   } = product;
-  
+
   const galleryArray = logos.map((logo) => {
     const { link, name, imageColorRoot, logo: logoName } = logo;
     const current = product.logo === logo.logo;
@@ -65,10 +65,10 @@ const ProductPage = ({ product }) => {
   });
 
   useEffect(() => {
-    if(sizes.length - 1 < sizeAndPriceIndex) {
-      setSizeAndPriceIndex(sizes.length - 1)
+    if (sizes.length - 1 < sizeAndPriceIndex) {
+      setSizeAndPriceIndex(sizes.length - 1);
     }
-  }, [sizes])
+  }, [sizes, sizeAndPriceIndex]);
 
   useEffect(() => {
     if (sizes[sizeAndPriceIndex]?.colors)
