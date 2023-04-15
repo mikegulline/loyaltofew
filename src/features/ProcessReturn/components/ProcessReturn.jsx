@@ -39,7 +39,6 @@ export default function ProcessOrder({ order, message, handleClose }) {
   };
 
   const uiReturns = {
-    currentOrder,
     metadata,
     updateOrder,
     setStatus,

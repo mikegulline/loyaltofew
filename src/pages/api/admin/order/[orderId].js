@@ -54,6 +54,7 @@ handler.put(async (req, res) => {
         },
       }
     );
+    console.log('update metadata');
     return res.status(200).json({ data });
   } catch (errors) {
     console.log({ passData, errors });
@@ -65,7 +66,6 @@ handler.put(async (req, res) => {
 ////////////////////////
 
 function sendTrackingEmail(email, tracking_url, invoice_number) {
-  console.log(email, tracking_url, invoice_number);
   const sgMail = require('@sendgrid/mail');
   sgMail.setApiKey(process.env.SENDGRID_FULL_API);
   const msg = {
@@ -78,7 +78,7 @@ function sendTrackingEmail(email, tracking_url, invoice_number) {
   sgMail
     .send(msg)
     .then(() => {
-      console.log('email tracking infos', tracking_url);
+      console.log('email tracking infos');
     })
     .catch((error) => {
       console.error('error in sendTrackingEmail()', error);
@@ -98,9 +98,7 @@ ${tracking_url}
 
 Thank you for being a loyal customer,
 Matt Sagoian
-Owner, Loyal To Few
-  
-  `;
+Owner, Loyal To Few`;
 }
 
 function htmlEmail(tracking_url, invoice_number) {
@@ -108,8 +106,7 @@ function htmlEmail(tracking_url, invoice_number) {
   <h2>Order Packed (${invoice_number})</h2>
   <p>Your order has been packed and will be shipped either today or tomorrow.</p>
   <p>You may click here to <a href="${tracking_url}" title="Click here to track your package">track your package</a>.</p>
-  <p>Thank you for being a loyal customer,<br/>Matt Sagoian<br/>Owner, Loyal To Few</p>
-  `;
+  <p>Thank you for being a loyal customer,<br/>Matt Sagoian<br/>Owner, Loyal To Few</p>`;
   return emailTemplate(body);
 }
 

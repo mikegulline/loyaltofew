@@ -1,10 +1,8 @@
-import { useState } from 'react';
 import Buttons from './Buttons';
 import axios from 'axios';
 
 const UIReturns = ({
   metadata,
-  currentOrder,
   updateOrder,
   setStatus,
   fetching,
@@ -12,13 +10,8 @@ const UIReturns = ({
 }) => {
   const handleClickStartReturn = async () => {
     setFetching(true);
-
     try {
-      const { data } = await axios.post('/api/admin/return-start', {
-        ...metadata,
-        email: currentOrder.email,
-        invoiceNumber: currentOrder.invoiceNumber,
-      });
+      const { data } = await axios.post('/api/admin/return-start', metadata);
 
       const status = 'RETURN STARTED';
       const update = {
@@ -44,18 +37,31 @@ const UIReturns = ({
   };
 
   const handleClickIssueRefund = async () => {
-    const status = 'Refund Issued';
-    const update = {
-      metadata: {
-        ...metadata,
-        returnData: {
-          ...metadata?.returnData,
-          refundIssued: true,
+    setFetching(true);
+    try {
+      const { data } = await axios.post('/api/admin/issue-refund', metadata);
+      if (data?.error) {
+        console.log(data.error);
+        return;
+      }
+      const status = 'REFUND ISSUED';
+      const update = {
+        metadata: {
+          ...metadata,
+          returnData: {
+            ...metadata?.returnData,
+            refundIssued: new Date().toLocaleDateString(),
+            status,
+          },
         },
-        status,
-      },
-    };
-    await updateOrder(update);
+      };
+      setStatus(status);
+      await updateOrder(update);
+    } catch (error) {
+      return console.log('error issing refund', error);
+    } finally {
+      setFetching(false);
+    }
   };
 
   return (
