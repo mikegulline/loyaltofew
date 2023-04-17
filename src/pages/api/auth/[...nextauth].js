@@ -33,6 +33,7 @@ export const authOptions = {
   ],
   callbacks: {
     async session({ session, token }) {
+      console.log(token);
       await db.connectDB();
       let user = await User.findById(token.sub);
       await db.disconnectDB();

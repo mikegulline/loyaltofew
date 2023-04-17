@@ -29,9 +29,15 @@ handler.post(async (req, res) => {
 
     const sgMail = require('@sendgrid/mail');
     sgMail.setApiKey(process.env.SENDGRID_FULL_API);
+
+    let to = process.env.RETURNS_EMAIL;
+    if (process.env.NODE_ENV === 'development') {
+      to = process.env.RETURNS_EMAIL_DEV;
+    }
+
     const msg = {
-      to: process.env.EMAIL,
-      from: 'orders@loyaltofew.com',
+      to,
+      from: process.env.RETURNS_EMAIL,
       subject:
         'LTF Contact Form' + (invoice ? ' (Invoice: ' + invoice + ')' : ''),
       text: `

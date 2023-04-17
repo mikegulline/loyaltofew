@@ -92,7 +92,7 @@ function sendRefundEmail(invoice_number, email, amount) {
   sgMail.setApiKey(process.env.SENDGRID_FULL_API);
   const msg = {
     to: email,
-    from: 'orders@loyaltofew.com',
+    from: process.env.RETURNS_EMAIL,
     subject: `LTF: Refund Issued (${invoice_number})`,
     text: textEmail(amount, invoice_number),
     html: htmlEmail(amount, invoice_number),

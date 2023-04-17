@@ -33,17 +33,16 @@ export default async function getRates(body, isReturn = false) {
 //////////////////////////////
 //////////////////////////////
 //////////////////////////////
-
 const getVars = (body) => {
   const from_address = {
-    street1: '395 Sunset Drive',
-    street2: '',
-    city: 'Encinitas',
-    state: 'CA',
-    zip: '92024',
-    country: 'US',
-    company: 'Loyal to Few',
-    phone: '949-338-7474',
+    street1: process.env.CONTACT_STREET1,
+    street2: process.env.CONTACT_STREET2,
+    city: process.env.CONTACT_CITY,
+    state: process.env.CONTACT_STATE,
+    zip: process.env.CONTACT_ZIP,
+    country: process.env.CONTACT_COUNTRY,
+    company: process.env.CONTACT_COMPANY,
+    phone: process.env.CONTACT_PHONE,
   };
 
   const {

@@ -70,7 +70,7 @@ function sendTrackingEmail(email, tracking_url, invoice_number) {
   sgMail.setApiKey(process.env.SENDGRID_FULL_API);
   const msg = {
     to: email,
-    from: 'orders@loyaltofew.com',
+    from: process.env.RETURNS_EMAIL,
     subject: `LTF: Order Packed (${invoice_number})`,
     text: textEmail(tracking_url, invoice_number),
     html: htmlEmail(tracking_url, invoice_number),

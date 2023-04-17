@@ -76,7 +76,7 @@ function sendStartReturnEmail(
   sgMail.setApiKey(process.env.SENDGRID_FULL_API);
   const msg = {
     to: email,
-    from: 'orders@loyaltofew.com',
+    from: process.env.RETURNS_EMAIL,
     subject: `LTF: Returns (${invoice_number})`,
     text: textEmail(carrier, invoice_number, refund, label_url),
     html: htmlEmail(carrier, invoice_number, refund, label_url, items),
