@@ -1,6 +1,6 @@
 import api from '@/utils/easyPostApi';
 
-export default async function getRates(body, isReturn = false) {
+export default async function getRates(body) {
   const { token, to_address, from_address, parcel } = getVars(body);
 
   let shippingInfo = {
@@ -8,14 +8,9 @@ export default async function getRates(body, isReturn = false) {
     to_address,
     parcel,
   };
-  if (isReturn) {
-    shippingInfo = {
-      from_address: to_address,
-      to_address: from_address,
-      parcel,
-    };
-  }
-  console.log(shippingInfo);
+
+  console.log('si', shippingInfo);
+
   try {
     const shipment = new api.Shipment(shippingInfo);
 
