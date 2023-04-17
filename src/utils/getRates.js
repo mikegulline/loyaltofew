@@ -9,8 +9,6 @@ export default async function getRates(body) {
     parcel,
   };
 
-  console.log('si', shippingInfo);
-
   try {
     const shipment = new api.Shipment(shippingInfo);
 
