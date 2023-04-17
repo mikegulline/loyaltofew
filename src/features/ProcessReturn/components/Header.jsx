@@ -90,7 +90,7 @@ const Header = ({ currentOrder, handleClose, fetching }) => {
         ) : (
           <li className='flex items-center pl-8 '>
             {fetching && (
-              <p className='text-gray-800'>Geting label and tracking…</p>
+              <p className='text-gray-800'>Getting label and tracking…</p>
             )}
           </li>
         )}
