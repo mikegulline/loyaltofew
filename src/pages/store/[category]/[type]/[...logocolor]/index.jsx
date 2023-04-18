@@ -1,10 +1,10 @@
 import { getStore, getLogo, getColor } from '@/data/storeModals';
 import { useRouter } from 'next/router';
-import { getPlaiceholder } from 'plaiceholder';
 import ProductPage from '@/layout/ProductPage/ProductPage';
 import SEO from '@/components/SEO';
 import getMeta from '@/utils/getMeta';
 import Breadcrumbs from '@/components/Breadcrumbs';
+// import { getPlaiceholder } from 'plaiceholder';
 
 const Product = ({ product }) => {
   const router = useRouter();
@@ -40,15 +40,19 @@ const getParams = async (params) => {
     if (product) product = getColor(category, type, logo, product.colors[0]);
   } else product = getColor(category, type, logo, color);
 
-  const { base64, img } = await getPlaiceholder(product.image);
+  // const { base64, img } = await getPlaiceholder(product.image);
 
   product = {
     ...product,
-    imageProps: {
-      ...img,
-      blurDataURL: base64,
-    },
+    imageProps: null,
   };
+  // product = {
+  //   ...product,
+  //   imageProps: {
+  //     ...img,
+  //     blurDataURL: base64,
+  //   },
+  // };
 
   return product;
 };
