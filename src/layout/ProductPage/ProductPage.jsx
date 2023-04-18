@@ -17,6 +17,7 @@ const ProductPage = ({ product }) => {
     id,
     name,
     image,
+    imageProps,
     imageBack,
     has_image_back,
     link,
@@ -82,6 +83,7 @@ const ProductPage = ({ product }) => {
         <Container className='flex flex-col items-center xl:flex-row'>
           <HeroImage
             image={image}
+            imageProps={imageProps}
             name={name}
             imageBack={imageBack}
             has_image_back={has_image_back}
@@ -126,7 +128,7 @@ const ProductPage = ({ product }) => {
   );
 };
 
-const HeroImage = ({ image, name, imageBack, has_image_back }) => {
+const HeroImage = ({ image, imageProps, name, imageBack, has_image_back }) => {
   const [showBack, setShowBack] = useState(false);
   const [animate, setAnimate] = useState(0);
 
@@ -141,10 +143,12 @@ const HeroImage = ({ image, name, imageBack, has_image_back }) => {
       <div className='image-column'>
         <div className='image-wrapper relative rounded bg-[#e5e5e7]'>
           <Image
-            src={image}
+            {...imageProps}
+            placeholder='blur'
+            // src={image}
             alt={name}
-            width='744'
-            height='744'
+            // width='744'
+            // height='744'
             className={`${showBack ? styles.image_off : styles.image_on} ${
               styles.image_front
             } ${
@@ -182,10 +186,12 @@ const HeroImage = ({ image, name, imageBack, has_image_back }) => {
     <div className='image-column'>
       <div className='image-wrapper rounded bg-[#e5e5e7]'>
         <Image
-          src={image}
+          {...imageProps}
+          placeholder='blur'
+          // src={image}
           alt={name}
-          width='744'
-          height='744'
+          // width='744'
+          // height='744'
           className='max-width-100 block h-auto p-4 lg:p-12 xl:max-w-[606px] 2xl:max-w-[734px]'
         />
       </div>

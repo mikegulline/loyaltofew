@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
+const { withPlaiceholder } = require('@plaiceholder/next');
 
-module.exports = {
+module.exports = withPlaiceholder({
   reactStrictMode: true,
   webpack(config) {
     config.module.rules.push({
@@ -19,4 +20,4 @@ module.exports = {
       },
     ],
   },
-};
+});
