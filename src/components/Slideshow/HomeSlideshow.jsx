@@ -19,11 +19,6 @@ const slidesArr = [
     alt: 'Outerwear',
     link: '/store/outerwear',
   },
-  {
-    image: '/images/slideshow/ltf-slide-new-4.jpg',
-    alt: 'Outerwear',
-    link: '/store/womens',
-  },
 ];
 const config = {
   autoplay: {

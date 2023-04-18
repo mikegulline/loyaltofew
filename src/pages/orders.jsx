@@ -1,7 +1,7 @@
 import SEO from '@/components/SEO';
 import Split from '@/layout/Split/Split';
 import { P, H1 } from '@/components/Type';
-import image from '@/public/images/lifestyle/contact-page.jpg';
+import image from '@/public/images/lifestyle/orders-page.jpg';
 import Link from 'next/link';
 
 const Returns = () => {
