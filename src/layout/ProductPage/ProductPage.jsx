@@ -131,6 +131,7 @@ const ProductPage = ({ product }) => {
 const HeroImage = ({ image, imageProps, name, imageBack, has_image_back }) => {
   const [showBack, setShowBack] = useState(false);
   const [animate, setAnimate] = useState(0);
+  const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
     let animateId = setTimeout(() => setAnimate(0), 650);
@@ -138,17 +139,17 @@ const HeroImage = ({ image, imageProps, name, imageBack, has_image_back }) => {
     return () => clearTimeout(animateId);
   }, [showBack]);
 
+  const passImageProps = { ...imageProps, width: 744, height: 744 };
+
   if (has_image_back) {
     return (
       <div className='image-column'>
         <div className='image-wrapper relative rounded bg-[#e5e5e7]'>
           <Image
-            {...imageProps}
+            {...passImageProps}
             placeholder='blur'
-            // src={image}
             alt={name}
-            // width='744'
-            // height='744'
+            onLoad={(e) => setLoaded(true)}
             className={`${showBack ? styles.image_off : styles.image_on} ${
               styles.image_front
             } ${
