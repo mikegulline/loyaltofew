@@ -31,7 +31,7 @@ const Copyright = () => {
     <div className={`footer bg-gray-900 ${styles.copy}`}>
       <Container>
         <p className={styles.copyP}>
-          &copy; {new Date().getFullYear()} <Link href='/'>Loyal To Few</Link>.
+          &copy; {new Date().getFullYear()} <Link href='/'>Loyal To Few®</Link>.
           A Trademarked Way Of Life.
         </p>
       </Container>

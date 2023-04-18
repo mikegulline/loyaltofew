@@ -69,7 +69,7 @@ export const adminMenu = {
   subMenu: adminSubMenu,
 };
 
-export const breadcrumbs = [['Welcome to Loyal to Few Clothing ~ Est. 2020']];
+export const breadcrumbs = [['Welcome to Loyal to Few® Clothing ~ Est. 2020']];
 
 // footer menus
 

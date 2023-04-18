@@ -3,7 +3,7 @@ export const store = [
     category: 'Mens',
     name: 'Mens',
     meta: {
-      title: 'Loyal To Few (LTF) Mens Clothing',
+      title: 'Loyal To Few® (LTF) Mens Clothing',
       description: '',
     },
     products: [
@@ -176,7 +176,7 @@ export const store = [
     category: 'Womens',
     name: 'Womens',
     meta: {
-      title: 'Loyal To Few (LTF) Womens Clothing',
+      title: 'Loyal To Few® (LTF) Womens Clothing',
       description: '',
     },
     products: [
@@ -365,7 +365,7 @@ export const store = [
     category: 'Outerwear',
     name: 'Outerwear',
     meta: {
-      title: 'Loyal To Few (LTF) Outerwear',
+      title: 'Loyal To Few® (LTF) Outerwear',
       description: '',
     },
     products: [
@@ -636,7 +636,7 @@ export const store = [
   //   category: 'Hats',
   //   name: 'Hats',
   //   meta: {
-  //     title: 'Loyal To Few (LTF) Beanies and Trucker Hats',
+  //     title: 'Loyal To Few® (LTF) Beanies and Trucker Hats',
   //     description: '',
   //   },
   //   products: [

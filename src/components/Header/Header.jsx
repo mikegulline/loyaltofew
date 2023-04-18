@@ -26,7 +26,7 @@ const Logo = () => {
     <div>
       <Link href='/' className={styles.logo}>
         <LogoSVG className='fill-gray-900 hover:fill-red-600' />
-        <h1 className={styles.h1}>Loyal To Few</h1>
+        <h1 className={styles.h1}>Loyal To Few®</h1>
         <p className={styles.tagline}>A trademarked way of life.</p>
       </Link>
     </div>

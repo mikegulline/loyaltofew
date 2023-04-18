@@ -8,14 +8,14 @@ const Contact = () => {
   return (
     <>
       <SEO
-        title='Contact Loyal To Few'
-        description='Get in touch with Loyal To Few and start living "A Trademarked Way Of Life."'
+        title='Contact Loyal To Few®'
+        description='Get in touch with Loyal To Few® and start living "A Trademarked Way Of Life."'
       />
 
       <Split image={image}>
         <H1 className='text-gray-800'>Contact</H1>
         <P>
-          Get in touch with Loyal To Few and start living &quot;A Trademarked
+          Get in touch with Loyal To Few® and start living &quot;A Trademarked
           Way Of Life.&quot;
         </P>
 

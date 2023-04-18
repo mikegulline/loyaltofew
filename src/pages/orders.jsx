@@ -8,8 +8,8 @@ const Returns = () => {
   return (
     <>
       <SEO
-        title='Orders &amp; Returns: Loyal To Few'
-        description="You didn't love your super awesome Loyal To Few gear? To request a return, please fill the required information on our contact page including your name, email address, order number and reason for the return / exchange."
+        title='Orders &amp; Returns: Loyal To Few®'
+        description="You didn't love your super awesome Loyal To Few® gear? To request a return, please fill the required information on our contact page including your name, email address, order number and reason for the return / exchange."
       />
 
       <Split image={image}>

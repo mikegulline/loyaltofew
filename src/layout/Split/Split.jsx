@@ -10,7 +10,7 @@ export default function Split({ children, image }) {
         object-fit='cover'
         src={image}
         placeholder='blur'
-        alt='Loyal to Few'
+        alt='Loyal to Few®'
         width='2400'
         height='2400'
       />

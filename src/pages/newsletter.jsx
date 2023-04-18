@@ -5,8 +5,8 @@ const Newsletter = () => {
   return (
     <>
       <SEO
-        title='Loyal To Few Newsletter'
-        description='Sign up for the Loyal To Few newsletter and start living "A Trademarked Way Of Life."'
+        title='Loyal To Few® Newsletter'
+        description='Sign up for the Loyal To Few® newsletter and start living "A Trademarked Way Of Life."'
       />
 
       <InfoPage>

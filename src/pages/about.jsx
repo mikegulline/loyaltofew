@@ -7,8 +7,8 @@ const About = () => {
   return (
     <>
       <SEO
-        title='About Loyal To Few'
-        description='Learn more about Loyal To Few and start living "A Trademarked Way Of Life."'
+        title='About Loyal To Few®'
+        description='Learn more about Loyal To Few® and start living "A Trademarked Way Of Life."'
       />
 
       <Split image={image}>
@@ -37,7 +37,7 @@ const About = () => {
           if you surround yourself with people who have your best interests in
           mind and will never turn their backs on you. When the dust settles and
           you see the ones still standing by your side, you have found your
-          Loyal to Few.
+          Loyal to Few®.
         </P>
       </Split>
     </>

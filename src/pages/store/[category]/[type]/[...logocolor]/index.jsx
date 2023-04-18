@@ -12,7 +12,7 @@ const Product = ({ product }) => {
   if (!product) return <p>Loading…</p>;
   const { name, color, breadcrumbs } = product;
 
-  const meta = getMeta(product.meta, `Loyal To Few (LTF) ${name} (${color})`);
+  const meta = getMeta(product.meta, `Loyal To Few®w (LTF) ${name} (${color})`);
 
   return (
     <>

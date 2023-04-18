@@ -8,7 +8,7 @@ import GridItem from '@/components/GridItem';
 const Products = ({ product, breadcrumbs, name }) => {
   if (!product?.logos?.length) return <p>Loading…</p>;
 
-  const meta = getMeta(product.meta, `Loyal To Few (LTF) ${name}`);
+  const meta = getMeta(product.meta, `Loyal To Few® (LTF) ${name}`);
 
   return (
     <>

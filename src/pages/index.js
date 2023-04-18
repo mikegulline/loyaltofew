@@ -10,7 +10,7 @@ export default function Home({ categories }) {
   return (
     <div>
       <Head>
-        <title>Loyal To Few</title>
+        <title>Loyal To Few®</title>
         <meta name='description' content='A Trademarked Way Of Life.' />
       </Head>
       <Breadcrumbs links={breadcrumbs} />

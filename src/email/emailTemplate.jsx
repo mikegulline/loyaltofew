@@ -136,7 +136,7 @@ export default function emailTemplate(content) {
       <table class="wrapper" role="module" data-type="image" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;">
         <tr>
           <td style="font-size:6px;line-height:10px;padding:0px 0px 0px 0px;" valign="top" align="center">
-            <a href="https://www.loyaltofew.com/"><img class="max-width" style="display:block;color:#000000;text-decoration:none;font-family:Helvetica, arial, sans-serif;font-size:16px;max-width:40% !important;width:40%;height:auto !important;" src="https://d375w6nzl58bw0.cloudfront.net/uploads/7779597f0e4e2c2305f2f4395b9fa0a283cb7e3c0a87bba794c6fc95a2e26598.jpg" alt="Loyal To Few™" width="240" border="0"></a>
+            <a href="https://www.loyaltofew.com/"><img class="max-width" style="display:block;color:#000000;text-decoration:none;font-family:Helvetica, arial, sans-serif;font-size:16px;max-width:40% !important;width:40%;height:auto !important;" src="https://d375w6nzl58bw0.cloudfront.net/uploads/7779597f0e4e2c2305f2f4395b9fa0a283cb7e3c0a87bba794c6fc95a2e26598.jpg" alt="Loyal To Few®" width="240" border="0"></a>
           </td>
         </tr>
       </table>

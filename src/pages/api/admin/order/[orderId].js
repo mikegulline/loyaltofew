@@ -98,7 +98,7 @@ ${tracking_url}
 
 Thank you for being a loyal customer,
 Matt Sagoian
-Owner, Loyal To Few`;
+Owner, Loyal To Few®`;
 }
 
 function htmlEmail(tracking_url, invoice_number) {
@@ -106,7 +106,7 @@ function htmlEmail(tracking_url, invoice_number) {
   <h2>Order Packed (${invoice_number})</h2>
   <p>Your order has been packed and will be shipped either today or tomorrow.</p>
   <p>You may click here to <a href="${tracking_url}" title="Click here to track your package">track your package</a>.</p>
-  <p>Thank you for being a loyal customer,<br/>Matt Sagoian<br/>Owner, Loyal To Few</p>`;
+  <p>Thank you for being a loyal customer,<br/>Matt Sagoian<br/>Owner, Loyal To Few®</p>`;
   return emailTemplate(body);
 }
 

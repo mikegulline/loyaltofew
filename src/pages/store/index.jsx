@@ -8,9 +8,9 @@ const CategoriesPage = ({ categories }) => {
   if (!categories) return <p>Loading…</p>;
 
   const meta = {
-    title: 'Loyal To Few (LTF) Clothing Store',
+    title: 'Loyal To Few® (LTF) Clothing Store',
     description:
-      'Live a trademarked way of life in Loyal To Few Hoodies, Tanks, Tees, Crops and Hats. We got your back!',
+      'Live a trademarked way of life in Loyal To Few® Hoodies, Tanks, Tees, Crops and Hats. We got your back!',
   };
 
   return (
