@@ -25,6 +25,7 @@ handler.post(async (req, res) => {
     const getReturn = await checkReturnStatusDB(invoice_number);
     if (getReturn[0]?.status !== 'RETURN STARTED') {
       const message = `Not able to refund ${invoice_number} (Status: ${getReturn[0]?.status})`;
+      console.log(message);
       return res.status(200).json({ error: message, refund: null });
     }
     try {
@@ -46,6 +47,7 @@ handler.post(async (req, res) => {
       console.log({ error, message: 'problem issuing refund (1)' });
     }
   }
+  console.log(issueRefund);
   return res
     .status(200)
     .json({ error: 'problem issuing refund (2)', refund: null });
@@ -62,6 +64,7 @@ async function updateReturnsDB(invoice_number) {
     await db.connectDB();
     await Return.findOneAndUpdate(filter, update);
     await db.disconnectDB();
+    console.log('db updated');
   } catch (error) {
     console.log('error in updateReturnsDB()', error);
   } finally {
@@ -76,6 +79,7 @@ async function checkReturnStatusDB(invoice_number) {
       invoiceNumber: invoice_number,
     }).exec();
     await db.disconnectDB();
+    console.log('check return status');
     return getReturn;
   } catch (error) {
     console.log('error in checkReturnStatusDB()', error);
@@ -95,7 +99,9 @@ function sendRefundEmail(invoice_number, email, amount) {
   };
   sgMail
     .send(msg)
-    .then(() => {})
+    .then(() => {
+      console.log('email issue refund');
+    })
     .catch((error) => {
       console.error('error in sendRefundEmail()', error);
     });

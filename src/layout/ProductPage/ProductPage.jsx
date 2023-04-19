@@ -17,6 +17,7 @@ const ProductPage = ({ product }) => {
     id,
     name,
     image,
+    imageProps,
     imageBack,
     has_image_back,
     link,
@@ -82,6 +83,7 @@ const ProductPage = ({ product }) => {
         <Container className='flex flex-col items-center xl:flex-row'>
           <HeroImage
             image={image}
+            imageProps={imageProps}
             name={name}
             imageBack={imageBack}
             has_image_back={has_image_back}
@@ -126,7 +128,7 @@ const ProductPage = ({ product }) => {
   );
 };
 
-const HeroImage = ({ image, name, imageBack, has_image_back }) => {
+const HeroImage = ({ image, imageProps, name, imageBack, has_image_back }) => {
   const [showBack, setShowBack] = useState(false);
   const [animate, setAnimate] = useState(0);
 
