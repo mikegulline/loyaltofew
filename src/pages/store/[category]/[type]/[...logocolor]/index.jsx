@@ -1,18 +1,14 @@
 import { getStore, getLogo, getColor } from '@/data/storeModals';
-import { useRouter } from 'next/router';
 import ProductPage from '@/layout/ProductPage/ProductPage';
 import SEO from '@/components/SEO';
 import getMeta from '@/utils/getMeta';
 import Breadcrumbs from '@/components/Breadcrumbs';
-// import { getPlaiceholder } from 'plaiceholder';
 
 const Product = ({ product }) => {
-  const router = useRouter();
-  const size = router?.query?.s || 0;
   if (!product) return <p>Loading…</p>;
   const { name, color, breadcrumbs } = product;
 
-  const meta = getMeta(product.meta, `Loyal To Few®w (LTF) ${name} (${color})`);
+  const meta = getMeta(product.meta, `Loyal To Few® (LTF) ${name} (${color})`);
 
   return (
     <>
@@ -20,7 +16,7 @@ const Product = ({ product }) => {
 
       <Breadcrumbs links={breadcrumbs} />
 
-      <ProductPage product={product} size={size} />
+      <ProductPage product={product} />
     </>
   );
 };
@@ -39,20 +35,6 @@ const getParams = async (params) => {
 
     if (product) product = getColor(category, type, logo, product.colors[0]);
   } else product = getColor(category, type, logo, color);
-
-  // const { base64, img } = await getPlaiceholder(product.image);
-
-  product = {
-    ...product,
-    imageProps: null,
-  };
-  // product = {
-  //   ...product,
-  //   imageProps: {
-  //     ...img,
-  //     blurDataURL: base64,
-  //   },
-  // };
 
   return product;
 };

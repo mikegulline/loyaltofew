@@ -33,7 +33,6 @@ export const authOptions = {
   ],
   callbacks: {
     async session({ session, token }) {
-      console.log(token);
       await db.connectDB();
       let user = await User.findById(token.sub);
       await db.disconnectDB();
@@ -53,7 +52,6 @@ export const authOptions = {
 };
 
 const SignInUser = async ({ password, user }) => {
-  console.log('trying?');
   if (!user.password) {
     throw new Error('Please enter your password.');
   }

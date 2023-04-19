@@ -9,7 +9,7 @@ export default function Split({ children, image }) {
 
       <div className='relative flex items-center justify-center'>
         <Image
-          className='absolute h-full w-full object-cover'
+          className='h-full w-full object-cover xl:absolute'
           src={image}
           placeholder='blur'
           alt='Loyal to Few®'
