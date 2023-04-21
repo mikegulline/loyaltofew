@@ -19,43 +19,57 @@ handler.post(async (req, res) => {
     content: { items, token, shippingFees, email, invoiceNumber },
   } = { ...req.body };
 
-  if (eventName === 'order.completed') {
-    let rates;
-    let shipping;
-    let tracking;
-    const totalItems = items.length;
+  // return early if not order.completed webhook
+  if (eventName != 'order.completed') {
+    return res.json({ message: eventName });
+  }
+
+  // set up vars
+  let rates;
+  let shipping;
+  let tracking;
+  const totalItems = items.length;
+
+  try {
+    // open db once and close in finally
+    await db.connectDB();
 
     // 1. get saved rates by orderToken and cost from db
     try {
-      await db.connectDB();
       rates = await Rate.find({
         orderToken: token,
         cost: shippingFees,
       }).exec();
-      await db.disconnectDB();
       if (!rates?.length) {
-        return res.status(500).json({ errors: 'could not find rates' });
+        return res.status(500).json({ error: 'could not find rates' });
       }
-    } catch (errors) {
-      return res.status(500).json({ message: 'db error', errors });
+    } catch (error) {
+      return res
+        .status(500)
+        .json({
+          message: 'get saved rates by orderToken and cost from db error',
+          error,
+        });
     }
 
-    // 2. get and buy shipping
+    // 2. get and buy rates
     try {
       const shipment = await api.Shipment.retrieve(rates[0].shipment_id);
 
       shipping = await shipment.buy(rates[0].rate_id);
-    } catch (errors) {
-      return res.status(500).json({ message: 'shipping errors', errors });
+    } catch (error) {
+      return res
+        .status(500)
+        .json({ message: 'get and buy rates error', error });
     }
 
     // 3. get tracking url from api
     try {
       tracking = await api.Tracker.retrieve(shipping.tracker.id);
-    } catch (errors) {
+    } catch (error) {
       return res
         .status(500)
-        .json({ message: 'error getting tracking url', errors });
+        .json({ message: 'getting tracking url error ', error });
     }
     // create a 0 filled array for packing
     let a = new Array(totalItems);
@@ -95,13 +109,14 @@ handler.post(async (req, res) => {
           },
         }
       );
-    } catch (errors) {
-      return res.status(500).json({ message: 'tracking to snipcart', errors });
+    } catch (error) {
+      return res
+        .status(500)
+        .json({ message: 'save tracking info to snipcart error', error });
     }
 
     // save order token and invoice number to mongodb
     try {
-      await db.connectDB();
       await Order.create({
         invoiceNumber,
         orderToken: token,
@@ -109,24 +124,26 @@ handler.post(async (req, res) => {
         from_address: shipping.from_address.id,
         to_address: shipping.to_address.id,
       });
-      await db.disconnectDB();
-    } catch (errors) {
+    } catch (error) {
       return res
         .status(500)
-        .json({ message: 'Error saving order info to mongodb.', errors });
+        .json({
+          message: 'save order token and invoice number to mongodb error',
+          error,
+        });
     }
 
     // delete rates
     try {
-      await db.connectDB();
       await Rate.deleteMany({ orderToken: token });
-      await db.disconnectDB();
-    } catch (errors) {
-      return res.status(500).json({ message: 'error deleting rates', errors });
+    } catch (error) {
+      return res.status(500).json({ message: 'delete rates error', error });
     }
-  }
 
-  return res.json({ message: 'success' });
+    return res.json({ message: eventName });
+  } finally {
+    await db.disconnectDB();
+  }
 });
 
 export default handler;

@@ -59,15 +59,15 @@ handler.post(async (req, res) => {
 
 async function updateReturnsDB(invoice_number) {
   try {
+    await db.connectDB();
     const filter = { invoiceNumber: invoice_number };
     const update = { status: 'REFUND ISSUED' };
-    await db.connectDB();
     await Return.findOneAndUpdate(filter, update);
-    await db.disconnectDB();
     console.log('db updated');
   } catch (error) {
     console.log('error in updateReturnsDB()', error);
   } finally {
+    await db.disconnectDB();
     return;
   }
 }
@@ -78,13 +78,13 @@ async function checkReturnStatusDB(invoice_number) {
     const getReturn = await Return.find({
       invoiceNumber: invoice_number,
     }).exec();
-    await db.disconnectDB();
-    console.log('check return status');
     return getReturn;
   } catch (error) {
     console.log('error in checkReturnStatusDB()', error);
+  } finally {
+    await db.disconnectDB();
+    return;
   }
-  return;
 }
 
 function sendRefundEmail(invoice_number, email, amount) {
