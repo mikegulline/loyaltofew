@@ -10,6 +10,7 @@
       "@/models/*": ["src/models/*"],
       "@/pages/*": ["src/pages/*"],
       "@/public/*": ["public/*"],
+      "@/scripts/*": ["scripts/*"],
       "@/styles/*": ["src/styles/*"],
       "@/utils/*": ["src/utils/*"]
     }
