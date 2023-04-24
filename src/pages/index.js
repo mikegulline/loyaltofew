@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import HomeSlideshow from '@/components/Slideshow/HomeSlideshow';
-import { getStore } from '@/data/storeModals';
+import store from '@/public/data/store';
 import Categories from '@/components/Categories/Categories';
 import Container from '@/components/Container';
 import Breadcrumbs from '@/components/Breadcrumbs';
@@ -25,7 +25,7 @@ export default function Home({ categories }) {
 }
 
 export async function getStaticProps() {
-  const { categories } = getStore();
+  const { categories } = store;
 
   if (!categories) return { notFound: true };
 

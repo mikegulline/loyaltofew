@@ -22,8 +22,8 @@
     {
       "type": "50-50-Crew",
       "name": "Original 50/50 Crew",
-      "link": "/store/outerwear/50-50-crew/stenciled/black",
-      "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewStenciledBlack.jpg",
+      "link": "/store/outerwear/50-50-crew/arch/black",
+      "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewArchBlack.jpg",
       "has_image_back": true,
       "weight": 9.8,
       "meta": {
@@ -132,8 +132,8 @@
     {
       "type": "Crew",
       "name": "Original Cotton Crew",
-      "link": "/store/outerwear/crew/arch/black",
-      "image": "/images/products/outerwear/crew/OuterwearCrewArchBlack.jpg",
+      "link": "/store/outerwear/crew/block/navy",
+      "image": "/images/products/outerwear/crew/OuterwearCrewBlockNavy.jpg",
       "has_image_back": true,
       "weight": 9.8,
       "meta": {
@@ -243,8 +243,8 @@
     {
       "type": "50-50-Hoodie",
       "name": "Original 50/50 Hoodie",
-      "link": "/store/outerwear/50-50-hoodie/stenciled/black",
-      "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieStenciledBlack.jpg",
+      "link": "/store/outerwear/50-50-hoodie/original/black",
+      "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieOriginalBlack.jpg",
       "has_image_back": false,
       "weight": 34.3,
       "meta": {
@@ -353,8 +353,8 @@
     {
       "type": "Hoodie",
       "name": "Original Cotton Hoodie",
-      "link": "/store/outerwear/hoodie/original/dolphin",
-      "image": "/images/products/outerwear/hoodie/OuterwearHoodieOriginalDolphin.jpg",
+      "link": "/store/outerwear/hoodie/stamp/green",
+      "image": "/images/products/outerwear/hoodie/OuterwearHoodieStampGreen.jpg",
       "has_image_back": false,
       "weight": 34.3,
       "meta": {
@@ -465,8 +465,8 @@
     {
       "type": "Beanie",
       "name": "Knit Beanie",
-      "link": "/store/outerwear/beanie/block/navy",
-      "image": "/images/products/outerwear/beanie/OuterwearBeanieBlockNavy.jpg",
+      "link": "/store/outerwear/beanie/block/black",
+      "image": "/images/products/outerwear/beanie/OuterwearBeanieBlockBlack.jpg",
       "has_image_back": false,
       "weight": 2.2,
       "meta": {

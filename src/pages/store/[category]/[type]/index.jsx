@@ -1,9 +1,10 @@
-import { getStore, getType } from '@/data/storeModals';
 import getMeta from '@/utils/getMeta';
 import StoreWrapper from '@/layout/StoreWrapper/StoreWrapper';
 import SEO from '@/components/SEO';
 import SlideshowGridGallery from '@/components/SlideshowGridGallery';
 import GridItem from '@/components/GridItem';
+import store from '@/public/data/store';
+let fs = require('fs');
 
 const Products = ({ product, breadcrumbs, name }) => {
   if (!product?.logos?.length) return <p>Loading…</p>;
@@ -40,7 +41,9 @@ const Products = ({ product, breadcrumbs, name }) => {
 export async function getStaticProps(context) {
   const { category, type } = context.params;
 
-  const product = getType(category, type);
+  const product = await JSON.parse(
+    fs.readFileSync(`public/data/${category}-${type}.json`, 'utf8')
+  );
 
   if (!product) return { notFound: true };
 
@@ -58,7 +61,7 @@ export async function getStaticProps(context) {
 export async function getStaticPaths() {
   const paths = [];
 
-  getStore()['categories'].map(({ category, products }) =>
+  store['categories'].map(({ category, products }) =>
     products.map(({ type }) =>
       paths.push({
         params: { category: category.toLowerCase(), type: type.toLowerCase() },

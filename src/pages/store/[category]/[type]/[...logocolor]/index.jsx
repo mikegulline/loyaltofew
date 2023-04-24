@@ -1,4 +1,4 @@
-import { getStore, getLogo, getColor } from '@/data/storeModals';
+import store from '@/public/data/store';
 import { useRouter } from 'next/router';
 import ProductPage from '@/layout/ProductPage/ProductPage';
 import SEO from '@/components/SEO';
@@ -12,7 +12,7 @@ const Product = ({ product }) => {
   if (!product) return <p>Loading…</p>;
   const { name, color, breadcrumbs } = product;
 
-  const meta = getMeta(product.meta, `Loyal To Few®w (LTF) ${name} (${color})`);
+  const meta = getMeta(product.meta, `Loyal To Few® (LTF) ${name} (${color})`);
 
   return (
     <>
@@ -25,39 +25,28 @@ const Product = ({ product }) => {
   );
 };
 
-const getParams = async (params) => {
+export async function getStaticProps(context) {
   const {
     category,
     type,
     logocolor: [logo, color],
-  } = params;
+  } = context.params;
 
-  let product;
-  let baseColor = color;
-
-  // if (!color) {
-  //   product = getLogo(category, type, logo);
-
-  //   if (product) product = getColor(category, type, logo, product.colors[0]);
-  // } else product = getColor(category, type, logo, color);
-
-  if (!baseColor) {
-    product = getLogo(category, type, logo);
-    baseColor = product.colors[0];
+  if (!color) {
+    console.log('redirect');
+    return {
+      redirect: {
+        destination: `/store/${category}/${type}`,
+      },
+    };
   }
 
-  product = await JSON.parse(
+  const product = await JSON.parse(
     fs.readFileSync(
-      `public/data/${category}-${type}-${logo}-${baseColor}.json`,
+      `public/data/${category}-${type}-${logo}-${color}.json`,
       'utf8'
     )
   );
-
-  return product;
-};
-
-export async function getStaticProps(context) {
-  const product = await getParams(context.params);
 
   if (!product) return { notFound: true };
 
@@ -70,7 +59,7 @@ export async function getStaticProps(context) {
 
 export async function getStaticPaths() {
   const paths = [];
-  const { categories } = getStore();
+  const { categories } = store;
   categories.map(({ category, products }) =>
     products.map(({ type, logos, colors }) =>
       logos.map(({ logo }) =>

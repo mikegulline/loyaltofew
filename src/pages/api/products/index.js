@@ -6,11 +6,10 @@ const handler = (req, res) => {
 
 export default handler;
 
-// old handler
-// import { getStore } from '@/data/storeModals';
+// import store from '@/public/data/store.json';
 
 // const handler = (req, res) => {
-//   res.status(200).json(getStore());
+//   res.status(200).json(store);
 // };
 
 // export default handler;

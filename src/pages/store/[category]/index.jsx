@@ -1,7 +1,8 @@
-import { getStore, getCategory } from '@/data/storeModals';
+import store from '@/public/data/store';
 import StoreWrapper from '@/layout/StoreWrapper/StoreWrapper';
 import Category from '@/components/Category/Category';
 import SEO from '@/components/SEO';
+let fs = require('fs');
 
 const CategoryPage = ({ category }) => {
   if (!category) return <p>Loading…</p>;
@@ -26,7 +27,9 @@ const CategoryPage = ({ category }) => {
 ///////////////////////////////////
 
 export async function getStaticProps(context) {
-  const category = getCategory(context.params.category);
+  const category = await JSON.parse(
+    fs.readFileSync(`public/data/${context.params.category}.json`, 'utf8')
+  );
 
   if (!category) return { notFound: true };
 
@@ -38,7 +41,7 @@ export async function getStaticProps(context) {
 }
 
 export async function getStaticPaths() {
-  const paths = getStore()['categories'].map(({ category }) => ({
+  const paths = store['categories'].map(({ category }) => ({
     params: { category: category.toLowerCase() },
   }));
 
