@@ -1,0 +1,163 @@
+{
+  "function": "getColor(category, type, logo, color)",
+  "output": "/public/data/mens-tee-block-black.json",
+  "id": "mensteeblockblack",
+  "name": "Original Tee with Block Design",
+  "link": "/store/mens/tee/block",
+  "imageRoot": "/images/products/mens/tee/",
+  "image": "/images/products/mens/tee/MensTeeBlockBlack.jpg",
+  "imageBack": "/images/products/mens/tee/MensTeeBackBlack.jpg",
+  "has_image_back": true,
+  "color": "Black",
+  "logo": "Block",
+  "weight": 7,
+  "meta": {
+    "title": "Mens Original Tee",
+    "description": "Perfect 50/50 blend of cotton & polyester. Super-soft, lightweight (3.8oz) & durable."
+  },
+  "colors": [
+    "Black",
+    "Gray",
+    "Green",
+    "Maroon",
+    "Navy"
+  ],
+  "logos": [
+    {
+      "name": "Original Tee with Arch Design",
+      "link": "/store/mens/tee/arch",
+      "linkColor": "/store/mens/tee/arch/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/mens/tee/MensTeeBackBlack.jpg",
+      "image": "/images/products/mens/tee/MensTeeArchBlack.jpg",
+      "imageColorRoot": "/images/products/mens/tee/MensTeeArch",
+      "imageColorBackRoot": "/images/products/mens/tee/MensTeeBack",
+      "logo": "Arch",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ANrc35GRk4iHiMzMywC4u71cW1xfXV2+vr4A9vb3ExEOCAQA397eAPv9/1ZWVlpZVNvb2vORHCcA8IK2AAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "Original Tee with Block Design",
+      "link": "/store/mens/tee/block",
+      "linkColor": "/store/mens/tee/block/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/mens/tee/MensTeeBackBlack.jpg",
+      "image": "/images/products/mens/tee/MensTeeBlockBlack.jpg",
+      "imageColorRoot": "/images/products/mens/tee/MensTeeBlock",
+      "imageColorBackRoot": "/images/products/mens/tee/MensTeeBack",
+      "logo": "Block",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AMLAw4GAhHV0drS0tACPj5NdW1xWVVa0srQA8/LzHBcVDwMA1dTUAP78/09LS1VSUOPi4qwOGlFtbRr9AAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "Original Tee with Original Design",
+      "link": "/store/mens/tee/original",
+      "linkColor": "/store/mens/tee/original/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/mens/tee/MensTeeBackBlack.jpg",
+      "image": "/images/products/mens/tee/MensTeeOriginalBlack.jpg",
+      "imageColorRoot": "/images/products/mens/tee/MensTeeOriginal",
+      "imageColorBackRoot": "/images/products/mens/tee/MensTeeBack",
+      "logo": "Original",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ANvh5pWao4aIj+Tl6QCtsrc8PkdDQ0jCwsUA6ejsAQMEAwMEt7e5APn7/VpbXm1tbejo6eaPG6y5fToTAAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "Original Tee with Stamp Design",
+      "link": "/store/mens/tee/stamp",
+      "linkColor": "/store/mens/tee/stamp/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/mens/tee/MensTeeBackBlack.jpg",
+      "image": "/images/products/mens/tee/MensTeeStampBlack.jpg",
+      "imageColorRoot": "/images/products/mens/tee/MensTeeStamp",
+      "imageColorBackRoot": "/images/products/mens/tee/MensTeeBack",
+      "logo": "Stamp",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AMXFyH5+f39/f9HR0QCnp6o3NTVCPz20s7QA9fT3DgIAGxUQ9vX2APb2+W5sbHdzcvz8/bzYG70uEaMNAAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "Original Tee with Stenciled Design",
+      "link": "/store/mens/tee/stenciled",
+      "linkColor": "/store/mens/tee/stenciled/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/mens/tee/MensTeeBackBlack.jpg",
+      "image": "/images/products/mens/tee/MensTeeStenciledBlack.jpg",
+      "imageColorRoot": "/images/products/mens/tee/MensTeeStenciled",
+      "imageColorBackRoot": "/images/products/mens/tee/MensTeeBack",
+      "logo": "Stenciled",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOvr7qinrbKwtv7+/wDLy9BFRExEQknAwMQA29veDgwWBgMQ6OjrAOzs8IKBh359gvf2+TAsHm9KhdxaAAAAAElFTkSuQmCC"
+    }
+  ],
+  "sizes": [
+    {
+      "size": "S",
+      "price": 35,
+      "dimensions": "Body Length: 28 1/2 in., Chest Width: 18 in., Sleeve Length: 8 in."
+    },
+    {
+      "size": "M",
+      "price": 35,
+      "dimensions": "Body Length: 29 1/2 in., Chest Width: 20 in., Sleeve Length: 8 1/4 in."
+    },
+    {
+      "size": "L",
+      "price": 35,
+      "dimensions": "Body Length: 30 1/2 in., Chest Width: 22 in., Sleeve Length: 8 1/2 in."
+    },
+    {
+      "size": "XL",
+      "price": 35,
+      "dimensions": "Body Length: 31 1/2 in., Chest Width: 24 in., Sleeve Length: 8 3/4 in."
+    },
+    {
+      "size": "XXL",
+      "price": 35,
+      "dimensions": "Body Length: 32 1/2 in., Chest Width:  26 in., Sleeve Length: 9 in."
+    },
+    {
+      "size": "XXXL",
+      "price": 35,
+      "dimensions": "Body Length: 32 1/2 in., Chest Width:  26 in., Sleeve Length: 9 in.",
+      "colors": [
+        "Black",
+        "Gray",
+        "Maroon",
+        "Navy"
+      ]
+    }
+  ],
+  "details": [
+    "Designed, produced & printed in the USA",
+    "Perfect 50/50 blend of cotton & polyester",
+    "Super-soft, lightweight (3.8oz) & durable",
+    "S-XXL"
+  ],
+  "category": {
+    "category": "Mens",
+    "name": "Mens",
+    "link": "/store/mens"
+  },
+  "type": {
+    "type": "Tee",
+    "name": "Original Tee",
+    "link": "/store/mens/tee/stenciled/black"
+  },
+  "tags": [
+    "Tops"
+  ],
+  "breadcrumbs": [
+    [
+      "Store",
+      "/store"
+    ],
+    [
+      "Mens",
+      "/store/mens"
+    ],
+    [
+      "Original Tee",
+      "/store/mens/tee"
+    ],
+    [
+      "Block (Black)",
+      ""
+    ]
+  ],
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AMLAw4GAhHV0drS0tACPj5NdW1xWVVa0srQA8/LzHBcVDwMA1dTUAP78/09LS1VSUOPi4qwOGlFtbRr9AAAAAElFTkSuQmCC"
+}

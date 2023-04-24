@@ -4,7 +4,7 @@ import ProductPage from '@/layout/ProductPage/ProductPage';
 import SEO from '@/components/SEO';
 import getMeta from '@/utils/getMeta';
 import Breadcrumbs from '@/components/Breadcrumbs';
-// import { getPlaiceholder } from 'plaiceholder';
+let fs = require('fs');
 
 const Product = ({ product }) => {
   const router = useRouter();
@@ -37,22 +37,20 @@ const getParams = async (params) => {
   if (!color) {
     product = getLogo(category, type, logo);
 
-    if (product) product = getColor(category, type, logo, product.colors[0]);
-  } else product = getColor(category, type, logo, color);
-
-  // const { base64, img } = await getPlaiceholder(product.image);
-
-  product = {
-    ...product,
-    imageProps: null,
-  };
-  // product = {
-  //   ...product,
-  //   imageProps: {
-  //     ...img,
-  //     blurDataURL: base64,
-  //   },
-  // };
+    if (product)
+      product = await JSON.parse(
+        fs.readFileSync(
+          `public/data/${category}-${type}-${logo}-${product.colors[0]}.json`,
+          'utf8'
+        )
+      );
+  } else
+    product = await JSON.parse(
+      fs.readFileSync(
+        `public/data/${category}-${type}-${logo}-${color}.json`,
+        'utf8'
+      )
+    );
 
   return product;
 };

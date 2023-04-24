@@ -1,0 +1,134 @@
+{
+  "function": "getType(category, type)",
+  "output": "/public/data/mens-tank.json",
+  "breadcrumbs": [
+    [
+      "Store",
+      "/store"
+    ],
+    [
+      "Mens",
+      "/store/mens"
+    ],
+    [
+      "Original Tank",
+      "/store/mens/tank"
+    ]
+  ],
+  "type": "Tank",
+  "name": "Original Tank",
+  "link": "/store/mens/tank/block/black",
+  "image": "/images/products/mens/tank/MensTankBlockBlack.jpg",
+  "has_image_back": true,
+  "weight": 5.7,
+  "meta": {
+    "title": "Mens Original Tank",
+    "description": "100% Pre-washed, no-shrink cotton. Lightweight (6.5oz)  and durable"
+  },
+  "tags": [
+    "Tops"
+  ],
+  "logos": [
+    {
+      "name": "Original Tank with Arch Design",
+      "link": "/store/mens/tank/arch",
+      "linkColor": "/store/mens/tank/arch/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/mens/tank/MensTankBackBlack.jpg",
+      "image": "/images/products/mens/tank/MensTankArchBlack.jpg",
+      "imageColorRoot": "/images/products/mens/tank/MensTankArch",
+      "imageColorBackRoot": "/images/products/mens/tank/MensTankBack",
+      "logo": "Arch"
+    },
+    {
+      "name": "Original Tank with Block Design",
+      "link": "/store/mens/tank/block",
+      "linkColor": "/store/mens/tank/block/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/mens/tank/MensTankBackBlack.jpg",
+      "image": "/images/products/mens/tank/MensTankBlockBlack.jpg",
+      "imageColorRoot": "/images/products/mens/tank/MensTankBlock",
+      "imageColorBackRoot": "/images/products/mens/tank/MensTankBack",
+      "logo": "Block"
+    },
+    {
+      "name": "Original Tank with Original Design",
+      "link": "/store/mens/tank/original",
+      "linkColor": "/store/mens/tank/original/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/mens/tank/MensTankBackBlack.jpg",
+      "image": "/images/products/mens/tank/MensTankOriginalBlack.jpg",
+      "imageColorRoot": "/images/products/mens/tank/MensTankOriginal",
+      "imageColorBackRoot": "/images/products/mens/tank/MensTankBack",
+      "logo": "Original"
+    },
+    {
+      "name": "Original Tank with Stamp Design",
+      "link": "/store/mens/tank/stamp",
+      "linkColor": "/store/mens/tank/stamp/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/mens/tank/MensTankBackBlack.jpg",
+      "image": "/images/products/mens/tank/MensTankStampBlack.jpg",
+      "imageColorRoot": "/images/products/mens/tank/MensTankStamp",
+      "imageColorBackRoot": "/images/products/mens/tank/MensTankBack",
+      "logo": "Stamp"
+    },
+    {
+      "name": "Original Tank with Stenciled Design",
+      "link": "/store/mens/tank/stenciled",
+      "linkColor": "/store/mens/tank/stenciled/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/mens/tank/MensTankBackBlack.jpg",
+      "image": "/images/products/mens/tank/MensTankStenciledBlack.jpg",
+      "imageColorRoot": "/images/products/mens/tank/MensTankStenciled",
+      "imageColorBackRoot": "/images/products/mens/tank/MensTankBack",
+      "logo": "Stenciled"
+    }
+  ],
+  "sizes": [
+    {
+      "size": "XS",
+      "price": 28,
+      "dimensions": "Body Length: 27 3/8 in., Chest Width: 16 1/2 in."
+    },
+    {
+      "size": "S",
+      "price": 28,
+      "dimensions": "Body Length: 28 3/8 in., Chest Width:  18 in."
+    },
+    {
+      "size": "M",
+      "price": 28,
+      "dimensions": "Body Length: 29 3/8 in., Chest Width:  20 in."
+    },
+    {
+      "size": "L",
+      "price": 28,
+      "dimensions": "Body Length: 30 3/8 in., Chest Width:  22 in."
+    },
+    {
+      "size": "XL",
+      "price": 28,
+      "dimensions": "Body Length: 31 3/8 in., Chest Width:  24 in."
+    },
+    {
+      "size": "XXL",
+      "price": 30,
+      "dimensions": "Body Length: 32 3/8 in., Chest Width:  26 in."
+    }
+  ],
+  "colors": [
+    "Black"
+  ],
+  "details": [
+    "Designed, produced & printed in the USA",
+    "100% Pre-washed, no-shrink cotton",
+    "Lightweight (6.5oz)  and durable",
+    "S-XXL"
+  ],
+  "category": {
+    "category": "Mens",
+    "name": "Mens",
+    "link": "/store/mens"
+  }
+}

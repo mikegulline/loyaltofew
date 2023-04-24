@@ -1,0 +1,133 @@
+{
+  "function": "getType(category, type)",
+  "output": "/public/data/outerwear-hoodie.json",
+  "breadcrumbs": [
+    [
+      "Store",
+      "/store"
+    ],
+    [
+      "Outerwear",
+      "/store/outerwear"
+    ],
+    [
+      "Original Cotton Hoodie",
+      "/store/outerwear/hoodie"
+    ]
+  ],
+  "type": "Hoodie",
+  "name": "Original Cotton Hoodie",
+  "link": "/store/outerwear/hoodie/stenciled/black",
+  "image": "/images/products/outerwear/hoodie/OuterwearHoodieStenciledBlack.jpg",
+  "has_image_back": false,
+  "weight": 34.3,
+  "meta": {
+    "title": "Original Cotton Hoodie (Unisex)",
+    "description": "Unisex. Heavyweight (14oz) over-sized fit."
+  },
+  "tags": [
+    "Tops"
+  ],
+  "logos": [
+    {
+      "name": "Original Cotton Hoodie with Arch Design",
+      "link": "/store/outerwear/hoodie/arch",
+      "linkColor": "/store/outerwear/hoodie/arch/black",
+      "has_image_back": false,
+      "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieBackBlack.jpg",
+      "image": "/images/products/outerwear/hoodie/OuterwearHoodieArchBlack.jpg",
+      "imageColorRoot": "/images/products/outerwear/hoodie/OuterwearHoodieArch",
+      "imageColorBackRoot": "/images/products/outerwear/hoodie/OuterwearHoodieBack",
+      "logo": "Arch"
+    },
+    {
+      "name": "Original Cotton Hoodie with Block Design",
+      "link": "/store/outerwear/hoodie/block",
+      "linkColor": "/store/outerwear/hoodie/block/black",
+      "has_image_back": false,
+      "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieBackBlack.jpg",
+      "image": "/images/products/outerwear/hoodie/OuterwearHoodieBlockBlack.jpg",
+      "imageColorRoot": "/images/products/outerwear/hoodie/OuterwearHoodieBlock",
+      "imageColorBackRoot": "/images/products/outerwear/hoodie/OuterwearHoodieBack",
+      "logo": "Block"
+    },
+    {
+      "name": "Original Cotton Hoodie with Original Design",
+      "link": "/store/outerwear/hoodie/original",
+      "linkColor": "/store/outerwear/hoodie/original/black",
+      "has_image_back": false,
+      "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieBackBlack.jpg",
+      "image": "/images/products/outerwear/hoodie/OuterwearHoodieOriginalBlack.jpg",
+      "imageColorRoot": "/images/products/outerwear/hoodie/OuterwearHoodieOriginal",
+      "imageColorBackRoot": "/images/products/outerwear/hoodie/OuterwearHoodieBack",
+      "logo": "Original"
+    },
+    {
+      "name": "Original Cotton Hoodie with Stamp Design",
+      "link": "/store/outerwear/hoodie/stamp",
+      "linkColor": "/store/outerwear/hoodie/stamp/black",
+      "has_image_back": false,
+      "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieBackBlack.jpg",
+      "image": "/images/products/outerwear/hoodie/OuterwearHoodieStampBlack.jpg",
+      "imageColorRoot": "/images/products/outerwear/hoodie/OuterwearHoodieStamp",
+      "imageColorBackRoot": "/images/products/outerwear/hoodie/OuterwearHoodieBack",
+      "logo": "Stamp"
+    },
+    {
+      "name": "Original Cotton Hoodie with Stenciled Design",
+      "link": "/store/outerwear/hoodie/stenciled",
+      "linkColor": "/store/outerwear/hoodie/stenciled/black",
+      "has_image_back": false,
+      "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieBackBlack.jpg",
+      "image": "/images/products/outerwear/hoodie/OuterwearHoodieStenciledBlack.jpg",
+      "imageColorRoot": "/images/products/outerwear/hoodie/OuterwearHoodieStenciled",
+      "imageColorBackRoot": "/images/products/outerwear/hoodie/OuterwearHoodieBack",
+      "logo": "Stenciled"
+    }
+  ],
+  "sizes": [
+    {
+      "size": "S",
+      "price": 76,
+      "dimensions": "Body Length: 26 1/2 in., Chest Width: 20 1/8 in., Sleeve Length: 23 1/2 in."
+    },
+    {
+      "size": "M",
+      "price": 76,
+      "dimensions": "Body Length: 27 3/4 in., Chest Width: 22 1/8 in., Sleeve Length: 23 7/8 in."
+    },
+    {
+      "size": "L",
+      "price": 76,
+      "dimensions": "Body Length: 28 7/8 in., Chest Width: 24 1/8 in., Sleeve Length: 24 3/8 in."
+    },
+    {
+      "size": "XL",
+      "price": 76,
+      "dimensions": "Body Length: 30 in., Chest Width: 26 1/8 in., Sleeve Length: 25 in."
+    },
+    {
+      "size": "XXL",
+      "price": 78,
+      "dimensions": "Body Length: 31 1/8 in, Chest Width: 28 1/8 in., Sleeve Length: 25 1/2 in."
+    }
+  ],
+  "colors": [
+    "Black",
+    "Dolphin",
+    "Green",
+    "Navy"
+  ],
+  "details": [
+    "Designed, produced & printed in the USA",
+    "100% US-grown, pre-washed, no-shrink cotton",
+    "Heavyweight (14oz) over-sized fit",
+    "Unisex, check size chart",
+    "S-XXL"
+  ],
+  "category": {
+    "category": "Outerwear",
+    "name": "Outerwear",
+    "link": "/store/outerwear"
+  }
+}

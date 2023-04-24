@@ -1,0 +1,332 @@
+{
+  "function": "getCategory(category) singles",
+  "output": "/public/data/categories.json",
+  "breadcrumbs": [
+    [
+      "Store",
+      "/store"
+    ],
+    [
+      "Womens",
+      "/store/womens"
+    ]
+  ],
+  "category": "Womens",
+  "name": "Womens",
+  "link": "/store/womens",
+  "meta": {
+    "title": "Loyal To Few® (LTF) Womens Clothing",
+    "description": ""
+  },
+  "products": [
+    {
+      "type": "Tee",
+      "name": "Original Tee",
+      "link": "/store/womens/tee/arch/maroon",
+      "image": "/images/products/womens/tee/WomensTeeArchMaroon.jpg",
+      "has_image_back": true,
+      "weight": 3.6,
+      "meta": {
+        "title": "Womens Original Tee",
+        "description": "100% cotton grown on a US farm. Lightweight (4.3oz.) & durable."
+      },
+      "tags": [
+        "Tops"
+      ],
+      "logos": [
+        {
+          "name": "Original Tee with Arch Design",
+          "link": "/store/womens/tee/arch",
+          "linkColor": "/store/womens/tee/arch/navy",
+          "has_image_back": true,
+          "imageBack": "/images/products/womens/tee/WomensTeeBackNavy.jpg",
+          "image": "/images/products/womens/tee/WomensTeeArchNavy.jpg",
+          "imageColorRoot": "/images/products/womens/tee/WomensTeeArch",
+          "imageColorBackRoot": "/images/products/womens/tee/WomensTeeBack",
+          "logo": "Arch"
+        },
+        {
+          "name": "Original Tee with Block Design",
+          "link": "/store/womens/tee/block",
+          "linkColor": "/store/womens/tee/block/navy",
+          "has_image_back": true,
+          "imageBack": "/images/products/womens/tee/WomensTeeBackNavy.jpg",
+          "image": "/images/products/womens/tee/WomensTeeBlockNavy.jpg",
+          "imageColorRoot": "/images/products/womens/tee/WomensTeeBlock",
+          "imageColorBackRoot": "/images/products/womens/tee/WomensTeeBack",
+          "logo": "Block"
+        },
+        {
+          "name": "Original Tee with Original Design",
+          "link": "/store/womens/tee/original",
+          "linkColor": "/store/womens/tee/original/navy",
+          "has_image_back": true,
+          "imageBack": "/images/products/womens/tee/WomensTeeBackNavy.jpg",
+          "image": "/images/products/womens/tee/WomensTeeOriginalNavy.jpg",
+          "imageColorRoot": "/images/products/womens/tee/WomensTeeOriginal",
+          "imageColorBackRoot": "/images/products/womens/tee/WomensTeeBack",
+          "logo": "Original"
+        },
+        {
+          "name": "Original Tee with Stamp Design",
+          "link": "/store/womens/tee/stamp",
+          "linkColor": "/store/womens/tee/stamp/navy",
+          "has_image_back": true,
+          "imageBack": "/images/products/womens/tee/WomensTeeBackNavy.jpg",
+          "image": "/images/products/womens/tee/WomensTeeStampNavy.jpg",
+          "imageColorRoot": "/images/products/womens/tee/WomensTeeStamp",
+          "imageColorBackRoot": "/images/products/womens/tee/WomensTeeBack",
+          "logo": "Stamp"
+        },
+        {
+          "name": "Original Tee with Stenciled Design",
+          "link": "/store/womens/tee/stenciled",
+          "linkColor": "/store/womens/tee/stenciled/navy",
+          "has_image_back": true,
+          "imageBack": "/images/products/womens/tee/WomensTeeBackNavy.jpg",
+          "image": "/images/products/womens/tee/WomensTeeStenciledNavy.jpg",
+          "imageColorRoot": "/images/products/womens/tee/WomensTeeStenciled",
+          "imageColorBackRoot": "/images/products/womens/tee/WomensTeeBack",
+          "logo": "Stenciled"
+        }
+      ],
+      "sizes": [
+        {
+          "size": "S",
+          "price": 28,
+          "dimensions": "Body Length: 25 7/8 in., Chest Width: 16 1/8 in., Sleeve Length: 6 3/8 in."
+        },
+        {
+          "size": "M",
+          "price": 28,
+          "dimensions": "Body Length: 26 1/2 in., Chest Width: 16 5/8 in., Sleeve Length: 6 5/8 in."
+        },
+        {
+          "size": "L",
+          "price": 28,
+          "dimensions": "Body Length: 27 1/8 in., Chest Width: 17 1/8 in., Sleeve Length: 6 7/8 in."
+        },
+        {
+          "size": "XL",
+          "price": 28,
+          "dimensions": "Body Length: 27 3/4 in., Chest Width: 17 5/8 in., Sleeve Length: 7 1/8 in."
+        },
+        {
+          "size": "XXL",
+          "price": 30,
+          "dimensions": "Body Length: 28 1/4 in., Chest Width: 18 in., Sleeve Length: 7 3/8 in.\t"
+        }
+      ],
+      "colors": [
+        "Navy",
+        "Baby-Blue",
+        "Gray",
+        "Maroon",
+        "Red"
+      ],
+      "details": [
+        "Designed, produced & printed in the USA",
+        "100% cotton grown on a US farm",
+        "Lightweight (4.3oz.) & durable",
+        "S-XXL"
+      ]
+    },
+    {
+      "type": "Tank",
+      "name": "Original Tank",
+      "link": "/store/womens/tank/stenciled/maroon",
+      "image": "/images/products/womens/tank/WomensTankStenciledMaroon.jpg",
+      "has_image_back": true,
+      "weight": 2.6,
+      "meta": {
+        "title": "Womens Original Tank",
+        "description": "50% polyester, 25% cotton, 25% rayon. Lightweight (3.7oz) racerback design."
+      },
+      "tags": [
+        "Tops"
+      ],
+      "logos": [
+        {
+          "name": "Original Tank with Arch Design",
+          "link": "/store/womens/tank/arch",
+          "linkColor": "/store/womens/tank/arch/blue",
+          "has_image_back": true,
+          "imageBack": "/images/products/womens/tank/WomensTankBackBlue.jpg",
+          "image": "/images/products/womens/tank/WomensTankArchBlue.jpg",
+          "imageColorRoot": "/images/products/womens/tank/WomensTankArch",
+          "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
+          "logo": "Arch"
+        },
+        {
+          "name": "Original Tank with Block Design",
+          "link": "/store/womens/tank/block",
+          "linkColor": "/store/womens/tank/block/blue",
+          "has_image_back": true,
+          "imageBack": "/images/products/womens/tank/WomensTankBackBlue.jpg",
+          "image": "/images/products/womens/tank/WomensTankBlockBlue.jpg",
+          "imageColorRoot": "/images/products/womens/tank/WomensTankBlock",
+          "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
+          "logo": "Block"
+        },
+        {
+          "name": "Original Tank with Original Design",
+          "link": "/store/womens/tank/original",
+          "linkColor": "/store/womens/tank/original/blue",
+          "has_image_back": true,
+          "imageBack": "/images/products/womens/tank/WomensTankBackBlue.jpg",
+          "image": "/images/products/womens/tank/WomensTankOriginalBlue.jpg",
+          "imageColorRoot": "/images/products/womens/tank/WomensTankOriginal",
+          "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
+          "logo": "Original"
+        },
+        {
+          "name": "Original Tank with Stamp Design",
+          "link": "/store/womens/tank/stamp",
+          "linkColor": "/store/womens/tank/stamp/blue",
+          "has_image_back": true,
+          "imageBack": "/images/products/womens/tank/WomensTankBackBlue.jpg",
+          "image": "/images/products/womens/tank/WomensTankStampBlue.jpg",
+          "imageColorRoot": "/images/products/womens/tank/WomensTankStamp",
+          "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
+          "logo": "Stamp"
+        },
+        {
+          "name": "Original Tank with Stenciled Design",
+          "link": "/store/womens/tank/stenciled",
+          "linkColor": "/store/womens/tank/stenciled/blue",
+          "has_image_back": true,
+          "imageBack": "/images/products/womens/tank/WomensTankBackBlue.jpg",
+          "image": "/images/products/womens/tank/WomensTankStenciledBlue.jpg",
+          "imageColorRoot": "/images/products/womens/tank/WomensTankStenciled",
+          "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
+          "logo": "Stenciled"
+        }
+      ],
+      "sizes": [
+        {
+          "size": "S",
+          "price": 25,
+          "dimensions": "Body Length: 25 3/4 in., Chest Width: 13 5/8 in."
+        },
+        {
+          "size": "M",
+          "price": 25,
+          "dimensions": "Body Length: 26 3/8 in., Chest Width: 14 5/8 in."
+        },
+        {
+          "size": "L",
+          "price": 25,
+          "dimensions": "Body Length: 27 1/4 in., Chest Width: 16 1/8 in."
+        },
+        {
+          "size": "XL",
+          "price": 25,
+          "dimensions": "Body Length: 27 3/4 in., Chest Width: 17 in."
+        }
+      ],
+      "colors": [
+        "Blue",
+        "Gray",
+        "Maroon"
+      ],
+      "details": [
+        "Designed, produced & printed in the USA",
+        "50% polyester, 25% cotton, 25% rayon",
+        "Lightweight (3.7oz) racerback design",
+        "XS-XL"
+      ]
+    },
+    {
+      "type": "Oversized-Crop",
+      "name": "Original Oversized Crop",
+      "link": "/store/womens/oversized-crop/stenciled/black",
+      "image": "/images/products/womens/oversized-crop/WomensOversized-CropStenciledBlack.jpg",
+      "has_image_back": true,
+      "weight": 2.9,
+      "meta": {
+        "title": "Womens Original Oversized Crop",
+        "description": "Wide-fit, oversized, 100% cotto. One size fits most."
+      },
+      "tags": [
+        "Tops"
+      ],
+      "logos": [
+        {
+          "name": "Original Oversized Crop with Arch Design",
+          "link": "/store/womens/oversized-crop/arch",
+          "linkColor": "/store/womens/oversized-crop/arch/black",
+          "has_image_back": true,
+          "imageBack": "/images/products/womens/oversized-crop/WomensOversized-CropBackBlack.jpg",
+          "image": "/images/products/womens/oversized-crop/WomensOversized-CropArchBlack.jpg",
+          "imageColorRoot": "/images/products/womens/oversized-crop/WomensOversized-CropArch",
+          "imageColorBackRoot": "/images/products/womens/oversized-crop/WomensOversized-CropBack",
+          "logo": "Arch"
+        },
+        {
+          "name": "Original Oversized Crop with Block Design",
+          "link": "/store/womens/oversized-crop/block",
+          "linkColor": "/store/womens/oversized-crop/block/black",
+          "has_image_back": true,
+          "imageBack": "/images/products/womens/oversized-crop/WomensOversized-CropBackBlack.jpg",
+          "image": "/images/products/womens/oversized-crop/WomensOversized-CropBlockBlack.jpg",
+          "imageColorRoot": "/images/products/womens/oversized-crop/WomensOversized-CropBlock",
+          "imageColorBackRoot": "/images/products/womens/oversized-crop/WomensOversized-CropBack",
+          "logo": "Block"
+        },
+        {
+          "name": "Original Oversized Crop with Original Design",
+          "link": "/store/womens/oversized-crop/original",
+          "linkColor": "/store/womens/oversized-crop/original/black",
+          "has_image_back": true,
+          "imageBack": "/images/products/womens/oversized-crop/WomensOversized-CropBackBlack.jpg",
+          "image": "/images/products/womens/oversized-crop/WomensOversized-CropOriginalBlack.jpg",
+          "imageColorRoot": "/images/products/womens/oversized-crop/WomensOversized-CropOriginal",
+          "imageColorBackRoot": "/images/products/womens/oversized-crop/WomensOversized-CropBack",
+          "logo": "Original"
+        },
+        {
+          "name": "Original Oversized Crop with Stamp Design",
+          "link": "/store/womens/oversized-crop/stamp",
+          "linkColor": "/store/womens/oversized-crop/stamp/black",
+          "has_image_back": true,
+          "imageBack": "/images/products/womens/oversized-crop/WomensOversized-CropBackBlack.jpg",
+          "image": "/images/products/womens/oversized-crop/WomensOversized-CropStampBlack.jpg",
+          "imageColorRoot": "/images/products/womens/oversized-crop/WomensOversized-CropStamp",
+          "imageColorBackRoot": "/images/products/womens/oversized-crop/WomensOversized-CropBack",
+          "logo": "Stamp"
+        },
+        {
+          "name": "Original Oversized Crop with Stenciled Design",
+          "link": "/store/womens/oversized-crop/stenciled",
+          "linkColor": "/store/womens/oversized-crop/stenciled/black",
+          "has_image_back": true,
+          "imageBack": "/images/products/womens/oversized-crop/WomensOversized-CropBackBlack.jpg",
+          "image": "/images/products/womens/oversized-crop/WomensOversized-CropStenciledBlack.jpg",
+          "imageColorRoot": "/images/products/womens/oversized-crop/WomensOversized-CropStenciled",
+          "imageColorBackRoot": "/images/products/womens/oversized-crop/WomensOversized-CropBack",
+          "logo": "Stenciled"
+        }
+      ],
+      "sizes": [
+        {
+          "size": "One Size Fits Most",
+          "price": 30,
+          "dimensions": "Body Length: 19 3/4 in., Chest Width: 20 3/4 in., Sleeve Length: 8 5/8 in."
+        }
+      ],
+      "colors": [
+        "Black",
+        "Dolphin",
+        "Baby-Blue",
+        "Mauve"
+      ],
+      "details": [
+        "Designed, produced & printed in the USA",
+        "Wide-fit",
+        "Oversized",
+        "100% cotton",
+        "One size fits most"
+      ]
+    }
+  ]
+}

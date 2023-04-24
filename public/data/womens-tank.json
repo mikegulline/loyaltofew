@@ -1,0 +1,126 @@
+{
+  "function": "getType(category, type)",
+  "output": "/public/data/womens-tank.json",
+  "breadcrumbs": [
+    [
+      "Store",
+      "/store"
+    ],
+    [
+      "Womens",
+      "/store/womens"
+    ],
+    [
+      "Original Tank",
+      "/store/womens/tank"
+    ]
+  ],
+  "type": "Tank",
+  "name": "Original Tank",
+  "link": "/store/womens/tank/stamp/maroon",
+  "image": "/images/products/womens/tank/WomensTankStampMaroon.jpg",
+  "has_image_back": true,
+  "weight": 2.6,
+  "meta": {
+    "title": "Womens Original Tank",
+    "description": "50% polyester, 25% cotton, 25% rayon. Lightweight (3.7oz) racerback design."
+  },
+  "tags": [
+    "Tops"
+  ],
+  "logos": [
+    {
+      "name": "Original Tank with Arch Design",
+      "link": "/store/womens/tank/arch",
+      "linkColor": "/store/womens/tank/arch/blue",
+      "has_image_back": true,
+      "imageBack": "/images/products/womens/tank/WomensTankBackBlue.jpg",
+      "image": "/images/products/womens/tank/WomensTankArchBlue.jpg",
+      "imageColorRoot": "/images/products/womens/tank/WomensTankArch",
+      "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
+      "logo": "Arch"
+    },
+    {
+      "name": "Original Tank with Block Design",
+      "link": "/store/womens/tank/block",
+      "linkColor": "/store/womens/tank/block/blue",
+      "has_image_back": true,
+      "imageBack": "/images/products/womens/tank/WomensTankBackBlue.jpg",
+      "image": "/images/products/womens/tank/WomensTankBlockBlue.jpg",
+      "imageColorRoot": "/images/products/womens/tank/WomensTankBlock",
+      "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
+      "logo": "Block"
+    },
+    {
+      "name": "Original Tank with Original Design",
+      "link": "/store/womens/tank/original",
+      "linkColor": "/store/womens/tank/original/blue",
+      "has_image_back": true,
+      "imageBack": "/images/products/womens/tank/WomensTankBackBlue.jpg",
+      "image": "/images/products/womens/tank/WomensTankOriginalBlue.jpg",
+      "imageColorRoot": "/images/products/womens/tank/WomensTankOriginal",
+      "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
+      "logo": "Original"
+    },
+    {
+      "name": "Original Tank with Stamp Design",
+      "link": "/store/womens/tank/stamp",
+      "linkColor": "/store/womens/tank/stamp/blue",
+      "has_image_back": true,
+      "imageBack": "/images/products/womens/tank/WomensTankBackBlue.jpg",
+      "image": "/images/products/womens/tank/WomensTankStampBlue.jpg",
+      "imageColorRoot": "/images/products/womens/tank/WomensTankStamp",
+      "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
+      "logo": "Stamp"
+    },
+    {
+      "name": "Original Tank with Stenciled Design",
+      "link": "/store/womens/tank/stenciled",
+      "linkColor": "/store/womens/tank/stenciled/blue",
+      "has_image_back": true,
+      "imageBack": "/images/products/womens/tank/WomensTankBackBlue.jpg",
+      "image": "/images/products/womens/tank/WomensTankStenciledBlue.jpg",
+      "imageColorRoot": "/images/products/womens/tank/WomensTankStenciled",
+      "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
+      "logo": "Stenciled"
+    }
+  ],
+  "sizes": [
+    {
+      "size": "S",
+      "price": 25,
+      "dimensions": "Body Length: 25 3/4 in., Chest Width: 13 5/8 in."
+    },
+    {
+      "size": "M",
+      "price": 25,
+      "dimensions": "Body Length: 26 3/8 in., Chest Width: 14 5/8 in."
+    },
+    {
+      "size": "L",
+      "price": 25,
+      "dimensions": "Body Length: 27 1/4 in., Chest Width: 16 1/8 in."
+    },
+    {
+      "size": "XL",
+      "price": 25,
+      "dimensions": "Body Length: 27 3/4 in., Chest Width: 17 in."
+    }
+  ],
+  "colors": [
+    "Blue",
+    "Gray",
+    "Maroon"
+  ],
+  "details": [
+    "Designed, produced & printed in the USA",
+    "50% polyester, 25% cotton, 25% rayon",
+    "Lightweight (3.7oz) racerback design",
+    "XS-XL"
+  ],
+  "category": {
+    "category": "Womens",
+    "name": "Womens",
+    "link": "/store/womens"
+  }
+}

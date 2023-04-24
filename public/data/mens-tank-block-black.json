@@ -1,0 +1,153 @@
+{
+  "function": "getColor(category, type, logo, color)",
+  "output": "/public/data/mens-tank-block-black.json",
+  "id": "menstankblockblack",
+  "name": "Original Tank with Block Design",
+  "link": "/store/mens/tank/block",
+  "imageRoot": "/images/products/mens/tank/",
+  "image": "/images/products/mens/tank/MensTankBlockBlack.jpg",
+  "imageBack": "/images/products/mens/tank/MensTankBackBlack.jpg",
+  "has_image_back": true,
+  "color": "Black",
+  "logo": "Block",
+  "weight": 5.7,
+  "meta": {
+    "title": "Mens Original Tank",
+    "description": "100% Pre-washed, no-shrink cotton. Lightweight (6.5oz)  and durable"
+  },
+  "colors": [
+    "Black"
+  ],
+  "logos": [
+    {
+      "name": "Original Tank with Arch Design",
+      "link": "/store/mens/tank/arch",
+      "linkColor": "/store/mens/tank/arch/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/mens/tank/MensTankBackBlack.jpg",
+      "image": "/images/products/mens/tank/MensTankArchBlack.jpg",
+      "imageColorRoot": "/images/products/mens/tank/MensTankArch",
+      "imageColorBackRoot": "/images/products/mens/tank/MensTankBack",
+      "logo": "Arch",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APb1+G5wd3l6gf3+/wC5uL0oJy03Nz3Ly84AkZGUAgEKBgYJrKutAKOkpyYmKSgpKra2uKsnFz4p2dwfAAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "Original Tank with Block Design",
+      "link": "/store/mens/tank/block",
+      "linkColor": "/store/mens/tank/block/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/mens/tank/MensTankBackBlack.jpg",
+      "image": "/images/products/mens/tank/MensTankBlockBlack.jpg",
+      "imageColorRoot": "/images/products/mens/tank/MensTankBlock",
+      "imageColorBackRoot": "/images/products/mens/tank/MensTankBack",
+      "logo": "Block",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APb291RVXF1gafv7/gCjpacaGyAeICa6ur0AgoOHBwYOAgEHh4eLAJmanAQHCwkMDaKipWE8FBYjIvM+AAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "Original Tank with Original Design",
+      "link": "/store/mens/tank/original",
+      "linkColor": "/store/mens/tank/original/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/mens/tank/MensTankBackBlack.jpg",
+      "image": "/images/products/mens/tank/MensTankOriginalBlack.jpg",
+      "imageColorRoot": "/images/products/mens/tank/MensTankOriginal",
+      "imageColorBackRoot": "/images/products/mens/tank/MensTankBack",
+      "logo": "Original",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOvs7mNlbYKEi/z7/wChoKQyLzU/P0bKys4Ag4OFAQAHDw4UoKCiAJ6eoC8wMzk6Pa2tr5vzFvCfzNYiAAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "Original Tank with Stamp Design",
+      "link": "/store/mens/tank/stamp",
+      "linkColor": "/store/mens/tank/stamp/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/mens/tank/MensTankBackBlack.jpg",
+      "image": "/images/products/mens/tank/MensTankStampBlack.jpg",
+      "imageColorRoot": "/images/products/mens/tank/MensTankStamp",
+      "imageColorBackRoot": "/images/products/mens/tank/MensTankBack",
+      "logo": "Stamp",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPElEQVR4nGP49u1nRmZhbUPH37//Gbbv3K2ooGFsbHPm7AWGOXPmMzFwcnLwrl27HiSjpa2vp2e4b98BAK6/F8YVoDvAAAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "Original Tank with Stenciled Design",
+      "link": "/store/mens/tank/stenciled",
+      "linkColor": "/store/mens/tank/stenciled/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/mens/tank/MensTankBackBlack.jpg",
+      "image": "/images/products/mens/tank/MensTankStenciledBlack.jpg",
+      "imageColorRoot": "/images/products/mens/tank/MensTankStenciled",
+      "imageColorBackRoot": "/images/products/mens/tank/MensTankBack",
+      "logo": "Stenciled",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APX09oSEi5udo/v7/wC8vL4xMDZQUFfV1dkAmZibBQMKFRQYra2vAL29wURESE1OT8fIyuaYGgC9Jcx5AAAAAElFTkSuQmCC"
+    }
+  ],
+  "sizes": [
+    {
+      "size": "XS",
+      "price": 28,
+      "dimensions": "Body Length: 27 3/8 in., Chest Width: 16 1/2 in."
+    },
+    {
+      "size": "S",
+      "price": 28,
+      "dimensions": "Body Length: 28 3/8 in., Chest Width:  18 in."
+    },
+    {
+      "size": "M",
+      "price": 28,
+      "dimensions": "Body Length: 29 3/8 in., Chest Width:  20 in."
+    },
+    {
+      "size": "L",
+      "price": 28,
+      "dimensions": "Body Length: 30 3/8 in., Chest Width:  22 in."
+    },
+    {
+      "size": "XL",
+      "price": 28,
+      "dimensions": "Body Length: 31 3/8 in., Chest Width:  24 in."
+    },
+    {
+      "size": "XXL",
+      "price": 30,
+      "dimensions": "Body Length: 32 3/8 in., Chest Width:  26 in."
+    }
+  ],
+  "details": [
+    "Designed, produced & printed in the USA",
+    "100% Pre-washed, no-shrink cotton",
+    "Lightweight (6.5oz)  and durable",
+    "S-XXL"
+  ],
+  "category": {
+    "category": "Mens",
+    "name": "Mens",
+    "link": "/store/mens"
+  },
+  "type": {
+    "type": "Tank",
+    "name": "Original Tank",
+    "link": "/store/mens/tank/stamp/black"
+  },
+  "tags": [
+    "Tops"
+  ],
+  "breadcrumbs": [
+    [
+      "Store",
+      "/store"
+    ],
+    [
+      "Mens",
+      "/store/mens"
+    ],
+    [
+      "Original Tank",
+      "/store/mens/tank"
+    ],
+    [
+      "Block (Black)",
+      ""
+    ]
+  ],
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APb291RVXF1gafv7/gCjpacaGyAeICa6ur0AgoOHBwYOAgEHh4eLAJmanAQHCwkMDaKipWE8FBYjIvM+AAAAAElFTkSuQmCC"
+}

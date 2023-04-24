@@ -1,0 +1,64 @@
+{
+  "function": "getType(category, type)",
+  "output": "/public/data/outerwear-beanie.json",
+  "breadcrumbs": [
+    [
+      "Store",
+      "/store"
+    ],
+    [
+      "Outerwear",
+      "/store/outerwear"
+    ],
+    [
+      "Knit Beanie",
+      "/store/outerwear/beanie"
+    ]
+  ],
+  "type": "Beanie",
+  "name": "Knit Beanie",
+  "link": "/store/outerwear/beanie/block/navy",
+  "image": "/images/products/outerwear/beanie/OuterwearBeanieBlockNavy.jpg",
+  "has_image_back": false,
+  "weight": 2.2,
+  "meta": {
+    "title": "Knit Beanie",
+    "description": "Snug, comfort fit. Fits all."
+  },
+  "tags": [
+    "Accessories"
+  ],
+  "logos": [
+    {
+      "name": "Knit Beanie with Block Design",
+      "link": "/store/outerwear/beanie/block",
+      "linkColor": "/store/outerwear/beanie/block/black",
+      "has_image_back": false,
+      "imageBack": "/images/products/outerwear/beanie/OuterwearBeanieBackBlack.jpg",
+      "image": "/images/products/outerwear/beanie/OuterwearBeanieBlockBlack.jpg",
+      "imageColorRoot": "/images/products/outerwear/beanie/OuterwearBeanieBlock",
+      "imageColorBackRoot": "/images/products/outerwear/beanie/OuterwearBeanieBack",
+      "logo": "Block"
+    }
+  ],
+  "sizes": [
+    {
+      "size": "Fits All",
+      "price": 20
+    }
+  ],
+  "colors": [
+    "Black",
+    "Gray",
+    "Navy"
+  ],
+  "details": [
+    "Made in the USA",
+    "Snug, comfort fit"
+  ],
+  "category": {
+    "category": "Outerwear",
+    "name": "Outerwear",
+    "link": "/store/outerwear"
+  }
+}

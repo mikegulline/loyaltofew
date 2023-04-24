@@ -1,0 +1,150 @@
+{
+  "function": "getColor(category, type, logo, color)",
+  "output": "/public/data/outerwear-50-50-hoodie-arch-black.json",
+  "id": "outerwear50-50-hoodiearchblack",
+  "name": "Original 50/50 Hoodie with Arch Design",
+  "link": "/store/outerwear/50-50-hoodie/arch",
+  "imageRoot": "/images/products/outerwear/50-50-hoodie/",
+  "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieArchBlack.jpg",
+  "imageBack": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBackBlack.jpg",
+  "has_image_back": false,
+  "color": "Black",
+  "logo": "Arch",
+  "weight": 34.3,
+  "meta": {
+    "title": "Original 50/50 Hoodie (Unisex)",
+    "description": "Unisex. Heavyweight (14oz) over-sized fit."
+  },
+  "colors": [
+    "Black"
+  ],
+  "logos": [
+    {
+      "name": "Original 50/50 Hoodie with Arch Design",
+      "link": "/store/outerwear/50-50-hoodie/arch",
+      "linkColor": "/store/outerwear/50-50-hoodie/arch/black",
+      "has_image_back": false,
+      "imageBack": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBackBlack.jpg",
+      "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieArchBlack.jpg",
+      "imageColorRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieArch",
+      "imageColorBackRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBack",
+      "logo": "Arch",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPUlEQVR4nGNgYGCIDYt1dnBmYGBgsLFx///7/+snb3V1jRlSUrKO7D+ye9ve4OBwhuTk5KCA4ODg0IyMDADXShPN/6IGhwAAAABJRU5ErkJggg=="
+    },
+    {
+      "name": "Original 50/50 Hoodie with Block Design",
+      "link": "/store/outerwear/50-50-hoodie/block",
+      "linkColor": "/store/outerwear/50-50-hoodie/block/black",
+      "has_image_back": false,
+      "imageBack": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBackBlack.jpg",
+      "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBlockBlack.jpg",
+      "imageColorRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBlock",
+      "imageColorBackRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBack",
+      "logo": "Block",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAN0lEQVR4nGNgYGAIDw83NDRkgIC/Xz5+efsWxJISF79/48an9+90dXUZdu/eHRcbGx4e3tvbCwCivhNrEiw3CAAAAABJRU5ErkJggg=="
+    },
+    {
+      "name": "Original 50/50 Hoodie with Original Design",
+      "link": "/store/outerwear/50-50-hoodie/original",
+      "linkColor": "/store/outerwear/50-50-hoodie/original/black",
+      "has_image_back": false,
+      "imageBack": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBackBlack.jpg",
+      "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieOriginalBlack.jpg",
+      "imageColorRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieOriginal",
+      "imageColorBackRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBack",
+      "logo": "Original",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAM0lEQVR4nGNgYGBITk6eOnEqAwT8//Lp55evhkaWIM7a5UsWz5+fnJwM4sTFxeVmZwNZALuOEKdziveCAAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "Original 50/50 Hoodie with Stamp Design",
+      "link": "/store/outerwear/50-50-hoodie/stamp",
+      "linkColor": "/store/outerwear/50-50-hoodie/stamp/black",
+      "has_image_back": false,
+      "imageBack": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBackBlack.jpg",
+      "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieStampBlack.jpg",
+      "imageColorRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieStamp",
+      "imageColorBackRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBack",
+      "logo": "Stamp",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAOUlEQVR4nGNgYGDISk11srVlYGBgcHNz+/Xp0/NHj0AcJyenLWvXblq7VlxcHMT39/cPDw3t6ekBAKIdEQPgQHypAAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "Original 50/50 Hoodie with Stenciled Design",
+      "link": "/store/outerwear/50-50-hoodie/stenciled",
+      "linkColor": "/store/outerwear/50-50-hoodie/stenciled/black",
+      "has_image_back": false,
+      "imageBack": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBackBlack.jpg",
+      "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieStenciledBlack.jpg",
+      "imageColorRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieStenciled",
+      "imageColorBackRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBack",
+      "logo": "Stenciled",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/7S0tcXFxf39/wDHx8hSUVBRUE+/vr8AhIODFhUSBAMAenl5ANHR0WZmZWFhYMnJyhjGGzABPBmHAAAAAElFTkSuQmCC"
+    }
+  ],
+  "sizes": [
+    {
+      "size": "S",
+      "price": 60,
+      "dimensions": "Body Length: 26 in, Chest Width: 22 in., Across Shoulder: 21 1/2 in, Armhole Depth: 11 1/2 in, Sleeve Length: 23 3/8 in."
+    },
+    {
+      "size": "M",
+      "price": 60,
+      "dimensions": "Body Length: 27 in., Chest Width: 24 in., Across Shoulder: 23 in, Armhole Depth: 11 7/8 in, Sleeve Length: 23 7/8 in."
+    },
+    {
+      "size": "L",
+      "price": 60,
+      "dimensions": "Body Length: 28 in., Chest Width: 26 in., Across Shoulder: 24 1/2 in, Armhole Depth: 12 1/4in, Sleeve Length: 24 3/8 in."
+    },
+    {
+      "size": "XL",
+      "price": 60,
+      "dimensions": "Body Length: 29 in., Chest Width: 28 in., Across Shoulder: 26 in, Armhole Depth: 12 5/8in, Sleeve Length: 24 7/8 in."
+    },
+    {
+      "size": "XXL",
+      "price": 60,
+      "dimensions": "Body Length: 30 in., Chest Width: 30 in., Across Shoulder: 27 1/2 in, Armhole Depth: 13 in, Sleeve Length: 25 3/8 in."
+    }
+  ],
+  "details": [
+    "Designed, produced & printed in the USA",
+    "50% Cotton, 50% Polyester",
+    "Minimal stretch & wide fit",
+    "Mid-weight (10oz) & durable",
+    "Unisex, check size chart",
+    "S-XXL"
+  ],
+  "category": {
+    "category": "Outerwear",
+    "name": "Outerwear",
+    "link": "/store/outerwear"
+  },
+  "type": {
+    "type": "50-50-Hoodie",
+    "name": "Original 50/50 Hoodie",
+    "link": "/store/outerwear/50-50-hoodie/stamp/black"
+  },
+  "tags": [
+    "Tops"
+  ],
+  "breadcrumbs": [
+    [
+      "Store",
+      "/store"
+    ],
+    [
+      "Outerwear",
+      "/store/outerwear"
+    ],
+    [
+      "Original 50/50 Hoodie",
+      "/store/outerwear/50-50-hoodie"
+    ],
+    [
+      "Arch (Black)",
+      ""
+    ]
+  ],
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPUlEQVR4nGNgYGCIDYt1dnBmYGBgsLFx///7/+snb3V1jRlSUrKO7D+ye9ve4OBwhuTk5KCA4ODg0IyMDADXShPN/6IGhwAAAABJRU5ErkJggg=="
+}

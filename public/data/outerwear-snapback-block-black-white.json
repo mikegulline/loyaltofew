@@ -1,0 +1,81 @@
+{
+  "function": "getColor(category, type, logo, color)",
+  "output": "/public/data/outerwear-snapback-block-black-white.json",
+  "id": "outerwearsnapbackblockblack-white",
+  "name": "Trucker Snapback with Block Design",
+  "link": "/store/outerwear/snapback/block",
+  "imageRoot": "/images/products/outerwear/snapback/",
+  "image": "/images/products/outerwear/snapback/OuterwearSnapbackBlockBlack-White.jpg",
+  "imageBack": "/images/products/outerwear/snapback/OuterwearSnapbackBackBlack-White.jpg",
+  "has_image_back": false,
+  "color": "Black-White",
+  "logo": "Block",
+  "weight": 14.4,
+  "meta": {
+    "title": "Trucker Snapback Hat",
+    "description": "Flex-fit lining with adjustable snapback. Poly-spandex blend with performance mesh."
+  },
+  "colors": [
+    "Black-White",
+    "Gray-White",
+    "Navy-White"
+  ],
+  "logos": [
+    {
+      "name": "Trucker Snapback with Block Design",
+      "link": "/store/outerwear/snapback/block",
+      "linkColor": "/store/outerwear/snapback/block/black-white",
+      "has_image_back": false,
+      "imageBack": "/images/products/outerwear/snapback/OuterwearSnapbackBackBlack-White.jpg",
+      "image": "/images/products/outerwear/snapback/OuterwearSnapbackBlockBlack-White.jpg",
+      "imageColorRoot": "/images/products/outerwear/snapback/OuterwearSnapbackBlock",
+      "imageColorBackRoot": "/images/products/outerwear/snapback/OuterwearSnapbackBack",
+      "logo": "Block",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APP0+Xh5foWKkv3+/wCUnaUXJjMrSF2tvcsAcHN3AAMQDyg6jZ+tAJ6cnpmYm4yPlJyhqrJqGSexxP8xAAAAAElFTkSuQmCC"
+    }
+  ],
+  "sizes": [
+    {
+      "size": "Adjustable",
+      "price": 30
+    }
+  ],
+  "details": [
+    "Stitched in the USA",
+    "Flex-fit lining with adjustable snapback",
+    "Poly-spandex blend with performance mesh",
+    "One size fits most"
+  ],
+  "category": {
+    "category": "Outerwear",
+    "name": "Outerwear",
+    "link": "/store/outerwear"
+  },
+  "type": {
+    "type": "Snapback",
+    "name": "Trucker Snapback",
+    "link": "/store/outerwear/snapback/block/navy-white"
+  },
+  "tags": [
+    "Accessories"
+  ],
+  "breadcrumbs": [
+    [
+      "Store",
+      "/store"
+    ],
+    [
+      "Outerwear",
+      "/store/outerwear"
+    ],
+    [
+      "Trucker Snapback",
+      "/store/outerwear/snapback"
+    ],
+    [
+      "Block (Black-White)",
+      ""
+    ]
+  ],
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APP0+Xh5foWKkv3+/wCUnaUXJjMrSF2tvcsAcHN3AAMQDyg6jZ+tAJ6cnpmYm4yPlJyhqrJqGSexxP8xAAAAAElFTkSuQmCC"
+}

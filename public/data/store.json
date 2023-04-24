@@ -1,4 +1,6 @@
 {
+  "function": "getStore()",
+  "output": "/public/data/store.json",
   "breadcrumbs": [
     [
       "Store",
@@ -18,8 +20,8 @@
         {
           "type": "Tee",
           "name": "Original Tee",
-          "link": "/store/mens/tee/block/gray",
-          "image": "/images/products/mens/tee/MensTeeBlockGray.jpg",
+          "link": "/store/mens/tee/arch/maroon",
+          "image": "/images/products/mens/tee/MensTeeArchMaroon.jpg",
           "has_image_back": true,
           "weight": 7,
           "meta": {
@@ -141,8 +143,8 @@
         {
           "type": "Tank",
           "name": "Original Tank",
-          "link": "/store/mens/tank/original/black",
-          "image": "/images/products/mens/tank/MensTankOriginalBlack.jpg",
+          "link": "/store/mens/tank/arch/black",
+          "image": "/images/products/mens/tank/MensTankArchBlack.jpg",
           "has_image_back": true,
           "weight": 5.7,
           "meta": {
@@ -254,8 +256,8 @@
         {
           "type": "Sleeves",
           "name": "Original Long-Sleeve",
-          "link": "/store/mens/sleeves/original/navy",
-          "image": "/images/products/mens/sleeves/MensSleevesOriginalNavy.jpg",
+          "link": "/store/mens/sleeves/stamp/gray",
+          "image": "/images/products/mens/sleeves/MensSleevesStampGray.jpg",
           "has_image_back": true,
           "weight": 9.8,
           "meta": {
@@ -375,8 +377,8 @@
         {
           "type": "Tee",
           "name": "Original Tee",
-          "link": "/store/womens/tee/stamp/navy",
-          "image": "/images/products/womens/tee/WomensTeeStampNavy.jpg",
+          "link": "/store/womens/tee/stenciled/baby-blue",
+          "image": "/images/products/womens/tee/WomensTeeStenciledBaby-Blue.jpg",
           "has_image_back": true,
           "weight": 3.6,
           "meta": {
@@ -487,8 +489,8 @@
         {
           "type": "Tank",
           "name": "Original Tank",
-          "link": "/store/womens/tank/stenciled/blue",
-          "image": "/images/products/womens/tank/WomensTankStenciledBlue.jpg",
+          "link": "/store/womens/tank/stenciled/maroon",
+          "image": "/images/products/womens/tank/WomensTankStenciledMaroon.jpg",
           "has_image_back": true,
           "weight": 2.6,
           "meta": {
@@ -592,8 +594,8 @@
         {
           "type": "Oversized-Crop",
           "name": "Original Oversized Crop",
-          "link": "/store/womens/oversized-crop/stamp/baby-blue",
-          "image": "/images/products/womens/oversized-crop/WomensOversized-CropStampBaby-Blue.jpg",
+          "link": "/store/womens/oversized-crop/stenciled/mauve",
+          "image": "/images/products/womens/oversized-crop/WomensOversized-CropStenciledMauve.jpg",
           "has_image_back": true,
           "weight": 2.9,
           "meta": {
@@ -695,8 +697,8 @@
         {
           "type": "50-50-Crew",
           "name": "Original 50/50 Crew",
-          "link": "/store/outerwear/50-50-crew/stenciled/black",
-          "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewStenciledBlack.jpg",
+          "link": "/store/outerwear/50-50-crew/stamp/black",
+          "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewStampBlack.jpg",
           "has_image_back": true,
           "weight": 9.8,
           "meta": {
@@ -805,8 +807,8 @@
         {
           "type": "Crew",
           "name": "Original Cotton Crew",
-          "link": "/store/outerwear/crew/original/black",
-          "image": "/images/products/outerwear/crew/OuterwearCrewOriginalBlack.jpg",
+          "link": "/store/outerwear/crew/stamp/green",
+          "image": "/images/products/outerwear/crew/OuterwearCrewStampGreen.jpg",
           "has_image_back": true,
           "weight": 9.8,
           "meta": {
@@ -916,8 +918,8 @@
         {
           "type": "50-50-Hoodie",
           "name": "Original 50/50 Hoodie",
-          "link": "/store/outerwear/50-50-hoodie/stenciled/black",
-          "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieStenciledBlack.jpg",
+          "link": "/store/outerwear/50-50-hoodie/stamp/black",
+          "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieStampBlack.jpg",
           "has_image_back": false,
           "weight": 34.3,
           "meta": {
@@ -1026,8 +1028,8 @@
         {
           "type": "Hoodie",
           "name": "Original Cotton Hoodie",
-          "link": "/store/outerwear/hoodie/block/navy",
-          "image": "/images/products/outerwear/hoodie/OuterwearHoodieBlockNavy.jpg",
+          "link": "/store/outerwear/hoodie/original/green",
+          "image": "/images/products/outerwear/hoodie/OuterwearHoodieOriginalGreen.jpg",
           "has_image_back": false,
           "weight": 34.3,
           "meta": {
@@ -1138,8 +1140,8 @@
         {
           "type": "Beanie",
           "name": "Knit Beanie",
-          "link": "/store/outerwear/beanie/block/gray",
-          "image": "/images/products/outerwear/beanie/OuterwearBeanieBlockGray.jpg",
+          "link": "/store/outerwear/beanie/block/navy",
+          "image": "/images/products/outerwear/beanie/OuterwearBeanieBlockNavy.jpg",
           "has_image_back": false,
           "weight": 2.2,
           "meta": {
@@ -1181,8 +1183,8 @@
         {
           "type": "Snapback",
           "name": "Trucker Snapback",
-          "link": "/store/outerwear/snapback/block/black-white",
-          "image": "/images/products/outerwear/snapback/OuterwearSnapbackBlockBlack-White.jpg",
+          "link": "/store/outerwear/snapback/block/gray-white",
+          "image": "/images/products/outerwear/snapback/OuterwearSnapbackBlockGray-White.jpg",
           "has_image_back": false,
           "weight": 14.4,
           "meta": {

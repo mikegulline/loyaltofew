@@ -1,0 +1,145 @@
+{
+  "function": "getColor(category, type, logo, color)",
+  "output": "/public/data/womens-tank-original-gray.json",
+  "id": "womenstankoriginalgray",
+  "name": "Original Tank with Original Design",
+  "link": "/store/womens/tank/original",
+  "imageRoot": "/images/products/womens/tank/",
+  "image": "/images/products/womens/tank/WomensTankOriginalGray.jpg",
+  "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
+  "has_image_back": true,
+  "color": "Gray",
+  "logo": "Original",
+  "weight": 2.6,
+  "meta": {
+    "title": "Womens Original Tank",
+    "description": "50% polyester, 25% cotton, 25% rayon. Lightweight (3.7oz) racerback design."
+  },
+  "colors": [
+    "Blue",
+    "Gray",
+    "Maroon"
+  ],
+  "logos": [
+    {
+      "name": "Original Tank with Arch Design",
+      "link": "/store/womens/tank/arch",
+      "linkColor": "/store/womens/tank/arch/blue",
+      "has_image_back": true,
+      "imageBack": "/images/products/womens/tank/WomensTankBackBlue.jpg",
+      "image": "/images/products/womens/tank/WomensTankArchBlue.jpg",
+      "imageColorRoot": "/images/products/womens/tank/WomensTankArch",
+      "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
+      "logo": "Arch",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/n2ApIeJqv7+/QDd3uUZKFwsM2Lh4ecApKS2CwQtDAAjp6a0ALCwvxcaQBgYOrKyvvUhGXwPrfJqAAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "Original Tank with Block Design",
+      "link": "/store/womens/tank/block",
+      "linkColor": "/store/womens/tank/block/blue",
+      "has_image_back": true,
+      "imageBack": "/images/products/womens/tank/WomensTankBackBlue.jpg",
+      "image": "/images/products/womens/tank/WomensTankBlockBlue.jpg",
+      "imageColorRoot": "/images/products/womens/tank/WomensTankBlock",
+      "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
+      "logo": "Block",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APT09VthhHd6mPv7+gDU1NsFFT0pLlDj4uYAlJSlDQMhEAEbnpyqAKSkswAAKxIVMbOzvrghF3Pnh9lHAAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "Original Tank with Original Design",
+      "link": "/store/womens/tank/original",
+      "linkColor": "/store/womens/tank/original/blue",
+      "has_image_back": true,
+      "imageBack": "/images/products/womens/tank/WomensTankBackBlue.jpg",
+      "image": "/images/products/womens/tank/WomensTankOriginalBlue.jpg",
+      "imageColorRoot": "/images/products/womens/tank/WomensTankOriginal",
+      "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
+      "logo": "Original",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7+nZ9p4eLq/r6+ADp6e4eKl8sNGXs6+4AwsLOAQAxBQAxwsLOALm7zR4kVS0sVMLCzQpKGwcMF5LsAAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "Original Tank with Stamp Design",
+      "link": "/store/womens/tank/stamp",
+      "linkColor": "/store/womens/tank/stamp/blue",
+      "has_image_back": true,
+      "imageBack": "/images/products/womens/tank/WomensTankBackBlue.jpg",
+      "image": "/images/products/womens/tank/WomensTankStampBlue.jpg",
+      "imageColorRoot": "/images/products/womens/tank/WomensTankStamp",
+      "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
+      "logo": "Stamp",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO7u8U5Ve5ebsP7+/QDBwc0AADYyNFnw7/EAjIueCAAiDwMgtLS9AKmpuAAALxQXM7u7wbz3F99RHzxwAAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "Original Tank with Stenciled Design",
+      "link": "/store/womens/tank/stenciled",
+      "linkColor": "/store/womens/tank/stenciled/blue",
+      "has_image_back": true,
+      "imageBack": "/images/products/womens/tank/WomensTankBackBlue.jpg",
+      "image": "/images/products/womens/tank/WomensTankStenciledBlue.jpg",
+      "imageColorRoot": "/images/products/womens/tank/WomensTankStenciled",
+      "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
+      "logo": "Stenciled",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7+5maq6eotvr6+gDt7e84Ol9GR2by8vMAtrbCAAArBgQsu7vEAM/O1UhKY0pMZtLS2TRXHNC6bkvVAAAAAElFTkSuQmCC"
+    }
+  ],
+  "sizes": [
+    {
+      "size": "S",
+      "price": 25,
+      "dimensions": "Body Length: 25 3/4 in., Chest Width: 13 5/8 in."
+    },
+    {
+      "size": "M",
+      "price": 25,
+      "dimensions": "Body Length: 26 3/8 in., Chest Width: 14 5/8 in."
+    },
+    {
+      "size": "L",
+      "price": 25,
+      "dimensions": "Body Length: 27 1/4 in., Chest Width: 16 1/8 in."
+    },
+    {
+      "size": "XL",
+      "price": 25,
+      "dimensions": "Body Length: 27 3/4 in., Chest Width: 17 in."
+    }
+  ],
+  "details": [
+    "Designed, produced & printed in the USA",
+    "50% polyester, 25% cotton, 25% rayon",
+    "Lightweight (3.7oz) racerback design",
+    "XS-XL"
+  ],
+  "category": {
+    "category": "Womens",
+    "name": "Womens",
+    "link": "/store/womens"
+  },
+  "type": {
+    "type": "Tank",
+    "name": "Original Tank",
+    "link": "/store/womens/tank/stamp/blue"
+  },
+  "tags": [
+    "Tops"
+  ],
+  "breadcrumbs": [
+    [
+      "Store",
+      "/store"
+    ],
+    [
+      "Womens",
+      "/store/womens"
+    ],
+    [
+      "Original Tank",
+      "/store/womens/tank"
+    ],
+    [
+      "Original (Gray)",
+      ""
+    ]
+  ],
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APn5/IODhZmZmvv7/wDm5ug4NjFGQDzq6usAvLu8FwoAFwAAure1AMDAwTkzMD43MMHAwAA8GmOrJjO3AAAAAElFTkSuQmCC"
+}

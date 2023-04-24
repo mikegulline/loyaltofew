@@ -1,0 +1,150 @@
+{
+  "function": "getColor(category, type, logo, color)",
+  "output": "/public/data/outerwear-50-50-crew-arch-black.json",
+  "id": "outerwear50-50-crewarchblack",
+  "name": "Original 50/50 Crew with Arch Design",
+  "link": "/store/outerwear/50-50-crew/arch",
+  "imageRoot": "/images/products/outerwear/50-50-crew/",
+  "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewArchBlack.jpg",
+  "imageBack": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewBackBlack.jpg",
+  "has_image_back": true,
+  "color": "Black",
+  "logo": "Arch",
+  "weight": 9.8,
+  "meta": {
+    "title": "Original 50/50 Crew (Unisex)",
+    "description": "100% cotton grown on a US farm. Lightweight (4.3oz.) & durable."
+  },
+  "colors": [
+    "Black"
+  ],
+  "logos": [
+    {
+      "name": "Original 50/50 Crew with Arch Design",
+      "link": "/store/outerwear/50-50-crew/arch",
+      "linkColor": "/store/outerwear/50-50-crew/arch/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewBackBlack.jpg",
+      "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewArchBlack.jpg",
+      "imageColorRoot": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewArch",
+      "imageColorBackRoot": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewBack",
+      "logo": "Arch",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz9/62xuKqutfj5+wB+hJAqLTg2Nz9+gosAfIGKCwwVBAMQZWdwAPz8/62tsqWmqurq7dIRGx/Ylgo+AAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "Original 50/50 Crew with Block Design",
+      "link": "/store/outerwear/50-50-crew/block",
+      "linkColor": "/store/outerwear/50-50-crew/block/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewBackBlack.jpg",
+      "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewBlockBlack.jpg",
+      "imageColorRoot": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewBlock",
+      "imageColorBackRoot": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewBack",
+      "logo": "Block",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz9/6qts6mqsPj5+wB3fYguMjtGR092eoIAdnqEAwQPAAAMX2FoAPz8/6ioraCgpurq7MlfGq8+UmVgAAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "Original 50/50 Crew with Original Design",
+      "link": "/store/outerwear/50-50-crew/original",
+      "linkColor": "/store/outerwear/50-50-crew/original/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewBackBlack.jpg",
+      "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewOriginalBlack.jpg",
+      "imageColorRoot": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewOriginal",
+      "imageColorBackRoot": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewBack",
+      "logo": "Original",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz9/7S2vbG0u/j5+wCEipUsMTktMTmFiJEAgIWPDA4YBAQPa252APz7/7Cxtqqsr+vr7t7WG5wUQS5wAAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "Original 50/50 Crew with Stamp Design",
+      "link": "/store/outerwear/50-50-crew/stamp",
+      "linkColor": "/store/outerwear/50-50-crew/stamp/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewBackBlack.jpg",
+      "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewStampBlack.jpg",
+      "imageColorRoot": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewStamp",
+      "imageColorBackRoot": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewBack",
+      "logo": "Stamp",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz9/62utairsvj5+wB8gowsMDo7PUZ8f4cAeH6HCQoVAwMNY2VsAPz8/6qrsKOkqOrr7c49GvMAN26jAAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "Original 50/50 Crew with Stenciled Design",
+      "link": "/store/outerwear/50-50-crew/stenciled",
+      "linkColor": "/store/outerwear/50-50-crew/stenciled/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewBackBlack.jpg",
+      "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewStenciledBlack.jpg",
+      "imageColorRoot": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewStenciled",
+      "imageColorBackRoot": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewBack",
+      "logo": "Stenciled",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv8/cfIzcvN0fz8/wCZnKM9QkxLUFygpKwAeH2EAAIPFhskjpGXAOno7bS0trm6vu7u8B1hHakrWyHvAAAAAElFTkSuQmCC"
+    }
+  ],
+  "sizes": [
+    {
+      "size": "S",
+      "price": 60,
+      "dimensions": "Body Length: 26 in, Chest Width: 22 in., Across Shoulder: 21 1/2 in, Armhole Depth: 11 1/2 in, Sleeve Length: 23 3/8 in."
+    },
+    {
+      "size": "M",
+      "price": 60,
+      "dimensions": "Body Length: 27 in., Chest Width: 24 in., Across Shoulder: 23 in, Armhole Depth: 11 7/8 in, Sleeve Length: 23 7/8 in."
+    },
+    {
+      "size": "L",
+      "price": 60,
+      "dimensions": "Body Length: 28 in., Chest Width: 26 in., Across Shoulder: 24 1/2 in, Armhole Depth: 12 1/4in, Sleeve Length: 24 3/8 in."
+    },
+    {
+      "size": "XL",
+      "price": 60,
+      "dimensions": "Body Length: 29 in., Chest Width: 28 in., Across Shoulder: 26 in, Armhole Depth: 12 5/8in, Sleeve Length: 24 7/8 in."
+    },
+    {
+      "size": "XXL",
+      "price": 60,
+      "dimensions": "Body Length: 30 in., Chest Width: 30 in., Across Shoulder: 27 1/2 in, Armhole Depth: 13 in, Sleeve Length: 25 3/8 in."
+    }
+  ],
+  "details": [
+    "Designed, produced & printed in the USA",
+    "50% Cotton, 50% Polyester",
+    "Higher neck line & wide stretch fit",
+    "Mid-weight (10oz) & durable",
+    "Unisex, check size chart",
+    "S-XXL"
+  ],
+  "category": {
+    "category": "Outerwear",
+    "name": "Outerwear",
+    "link": "/store/outerwear"
+  },
+  "type": {
+    "type": "50-50-Crew",
+    "name": "Original 50/50 Crew",
+    "link": "/store/outerwear/50-50-crew/stamp/black"
+  },
+  "tags": [
+    "Tops"
+  ],
+  "breadcrumbs": [
+    [
+      "Store",
+      "/store"
+    ],
+    [
+      "Outerwear",
+      "/store/outerwear"
+    ],
+    [
+      "Original 50/50 Crew",
+      "/store/outerwear/50-50-crew"
+    ],
+    [
+      "Arch (Black)",
+      ""
+    ]
+  ],
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz9/62xuKqutfj5+wB+hJAqLTg2Nz9+gosAfIGKCwwVBAMQZWdwAPz8/62tsqWmqurq7dIRGx/Ylgo+AAAAAElFTkSuQmCC"
+}

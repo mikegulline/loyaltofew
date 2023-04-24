@@ -1,0 +1,151 @@
+{
+  "function": "getColor(category, type, logo, color)",
+  "output": "/public/data/outerwear-crew-stamp-navy.json",
+  "id": "outerwearcrewstampnavy",
+  "name": "Original Cotton Crew with Stamp Design",
+  "link": "/store/outerwear/crew/stamp",
+  "imageRoot": "/images/products/outerwear/crew/",
+  "image": "/images/products/outerwear/crew/OuterwearCrewStampNavy.jpg",
+  "imageBack": "/images/products/outerwear/crew/OuterwearCrewBackNavy.jpg",
+  "has_image_back": true,
+  "color": "Navy",
+  "logo": "Stamp",
+  "weight": 9.8,
+  "meta": {
+    "title": "Original Cotton Crew (Unisex)",
+    "description": "100% cotton grown on a US farm. Lightweight (4.3oz.) & durable."
+  },
+  "colors": [
+    "Black",
+    "Navy",
+    "Green",
+    "Dolphin"
+  ],
+  "logos": [
+    {
+      "name": "Original Cotton Crew with Arch Design",
+      "link": "/store/outerwear/crew/arch",
+      "linkColor": "/store/outerwear/crew/arch/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/outerwear/crew/OuterwearCrewBackBlack.jpg",
+      "image": "/images/products/outerwear/crew/OuterwearCrewArchBlack.jpg",
+      "imageColorRoot": "/images/products/outerwear/crew/OuterwearCrewArch",
+      "imageColorBackRoot": "/images/products/outerwear/crew/OuterwearCrewBack",
+      "logo": "Arch",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz9/62xuKqutfj5+wB+hJAqLTg2Nz9+gosAfIGKCwwVBAMQZWdwAPz8/62tsqWmqurq7dIRGx/Ylgo+AAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "Original Cotton Crew with Block Design",
+      "link": "/store/outerwear/crew/block",
+      "linkColor": "/store/outerwear/crew/block/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/outerwear/crew/OuterwearCrewBackBlack.jpg",
+      "image": "/images/products/outerwear/crew/OuterwearCrewBlockBlack.jpg",
+      "imageColorRoot": "/images/products/outerwear/crew/OuterwearCrewBlock",
+      "imageColorBackRoot": "/images/products/outerwear/crew/OuterwearCrewBack",
+      "logo": "Block",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz9/6qts6mqsPj5+wB3fYguMjtGR092eoIAdnqEAwQPAAAMX2FoAPz8/6ioraCgpurq7MlfGq8+UmVgAAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "Original Cotton Crew with Original Design",
+      "link": "/store/outerwear/crew/original",
+      "linkColor": "/store/outerwear/crew/original/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/outerwear/crew/OuterwearCrewBackBlack.jpg",
+      "image": "/images/products/outerwear/crew/OuterwearCrewOriginalBlack.jpg",
+      "imageColorRoot": "/images/products/outerwear/crew/OuterwearCrewOriginal",
+      "imageColorBackRoot": "/images/products/outerwear/crew/OuterwearCrewBack",
+      "logo": "Original",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz9/7S2vbG0u/j5+wCEipUsMTktMTmFiJEAgIWPDA4YBAQPa252APz7/7Cxtqqsr+vr7t7WG5wUQS5wAAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "Original Cotton Crew with Stamp Design",
+      "link": "/store/outerwear/crew/stamp",
+      "linkColor": "/store/outerwear/crew/stamp/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/outerwear/crew/OuterwearCrewBackBlack.jpg",
+      "image": "/images/products/outerwear/crew/OuterwearCrewStampBlack.jpg",
+      "imageColorRoot": "/images/products/outerwear/crew/OuterwearCrewStamp",
+      "imageColorBackRoot": "/images/products/outerwear/crew/OuterwearCrewBack",
+      "logo": "Stamp",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz9/62utairsvj5+wB8gowsMDo7PUZ8f4cAeH6HCQoVAwMNY2VsAPz8/6qrsKOkqOrr7c49GvMAN26jAAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "Original Cotton Crew with Stenciled Design",
+      "link": "/store/outerwear/crew/stenciled",
+      "linkColor": "/store/outerwear/crew/stenciled/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/outerwear/crew/OuterwearCrewBackBlack.jpg",
+      "image": "/images/products/outerwear/crew/OuterwearCrewStenciledBlack.jpg",
+      "imageColorRoot": "/images/products/outerwear/crew/OuterwearCrewStenciled",
+      "imageColorBackRoot": "/images/products/outerwear/crew/OuterwearCrewBack",
+      "logo": "Stenciled",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv8/cfIzcvN0fz8/wCZnKM9QkxLUFygpKwAeH2EAAIPFhskjpGXAOno7bS0trm6vu7u8B1hHakrWyHvAAAAAElFTkSuQmCC"
+    }
+  ],
+  "sizes": [
+    {
+      "size": "S",
+      "price": 70,
+      "dimensions": "Body Length: 26 7/8 in, Chest Width: 20 in., Sleeve Length: 23 3/4 in."
+    },
+    {
+      "size": "M",
+      "price": 70,
+      "dimensions": "Body Length: 28 in., Chest Width: 22 in., Sleeve Length: 24 1/4 in."
+    },
+    {
+      "size": "L",
+      "price": 70,
+      "dimensions": "Body Length: 29 1/8 in., Chest Width: 24 in., Sleeve Length: 24 3/4 in."
+    },
+    {
+      "size": "XL",
+      "price": 70,
+      "dimensions": "Body Length: 30 1/4 in., Chest Width: 26 in., Sleeve Length: 25 1/4 in."
+    },
+    {
+      "size": "XXL",
+      "price": 70,
+      "dimensions": "Body Length: 31 3/8 in., Chest Width: 28 in., Sleeve Length: 25 3/4 in."
+    }
+  ],
+  "details": [
+    "Designed, produced & printed in the USA",
+    "100% US grown, pre-washed, no-shrink cotton",
+    "Heavyweight (14oz) oversized fit",
+    "Unisex, check size-chart, S-XXL"
+  ],
+  "category": {
+    "category": "Outerwear",
+    "name": "Outerwear",
+    "link": "/store/outerwear"
+  },
+  "type": {
+    "type": "Crew",
+    "name": "Original Cotton Crew",
+    "link": "/store/outerwear/crew/original/black"
+  },
+  "tags": [
+    "Tops"
+  ],
+  "breadcrumbs": [
+    [
+      "Store",
+      "/store"
+    ],
+    [
+      "Outerwear",
+      "/store/outerwear"
+    ],
+    [
+      "Original Cotton Crew",
+      "/store/outerwear/crew"
+    ],
+    [
+      "Stamp (Navy)",
+      ""
+    ]
+  ],
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz9/7K2wLm9x/39/wB/ipswO01AS2CLlKIAX2p7AAIZCBcqeYKQAOLi56qvtK+0uuzs7vLNHC3QjaYYAAAAAElFTkSuQmCC"
+}

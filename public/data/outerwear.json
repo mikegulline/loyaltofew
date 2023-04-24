@@ -1,0 +1,554 @@
+{
+  "function": "getCategory(category) singles",
+  "output": "/public/data/categories.json",
+  "breadcrumbs": [
+    [
+      "Store",
+      "/store"
+    ],
+    [
+      "Outerwear",
+      "/store/outerwear"
+    ]
+  ],
+  "category": "Outerwear",
+  "name": "Outerwear",
+  "link": "/store/outerwear",
+  "meta": {
+    "title": "Loyal To Few® (LTF) Outerwear",
+    "description": ""
+  },
+  "products": [
+    {
+      "type": "50-50-Crew",
+      "name": "Original 50/50 Crew",
+      "link": "/store/outerwear/50-50-crew/block/black",
+      "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewBlockBlack.jpg",
+      "has_image_back": true,
+      "weight": 9.8,
+      "meta": {
+        "title": "Original 50/50 Crew (Unisex)",
+        "description": "100% cotton grown on a US farm. Lightweight (4.3oz.) & durable."
+      },
+      "tags": [
+        "Tops"
+      ],
+      "logos": [
+        {
+          "name": "Original 50/50 Crew with Arch Design",
+          "link": "/store/outerwear/50-50-crew/arch",
+          "linkColor": "/store/outerwear/50-50-crew/arch/black",
+          "has_image_back": true,
+          "imageBack": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewBackBlack.jpg",
+          "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewArchBlack.jpg",
+          "imageColorRoot": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewArch",
+          "imageColorBackRoot": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewBack",
+          "logo": "Arch"
+        },
+        {
+          "name": "Original 50/50 Crew with Block Design",
+          "link": "/store/outerwear/50-50-crew/block",
+          "linkColor": "/store/outerwear/50-50-crew/block/black",
+          "has_image_back": true,
+          "imageBack": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewBackBlack.jpg",
+          "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewBlockBlack.jpg",
+          "imageColorRoot": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewBlock",
+          "imageColorBackRoot": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewBack",
+          "logo": "Block"
+        },
+        {
+          "name": "Original 50/50 Crew with Original Design",
+          "link": "/store/outerwear/50-50-crew/original",
+          "linkColor": "/store/outerwear/50-50-crew/original/black",
+          "has_image_back": true,
+          "imageBack": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewBackBlack.jpg",
+          "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewOriginalBlack.jpg",
+          "imageColorRoot": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewOriginal",
+          "imageColorBackRoot": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewBack",
+          "logo": "Original"
+        },
+        {
+          "name": "Original 50/50 Crew with Stamp Design",
+          "link": "/store/outerwear/50-50-crew/stamp",
+          "linkColor": "/store/outerwear/50-50-crew/stamp/black",
+          "has_image_back": true,
+          "imageBack": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewBackBlack.jpg",
+          "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewStampBlack.jpg",
+          "imageColorRoot": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewStamp",
+          "imageColorBackRoot": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewBack",
+          "logo": "Stamp"
+        },
+        {
+          "name": "Original 50/50 Crew with Stenciled Design",
+          "link": "/store/outerwear/50-50-crew/stenciled",
+          "linkColor": "/store/outerwear/50-50-crew/stenciled/black",
+          "has_image_back": true,
+          "imageBack": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewBackBlack.jpg",
+          "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewStenciledBlack.jpg",
+          "imageColorRoot": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewStenciled",
+          "imageColorBackRoot": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewBack",
+          "logo": "Stenciled"
+        }
+      ],
+      "sizes": [
+        {
+          "size": "S",
+          "price": 60,
+          "dimensions": "Body Length: 26 in, Chest Width: 22 in., Across Shoulder: 21 1/2 in, Armhole Depth: 11 1/2 in, Sleeve Length: 23 3/8 in."
+        },
+        {
+          "size": "M",
+          "price": 60,
+          "dimensions": "Body Length: 27 in., Chest Width: 24 in., Across Shoulder: 23 in, Armhole Depth: 11 7/8 in, Sleeve Length: 23 7/8 in."
+        },
+        {
+          "size": "L",
+          "price": 60,
+          "dimensions": "Body Length: 28 in., Chest Width: 26 in., Across Shoulder: 24 1/2 in, Armhole Depth: 12 1/4in, Sleeve Length: 24 3/8 in."
+        },
+        {
+          "size": "XL",
+          "price": 60,
+          "dimensions": "Body Length: 29 in., Chest Width: 28 in., Across Shoulder: 26 in, Armhole Depth: 12 5/8in, Sleeve Length: 24 7/8 in."
+        },
+        {
+          "size": "XXL",
+          "price": 60,
+          "dimensions": "Body Length: 30 in., Chest Width: 30 in., Across Shoulder: 27 1/2 in, Armhole Depth: 13 in, Sleeve Length: 25 3/8 in."
+        }
+      ],
+      "colors": [
+        "Black"
+      ],
+      "details": [
+        "Designed, produced & printed in the USA",
+        "50% Cotton, 50% Polyester",
+        "Higher neck line & wide stretch fit",
+        "Mid-weight (10oz) & durable",
+        "Unisex, check size chart",
+        "S-XXL"
+      ]
+    },
+    {
+      "type": "Crew",
+      "name": "Original Cotton Crew",
+      "link": "/store/outerwear/crew/stenciled/dolphin",
+      "image": "/images/products/outerwear/crew/OuterwearCrewStenciledDolphin.jpg",
+      "has_image_back": true,
+      "weight": 9.8,
+      "meta": {
+        "title": "Original Cotton Crew (Unisex)",
+        "description": "100% cotton grown on a US farm. Lightweight (4.3oz.) & durable."
+      },
+      "tags": [
+        "Tops"
+      ],
+      "logos": [
+        {
+          "name": "Original Cotton Crew with Arch Design",
+          "link": "/store/outerwear/crew/arch",
+          "linkColor": "/store/outerwear/crew/arch/black",
+          "has_image_back": true,
+          "imageBack": "/images/products/outerwear/crew/OuterwearCrewBackBlack.jpg",
+          "image": "/images/products/outerwear/crew/OuterwearCrewArchBlack.jpg",
+          "imageColorRoot": "/images/products/outerwear/crew/OuterwearCrewArch",
+          "imageColorBackRoot": "/images/products/outerwear/crew/OuterwearCrewBack",
+          "logo": "Arch"
+        },
+        {
+          "name": "Original Cotton Crew with Block Design",
+          "link": "/store/outerwear/crew/block",
+          "linkColor": "/store/outerwear/crew/block/black",
+          "has_image_back": true,
+          "imageBack": "/images/products/outerwear/crew/OuterwearCrewBackBlack.jpg",
+          "image": "/images/products/outerwear/crew/OuterwearCrewBlockBlack.jpg",
+          "imageColorRoot": "/images/products/outerwear/crew/OuterwearCrewBlock",
+          "imageColorBackRoot": "/images/products/outerwear/crew/OuterwearCrewBack",
+          "logo": "Block"
+        },
+        {
+          "name": "Original Cotton Crew with Original Design",
+          "link": "/store/outerwear/crew/original",
+          "linkColor": "/store/outerwear/crew/original/black",
+          "has_image_back": true,
+          "imageBack": "/images/products/outerwear/crew/OuterwearCrewBackBlack.jpg",
+          "image": "/images/products/outerwear/crew/OuterwearCrewOriginalBlack.jpg",
+          "imageColorRoot": "/images/products/outerwear/crew/OuterwearCrewOriginal",
+          "imageColorBackRoot": "/images/products/outerwear/crew/OuterwearCrewBack",
+          "logo": "Original"
+        },
+        {
+          "name": "Original Cotton Crew with Stamp Design",
+          "link": "/store/outerwear/crew/stamp",
+          "linkColor": "/store/outerwear/crew/stamp/black",
+          "has_image_back": true,
+          "imageBack": "/images/products/outerwear/crew/OuterwearCrewBackBlack.jpg",
+          "image": "/images/products/outerwear/crew/OuterwearCrewStampBlack.jpg",
+          "imageColorRoot": "/images/products/outerwear/crew/OuterwearCrewStamp",
+          "imageColorBackRoot": "/images/products/outerwear/crew/OuterwearCrewBack",
+          "logo": "Stamp"
+        },
+        {
+          "name": "Original Cotton Crew with Stenciled Design",
+          "link": "/store/outerwear/crew/stenciled",
+          "linkColor": "/store/outerwear/crew/stenciled/black",
+          "has_image_back": true,
+          "imageBack": "/images/products/outerwear/crew/OuterwearCrewBackBlack.jpg",
+          "image": "/images/products/outerwear/crew/OuterwearCrewStenciledBlack.jpg",
+          "imageColorRoot": "/images/products/outerwear/crew/OuterwearCrewStenciled",
+          "imageColorBackRoot": "/images/products/outerwear/crew/OuterwearCrewBack",
+          "logo": "Stenciled"
+        }
+      ],
+      "sizes": [
+        {
+          "size": "S",
+          "price": 70,
+          "dimensions": "Body Length: 26 7/8 in, Chest Width: 20 in., Sleeve Length: 23 3/4 in."
+        },
+        {
+          "size": "M",
+          "price": 70,
+          "dimensions": "Body Length: 28 in., Chest Width: 22 in., Sleeve Length: 24 1/4 in."
+        },
+        {
+          "size": "L",
+          "price": 70,
+          "dimensions": "Body Length: 29 1/8 in., Chest Width: 24 in., Sleeve Length: 24 3/4 in."
+        },
+        {
+          "size": "XL",
+          "price": 70,
+          "dimensions": "Body Length: 30 1/4 in., Chest Width: 26 in., Sleeve Length: 25 1/4 in."
+        },
+        {
+          "size": "XXL",
+          "price": 70,
+          "dimensions": "Body Length: 31 3/8 in., Chest Width: 28 in., Sleeve Length: 25 3/4 in."
+        }
+      ],
+      "colors": [
+        "Black",
+        "Navy",
+        "Green",
+        "Dolphin"
+      ],
+      "details": [
+        "Designed, produced & printed in the USA",
+        "100% US grown, pre-washed, no-shrink cotton",
+        "Heavyweight (14oz) oversized fit",
+        "Unisex, check size-chart, S-XXL"
+      ]
+    },
+    {
+      "type": "50-50-Hoodie",
+      "name": "Original 50/50 Hoodie",
+      "link": "/store/outerwear/50-50-hoodie/original/black",
+      "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieOriginalBlack.jpg",
+      "has_image_back": false,
+      "weight": 34.3,
+      "meta": {
+        "title": "Original 50/50 Hoodie (Unisex)",
+        "description": "Unisex. Heavyweight (14oz) over-sized fit."
+      },
+      "tags": [
+        "Tops"
+      ],
+      "logos": [
+        {
+          "name": "Original 50/50 Hoodie with Arch Design",
+          "link": "/store/outerwear/50-50-hoodie/arch",
+          "linkColor": "/store/outerwear/50-50-hoodie/arch/black",
+          "has_image_back": false,
+          "imageBack": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBackBlack.jpg",
+          "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieArchBlack.jpg",
+          "imageColorRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieArch",
+          "imageColorBackRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBack",
+          "logo": "Arch"
+        },
+        {
+          "name": "Original 50/50 Hoodie with Block Design",
+          "link": "/store/outerwear/50-50-hoodie/block",
+          "linkColor": "/store/outerwear/50-50-hoodie/block/black",
+          "has_image_back": false,
+          "imageBack": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBackBlack.jpg",
+          "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBlockBlack.jpg",
+          "imageColorRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBlock",
+          "imageColorBackRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBack",
+          "logo": "Block"
+        },
+        {
+          "name": "Original 50/50 Hoodie with Original Design",
+          "link": "/store/outerwear/50-50-hoodie/original",
+          "linkColor": "/store/outerwear/50-50-hoodie/original/black",
+          "has_image_back": false,
+          "imageBack": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBackBlack.jpg",
+          "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieOriginalBlack.jpg",
+          "imageColorRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieOriginal",
+          "imageColorBackRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBack",
+          "logo": "Original"
+        },
+        {
+          "name": "Original 50/50 Hoodie with Stamp Design",
+          "link": "/store/outerwear/50-50-hoodie/stamp",
+          "linkColor": "/store/outerwear/50-50-hoodie/stamp/black",
+          "has_image_back": false,
+          "imageBack": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBackBlack.jpg",
+          "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieStampBlack.jpg",
+          "imageColorRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieStamp",
+          "imageColorBackRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBack",
+          "logo": "Stamp"
+        },
+        {
+          "name": "Original 50/50 Hoodie with Stenciled Design",
+          "link": "/store/outerwear/50-50-hoodie/stenciled",
+          "linkColor": "/store/outerwear/50-50-hoodie/stenciled/black",
+          "has_image_back": false,
+          "imageBack": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBackBlack.jpg",
+          "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieStenciledBlack.jpg",
+          "imageColorRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieStenciled",
+          "imageColorBackRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBack",
+          "logo": "Stenciled"
+        }
+      ],
+      "sizes": [
+        {
+          "size": "S",
+          "price": 60,
+          "dimensions": "Body Length: 26 in, Chest Width: 22 in., Across Shoulder: 21 1/2 in, Armhole Depth: 11 1/2 in, Sleeve Length: 23 3/8 in."
+        },
+        {
+          "size": "M",
+          "price": 60,
+          "dimensions": "Body Length: 27 in., Chest Width: 24 in., Across Shoulder: 23 in, Armhole Depth: 11 7/8 in, Sleeve Length: 23 7/8 in."
+        },
+        {
+          "size": "L",
+          "price": 60,
+          "dimensions": "Body Length: 28 in., Chest Width: 26 in., Across Shoulder: 24 1/2 in, Armhole Depth: 12 1/4in, Sleeve Length: 24 3/8 in."
+        },
+        {
+          "size": "XL",
+          "price": 60,
+          "dimensions": "Body Length: 29 in., Chest Width: 28 in., Across Shoulder: 26 in, Armhole Depth: 12 5/8in, Sleeve Length: 24 7/8 in."
+        },
+        {
+          "size": "XXL",
+          "price": 60,
+          "dimensions": "Body Length: 30 in., Chest Width: 30 in., Across Shoulder: 27 1/2 in, Armhole Depth: 13 in, Sleeve Length: 25 3/8 in."
+        }
+      ],
+      "colors": [
+        "Black"
+      ],
+      "details": [
+        "Designed, produced & printed in the USA",
+        "50% Cotton, 50% Polyester",
+        "Minimal stretch & wide fit",
+        "Mid-weight (10oz) & durable",
+        "Unisex, check size chart",
+        "S-XXL"
+      ]
+    },
+    {
+      "type": "Hoodie",
+      "name": "Original Cotton Hoodie",
+      "link": "/store/outerwear/hoodie/original/black",
+      "image": "/images/products/outerwear/hoodie/OuterwearHoodieOriginalBlack.jpg",
+      "has_image_back": false,
+      "weight": 34.3,
+      "meta": {
+        "title": "Original Cotton Hoodie (Unisex)",
+        "description": "Unisex. Heavyweight (14oz) over-sized fit."
+      },
+      "tags": [
+        "Tops"
+      ],
+      "logos": [
+        {
+          "name": "Original Cotton Hoodie with Arch Design",
+          "link": "/store/outerwear/hoodie/arch",
+          "linkColor": "/store/outerwear/hoodie/arch/black",
+          "has_image_back": false,
+          "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieBackBlack.jpg",
+          "image": "/images/products/outerwear/hoodie/OuterwearHoodieArchBlack.jpg",
+          "imageColorRoot": "/images/products/outerwear/hoodie/OuterwearHoodieArch",
+          "imageColorBackRoot": "/images/products/outerwear/hoodie/OuterwearHoodieBack",
+          "logo": "Arch"
+        },
+        {
+          "name": "Original Cotton Hoodie with Block Design",
+          "link": "/store/outerwear/hoodie/block",
+          "linkColor": "/store/outerwear/hoodie/block/black",
+          "has_image_back": false,
+          "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieBackBlack.jpg",
+          "image": "/images/products/outerwear/hoodie/OuterwearHoodieBlockBlack.jpg",
+          "imageColorRoot": "/images/products/outerwear/hoodie/OuterwearHoodieBlock",
+          "imageColorBackRoot": "/images/products/outerwear/hoodie/OuterwearHoodieBack",
+          "logo": "Block"
+        },
+        {
+          "name": "Original Cotton Hoodie with Original Design",
+          "link": "/store/outerwear/hoodie/original",
+          "linkColor": "/store/outerwear/hoodie/original/black",
+          "has_image_back": false,
+          "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieBackBlack.jpg",
+          "image": "/images/products/outerwear/hoodie/OuterwearHoodieOriginalBlack.jpg",
+          "imageColorRoot": "/images/products/outerwear/hoodie/OuterwearHoodieOriginal",
+          "imageColorBackRoot": "/images/products/outerwear/hoodie/OuterwearHoodieBack",
+          "logo": "Original"
+        },
+        {
+          "name": "Original Cotton Hoodie with Stamp Design",
+          "link": "/store/outerwear/hoodie/stamp",
+          "linkColor": "/store/outerwear/hoodie/stamp/black",
+          "has_image_back": false,
+          "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieBackBlack.jpg",
+          "image": "/images/products/outerwear/hoodie/OuterwearHoodieStampBlack.jpg",
+          "imageColorRoot": "/images/products/outerwear/hoodie/OuterwearHoodieStamp",
+          "imageColorBackRoot": "/images/products/outerwear/hoodie/OuterwearHoodieBack",
+          "logo": "Stamp"
+        },
+        {
+          "name": "Original Cotton Hoodie with Stenciled Design",
+          "link": "/store/outerwear/hoodie/stenciled",
+          "linkColor": "/store/outerwear/hoodie/stenciled/black",
+          "has_image_back": false,
+          "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieBackBlack.jpg",
+          "image": "/images/products/outerwear/hoodie/OuterwearHoodieStenciledBlack.jpg",
+          "imageColorRoot": "/images/products/outerwear/hoodie/OuterwearHoodieStenciled",
+          "imageColorBackRoot": "/images/products/outerwear/hoodie/OuterwearHoodieBack",
+          "logo": "Stenciled"
+        }
+      ],
+      "sizes": [
+        {
+          "size": "S",
+          "price": 76,
+          "dimensions": "Body Length: 26 1/2 in., Chest Width: 20 1/8 in., Sleeve Length: 23 1/2 in."
+        },
+        {
+          "size": "M",
+          "price": 76,
+          "dimensions": "Body Length: 27 3/4 in., Chest Width: 22 1/8 in., Sleeve Length: 23 7/8 in."
+        },
+        {
+          "size": "L",
+          "price": 76,
+          "dimensions": "Body Length: 28 7/8 in., Chest Width: 24 1/8 in., Sleeve Length: 24 3/8 in."
+        },
+        {
+          "size": "XL",
+          "price": 76,
+          "dimensions": "Body Length: 30 in., Chest Width: 26 1/8 in., Sleeve Length: 25 in."
+        },
+        {
+          "size": "XXL",
+          "price": 78,
+          "dimensions": "Body Length: 31 1/8 in, Chest Width: 28 1/8 in., Sleeve Length: 25 1/2 in."
+        }
+      ],
+      "colors": [
+        "Black",
+        "Dolphin",
+        "Green",
+        "Navy"
+      ],
+      "details": [
+        "Designed, produced & printed in the USA",
+        "100% US-grown, pre-washed, no-shrink cotton",
+        "Heavyweight (14oz) over-sized fit",
+        "Unisex, check size chart",
+        "S-XXL"
+      ]
+    },
+    {
+      "type": "Beanie",
+      "name": "Knit Beanie",
+      "link": "/store/outerwear/beanie/block/gray",
+      "image": "/images/products/outerwear/beanie/OuterwearBeanieBlockGray.jpg",
+      "has_image_back": false,
+      "weight": 2.2,
+      "meta": {
+        "title": "Knit Beanie",
+        "description": "Snug, comfort fit. Fits all."
+      },
+      "tags": [
+        "Accessories"
+      ],
+      "logos": [
+        {
+          "name": "Knit Beanie with Block Design",
+          "link": "/store/outerwear/beanie/block",
+          "linkColor": "/store/outerwear/beanie/block/black",
+          "has_image_back": false,
+          "imageBack": "/images/products/outerwear/beanie/OuterwearBeanieBackBlack.jpg",
+          "image": "/images/products/outerwear/beanie/OuterwearBeanieBlockBlack.jpg",
+          "imageColorRoot": "/images/products/outerwear/beanie/OuterwearBeanieBlock",
+          "imageColorBackRoot": "/images/products/outerwear/beanie/OuterwearBeanieBack",
+          "logo": "Block"
+        }
+      ],
+      "sizes": [
+        {
+          "size": "Fits All",
+          "price": 20
+        }
+      ],
+      "colors": [
+        "Black",
+        "Gray",
+        "Navy"
+      ],
+      "details": [
+        "Made in the USA",
+        "Snug, comfort fit"
+      ]
+    },
+    {
+      "type": "Snapback",
+      "name": "Trucker Snapback",
+      "link": "/store/outerwear/snapback/block/navy-white",
+      "image": "/images/products/outerwear/snapback/OuterwearSnapbackBlockNavy-White.jpg",
+      "has_image_back": false,
+      "weight": 14.4,
+      "meta": {
+        "title": "Trucker Snapback Hat",
+        "description": "Flex-fit lining with adjustable snapback. Poly-spandex blend with performance mesh."
+      },
+      "tags": [
+        "Accessories"
+      ],
+      "logos": [
+        {
+          "name": "Trucker Snapback with Block Design",
+          "link": "/store/outerwear/snapback/block",
+          "linkColor": "/store/outerwear/snapback/block/black-white",
+          "has_image_back": false,
+          "imageBack": "/images/products/outerwear/snapback/OuterwearSnapbackBackBlack-White.jpg",
+          "image": "/images/products/outerwear/snapback/OuterwearSnapbackBlockBlack-White.jpg",
+          "imageColorRoot": "/images/products/outerwear/snapback/OuterwearSnapbackBlock",
+          "imageColorBackRoot": "/images/products/outerwear/snapback/OuterwearSnapbackBack",
+          "logo": "Block"
+        }
+      ],
+      "sizes": [
+        {
+          "size": "Adjustable",
+          "price": 30
+        }
+      ],
+      "colors": [
+        "Black-White",
+        "Gray-White",
+        "Navy-White"
+      ],
+      "details": [
+        "Stitched in the USA",
+        "Flex-fit lining with adjustable snapback",
+        "Poly-spandex blend with performance mesh",
+        "One size fits most"
+      ]
+    }
+  ]
+}
