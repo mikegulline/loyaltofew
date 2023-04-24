@@ -147,6 +147,7 @@ const HeroImage = ({ image, name, imageBack, has_image_back }) => {
             alt={name}
             // placeholder='blur'
             // blurDataURL={imageBlur}
+            priority={true}
             width='744'
             height='744'
             className={`${showBack ? styles.image_off : styles.image_on} ${
