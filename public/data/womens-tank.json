@@ -17,8 +17,8 @@
   ],
   "type": "Tank",
   "name": "Original Tank",
-  "link": "/store/womens/tank/block/gray",
-  "image": "/images/products/womens/tank/WomensTankBlockGray.jpg",
+  "link": "/store/womens/tank/stamp/gray",
+  "image": "/images/products/womens/tank/WomensTankStampGray.jpg",
   "has_image_back": true,
   "weight": 2.6,
   "meta": {
@@ -32,10 +32,10 @@
     {
       "name": "Original Tank with Arch Design",
       "link": "/store/womens/tank/arch",
-      "linkColor": "/store/womens/tank/arch/blue",
+      "linkColor": "/store/womens/tank/arch/gray",
       "has_image_back": true,
-      "imageBack": "/images/products/womens/tank/WomensTankBackBlue.jpg",
-      "image": "/images/products/womens/tank/WomensTankArchBlue.jpg",
+      "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
+      "image": "/images/products/womens/tank/WomensTankArchGray.jpg",
       "imageColorRoot": "/images/products/womens/tank/WomensTankArch",
       "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
       "logo": "Arch"
@@ -43,10 +43,10 @@
     {
       "name": "Original Tank with Block Design",
       "link": "/store/womens/tank/block",
-      "linkColor": "/store/womens/tank/block/blue",
+      "linkColor": "/store/womens/tank/block/gray",
       "has_image_back": true,
-      "imageBack": "/images/products/womens/tank/WomensTankBackBlue.jpg",
-      "image": "/images/products/womens/tank/WomensTankBlockBlue.jpg",
+      "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
+      "image": "/images/products/womens/tank/WomensTankBlockGray.jpg",
       "imageColorRoot": "/images/products/womens/tank/WomensTankBlock",
       "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
       "logo": "Block"
@@ -54,10 +54,10 @@
     {
       "name": "Original Tank with Original Design",
       "link": "/store/womens/tank/original",
-      "linkColor": "/store/womens/tank/original/blue",
+      "linkColor": "/store/womens/tank/original/gray",
       "has_image_back": true,
-      "imageBack": "/images/products/womens/tank/WomensTankBackBlue.jpg",
-      "image": "/images/products/womens/tank/WomensTankOriginalBlue.jpg",
+      "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
+      "image": "/images/products/womens/tank/WomensTankOriginalGray.jpg",
       "imageColorRoot": "/images/products/womens/tank/WomensTankOriginal",
       "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
       "logo": "Original"
@@ -65,10 +65,10 @@
     {
       "name": "Original Tank with Stamp Design",
       "link": "/store/womens/tank/stamp",
-      "linkColor": "/store/womens/tank/stamp/blue",
+      "linkColor": "/store/womens/tank/stamp/gray",
       "has_image_back": true,
-      "imageBack": "/images/products/womens/tank/WomensTankBackBlue.jpg",
-      "image": "/images/products/womens/tank/WomensTankStampBlue.jpg",
+      "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
+      "image": "/images/products/womens/tank/WomensTankStampGray.jpg",
       "imageColorRoot": "/images/products/womens/tank/WomensTankStamp",
       "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
       "logo": "Stamp"
@@ -76,10 +76,10 @@
     {
       "name": "Original Tank with Stenciled Design",
       "link": "/store/womens/tank/stenciled",
-      "linkColor": "/store/womens/tank/stenciled/blue",
+      "linkColor": "/store/womens/tank/stenciled/gray",
       "has_image_back": true,
-      "imageBack": "/images/products/womens/tank/WomensTankBackBlue.jpg",
-      "image": "/images/products/womens/tank/WomensTankStenciledBlue.jpg",
+      "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
+      "image": "/images/products/womens/tank/WomensTankStenciledGray.jpg",
       "imageColorRoot": "/images/products/womens/tank/WomensTankStenciled",
       "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
       "logo": "Stenciled"
@@ -108,8 +108,8 @@
     }
   ],
   "colors": [
-    "Blue",
     "Gray",
+    "Blue",
     "Maroon"
   ],
   "details": [

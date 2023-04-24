@@ -185,7 +185,7 @@ module.exports = [
         product: 'Original Tee',
         has_image_back: true,
         logos: ['Arch', 'Block', 'Original', 'Stamp', 'Stenciled'],
-        colors: ['Navy', 'Baby-Blue', 'Gray', 'Maroon', 'Red'],
+        colors: ['Gray', 'Navy', 'Baby-Blue', 'Maroon', 'Red'],
         tags: ['Tops'],
         weight: 3.6,
         meta: {
@@ -237,7 +237,7 @@ module.exports = [
         product: 'Original Tank',
         has_image_back: true,
         logos: ['Arch', 'Block', 'Original', 'Stamp', 'Stenciled'],
-        colors: ['Blue', 'Gray', 'Maroon'],
+        colors: ['Gray', 'Blue', 'Maroon'],
         tags: ['Tops'],
         weight: 2.6,
         meta: {

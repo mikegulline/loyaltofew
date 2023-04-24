@@ -24,8 +24,8 @@
         {
           "type": "Tee",
           "name": "Original Tee",
-          "link": "/store/mens/tee/original/gray",
-          "image": "/images/products/mens/tee/MensTeeOriginalGray.jpg",
+          "link": "/store/mens/tee/stamp/black",
+          "image": "/images/products/mens/tee/MensTeeStampBlack.jpg",
           "has_image_back": true,
           "weight": 7,
           "meta": {
@@ -147,8 +147,8 @@
         {
           "type": "Tank",
           "name": "Original Tank",
-          "link": "/store/mens/tank/stenciled/black",
-          "image": "/images/products/mens/tank/MensTankStenciledBlack.jpg",
+          "link": "/store/mens/tank/stamp/black",
+          "image": "/images/products/mens/tank/MensTankStampBlack.jpg",
           "has_image_back": true,
           "weight": 5.7,
           "meta": {
@@ -260,8 +260,8 @@
         {
           "type": "Sleeves",
           "name": "Original Long-Sleeve",
-          "link": "/store/mens/sleeves/arch/gray",
-          "image": "/images/products/mens/sleeves/MensSleevesArchGray.jpg",
+          "link": "/store/mens/sleeves/block/black",
+          "image": "/images/products/mens/sleeves/MensSleevesBlockBlack.jpg",
           "has_image_back": true,
           "weight": 9.8,
           "meta": {
@@ -391,8 +391,8 @@
         {
           "type": "Tee",
           "name": "Original Tee",
-          "link": "/store/womens/tee/stenciled/navy",
-          "image": "/images/products/womens/tee/WomensTeeStenciledNavy.jpg",
+          "link": "/store/womens/tee/block/gray",
+          "image": "/images/products/womens/tee/WomensTeeBlockGray.jpg",
           "has_image_back": true,
           "weight": 3.6,
           "meta": {
@@ -406,10 +406,10 @@
             {
               "name": "Original Tee with Arch Design",
               "link": "/store/womens/tee/arch",
-              "linkColor": "/store/womens/tee/arch/navy",
+              "linkColor": "/store/womens/tee/arch/gray",
               "has_image_back": true,
-              "imageBack": "/images/products/womens/tee/WomensTeeBackNavy.jpg",
-              "image": "/images/products/womens/tee/WomensTeeArchNavy.jpg",
+              "imageBack": "/images/products/womens/tee/WomensTeeBackGray.jpg",
+              "image": "/images/products/womens/tee/WomensTeeArchGray.jpg",
               "imageColorRoot": "/images/products/womens/tee/WomensTeeArch",
               "imageColorBackRoot": "/images/products/womens/tee/WomensTeeBack",
               "logo": "Arch"
@@ -417,10 +417,10 @@
             {
               "name": "Original Tee with Block Design",
               "link": "/store/womens/tee/block",
-              "linkColor": "/store/womens/tee/block/navy",
+              "linkColor": "/store/womens/tee/block/gray",
               "has_image_back": true,
-              "imageBack": "/images/products/womens/tee/WomensTeeBackNavy.jpg",
-              "image": "/images/products/womens/tee/WomensTeeBlockNavy.jpg",
+              "imageBack": "/images/products/womens/tee/WomensTeeBackGray.jpg",
+              "image": "/images/products/womens/tee/WomensTeeBlockGray.jpg",
               "imageColorRoot": "/images/products/womens/tee/WomensTeeBlock",
               "imageColorBackRoot": "/images/products/womens/tee/WomensTeeBack",
               "logo": "Block"
@@ -428,10 +428,10 @@
             {
               "name": "Original Tee with Original Design",
               "link": "/store/womens/tee/original",
-              "linkColor": "/store/womens/tee/original/navy",
+              "linkColor": "/store/womens/tee/original/gray",
               "has_image_back": true,
-              "imageBack": "/images/products/womens/tee/WomensTeeBackNavy.jpg",
-              "image": "/images/products/womens/tee/WomensTeeOriginalNavy.jpg",
+              "imageBack": "/images/products/womens/tee/WomensTeeBackGray.jpg",
+              "image": "/images/products/womens/tee/WomensTeeOriginalGray.jpg",
               "imageColorRoot": "/images/products/womens/tee/WomensTeeOriginal",
               "imageColorBackRoot": "/images/products/womens/tee/WomensTeeBack",
               "logo": "Original"
@@ -439,10 +439,10 @@
             {
               "name": "Original Tee with Stamp Design",
               "link": "/store/womens/tee/stamp",
-              "linkColor": "/store/womens/tee/stamp/navy",
+              "linkColor": "/store/womens/tee/stamp/gray",
               "has_image_back": true,
-              "imageBack": "/images/products/womens/tee/WomensTeeBackNavy.jpg",
-              "image": "/images/products/womens/tee/WomensTeeStampNavy.jpg",
+              "imageBack": "/images/products/womens/tee/WomensTeeBackGray.jpg",
+              "image": "/images/products/womens/tee/WomensTeeStampGray.jpg",
               "imageColorRoot": "/images/products/womens/tee/WomensTeeStamp",
               "imageColorBackRoot": "/images/products/womens/tee/WomensTeeBack",
               "logo": "Stamp"
@@ -450,10 +450,10 @@
             {
               "name": "Original Tee with Stenciled Design",
               "link": "/store/womens/tee/stenciled",
-              "linkColor": "/store/womens/tee/stenciled/navy",
+              "linkColor": "/store/womens/tee/stenciled/gray",
               "has_image_back": true,
-              "imageBack": "/images/products/womens/tee/WomensTeeBackNavy.jpg",
-              "image": "/images/products/womens/tee/WomensTeeStenciledNavy.jpg",
+              "imageBack": "/images/products/womens/tee/WomensTeeBackGray.jpg",
+              "image": "/images/products/womens/tee/WomensTeeStenciledGray.jpg",
               "imageColorRoot": "/images/products/womens/tee/WomensTeeStenciled",
               "imageColorBackRoot": "/images/products/womens/tee/WomensTeeBack",
               "logo": "Stenciled"
@@ -487,9 +487,9 @@
             }
           ],
           "colors": [
+            "Gray",
             "Navy",
             "Baby-Blue",
-            "Gray",
             "Maroon",
             "Red"
           ],
@@ -503,8 +503,8 @@
         {
           "type": "Tank",
           "name": "Original Tank",
-          "link": "/store/womens/tank/block/gray",
-          "image": "/images/products/womens/tank/WomensTankBlockGray.jpg",
+          "link": "/store/womens/tank/arch/gray",
+          "image": "/images/products/womens/tank/WomensTankArchGray.jpg",
           "has_image_back": true,
           "weight": 2.6,
           "meta": {
@@ -518,10 +518,10 @@
             {
               "name": "Original Tank with Arch Design",
               "link": "/store/womens/tank/arch",
-              "linkColor": "/store/womens/tank/arch/blue",
+              "linkColor": "/store/womens/tank/arch/gray",
               "has_image_back": true,
-              "imageBack": "/images/products/womens/tank/WomensTankBackBlue.jpg",
-              "image": "/images/products/womens/tank/WomensTankArchBlue.jpg",
+              "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
+              "image": "/images/products/womens/tank/WomensTankArchGray.jpg",
               "imageColorRoot": "/images/products/womens/tank/WomensTankArch",
               "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
               "logo": "Arch"
@@ -529,10 +529,10 @@
             {
               "name": "Original Tank with Block Design",
               "link": "/store/womens/tank/block",
-              "linkColor": "/store/womens/tank/block/blue",
+              "linkColor": "/store/womens/tank/block/gray",
               "has_image_back": true,
-              "imageBack": "/images/products/womens/tank/WomensTankBackBlue.jpg",
-              "image": "/images/products/womens/tank/WomensTankBlockBlue.jpg",
+              "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
+              "image": "/images/products/womens/tank/WomensTankBlockGray.jpg",
               "imageColorRoot": "/images/products/womens/tank/WomensTankBlock",
               "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
               "logo": "Block"
@@ -540,10 +540,10 @@
             {
               "name": "Original Tank with Original Design",
               "link": "/store/womens/tank/original",
-              "linkColor": "/store/womens/tank/original/blue",
+              "linkColor": "/store/womens/tank/original/gray",
               "has_image_back": true,
-              "imageBack": "/images/products/womens/tank/WomensTankBackBlue.jpg",
-              "image": "/images/products/womens/tank/WomensTankOriginalBlue.jpg",
+              "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
+              "image": "/images/products/womens/tank/WomensTankOriginalGray.jpg",
               "imageColorRoot": "/images/products/womens/tank/WomensTankOriginal",
               "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
               "logo": "Original"
@@ -551,10 +551,10 @@
             {
               "name": "Original Tank with Stamp Design",
               "link": "/store/womens/tank/stamp",
-              "linkColor": "/store/womens/tank/stamp/blue",
+              "linkColor": "/store/womens/tank/stamp/gray",
               "has_image_back": true,
-              "imageBack": "/images/products/womens/tank/WomensTankBackBlue.jpg",
-              "image": "/images/products/womens/tank/WomensTankStampBlue.jpg",
+              "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
+              "image": "/images/products/womens/tank/WomensTankStampGray.jpg",
               "imageColorRoot": "/images/products/womens/tank/WomensTankStamp",
               "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
               "logo": "Stamp"
@@ -562,10 +562,10 @@
             {
               "name": "Original Tank with Stenciled Design",
               "link": "/store/womens/tank/stenciled",
-              "linkColor": "/store/womens/tank/stenciled/blue",
+              "linkColor": "/store/womens/tank/stenciled/gray",
               "has_image_back": true,
-              "imageBack": "/images/products/womens/tank/WomensTankBackBlue.jpg",
-              "image": "/images/products/womens/tank/WomensTankStenciledBlue.jpg",
+              "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
+              "image": "/images/products/womens/tank/WomensTankStenciledGray.jpg",
               "imageColorRoot": "/images/products/womens/tank/WomensTankStenciled",
               "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
               "logo": "Stenciled"
@@ -594,8 +594,8 @@
             }
           ],
           "colors": [
-            "Blue",
             "Gray",
+            "Blue",
             "Maroon"
           ],
           "details": [
@@ -608,8 +608,8 @@
         {
           "type": "Oversized-Crop",
           "name": "Original Oversized Crop",
-          "link": "/store/womens/oversized-crop/stamp/black",
-          "image": "/images/products/womens/oversized-crop/WomensOversized-CropStampBlack.jpg",
+          "link": "/store/womens/oversized-crop/original/black",
+          "image": "/images/products/womens/oversized-crop/WomensOversized-CropOriginalBlack.jpg",
           "has_image_back": true,
           "weight": 2.9,
           "meta": {
@@ -831,8 +831,8 @@
         {
           "type": "Crew",
           "name": "Original Cotton Crew",
-          "link": "/store/outerwear/crew/original/dolphin",
-          "image": "/images/products/outerwear/crew/OuterwearCrewOriginalDolphin.jpg",
+          "link": "/store/outerwear/crew/original/black",
+          "image": "/images/products/outerwear/crew/OuterwearCrewOriginalBlack.jpg",
           "has_image_back": true,
           "weight": 9.8,
           "meta": {
@@ -1052,8 +1052,8 @@
         {
           "type": "Hoodie",
           "name": "Original Cotton Hoodie",
-          "link": "/store/outerwear/hoodie/arch/dolphin",
-          "image": "/images/products/outerwear/hoodie/OuterwearHoodieArchDolphin.jpg",
+          "link": "/store/outerwear/hoodie/block/black",
+          "image": "/images/products/outerwear/hoodie/OuterwearHoodieBlockBlack.jpg",
           "has_image_back": false,
           "weight": 34.3,
           "meta": {
@@ -1164,8 +1164,8 @@
         {
           "type": "Beanie",
           "name": "Knit Beanie",
-          "link": "/store/outerwear/beanie/block/gray",
-          "image": "/images/products/outerwear/beanie/OuterwearBeanieBlockGray.jpg",
+          "link": "/store/outerwear/beanie/block/black",
+          "image": "/images/products/outerwear/beanie/OuterwearBeanieBlockBlack.jpg",
           "has_image_back": false,
           "weight": 2.2,
           "meta": {

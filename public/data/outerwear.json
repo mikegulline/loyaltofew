@@ -22,8 +22,8 @@
     {
       "type": "50-50-Crew",
       "name": "Original 50/50 Crew",
-      "link": "/store/outerwear/50-50-crew/arch/black",
-      "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewArchBlack.jpg",
+      "link": "/store/outerwear/50-50-crew/stamp/black",
+      "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewStampBlack.jpg",
       "has_image_back": true,
       "weight": 9.8,
       "meta": {
@@ -132,8 +132,8 @@
     {
       "type": "Crew",
       "name": "Original Cotton Crew",
-      "link": "/store/outerwear/crew/block/navy",
-      "image": "/images/products/outerwear/crew/OuterwearCrewBlockNavy.jpg",
+      "link": "/store/outerwear/crew/arch/black",
+      "image": "/images/products/outerwear/crew/OuterwearCrewArchBlack.jpg",
       "has_image_back": true,
       "weight": 9.8,
       "meta": {
@@ -243,8 +243,8 @@
     {
       "type": "50-50-Hoodie",
       "name": "Original 50/50 Hoodie",
-      "link": "/store/outerwear/50-50-hoodie/original/black",
-      "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieOriginalBlack.jpg",
+      "link": "/store/outerwear/50-50-hoodie/stamp/black",
+      "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieStampBlack.jpg",
       "has_image_back": false,
       "weight": 34.3,
       "meta": {
@@ -353,8 +353,8 @@
     {
       "type": "Hoodie",
       "name": "Original Cotton Hoodie",
-      "link": "/store/outerwear/hoodie/stamp/green",
-      "image": "/images/products/outerwear/hoodie/OuterwearHoodieStampGreen.jpg",
+      "link": "/store/outerwear/hoodie/block/black",
+      "image": "/images/products/outerwear/hoodie/OuterwearHoodieBlockBlack.jpg",
       "has_image_back": false,
       "weight": 34.3,
       "meta": {
@@ -508,8 +508,8 @@
     {
       "type": "Snapback",
       "name": "Trucker Snapback",
-      "link": "/store/outerwear/snapback/block/gray-white",
-      "image": "/images/products/outerwear/snapback/OuterwearSnapbackBlockGray-White.jpg",
+      "link": "/store/outerwear/snapback/block/black-white",
+      "image": "/images/products/outerwear/snapback/OuterwearSnapbackBlockBlack-White.jpg",
       "has_image_back": false,
       "weight": 14.4,
       "meta": {
