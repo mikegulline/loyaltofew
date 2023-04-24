@@ -17,8 +17,8 @@
   ],
   "type": "Tee",
   "name": "Original Tee",
-  "link": "/store/mens/tee/stamp/gray",
-  "image": "/images/products/mens/tee/MensTeeStampGray.jpg",
+  "link": "/store/mens/tee/block/gray",
+  "image": "/images/products/mens/tee/MensTeeBlockGray.jpg",
   "has_image_back": true,
   "weight": 7,
   "meta": {

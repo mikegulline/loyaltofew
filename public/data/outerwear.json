@@ -22,8 +22,8 @@
     {
       "type": "50-50-Crew",
       "name": "Original 50/50 Crew",
-      "link": "/store/outerwear/50-50-crew/arch/black",
-      "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewArchBlack.jpg",
+      "link": "/store/outerwear/50-50-crew/stenciled/black",
+      "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewStenciledBlack.jpg",
       "has_image_back": true,
       "weight": 9.8,
       "meta": {
@@ -243,8 +243,8 @@
     {
       "type": "50-50-Hoodie",
       "name": "Original 50/50 Hoodie",
-      "link": "/store/outerwear/50-50-hoodie/original/black",
-      "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieOriginalBlack.jpg",
+      "link": "/store/outerwear/50-50-hoodie/stenciled/black",
+      "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieStenciledBlack.jpg",
       "has_image_back": false,
       "weight": 34.3,
       "meta": {
@@ -353,8 +353,8 @@
     {
       "type": "Hoodie",
       "name": "Original Cotton Hoodie",
-      "link": "/store/outerwear/hoodie/stenciled/dolphin",
-      "image": "/images/products/outerwear/hoodie/OuterwearHoodieStenciledDolphin.jpg",
+      "link": "/store/outerwear/hoodie/original/dolphin",
+      "image": "/images/products/outerwear/hoodie/OuterwearHoodieOriginalDolphin.jpg",
       "has_image_back": false,
       "weight": 34.3,
       "meta": {
@@ -508,8 +508,8 @@
     {
       "type": "Snapback",
       "name": "Trucker Snapback",
-      "link": "/store/outerwear/snapback/block/navy-white",
-      "image": "/images/products/outerwear/snapback/OuterwearSnapbackBlockNavy-White.jpg",
+      "link": "/store/outerwear/snapback/block/gray-white",
+      "image": "/images/products/outerwear/snapback/OuterwearSnapbackBlockGray-White.jpg",
       "has_image_back": false,
       "weight": 14.4,
       "meta": {
