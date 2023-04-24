@@ -24,8 +24,8 @@
         {
           "type": "Tee",
           "name": "Original Tee",
-          "link": "/store/mens/tee/block/green",
-          "image": "/images/products/mens/tee/MensTeeBlockGreen.jpg",
+          "link": "/store/mens/tee/stamp/navy",
+          "image": "/images/products/mens/tee/MensTeeStampNavy.jpg",
           "has_image_back": true,
           "weight": 7,
           "meta": {
@@ -260,8 +260,8 @@
         {
           "type": "Sleeves",
           "name": "Original Long-Sleeve",
-          "link": "/store/mens/sleeves/arch/black",
-          "image": "/images/products/mens/sleeves/MensSleevesArchBlack.jpg",
+          "link": "/store/mens/sleeves/original/black",
+          "image": "/images/products/mens/sleeves/MensSleevesOriginalBlack.jpg",
           "has_image_back": true,
           "weight": 9.8,
           "meta": {
@@ -391,8 +391,8 @@
         {
           "type": "Tee",
           "name": "Original Tee",
-          "link": "/store/womens/tee/original/red",
-          "image": "/images/products/womens/tee/WomensTeeOriginalRed.jpg",
+          "link": "/store/womens/tee/stenciled/maroon",
+          "image": "/images/products/womens/tee/WomensTeeStenciledMaroon.jpg",
           "has_image_back": true,
           "weight": 3.6,
           "meta": {
@@ -503,8 +503,8 @@
         {
           "type": "Tank",
           "name": "Original Tank",
-          "link": "/store/womens/tank/arch/gray",
-          "image": "/images/products/womens/tank/WomensTankArchGray.jpg",
+          "link": "/store/womens/tank/stamp/blue",
+          "image": "/images/products/womens/tank/WomensTankStampBlue.jpg",
           "has_image_back": true,
           "weight": 2.6,
           "meta": {
@@ -608,8 +608,8 @@
         {
           "type": "Oversized-Crop",
           "name": "Original Oversized Crop",
-          "link": "/store/womens/oversized-crop/stenciled/dolphin",
-          "image": "/images/products/womens/oversized-crop/WomensOversized-CropStenciledDolphin.jpg",
+          "link": "/store/womens/oversized-crop/arch/dolphin",
+          "image": "/images/products/womens/oversized-crop/WomensOversized-CropArchDolphin.jpg",
           "has_image_back": true,
           "weight": 2.9,
           "meta": {
@@ -721,8 +721,8 @@
         {
           "type": "50-50-Crew",
           "name": "Original 50/50 Crew",
-          "link": "/store/outerwear/50-50-crew/stenciled/black",
-          "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewStenciledBlack.jpg",
+          "link": "/store/outerwear/50-50-crew/arch/black",
+          "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewArchBlack.jpg",
           "has_image_back": true,
           "weight": 9.8,
           "meta": {
@@ -831,8 +831,8 @@
         {
           "type": "Crew",
           "name": "Original Cotton Crew",
-          "link": "/store/outerwear/crew/stamp/navy",
-          "image": "/images/products/outerwear/crew/OuterwearCrewStampNavy.jpg",
+          "link": "/store/outerwear/crew/original/black",
+          "image": "/images/products/outerwear/crew/OuterwearCrewOriginalBlack.jpg",
           "has_image_back": true,
           "weight": 9.8,
           "meta": {
@@ -942,8 +942,8 @@
         {
           "type": "50-50-Hoodie",
           "name": "Original 50/50 Hoodie",
-          "link": "/store/outerwear/50-50-hoodie/block/black",
-          "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBlockBlack.jpg",
+          "link": "/store/outerwear/50-50-hoodie/stamp/black",
+          "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieStampBlack.jpg",
           "has_image_back": false,
           "weight": 34.3,
           "meta": {
@@ -1052,8 +1052,8 @@
         {
           "type": "Hoodie",
           "name": "Original Cotton Hoodie",
-          "link": "/store/outerwear/hoodie/stamp/dolphin",
-          "image": "/images/products/outerwear/hoodie/OuterwearHoodieStampDolphin.jpg",
+          "link": "/store/outerwear/hoodie/stenciled/dolphin",
+          "image": "/images/products/outerwear/hoodie/OuterwearHoodieStenciledDolphin.jpg",
           "has_image_back": false,
           "weight": 34.3,
           "meta": {

@@ -83,7 +83,7 @@ const ProductPage = ({ product }) => {
         <Container className='flex flex-col items-center xl:flex-row'>
           <HeroImage
             image={image}
-            imageBlur={imageBlur}
+            // imageBlur={imageBlur}
             name={name}
             imageBack={imageBack}
             has_image_back={has_image_back}
@@ -128,7 +128,7 @@ const ProductPage = ({ product }) => {
   );
 };
 
-const HeroImage = ({ image, imageBlur, name, imageBack, has_image_back }) => {
+const HeroImage = ({ image, name, imageBack, has_image_back }) => {
   const [showBack, setShowBack] = useState(false);
   const [animate, setAnimate] = useState(0);
 
@@ -145,8 +145,8 @@ const HeroImage = ({ image, imageBlur, name, imageBack, has_image_back }) => {
           <Image
             src={image}
             alt={name}
-            placeholder='blur'
-            blurDataURL={imageBlur}
+            // placeholder='blur'
+            // blurDataURL={imageBlur}
             width='744'
             height='744'
             className={`${showBack ? styles.image_off : styles.image_on} ${

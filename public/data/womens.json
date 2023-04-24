@@ -22,8 +22,8 @@
     {
       "type": "Tee",
       "name": "Original Tee",
-      "link": "/store/womens/tee/arch/maroon",
-      "image": "/images/products/womens/tee/WomensTeeArchMaroon.jpg",
+      "link": "/store/womens/tee/original/red",
+      "image": "/images/products/womens/tee/WomensTeeOriginalRed.jpg",
       "has_image_back": true,
       "weight": 3.6,
       "meta": {
@@ -134,8 +134,8 @@
     {
       "type": "Tank",
       "name": "Original Tank",
-      "link": "/store/womens/tank/stenciled/maroon",
-      "image": "/images/products/womens/tank/WomensTankStenciledMaroon.jpg",
+      "link": "/store/womens/tank/arch/maroon",
+      "image": "/images/products/womens/tank/WomensTankArchMaroon.jpg",
       "has_image_back": true,
       "weight": 2.6,
       "meta": {
@@ -239,8 +239,8 @@
     {
       "type": "Oversized-Crop",
       "name": "Original Oversized Crop",
-      "link": "/store/womens/oversized-crop/stenciled/black",
-      "image": "/images/products/womens/oversized-crop/WomensOversized-CropStenciledBlack.jpg",
+      "link": "/store/womens/oversized-crop/arch/dolphin",
+      "image": "/images/products/womens/oversized-crop/WomensOversized-CropArchDolphin.jpg",
       "has_image_back": true,
       "weight": 2.9,
       "meta": {
