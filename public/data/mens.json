@@ -22,8 +22,8 @@
     {
       "type": "Tee",
       "name": "Original Tee",
-      "link": "/store/mens/tee/block/black",
-      "image": "/images/products/mens/tee/MensTeeBlockBlack.jpg",
+      "link": "/store/mens/tee/arch/black",
+      "image": "/images/products/mens/tee/MensTeeArchBlack.jpg",
       "has_image_back": true,
       "weight": 7,
       "meta": {
@@ -145,8 +145,8 @@
     {
       "type": "Tank",
       "name": "Original Tank",
-      "link": "/store/mens/tank/arch/black",
-      "image": "/images/products/mens/tank/MensTankArchBlack.jpg",
+      "link": "/store/mens/tank/block/black",
+      "image": "/images/products/mens/tank/MensTankBlockBlack.jpg",
       "has_image_back": true,
       "weight": 5.7,
       "meta": {
@@ -258,8 +258,8 @@
     {
       "type": "Sleeves",
       "name": "Original Long-Sleeve",
-      "link": "/store/mens/sleeves/original/black",
-      "image": "/images/products/mens/sleeves/MensSleevesOriginalBlack.jpg",
+      "link": "/store/mens/sleeves/stamp/black",
+      "image": "/images/products/mens/sleeves/MensSleevesStampBlack.jpg",
       "has_image_back": true,
       "weight": 9.8,
       "meta": {

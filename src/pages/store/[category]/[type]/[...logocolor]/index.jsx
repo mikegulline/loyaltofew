@@ -4,9 +4,11 @@ import ProductPage from '@/layout/ProductPage/ProductPage';
 import SEO from '@/components/SEO';
 import getMeta from '@/utils/getMeta';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import Category from '@/components/Category/Category';
+import Container from '@/components/Container';
 let fs = require('fs');
 
-const Product = ({ product }) => {
+const Product = ({ product, category }) => {
   const router = useRouter();
   const size = router?.query?.s || 0;
   if (!product) return <p>Loading…</p>;
@@ -21,13 +23,20 @@ const Product = ({ product }) => {
       <Breadcrumbs links={breadcrumbs} />
 
       <ProductPage product={product} size={size} />
+
+      <Container>
+        <h2 className='mb-8 mt-8 text-6xl font-black text-gray-900 md:text-7xl'>
+          {category.name}
+        </h2>
+        <Category products={category.products} />
+      </Container>
     </>
   );
 };
 
 export async function getStaticProps(context) {
   const {
-    category,
+    category: isCategory,
     type,
     logocolor: [logo, color],
   } = context.params;
@@ -36,23 +45,28 @@ export async function getStaticProps(context) {
     console.log('redirect');
     return {
       redirect: {
-        destination: `/store/${category}/${type}`,
+        destination: `/store/${isCategory}/${type}`,
       },
     };
   }
 
   const product = await JSON.parse(
     fs.readFileSync(
-      `public/data/${category}-${type}-${logo}-${color}.json`,
+      `public/data/${isCategory}-${type}-${logo}-${color}.json`,
       'utf8'
     )
   );
 
   if (!product) return { notFound: true };
 
+  const category = await JSON.parse(
+    fs.readFileSync(`public/data/${isCategory}.json`, 'utf8')
+  );
+
   return {
     props: {
       product,
+      category,
     },
   };
 }
