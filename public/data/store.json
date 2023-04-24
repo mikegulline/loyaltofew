@@ -20,8 +20,8 @@
         {
           "type": "Tee",
           "name": "Original Tee",
-          "link": "/store/mens/tee/stenciled/black",
-          "image": "/images/products/mens/tee/MensTeeStenciledBlack.jpg",
+          "link": "/store/mens/tee/block/black",
+          "image": "/images/products/mens/tee/MensTeeBlockBlack.jpg",
           "has_image_back": true,
           "weight": 7,
           "meta": {
@@ -143,8 +143,8 @@
         {
           "type": "Tank",
           "name": "Original Tank",
-          "link": "/store/mens/tank/block/black",
-          "image": "/images/products/mens/tank/MensTankBlockBlack.jpg",
+          "link": "/store/mens/tank/original/black",
+          "image": "/images/products/mens/tank/MensTankOriginalBlack.jpg",
           "has_image_back": true,
           "weight": 5.7,
           "meta": {
@@ -256,8 +256,8 @@
         {
           "type": "Sleeves",
           "name": "Original Long-Sleeve",
-          "link": "/store/mens/sleeves/arch/black",
-          "image": "/images/products/mens/sleeves/MensSleevesArchBlack.jpg",
+          "link": "/store/mens/sleeves/stamp/black",
+          "image": "/images/products/mens/sleeves/MensSleevesStampBlack.jpg",
           "has_image_back": true,
           "weight": 9.8,
           "meta": {
@@ -377,8 +377,8 @@
         {
           "type": "Tee",
           "name": "Original Tee",
-          "link": "/store/womens/tee/original/gray",
-          "image": "/images/products/womens/tee/WomensTeeOriginalGray.jpg",
+          "link": "/store/womens/tee/stamp/gray",
+          "image": "/images/products/womens/tee/WomensTeeStampGray.jpg",
           "has_image_back": true,
           "weight": 3.6,
           "meta": {
@@ -489,8 +489,8 @@
         {
           "type": "Tank",
           "name": "Original Tank",
-          "link": "/store/womens/tank/stenciled/gray",
-          "image": "/images/products/womens/tank/WomensTankStenciledGray.jpg",
+          "link": "/store/womens/tank/arch/gray",
+          "image": "/images/products/womens/tank/WomensTankArchGray.jpg",
           "has_image_back": true,
           "weight": 2.6,
           "meta": {
@@ -807,8 +807,8 @@
         {
           "type": "Crew",
           "name": "Original Cotton Crew",
-          "link": "/store/outerwear/crew/block/black",
-          "image": "/images/products/outerwear/crew/OuterwearCrewBlockBlack.jpg",
+          "link": "/store/outerwear/crew/stenciled/black",
+          "image": "/images/products/outerwear/crew/OuterwearCrewStenciledBlack.jpg",
           "has_image_back": true,
           "weight": 9.8,
           "meta": {
@@ -1028,8 +1028,8 @@
         {
           "type": "Hoodie",
           "name": "Original Cotton Hoodie",
-          "link": "/store/outerwear/hoodie/arch/black",
-          "image": "/images/products/outerwear/hoodie/OuterwearHoodieArchBlack.jpg",
+          "link": "/store/outerwear/hoodie/block/black",
+          "image": "/images/products/outerwear/hoodie/OuterwearHoodieBlockBlack.jpg",
           "has_image_back": false,
           "weight": 34.3,
           "meta": {

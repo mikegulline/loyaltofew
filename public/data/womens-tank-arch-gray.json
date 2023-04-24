@@ -1,10 +1,7 @@
 {
-  "function": "getColor(category, type, logo, color)",
-  "output": "/public/data/womens-tank-arch-gray.json",
   "id": "womenstankarchgray",
   "name": "Original Tank with Arch Design",
   "link": "/store/womens/tank/arch",
-  "imageRoot": "/images/products/womens/tank/",
   "image": "/images/products/womens/tank/WomensTankArchGray.jpg",
   "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
   "has_image_back": true,
@@ -22,63 +19,33 @@
   ],
   "logos": [
     {
-      "name": "Original Tank with Arch Design",
-      "link": "/store/womens/tank/arch",
-      "linkColor": "/store/womens/tank/arch/gray",
-      "has_image_back": true,
-      "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
-      "image": "/images/products/womens/tank/WomensTankArchGray.jpg",
-      "imageColorRoot": "/images/products/womens/tank/WomensTankArch",
-      "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
       "logo": "Arch",
+      "link": "/store/womens/tank/arch/gray",
+      "image": "/images/products/womens/tank/WomensTankArchGray.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/3Z2eHd3eP3+/wDf3t8sKCMzLSjZ2NkAkI6MFgIAGQYAkpCNAJeVliQdGR4XDo2LibakFnX8wjXbAAAAAElFTkSuQmCC"
     },
     {
-      "name": "Original Tank with Block Design",
-      "link": "/store/womens/tank/block",
-      "linkColor": "/store/womens/tank/block/gray",
-      "has_image_back": true,
-      "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
-      "image": "/images/products/womens/tank/WomensTankBlockGray.jpg",
-      "imageColorRoot": "/images/products/womens/tank/WomensTankBlock",
-      "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
       "logo": "Block",
+      "link": "/store/womens/tank/block/gray",
+      "image": "/images/products/womens/tank/WomensTankBlockGray.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APj4+V1dYGJiY/z8/wDX1tgIAAAUDgTd3d8AmJaYFwwAEgAAmJWUAJSTkxEHAAwAAJSSjn4+FLz+Dv8SAAAAAElFTkSuQmCC"
     },
     {
-      "name": "Original Tank with Original Design",
-      "link": "/store/womens/tank/original",
-      "linkColor": "/store/womens/tank/original/gray",
-      "has_image_back": true,
-      "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
-      "image": "/images/products/womens/tank/WomensTankOriginalGray.jpg",
-      "imageColorRoot": "/images/products/womens/tank/WomensTankOriginal",
-      "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
       "logo": "Original",
+      "link": "/store/womens/tank/original/gray",
+      "image": "/images/products/womens/tank/WomensTankOriginalGray.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APn5/IODhZmZmvv7/wDm5ug4NjFGQDzq6usAvLu8FwoAFwAAure1AMDAwTkzMD43MMHAwAA8GmOrJjO3AAAAAElFTkSuQmCC"
     },
     {
-      "name": "Original Tank with Stamp Design",
-      "link": "/store/womens/tank/stamp",
-      "linkColor": "/store/womens/tank/stamp/gray",
-      "has_image_back": true,
-      "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
-      "image": "/images/products/womens/tank/WomensTankStampGray.jpg",
-      "imageColorRoot": "/images/products/womens/tank/WomensTankStamp",
-      "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
       "logo": "Stamp",
+      "link": "/store/womens/tank/stamp/gray",
+      "image": "/images/products/womens/tank/WomensTankStampGray.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/n19f42NkPz8/wDf3+EiHho1MCvp6ewAo6GhFQcAFwEAqaemAK2triUgGy0mIba0tNYfGF+JE4iGAAAAAElFTkSuQmCC"
     },
     {
-      "name": "Original Tank with Stenciled Design",
-      "link": "/store/womens/tank/stenciled",
-      "linkColor": "/store/womens/tank/stenciled/gray",
-      "has_image_back": true,
-      "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
-      "image": "/images/products/womens/tank/WomensTankStenciledGray.jpg",
-      "imageColorRoot": "/images/products/womens/tank/WomensTankStenciled",
-      "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
       "logo": "Stenciled",
+      "link": "/store/womens/tank/stenciled/gray",
+      "image": "/images/products/womens/tank/WomensTankStenciledGray.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr7/ZubmZubmvj4+gDp6exAPDRKRT/u7vAAsbGvDQAAEgcAsrGxALCvrjo3Lzw5NLa2tgr2Gkd9fmEyAAAAAElFTkSuQmCC"
     }
   ],
@@ -110,19 +77,7 @@
     "Lightweight (3.7oz) racerback design",
     "XS-XL"
   ],
-  "category": {
-    "category": "Womens",
-    "name": "Womens",
-    "link": "/store/womens"
-  },
-  "type": {
-    "type": "Tank",
-    "name": "Original Tank",
-    "link": "/store/womens/tank/arch/gray"
-  },
-  "tags": [
-    "Tops"
-  ],
+  "type": "Tank",
   "breadcrumbs": [
     [
       "Store",
@@ -141,5 +96,6 @@
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/3Z2eHd3eP3+/wDf3t8sKCMzLSjZ2NkAkI6MFgIAGQYAkpCNAJeVliQdGR4XDo2LibakFnX8wjXbAAAAAElFTkSuQmCC"
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/3Z2eHd3eP3+/wDf3t8sKCMzLSjZ2NkAkI6MFgIAGQYAkpCNAJeVliQdGR4XDo2LibakFnX8wjXbAAAAAElFTkSuQmCC",
+  "name_root": "Original Tank"
 }

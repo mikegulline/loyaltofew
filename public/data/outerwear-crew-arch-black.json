@@ -1,10 +1,7 @@
 {
-  "function": "getColor(category, type, logo, color)",
-  "output": "/public/data/outerwear-crew-arch-black.json",
   "id": "outerwearcrewarchblack",
   "name": "Original Cotton Crew with Arch Design",
   "link": "/store/outerwear/crew/arch",
-  "imageRoot": "/images/products/outerwear/crew/",
   "image": "/images/products/outerwear/crew/OuterwearCrewArchBlack.jpg",
   "imageBack": "/images/products/outerwear/crew/OuterwearCrewBackBlack.jpg",
   "has_image_back": true,
@@ -23,63 +20,33 @@
   ],
   "logos": [
     {
-      "name": "Original Cotton Crew with Arch Design",
-      "link": "/store/outerwear/crew/arch",
-      "linkColor": "/store/outerwear/crew/arch/black",
-      "has_image_back": true,
-      "imageBack": "/images/products/outerwear/crew/OuterwearCrewBackBlack.jpg",
-      "image": "/images/products/outerwear/crew/OuterwearCrewArchBlack.jpg",
-      "imageColorRoot": "/images/products/outerwear/crew/OuterwearCrewArch",
-      "imageColorBackRoot": "/images/products/outerwear/crew/OuterwearCrewBack",
       "logo": "Arch",
+      "link": "/store/outerwear/crew/arch/black",
+      "image": "/images/products/outerwear/crew/OuterwearCrewArchBlack.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz9/62xuKqutfj5+wB+hJAqLTg2Nz9+gosAfIGKCwwVBAMQZWdwAPz8/62tsqWmqurq7dIRGx/Ylgo+AAAAAElFTkSuQmCC"
     },
     {
-      "name": "Original Cotton Crew with Block Design",
-      "link": "/store/outerwear/crew/block",
-      "linkColor": "/store/outerwear/crew/block/black",
-      "has_image_back": true,
-      "imageBack": "/images/products/outerwear/crew/OuterwearCrewBackBlack.jpg",
-      "image": "/images/products/outerwear/crew/OuterwearCrewBlockBlack.jpg",
-      "imageColorRoot": "/images/products/outerwear/crew/OuterwearCrewBlock",
-      "imageColorBackRoot": "/images/products/outerwear/crew/OuterwearCrewBack",
       "logo": "Block",
+      "link": "/store/outerwear/crew/block/black",
+      "image": "/images/products/outerwear/crew/OuterwearCrewBlockBlack.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz9/6qts6mqsPj5+wB3fYguMjtGR092eoIAdnqEAwQPAAAMX2FoAPz8/6ioraCgpurq7MlfGq8+UmVgAAAAAElFTkSuQmCC"
     },
     {
-      "name": "Original Cotton Crew with Original Design",
-      "link": "/store/outerwear/crew/original",
-      "linkColor": "/store/outerwear/crew/original/black",
-      "has_image_back": true,
-      "imageBack": "/images/products/outerwear/crew/OuterwearCrewBackBlack.jpg",
-      "image": "/images/products/outerwear/crew/OuterwearCrewOriginalBlack.jpg",
-      "imageColorRoot": "/images/products/outerwear/crew/OuterwearCrewOriginal",
-      "imageColorBackRoot": "/images/products/outerwear/crew/OuterwearCrewBack",
       "logo": "Original",
+      "link": "/store/outerwear/crew/original/black",
+      "image": "/images/products/outerwear/crew/OuterwearCrewOriginalBlack.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz9/7S2vbG0u/j5+wCEipUsMTktMTmFiJEAgIWPDA4YBAQPa252APz7/7Cxtqqsr+vr7t7WG5wUQS5wAAAAAElFTkSuQmCC"
     },
     {
-      "name": "Original Cotton Crew with Stamp Design",
-      "link": "/store/outerwear/crew/stamp",
-      "linkColor": "/store/outerwear/crew/stamp/black",
-      "has_image_back": true,
-      "imageBack": "/images/products/outerwear/crew/OuterwearCrewBackBlack.jpg",
-      "image": "/images/products/outerwear/crew/OuterwearCrewStampBlack.jpg",
-      "imageColorRoot": "/images/products/outerwear/crew/OuterwearCrewStamp",
-      "imageColorBackRoot": "/images/products/outerwear/crew/OuterwearCrewBack",
       "logo": "Stamp",
+      "link": "/store/outerwear/crew/stamp/black",
+      "image": "/images/products/outerwear/crew/OuterwearCrewStampBlack.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz9/62utairsvj5+wB8gowsMDo7PUZ8f4cAeH6HCQoVAwMNY2VsAPz8/6qrsKOkqOrr7c49GvMAN26jAAAAAElFTkSuQmCC"
     },
     {
-      "name": "Original Cotton Crew with Stenciled Design",
-      "link": "/store/outerwear/crew/stenciled",
-      "linkColor": "/store/outerwear/crew/stenciled/black",
-      "has_image_back": true,
-      "imageBack": "/images/products/outerwear/crew/OuterwearCrewBackBlack.jpg",
-      "image": "/images/products/outerwear/crew/OuterwearCrewStenciledBlack.jpg",
-      "imageColorRoot": "/images/products/outerwear/crew/OuterwearCrewStenciled",
-      "imageColorBackRoot": "/images/products/outerwear/crew/OuterwearCrewBack",
       "logo": "Stenciled",
+      "link": "/store/outerwear/crew/stenciled/black",
+      "image": "/images/products/outerwear/crew/OuterwearCrewStenciledBlack.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv8/cfIzcvN0fz8/wCZnKM9QkxLUFygpKwAeH2EAAIPFhskjpGXAOno7bS0trm6vu7u8B1hHakrWyHvAAAAAElFTkSuQmCC"
     }
   ],
@@ -116,19 +83,7 @@
     "Heavyweight (14oz) oversized fit",
     "Unisex, check size-chart, S-XXL"
   ],
-  "category": {
-    "category": "Outerwear",
-    "name": "Outerwear",
-    "link": "/store/outerwear"
-  },
-  "type": {
-    "type": "Crew",
-    "name": "Original Cotton Crew",
-    "link": "/store/outerwear/crew/arch/black"
-  },
-  "tags": [
-    "Tops"
-  ],
+  "type": "Crew",
   "breadcrumbs": [
     [
       "Store",
@@ -147,5 +102,6 @@
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz9/62xuKqutfj5+wB+hJAqLTg2Nz9+gosAfIGKCwwVBAMQZWdwAPz8/62tsqWmqurq7dIRGx/Ylgo+AAAAAElFTkSuQmCC"
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz9/62xuKqutfj5+wB+hJAqLTg2Nz9+gosAfIGKCwwVBAMQZWdwAPz8/62tsqWmqurq7dIRGx/Ylgo+AAAAAElFTkSuQmCC",
+  "name_root": "Original Cotton Crew"
 }

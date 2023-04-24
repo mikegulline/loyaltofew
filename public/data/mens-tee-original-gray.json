@@ -1,10 +1,7 @@
 {
-  "function": "getColor(category, type, logo, color)",
-  "output": "/public/data/mens-tee-original-gray.json",
   "id": "mensteeoriginalgray",
   "name": "Original Tee with Original Design",
   "link": "/store/mens/tee/original",
-  "imageRoot": "/images/products/mens/tee/",
   "image": "/images/products/mens/tee/MensTeeOriginalGray.jpg",
   "imageBack": "/images/products/mens/tee/MensTeeBackGray.jpg",
   "has_image_back": true,
@@ -24,64 +21,34 @@
   ],
   "logos": [
     {
-      "name": "Original Tee with Arch Design",
-      "link": "/store/mens/tee/arch",
-      "linkColor": "/store/mens/tee/arch/black",
-      "has_image_back": true,
-      "imageBack": "/images/products/mens/tee/MensTeeBackBlack.jpg",
-      "image": "/images/products/mens/tee/MensTeeArchBlack.jpg",
-      "imageColorRoot": "/images/products/mens/tee/MensTeeArch",
-      "imageColorBackRoot": "/images/products/mens/tee/MensTeeBack",
       "logo": "Arch",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ANrc35GRk4iHiMzMywC4u71cW1xfXV2+vr4A9vb3ExEOCAQA397eAPv9/1ZWVlpZVNvb2vORHCcA8IK2AAAAAElFTkSuQmCC"
+      "link": "/store/mens/tee/arch/gray",
+      "image": "/images/products/mens/tee/MensTeeArchGray.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AMjIzHRzdXp4edXU1ADDxMZcXF1WVFTOztAA9vb2HRkYEAMA393dAP79/1ZTUk5HQ+Pg390rG7ih+kCiAAAAAElFTkSuQmCC"
     },
     {
-      "name": "Original Tee with Block Design",
-      "link": "/store/mens/tee/block",
-      "linkColor": "/store/mens/tee/block/black",
-      "has_image_back": true,
-      "imageBack": "/images/products/mens/tee/MensTeeBackBlack.jpg",
-      "image": "/images/products/mens/tee/MensTeeBlockBlack.jpg",
-      "imageColorRoot": "/images/products/mens/tee/MensTeeBlock",
-      "imageColorBackRoot": "/images/products/mens/tee/MensTeeBack",
       "logo": "Block",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AMLAw4GAhHV0drS0tACPj5NdW1xWVVa0srQA8/LzHBcVDwMA1dTUAP78/09LS1VSUOPi4qwOGlFtbRr9AAAAAElFTkSuQmCC"
+      "link": "/store/mens/tee/block/gray",
+      "image": "/images/products/mens/tee/MensTeeBlockGray.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AM3Ly39+f31+f9HR1ACHhINBPDlZVVOysrYA6unpEAUADgIA3tzcAP37/15bWFtXUe3r6q4rGnOWSOoMAAAAAElFTkSuQmCC"
     },
     {
-      "name": "Original Tee with Original Design",
-      "link": "/store/mens/tee/original",
-      "linkColor": "/store/mens/tee/original/black",
-      "has_image_back": true,
-      "imageBack": "/images/products/mens/tee/MensTeeBackBlack.jpg",
-      "image": "/images/products/mens/tee/MensTeeOriginalBlack.jpg",
-      "imageColorRoot": "/images/products/mens/tee/MensTeeOriginal",
-      "imageColorBackRoot": "/images/products/mens/tee/MensTeeBack",
       "logo": "Original",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ANvh5pWao4aIj+Tl6QCtsrc8PkdDQ0jCwsUA6ejsAQMEAwMEt7e5APn7/VpbXm1tbejo6eaPG6y5fToTAAAAAElFTkSuQmCC"
+      "link": "/store/mens/tee/original/gray",
+      "image": "/images/products/mens/tee/MensTeeOriginalGray.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AJ+fn3Jzd3d5f7/BxACSkJBIQ0JPTk7FxcgAy8fHCwAAHBcQ8fDvANXU1VBOTU9MSP/+/4YiGWjZHtW4AAAAAElFTkSuQmCC"
     },
     {
-      "name": "Original Tee with Stamp Design",
-      "link": "/store/mens/tee/stamp",
-      "linkColor": "/store/mens/tee/stamp/black",
-      "has_image_back": true,
-      "imageBack": "/images/products/mens/tee/MensTeeBackBlack.jpg",
-      "image": "/images/products/mens/tee/MensTeeStampBlack.jpg",
-      "imageColorRoot": "/images/products/mens/tee/MensTeeStamp",
-      "imageColorBackRoot": "/images/products/mens/tee/MensTeeBack",
       "logo": "Stamp",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AMXFyH5+f39/f9HR0QCnp6o3NTVCPz20s7QA9fT3DgIAGxUQ9vX2APb2+W5sbHdzcvz8/bzYG70uEaMNAAAAAElFTkSuQmCC"
+      "link": "/store/mens/tee/stamp/gray",
+      "image": "/images/products/mens/tee/MensTeeStampGray.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AMjGxoKAgX9+f9HR1ACjn59GQT9MSkaysrQA+/f4FQ0DDAAA1NDPAPz7/GNfW3dycOzr6bt9GxzGMghOAAAAAElFTkSuQmCC"
     },
     {
-      "name": "Original Tee with Stenciled Design",
-      "link": "/store/mens/tee/stenciled",
-      "linkColor": "/store/mens/tee/stenciled/black",
-      "has_image_back": true,
-      "imageBack": "/images/products/mens/tee/MensTeeBackBlack.jpg",
-      "image": "/images/products/mens/tee/MensTeeStenciledBlack.jpg",
-      "imageColorRoot": "/images/products/mens/tee/MensTeeStenciled",
-      "imageColorBackRoot": "/images/products/mens/tee/MensTeeBack",
       "logo": "Stenciled",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOvr7qinrbKwtv7+/wDLy9BFRExEQknAwMQA29veDgwWBgMQ6OjrAOzs8IKBh359gvf2+TAsHm9KhdxaAAAAAElFTkSuQmCC"
+      "link": "/store/mens/tee/stenciled/gray",
+      "image": "/images/products/mens/tee/MensTeeStenciledGray.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APT2+6OjpqKfn/Hw8QDc3OFPTlBTTU3PzM0A+Pf4HRsaCwAA4N7gAP///4WEhYuIifr5+kDlH1VQiO+9AAAAAElFTkSuQmCC"
     }
   ],
   "sizes": [
@@ -128,19 +95,7 @@
     "Super-soft, lightweight (3.8oz) & durable",
     "S-XXL"
   ],
-  "category": {
-    "category": "Mens",
-    "name": "Mens",
-    "link": "/store/mens"
-  },
-  "type": {
-    "type": "Tee",
-    "name": "Original Tee",
-    "link": "/store/mens/tee/arch/black"
-  },
-  "tags": [
-    "Tops"
-  ],
+  "type": "Tee",
   "breadcrumbs": [
     [
       "Store",
@@ -159,5 +114,6 @@
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AJ+fn3Jzd3d5f7/BxACSkJBIQ0JPTk7FxcgAy8fHCwAAHBcQ8fDvANXU1VBOTU9MSP/+/4YiGWjZHtW4AAAAAElFTkSuQmCC"
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AJ+fn3Jzd3d5f7/BxACSkJBIQ0JPTk7FxcgAy8fHCwAAHBcQ8fDvANXU1VBOTU9MSP/+/4YiGWjZHtW4AAAAAElFTkSuQmCC",
+  "name_root": "Original Tee"
 }

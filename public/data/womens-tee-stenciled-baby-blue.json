@@ -1,10 +1,7 @@
 {
-  "function": "getColor(category, type, logo, color)",
-  "output": "/public/data/womens-tee-stenciled-baby-blue.json",
   "id": "womensteestenciledbaby-blue",
   "name": "Original Tee with Stenciled Design",
   "link": "/store/womens/tee/stenciled",
-  "imageRoot": "/images/products/womens/tee/",
   "image": "/images/products/womens/tee/WomensTeeStenciledBaby-Blue.jpg",
   "imageBack": "/images/products/womens/tee/WomensTeeBackBaby-Blue.jpg",
   "has_image_back": true,
@@ -24,64 +21,34 @@
   ],
   "logos": [
     {
-      "name": "Original Tee with Arch Design",
-      "link": "/store/womens/tee/arch",
-      "linkColor": "/store/womens/tee/arch/gray",
-      "has_image_back": true,
-      "imageBack": "/images/products/womens/tee/WomensTeeBackGray.jpg",
-      "image": "/images/products/womens/tee/WomensTeeArchGray.jpg",
-      "imageColorRoot": "/images/products/womens/tee/WomensTeeArch",
-      "imageColorBackRoot": "/images/products/womens/tee/WomensTeeBack",
       "logo": "Arch",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPUlEQVR4nGN4//FbamZRTHTiy5dvGZ48eaWiYayirHXz1l2GX7//8QvJMjMJPH78nOHHzz8BwXHWtq5ADgDZ2htrGBf65wAAAABJRU5ErkJggg=="
+      "link": "/store/womens/tee/arch/baby-blue",
+      "image": "/images/products/womens/tee/WomensTeeArchBaby-Blue.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AODu/wdjoABWkdLh9wDY6f0ALH4AJXC+0u4A7vr/ACR1AARV0OD3AN7u/wBTkwA2dM/e9s+8G2Jmp9P/AAAAAElFTkSuQmCC"
     },
     {
-      "name": "Original Tee with Block Design",
-      "link": "/store/womens/tee/block",
-      "linkColor": "/store/womens/tee/block/gray",
-      "has_image_back": true,
-      "imageBack": "/images/products/womens/tee/WomensTeeBackGray.jpg",
-      "image": "/images/products/womens/tee/WomensTeeBlockGray.jpg",
-      "imageColorRoot": "/images/products/womens/tee/WomensTeeBlock",
-      "imageColorBackRoot": "/images/products/womens/tee/WomensTeeBack",
       "logo": "Block",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APDw9VxfZ1RVW+np7QDb3uM5O0UvLzXQ0dYA9/j6FBgiBwUR3t7iAPj6/UVHUTEyOuPj59UKGyJi1TNQAAAAAElFTkSuQmCC"
+      "link": "/store/womens/tee/block/baby-blue",
+      "image": "/images/products/womens/tee/WomensTeeBlockBaby-Blue.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPUlEQVR4nGN4/vU/Q9QUBu+Wa8/+MFx9+ofBroPBuGLvpbcM73//Z9AuY+APOX//G8OrX/8ZXFsY1BKBSgDRnRtu3r0L1gAAAABJRU5ErkJggg=="
     },
     {
-      "name": "Original Tee with Original Design",
-      "link": "/store/womens/tee/original",
-      "linkColor": "/store/womens/tee/original/gray",
-      "has_image_back": true,
-      "imageBack": "/images/products/womens/tee/WomensTeeBackGray.jpg",
-      "image": "/images/products/womens/tee/WomensTeeOriginalGray.jpg",
-      "imageColorRoot": "/images/products/womens/tee/WomensTeeOriginal",
-      "imageColorBackRoot": "/images/products/womens/tee/WomensTeeBack",
       "logo": "Original",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APDx9nJ1f2lpburq7gDn6OspKzcgISfd3uIA/P3/EBQfAwIP5ubqAPj5/FtdaUlKU+Xm6u6rHDhkg2QvAAAAAElFTkSuQmCC"
+      "link": "/store/womens/tee/original/baby-blue",
+      "image": "/images/products/womens/tee/WomensTeeOriginalBaby-Blue.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOLv/yhwrRxgm9Li+ADd7f8ANYcAJHPF1/IA8/3/ACZ6AAtb1eX6AOT0/wBfngBFg9Li+O6gHHRjXXivAAAAAElFTkSuQmCC"
     },
     {
-      "name": "Original Tee with Stamp Design",
-      "link": "/store/womens/tee/stamp",
-      "linkColor": "/store/womens/tee/stamp/gray",
-      "has_image_back": true,
-      "imageBack": "/images/products/womens/tee/WomensTeeBackGray.jpg",
-      "image": "/images/products/womens/tee/WomensTeeStampGray.jpg",
-      "imageColorRoot": "/images/products/womens/tee/WomensTeeStamp",
-      "imageColorBackRoot": "/images/products/womens/tee/WomensTeeBack",
       "logo": "Stamp",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPElEQVR4nGP4+u13YnJuRGT8u3efGJ49f6OpY66urnv7ziOGf///C4koMDEIPH/+GsTxDYi2snJ6/vwtAOKGG8FbDMp6AAAAAElFTkSuQmCC"
+      "link": "/store/womens/tee/stamp/baby-blue",
+      "image": "/images/products/womens/tee/WomensTeeStampBaby-Blue.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPUlEQVR4nGN48e2/SNoihrBJt179Z7j/4T+DVQeDbvnRG18Yvvz/z6BZycAfdf3FP4YX3/4zhE5lsCgDcgDpIxxWxyBNdwAAAABJRU5ErkJggg=="
     },
     {
-      "name": "Original Tee with Stenciled Design",
-      "link": "/store/womens/tee/stenciled",
-      "linkColor": "/store/womens/tee/stenciled/gray",
-      "has_image_back": true,
-      "imageBack": "/images/products/womens/tee/WomensTeeBackGray.jpg",
-      "image": "/images/products/womens/tee/WomensTeeStenciledGray.jpg",
-      "imageColorRoot": "/images/products/womens/tee/WomensTeeStenciled",
-      "imageColorBackRoot": "/images/products/womens/tee/WomensTeeBack",
       "logo": "Stenciled",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO/x9mxveGJiaOvr7gDk5OorLTgrKjHa2t0A+/v+CxAbAAAN5eXoAPj5/lJVYEBBSeXl6eY+G88Lu6bhAAAAAElFTkSuQmCC"
+      "link": "/store/womens/tee/stenciled/baby-blue",
+      "image": "/images/products/womens/tee/WomensTeeStenciledBaby-Blue.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOX2/xdmowBYlNfo/gDd7/8APIkAMnzE1vMA8///ACl5AAxX1OX8AOX2/wBTlAA1dNbl/ehcHDwKRoxaAAAAAElFTkSuQmCC"
     }
   ],
   "sizes": [
@@ -117,19 +84,7 @@
     "Lightweight (4.3oz.) & durable",
     "S-XXL"
   ],
-  "category": {
-    "category": "Womens",
-    "name": "Womens",
-    "link": "/store/womens"
-  },
-  "type": {
-    "type": "Tee",
-    "name": "Original Tee",
-    "link": "/store/womens/tee/original/gray"
-  },
-  "tags": [
-    "Tops"
-  ],
+  "type": "Tee",
   "breadcrumbs": [
     [
       "Store",
@@ -148,5 +103,6 @@
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOX2/xdmowBYlNfo/gDd7/8APIkAMnzE1vMA8///ACl5AAxX1OX8AOX2/wBTlAA1dNbl/ehcHDwKRoxaAAAAAElFTkSuQmCC"
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOX2/xdmowBYlNfo/gDd7/8APIkAMnzE1vMA8///ACl5AAxX1OX8AOX2/wBTlAA1dNbl/ehcHDwKRoxaAAAAAElFTkSuQmCC",
+  "name_root": "Original Tee"
 }

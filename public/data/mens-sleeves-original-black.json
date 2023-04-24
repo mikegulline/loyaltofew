@@ -1,10 +1,7 @@
 {
-  "function": "getColor(category, type, logo, color)",
-  "output": "/public/data/mens-sleeves-original-black.json",
   "id": "menssleevesoriginalblack",
   "name": "Original Long-Sleeve with Original Design",
   "link": "/store/mens/sleeves/original",
-  "imageRoot": "/images/products/mens/sleeves/",
   "image": "/images/products/mens/sleeves/MensSleevesOriginalBlack.jpg",
   "imageBack": "/images/products/mens/sleeves/MensSleevesBackBlack.jpg",
   "has_image_back": true,
@@ -22,63 +19,33 @@
   ],
   "logos": [
     {
-      "name": "Original Long-Sleeve with Arch Design",
-      "link": "/store/mens/sleeves/arch",
-      "linkColor": "/store/mens/sleeves/arch/black",
-      "has_image_back": true,
-      "imageBack": "/images/products/mens/sleeves/MensSleevesBackBlack.jpg",
-      "image": "/images/products/mens/sleeves/MensSleevesArchBlack.jpg",
-      "imageColorRoot": "/images/products/mens/sleeves/MensSleevesArch",
-      "imageColorBackRoot": "/images/products/mens/sleeves/MensSleevesBack",
       "logo": "Arch",
+      "link": "/store/mens/sleeves/arch/black",
+      "image": "/images/products/mens/sleeves/MensSleevesArchBlack.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APn3+oCAg4ODhP39/wB9eHhJSElVU1STj48Aube3AQAABgICu7a1ANzd3jk5OUhDQdrV0rXcGMxIi/oqAAAAAElFTkSuQmCC"
     },
     {
-      "name": "Original Long-Sleeve with Block Design",
-      "link": "/store/mens/sleeves/block",
-      "linkColor": "/store/mens/sleeves/block/black",
-      "has_image_back": true,
-      "imageBack": "/images/products/mens/sleeves/MensSleevesBackBlack.jpg",
-      "image": "/images/products/mens/sleeves/MensSleevesBlockBlack.jpg",
-      "imageColorRoot": "/images/products/mens/sleeves/MensSleevesBlock",
-      "imageColorBackRoot": "/images/products/mens/sleeves/MensSleevesBack",
       "logo": "Block",
+      "link": "/store/mens/sleeves/block/black",
+      "image": "/images/products/mens/sleeves/MensSleevesBlockBlack.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO3t8H5/gY6PkPv7/QCAgH9bW1tgYGCqqqgAsrKwBAQCCwoIvr69AN3d4Ds8Oz47N87NyssgGWpLvD9mAAAAAElFTkSuQmCC"
     },
     {
-      "name": "Original Long-Sleeve with Original Design",
-      "link": "/store/mens/sleeves/original",
-      "linkColor": "/store/mens/sleeves/original/black",
-      "has_image_back": true,
-      "imageBack": "/images/products/mens/sleeves/MensSleevesBackBlack.jpg",
-      "image": "/images/products/mens/sleeves/MensSleevesOriginalBlack.jpg",
-      "imageColorRoot": "/images/products/mens/sleeves/MensSleevesOriginal",
-      "imageColorBackRoot": "/images/products/mens/sleeves/MensSleevesBack",
       "logo": "Original",
+      "link": "/store/mens/sleeves/original/black",
+      "image": "/images/products/mens/sleeves/MensSleevesOriginalBlack.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APX1+IWLlIuSmf7+/wCioKAsLTI1OT6+vb0Al5WTAAAABQQBubayAKOjoTQ0MkE9NcS+ubpbF+KhZq4UAAAAAElFTkSuQmCC"
     },
     {
-      "name": "Original Long-Sleeve with Stamp Design",
-      "link": "/store/mens/sleeves/stamp",
-      "linkColor": "/store/mens/sleeves/stamp/black",
-      "has_image_back": true,
-      "imageBack": "/images/products/mens/sleeves/MensSleevesBackBlack.jpg",
-      "image": "/images/products/mens/sleeves/MensSleevesStampBlack.jpg",
-      "imageColorRoot": "/images/products/mens/sleeves/MensSleevesStamp",
-      "imageColorBackRoot": "/images/products/mens/sleeves/MensSleevesBack",
       "logo": "Stamp",
+      "link": "/store/mens/sleeves/stamp/black",
+      "image": "/images/products/mens/sleeves/MensSleevesStampBlack.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAO0lEQVR4nGP4/+9/RU1jYVHZmzdvGebPn+/q6uzj47Njx3aGTRvWM4DBvr27GK5fv+Xq5hoWGnDt6iUAvdcZW5qbwNAAAAAASUVORK5CYII="
     },
     {
-      "name": "Original Long-Sleeve with Stenciled Design",
-      "link": "/store/mens/sleeves/stenciled",
-      "linkColor": "/store/mens/sleeves/stenciled/black",
-      "has_image_back": true,
-      "imageBack": "/images/products/mens/sleeves/MensSleevesBackBlack.jpg",
-      "image": "/images/products/mens/sleeves/MensSleevesStenciledBlack.jpg",
-      "imageColorRoot": "/images/products/mens/sleeves/MensSleevesStenciled",
-      "imageColorBackRoot": "/images/products/mens/sleeves/MensSleevesBack",
       "logo": "Stenciled",
+      "link": "/store/mens/sleeves/stenciled/black",
+      "image": "/images/products/mens/sleeves/MensSleevesStenciledBlack.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APDw8YODhI2Njv7+/wB6eno8PDw+Pj56ensAl5eZBAQEEBAQc3N1ANra221tbXh4edvb3ZnhGHqZlHEnAAAAAElFTkSuQmCC"
     }
   ],
@@ -115,19 +82,7 @@
     "Lightweight (4.3oz.) & durable",
     "S-XXL"
   ],
-  "category": {
-    "category": "Mens",
-    "name": "Mens",
-    "link": "/store/mens"
-  },
-  "type": {
-    "type": "Sleeves",
-    "name": "Original Long-Sleeve",
-    "link": "/store/mens/sleeves/stenciled/black"
-  },
-  "tags": [
-    "Tops"
-  ],
+  "type": "Sleeves",
   "breadcrumbs": [
     [
       "Store",
@@ -146,5 +101,6 @@
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APX1+IWLlIuSmf7+/wCioKAsLTI1OT6+vb0Al5WTAAAABQQBubayAKOjoTQ0MkE9NcS+ubpbF+KhZq4UAAAAAElFTkSuQmCC"
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APX1+IWLlIuSmf7+/wCioKAsLTI1OT6+vb0Al5WTAAAABQQBubayAKOjoTQ0MkE9NcS+ubpbF+KhZq4UAAAAAElFTkSuQmCC",
+  "name_root": "Original Long-Sleeve"
 }

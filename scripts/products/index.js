@@ -134,20 +134,32 @@ try {
                 const processLogos = await processProds.logos.map(
                   async (l, i) => {
                     let logosObj = {};
-                    await getPlaiceholder(l.image).then(
-                      ({ base64 }) => (logosObj = { ...l, imageBlur: base64 })
+                    const image = `${l.imageColorRoot}${color}.jpg`;
+                    const link = `${l.link}/${color}`.toLowerCase();
+                    await getPlaiceholder(image).then(
+                      ({ base64 }) =>
+                        (logosObj = {
+                          logo: l.logo,
+                          link,
+                          image,
+                          imageBlur: base64,
+                        })
                     );
                     return logosObj;
                   }
                 );
                 Promise.all(processLogos).then((responses) => {
+                  delete processProds.imageRoot;
+                  delete processProds.category;
+                  delete processProds.tags;
                   fs.writeFileSync(
                     filePath,
                     JSON.stringify(
                       {
-                        function: 'getColor(category, type, logo, color)',
-                        output: `/public/data/${category.toLowerCase()}-${type.toLowerCase()}-${logo.toLowerCase()}-${color.toLowerCase()}.json`,
-                        ...{ ...processProds, logos: responses },
+                        ...processProds,
+                        type: processProds.type.type,
+                        name_root: processProds.type.name,
+                        logos: responses,
                       },
                       null,
                       2
@@ -163,6 +175,6 @@ try {
   })();
 } catch (err) {
   console.log('write color-logo.json', err);
+} finally {
+  console.log('Done.');
 }
-
-console.log('Done.');

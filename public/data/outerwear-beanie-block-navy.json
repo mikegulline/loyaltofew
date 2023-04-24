@@ -1,10 +1,7 @@
 {
-  "function": "getColor(category, type, logo, color)",
-  "output": "/public/data/outerwear-beanie-block-navy.json",
   "id": "outerwearbeanieblocknavy",
   "name": "Knit Beanie with Block Design",
   "link": "/store/outerwear/beanie/block",
-  "imageRoot": "/images/products/outerwear/beanie/",
   "image": "/images/products/outerwear/beanie/OuterwearBeanieBlockNavy.jpg",
   "imageBack": "/images/products/outerwear/beanie/OuterwearBeanieBackNavy.jpg",
   "has_image_back": false,
@@ -22,16 +19,10 @@
   ],
   "logos": [
     {
-      "name": "Knit Beanie with Block Design",
-      "link": "/store/outerwear/beanie/block",
-      "linkColor": "/store/outerwear/beanie/block/black",
-      "has_image_back": false,
-      "imageBack": "/images/products/outerwear/beanie/OuterwearBeanieBackBlack.jpg",
-      "image": "/images/products/outerwear/beanie/OuterwearBeanieBlockBlack.jpg",
-      "imageColorRoot": "/images/products/outerwear/beanie/OuterwearBeanieBlock",
-      "imageColorBackRoot": "/images/products/outerwear/beanie/OuterwearBeanieBack",
       "logo": "Block",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAP0lEQVR4nAE0AMv/APLx/9zf6sfIz8fHxwCwtb0VFxwPDwyvr6wAJSgvk5OXdXR1HR0dADI2Pa2vtLu9vjo9QNy9GGmRUzZJAAAAAElFTkSuQmCC"
+      "link": "/store/outerwear/beanie/block/navy",
+      "image": "/images/products/outerwear/beanie/OuterwearBeanieBlockNavy.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAP0lEQVR4nAE0AMv/AP7+/7OztrSztOTk5ACfn6gGAxMPDBKhn58AJCQsjIiTXFhfJyUpAC8vNaOhpoSDh0ZGRq0NFm2IFyQTAAAAAElFTkSuQmCC"
     }
   ],
   "sizes": [
@@ -44,19 +35,7 @@
     "Made in the USA",
     "Snug, comfort fit"
   ],
-  "category": {
-    "category": "Outerwear",
-    "name": "Outerwear",
-    "link": "/store/outerwear"
-  },
-  "type": {
-    "type": "Beanie",
-    "name": "Knit Beanie",
-    "link": "/store/outerwear/beanie/block/black"
-  },
-  "tags": [
-    "Accessories"
-  ],
+  "type": "Beanie",
   "breadcrumbs": [
     [
       "Store",
@@ -75,5 +54,6 @@
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAP0lEQVR4nAE0AMv/AP7+/7OztrSztOTk5ACfn6gGAxMPDBKhn58AJCQsjIiTXFhfJyUpAC8vNaOhpoSDh0ZGRq0NFm2IFyQTAAAAAElFTkSuQmCC"
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAP0lEQVR4nAE0AMv/AP7+/7OztrSztOTk5ACfn6gGAxMPDBKhn58AJCQsjIiTXFhfJyUpAC8vNaOhpoSDh0ZGRq0NFm2IFyQTAAAAAElFTkSuQmCC",
+  "name_root": "Knit Beanie"
 }

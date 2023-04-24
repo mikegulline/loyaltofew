@@ -1,10 +1,7 @@
 {
-  "function": "getColor(category, type, logo, color)",
-  "output": "/public/data/womens-oversized-crop-block-dolphin.json",
   "id": "womensoversized-cropblockdolphin",
   "name": "Original Oversized Crop with Block Design",
   "link": "/store/womens/oversized-crop/block",
-  "imageRoot": "/images/products/womens/oversized-crop/",
   "image": "/images/products/womens/oversized-crop/WomensOversized-CropBlockDolphin.jpg",
   "imageBack": "/images/products/womens/oversized-crop/WomensOversized-CropBackDolphin.jpg",
   "has_image_back": true,
@@ -23,64 +20,34 @@
   ],
   "logos": [
     {
-      "name": "Original Oversized Crop with Arch Design",
-      "link": "/store/womens/oversized-crop/arch",
-      "linkColor": "/store/womens/oversized-crop/arch/black",
-      "has_image_back": true,
-      "imageBack": "/images/products/womens/oversized-crop/WomensOversized-CropBackBlack.jpg",
-      "image": "/images/products/womens/oversized-crop/WomensOversized-CropArchBlack.jpg",
-      "imageColorRoot": "/images/products/womens/oversized-crop/WomensOversized-CropArch",
-      "imageColorBackRoot": "/images/products/womens/oversized-crop/WomensOversized-CropBack",
       "logo": "Arch",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz7/eLi5ePk5v79/wBfYmkeICUfICVtcHYAiIqPAgMOBggRk5WbAPLy9tbX2tjY3fX29/UvHO+NKXXbAAAAAElFTkSuQmCC"
+      "link": "/store/womens/oversized-crop/arch/dolphin",
+      "image": "/images/products/womens/oversized-crop/WomensOversized-CropArchDolphin.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/eLi5uLj5fv7/QBjZ3AaHCcfISp5fIQAl5ifAQAUAQAUj5CYAPX0+NnZ3N3d4PLy9f18HUaRWKQFAAAAAElFTkSuQmCC"
     },
     {
-      "name": "Original Oversized Crop with Block Design",
-      "link": "/store/womens/oversized-crop/block",
-      "linkColor": "/store/womens/oversized-crop/block/black",
-      "has_image_back": true,
-      "imageBack": "/images/products/womens/oversized-crop/WomensOversized-CropBackBlack.jpg",
-      "image": "/images/products/womens/oversized-crop/WomensOversized-CropBlockBlack.jpg",
-      "imageColorRoot": "/images/products/womens/oversized-crop/WomensOversized-CropBlock",
-      "imageColorBackRoot": "/images/products/womens/oversized-crop/WomensOversized-CropBack",
       "logo": "Block",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz7/d3e4t/f4/79/wBQU1wiJCgZGh9dYWcAen2DBwkRAQQMiImOAPLz9NHR1tXU2Pb2+d6gHBPZKMmeAAAAAElFTkSuQmCC"
+      "link": "/store/womens/oversized-crop/block/dolphin",
+      "image": "/images/products/womens/oversized-crop/WomensOversized-CropBlockDolphin.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr6/d3d4d7f4Pr6/QBVWWEWFyEbGyZqbXcAi4yTAQARAQMTgoOLAPTz99XW2Nja2/Hx9OKuHEmCXfqeAAAAAElFTkSuQmCC"
     },
     {
-      "name": "Original Oversized Crop with Original Design",
-      "link": "/store/womens/oversized-crop/original",
-      "linkColor": "/store/womens/oversized-crop/original/black",
-      "has_image_back": true,
-      "imageBack": "/images/products/womens/oversized-crop/WomensOversized-CropBackBlack.jpg",
-      "image": "/images/products/womens/oversized-crop/WomensOversized-CropOriginalBlack.jpg",
-      "imageColorRoot": "/images/products/womens/oversized-crop/WomensOversized-CropOriginal",
-      "imageColorBackRoot": "/images/products/womens/oversized-crop/WomensOversized-CropBack",
       "logo": "Original",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/+Xk6Obn6v39/wBmaXElJy0dHiVzd30Aj5GUAAMOAAMOm5ugAPLz9Nvb3tzd3/b2+AKXHWz1WiGBAAAAAElFTkSuQmCC"
+      "link": "/store/womens/oversized-crop/original/dolphin",
+      "image": "/images/products/womens/oversized-crop/WomensOversized-CropOriginalDolphin.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr5++Tl6efn6fv7/gBscHgkJjQiIy6BhIwAoKGnBwYXAAEUl5igAPb19t3d4ODg4/Pz9hHyHgylCqzDAAAAAElFTkSuQmCC"
     },
     {
-      "name": "Original Oversized Crop with Stamp Design",
-      "link": "/store/womens/oversized-crop/stamp",
-      "linkColor": "/store/womens/oversized-crop/stamp/black",
-      "has_image_back": true,
-      "imageBack": "/images/products/womens/oversized-crop/WomensOversized-CropBackBlack.jpg",
-      "image": "/images/products/womens/oversized-crop/WomensOversized-CropStampBlack.jpg",
-      "imageColorRoot": "/images/products/womens/oversized-crop/WomensOversized-CropStamp",
-      "imageColorBackRoot": "/images/products/womens/oversized-crop/WomensOversized-CropBack",
       "logo": "Stamp",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz7/d/g5OHi5f79/wBXW2McHiMZGh9maW8AgYSJAgUPAAMNjZCVAPLy9dTV1tbX2/X2+ebsHGZBl4ftAAAAAElFTkSuQmCC"
+      "link": "/store/womens/oversized-crop/stamp/dolphin",
+      "image": "/images/products/womens/oversized-crop/WomensOversized-CropStampDolphin.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr6/d/g5eDg5fr6/QBdYmwUFyEcHShzd4AAlJWbAAARBQQWiYyUAPX0+NfY29ra3fLy9fHwHOBI7tYTAAAAAElFTkSuQmCC"
     },
     {
-      "name": "Original Oversized Crop with Stenciled Design",
-      "link": "/store/womens/oversized-crop/stenciled",
-      "linkColor": "/store/womens/oversized-crop/stenciled/black",
-      "has_image_back": true,
-      "imageBack": "/images/products/womens/oversized-crop/WomensOversized-CropBackBlack.jpg",
-      "image": "/images/products/womens/oversized-crop/WomensOversized-CropStenciledBlack.jpg",
-      "imageColorRoot": "/images/products/womens/oversized-crop/WomensOversized-CropStenciled",
-      "imageColorBackRoot": "/images/products/womens/oversized-crop/WomensOversized-CropBack",
       "logo": "Stenciled",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz7/ufo6unp7fz8/gCKjZQuMzowMzmOkJYApqetAAUQCQ4Uo6erAPj4+e7u8fHx9fj4+zbkH6GxelqlAAAAAElFTkSuQmCC"
+      "link": "/store/womens/oversized-crop/stenciled/dolphin",
+      "image": "/images/products/womens/oversized-crop/WomensOversized-CropStenciledDolphin.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/+nq7unq7v7+/wCGiZApKzY0NT6Ulp8Ar7C1AgMTDQ8anp+mAPz8/fDw8/X1+Pr6/T2nH/JMRA3LAAAAAElFTkSuQmCC"
     }
   ],
   "sizes": [
@@ -97,19 +64,7 @@
     "100% cotton",
     "One size fits most"
   ],
-  "category": {
-    "category": "Womens",
-    "name": "Womens",
-    "link": "/store/womens"
-  },
-  "type": {
-    "type": "Oversized-Crop",
-    "name": "Original Oversized Crop",
-    "link": "/store/womens/oversized-crop/stamp/black"
-  },
-  "tags": [
-    "Tops"
-  ],
+  "type": "Oversized-Crop",
   "breadcrumbs": [
     [
       "Store",
@@ -128,5 +83,6 @@
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr6/d3d4d7f4Pr6/QBVWWEWFyEbGyZqbXcAi4yTAQARAQMTgoOLAPTz99XW2Nja2/Hx9OKuHEmCXfqeAAAAAElFTkSuQmCC"
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr6/d3d4d7f4Pr6/QBVWWEWFyEbGyZqbXcAi4yTAQARAQMTgoOLAPTz99XW2Nja2/Hx9OKuHEmCXfqeAAAAAElFTkSuQmCC",
+  "name_root": "Original Oversized Crop"
 }

@@ -1,10 +1,7 @@
 {
-  "function": "getColor(category, type, logo, color)",
-  "output": "/public/data/outerwear-50-50-hoodie-arch-black.json",
   "id": "outerwear50-50-hoodiearchblack",
   "name": "Original 50/50 Hoodie with Arch Design",
   "link": "/store/outerwear/50-50-hoodie/arch",
-  "imageRoot": "/images/products/outerwear/50-50-hoodie/",
   "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieArchBlack.jpg",
   "imageBack": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBackBlack.jpg",
   "has_image_back": false,
@@ -20,63 +17,33 @@
   ],
   "logos": [
     {
-      "name": "Original 50/50 Hoodie with Arch Design",
-      "link": "/store/outerwear/50-50-hoodie/arch",
-      "linkColor": "/store/outerwear/50-50-hoodie/arch/black",
-      "has_image_back": false,
-      "imageBack": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBackBlack.jpg",
-      "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieArchBlack.jpg",
-      "imageColorRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieArch",
-      "imageColorBackRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBack",
       "logo": "Arch",
+      "link": "/store/outerwear/50-50-hoodie/arch/black",
+      "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieArchBlack.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPUlEQVR4nGNgYGCIDYt1dnBmYGBgsLFx///7/+snb3V1jRlSUrKO7D+ye9ve4OBwhuTk5KCA4ODg0IyMDADXShPN/6IGhwAAAABJRU5ErkJggg=="
     },
     {
-      "name": "Original 50/50 Hoodie with Block Design",
-      "link": "/store/outerwear/50-50-hoodie/block",
-      "linkColor": "/store/outerwear/50-50-hoodie/block/black",
-      "has_image_back": false,
-      "imageBack": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBackBlack.jpg",
-      "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBlockBlack.jpg",
-      "imageColorRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBlock",
-      "imageColorBackRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBack",
       "logo": "Block",
+      "link": "/store/outerwear/50-50-hoodie/block/black",
+      "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBlockBlack.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAN0lEQVR4nGNgYGAIDw83NDRkgIC/Xz5+efsWxJISF79/48an9+90dXUZdu/eHRcbGx4e3tvbCwCivhNrEiw3CAAAAABJRU5ErkJggg=="
     },
     {
-      "name": "Original 50/50 Hoodie with Original Design",
-      "link": "/store/outerwear/50-50-hoodie/original",
-      "linkColor": "/store/outerwear/50-50-hoodie/original/black",
-      "has_image_back": false,
-      "imageBack": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBackBlack.jpg",
-      "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieOriginalBlack.jpg",
-      "imageColorRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieOriginal",
-      "imageColorBackRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBack",
       "logo": "Original",
+      "link": "/store/outerwear/50-50-hoodie/original/black",
+      "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieOriginalBlack.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAM0lEQVR4nGNgYGBITk6eOnEqAwT8//Lp55evhkaWIM7a5UsWz5+fnJwM4sTFxeVmZwNZALuOEKdziveCAAAAAElFTkSuQmCC"
     },
     {
-      "name": "Original 50/50 Hoodie with Stamp Design",
-      "link": "/store/outerwear/50-50-hoodie/stamp",
-      "linkColor": "/store/outerwear/50-50-hoodie/stamp/black",
-      "has_image_back": false,
-      "imageBack": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBackBlack.jpg",
-      "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieStampBlack.jpg",
-      "imageColorRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieStamp",
-      "imageColorBackRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBack",
       "logo": "Stamp",
+      "link": "/store/outerwear/50-50-hoodie/stamp/black",
+      "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieStampBlack.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAOUlEQVR4nGNgYGDISk11srVlYGBgcHNz+/Xp0/NHj0AcJyenLWvXblq7VlxcHMT39/cPDw3t6ekBAKIdEQPgQHypAAAAAElFTkSuQmCC"
     },
     {
-      "name": "Original 50/50 Hoodie with Stenciled Design",
-      "link": "/store/outerwear/50-50-hoodie/stenciled",
-      "linkColor": "/store/outerwear/50-50-hoodie/stenciled/black",
-      "has_image_back": false,
-      "imageBack": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBackBlack.jpg",
-      "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieStenciledBlack.jpg",
-      "imageColorRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieStenciled",
-      "imageColorBackRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBack",
       "logo": "Stenciled",
+      "link": "/store/outerwear/50-50-hoodie/stenciled/black",
+      "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieStenciledBlack.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/7S0tcXFxf39/wDHx8hSUVBRUE+/vr8AhIODFhUSBAMAenl5ANHR0WZmZWFhYMnJyhjGGzABPBmHAAAAAElFTkSuQmCC"
     }
   ],
@@ -115,19 +82,7 @@
     "Unisex, check size chart",
     "S-XXL"
   ],
-  "category": {
-    "category": "Outerwear",
-    "name": "Outerwear",
-    "link": "/store/outerwear"
-  },
-  "type": {
-    "type": "50-50-Hoodie",
-    "name": "Original 50/50 Hoodie",
-    "link": "/store/outerwear/50-50-hoodie/block/black"
-  },
-  "tags": [
-    "Tops"
-  ],
+  "type": "50-50-Hoodie",
   "breadcrumbs": [
     [
       "Store",
@@ -146,5 +101,6 @@
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPUlEQVR4nGNgYGCIDYt1dnBmYGBgsLFx///7/+snb3V1jRlSUrKO7D+ye9ve4OBwhuTk5KCA4ODg0IyMDADXShPN/6IGhwAAAABJRU5ErkJggg=="
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPUlEQVR4nGNgYGCIDYt1dnBmYGBgsLFx///7/+snb3V1jRlSUrKO7D+ye9ve4OBwhuTk5KCA4ODg0IyMDADXShPN/6IGhwAAAABJRU5ErkJggg==",
+  "name_root": "Original 50/50 Hoodie"
 }

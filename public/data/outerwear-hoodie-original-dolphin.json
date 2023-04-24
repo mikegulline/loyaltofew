@@ -1,10 +1,7 @@
 {
-  "function": "getColor(category, type, logo, color)",
-  "output": "/public/data/outerwear-hoodie-original-dolphin.json",
   "id": "outerwearhoodieoriginaldolphin",
   "name": "Original Cotton Hoodie with Original Design",
   "link": "/store/outerwear/hoodie/original",
-  "imageRoot": "/images/products/outerwear/hoodie/",
   "image": "/images/products/outerwear/hoodie/OuterwearHoodieOriginalDolphin.jpg",
   "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieBackDolphin.jpg",
   "has_image_back": false,
@@ -23,64 +20,34 @@
   ],
   "logos": [
     {
-      "name": "Original Cotton Hoodie with Arch Design",
-      "link": "/store/outerwear/hoodie/arch",
-      "linkColor": "/store/outerwear/hoodie/arch/black",
-      "has_image_back": false,
-      "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieBackBlack.jpg",
-      "image": "/images/products/outerwear/hoodie/OuterwearHoodieArchBlack.jpg",
-      "imageColorRoot": "/images/products/outerwear/hoodie/OuterwearHoodieArch",
-      "imageColorBackRoot": "/images/products/outerwear/hoodie/OuterwearHoodieBack",
       "logo": "Arch",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPUlEQVR4nGNgYGCIDYt1dnBmYGBgsLFx///7/+snb3V1jRlSUrKO7D+ye9ve4OBwhuTk5KCA4ODg0IyMDADXShPN/6IGhwAAAABJRU5ErkJggg=="
+      "link": "/store/outerwear/hoodie/arch/dolphin",
+      "image": "/images/products/outerwear/hoodie/OuterwearHoodieArchDolphin.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAP0lEQVR4nAE0AMv/AAAAAMK+vrGtrQAAAACwsKf7+fbr5+SQhYUAta+s0MzH3djSu7eyAN3d3a+rpKigl9bIx97VH4IPVsPFAAAAAElFTkSuQmCC"
     },
     {
-      "name": "Original Cotton Hoodie with Block Design",
-      "link": "/store/outerwear/hoodie/block",
-      "linkColor": "/store/outerwear/hoodie/block/black",
-      "has_image_back": false,
-      "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieBackBlack.jpg",
-      "image": "/images/products/outerwear/hoodie/OuterwearHoodieBlockBlack.jpg",
-      "imageColorRoot": "/images/products/outerwear/hoodie/OuterwearHoodieBlock",
-      "imageColorBackRoot": "/images/products/outerwear/hoodie/OuterwearHoodieBack",
       "logo": "Block",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAN0lEQVR4nGNgYGAIDw83NDRkgIC/Xz5+efsWxJISF79/48an9+90dXUZdu/eHRcbGx4e3tvbCwCivhNrEiw3CAAAAABJRU5ErkJggg=="
+      "link": "/store/outerwear/hoodie/block/dolphin",
+      "image": "/images/products/outerwear/hoodie/OuterwearHoodieBlockDolphin.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAO0lEQVR4nGNgYGA4cODAwYNHGSDg748v3z68jAl0Z5gzoevB1VPPb5xePGsSw80bJ9YtnrV4avu2BVMAgUIbz5ItGSAAAAAASUVORK5CYII="
     },
     {
-      "name": "Original Cotton Hoodie with Original Design",
-      "link": "/store/outerwear/hoodie/original",
-      "linkColor": "/store/outerwear/hoodie/original/black",
-      "has_image_back": false,
-      "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieBackBlack.jpg",
-      "image": "/images/products/outerwear/hoodie/OuterwearHoodieOriginalBlack.jpg",
-      "imageColorRoot": "/images/products/outerwear/hoodie/OuterwearHoodieOriginal",
-      "imageColorBackRoot": "/images/products/outerwear/hoodie/OuterwearHoodieBack",
       "logo": "Original",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAM0lEQVR4nGNgYGBITk6eOnEqAwT8//Lp55evhkaWIM7a5UsWz5+fnJwM4sTFxeVmZwNZALuOEKdziveCAAAAAElFTkSuQmCC"
+      "link": "/store/outerwear/hoodie/original/dolphin",
+      "image": "/images/products/outerwear/hoodie/OuterwearHoodieOriginalDolphin.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAOUlEQVR4nGNgYGA4dmjf8eMHGSDg/88PT25frciOZ1ixYNahrWv3blq1ZdVckMzS2ZPnd9fM6y8DAF9aGIpWsPzqAAAAAElFTkSuQmCC"
     },
     {
-      "name": "Original Cotton Hoodie with Stamp Design",
-      "link": "/store/outerwear/hoodie/stamp",
-      "linkColor": "/store/outerwear/hoodie/stamp/black",
-      "has_image_back": false,
-      "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieBackBlack.jpg",
-      "image": "/images/products/outerwear/hoodie/OuterwearHoodieStampBlack.jpg",
-      "imageColorRoot": "/images/products/outerwear/hoodie/OuterwearHoodieStamp",
-      "imageColorBackRoot": "/images/products/outerwear/hoodie/OuterwearHoodieBack",
       "logo": "Stamp",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAOUlEQVR4nGNgYGDISk11srVlYGBgcHNz+/Xp0/NHj0AcJyenLWvXblq7VlxcHMT39/cPDw3t6ekBAKIdEQPgQHypAAAAAElFTkSuQmCC"
+      "link": "/store/outerwear/hoodie/stamp/dolphin",
+      "image": "/images/products/outerwear/hoodie/OuterwearHoodieStampDolphin.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAP0lEQVR4nAE0AMv/AAAAALu5sL69uQAAAACUi4v/+PD17N96cmMAtLCp4NnO08i7sKGTAM7Ozqqil5yOfbGwlsOAHbJRVAxQAAAAAElFTkSuQmCC"
     },
     {
-      "name": "Original Cotton Hoodie with Stenciled Design",
-      "link": "/store/outerwear/hoodie/stenciled",
-      "linkColor": "/store/outerwear/hoodie/stenciled/black",
-      "has_image_back": false,
-      "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieBackBlack.jpg",
-      "image": "/images/products/outerwear/hoodie/OuterwearHoodieStenciledBlack.jpg",
-      "imageColorRoot": "/images/products/outerwear/hoodie/OuterwearHoodieStenciled",
-      "imageColorBackRoot": "/images/products/outerwear/hoodie/OuterwearHoodieBack",
       "logo": "Stenciled",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/7S0tcXFxf39/wDHx8hSUVBRUE+/vr8AhIODFhUSBAMAenl5ANHR0WZmZWFhYMnJyhjGGzABPBmHAAAAAElFTkSuQmCC"
+      "link": "/store/outerwear/hoodie/stenciled/dolphin",
+      "image": "/images/products/outerwear/hoodie/OuterwearHoodieStenciledDolphin.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP38/a2ytsDCxfz7/QDDxcpKVl1GUlu5vcEAfoSKBholAAQXbnZ+AM3O0lpiaVRdZsTGyRUPGwroj/8IAAAAAElFTkSuQmCC"
     }
   ],
   "sizes": [
@@ -117,19 +84,7 @@
     "Unisex, check size chart",
     "S-XXL"
   ],
-  "category": {
-    "category": "Outerwear",
-    "name": "Outerwear",
-    "link": "/store/outerwear"
-  },
-  "type": {
-    "type": "Hoodie",
-    "name": "Original Cotton Hoodie",
-    "link": "/store/outerwear/hoodie/original/black"
-  },
-  "tags": [
-    "Tops"
-  ],
+  "type": "Hoodie",
   "breadcrumbs": [
     [
       "Store",
@@ -148,5 +103,6 @@
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAOUlEQVR4nGNgYGA4dmjf8eMHGSDg/88PT25frciOZ1ixYNahrWv3blq1ZdVckMzS2ZPnd9fM6y8DAF9aGIpWsPzqAAAAAElFTkSuQmCC"
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAOUlEQVR4nGNgYGA4dmjf8eMHGSDg/88PT25frciOZ1ixYNahrWv3blq1ZdVckMzS2ZPnd9fM6y8DAF9aGIpWsPzqAAAAAElFTkSuQmCC",
+  "name_root": "Original Cotton Hoodie"
 }

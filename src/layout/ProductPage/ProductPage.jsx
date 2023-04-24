@@ -27,14 +27,17 @@ const ProductPage = ({ product }) => {
     details,
     color,
     logos,
+    name_root,
   } = product;
 
   const galleryArray = logos.map((logo) => {
-    const { link, name, imageColorRoot, logo: logoName } = logo;
+    const { link, image, imageBlur, logo: logoName } = logo;
     const current = product.logo === logo.logo;
+    const name = `${name_root} with ${logoName} Design (${color})`;
     const buildProduct = {
-      link: `${link}/${color.toLowerCase()}`,
-      image: `${imageColorRoot}${color}.jpg`,
+      link,
+      image,
+      imageBlur,
       name,
     };
     return (
