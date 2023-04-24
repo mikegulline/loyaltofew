@@ -121,7 +121,7 @@ const ProductPage = ({ product }) => {
         </Container>
         {galleryArray.length > 1 ? (
           <Container className='pt-8'>
-            <SlideshowGridGallery key={name} title='Logo Options'>
+            <SlideshowGridGallery title='Logo Options'>
               {galleryArray}
             </SlideshowGridGallery>
           </Container>
