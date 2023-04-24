@@ -143,8 +143,8 @@
         {
           "type": "Tank",
           "name": "Original Tank",
-          "link": "/store/mens/tank/original/black",
-          "image": "/images/products/mens/tank/MensTankOriginalBlack.jpg",
+          "link": "/store/mens/tank/stamp/black",
+          "image": "/images/products/mens/tank/MensTankStampBlack.jpg",
           "has_image_back": true,
           "weight": 5.7,
           "meta": {
@@ -256,8 +256,8 @@
         {
           "type": "Sleeves",
           "name": "Original Long-Sleeve",
-          "link": "/store/mens/sleeves/stamp/black",
-          "image": "/images/products/mens/sleeves/MensSleevesStampBlack.jpg",
+          "link": "/store/mens/sleeves/block/black",
+          "image": "/images/products/mens/sleeves/MensSleevesBlockBlack.jpg",
           "has_image_back": true,
           "weight": 9.8,
           "meta": {
@@ -489,8 +489,8 @@
         {
           "type": "Tank",
           "name": "Original Tank",
-          "link": "/store/womens/tank/arch/gray",
-          "image": "/images/products/womens/tank/WomensTankArchGray.jpg",
+          "link": "/store/womens/tank/original/gray",
+          "image": "/images/products/womens/tank/WomensTankOriginalGray.jpg",
           "has_image_back": true,
           "weight": 2.6,
           "meta": {
@@ -594,8 +594,8 @@
         {
           "type": "Oversized-Crop",
           "name": "Original Oversized Crop",
-          "link": "/store/womens/oversized-crop/block/black",
-          "image": "/images/products/womens/oversized-crop/WomensOversized-CropBlockBlack.jpg",
+          "link": "/store/womens/oversized-crop/stamp/black",
+          "image": "/images/products/womens/oversized-crop/WomensOversized-CropStampBlack.jpg",
           "has_image_back": true,
           "weight": 2.9,
           "meta": {
@@ -697,8 +697,8 @@
         {
           "type": "50-50-Crew",
           "name": "Original 50/50 Crew",
-          "link": "/store/outerwear/50-50-crew/arch/black",
-          "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewArchBlack.jpg",
+          "link": "/store/outerwear/50-50-crew/stenciled/black",
+          "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewStenciledBlack.jpg",
           "has_image_back": true,
           "weight": 9.8,
           "meta": {
@@ -807,8 +807,8 @@
         {
           "type": "Crew",
           "name": "Original Cotton Crew",
-          "link": "/store/outerwear/crew/stenciled/black",
-          "image": "/images/products/outerwear/crew/OuterwearCrewStenciledBlack.jpg",
+          "link": "/store/outerwear/crew/arch/black",
+          "image": "/images/products/outerwear/crew/OuterwearCrewArchBlack.jpg",
           "has_image_back": true,
           "weight": 9.8,
           "meta": {
@@ -918,8 +918,8 @@
         {
           "type": "50-50-Hoodie",
           "name": "Original 50/50 Hoodie",
-          "link": "/store/outerwear/50-50-hoodie/block/black",
-          "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBlockBlack.jpg",
+          "link": "/store/outerwear/50-50-hoodie/original/black",
+          "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieOriginalBlack.jpg",
           "has_image_back": false,
           "weight": 34.3,
           "meta": {
@@ -1028,8 +1028,8 @@
         {
           "type": "Hoodie",
           "name": "Original Cotton Hoodie",
-          "link": "/store/outerwear/hoodie/block/black",
-          "image": "/images/products/outerwear/hoodie/OuterwearHoodieBlockBlack.jpg",
+          "link": "/store/outerwear/hoodie/stenciled/black",
+          "image": "/images/products/outerwear/hoodie/OuterwearHoodieStenciledBlack.jpg",
           "has_image_back": false,
           "weight": 34.3,
           "meta": {

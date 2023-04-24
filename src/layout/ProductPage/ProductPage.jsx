@@ -41,7 +41,7 @@ const ProductPage = ({ product }) => {
       name,
     };
     return (
-      <GridItem key={name} product={buildProduct}>
+      <GridItem key={name} product={buildProduct} scroll={false}>
         <GridItemSelectDot current={current} />
         <h4 className='mt-2 font-medium'>{`${logoName} Design`}</h4>
       </GridItem>
@@ -82,7 +82,7 @@ const ProductPage = ({ product }) => {
 
   return (
     <>
-      <div className='wrapper py-5 lg:py-8  xl:py-12 2xl:py-16'>
+      <div className='wrapper pt-5 lg:pt-8  xl:pt-12 2xl:pt-16'>
         <Container className='flex flex-col items-center xl:flex-row'>
           <HeroImage
             image={image}
@@ -99,14 +99,18 @@ const ProductPage = ({ product }) => {
 
             <Dimensions dimensions={sizes[sizeAndPriceIndex]?.dimensions} />
             <Details details={details} />
-            <p className='mb-2 font-bold'>Color Options</p>
-            <ColorLinks
-              colors={colorsState}
-              link={link}
-              align='left'
-              scroll={false}
-              className='mb-6'
-            />
+            {colorsState.length > 1 && (
+              <>
+                <p className='mb-2 font-bold'>Color Options</p>
+                <ColorLinks
+                  colors={colorsState}
+                  link={link}
+                  align='left'
+                  scroll={false}
+                  className='mb-6'
+                />
+              </>
+            )}
             <p className='mb-2 font-bold'>Size Options</p>
             <div className='buttons flex gap-1'>
               <Sizes

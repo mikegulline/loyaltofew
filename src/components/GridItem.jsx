@@ -3,10 +3,11 @@ import Link from '@/components/Link';
 
 const GridItem = ({
   product: { link, image, imageBlur = null, name },
+  scroll = true,
   children,
 }) => (
   <div className='relative pb-6 text-center'>
-    <Link href={link}>
+    <Link href={link} scroll={scroll}>
       {imageBlur ? (
         <Image
           src={image}
