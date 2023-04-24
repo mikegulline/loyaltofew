@@ -132,8 +132,8 @@
     {
       "type": "Crew",
       "name": "Original Cotton Crew",
-      "link": "/store/outerwear/crew/arch/navy",
-      "image": "/images/products/outerwear/crew/OuterwearCrewArchNavy.jpg",
+      "link": "/store/outerwear/crew/arch/black",
+      "image": "/images/products/outerwear/crew/OuterwearCrewArchBlack.jpg",
       "has_image_back": true,
       "weight": 9.8,
       "meta": {
@@ -243,8 +243,8 @@
     {
       "type": "50-50-Hoodie",
       "name": "Original 50/50 Hoodie",
-      "link": "/store/outerwear/50-50-hoodie/block/black",
-      "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBlockBlack.jpg",
+      "link": "/store/outerwear/50-50-hoodie/original/black",
+      "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieOriginalBlack.jpg",
       "has_image_back": false,
       "weight": 34.3,
       "meta": {
@@ -353,8 +353,8 @@
     {
       "type": "Hoodie",
       "name": "Original Cotton Hoodie",
-      "link": "/store/outerwear/hoodie/block/green",
-      "image": "/images/products/outerwear/hoodie/OuterwearHoodieBlockGreen.jpg",
+      "link": "/store/outerwear/hoodie/stenciled/dolphin",
+      "image": "/images/products/outerwear/hoodie/OuterwearHoodieStenciledDolphin.jpg",
       "has_image_back": false,
       "weight": 34.3,
       "meta": {
@@ -465,8 +465,8 @@
     {
       "type": "Beanie",
       "name": "Knit Beanie",
-      "link": "/store/outerwear/beanie/block/gray",
-      "image": "/images/products/outerwear/beanie/OuterwearBeanieBlockGray.jpg",
+      "link": "/store/outerwear/beanie/block/navy",
+      "image": "/images/products/outerwear/beanie/OuterwearBeanieBlockNavy.jpg",
       "has_image_back": false,
       "weight": 2.2,
       "meta": {

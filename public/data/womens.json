@@ -22,8 +22,8 @@
     {
       "type": "Tee",
       "name": "Original Tee",
-      "link": "/store/womens/tee/stenciled/red",
-      "image": "/images/products/womens/tee/WomensTeeStenciledRed.jpg",
+      "link": "/store/womens/tee/stenciled/navy",
+      "image": "/images/products/womens/tee/WomensTeeStenciledNavy.jpg",
       "has_image_back": true,
       "weight": 3.6,
       "meta": {
@@ -134,8 +134,8 @@
     {
       "type": "Tank",
       "name": "Original Tank",
-      "link": "/store/womens/tank/arch/blue",
-      "image": "/images/products/womens/tank/WomensTankArchBlue.jpg",
+      "link": "/store/womens/tank/stenciled/blue",
+      "image": "/images/products/womens/tank/WomensTankStenciledBlue.jpg",
       "has_image_back": true,
       "weight": 2.6,
       "meta": {
@@ -239,8 +239,8 @@
     {
       "type": "Oversized-Crop",
       "name": "Original Oversized Crop",
-      "link": "/store/womens/oversized-crop/stamp/baby-blue",
-      "image": "/images/products/womens/oversized-crop/WomensOversized-CropStampBaby-Blue.jpg",
+      "link": "/store/womens/oversized-crop/stamp/black",
+      "image": "/images/products/womens/oversized-crop/WomensOversized-CropStampBlack.jpg",
       "has_image_back": true,
       "weight": 2.9,
       "meta": {
