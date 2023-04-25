@@ -1,4 +1,5 @@
-import store from '@/public/data/store';
+// import store from '@/public/data/store';
+import storeNew from '@/public/data/store-new';
 import Categories from '@/components/Categories/Categories';
 import StoreWrapper from '@/layout/StoreWrapper/StoreWrapper';
 import { breadcrumbs } from '@/data/menu';
@@ -24,7 +25,7 @@ const CategoriesPage = ({ categories }) => {
 };
 
 export async function getStaticProps() {
-  const { categories } = store;
+  const { categories } = storeNew;
 
   if (!categories) return { notFound: true };
 

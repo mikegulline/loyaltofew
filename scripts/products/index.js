@@ -10,79 +10,132 @@ const { getPlaiceholder } = require('plaiceholder');
 const path = require('path');
 const fs = require('fs');
 
-// store.json
+// /public/data/store.json
+// try {
+//   const filePath = path.join(__dirname, '../../public/data/store.json');
+//   (async () => {
+//     fs.writeFileSync(
+//       filePath,
+//       JSON.stringify(
+//         {
+//           function: 'getStore()',
+//           output: '/public/data/store.json',
+//           ...getStore(),
+//         },
+//         null,
+//         2
+//       )
+//     );
+//   })();
+// } catch (err) {
+//   console.log('write store.json', err);
+// }
+
+// /public/data/store-new.json
 try {
-  const filePath = path.join(__dirname, '../../public/data/store.json');
+  const filePath = path.join(__dirname, '../../public/data/store-new.json');
   (async () => {
-    fs.writeFileSync(
-      filePath,
-      JSON.stringify(
-        {
-          function: 'getStore()',
-          output: '/public/data/store.json',
-          ...getStore(),
-        },
-        null,
-        2
-      )
+    const store = getStore();
+    const categories = await store.categories.map(
+      async ({ category, name, link, meta, products: processProds }) => {
+        const products = await processProds.map(
+          async ({ name, type, link, image, logos: l, colors }) => {
+            let imageBlur = '';
+            await getPlaiceholder(image).then(
+              ({ base64 }) => (imageBlur = base64)
+            );
+            const logos = l.map(({ logo }) => ({ logo }));
+            return { name, type, link, image, imageBlur, logos, colors };
+          }
+        );
+        return Promise.all(products).then((res) => ({
+          category,
+          name,
+          link,
+          meta,
+          products: res,
+        }));
+      }
     );
+    Promise.all(categories).then((res) => {
+      fs.writeFileSync(
+        filePath,
+        JSON.stringify(
+          {
+            ...store,
+            categories: res,
+          },
+          null,
+          2
+        )
+      );
+    });
   })();
 } catch (err) {
   console.log('write store.json', err);
 }
 
-// categories.json
-try {
-  const filePath = path.join(__dirname, '../../public/data/categories.json');
-  const categories = getStore()['categories'].map(({ category }) =>
-    getCategory(category)
-  );
-  (async () => {
-    fs.writeFileSync(
-      filePath,
-      JSON.stringify(
-        {
-          function: 'getCategory(category) []Array',
-          output: '/public/data/categories.json',
-          categories: [...categories],
-        },
-        null,
-        2
-      )
-    );
-  })();
-} catch (err) {
-  console.log('write categories.json', err);
-}
-
-// catagory single
+// /public/data/mens.json
 try {
   (async () =>
-    getStore()['categories'].map(({ category }) =>
+    getStore()['categories'].map(({ category: cat }) =>
       (async () => {
         const filePath = path.join(
           __dirname,
-          `../../public/data/${category.toLowerCase()}.json`
+          `../../public/data/${cat.toLowerCase()}.json`
         );
-        fs.writeFileSync(
-          filePath,
-          JSON.stringify(
-            {
-              function: 'getCategory(category) singles',
-              output: '/public/data/categories.json',
-              ...getCategory(category),
-            },
-            null,
-            2
-          )
+        ///////////////
+
+        ///////////////
+        const category = getCategory(cat);
+        const products = await category.products.map(
+          async ({ type, colors, name, link, image, logos: processLogos }) => {
+            const logos = await processLogos.map(
+              async ({ link, linkColor, image, logo }) => {
+                let imageBlur = '';
+                await getPlaiceholder(image).then(
+                  ({ base64 }) => (imageBlur = base64)
+                );
+
+                return {
+                  logo,
+                  link,
+                  // linkColor,
+                  image,
+                  imageBlur,
+                };
+              }
+            );
+            return Promise.all(logos).then((res) => ({
+              // type,
+              name,
+              link: `${category.link}/${type}`.toLocaleLowerCase(),
+              // link,
+              // image,
+              logos: res,
+              colors,
+            }));
+          }
         );
+        Promise.all(products).then((res) => {
+          fs.writeFileSync(
+            filePath,
+            JSON.stringify(
+              {
+                ...{ ...category, products: res },
+              },
+              null,
+              2
+            )
+          );
+        });
       })()
     ))();
 } catch (err) {
   console.log('write categories.json', err);
 }
 
-// types.json
+// /public/data/mens-tee.json
 try {
   (async () =>
     getStore()['categories'].map(({ category, products }) => {
@@ -111,7 +164,7 @@ try {
   console.log('write types.json', err);
 }
 
-// color-logo.json
+// /public/data/mens-tee-stamp-green.json
 try {
   (async () => {
     const { categories } = getStore();

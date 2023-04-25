@@ -7,13 +7,13 @@ import ToggleButton from './ToggleButton';
 import ToggleView from './ToggleView';
 import Grid from './Grid';
 
-export default function SlideshowGridGallery({ title, children }) {
+export default function SlideshowGridGallery({ title, link = null, children }) {
   const [showFirstChild, setShowFirstChild] = useState(true);
   if (!children.length) return null;
   return (
     <Wrapper>
       <TitleWrapper>
-        <Title content={title} />
+        <Title content={title} link={link} />
         {children?.length > 3 && (
           <ToggleButton handleClick={setShowFirstChild}>
             <ToggleView showFirst={showFirstChild}>

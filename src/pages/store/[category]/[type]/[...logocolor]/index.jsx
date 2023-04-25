@@ -1,4 +1,5 @@
-import store from '@/public/data/store';
+// import store from '@/public/data/store';
+import storeNew from '@/public/data/store-new';
 import { useRouter } from 'next/router';
 import ProductPage from '@/layout/ProductPage/ProductPage';
 import SEO from '@/components/SEO';
@@ -73,7 +74,7 @@ export async function getStaticProps(context) {
 
 export async function getStaticPaths() {
   const paths = [];
-  const { categories } = store;
+  const { categories } = storeNew;
   categories.map(({ category, products }) =>
     products.map(({ type, logos, colors }) =>
       logos.map(({ logo }) =>

@@ -1,4 +1,5 @@
-import store from '@/public/data/store';
+// import store from '@/public/data/store';
+import storeNew from '@/public/data/store-new';
 import StoreWrapper from '@/layout/StoreWrapper/StoreWrapper';
 import Category from '@/components/Category/Category';
 import SEO from '@/components/SEO';
@@ -41,7 +42,7 @@ export async function getStaticProps(context) {
 }
 
 export async function getStaticPaths() {
-  const paths = store['categories'].map(({ category }) => ({
+  const paths = storeNew['categories'].map(({ category }) => ({
     params: { category: category.toLowerCase() },
   }));
 
