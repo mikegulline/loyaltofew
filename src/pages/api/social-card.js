@@ -1,4 +1,5 @@
 import { ImageResponse } from '@vercel/og';
+import Image from 'next/image';
 
 export const config = {
   runtime: 'edge',
@@ -39,9 +40,9 @@ export default function handler(request) {
             }}
           >
             <img
-              width='256'
-              height='256'
-              src='loyaltofew-staging.vercel.app/logos/LOGO-Round-White.png'
+              width='164.26'
+              height='166.2161'
+              src='https://loyaltofew-staging.vercel.app/logos/stamp-white.svg'
               alt={title}
               style={{
                 borderRadius: 128,
