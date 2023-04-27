@@ -1,7 +1,4 @@
 import { ImageResponse } from '@vercel/og';
-import Logo from '@/public/logos/LOGO-Round-White.png';
-console.log(Logo);
-import Image from 'next/image';
 
 export const config = {
   runtime: 'edge',
