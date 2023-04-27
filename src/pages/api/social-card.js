@@ -41,7 +41,7 @@ export default function handler(request) {
               justifyItems: 'center',
             }}
           >
-            <Image
+            <img
               width='256'
               height='256'
               src='loyaltofew-staging.vercel.app/logos/LOGO-Round-White.png'
