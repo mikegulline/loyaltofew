@@ -18,6 +18,10 @@ module.exports = withPlaiceholder({
         protocol: 'https',
         hostname: 'easypost-files.s3.us-west-2.amazonaws.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'loyaltofew-staging.vercel.app',
+      },
     ],
   },
 });
