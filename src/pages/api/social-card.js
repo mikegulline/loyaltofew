@@ -1,5 +1,5 @@
 import { ImageResponse } from '@vercel/og';
-import Image from 'next/image';
+// import Image from 'next/image';
 
 export const config = {
   runtime: 'edge',
@@ -9,11 +9,10 @@ export default function handler(request) {
   try {
     const { searchParams } = new URL(request.url);
 
-    // ?title=<title>
     const hasTitle = searchParams.has('title');
     const title = hasTitle
       ? searchParams.get('title')?.slice(0, 100)
-      : 'My default title';
+      : 'Loyal to Few®';
 
     return new ImageResponse(
       (
@@ -40,8 +39,8 @@ export default function handler(request) {
             }}
           >
             <img
-              width='164.26'
-              height='166.2161'
+              width='238.7579'
+              height='241.6011'
               src='https://loyaltofew-staging.vercel.app/logos/stamp-white.svg'
               alt={title}
               style={{

@@ -10,26 +10,36 @@ const { getPlaiceholder } = require('plaiceholder');
 const path = require('path');
 const fs = require('fs');
 
-// /public/data/store.json
-// try {
-//   const filePath = path.join(__dirname, '../../public/data/store.json');
-//   (async () => {
-//     fs.writeFileSync(
-//       filePath,
-//       JSON.stringify(
-//         {
-//           function: 'getStore()',
-//           output: '/public/data/store.json',
-//           ...getStore(),
-//         },
-//         null,
-//         2
-//       )
-//     );
-//   })();
-// } catch (err) {
-//   console.log('write store.json', err);
-// }
+try {
+  const filePath = path.join(__dirname, '../../public/data/menu.json');
+  const menu = getStore()['categories'].map(
+    ({ name, link, products: prod }) => {
+      const products = prod.map(({ name, link }) => {
+        return {
+          name,
+          location: link,
+        };
+      });
+      return {
+        name,
+        location: link,
+        subMenu: products,
+      };
+    }
+  );
+
+  const menuRest = [
+    { name: 'About', location: '/about' },
+    { name: 'Contact', location: '/contact' },
+    { name: 'Orders', location: '/orders' },
+  ];
+
+  (async () => {
+    fs.writeFileSync(filePath, JSON.stringify([...menu, ...menuRest], null, 2));
+  })();
+} catch (err) {
+  console.log('write store.json', err);
+}
 
 // /public/data/store-new.json
 try {

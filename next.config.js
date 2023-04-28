@@ -22,6 +22,10 @@ module.exports = withPlaiceholder({
         protocol: 'https',
         hostname: 'loyaltofew-staging.vercel.app',
       },
+      {
+        protocol: 'https',
+        hostname: 'loyaltofew.com',
+      },
     ],
   },
 });

@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Mens",
+    "location": "/store/mens",
+    "subMenu": [
+      {
+        "name": "Original Tee",
+        "location": "/store/mens/tee/arch/black"
+      },
+      {
+        "name": "Original Tank",
+        "location": "/store/mens/tank/stenciled/black"
+      },
+      {
+        "name": "Original Long-Sleeve",
+        "location": "/store/mens/sleeves/stamp/black"
+      }
+    ]
+  },
+  {
+    "name": "Womens",
+    "location": "/store/womens",
+    "subMenu": [
+      {
+        "name": "Original Tee",
+        "location": "/store/womens/tee/block/gray"
+      },
+      {
+        "name": "Original Tank",
+        "location": "/store/womens/tank/stamp/gray"
+      },
+      {
+        "name": "Original Oversized Crop",
+        "location": "/store/womens/oversized-crop/block/black"
+      }
+    ]
+  },
+  {
+    "name": "Outerwear",
+    "location": "/store/outerwear",
+    "subMenu": [
+      {
+        "name": "Original 50/50 Crew",
+        "location": "/store/outerwear/50-50-crew/stamp/black"
+      },
+      {
+        "name": "Original Cotton Crew",
+        "location": "/store/outerwear/crew/original/black"
+      },
+      {
+        "name": "Original 50/50 Hoodie",
+        "location": "/store/outerwear/50-50-hoodie/arch/black"
+      },
+      {
+        "name": "Original Cotton Hoodie",
+        "location": "/store/outerwear/hoodie/original/black"
+      },
+      {
+        "name": "Knit Beanie",
+        "location": "/store/outerwear/beanie/block/black"
+      },
+      {
+        "name": "Trucker Snapback",
+        "location": "/store/outerwear/snapback/block/black-white"
+      }
+    ]
+  },
+  {
+    "name": "About",
+    "location": "/about"
+  },
+  {
+    "name": "Contact",
+    "location": "/contact"
+  },
+  {
+    "name": "Orders",
+    "location": "/orders"
+  }
+]

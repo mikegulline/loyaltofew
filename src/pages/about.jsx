@@ -2,6 +2,7 @@ import SEO from '@/components/SEO';
 import Split from '@/layout/Split/Split';
 import { P, H1 } from '@/components/Type';
 import image from '@/public/images/lifestyle/about-page.jpg';
+import MobileMenu from '@/features/MobileMenu';
 
 const About = () => {
   return (
@@ -39,6 +40,7 @@ const About = () => {
           you see the ones still standing by your side, you have found your
           Loyal to Few®.
         </P>
+        <MobileMenu />
       </Split>
     </>
   );
