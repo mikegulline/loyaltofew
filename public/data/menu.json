@@ -5,15 +5,15 @@
     "subMenu": [
       {
         "name": "Original Tee",
-        "location": "/store/mens/tee/block/black"
+        "location": "/store/mens/tee/original/black"
       },
       {
         "name": "Original Tank",
-        "location": "/store/mens/tank/arch/black"
+        "location": "/store/mens/tank/stamp/black"
       },
       {
         "name": "Original Long-Sleeve",
-        "location": "/store/mens/sleeves/block/black"
+        "location": "/store/mens/sleeves/stenciled/black"
       }
     ]
   },
@@ -23,7 +23,7 @@
     "subMenu": [
       {
         "name": "Original Tee",
-        "location": "/store/womens/tee/stamp/gray"
+        "location": "/store/womens/tee/original/gray"
       },
       {
         "name": "Original Tank",
@@ -31,7 +31,7 @@
       },
       {
         "name": "Original Oversized Crop",
-        "location": "/store/womens/oversized-crop/original/black"
+        "location": "/store/womens/oversized-crop/block/black"
       }
     ]
   },

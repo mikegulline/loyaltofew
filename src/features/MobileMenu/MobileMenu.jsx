@@ -29,7 +29,7 @@ export default function MobileMenu() {
               )}
             </div>
             {hasSubMenu && isSelected && (
-              <ul className='mb-5 pl-2'>
+              <ul className='mb-3 pl-2'>
                 {subMenu.map(({ name, location }) => {
                   return (
                     <li key={`submenu-${name}`} className='text-[25px]'>
@@ -50,8 +50,8 @@ export default function MobileMenu() {
 
 export function OpenClose({ isSelected, onClick }) {
   const classNames = isSelected
-    ? 'flex h-8 w-8 cursor-pointer items-center justify-center rounded-full border  border-red-600 bg-red-600 text-white'
-    : 'flex h-8 w-8 cursor-pointer items-center justify-center rounded-full border border-gray-300 bg-white text-gray-300 hover:border-gray-900 hover:bg-gray-900 hover:text-white';
+    ? 'flex h-8 w-8 mr-[22px] md:mr-[15px] cursor-pointer items-center justify-center rounded-full border  border-red-600 bg-red-600 text-white'
+    : 'flex h-8 w-8 mr-[22px] md:mr-[15px] cursor-pointer items-center justify-center rounded-full border border-gray-300 bg-white text-gray-300 hover:border-gray-900 hover:bg-gray-900 hover:text-white';
   return (
     <div className={classNames} onClick={onClick}>
       {isSelected ? '-' : '+'}

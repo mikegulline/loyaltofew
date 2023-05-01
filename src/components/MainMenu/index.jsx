@@ -6,6 +6,7 @@ import { disablePageScroll, enablePageScroll } from 'scroll-lock';
 import ResizeObserver from 'rc-resize-observer';
 import { mainMenu } from '@/data/menu';
 import MobileMenu from '@/features/MobileMenu';
+import Container from '@/components/Container';
 import styles from './styles.module.css';
 
 const MainMenu = () => {
@@ -44,10 +45,10 @@ const MainMenu = () => {
   return (
     <>
       {openMobileMenu && (
-        <div className='fixed top-0 left-0 bottom-0 right-0 z-40 m-0 bg-white'>
-          <div className='py-14 px-[38px]'>
+        <div className='fixed top-0 left-0 bottom-0 right-0 z-40 m-0 bg-white py-14 '>
+          <Container>
             <MobileMenu />
-          </div>
+          </Container>
         </div>
       )}
       <div className={`${styles.menu_wrapper}`}>
@@ -56,29 +57,29 @@ const MainMenu = () => {
       <AddToCartButton handleClick={() => openCloseMobileMenu(false)} />
       <div className={styles.mobile_menu_button}>
         {!openMobileMenu ? (
+          <div
+            className={styles.mobile_menu_open}
+            onClick={(e) => {
+              openCloseMobileMenu(true);
+            }}
+          >
+            <SlMenu />
+          </div>
+        ) : (
           <ResizeObserver
             onResize={({ width }) => {
               if (openMobileMenu && width === 0) openCloseMobileMenu(false);
             }}
           >
             <div
-              className={styles.mobile_menu_open}
+              className={styles.mobile_menu_close}
               onClick={(e) => {
-                openCloseMobileMenu(true);
+                openCloseMobileMenu(false);
               }}
             >
-              <SlMenu />
+              <SlClose />
             </div>
           </ResizeObserver>
-        ) : (
-          <div
-            className={styles.mobile_menu_close}
-            onClick={(e) => {
-              openCloseMobileMenu(false);
-            }}
-          >
-            <SlClose />
-          </div>
         )}
       </div>
     </>
