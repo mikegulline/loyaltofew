@@ -7,7 +7,7 @@
   height: auto;
   display: flex;
   width: 282px;
-  margin: auto;
+  margin: 0;
 }
 .logo svg {
   display: flex;

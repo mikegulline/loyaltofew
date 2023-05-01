@@ -1,19 +1,11 @@
 import Link from 'next/link';
-import { useRouter } from 'next/router';
-import { SlBag, SlMenu, SlClose } from 'react-icons/sl';
-import ResizeObserver from 'rc-resize-observer';
 import { mainMenu } from '@/data/menu';
 import styles from './styles.module.css';
 
-const MainMenu = ({ open, openCloseMobileMenu }) => {
-  const router = useRouter();
-
+const MainMenu = ({ openCloseMobileMenu }) => {
   const buildMenu = mainMenu.map(({ name, location, subMenu }) => {
-    const active_class = `${styles.main_li} ${
-      router.asPath == location ? styles.main_active : ''
-    }`;
     return (
-      <li key={name} className={active_class}>
+      <li key={name} className={styles.main_li}>
         <Link
           href={location}
           className={styles.main_link}
@@ -27,51 +19,16 @@ const MainMenu = ({ open, openCloseMobileMenu }) => {
   });
 
   return (
-    <>
-      <div className={`${styles.menu_wrapper}`}>
-        <ul className={styles.main_ul}>{buildMenu}</ul>
-      </div>
-      <AddToCartButton handleClick={() => openCloseMobileMenu(false)} />
-      <div className={styles.mobile_menu_button}>
-        {!open ? (
-          <div
-            className={styles.mobile_menu_open}
-            onClick={(e) => {
-              openCloseMobileMenu(true);
-            }}
-          >
-            <SlMenu />
-          </div>
-        ) : (
-          <ResizeObserver
-            onResize={({ width }) => {
-              if (open && width === 0) openCloseMobileMenu(false);
-            }}
-          >
-            <div
-              className={styles.mobile_menu_close}
-              onClick={(e) => {
-                openCloseMobileMenu(false);
-              }}
-            >
-              <SlClose />
-            </div>
-          </ResizeObserver>
-        )}
-      </div>
-    </>
+    <div className={`${styles.menu_wrapper}`}>
+      <ul className={styles.main_ul}>{buildMenu}</ul>
+    </div>
   );
 };
 
 const SubMenu = ({ menuData }) => {
-  const router = useRouter();
-
   const buildMenu = menuData.map(({ name, location, onClick = () => {} }) => {
-    const active_class = `${styles.sub_li} ${
-      router.asPath == location ? styles.sub_active : ''
-    }`;
     return (
-      <li key={name} className={active_class}>
+      <li key={name} className={styles.sub_li}>
         <Link href={location} className={styles.sub_link} onClick={onClick}>
           {name}
         </Link>
@@ -82,17 +39,6 @@ const SubMenu = ({ menuData }) => {
   return (
     <div className={styles.sub_menu_wrapper}>
       <ul className={styles.sub_ul}>{buildMenu}</ul>
-    </div>
-  );
-};
-
-const AddToCartButton = ({ handleClick }) => {
-  return (
-    <div className={styles.add_to_cart_button} onClick={handleClick}>
-      <a className='snipcart-checkout snipcart-summary' href='#'>
-        <SlBag />
-        <span className='snipcart-total-price'>$0.00</span>
-      </a>
     </div>
   );
 };

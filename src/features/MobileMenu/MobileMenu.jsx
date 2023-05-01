@@ -12,16 +12,22 @@ export default function MobileMenu({ open, openCloseMobileMenu }) {
 
   return (
     <div
-      className={` fixed top-0 left-0 bottom-0 right-0  z-40 m-0  border-l transition-all ${
+      className={` fixed top-0 left-0 bottom-0 right-0 z-10 m-0  transition-all ${
         open
           ? ' translate-x-0 bg-white duration-300 ease-in'
           : ' translate-x-full bg-gray-200 delay-300 duration-300 ease-out'
       }`}
       style={{ boxShadow: 'inset 4px 0 0 #dc2626' }}
     >
-      <div className='h-full overflow-y-auto py-14'>
+      <div
+        className={`h-full  overflow-x-hidden py-14  ${
+          open
+            ? ' translate-x-0 overflow-y-scroll duration-300 ease-in'
+            : ' translate-x-full overflow-y-hidden delay-300 duration-300 ease-out'
+        }`}
+      >
         <Container>
-          <div className='pl-1'>
+          <div>
             <ul
               className={`my-10 border-t border-t-gray-300 transition-all ${
                 open
@@ -55,8 +61,8 @@ export default function MobileMenu({ open, openCloseMobileMenu }) {
                     </div>
                     {hasSubMenu && (
                       <div
-                        className={`overflow-hidden   ${
-                          isSelected ? ' h-full' : ' h-0'
+                        className={`overflow-hidden ${
+                          isSelected ? ' h-auto' : ' h-0'
                         }`}
                       >
                         <ul className='mb-3 pl-2'>
@@ -90,9 +96,13 @@ export default function MobileMenu({ open, openCloseMobileMenu }) {
 }
 
 export function OpenClose({ isSelected, onClick }) {
-  const classNames = isSelected
-    ? 'flex h-8 w-8 mr-[7px] md:mr-[15px] cursor-pointer items-center justify-center rounded-full border  border-gray-900 bg-gray-900 text-white'
-    : 'flex h-8 w-8 mr-[7px] md:mr-[15px] cursor-pointer items-center justify-center rounded-full border border-gray-300 bg-white text-gray-300 hover:border-gray-900 hover:bg-gray-900 hover:text-white';
+  const baseClasses =
+    'flex h-8 w-8 mr-[8px] cursor-pointer items-center justify-center rounded-full  flex h-8 w-8 mr-[7px]  cursor-pointer items-center justify-center rounded-full';
+  const classNames = `${baseClasses}  ${
+    isSelected
+      ? 'border border-gray-900 bg-gray-900 text-white'
+      : 'border border-gray-300 bg-white text-gray-300 hover:border-gray-900 hover:bg-gray-900 hover:text-white'
+  }`;
   return (
     <div className={classNames} onClick={onClick}>
       {isSelected ? '-' : '+'}
