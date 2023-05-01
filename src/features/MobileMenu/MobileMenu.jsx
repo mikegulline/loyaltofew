@@ -49,7 +49,7 @@ export default function MobileMenu({ open }) {
                     )}
                   </div>
                   <div
-                    className={` transition-all   ${
+                    className={` overflow-hidden transition-all  ${
                       hasSubMenu && isSelected ? ' h-full' : ' h-0'
                     }`}
                   >
