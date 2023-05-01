@@ -50,7 +50,7 @@ export default function MobileMenu({ open }) {
                   </div>
                   <div
                     className={` transition-all   ${
-                      hasSubMenu && isSelected ? ' max-h-full' : ' max-h-0'
+                      hasSubMenu && isSelected ? ' h-full' : ' h-0'
                     }`}
                   >
                     <ul className='mb-3 pl-2'>
@@ -77,8 +77,8 @@ export default function MobileMenu({ open }) {
 
 export function OpenClose({ isSelected, onClick }) {
   const classNames = isSelected
-    ? 'flex h-8 w-8 mr-[10px] md:mr-[15px] cursor-pointer items-center justify-center rounded-full border  border-red-600 bg-red-600 text-white'
-    : 'flex h-8 w-8 mr-[10px] md:mr-[15px] cursor-pointer items-center justify-center rounded-full border border-gray-300 bg-white text-gray-300 hover:border-gray-900 hover:bg-gray-900 hover:text-white';
+    ? 'flex h-8 w-8 mr-[6px] md:mr-[15px] cursor-pointer items-center justify-center rounded-full border  border-red-600 bg-red-600 text-white'
+    : 'flex h-8 w-8 mr-[6px] md:mr-[15px] cursor-pointer items-center justify-center rounded-full border border-gray-300 bg-white text-gray-300 hover:border-gray-900 hover:bg-gray-900 hover:text-white';
   return (
     <div className={classNames} onClick={onClick}>
       {isSelected ? '-' : '+'}
