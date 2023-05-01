@@ -44,7 +44,10 @@ const MainMenu = () => {
 
   return (
     <>
-      <MobileMenu open={openMobileMenu} />
+      <MobileMenu
+        open={openMobileMenu}
+        onClick={() => openCloseMobileMenu(false)}
+      />
       <div className={`${styles.menu_wrapper}`}>
         <ul className={styles.main_ul}>{buildMenu}</ul>
       </div>
