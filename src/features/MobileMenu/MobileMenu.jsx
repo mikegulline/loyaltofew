@@ -48,23 +48,25 @@ export default function MobileMenu({ open }) {
                       />
                     )}
                   </div>
-                  <div
-                    className={` overflow-hidden transition-all  ${
-                      hasSubMenu && isSelected ? ' h-full' : ' h-0'
-                    }`}
-                  >
-                    <ul className='mb-3 pl-2'>
-                      {subMenu.map(({ name, location }) => {
-                        return (
-                          <li key={`submenu-${name}`} className='text-[25px]'>
-                            <Link href={location}>
-                              <span className='text-red-600'>•</span> {name}
-                            </Link>
-                          </li>
-                        );
-                      })}
-                    </ul>
-                  </div>
+                  {hasSubMenu && (
+                    <div
+                      className={`overflow-hidden   ${
+                        isSelected ? ' h-full' : ' h-0'
+                      }`}
+                    >
+                      <ul className='mb-3 pl-2'>
+                        {subMenu.map(({ name, location }) => {
+                          return (
+                            <li key={`submenu-${name}`} className='text-[25px]'>
+                              <Link href={location}>
+                                <span className='text-red-600'>•</span> {name}
+                              </Link>
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    </div>
+                  )}
                 </li>
               );
             })}
@@ -77,8 +79,8 @@ export default function MobileMenu({ open }) {
 
 export function OpenClose({ isSelected, onClick }) {
   const classNames = isSelected
-    ? 'flex h-8 w-8 mr-[6px] md:mr-[15px] cursor-pointer items-center justify-center rounded-full border  border-red-600 bg-red-600 text-white'
-    : 'flex h-8 w-8 mr-[6px] md:mr-[15px] cursor-pointer items-center justify-center rounded-full border border-gray-300 bg-white text-gray-300 hover:border-gray-900 hover:bg-gray-900 hover:text-white';
+    ? 'flex h-8 w-8 mr-[7px] md:mr-[15px] cursor-pointer items-center justify-center rounded-full border  border-red-600 bg-red-600 text-white'
+    : 'flex h-8 w-8 mr-[7px] md:mr-[15px] cursor-pointer items-center justify-center rounded-full border border-gray-300 bg-white text-gray-300 hover:border-gray-900 hover:bg-gray-900 hover:text-white';
   return (
     <div className={classNames} onClick={onClick}>
       {isSelected ? '-' : '+'}
