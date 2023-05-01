@@ -44,13 +44,7 @@ const MainMenu = () => {
 
   return (
     <>
-      {openMobileMenu && (
-        <div className='fixed top-0 left-0 bottom-0 right-0 z-40 m-0 bg-white py-14 '>
-          <Container>
-            <MobileMenu />
-          </Container>
-        </div>
-      )}
+      <MobileMenu open={openMobileMenu} />
       <div className={`${styles.menu_wrapper}`}>
         <ul className={styles.main_ul}>{buildMenu}</ul>
       </div>
