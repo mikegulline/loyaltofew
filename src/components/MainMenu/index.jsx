@@ -1,28 +1,12 @@
-import { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { SlBag, SlMenu, SlClose } from 'react-icons/sl';
-import { disablePageScroll, enablePageScroll } from 'scroll-lock';
 import ResizeObserver from 'rc-resize-observer';
 import { mainMenu } from '@/data/menu';
-import MobileMenu from '@/features/MobileMenu';
-import Container from '@/components/Container';
 import styles from './styles.module.css';
 
-const MainMenu = () => {
-  const [openMobileMenu, setOpenMobileMenu] = useState(false);
+const MainMenu = ({ open, openCloseMobileMenu }) => {
   const router = useRouter();
-
-  const openCloseMobileMenu = (open) => {
-    window.scrollTo(0, 0);
-    if (open) {
-      setOpenMobileMenu(true);
-      disablePageScroll();
-    } else {
-      setOpenMobileMenu(false);
-      enablePageScroll();
-    }
-  };
 
   const buildMenu = mainMenu.map(({ name, location, subMenu }) => {
     const active_class = `${styles.main_li} ${
@@ -44,16 +28,12 @@ const MainMenu = () => {
 
   return (
     <>
-      <MobileMenu
-        open={openMobileMenu}
-        onClick={() => openCloseMobileMenu(false)}
-      />
       <div className={`${styles.menu_wrapper}`}>
         <ul className={styles.main_ul}>{buildMenu}</ul>
       </div>
       <AddToCartButton handleClick={() => openCloseMobileMenu(false)} />
       <div className={styles.mobile_menu_button}>
-        {!openMobileMenu ? (
+        {!open ? (
           <div
             className={styles.mobile_menu_open}
             onClick={(e) => {
@@ -65,7 +45,7 @@ const MainMenu = () => {
         ) : (
           <ResizeObserver
             onResize={({ width }) => {
-              if (openMobileMenu && width === 0) openCloseMobileMenu(false);
+              if (open && width === 0) openCloseMobileMenu(false);
             }}
           >
             <div
