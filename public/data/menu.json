@@ -5,15 +5,15 @@
     "subMenu": [
       {
         "name": "Original Tee",
-        "location": "/store/mens/tee/arch/black"
+        "location": "/store/mens/tee/stamp/black"
       },
       {
         "name": "Original Tank",
-        "location": "/store/mens/tank/arch/black"
+        "location": "/store/mens/tank/stenciled/black"
       },
       {
         "name": "Original Long-Sleeve",
-        "location": "/store/mens/sleeves/stenciled/black"
+        "location": "/store/mens/sleeves/block/black"
       }
     ]
   },
@@ -23,15 +23,15 @@
     "subMenu": [
       {
         "name": "Original Tee",
-        "location": "/store/womens/tee/arch/gray"
+        "location": "/store/womens/tee/stenciled/gray"
       },
       {
         "name": "Original Tank",
-        "location": "/store/womens/tank/arch/gray"
+        "location": "/store/womens/tank/original/gray"
       },
       {
         "name": "Original Oversized Crop",
-        "location": "/store/womens/oversized-crop/block/black"
+        "location": "/store/womens/oversized-crop/original/black"
       }
     ]
   },
@@ -41,7 +41,7 @@
     "subMenu": [
       {
         "name": "Original 50/50 Crew",
-        "location": "/store/outerwear/50-50-crew/arch/black"
+        "location": "/store/outerwear/50-50-crew/stenciled/black"
       },
       {
         "name": "Original Cotton Crew",
@@ -49,7 +49,7 @@
       },
       {
         "name": "Original 50/50 Hoodie",
-        "location": "/store/outerwear/50-50-hoodie/stenciled/black"
+        "location": "/store/outerwear/50-50-hoodie/stamp/black"
       },
       {
         "name": "Original Cotton Hoodie",

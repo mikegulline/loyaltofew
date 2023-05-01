@@ -84,7 +84,6 @@ const OpenCloseMenu = ({ open, openCloseMobileMenu }) => {
       <div
         className={`z-10 flex h-12 w-12 cursor-pointer items-center justify-center gap-1 rounded-full bg-gray-300 text-gray-900 hover:bg-gray-900 hover:text-white lg:hidden`}
         onClick={(e) => {
-          this.blur();
           openCloseMobileMenu(true);
         }}
       >
@@ -92,9 +91,8 @@ const OpenCloseMenu = ({ open, openCloseMobileMenu }) => {
       </div>
     ) : (
       <div
-        className={`z-10 flex h-12 w-12 cursor-pointer items-center justify-center gap-1 rounded-full bg-red-600 text-white hover:bg-gray-900 hover:text-white lg:hidden`}
+        className={`z-10 flex h-12 w-12 cursor-pointer items-center justify-center gap-1 rounded-full bg-red-600 text-white  lg:hidden`}
         onClick={(e) => {
-          this.blur();
           openCloseMobileMenu(false);
         }}
       >
