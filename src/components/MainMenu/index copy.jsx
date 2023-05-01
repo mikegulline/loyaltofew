@@ -5,20 +5,20 @@ import { SlBag, SlMenu, SlClose } from 'react-icons/sl';
 import { disablePageScroll, enablePageScroll } from 'scroll-lock';
 import ResizeObserver from 'rc-resize-observer';
 import { mainMenu } from '@/data/menu';
-import MobileMenu from '@/features/MobileMenu';
+import Container from '@/components/Container';
 import styles from './styles.module.css';
 
 const MainMenu = () => {
-  const [openMobileMenu, setOpenMobileMenu] = useState(false);
+  const [openMobileMenu, setOpenMobileMenu] = useState(0);
   const router = useRouter();
 
   const openCloseMobileMenu = (open) => {
     window.scrollTo(0, 0);
     if (open) {
-      setOpenMobileMenu(true);
+      setOpenMobileMenu(1);
       disablePageScroll();
     } else {
-      setOpenMobileMenu(false);
+      setOpenMobileMenu(0);
       enablePageScroll();
     }
   };
@@ -32,55 +32,61 @@ const MainMenu = () => {
         <Link
           href={location}
           className={styles.main_link}
-          onClick={() => openCloseMobileMenu(false)}
+          onClick={() => openCloseMobileMenu(0)}
         >
           {name}
         </Link>
-        {subMenu && <SubMenu menuData={subMenu} />}
+        {subMenu && !openMobileMenu && <SubMenu menuData={subMenu} />}
       </li>
     );
   });
 
-  return (
-    <>
-      {openMobileMenu && (
-        <div className='fixed top-0 left-0 bottom-0 right-0 z-40 m-0 bg-white'>
-          <div className='py-14 px-[38px]'>
-            <MobileMenu />
-          </div>
-        </div>
-      )}
-      <div className={`${styles.menu_wrapper}`}>
-        <ul className={styles.main_ul}>{buildMenu}</ul>
-      </div>
-      <AddToCartButton handleClick={() => openCloseMobileMenu(false)} />
-      <div className={styles.mobile_menu_button}>
-        {!openMobileMenu ? (
-          <ResizeObserver
-            onResize={({ width }) => {
-              if (openMobileMenu && width === 0) openCloseMobileMenu(false);
-            }}
-          >
-            <div
-              className={styles.mobile_menu_open}
-              onClick={(e) => {
-                openCloseMobileMenu(true);
-              }}
-            >
-              <SlMenu />
-            </div>
-          </ResizeObserver>
-        ) : (
+  const withContainerShow = () => {
+    if (openMobileMenu) {
+      return (
+        <Container>
           <div
             className={styles.mobile_menu_close}
             onClick={(e) => {
-              openCloseMobileMenu(false);
+              openCloseMobileMenu(0);
             }}
           >
             <SlClose />
           </div>
-        )}
+          <ul className={styles.main_ul}>{buildMenu}</ul>
+        </Container>
+      );
+    } else {
+      return <ul className={styles.main_ul}>{buildMenu}</ul>;
+    }
+  };
+
+  return (
+    <>
+      <div
+        className={`${styles.menu_wrapper} ${
+          openMobileMenu ? styles.menu_open : ''
+        }`}
+      >
+        {withContainerShow()}
       </div>
+      <div className={styles.mobile_menu_button}>
+        <ResizeObserver
+          onResize={({ width }) => {
+            if (openMobileMenu && width === 0) openCloseMobileMenu(0);
+          }}
+        >
+          <div
+            className={styles.mobile_menu_open}
+            onClick={(e) => {
+              openCloseMobileMenu(1);
+            }}
+          >
+            <SlMenu />
+          </div>
+        </ResizeObserver>
+      </div>
+      <AddToCartButton handleClick={() => openCloseMobileMenu(0)} />
     </>
   );
 };

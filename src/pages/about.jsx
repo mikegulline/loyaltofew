@@ -40,7 +40,6 @@ const About = () => {
           you see the ones still standing by your side, you have found your
           Loyal to Few®.
         </P>
-        <MobileMenu />
       </Split>
     </>
   );

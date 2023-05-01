@@ -2,6 +2,8 @@
   flex-grow: 1;
 }
 .mobile_menu_button {
+  flex-grow: 1;
+  justify-content: right;
   display: none;
 }
 .menu_close {
@@ -148,9 +150,8 @@
 
   .mobile_menu_button {
     display: flex;
-    position: relative;
   }
-  .mobile_menu_open,
+  .mobile_menu_button div,
   .mobile_menu_close {
     padding: 15px;
     border-radius: 99px;
@@ -158,7 +159,7 @@
     color: #111827;
     border: 0;
     outline: 0;
-
+    margin-right: 5px;
     cursor: pointer;
   }
   .mobile_menu_button div:hover {
@@ -167,20 +168,17 @@
   }
 
   .mobile_menu_close {
-    z-index: 51;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 49;
     color: #fff;
     background-color: #dc2626;
   }
 
-  .add_to_cart_button {
-    display: flex;
-    flex-grow: 1;
-    justify-content: right;
-  }
   .add_to_cart_button a {
     padding: 15px;
     border-radius: 99px;
-    margin-right: 5px;
   }
   .add_to_cart_button a span {
     display: none;
