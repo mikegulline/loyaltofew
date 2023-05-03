@@ -1,8 +1,7 @@
 import SEO from '@/components/SEO';
-import Split from '@/layout/Split/Split';
+import InfoSplit from '@/layout/InfoSplit';
 import { P, H1 } from '@/components/Type';
 import image from '@/public/images/lifestyle/about-page.jpg';
-import MobileMenu from '@/features/MobileMenu';
 
 const About = () => {
   return (
@@ -12,7 +11,7 @@ const About = () => {
         description='Learn more about Loyal To Few® and start living "A Trademarked Way Of Life."'
       />
 
-      <Split image={image}>
+      <InfoSplit image={image}>
         <H1 className=' text-gray-800'>About</H1>
 
         <P>
@@ -40,7 +39,7 @@ const About = () => {
           you see the ones still standing by your side, you have found your
           Loyal to Few®.
         </P>
-      </Split>
+      </InfoSplit>
     </>
   );
 };

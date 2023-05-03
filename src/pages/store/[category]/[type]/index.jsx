@@ -1,9 +1,8 @@
 import getMeta from '@/utils/getMeta';
-import StoreWrapper from '@/layout/StoreWrapper/StoreWrapper';
+import StoreWrapper from '@/layout/StoreWrapper';
 import SEO from '@/components/SEO';
 import SlideshowGridGallery from '@/components/SlideshowGridGallery';
 import GridItem from '@/components/GridItem';
-// import store from '@/public/data/store';
 import storeNew from '@/public/data/store-new';
 let fs = require('fs');
 

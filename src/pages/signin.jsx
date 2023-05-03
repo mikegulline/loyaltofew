@@ -3,7 +3,7 @@ import * as Yup from 'yup';
 import { useState } from 'react';
 import Input from '@/components/Input';
 import FormToasts from '@/components/FormToasts';
-import Split from '@/layout/Split/Split';
+import InfoSplit from '@/layout/InfoSplit';
 import { H1 } from '@/components/Type';
 import image from '@/public/images/lifestyle/contact-page.jpg';
 import { getCsrfToken, getSession, signIn } from 'next-auth/react';
@@ -98,7 +98,7 @@ export default function SignIn({ csrfToken, callbackUrl }) {
   };
 
   return (
-    <Split image={image}>
+    <InfoSplit image={image}>
       <SignInForm csrfToken={csrfToken} callbackUrl={callbackUrl} />
       <div className=''>
         <H1>Sign Up</H1>
@@ -164,7 +164,7 @@ export default function SignIn({ csrfToken, callbackUrl }) {
         </Formik>
         <FormToasts fetching={fetching} error={error} success={success} />
       </div>
-    </Split>
+    </InfoSplit>
   );
 }
 

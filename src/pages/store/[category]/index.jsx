@@ -1,6 +1,5 @@
-// import store from '@/public/data/store';
 import storeNew from '@/public/data/store-new';
-import StoreWrapper from '@/layout/StoreWrapper/StoreWrapper';
+import StoreWrapper from '@/layout/StoreWrapper';
 import Category from '@/components/Category/Category';
 import SEO from '@/components/SEO';
 let fs = require('fs');
@@ -19,13 +18,6 @@ const CategoryPage = ({ category }) => {
     </>
   );
 };
-
-///////////////////////////////////
-///////////////////////////////////
-///////////////////////////////////
-///////////////////////////////////
-///////////////////////////////////
-///////////////////////////////////
 
 export async function getStaticProps(context) {
   const category = await JSON.parse(

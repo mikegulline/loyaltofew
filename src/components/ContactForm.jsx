@@ -51,7 +51,7 @@ const ContactForm = () => {
 
       setTimeout(() => {
         setMail(initialValues);
-      }, 8000);
+      }, 6000);
     } catch (error) {
       setMail({ ...mail, success: '', error: error.response.data.message });
       setFetching(null);

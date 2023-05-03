@@ -7,12 +7,6 @@ export default function OrdersPage({ passOrders, limit, totalItems }) {
   return <Orders {...ordersProps} />;
 }
 
-////////////////////////////////
-////////////////////////////////
-////////////////////////////////
-////////////////////////////////
-////////////////////////////////
-
 export async function getServerSideProps(context) {
   const { req } = context;
   const session = await getSession({ req });

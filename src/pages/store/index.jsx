@@ -1,7 +1,7 @@
 // import store from '@/public/data/store';
 import storeNew from '@/public/data/store-new';
 import Categories from '@/components/Categories/Categories';
-import StoreWrapper from '@/layout/StoreWrapper/StoreWrapper';
+import StoreWrapper from '@/layout/StoreWrapper';
 import { breadcrumbs } from '@/data/menu';
 import SEO from '@/components/SEO';
 

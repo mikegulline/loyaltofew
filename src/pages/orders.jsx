@@ -1,5 +1,5 @@
 import SEO from '@/components/SEO';
-import Split from '@/layout/Split/Split';
+import InfoSplit from '@/layout/InfoSplit';
 import { P, H1 } from '@/components/Type';
 import image from '@/public/images/lifestyle/orders-page.jpg';
 import Link from 'next/link';
@@ -12,7 +12,7 @@ const Returns = () => {
         description="You didn't love your super awesome Loyal To Few® gear? To request a return, please fill the required information on our contact page including your name, email address, order number and reason for the return / exchange."
       />
 
-      <Split image={image}>
+      <InfoSplit image={image}>
         <H1 className='text-gray-800'>Orders &amp; Returns </H1>
 
         <P>
@@ -48,7 +48,7 @@ const Returns = () => {
           exchange. Once we receive the original item, we will review the order
           and issue a refund.
         </P>
-      </Split>
+      </InfoSplit>
     </>
   );
 };
