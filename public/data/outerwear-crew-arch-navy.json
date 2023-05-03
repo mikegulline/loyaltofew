@@ -23,25 +23,25 @@
       "logo": "Arch",
       "link": "/store/outerwear/crew/arch/navy",
       "image": "/images/products/outerwear/crew/OuterwearCrewArchNavy.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP3+/7G2vri8xP///wB6hZYtOEs8R1yGkJ8AWGV2AAMZCRYpc36KAN/g5qirsq2yuOrr7+lCG8V/vlbPAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/sLGzcfK0Pv7/gCXn6ssN0s6RVidpLAAdn+MAAUbDRssipKdAOjp7bW4vLm8wu3t7xYAHYtSWPWNAAAAAElFTkSuQmCC"
     },
     {
       "logo": "Block",
       "link": "/store/outerwear/crew/block/navy",
       "image": "/images/products/outerwear/crew/OuterwearCrewBlockNavy.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/6itt660vv39/wBteIs7RFVKVWd6hZQATFhqAAUaCBcoaXKAANnb4J+jqqepsObn69geGv/FkD3AAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/77CysHHzv7+/wCLlaI6RFVET2GUnKgAa3aEAAUbDRorf4iUAOfo7a+yt7O3ve3u8BBSHTDgyo8RAAAAAElFTkSuQmCC"
     },
     {
       "logo": "Original",
       "link": "/store/outerwear/crew/original/navy",
       "image": "/images/products/outerwear/crew/OuterwearCrewOriginalNavy.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8/7K2wLe9xfz+/wB4hJcsN0sxPFOGkp8AWGR1AAEZBBMncn2LANvd4qersa2yt+jp7OLiG33TCTneAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/8fJ0cnN1P7+/wCYn64uOU0yPlSfp7IAdX+OAAMbChgsiJKfAOnq7ba6vru/xO7v8RvzHbj++4dpAAAAAElFTkSuQmCC"
     },
     {
       "logo": "Stamp",
       "link": "/store/outerwear/crew/stamp/navy",
       "image": "/images/products/outerwear/crew/OuterwearCrewStampNavy.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz9/7K2wLm9x/39/wB/ipswO01AS2CLlKIAX2p7AAIZCBcqeYKQAOLi56qvtK+0uuzs7vLNHC3QjaYYAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz7/cLEy8TK0Pv7/gCWnqowOk08SVybpK8Adn+MAAUbDBosiZGdAOno7bS3vLi7we3u7xYEHYkgZqGwAAAAAElFTkSuQmCC"
     },
     {
       "logo": "Stenciled",
@@ -102,6 +102,6 @@
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP3+/7G2vri8xP///wB6hZYtOEs8R1yGkJ8AWGV2AAMZCRYpc36KAN/g5qirsq2yuOrr7+lCG8V/vlbPAAAAAElFTkSuQmCC",
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/sLGzcfK0Pv7/gCXn6ssN0s6RVidpLAAdn+MAAUbDRssipKdAOjp7bW4vLm8wu3t7xYAHYtSWPWNAAAAAElFTkSuQmCC",
   "name_root": "Original Cotton Crew"
 }

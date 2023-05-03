@@ -22,31 +22,31 @@
       "logo": "Arch",
       "link": "/store/mens/sleeves/arch/gray",
       "image": "/images/products/mens/sleeves/MensSleevesArchGray.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO3u8Hh6fYaJiPz8/QCRkZFJSUxLTE6np6cAoJ6cCQQADgwDubayAL29uzY2M01JQ9jV0bOCGIK6UnB+AAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APT09ouNj5ubm/v8/QCjo6M+P0BBQkKzs7QArKuoAwAABwUAvbu5AM3Nz0tLSmNgXN/d3NcMGg/j5pbyAAAAAElFTkSuQmCC"
     },
     {
       "logo": "Block",
       "link": "/store/mens/sleeves/block/gray",
       "image": "/images/products/mens/sleeves/MensSleevesBlockGray.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/3N1eXl5efz8/wCJiIteXWFzcnKdm54Avru6DAEAEQoEvru6ANrY2jMwLy8pJc3JyMwKGSn5+BhbAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv8/4+QlJSUlfj4+wCkpKhMS01XVlawsLEAyMXFDgQADgQAwb6+AOfn6FhWVU5LR9jW1vL5GwpuIF2dAAAAAElFTkSuQmCC"
     },
     {
       "logo": "Original",
       "link": "/store/mens/sleeves/original/gray",
       "image": "/images/products/mens/sleeves/MensSleevesOriginalGray.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APb194WEiYOChP/+/wCUj5BEQUZFQkefm5wArampDAIADgIByMLCAMLBxDk2OEM9OszIxLnWGIbU+PejAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP///5uZnp2cnv///wCtqao8OTw7OT2yrrAAu7m5DgcEDAAAy8fHANbW2FRRU11WVdza1++dGtLwkcqVAAAAAElFTkSuQmCC"
     },
     {
       "logo": "Stamp",
       "link": "/store/mens/sleeves/stamp/gray",
       "image": "/images/products/mens/sleeves/MensSleevesStampGray.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP79/4uKi5SSkvj29gCrqKpvamt8eXu0srIAvrm1DgAADgAA0s7NAMvKyDErKDIoId/a1QAlGp+0iTIkAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/6Khoqempfr4+gC+vL1hXF5nZWbAwMAAy8fFDwAAFwoB0c/OAODg4FJNSVZPSOjm5SYbHKGELHk8AAAAAElFTkSuQmCC"
     },
     {
       "logo": "Stenciled",
       "link": "/store/mens/sleeves/stenciled/gray",
       "image": "/images/products/mens/sleeves/MensSleevesStenciledGray.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APHx8oKCgoqKiv7+/wB4eHg/Pz9CQkF4eHgAlpaZBQUFFRUUcnJzANfX2WZmZnV1dtvb3JiNGFokoq+vAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO/v8ICAgYiIifv7/gB3d3g5OTk7Ozt3d3gAlZWVAQEBDw8PcnJyANfX2GdnZ3NzddnZ2oxAF+wDeblEAAAAAElFTkSuQmCC"
     }
   ],
   "sizes": [
@@ -101,6 +101,6 @@
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO3u8Hh6fYaJiPz8/QCRkZFJSUxLTE6np6cAoJ6cCQQADgwDubayAL29uzY2M01JQ9jV0bOCGIK6UnB+AAAAAElFTkSuQmCC",
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APT09ouNj5ubm/v8/QCjo6M+P0BBQkKzs7QArKuoAwAABwUAvbu5AM3Nz0tLSmNgXN/d3NcMGg/j5pbyAAAAAElFTkSuQmCC",
   "name_root": "Original Long-Sleeve"
 }

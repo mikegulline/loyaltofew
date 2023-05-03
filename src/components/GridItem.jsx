@@ -14,7 +14,7 @@ const GridItem = ({
           alt={name}
           placeholder='blur'
           blurDataURL={imageBlur}
-          className='block h-auto w-full rounded border-0 bg-zinc-200 p-4 outline-none xl:p-8'
+          className='block h-auto w-full rounded border-0 bg-zinc-200  outline-none '
           width={310}
           height={310}
         />
@@ -22,7 +22,7 @@ const GridItem = ({
         <Image
           src={image}
           alt={name}
-          className='block h-auto w-full rounded border-0 bg-zinc-200 p-4 outline-none xl:p-8'
+          className='block h-auto w-full rounded border-0 bg-zinc-200  outline-none '
           width={310}
           height={310}
         />

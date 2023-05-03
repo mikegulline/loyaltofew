@@ -24,31 +24,31 @@
       "logo": "Arch",
       "link": "/store/womens/tee/arch/maroon",
       "image": "/images/products/womens/tee/WomensTeeArchMaroon.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPUlEQVR4nGP49vxTaXBmaUjqt+fvGW4cvegmbmorqPP23guGe6evazNIqzOI/P/5n+HZ9Ue5ngnJDqFADgDWPRvEYLvk0AAAAABJRU5ErkJggg=="
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPUlEQVR4nGP4/vJreWhWeVjGl+cfGG4fv+IqamIrqP323guGe6evazNIqzOI/v/5n+HlzSd53knJjmFADgDaaxvnIvDvkwAAAABJRU5ErkJggg=="
     },
     {
       "logo": "Block",
       "link": "/store/womens/tee/block/maroon",
       "image": "/images/products/womens/tee/WomensTeeBlockMaroon.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APXo82VEWWdGVvPl7QDOucVVLEZDGjDh0dwA1sLNKwAdJAAR/vH7AOPT3lMxSUspPv/5/74AGp+0pLZlAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APjo9GdGW2hIWPPn7gDOu8dTKERAGS/k090A1sLOKgAcJAAR//b9AOXW4VYzSk0rQP/5/8HTGslNt5kzAAAAAElFTkSuQmCC"
     },
     {
       "logo": "Original",
       "link": "/store/womens/tee/original/maroon",
       "image": "/images/products/womens/tee/WomensTeeOriginalMaroon.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APjr9ohmeoVld/bo8ADhz9tPHT09Dirv3+kA5tPeMAAgKQAW//n/AOvb53hTa21KXf/2/vfYHNiK0iK7AAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPUlEQVR4nGP49/5Xd1Zde1rFt1cfGZ5cvOMna2PLrfn+/iuGl9cfGTAoajKI///5n+Hd/VfVYXmFfolADgAANR0pEU7fYgAAAABJRU5ErkJggg=="
     },
     {
       "logo": "Stamp",
       "link": "/store/womens/tee/stamp/maroon",
       "image": "/images/products/womens/tee/WomensTeeStampMaroon.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APbn8mlHXGlHWfTm7gDXxNBJHDg9ESrq3OUA2sfSLAAcJgAT//f/AOfX42M/Vlg2Sv/5/8WUGylq9122AAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APbn8mpJXmxJXPTm7gDWws5HGjg7ECns3OYA3MjUKwAdJgAT//f/AOfX42NBV1s4Tf/5/8cpGzxDsXxpAAAAAElFTkSuQmCC"
     },
     {
       "logo": "Stenciled",
       "link": "/store/womens/tee/stenciled/maroon",
       "image": "/images/products/womens/tee/WomensTeeStenciledMaroon.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APbp9HdVandWaPTn7gDbx9JQI0BHGzXq2uUA3svXLwAgKAAV//b+AOnZ5G1JYGJAU//5/+E4HBau79etAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APjs9XhXbXlZafLn7wDayNNJGzg+Ei3q2+QA3czXKQAbJgAS/vP8AOnb5m9NZWhFV//5/917G/8VVjwuAAAAAElFTkSuQmCC"
     }
   ],
   "sizes": [
@@ -103,6 +103,6 @@
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APbp9HdVandWaPTn7gDbx9JQI0BHGzXq2uUA3svXLwAgKAAV//b+AOnZ5G1JYGJAU//5/+E4HBau79etAAAAAElFTkSuQmCC",
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APjs9XhXbXlZafLn7wDayNNJGzg+Ei3q2+QA3czXKQAbJgAS/vP8AOnb5m9NZWhFV//5/917G/8VVjwuAAAAAElFTkSuQmCC",
   "name_root": "Original Tee"
 }

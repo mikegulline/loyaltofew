@@ -9,11 +9,11 @@
       },
       {
         "name": "Original Tank",
-        "location": "/store/mens/tank/original/black"
+        "location": "/store/mens/tank/block/black"
       },
       {
         "name": "Original Long-Sleeve",
-        "location": "/store/mens/sleeves/stamp/black"
+        "location": "/store/mens/sleeves/block/black"
       }
     ]
   },
@@ -27,11 +27,11 @@
       },
       {
         "name": "Original Tank",
-        "location": "/store/womens/tank/stenciled/gray"
+        "location": "/store/womens/tank/block/gray"
       },
       {
         "name": "Original Oversized Crop",
-        "location": "/store/womens/oversized-crop/stamp/black"
+        "location": "/store/womens/oversized-crop/stenciled/black"
       }
     ]
   },
@@ -49,11 +49,11 @@
       },
       {
         "name": "Original 50/50 Hoodie",
-        "location": "/store/outerwear/50-50-hoodie/stamp/black"
+        "location": "/store/outerwear/50-50-hoodie/original/black"
       },
       {
         "name": "Original Cotton Hoodie",
-        "location": "/store/outerwear/hoodie/stenciled/black"
+        "location": "/store/outerwear/hoodie/original/black"
       },
       {
         "name": "Knit Beanie",

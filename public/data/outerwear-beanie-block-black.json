@@ -22,7 +22,7 @@
       "logo": "Block",
       "link": "/store/outerwear/beanie/block/black",
       "image": "/images/products/outerwear/beanie/OuterwearBeanieBlockBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAP0lEQVR4nAE0AMv/APLx/9zf6sfIz8fHxwCwtb0VFxwPDwyvr6wAJSgvk5OXdXR1HR0dADI2Pa2vtLu9vjo9QNy9GGmRUzZJAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8/oeIjYWFifv7/wCoqK0EBAoBAQC5ubkAbm5zExIXDQsNiIiIAKCipmhobXl4e8HBxJCVF3Y0Mph6AAAAAElFTkSuQmCC"
     }
   ],
   "sizes": [
@@ -54,6 +54,6 @@
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAP0lEQVR4nAE0AMv/APLx/9zf6sfIz8fHxwCwtb0VFxwPDwyvr6wAJSgvk5OXdXR1HR0dADI2Pa2vtLu9vjo9QNy9GGmRUzZJAAAAAElFTkSuQmCC",
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8/oeIjYWFifv7/wCoqK0EBAoBAQC5ubkAbm5zExIXDQsNiIiIAKCipmhobXl4e8HBxJCVF3Y0Mph6AAAAAElFTkSuQmCC",
   "name_root": "Knit Beanie"
 }

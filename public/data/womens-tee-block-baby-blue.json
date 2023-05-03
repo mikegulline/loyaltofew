@@ -24,31 +24,31 @@
       "logo": "Arch",
       "link": "/store/womens/tee/arch/baby-blue",
       "image": "/images/products/womens/tee/WomensTeeArchBaby-Blue.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AODu/wdjoABWkdLh9wDY6f0ALH4AJXC+0u4A7vr/ACR1AARV0OD3AN7u/wBTkwA2dM/e9s+8G2Jmp9P/AAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOTz/xloogpZktbk+QDb6f4ALn4AI23C1e8A7/r/ACNyAAhW0uH3AOTz/wBWlQA+edDg99xrG8oYhbHkAAAAAElFTkSuQmCC"
     },
     {
       "logo": "Block",
       "link": "/store/womens/tee/block/baby-blue",
       "image": "/images/products/womens/tee/WomensTeeBlockBaby-Blue.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPUlEQVR4nGN4/vU/Q9QUBu+Wa8/+MFx9+ofBroPBuGLvpbcM73//Z9AuY+APOX//G8OrX/8ZXFsY1BKBSgDRnRtu3r0L1gAAAABJRU5ErkJggg=="
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPElEQVR4nGN4/fs/Q9QUBt/W2y//M1x78ZfBqZPBoGTvpbcMH//8Z9AqZeAPOX//GwNImWsLg0by1ad/ANa0G5DF/8xPAAAAAElFTkSuQmCC"
     },
     {
       "logo": "Original",
       "link": "/store/womens/tee/original/baby-blue",
       "image": "/images/products/womens/tee/WomensTeeOriginalBaby-Blue.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOLv/yhwrRxgm9Li+ADd7f8ANYcAJHPF1/IA8/3/ACZ6AAtb1eX6AOT0/wBfngBFg9Li+O6gHHRjXXivAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPUlEQVR4nGN49P6/TsFqxeS5V5/+Yrj79j+DaRuDStHR658YPv/9z6BWxcAdDZJ58uU/Q+w8BtfmS49+AADxuRyEqsz/NQAAAABJRU5ErkJggg=="
     },
     {
       "logo": "Stamp",
       "link": "/store/womens/tee/stamp/baby-blue",
       "image": "/images/products/womens/tee/WomensTeeStampBaby-Blue.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPUlEQVR4nGN48e2/SNoihrBJt179Z7j/4T+DVQeDbvnRG18Yvvz/z6BZycAfdf3FP4YX3/4zhE5lsCgDcgDpIxxWxyBNdwAAAABJRU5ErkJggg=="
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPUlEQVR4nGN48e2/SNpChrBJt179Z7j/4T+DVTuDbtnRG18Yvvz/z6BZycAfcf3FP4YX3/4zhE5lsCgDcgDolBxRuI0OXAAAAABJRU5ErkJggg=="
     },
     {
       "logo": "Stenciled",
       "link": "/store/womens/tee/stenciled/baby-blue",
       "image": "/images/products/womens/tee/WomensTeeStenciledBaby-Blue.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOX2/xdmowBYlNfo/gDd7/8APIkAMnzE1vMA8///ACl5AAxX1OX8AOX2/wBTlAA1dNbl/ehcHDwKRoxaAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOj2/yNsphFblNrq/wDf8P8AOogAMnrE1vMA9P//ACd3AAxX1uX9AOv7/wBVlQA8edfo/vHuHIvD5bbsAAAAAElFTkSuQmCC"
     }
   ],
   "sizes": [
@@ -103,6 +103,6 @@
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPUlEQVR4nGN4/vU/Q9QUBu+Wa8/+MFx9+ofBroPBuGLvpbcM73//Z9AuY+APOX//G8OrX/8ZXFsY1BKBSgDRnRtu3r0L1gAAAABJRU5ErkJggg==",
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPElEQVR4nGN4/fs/Q9QUBt/W2y//M1x78ZfBqZPBoGTvpbcMH//8Z9AqZeAPOX//GwNImWsLg0by1ad/ANa0G5DF/8xPAAAAAElFTkSuQmCC",
   "name_root": "Original Tee"
 }

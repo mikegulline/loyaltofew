@@ -23,25 +23,25 @@
       "logo": "Arch",
       "link": "/store/outerwear/hoodie/arch/dolphin",
       "image": "/images/products/outerwear/hoodie/OuterwearHoodieArchDolphin.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAP0lEQVR4nAE0AMv/AAAAAMK+vrGtrQAAAACwsKf7+fbr5+SQhYUAta+s0MzH3djSu7eyAN3d3a+rpKigl9bIx97VH4IPVsPFAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8/8PCxMfHx/z8/wDi4uRPTUtUUVDj4+UAurm6BgMAEAsDu7u7AOzs72loZXdzce3s71YfHmF80JnoAAAAAElFTkSuQmCC"
     },
     {
       "logo": "Block",
       "link": "/store/outerwear/hoodie/block/dolphin",
       "image": "/images/products/outerwear/hoodie/OuterwearHoodieBlockDolphin.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAO0lEQVR4nGNgYGA4cODAwYNHGSDg748v3z68jAl0Z5gzoevB1VPPb5xePGsSw80bJ9YtnrV4avu2BVMAgUIbz5ItGSAAAAAASUVORK5CYII="
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/ry8vs3O0fz8/wDs7O5ZVVJZVE/m5ecAxMTEEgMAEQAAvbu7AOjn6VxVU2pkXuvr7F9WHlEQ9fgQAAAAAElFTkSuQmCC"
     },
     {
       "logo": "Original",
       "link": "/store/outerwear/hoodie/original/dolphin",
       "image": "/images/products/outerwear/hoodie/OuterwearHoodieOriginalDolphin.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAOUlEQVR4nGNgYGA4dmjf8eMHGSDg/88PT25frciOZ1ixYNahrWv3blq1ZdVckMzS2ZPnd9fM6y8DAF9aGIpWsPzqAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/7SztMbGx/7+/wDu7vFUTktXVFHu7u8Azs3OEQEAEQEA0M3OAPT09313c3ZuaPb2+GTRH1TiSJ5UAAAAAElFTkSuQmCC"
     },
     {
       "logo": "Stamp",
       "link": "/store/outerwear/hoodie/stamp/dolphin",
       "image": "/images/products/outerwear/hoodie/OuterwearHoodieStampDolphin.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAP0lEQVR4nAE0AMv/AAAAALu5sL69uQAAAACUi4v/+PD17N96cmMAtLCp4NnO08i7sKGTAM7Ozqqil5yOfbGwlsOAHbJRVAxQAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv9/6SkpK2trf39/wDc291JRD9FPjna2NoAtbS1GREGEgIAsbCvAOzt72ViX15XUOvq7CRZHLJecUQiAAAAAElFTkSuQmCC"
     },
     {
       "logo": "Stenciled",
@@ -103,6 +103,6 @@
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAO0lEQVR4nGNgYGA4cODAwYNHGSDg748v3z68jAl0Z5gzoevB1VPPb5xePGsSw80bJ9YtnrV4avu2BVMAgUIbz5ItGSAAAAAASUVORK5CYII=",
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/ry8vs3O0fz8/wDs7O5ZVVJZVE/m5ecAxMTEEgMAEQAAvbu7AOjn6VxVU2pkXuvr7F9WHlEQ9fgQAAAAAElFTkSuQmCC",
   "name_root": "Original Cotton Hoodie"
 }

@@ -22,31 +22,31 @@
       "logo": "Arch",
       "link": "/store/womens/tank/arch/blue",
       "image": "/images/products/womens/tank/WomensTankArchBlue.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/n2ApIeJqv7+/QDd3uUZKFwsM2Lh4ecApKS2CwQtDAAjp6a0ALCwvxcaQBgYOrKyvvUhGXwPrfJqAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8+6Kkvqqtwvv7+gDt7fAuN2k7P2zt7e8Aw8PQBgAqEAYou7vGANLS2z9AYEhGZM7O1UBYHQljRApKAAAAAElFTkSuQmCC"
     },
     {
       "logo": "Block",
       "link": "/store/womens/tank/block/blue",
       "image": "/images/products/womens/tank/WomensTankBlockBlue.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APT09VthhHd6mPv7+gDU1NsFFT0pLlDj4uYAlJSlDQMhEAEbnpyqAKSkswAAKxIVMbOzvrghF3Pnh9lHAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7+42SqqGkufv7+wDp6e0iKFA5PF709PUAvLzICgAgEQQgt7fBANHR2CwxUUhIYdTU2iKkHBzBZ+vOAAAAAElFTkSuQmCC"
     },
     {
       "logo": "Original",
       "link": "/store/womens/tank/original/blue",
       "image": "/images/products/womens/tank/WomensTankOriginalBlue.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7+nZ9p4eLq/r6+ADp6e4eKl8sNGXs6+4AwsLOAQAxBQAxwsLOALm7zR4kVS0sVMLCzQpKGwcMF5LsAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPUlEQVR4nGP48+f3vEUHVq09+vPnD4bPnz4bWeWa2+SAONev32dgMGJmMLx+/R7DzVuPXV0LYqKrbty4BwBR0x5Cio2RBwAAAABJRU5ErkJggg=="
     },
     {
       "logo": "Stamp",
       "link": "/store/womens/tank/stamp/blue",
       "image": "/images/products/womens/tank/WomensTankStampBlue.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO7u8U5Ve5ebsP7+/QDBwc0AADYyNFnw7/EAjIueCAAiDwMgtLS9AKmpuAAALxQXM7u7wbz3F99RHzxwAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APX19o+Urbu9zPv7+wDg4OYPHUxNTnH8/PsAurnGBwAkFRAp0NDXANfX3jQ6YFVVbdra3jXGHS9qH9iwAAAAAElFTkSuQmCC"
     },
     {
       "logo": "Stenciled",
       "link": "/store/womens/tank/stenciled/blue",
       "image": "/images/products/womens/tank/WomensTankStenciledBlue.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7+5maq6eotvr6+gDt7e84Ol9GR2by8vMAtrbCAAArBgQsu7vEAM/O1UhKY0pMZtLS2TRXHNC6bkvVAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39+5eYqqWltvv7+wDr6+44Ol1GRWTy8vMAtbXCAAArBgQsubnCAMzM00dHYEZIYtHR1zEKHJydidlfAAAAAElFTkSuQmCC"
     }
   ],
   "sizes": [
@@ -96,6 +96,6 @@
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/n2ApIeJqv7+/QDd3uUZKFwsM2Lh4ecApKS2CwQtDAAjp6a0ALCwvxcaQBgYOrKyvvUhGXwPrfJqAAAAAElFTkSuQmCC",
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8+6Kkvqqtwvv7+gDt7fAuN2k7P2zt7e8Aw8PQBgAqEAYou7vGANLS2z9AYEhGZM7O1UBYHQljRApKAAAAAElFTkSuQmCC",
   "name_root": "Original Tank"
 }

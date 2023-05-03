@@ -25,7 +25,7 @@ const HeroImage = ({ product }) => {
           priority={true}
           width='744'
           height='744'
-          className='max-width-100 block h-auto border-0 p-4 outline-none lg:p-12 xl:max-w-[606px] 2xl:max-w-[734px]'
+          className='max-width-100 block h-auto border-0 bg-[#e5e5e7] outline-none xl:max-w-[606px] 2xl:max-w-[734px]'
         />
       </div>
     );
@@ -45,7 +45,7 @@ const HeroImage = ({ product }) => {
           styles.image_front
         } ${
           animate ? styles.animate : ''
-        } max-width-100 block h-auto border-0 p-4 outline-none lg:p-12 xl:max-w-[606px] 2xl:max-w-[734px]`}
+        } max-width-100 block h-auto border-0 bg-[#e5e5e7] outline-none xl:max-w-[606px] 2xl:max-w-[734px]`}
       />
       <Image
         src={imageBack}
@@ -54,7 +54,7 @@ const HeroImage = ({ product }) => {
         height='744'
         className={`${showBack ? styles.image_on : styles.image_off} ${
           animate ? styles.animate : ''
-        } max-width-100 block h-auto border-0 p-4 outline-none lg:p-12 xl:max-w-[606px] 2xl:max-w-[734px]`}
+        } max-width-100 block h-auto border-0 bg-[#e5e5e7] outline-none xl:max-w-[606px] 2xl:max-w-[734px]`}
       />
       <div className={styles.wrapper_view_back_button}>
         <div

@@ -22,7 +22,7 @@
       "logo": "Block",
       "link": "/store/outerwear/snapback/block/gray-white",
       "image": "/images/products/outerwear/snapback/OuterwearSnapbackBlockGray-White.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APf29qejn66vtvz8/wCAhYoEEx03Y4azy+IAXmJiAAQLLEtlmrnRALGurLm0srq9wr7I1edDHAm1irg/AAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv6+765tsLCxvz8/QCho6cSHSU9ZofG1ucAc3d6AAcNKktnpb3SAMTCwsK+vMTFys3T3SIOHiUHL3c4AAAAAElFTkSuQmCC"
     }
   ],
   "sizes": [
@@ -56,6 +56,6 @@
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APf29qejn66vtvz8/wCAhYoEEx03Y4azy+IAXmJiAAQLLEtlmrnRALGurLm0srq9wr7I1edDHAm1irg/AAAAAElFTkSuQmCC",
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv6+765tsLCxvz8/QCho6cSHSU9ZofG1ucAc3d6AAcNKktnpb3SAMTCwsK+vMTFys3T3SIOHiUHL3c4AAAAAElFTkSuQmCC",
   "name_root": "Trucker Snapback"
 }
