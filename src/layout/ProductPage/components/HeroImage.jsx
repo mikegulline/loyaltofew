@@ -1,10 +1,12 @@
 import { useState, useEffect } from 'react';
 import { SlRefresh } from 'react-icons/sl';
 import Image from 'next/image';
+import ColorLinks from '@/components/ColorLinks';
 import styles from './HeroImage.module.css';
 
 const HeroImage = ({ product }) => {
-  const { image, imageBlur, name, imageBack, has_image_back } = product;
+  const { image, colors, link, imageBlur, name, imageBack, has_image_back } =
+    product;
   const [showBack, setShowBack] = useState(false);
   const [animate, setAnimate] = useState(0);
   const [loading, setLoading] = useState(true);
@@ -39,6 +41,10 @@ const HeroImage = ({ product }) => {
     );
   }
 
+  const wrapColorLinksProps = {
+    colors: product.colors,
+    link: product.link,
+  };
   const toggleViewProps = {
     showBack,
     setShowBack,
@@ -81,6 +87,7 @@ const HeroImage = ({ product }) => {
           />
         </div>
         <ToggleView {...toggleViewProps} />
+        <WrapColorLinks {...wrapColorLinksProps} />
       </div>
     </div>
   );
@@ -98,6 +105,16 @@ const ToggleView = ({ showBack, setShowBack, setAnimate }) => {
       >
         <SlRefresh />
       </div>
+    </div>
+  );
+};
+
+const WrapColorLinks = ({ colors, link }) => {
+  if (colors.length <= 1) return null;
+
+  return (
+    <div className='absolute bottom-4 left-4 z-[5] rounded-full bg-white py-2 px-3'>
+      <ColorLinks colors={colors} link={link} align='left' scroll={false} />
     </div>
   );
 };
