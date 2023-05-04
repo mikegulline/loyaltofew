@@ -5,16 +5,13 @@ import InfoBlock from './components/InfoBlock';
 import LogoGallery from './components/LogoGallery';
 
 const ProductPage = ({ product }) => {
-  const productProps = {
-    product,
-  };
   return (
     <PageWrapper>
       <ColumnLayout>
-        <HeroImage {...productProps} />
-        <InfoBlock {...productProps} />
+        <HeroImage {...{ product }} key={product.id} />
+        <InfoBlock {...{ product }} />
       </ColumnLayout>
-      <LogoGallery {...productProps} />
+      <LogoGallery {...{ product }} />
     </PageWrapper>
   );
 };

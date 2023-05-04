@@ -9,7 +9,7 @@ const LogoGallery = ({ product }) => {
   return (
     <Container className='pt-8'>
       <SlideshowGridGallery title='Logo Options'>
-        {product.logos.map((logo) => {
+        {product.logos.map((logo, i) => {
           const { link, image, imageBlur, logo: logoName } = logo;
           const current = product.logo === logo.logo;
           const name = `${product.name_root} with ${logoName} Design (${product.color})`;
@@ -20,7 +20,12 @@ const LogoGallery = ({ product }) => {
             name,
           };
           return (
-            <GridItem key={name} product={buildProduct} scroll={false}>
+            <GridItem
+              key={name}
+              product={buildProduct}
+              scroll={false}
+              index={i}
+            >
               <GridItemSelectDot current={current} />
               <h4 className='mt-2 font-medium'>{`${logoName} Design`}</h4>
             </GridItem>

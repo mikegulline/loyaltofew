@@ -10,7 +10,7 @@ const Products = ({ product, breadcrumbs, name }) => {
   if (!product?.logos?.length) return <p>Loading…</p>;
 
   const meta = getMeta(product.meta, `Loyal To Few® (LTF) ${name}`);
-
+  let gridIndex = 0;
   return (
     <>
       <SEO {...meta} />
@@ -19,6 +19,7 @@ const Products = ({ product, breadcrumbs, name }) => {
         {product.colors.map((color) => (
           <SlideshowGridGallery title={color} key={color}>
             {product.logos.map((logo) => {
+              gridIndex++;
               const { link, name, imageColorRoot, logo: logoName } = logo;
               const buildProduct = {
                 link: `${link}/${color.toLowerCase()}`,
@@ -26,7 +27,7 @@ const Products = ({ product, breadcrumbs, name }) => {
                 name,
               };
               return (
-                <GridItem key={name} product={buildProduct}>
+                <GridItem key={name} product={buildProduct} index={gridIndex}>
                   <h4 className='mt-2 font-medium'>{`${logoName} Design`}</h4>
                 </GridItem>
               );
