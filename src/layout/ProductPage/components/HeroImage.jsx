@@ -29,7 +29,7 @@ const HeroImage = ({ product }) => {
 
   if (!has_image_back) {
     return (
-      <div className='image-wrapper mb-6'>
+      <div className='image-wrapper relative mb-6'>
         <div className='relative overflow-hidden rounded bg-[#e5e5e7]'>
           <Image
             src={image}
@@ -49,7 +49,9 @@ const HeroImage = ({ product }) => {
         </div>
         <div className={styles.wrapper_view_back_button}>
           <WrapColorLinks {...wrapColorLinksProps} />
+          <div className='flex-grow' />
         </div>
+        <Loading loading={loading} />
       </div>
     );
   }
@@ -95,6 +97,18 @@ const HeroImage = ({ product }) => {
         <div className='flex-grow' />
         <ToggleView {...toggleViewProps} />
       </div>
+      <Loading loading={loading} />
+    </div>
+  );
+};
+
+const Loading = ({ loading = false }) => {
+  if (!loading) return null;
+  return (
+    <div
+      className={`absolute top-0 left-0 flex h-full w-full items-center justify-center`}
+    >
+      <div className={`text-gray-900`}>Loading…</div>
     </div>
   );
 };
@@ -119,7 +133,7 @@ const WrapColorLinks = ({ colors, link }) => {
   if (colors.length <= 1) return null;
 
   return (
-    <div className='rounded-full bg-white py-2 px-3 shadow-lg'>
+    <div className='rounded-full bg-white py-[6px] px-[10px] shadow-lg'>
       <ColorLinks
         colors={colors}
         link={link}

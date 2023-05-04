@@ -10,18 +10,18 @@ const ColorLinks = (props) => {
     scroll,
     className = ``,
     hover,
-    column = false,
+    small = false,
   } = props;
   const alignClass = align ? `justify-${align}` : `justify-center`;
-  const wrapperClasses = `flex  ${
-    column && 'xl:flex-col'
-  }  items-center ${alignClass} ${className}`;
+  const wrapperClasses = `flex items-center ${alignClass} ${className}`;
 
   return (
     <div className={wrapperClasses}>
       {colors.map((color) => {
         const colorName = color.toLowerCase().replace(` `, ``);
-        const linkClasses = `w-11 h-11 cursor-pointer rounded-full border solid border-white -mr-1 -ml-1 ${colorName}`;
+        const linkClasses = ` ${
+          small ? 'w-9 h-9 lg:w-11 lg:h-11' : 'w-11 h-11'
+        } cursor-pointer rounded-full border solid border-white -mr-1 -ml-1 ${colorName}`;
         const href = `${link}/${colorName}`;
 
         const handleEnter = () => {
