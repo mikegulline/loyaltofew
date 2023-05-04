@@ -52,7 +52,7 @@ export const InfoBlock = ({ product }) => {
       <Title {...titleProps} />
       <Dimensions {...dimensionsProps} />
       <Details {...detailsProps} />
-      <WrapColorLinks {...wrapColorLinksProps} />
+      {/* <WrapColorLinks {...wrapColorLinksProps} /> */}
       <SelectSize {...selectSizeProps} />
     </div>
   );

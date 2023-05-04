@@ -17,9 +17,19 @@ const HeroImage = ({ product }) => {
     return () => clearTimeout(animateId);
   }, [showBack]);
 
+  const wrapColorLinksProps = {
+    colors: product.colors,
+    link: product.link,
+  };
+  const toggleViewProps = {
+    showBack,
+    setShowBack,
+    setAnimate,
+  };
+
   if (!has_image_back) {
     return (
-      <div className='image-wrapper  '>
+      <div className='image-wrapper mb-6'>
         <div className='relative overflow-hidden rounded bg-[#e5e5e7]'>
           <Image
             src={image}
@@ -37,22 +47,15 @@ const HeroImage = ({ product }) => {
             }max-width-100 block h-auto border-0 bg-[#e5e5e7] outline-none xl:max-w-[606px] 2xl:max-w-[734px]`}
           />
         </div>
+        <div className={styles.wrapper_view_back_button}>
+          <WrapColorLinks {...wrapColorLinksProps} />
+        </div>
       </div>
     );
   }
 
-  const wrapColorLinksProps = {
-    colors: product.colors,
-    link: product.link,
-  };
-  const toggleViewProps = {
-    showBack,
-    setShowBack,
-    setAnimate,
-  };
-
   return (
-    <div className='image-wrapper  '>
+    <div className='image-wrapper relative mb-6'>
       <div className='relative overflow-hidden rounded bg-[#e5e5e7]'>
         <div
           className={
@@ -86,8 +89,11 @@ const HeroImage = ({ product }) => {
             } max-width-100 block h-auto border-0 bg-[#e5e5e7] outline-none xl:max-w-[606px] 2xl:max-w-[734px]`}
           />
         </div>
-        <ToggleView {...toggleViewProps} />
+      </div>
+      <div className={styles.wrapper_view_back_button}>
         <WrapColorLinks {...wrapColorLinksProps} />
+        <div className='flex-grow' />
+        <ToggleView {...toggleViewProps} />
       </div>
     </div>
   );
@@ -95,16 +101,16 @@ const HeroImage = ({ product }) => {
 
 const ToggleView = ({ showBack, setShowBack, setAnimate }) => {
   return (
-    <div className={styles.wrapper_view_back_button}>
-      <div
-        className={`${styles.view_back_button} ${showBack ? styles.hover : ''}`}
-        onClick={() => {
-          setShowBack(showBack > 0 ? 0 : 1);
-          setAnimate(1);
-        }}
-      >
-        <SlRefresh />
-      </div>
+    <div
+      className={`${styles.view_back_button}  shadow-lg ${
+        showBack ? styles.hover : ''
+      }`}
+      onClick={() => {
+        setShowBack(showBack > 0 ? 0 : 1);
+        setAnimate(1);
+      }}
+    >
+      <SlRefresh />
     </div>
   );
 };
@@ -113,8 +119,14 @@ const WrapColorLinks = ({ colors, link }) => {
   if (colors.length <= 1) return null;
 
   return (
-    <div className='absolute bottom-4 left-4 z-[5] rounded-full bg-white py-2 px-3'>
-      <ColorLinks colors={colors} link={link} align='left' scroll={false} />
+    <div className='rounded-full bg-white py-2 px-3 shadow-lg'>
+      <ColorLinks
+        colors={colors}
+        link={link}
+        align='left'
+        scroll={false}
+        column={false}
+      />
     </div>
   );
 };
