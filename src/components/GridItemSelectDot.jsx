@@ -5,7 +5,7 @@ const GridItemSelectDot = ({ current }) => {
       style={{
         transform: `scale(${current ? 1 : 0})`,
         transition: `transform  ${
-          current ? '.25s ease-out' : '.25s ease-in .25s'
+          current ? '.25s ease-out .25s' : '.25s ease-in'
         }`,
       }}
     ></div>
