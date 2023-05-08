@@ -33,9 +33,9 @@
 } */
 .wrapper_view_back_button {
   position: absolute;
-  bottom: -34px;
+  bottom: 0px;
   width: 100%;
-  padding: 0px;
+  padding: 15px;
   /* padding: 0 22px; */
   height: auto;
   display: flex;

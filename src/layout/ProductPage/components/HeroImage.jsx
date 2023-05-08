@@ -5,8 +5,17 @@ import ColorLinks from '@/components/ColorLinks';
 import styles from './HeroImage.module.css';
 
 const HeroImage = ({ product }) => {
-  const { image, colors, link, imageBlur, name, imageBack, has_image_back } =
-    product;
+  const {
+    image,
+    color,
+    colors,
+    link,
+    imageBlur,
+    name,
+    imageBack,
+    has_image_back,
+  } = product;
+
   const [showBack, setShowBack] = useState(false);
   const [animate, setAnimate] = useState(0);
   const [loading, setLoading] = useState(true);
@@ -18,6 +27,7 @@ const HeroImage = ({ product }) => {
   }, [showBack]);
 
   const wrapColorLinksProps = {
+    color,
     colors,
     link,
   };
@@ -42,16 +52,20 @@ const HeroImage = ({ product }) => {
             height='744'
             className={`${
               loading
-                ? 'scale-110 opacity-0 '
-                : 'scale-100 opacity-100 transition-all duration-1000 ease-out'
-            }max-width-100 block h-auto border-0 bg-[#e5e5e7] outline-none xl:max-w-[606px] 2xl:max-w-[734px]`}
+                ? 'scale-110 blur-2xl'
+                : 'scale-100 blur-0 transition-all duration-1000 ease-out'
+            } max-width-100 block h-auto border-0 bg-[#e5e5e7] outline-none xl:max-w-[606px] 2xl:max-w-[734px] `}
+            // className={`${
+            //   loading
+            //     ? 'scale-110 opacity-0 '
+            //     : 'scale-100 opacity-100 transition-all duration-1000 ease-out'
+            // }max-width-100 block h-auto border-0 bg-[#e5e5e7] outline-none xl:max-w-[606px] 2xl:max-w-[734px]`}
           />
         </div>
         <div className={styles.wrapper_view_back_button}>
           <WrapColorLinks {...wrapColorLinksProps} />
           <div className='flex-grow' />
         </div>
-        <Loading loading={loading} />
       </div>
     );
   }
@@ -62,9 +76,14 @@ const HeroImage = ({ product }) => {
         <div
           className={
             loading
-              ? 'scale-110 opacity-0 '
-              : 'scale-100 opacity-100 transition-all duration-1000 ease-out'
+              ? 'scale-110 blur-2xl'
+              : 'scale-100 blur-0 transition-all duration-1000 ease-out'
           }
+          // className={
+          //   loading
+          //     ? 'scale-110 opacity-0 '
+          //     : 'scale-100 opacity-100 transition-all duration-1000 ease-out'
+          // }
         >
           <Image
             src={image}
@@ -97,18 +116,6 @@ const HeroImage = ({ product }) => {
         <div className='flex-grow' />
         <ToggleView {...toggleViewProps} />
       </div>
-      <Loading loading={loading} />
-    </div>
-  );
-};
-
-const Loading = ({ loading = false }) => {
-  if (!loading) return null;
-  return (
-    <div
-      className={`absolute top-0 left-0 flex h-full w-full items-center justify-center`}
-    >
-      <div className={`text-gray-900`}>Loading…</div>
     </div>
   );
 };
@@ -129,12 +136,13 @@ const ToggleView = ({ showBack, setShowBack, setAnimate }) => {
   );
 };
 
-const WrapColorLinks = ({ colors, link }) => {
+const WrapColorLinks = ({ color, colors, link }) => {
   if (colors.length <= 1) return null;
 
   return (
     <div className='rounded-full bg-white py-[6px] px-[10px] shadow-lg'>
       <ColorLinks
+        color={color}
         colors={colors}
         link={link}
         align='left'
