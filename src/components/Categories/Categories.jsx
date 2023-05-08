@@ -5,7 +5,7 @@ const Categories = ({ categories }) =>
   categories.map(({ name, link, products }) => (
     <SlideshowGridGallery key={name} title={name} link={link}>
       {products.map((product, i) => (
-        <GridItem key={product.name} product={product} index={i}>
+        <GridItem key={`${name} ${product.name}`} product={product} index={i}>
           <h4 className='mt-2 font-medium '>{product.name}</h4>
         </GridItem>
       ))}

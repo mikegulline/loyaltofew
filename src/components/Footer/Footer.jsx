@@ -1,5 +1,5 @@
 import { footerSiteMenu, footerShopMenu } from '@/data/menu';
-import Link from '@/components/Link';
+import Link from 'next/link';
 import Container from '@/components/Container';
 import Menu from '@/components/Menu';
 import styles from './Footer.module.css';
@@ -31,8 +31,11 @@ const Copyright = () => {
     <div className={`footer bg-gray-900 ${styles.copy}`}>
       <Container>
         <p className={styles.copyP}>
-          &copy; {new Date().getFullYear()} <Link href='/'>Loyal To Few®</Link>.
-          A Trademarked Way Of Life.
+          &copy; {new Date().getFullYear()}{' '}
+          <Link href='/' prefetch={false}>
+            Loyal To Few®
+          </Link>
+          . A Trademarked Way Of Life.
         </p>
       </Container>
     </div>

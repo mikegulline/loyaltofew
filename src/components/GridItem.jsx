@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Image from 'next/image';
-import Link from '@/components/Link';
+import Link from 'next/link';
 
 const GridItem = ({ product, scroll = true, index, children }) => {
   const { link, image, imageBlur = null, name } = product;
@@ -15,7 +15,7 @@ const GridItem = ({ product, scroll = true, index, children }) => {
         <style>{`.delay-${index} {transition-delay: ${
           (index + 1) * 75
         }ms}`}</style>
-        <Link href={link} scroll={scroll}>
+        <Link href={link} scroll={scroll} prefetch={false}>
           <Image
             src={image}
             alt={name}

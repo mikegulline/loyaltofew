@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-import Link from '@/components/Link';
+import Link from 'next/link';
 
 const ColorLinks = (props) => {
   const router = useRouter();
@@ -48,6 +48,7 @@ const ColorLinks = (props) => {
             href={href}
             title={color}
             scroll={scroll}
+            prefetch={false}
           >
             <div className='hidden'>{color}</div>
           </Link>

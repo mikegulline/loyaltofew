@@ -38,7 +38,7 @@ export default function HomeSlideshow() {
       modules={modules}
     >
       {slidesArr.map(({ image, alt, link }, i) => (
-        <Link key={i} href={link}>
+        <Link key={i} href={link} prefetch={false}>
           <Image
             src={image}
             placeholder='blur'

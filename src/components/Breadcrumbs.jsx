@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import Link from '@/components/Link';
+import Link from 'next/link';
 import Container from '@/components/Container';
 
 const Breadcrumbs = ({ links }) => {
@@ -12,6 +12,7 @@ const Breadcrumbs = ({ links }) => {
       <Link
         href={link[1]}
         className=' text-zinc-200 hover:text-white  hover:underline'
+        prefetch={false}
       >
         {link[0]}
       </Link>

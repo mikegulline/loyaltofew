@@ -18,8 +18,8 @@ const HeroImage = ({ product }) => {
   }, [showBack]);
 
   const wrapColorLinksProps = {
-    colors: product.colors,
-    link: product.link,
+    colors,
+    link,
   };
   const toggleViewProps = {
     showBack,

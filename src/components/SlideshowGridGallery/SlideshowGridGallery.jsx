@@ -8,22 +8,22 @@ import ToggleView from './ToggleView';
 import Grid from './Grid';
 
 export default function SlideshowGridGallery({ title, link = null, children }) {
-  const [showFirstChild, setShowFirstChild] = useState(true);
+  const [showFirstToggle, setShowFirstToggle] = useState(true);
   if (!children.length) return null;
   return (
     <Wrapper>
       <TitleWrapper>
         <Title content={title} link={link} />
         {children?.length > 3 && (
-          <ToggleButton handleClick={setShowFirstChild}>
-            <ToggleView showFirst={showFirstChild}>
+          <ToggleButton handleClick={setShowFirstToggle}>
+            <ToggleView showFirst={showFirstToggle}>
               <>Show Grid</>
               <>Show Slideshow</>
             </ToggleView>
           </ToggleButton>
         )}
       </TitleWrapper>
-      <ToggleView showFirst={showFirstChild}>
+      <ToggleView showFirst={showFirstToggle}>
         <Carousel>{children}</Carousel>
         <Grid>{children}</Grid>
       </ToggleView>

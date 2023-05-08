@@ -13,7 +13,7 @@ const Menu = ({
   const buildMenu = menuData.map(
     ({ name, location, subMenu, onClick = () => {} }) => (
       <li key={name} className={router.asPath == location ? activeClass : ''}>
-        <Link href={location} onClick={onClick}>
+        <Link href={location} onClick={onClick} prefetch={false}>
           {name}
         </Link>
         {subMenu && withDropDowns && (

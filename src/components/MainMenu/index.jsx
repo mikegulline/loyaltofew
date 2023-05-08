@@ -9,6 +9,7 @@ const MainMenu = ({ openCloseMobileMenu }) => {
         <Link
           href={location}
           className={styles.main_link}
+          prefetch={false}
           onClick={() => openCloseMobileMenu(false)}
         >
           {name}
@@ -29,7 +30,12 @@ const SubMenu = ({ menuData }) => {
   const buildMenu = menuData.map(({ name, location, onClick = () => {} }) => {
     return (
       <li key={name} className={styles.sub_li}>
-        <Link href={location} className={styles.sub_link} onClick={onClick}>
+        <Link
+          href={location}
+          prefetch={false}
+          className={styles.sub_link}
+          onClick={onClick}
+        >
           {name}
         </Link>
       </li>

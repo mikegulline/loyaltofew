@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import LogoSVG from '@/public/logos/ltf-logo.svg';
-import Link from '@/components/Link';
+import Link from 'next/link';
 import Container from '@/components/Container';
 import MainMenu from '@/components/MainMenu';
 import AdminMenu from '@/components/AdminMenu';
@@ -55,7 +55,7 @@ const Header = () => {
 const Logo = () => {
   return (
     <div className='relative flex-grow'>
-      <Link href='/' className={styles.logo}>
+      <Link href='/' className={styles.logo} prefetch={false}>
         <LogoSVG className='fill-gray-900 hover:fill-red-600' />
         <h1 className={styles.h1}>Loyal To Few®</h1>
         <p className={styles.tagline}>A trademarked way of life.</p>

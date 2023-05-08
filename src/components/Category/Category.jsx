@@ -5,7 +5,7 @@ import ColorLinks from '@/components/ColorLinks';
 const Category = ({ products }) => {
   let gridIndex = 0;
   return products.map(({ name, logos, link, colors }) => (
-    <SlideshowGridGallery key={name} title={name} link={link}>
+    <SlideshowGridGallery key={link} title={name} link={link}>
       {logos.map((logo, i) => {
         gridIndex++;
         return (
