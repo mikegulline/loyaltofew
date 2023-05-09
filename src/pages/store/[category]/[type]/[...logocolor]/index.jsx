@@ -24,7 +24,7 @@ const Product = ({ product, category }) => {
       <ProductPage product={product} />
 
       <div className=' mb-32 h-0 w-full border-t-4 border-gray-400' />
-      <ShowAt y={100}>
+      <ShowAt y={200}>
         <Container>
           <h2 className='mb-8 mt-8 text-6xl font-black text-gray-900 md:text-7xl'>
             {category.name}
