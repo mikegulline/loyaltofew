@@ -38,6 +38,7 @@ export const InfoBlock = ({ product }) => {
   };
 
   const wrapColorLinksProps = {
+    color,
     colors: colorsState,
     link,
   };
@@ -67,6 +68,18 @@ export const InfoBlock = ({ product }) => {
 };
 
 const SizeToggle = ({ sizes, index, setIndex }) => {
+  if (sizes.length === 1)
+    return (
+      <ul className='mb-6 flex w-auto shrink-0'>
+        <li
+          className={` flex h-16 w-auto select-none items-center justify-center gap-2 rounded border px-4`}
+        >
+          <div className='text-xl font-bold'>${sizes[index].price}</div>
+          <div className='text-sm'>{sizes[index].size}</div>
+        </li>
+      </ul>
+    );
+
   return (
     <ul className='mb-6 flex gap-1'>
       {sizes.map(({ size, price }, i) => {
