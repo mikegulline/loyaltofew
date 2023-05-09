@@ -18,9 +18,9 @@
         {
           "name": "Original Tee",
           "type": "Tee",
-          "link": "/store/mens/tee/stamp/black",
-          "image": "/images/products/mens/tee/MensTeeStampBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ANDQ0oiIiouKitnZ2QCvr7AyLy8/Ozu2trcA+fj7BwAAGRMO9fT1APr7/HVyc398e/z8/dSZHG6zG2hRAAAAAElFTkSuQmCC",
+          "link": "/store/mens/tee/block/black",
+          "image": "/images/products/mens/tee/MensTeeBlockBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ANXV15GRlIWEiMjIygCenqBCQUJJR0exsLMA9fP2FA4KDQAA09DRAP///2lmZmtoaOjo6MrFG18Qnp67AAAAAElFTkSuQmCC",
           "logos": [
             {
               "logo": "Arch"
@@ -49,9 +49,9 @@
         {
           "name": "Original Tank",
           "type": "Tank",
-          "link": "/store/mens/tank/original/black",
-          "image": "/images/products/mens/tank/MensTankOriginalBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APX1+Y+QlqSmrPz8/wDAwMQyMTdKSlHa2t4Ao6OmAwEJFRMYtbW3AMLCxFVVWF1dX8vMzvuCGv1XJNqEAAAAAElFTkSuQmCC",
+          "link": "/store/mens/tank/stenciled/black",
+          "image": "/images/products/mens/tank/MensTankStenciledBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APT094OEipucovv7/wC7u74wMDZQUFbV1dgAmJibBQMIFBQXq6utALy9wENDR0tMTcfHyeQsGd/tZmn6AAAAAElFTkSuQmCC",
           "logos": [
             {
               "logo": "Arch"
@@ -76,9 +76,9 @@
         {
           "name": "Original Long-Sleeve",
           "type": "Sleeves",
-          "link": "/store/mens/sleeves/arch/black",
-          "image": "/images/products/mens/sleeves/MensSleevesArchBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8/pubnp6eoPz8/gCfnp44NjdFQkKrqakAxcTEBQMDAgAAw8C+AOfn6V9fYGhlY+bj4+xIGy//cNu5AAAAAElFTkSuQmCC",
+          "link": "/store/mens/sleeves/stenciled/black",
+          "image": "/images/products/mens/sleeves/MensSleevesStenciledBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APHx9IeHiZCQkP39/wB+fn85OTk7Ozt/f38Am5ubBAQEDw8PeHh4ANzc3XFxcX19ft3d36HjGNZqtjG4AAAAAElFTkSuQmCC",
           "logos": [
             {
               "logo": "Arch"
@@ -116,9 +116,9 @@
         {
           "name": "Original Tee",
           "type": "Tee",
-          "link": "/store/womens/tee/stenciled/gray",
-          "image": "/images/products/womens/tee/WomensTeeStenciledGray.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APLz+G5xemRkau3t8QDj5ukpKzcqKjDb3OAA/f3/DRAdAAAN5eXpAPr7/1VYY0NFTOfo6uw0HBDnMbq3AAAAAElFTkSuQmCC",
+          "link": "/store/womens/tee/original/gray",
+          "image": "/images/products/womens/tee/WomensTeeOriginalGray.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APDw9XF1fWlpburq7gDm5uspKzcgISfd3uIA+/v+EBQfAwIS5ubqAPf3/VtdaElKU+Xm6u0AHCyGk1XvAAAAAElFTkSuQmCC",
           "logos": [
             {
               "logo": "Arch"
@@ -147,9 +147,9 @@
         {
           "name": "Original Tank",
           "type": "Tank",
-          "link": "/store/womens/tank/stamp/gray",
-          "image": "/images/products/womens/tank/WomensTankStampGray.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/5WVmKSkpvz8/wDr6+4nJCQ7NjTy8vUAtLS2EQAAGQUAtrOzAMPDxTw3NEY/O8fGxwxKGsNcuPiXAAAAAElFTkSuQmCC",
+          "link": "/store/womens/tank/stenciled/gray",
+          "image": "/images/products/womens/tank/WomensTankStenciledGray.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/5+fnqKfnvv8/gDu7u9BPTdMR0Dz8vQAtbW0DAAAEgcAtbW1ALW0sz45M0A9OLu7uxsdGubfdrMdAAAAAElFTkSuQmCC",
           "logos": [
             {
               "logo": "Arch"
@@ -176,9 +176,9 @@
         {
           "name": "Original Oversized Crop",
           "type": "Oversized-Crop",
-          "link": "/store/womens/oversized-crop/stamp/black",
-          "image": "/images/products/womens/oversized-crop/WomensOversized-CropStampBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz7/+rq7Ovs7vv7/wCMj5UrLDMtLjSTlJsApqitAgUOEBAXqaqvAPf3++7u8fLy9fn3+jl1H76IUu/4AAAAAElFTkSuQmCC",
+          "link": "/store/womens/oversized-crop/original/black",
+          "image": "/images/products/womens/oversized-crop/WomensOversized-CropOriginalBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP38/+3t8e7u8fv7/wCTl5wxMzksLzWbnKIAra+0AAENCQ4VsLG3APb2+vLy9fT09/j4+0fSID2xeUpeAAAAAElFTkSuQmCC",
           "logos": [
             {
               "logo": "Arch"
@@ -274,9 +274,9 @@
         {
           "name": "Original 50/50 Hoodie",
           "type": "50-50-Hoodie",
-          "link": "/store/outerwear/50-50-hoodie/stenciled/black",
-          "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieStenciledBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP///7OztMTExP39/wDFxcdQUE9QT06+vr8AgoKCFRQQBAMAeHh3AM7O0WVlY19fX8jIyRU/GwIFRPNEAAAAAElFTkSuQmCC",
+          "link": "/store/outerwear/50-50-hoodie/arch/black",
+          "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieArchBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8/r69wLOytv7+/wDd3d9OSk89PEHMzNAAy8vNEg4TAwAEr6+yAOfn6VZWV2NiZeLi5DqlHSMEXWl0AAAAAElFTkSuQmCC",
           "logos": [
             {
               "logo": "Arch"

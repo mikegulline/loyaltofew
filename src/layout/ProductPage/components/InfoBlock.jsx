@@ -89,13 +89,13 @@ const SizeToggle = ({ sizes, index, setIndex }) => {
             onClick={() => {
               setIndex(i);
             }}
-            className={` flex h-16 w-16 select-none flex-col items-center justify-center rounded border   ${
+            className={` flex h-14 w-14 select-none flex-col items-center justify-center rounded border lg:h-16 lg:w-16   ${
               index === i
                 ? ' cursor-crosshair border-red-600 bg-red-600 text-white'
                 : 'cursor-pointer border-gray-300 text-gray-500 hover:border-gray-800 hover:bg-gray-800 hover:text-white'
             }`}
           >
-            <div className='h-6 text-xl font-bold'>{size}</div>
+            <div className='h-6 font-bold lg:text-xl'>{size}</div>
             <div className='text-sm'>${price}</div>
           </li>
         );
