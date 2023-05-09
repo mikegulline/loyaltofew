@@ -28,8 +28,9 @@ const ColorLinks = (props) => {
             key={colorName}
             href={href}
             title={color}
-            scroll={scroll}
+            scroll={false}
             prefetch={false}
+            onClick={() => window.scrollTo(0, 105)}
           >
             <div
               className={`relative h-4 w-4 rounded-full bg-white transition-all ${

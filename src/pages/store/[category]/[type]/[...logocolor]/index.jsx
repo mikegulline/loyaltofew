@@ -1,17 +1,15 @@
 // import store from '@/public/data/store';
 import storeNew from '@/public/data/store-new';
-import { useRouter } from 'next/router';
 import ProductPage from '@/layout/ProductPage/ProductPage';
 import SEO from '@/components/SEO';
 import getMeta from '@/utils/getMeta';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import Category from '@/components/Category/Category';
 import Container from '@/components/Container';
+import { useState, useEffect } from 'react';
 let fs = require('fs');
 
 const Product = ({ product, category }) => {
-  const router = useRouter();
-  const size = router?.query?.s || 0;
   if (!product) return <p>Loading…</p>;
   const { name, color, breadcrumbs } = product;
 
@@ -23,16 +21,37 @@ const Product = ({ product, category }) => {
 
       <Breadcrumbs links={breadcrumbs} />
 
-      <ProductPage product={product} size={size} />
+      <ProductPage product={product} />
 
-      <Container>
-        <h2 className='mb-8 mt-8 text-6xl font-black text-gray-900 md:text-7xl'>
-          {category.name}
-        </h2>
-        <Category products={category.products} />
-      </Container>
+      <div className=' mb-32 h-0 w-full border-t-4 border-gray-400' />
+      <ShowAt y={100}>
+        <Container>
+          <h2 className='mb-8 mt-8 text-6xl font-black text-gray-900 md:text-7xl'>
+            {category.name}
+          </h2>
+          <Category products={category.products} />
+        </Container>
+      </ShowAt>
     </>
   );
+};
+
+const ShowAt = ({ y, children }) => {
+  const [shown, setShown] = useState(false);
+
+  useEffect(() => {
+    if (!shown) {
+      const handleScroll = (e) => {
+        if (e.target.documentElement.scrollTop >= y) setShown(true);
+      };
+      window.addEventListener('scroll', handleScroll);
+      return () => window.removeEventListener('scroll', handleScroll);
+    }
+  });
+
+  if (!shown) return null;
+
+  return <>{children}</>;
 };
 
 export async function getStaticProps(context) {

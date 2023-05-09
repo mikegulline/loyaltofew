@@ -31,7 +31,7 @@ const Header = () => {
         open={openMobileMenu}
         openCloseMobileMenu={openCloseMobileMenu}
       />
-      {/* <AdminMenu /> */}
+      <AdminMenu />
       <Container>
         <div className={`flex h-[85px] items-center gap-1 lg:h-[105px]`}>
           <Logo />

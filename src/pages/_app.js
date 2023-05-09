@@ -1,6 +1,4 @@
-// import { AnimatePresence, motion } from 'framer-motion';
-// import PageTransition from '../components/PageTransition';
-// import { SessionProvider } from 'next-auth/react';
+import { SessionProvider } from 'next-auth/react';
 import Head from 'next/head';
 import Overlay from '@/components/Overlay';
 import Header from '@/components/Header/Header';
@@ -30,35 +28,12 @@ function MyApp({ Component, pageProps, session, router }) {
         />
         <link rel='manifest' href='/images/favicon_io/site.webmanifest' />
       </Head>
-      {/* <PageTransition /> */}
-      {/* <SessionProvider session={session}> */}
-      <Overlay />
-      {/* <AnimatePresence
-        mode='wait'
-        initial={false}
-        onExitComplete={() => {
-          if (typeof window !== 'undefined') {
-            window.scrollTo({ top: 0 });
-          }
-        }}
-      >
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          transition={{ duration: 0.5 }}
-          key={router.asPath}
-          className='body'
-        >
-          <Header />
-          <Component {...pageProps} />
-          <Footer />
-        </motion.div>
-      </AnimatePresence> */}
-      <Header />
-      <Component {...pageProps} />
-      <Footer />
-      {/* </SessionProvider> */}
+      <SessionProvider session={session}>
+        <Overlay />
+        <Header />
+        <Component {...pageProps} />
+        <Footer />
+      </SessionProvider>
     </>
   );
 }
