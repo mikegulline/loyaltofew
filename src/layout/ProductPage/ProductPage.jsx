@@ -12,7 +12,7 @@ const ProductPage = ({ product }) => {
         <InfoBlock {...{ product }} />
       </ColumnLayout>
       <LogoGallery {...{ product }} />
-      <div className=' my-10 mb-60 h-0 w-full border-t-4 border-gray-400' />
+      <div className=' my-10 mb-96 h-0 w-full border-t-4 border-gray-400' />
     </PageWrapper>
   );
 };

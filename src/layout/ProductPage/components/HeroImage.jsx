@@ -45,7 +45,7 @@ const HeroImage = ({ product }) => {
           className={
             loading
               ? 'scale-110 opacity-0'
-              : 'duration-400 scale-100 opacity-100 transition-all ease-out'
+              : 'scale-100 opacity-100 transition-all duration-300 ease-out'
           }
         >
           <Image
