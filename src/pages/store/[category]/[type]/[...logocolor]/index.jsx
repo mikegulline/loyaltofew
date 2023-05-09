@@ -6,7 +6,7 @@ import getMeta from '@/utils/getMeta';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import Category from '@/components/Category/Category';
 import Container from '@/components/Container';
-import { useState, useEffect } from 'react';
+import ShowAt from '@/components/ShowAt';
 let fs = require('fs');
 
 const Product = ({ product, category }) => {
@@ -24,6 +24,7 @@ const Product = ({ product, category }) => {
       <ProductPage product={product} />
 
       <div className=' mb-32 h-0 w-full border-t-4 border-gray-400' />
+
       <ShowAt y={200}>
         <Container>
           <h2 className='mb-8 mt-8 text-6xl font-black text-gray-900 md:text-7xl'>
@@ -34,30 +35,6 @@ const Product = ({ product, category }) => {
       </ShowAt>
     </>
   );
-};
-
-const ShowAt = ({ y, children }) => {
-  const [shown, setShown] = useState(false);
-  const [prevY, setPrevY] = useState(null);
-
-  useEffect(() => {
-    if (!shown) {
-      const handleScroll = (e) => {
-        const curY = e.target.documentElement.scrollTop;
-        if (prevY && prevY < curY) {
-          console.log('here', e.target);
-          if (curY >= y) setShown(true);
-        } else console.log('up');
-        setPrevY(curY);
-      };
-      window.addEventListener('scroll', handleScroll);
-      return () => window.removeEventListener('scroll', handleScroll);
-    }
-  });
-
-  if (!shown) return null;
-
-  return <>{children}</>;
 };
 
 export async function getStaticProps(context) {
