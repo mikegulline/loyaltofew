@@ -118,9 +118,8 @@ const ToggleView = ({ showBack, setShowBack, setAnimate }) => {
 
 const WrapColorLinks = ({ color, colors, link }) => {
   if (colors.length <= 1) return null;
-
   return (
-    <div className='rounded-full bg-white py-[6px] px-[10px] shadow-lg'>
+    <div className='rounded-full bg-white py-[6px] px-[10px] shadow-lg  xl:hidden'>
       <ColorLinks
         color={color}
         colors={colors}

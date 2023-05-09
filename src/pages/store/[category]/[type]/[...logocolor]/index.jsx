@@ -23,7 +23,7 @@ const Product = ({ product, category }) => {
 
       <ProductPage product={product} />
 
-      <div className=' mb-32 h-0 w-full border-t-4 border-gray-400' />
+      <div className=' mt-12 mb-32 h-0 w-full border-t-4 border-gray-400' />
 
       <ShowAt y={200}>
         <Container>

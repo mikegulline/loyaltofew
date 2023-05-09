@@ -4,6 +4,7 @@ import WrapColorLinks from './WrapColorLinks';
 import Details from './Details';
 import Dimensions from './Dimensions';
 import SelectSize from './SelectSize';
+import Buttons from './Buttons';
 
 export const InfoBlock = ({ product }) => {
   const { name, color, colors, sizes, details, link } = product;
@@ -47,14 +48,46 @@ export const InfoBlock = ({ product }) => {
     index,
   };
 
+  const sizeToggleProps = {
+    sizes,
+    index,
+    setIndex,
+  };
+
   return (
     <div className='mt-8 w-full px-0 xl:mt-0 xl:px-20 2xl:px-28'>
       <Title {...titleProps} />
       <Dimensions {...dimensionsProps} />
       <Details {...detailsProps} />
-      {/* <WrapColorLinks {...wrapColorLinksProps} /> */}
-      <SelectSize {...selectSizeProps} />
+      <WrapColorLinks {...wrapColorLinksProps} />
+      <SizeToggle {...sizeToggleProps} />
+      <Buttons product={product} index={index} />
     </div>
+  );
+};
+
+const SizeToggle = ({ sizes, index, setIndex }) => {
+  return (
+    <ul className='mb-6 flex gap-1'>
+      {sizes.map(({ size, price }, i) => {
+        return (
+          <li
+            key={size}
+            onClick={() => {
+              setIndex(i);
+            }}
+            className={` flex h-16 w-16 select-none flex-col items-center justify-center rounded border   ${
+              index === i
+                ? ' cursor-crosshair border-red-600 bg-red-600 text-white'
+                : 'cursor-pointer border-gray-300 text-gray-500 hover:border-gray-800 hover:bg-gray-800 hover:text-white'
+            }`}
+          >
+            <div className='h-6 text-xl font-bold'>{size}</div>
+            <div className='text-sm'>${price}</div>
+          </li>
+        );
+      })}
+    </ul>
   );
 };
 

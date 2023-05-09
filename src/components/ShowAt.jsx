@@ -1,26 +1,39 @@
-import { useState, useEffect } from 'react';
+'use client';
+import { useState, useEffect, useRef, useLayoutEffect } from 'react';
 
 const ShowAt = ({ y, children }) => {
-  const [shown, setShown] = useState(false);
+  const [checkLayout, setCheckLayout] = useState(true);
+  const [showPlaceholder, setShowPlaceholder] = useState(true);
   const [prevY, setPrevY] = useState(null);
+  const [height, setHeight] = useState(null);
+  const ref = useRef(null);
+
+  useLayoutEffect(() => {
+    setHeight(ref.current.clientHeight);
+    setCheckLayout(false);
+  }, []);
 
   useEffect(() => {
-    if (!shown) {
+    if (showPlaceholder) {
       const handleScroll = (e) => {
         const curY = e.target.documentElement.scrollTop;
         if (prevY && prevY < curY) {
-          if (curY >= y) setShown(true);
+          if (curY >= y) setShowPlaceholder(false);
         }
         setPrevY(curY);
       };
       window.addEventListener('scroll', handleScroll);
-      return () => window.removeEventListener('scroll', handleScroll);
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
     }
-  });
+  }, [showPlaceholder, prevY, y]);
 
-  if (!shown) return null;
+  if (checkLayout) return <div ref={ref}>{children}</div>;
 
-  return <>{children}</>;
+  if (showPlaceholder) return <div style={{ height: `${height}px` }}></div>;
+
+  return <div>{children}</div>;
 };
 
 export default ShowAt;
