@@ -38,11 +38,17 @@ const Product = ({ product, category }) => {
 
 const ShowAt = ({ y, children }) => {
   const [shown, setShown] = useState(false);
+  const [prevY, setPrevY] = useState(null);
 
   useEffect(() => {
     if (!shown) {
       const handleScroll = (e) => {
-        if (e.target.documentElement.scrollTop >= y) setShown(true);
+        const curY = e.target.documentElement.scrollTop;
+        if (prevY && prevY < curY) {
+          console.log('here', e.target);
+          if (curY >= y) setShown(true);
+        } else console.log('up');
+        setPrevY(curY);
       };
       window.addEventListener('scroll', handleScroll);
       return () => window.removeEventListener('scroll', handleScroll);
