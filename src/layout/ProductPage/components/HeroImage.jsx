@@ -37,53 +37,15 @@ const HeroImage = ({ product }) => {
     setAnimate,
   };
 
-  if (!has_image_back) {
-    return (
-      <div className='image-wrapper relative mb-6'>
-        <div className='relative overflow-hidden rounded bg-[#e5e5e7]'>
-          <Image
-            src={image}
-            alt={name}
-            placeholder='blur'
-            blurDataURL={imageBlur}
-            onLoadingComplete={(e) => setLoading(false)}
-            priority={true}
-            width='744'
-            height='744'
-            className={`${
-              loading
-                ? 'scale-110 blur-2xl'
-                : 'scale-100 blur-0 transition-all duration-1000 ease-out'
-            } max-width-100 block h-auto border-0 bg-[#e5e5e7] outline-none xl:max-w-[606px] 2xl:max-w-[734px] `}
-            // className={`${
-            //   loading
-            //     ? 'scale-110 opacity-0 '
-            //     : 'scale-100 opacity-100 transition-all duration-1000 ease-out'
-            // }max-width-100 block h-auto border-0 bg-[#e5e5e7] outline-none xl:max-w-[606px] 2xl:max-w-[734px]`}
-          />
-        </div>
-        <div className={styles.wrapper_view_back_button}>
-          <WrapColorLinks {...wrapColorLinksProps} />
-          <div className='flex-grow' />
-        </div>
-      </div>
-    );
-  }
-
   return (
     <div className='image-wrapper relative mb-6'>
       <div className='relative overflow-hidden rounded bg-[#e5e5e7]'>
         <div
           className={
             loading
-              ? 'scale-110 blur-2xl'
-              : 'scale-100 blur-0 transition-all duration-1000 ease-out'
+              ? 'scale-110 blur-2xl grayscale'
+              : 'scale-100 blur-0 grayscale-0 transition-all duration-700 ease-out'
           }
-          // className={
-          //   loading
-          //     ? 'scale-110 opacity-0 '
-          //     : 'scale-100 opacity-100 transition-all duration-1000 ease-out'
-          // }
         >
           <Image
             src={image}
@@ -100,21 +62,23 @@ const HeroImage = ({ product }) => {
               animate ? styles.animate : ''
             } max-width-100 block h-auto border-0 bg-[#e5e5e7] outline-none xl:max-w-[606px] 2xl:max-w-[734px]`}
           />
-          <Image
-            src={imageBack}
-            alt={name}
-            width='744'
-            height='744'
-            className={`${showBack ? styles.image_on : styles.image_off} ${
-              animate ? styles.animate : ''
-            } max-width-100 block h-auto border-0 bg-[#e5e5e7] outline-none xl:max-w-[606px] 2xl:max-w-[734px]`}
-          />
+          {has_image_back && (
+            <Image
+              src={imageBack}
+              alt={name}
+              width='744'
+              height='744'
+              className={`${showBack ? styles.image_on : styles.image_off} ${
+                animate ? styles.animate : ''
+              } max-width-100 absolute top-0 block h-auto border-0 bg-[#e5e5e7] outline-none xl:max-w-[606px] 2xl:max-w-[734px]`}
+            />
+          )}
         </div>
       </div>
       <div className={styles.wrapper_view_back_button}>
         <WrapColorLinks {...wrapColorLinksProps} />
         <div className='flex-grow' />
-        <ToggleView {...toggleViewProps} />
+        {has_image_back && <ToggleView {...toggleViewProps} />}
       </div>
     </div>
   );
