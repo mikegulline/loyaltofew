@@ -20,12 +20,7 @@ const LogoGallery = ({ product }) => {
             name,
           };
           return (
-            <GridItem
-              key={name}
-              product={buildProduct}
-              scroll={false}
-              index={i}
-            >
+            <GridItem key={name} product={buildProduct} scroll={true} index={i}>
               <GridItemSelectDot current={current} />
               <h4 className='mt-2 font-medium'>{`${logoName} Design`}</h4>
             </GridItem>

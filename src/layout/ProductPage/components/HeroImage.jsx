@@ -40,11 +40,12 @@ const HeroImage = ({ product }) => {
   return (
     <div className='image-wrapper relative mb-6'>
       <div className='relative overflow-hidden rounded bg-[#e5e5e7]'>
+        {loading && <Spinner />}
         <div
           className={
             loading
-              ? 'scale-110 blur-2xl grayscale'
-              : 'scale-100 blur-0 grayscale-0 transition-all duration-700 ease-out'
+              ? 'scale-110 opacity-0'
+              : 'scale-100 opacity-100 transition-all duration-700 ease-out'
           }
         >
           <Image
@@ -79,6 +80,21 @@ const HeroImage = ({ product }) => {
         <WrapColorLinks {...wrapColorLinksProps} />
         <div className='flex-grow' />
         {has_image_back && <ToggleView {...toggleViewProps} />}
+      </div>
+    </div>
+  );
+};
+
+const Spinner = () => {
+  return (
+    <div className=' absolute top-0 left-0 flex h-full w-full items-center justify-center'>
+      <div className='relative h-10 w-10'>
+        <div className='absolute h-2 w-10 animate-spin'>
+          <div className=' mr-0 ml-auto h-2 w-2 rounded-full bg-white' />
+        </div>
+        <div className='absolute h-2 w-10 animate-spin'>
+          <div className=' mr-auto ml-0 h-2 w-2 rounded-full bg-white' />
+        </div>
       </div>
     </div>
   );
