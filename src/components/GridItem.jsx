@@ -28,7 +28,7 @@ const GridItem = ({ product, scroll = true, index, children }) => {
             className={`${
               loading
                 ? 'scale-110 opacity-0'
-                : `scale-100 opacity-100 transition-all duration-1000 delay-${index}  ease-out`
+                : `duration-400 scale-100 opacity-100 transition-all delay-${index}  ease-out`
             } block h-auto w-full border-0 outline-none `}
             width={310}
             height={310}
