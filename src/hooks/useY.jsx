@@ -5,7 +5,7 @@ const useY = (el) => {
 
   const handleResize = useCallback(() => {
     const element = document.getElementById(el);
-    const curY = element.offsetTop;
+    const curY = element.offsetTop + element.offsetHeight;
     if (y !== curY) {
       setY(curY);
     }
