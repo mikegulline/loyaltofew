@@ -18,28 +18,39 @@ export const authOptions = {
         // password: { label: 'Password', type: 'password' },
       },
       async authorize(credentials, req) {
-        const email = credentials.email;
-        const password = credentials.password;
-        await db.connectDB();
-        const user = await User.findOne({ email });
-        await db.disconnectDB();
-        if (user) {
-          return await SignInUser({ password, user });
-        } else {
-          throw new Error('This email does not exist.');
+        try {
+          const email = credentials.email;
+          const password = credentials.password;
+          await db.connectDB();
+          const user = await User.findOne({ email });
+          await db.disconnectDB();
+          if (user) {
+            return await SignInUser({ password, user });
+          } else {
+            throw new Error('This email does not exist.');
+          }
+        } catch (err) {
+          console.error(
+            '[...nextauth].js authOptions: profiders: authorize',
+            err
+          );
         }
       },
     }),
   ],
   callbacks: {
     async session({ session, token }) {
-      await db.connectDB();
-      let user = await User.findById(token.sub);
-      await db.disconnectDB();
-      session.user._id = token.sub || user._id.toString();
-      session.user.role = user.role || 'user';
-      session.user.emailVerified = user.emailVerified;
-      return session;
+      try {
+        await db.connectDB();
+        let user = await User.findById(token.sub);
+        await db.disconnectDB();
+        session.user._id = token.sub || user._id.toString();
+        session.user.role = user.role || 'user';
+        session.user.emailVerified = user.emailVerified;
+        return session;
+      } catch (err) {
+        console.error('[...nextauth].js authOptions: callbacks: sessions', err);
+      }
     },
   },
   pages: {
@@ -52,15 +63,19 @@ export const authOptions = {
 };
 
 const SignInUser = async ({ password, user }) => {
-  if (!user.password) {
-    throw new Error('Please enter your password.');
-  }
-  const testPassword = await bcrypt.compare(password, user.password);
+  try {
+    if (!user.password) {
+      throw new Error('Please enter your password.');
+    }
+    const testPassword = await bcrypt.compare(password, user.password);
 
-  if (!testPassword) {
-    throw new Error('Email or password is wrong!');
+    if (!testPassword) {
+      throw new Error('Email or password is wrong!');
+    }
+    return user;
+  } catch (err) {
+    console.error('[...nextauth].js SignInUser', err);
   }
-  return user;
 };
 
 export default NextAuth(authOptions);
