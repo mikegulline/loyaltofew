@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { SlRefresh } from 'react-icons/sl';
 import Image from 'next/image';
-import ColorLinks from '@/components/ColorLinks';
 import styles from './HeroImage.module.css';
 
 const HeroImage = ({ product }) => {
@@ -38,7 +37,7 @@ const HeroImage = ({ product }) => {
   };
 
   return (
-    <div className='image-wrapper relative mb-6'>
+    <div className='image-wrapper relative'>
       <div className='relative overflow-hidden rounded bg-[#e5e5e7]'>
         {loading && <Spinner />}
         <div
@@ -115,14 +114,5 @@ const ToggleView = ({ showBack, setShowBack, setAnimate }) => {
     </div>
   );
 };
-
-// const WrapColorLinks = ({ color, colors, link }) => {
-//   if (colors.length <= 1) return null;
-//   return (
-//     <div className='rounded-full bg-white py-[6px] px-[10px] shadow-lg  xl:hidden'>
-//       <ColorLinks color={color} colors={colors} link={link} align='left' />
-//     </div>
-//   );
-// };
 
 export default HeroImage;
