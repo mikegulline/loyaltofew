@@ -13,7 +13,7 @@ const Buttons = ({ product, index }) => {
         data-item-weight={weight}
         className={`${
           i != index ? 'hidden ' : ''
-        } snipcart-add-item font-lighter rounded border border-gray-900 bg-gray-900 text-white hover:border-red-600 hover:bg-red-600`}
+        } snipcart-add-item font-lighter rounded border border-gray-900 bg-gray-900 text-lg text-white hover:border-red-600 hover:bg-red-600`}
       >
         Add to cart
       </button>

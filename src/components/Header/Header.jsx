@@ -69,7 +69,7 @@ const AddToCartButton = ({ handleClick }) => {
   return (
     <div onClick={handleClick}>
       <a
-        className='snipcart-checkout snipcart-summary relative  flex h-12 w-12 items-center justify-center gap-1 rounded-full bg-red-600 text-white hover:bg-gray-900 hover:text-white lg:h-auto lg:w-auto lg:rounded lg:px-4 lg:py-3'
+        className='snipcart-checkout snipcart-summary relative  flex h-12 w-12 items-center justify-center gap-1 rounded bg-red-600 text-white hover:bg-gray-900 hover:text-white lg:h-auto lg:w-auto lg:rounded lg:px-4 lg:py-3'
         href='#'
       >
         <SlBag />
@@ -83,7 +83,7 @@ const OpenCloseMenu = ({ open, openCloseMobileMenu }) => {
   const ShowButton = () =>
     !open ? (
       <div
-        className={`z-10 flex h-12 w-12 cursor-pointer items-center justify-center gap-1 rounded-full bg-gray-300 text-gray-900 hover:bg-gray-900 hover:text-white lg:hidden`}
+        className={`z-10 flex h-12 w-12 cursor-pointer items-center justify-center gap-1 rounded bg-gray-300 text-gray-900 hover:bg-gray-900 hover:text-white lg:hidden`}
         onClick={(e) => {
           openCloseMobileMenu(true);
         }}
@@ -92,7 +92,7 @@ const OpenCloseMenu = ({ open, openCloseMobileMenu }) => {
       </div>
     ) : (
       <div
-        className={`z-10 flex h-12 w-12 cursor-pointer items-center justify-center gap-1 rounded-full bg-red-600 text-white  lg:hidden`}
+        className={`z-10 flex h-12 w-12 cursor-pointer items-center justify-center gap-1 rounded bg-red-600 text-white  lg:hidden`}
         onClick={(e) => {
           openCloseMobileMenu(false);
         }}

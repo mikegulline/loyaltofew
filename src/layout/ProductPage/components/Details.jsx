@@ -4,7 +4,9 @@ const Details = ({ details, thisKey = '' }) => {
   ));
 
   return (
-    <ul className='ml-3 mb-6 list-disc pl-3 text-gray-900'>{buildDetails}</ul>
+    <ul className='ml-3 mb-4 list-disc pl-3 text-gray-900 lg:mb-6'>
+      {buildDetails}
+    </ul>
   );
 };
 

@@ -77,7 +77,7 @@ const HeroImage = ({ product }) => {
         </div>
       </div>
       <div className={styles.wrapper_view_back_button}>
-        <WrapColorLinks {...wrapColorLinksProps} />
+        {/* <WrapColorLinks {...wrapColorLinksProps} /> */}
         <div className='flex-grow' />
         {has_image_back && <ToggleView {...toggleViewProps} />}
       </div>
@@ -116,13 +116,13 @@ const ToggleView = ({ showBack, setShowBack, setAnimate }) => {
   );
 };
 
-const WrapColorLinks = ({ color, colors, link }) => {
-  if (colors.length <= 1) return null;
-  return (
-    <div className='rounded-full bg-white py-[6px] px-[10px] shadow-lg  xl:hidden'>
-      <ColorLinks color={color} colors={colors} link={link} align='left' />
-    </div>
-  );
-};
+// const WrapColorLinks = ({ color, colors, link }) => {
+//   if (colors.length <= 1) return null;
+//   return (
+//     <div className='rounded-full bg-white py-[6px] px-[10px] shadow-lg  xl:hidden'>
+//       <ColorLinks color={color} colors={colors} link={link} align='left' />
+//     </div>
+//   );
+// };
 
 export default HeroImage;

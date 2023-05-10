@@ -21,8 +21,8 @@ const ColorLinks = (props) => {
       {colors.map((color) => {
         const colorName = color.toLowerCase();
         const linkClasses = ` ${
-          small ? 'w-9 h-9 lg:w-11 lg:h-11' : 'w-11 h-11'
-        } cursor-pointer flex items-center justify-center rounded-full border solid border-white -mr-1 -ml-1 ${colorName}`;
+          small ? 'w-6 h-6 lg:w-8 lg:h-8' : 'w-11 h-11'
+        } cursor-pointer flex items-center justify-center rounded mr-1  ${colorName}`;
         const href = `${link}/${colorName}`;
 
         return (
