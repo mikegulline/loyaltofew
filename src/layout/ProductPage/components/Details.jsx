@@ -8,7 +8,7 @@ const Details = ({ details, thisKey = '' }) => {
       <>
         <p
           onClick={() => setShow(false)}
-          className=' mb-4 cursor-pointer select-none text-red-600 underline hover:text-gray-900 lg:mb-6'
+          className=' mb-2 cursor-pointer select-none text-red-600 underline hover:text-gray-900 lg:mb-4'
         >
           Hide
         </p>
