@@ -26,6 +26,7 @@ const Header = () => {
   return (
     <div
       className={`header border-b-4 border-red-600 bg-white ${styles.header}`}
+      id='page-header'
     >
       <MobileMenu
         open={openMobileMenu}

@@ -1,8 +1,10 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import useY from '@/hooks/useY';
 
 const GridItem = ({ product, scroll = true, index, children }) => {
+  const y = useY('page-header');
   const { link, image, imageBlur = null, name } = product;
   const [loading, setLoading] = useState(true);
   const hasImageBlur = {
@@ -19,7 +21,7 @@ const GridItem = ({ product, scroll = true, index, children }) => {
           href={link}
           scroll={false}
           prefetch={false}
-          onClick={() => window.scrollTo(0, 105)}
+          onClick={() => window.scrollTo(0, y)}
         >
           <Image
             src={image}

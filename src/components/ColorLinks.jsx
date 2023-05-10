@@ -1,6 +1,9 @@
 import Link from 'next/link';
+import useY from '@/hooks/useY';
 
 const ColorLinks = (props) => {
+  const y = useY('page-header');
+
   const {
     color: currentColor,
     colors,
@@ -30,7 +33,7 @@ const ColorLinks = (props) => {
             title={color}
             scroll={false}
             prefetch={false}
-            onClick={() => window.scrollTo(0, 105)}
+            onClick={() => window.scrollTo(0, y)}
           >
             <div
               className={`relative h-4 w-4 rounded-full bg-white transition-all ${

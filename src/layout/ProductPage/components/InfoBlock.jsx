@@ -3,7 +3,6 @@ import Title from './Title';
 import WrapColorLinks from './WrapColorLinks';
 import Details from './Details';
 import Dimensions from './Dimensions';
-import SelectSize from './SelectSize';
 import Buttons from './Buttons';
 
 export const InfoBlock = ({ product }) => {
@@ -41,12 +40,6 @@ export const InfoBlock = ({ product }) => {
     color,
     colors: colorsState,
     link,
-  };
-
-  const selectSizeProps = {
-    product,
-    handleChange: setIndex,
-    index,
   };
 
   const sizeToggleProps = {
