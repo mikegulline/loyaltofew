@@ -100,7 +100,7 @@ export default function SignIn({ csrfToken, callbackUrl }) {
   return (
     <InfoSplit image={image}>
       <SignInForm csrfToken={csrfToken} callbackUrl={callbackUrl} />
-      <div className=''>
+      <div className='mt-10'>
         <H1>Sign Up</H1>
         <Formik
           enableReinitialize

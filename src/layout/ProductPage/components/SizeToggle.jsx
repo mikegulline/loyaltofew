@@ -15,7 +15,7 @@ const SizeToggle = ({ sizes, index, setIndex }) => {
     <ul
       className={` ${
         sizes.length > 5 ? 'grid w-[266px] grid-cols-4' : 'flex'
-      } mb-4 gap-1 lg:mb-6 lg:flex lg:w-auto`}
+      } mb-4 gap-1 md:flex md:w-auto lg:mb-6`}
     >
       {sizes.map(({ size, price }, i) => {
         return (
