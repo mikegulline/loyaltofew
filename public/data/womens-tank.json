@@ -17,8 +17,8 @@
   ],
   "type": "Tank",
   "name": "Original Tank",
-  "link": "/store/womens/tank/stenciled/gray",
-  "image": "/images/products/womens/tank/WomensTankStenciledGray.jpg",
+  "link": "/store/womens/tank/original/gray",
+  "image": "/images/products/womens/tank/WomensTankOriginalGray.jpg",
   "has_image_back": true,
   "weight": 2.6,
   "meta": {
@@ -115,8 +115,7 @@
   "details": [
     "Designed, produced & printed in the USA",
     "50% polyester, 25% cotton, 25% rayon",
-    "Lightweight (3.7oz) racerback design",
-    "XS-XL"
+    "Lightweight (3.7oz) racerback design"
   ],
   "category": {
     "category": "Womens",

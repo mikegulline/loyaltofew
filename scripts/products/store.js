@@ -63,7 +63,6 @@ module.exports = [
           'Designed, produced & printed in the USA',
           'Perfect 50/50 blend of cotton & polyester',
           'Super-soft, lightweight (3.8oz) & durable',
-          'S-XXL',
         ],
       },
       {
@@ -115,7 +114,6 @@ module.exports = [
           'Designed, produced & printed in the USA',
           '100% Pre-washed, no-shrink cotton',
           'Lightweight (6.5oz)  and durable',
-          'S-XXL',
         ],
       },
       {
@@ -167,7 +165,6 @@ module.exports = [
           'Designed, produced & printed in the USA',
           '100% cotton grown on a US farm',
           'Lightweight (4.3oz.) & durable',
-          'S-XXL',
         ],
       },
     ],
@@ -229,7 +226,6 @@ module.exports = [
           'Designed, produced & printed in the USA',
           '100% cotton grown on a US farm',
           'Lightweight (4.3oz.) & durable',
-          'S-XXL',
         ],
       },
       {
@@ -276,7 +272,6 @@ module.exports = [
           'Designed, produced & printed in the USA',
           '50% polyester, 25% cotton, 25% rayon',
           'Lightweight (3.7oz) racerback design',
-          'XS-XL',
         ],
       },
       // {
@@ -356,7 +351,6 @@ module.exports = [
           'Wide-fit',
           'Oversized',
           '100% cotton',
-          'One size fits most',
         ],
       },
     ],
@@ -420,7 +414,6 @@ module.exports = [
           'Higher neck line & wide stretch fit',
           'Mid-weight (10oz) & durable',
           'Unisex, check size chart',
-          'S-XXL',
         ],
       },
       {
@@ -472,7 +465,7 @@ module.exports = [
           'Designed, produced & printed in the USA',
           '100% US grown, pre-washed, no-shrink cotton',
           'Heavyweight (14oz) oversized fit',
-          'Unisex, check size-chart, S-XXL',
+          'Unisex, check size-chart',
         ],
       },
 
@@ -527,7 +520,6 @@ module.exports = [
           'Minimal stretch & wide fit',
           'Mid-weight (10oz) & durable',
           'Unisex, check size chart',
-          'S-XXL',
         ],
       },
       {
@@ -580,7 +572,6 @@ module.exports = [
           '100% US-grown, pre-washed, no-shrink cotton',
           'Heavyweight (14oz) over-sized fit',
           'Unisex, check size chart',
-          'S-XXL',
         ],
       },
       {
@@ -627,7 +618,6 @@ module.exports = [
           'Stitched in the USA',
           'Flex-fit lining with adjustable snapback',
           'Poly-spandex blend with performance mesh',
-          'One size fits most',
         ],
       },
     ],

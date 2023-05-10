@@ -17,8 +17,8 @@
   ],
   "type": "Tee",
   "name": "Original Tee",
-  "link": "/store/mens/tee/arch/black",
-  "image": "/images/products/mens/tee/MensTeeArchBlack.jpg",
+  "link": "/store/mens/tee/block/black",
+  "image": "/images/products/mens/tee/MensTeeBlockBlack.jpg",
   "has_image_back": true,
   "weight": 7,
   "meta": {
@@ -133,8 +133,7 @@
   "details": [
     "Designed, produced & printed in the USA",
     "Perfect 50/50 blend of cotton & polyester",
-    "Super-soft, lightweight (3.8oz) & durable",
-    "S-XXL"
+    "Super-soft, lightweight (3.8oz) & durable"
   ],
   "category": {
     "category": "Mens",

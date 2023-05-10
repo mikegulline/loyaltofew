@@ -17,8 +17,8 @@
   ],
   "type": "Oversized-Crop",
   "name": "Original Oversized Crop",
-  "link": "/store/womens/oversized-crop/original/black",
-  "image": "/images/products/womens/oversized-crop/WomensOversized-CropOriginalBlack.jpg",
+  "link": "/store/womens/oversized-crop/block/black",
+  "image": "/images/products/womens/oversized-crop/WomensOversized-CropBlockBlack.jpg",
   "has_image_back": true,
   "weight": 2.9,
   "meta": {
@@ -102,8 +102,7 @@
     "Designed, produced & printed in the USA",
     "Wide-fit",
     "Oversized",
-    "100% cotton",
-    "One size fits most"
+    "100% cotton"
   ],
   "category": {
     "category": "Womens",

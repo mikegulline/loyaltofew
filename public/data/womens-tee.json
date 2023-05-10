@@ -17,8 +17,8 @@
   ],
   "type": "Tee",
   "name": "Original Tee",
-  "link": "/store/womens/tee/arch/gray",
-  "image": "/images/products/womens/tee/WomensTeeArchGray.jpg",
+  "link": "/store/womens/tee/original/gray",
+  "image": "/images/products/womens/tee/WomensTeeOriginalGray.jpg",
   "has_image_back": true,
   "weight": 3.6,
   "meta": {
@@ -122,8 +122,7 @@
   "details": [
     "Designed, produced & printed in the USA",
     "100% cotton grown on a US farm",
-    "Lightweight (4.3oz.) & durable",
-    "S-XXL"
+    "Lightweight (4.3oz.) & durable"
   ],
   "category": {
     "category": "Womens",

@@ -17,8 +17,8 @@
   ],
   "type": "Hoodie",
   "name": "Original Cotton Hoodie",
-  "link": "/store/outerwear/hoodie/stamp/black",
-  "image": "/images/products/outerwear/hoodie/OuterwearHoodieStampBlack.jpg",
+  "link": "/store/outerwear/hoodie/block/black",
+  "image": "/images/products/outerwear/hoodie/OuterwearHoodieBlockBlack.jpg",
   "has_image_back": false,
   "weight": 34.3,
   "meta": {
@@ -122,8 +122,7 @@
     "Designed, produced & printed in the USA",
     "100% US-grown, pre-washed, no-shrink cotton",
     "Heavyweight (14oz) over-sized fit",
-    "Unisex, check size chart",
-    "S-XXL"
+    "Unisex, check size chart"
   ],
   "category": {
     "category": "Outerwear",

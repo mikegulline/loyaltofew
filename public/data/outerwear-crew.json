@@ -17,8 +17,8 @@
   ],
   "type": "Crew",
   "name": "Original Cotton Crew",
-  "link": "/store/outerwear/crew/stenciled/black",
-  "image": "/images/products/outerwear/crew/OuterwearCrewStenciledBlack.jpg",
+  "link": "/store/outerwear/crew/stamp/black",
+  "image": "/images/products/outerwear/crew/OuterwearCrewStampBlack.jpg",
   "has_image_back": true,
   "weight": 9.8,
   "meta": {
@@ -122,7 +122,7 @@
     "Designed, produced & printed in the USA",
     "100% US grown, pre-washed, no-shrink cotton",
     "Heavyweight (14oz) oversized fit",
-    "Unisex, check size-chart, S-XXL"
+    "Unisex, check size-chart"
   ],
   "category": {
     "category": "Outerwear",

@@ -17,8 +17,8 @@
   ],
   "type": "Sleeves",
   "name": "Original Long-Sleeve",
-  "link": "/store/mens/sleeves/stenciled/black",
-  "image": "/images/products/mens/sleeves/MensSleevesStenciledBlack.jpg",
+  "link": "/store/mens/sleeves/arch/black",
+  "image": "/images/products/mens/sleeves/MensSleevesArchBlack.jpg",
   "has_image_back": true,
   "weight": 9.8,
   "meta": {
@@ -120,8 +120,7 @@
   "details": [
     "Designed, produced & printed in the USA",
     "100% cotton grown on a US farm",
-    "Lightweight (4.3oz.) & durable",
-    "S-XXL"
+    "Lightweight (4.3oz.) & durable"
   ],
   "category": {
     "category": "Mens",
