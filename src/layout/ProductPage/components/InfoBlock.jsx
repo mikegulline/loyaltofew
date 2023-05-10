@@ -50,7 +50,7 @@ export const InfoBlock = ({ product }) => {
   };
 
   return (
-    <div className='mt-8 w-full px-0 xl:mt-0 xl:px-20 2xl:px-28'>
+    <div className='mt-4 w-full px-0 xl:mt-0 xl:px-20 2xl:px-28'>
       <Title {...titleProps} />
       <Dimensions {...dimensionsProps} />
       <Details {...detailsProps} />
