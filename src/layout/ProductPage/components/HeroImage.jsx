@@ -37,7 +37,7 @@ const HeroImage = ({ product }) => {
   };
 
   return (
-    <div className='image-wrapper relative'>
+    <div id='hero-image' className='image-wrapper relative'>
       <div className='relative overflow-hidden rounded bg-[#e5e5e7]'>
         {loading && <Spinner />}
         <div

@@ -2,7 +2,7 @@ import Link from 'next/link';
 import useY from '@/hooks/useY';
 
 const ColorLinks = (props) => {
-  const y = useY('page-header');
+  const y = useY('hero-image');
 
   const {
     color: currentColor,
