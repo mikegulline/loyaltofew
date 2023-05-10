@@ -22,7 +22,7 @@ const ShowAt = ({ y, children }) => {
     }
   }, [showPlaceholder, prevY, y]);
 
-  if (showPlaceholder) return <div style={{ height: `2000px` }}></div>;
+  if (showPlaceholder) return <div style={{ height: `5000px` }}></div>;
 
   return <div>{children}</div>;
 };

@@ -5,8 +5,8 @@ const SizeToggle = ({ sizes, index, setIndex }) => {
         <li
           className={` flex h-16 w-auto select-none items-center justify-center gap-2 rounded border px-4`}
         >
-          <div className='text-xl font-bold'>${sizes[index].price}</div>
-          <div className='text-sm'>{sizes[index].size}</div>
+          <div className='text-xl font-bold'>${sizes[0].price}</div>
+          <div className='text-sm'>{sizes[0].size}</div>
         </li>
       </ul>
     );
