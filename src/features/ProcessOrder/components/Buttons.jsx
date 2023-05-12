@@ -25,17 +25,18 @@ const Print = ({ image, handleUpdate, metadata }) => {
   const isPrinted =
     metadata.status === 'Label Printed' || metadata.status === 'Shipped';
 
-  const disable = !isPacked || isPrinted;
+  const disable = !isPacked;
+  // const disable = !isPacked || isPrinted;
 
   return (
     <>
       <div className='hidden'>
-        <div ref={componentRef} className='p-[.25in]'>
+        <div ref={componentRef} className=''>
           <Image
             src={image}
             width={1200}
             height={1800}
-            className='h-[6in] w-[4in]'
+            className='h-full w-full'
             alt='shipping label'
           />
         </div>
