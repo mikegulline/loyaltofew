@@ -7,8 +7,8 @@ export default function mailError() {
     to: 'mike@mikegulline.com',
     from: 'orders@loyaltofew.com',
     subject: `LTF: ERROR`,
-    text: 'message',
-    html: emailTemplate(`message`),
+    text: 'test',
+    html: emailTemplate(`test`),
   };
   sgMail
     .send(msg)

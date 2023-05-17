@@ -22,6 +22,7 @@ handler.post(async (req, res) => {
 
     // 1. check for saved rates and send
     try {
+      throw 'test';
       const hasRates = await Rate.find({
         orderToken: token,
       }).exec();
@@ -52,11 +53,10 @@ handler.post(async (req, res) => {
 
     return res.json({ rates });
   } catch (error) {
-    // mailError(message, error, 'snipcart-get-rates.js');
+    mailError();
     return res.status(500).json({ error });
   } finally {
     await db.disconnectDB();
-    mailError();
   }
 });
 
