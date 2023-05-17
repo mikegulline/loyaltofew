@@ -7,9 +7,14 @@ export default async function mailError({ message, error }, file = '') {
     to: 'mike@mikegulline.com',
     from: 'orders@loyaltofew.com',
     subject: `LTF: ERROR `,
-    text: 'message: ' + message + ' ||| file: ' + file + ' ||| error: ' + error,
+    text: 'Message: ' + message + ' ||| File: ' + file + ' ||| Error: ' + error,
     html: emailTemplate(
-      'message: ' + message + '<br /> file: ' + file + '<br /> error: ' + error
+      '<strong>Message:</strong> ' +
+        message +
+        '<br /><strong>File:</strong> ' +
+        file +
+        '<br /><strong>Error:</strong> ' +
+        error
     ),
   };
   try {
