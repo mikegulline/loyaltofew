@@ -132,9 +132,9 @@ handler.post(async (req, res) => {
     }
 
     return res.json({ message: eventName });
-  } catch ({ message, error }) {
-    mailError(message, error, 'snipcart-order-complete.js');
-    return res.status(500).json({ message, error });
+  } catch (error) {
+    // mailError(message, error, 'snipcart-order-complete.js');
+    return res.status(500).json({ error });
   } finally {
     await db.disconnectDB();
   }
