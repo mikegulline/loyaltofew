@@ -15,6 +15,7 @@ const handler = nc();
 
 handler.post(async (req, res) => {
   const token = req?.body?.content?.token;
+  const email = req?.body?.content?.email;
 
   try {
     // open db once and close in finally
@@ -52,7 +53,7 @@ handler.post(async (req, res) => {
     // 5. return rates
     return res.json({ rates });
   } catch (error) {
-    await mailError(error, 'snipcart-get-rates.js', token);
+    await mailError(error, 'snipcart-get-rates.js', token, email);
     return res.status(500).json({ error });
   } finally {
     await db.disconnectDB();

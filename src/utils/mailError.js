@@ -3,7 +3,9 @@ import emailTemplate from '@/email/emailTemplate';
 export default async function mailError(
   { message, error },
   file = '',
-  token = ''
+  token = '',
+  email = '',
+  invoice = 'none'
 ) {
   const sgMail = require('@sendgrid/mail');
   sgMail.setApiKey(process.env.SENDGRID_FULL_API);
@@ -14,7 +16,11 @@ export default async function mailError(
     text:
       'Token: ' +
       token +
-      'Message: ' +
+      ' ||| Invoice: ' +
+      invoice +
+      ' ||| Email: ' +
+      email +
+      ' ||| Message: ' +
       message +
       ' ||| File: ' +
       file +
@@ -23,7 +29,11 @@ export default async function mailError(
     html: emailTemplate(
       '<strong>Token:</strong> ' +
         token +
-        '<strong>Message:</strong> ' +
+        '<br /><strong>Invoice:</strong> ' +
+        invoice +
+        '<br /><strong>Email:</strong> ' +
+        email +
+        '<br /><strong>Message:</strong> ' +
         message +
         '<br /><strong>File:</strong> ' +
         file +

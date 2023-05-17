@@ -128,7 +128,13 @@ handler.post(async (req, res) => {
     return res.json({ message: eventName });
   } catch (error) {
     // ROOT CATCH
-    await mailError(error, 'snipcart-order-complete.js', token);
+    await mailError(
+      error,
+      'snipcart-order-complete.js',
+      token,
+      email,
+      invoiceNumber
+    );
     return res.status(500).json({ error });
   } finally {
     // FINALLY
