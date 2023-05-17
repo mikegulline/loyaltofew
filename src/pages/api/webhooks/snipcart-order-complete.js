@@ -59,6 +59,7 @@ handler.post(async (req, res) => {
 
     // 3. get tracking url from api
     try {
+      throw { shipping };
       tracking = await api.Tracker.retrieve(shipping.tracker.id);
     } catch (error) {
       throw { message: 'getting tracking url error ', error };
