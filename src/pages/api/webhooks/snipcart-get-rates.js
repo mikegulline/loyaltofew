@@ -51,8 +51,8 @@ handler.post(async (req, res) => {
 
     // 5. return rates
     return res.json({ rates });
-  } catch (error) {
-    await mailError(error.toString());
+  } catch ({ message, error }) {
+    await mailError(`${message} ||| ${error}`);
     return res.status(500).json({ error });
   } finally {
     await db.disconnectDB();
