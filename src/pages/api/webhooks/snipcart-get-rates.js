@@ -23,7 +23,6 @@ handler.post(async (req, res) => {
 
     // 1. check for saved rates and send
     try {
-      throw 'test';
       const hasRates = await Rate.find({
         orderToken: token,
       }).exec();
