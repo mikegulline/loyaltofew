@@ -10,6 +10,7 @@ import db from '@/utils/db';
 import api from '@/utils/easyPostApi';
 import Rate from '@/models/rate';
 import Order from '@/models/order';
+import mailError from '@/utils/mailError';
 
 const handler = nc();
 
@@ -127,6 +128,7 @@ handler.post(async (req, res) => {
     return res.json({ message: eventName });
   } catch (error) {
     // ROOT CATCH
+    await mailError(error, 'snipcart-order-complete.js');
     return res.status(500).json({ error });
   } finally {
     // FINALLY
