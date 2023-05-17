@@ -133,7 +133,7 @@ handler.post(async (req, res) => {
 
     return res.json({ message: eventName });
   } catch ({ message, error }) {
-    mailError(message, error, 'snipcart-get-rates.js');
+    mailError(message, error, 'snipcart-order-complete.js');
     return res.status(500).json({ message, error });
   } finally {
     await db.disconnectDB();
