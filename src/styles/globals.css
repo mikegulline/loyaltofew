@@ -125,7 +125,6 @@ textarea {
   vertical-align: middle;
   white-space: normal;
   cursor: pointer;
-  /* Browsers have different default form fonts */
   font-size: 1rem;
   font-family: inherit;
 }
@@ -354,4 +353,11 @@ select[multiple] {
 
 .home-slideshow .swiper-wrapper {
   padding-bottom: 40px;
+}
+.snipcart-button-primary {
+  background-color: #dc2626;
+}
+.snipcart-button-primary:hover {
+  background-color: #111827;
+  box-shadow: none;
 }
