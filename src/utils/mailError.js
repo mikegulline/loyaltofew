@@ -1,6 +1,10 @@
 import emailTemplate from '@/email/emailTemplate';
 
-export default async function mailError({ message, error }, file = '') {
+export default async function mailError(
+  { message, error },
+  file = '',
+  token = ''
+) {
   const sgMail = require('@sendgrid/mail');
   sgMail.setApiKey(process.env.SENDGRID_FULL_API);
   const msg = {
@@ -8,6 +12,8 @@ export default async function mailError({ message, error }, file = '') {
     from: 'orders@loyaltofew.com',
     subject: `LTF: ERROR `,
     text:
+      'Token: ' +
+      token +
       'Message: ' +
       message +
       ' ||| File: ' +
@@ -15,7 +21,9 @@ export default async function mailError({ message, error }, file = '') {
       ' ||| Error: ' +
       JSON.stringify(error),
     html: emailTemplate(
-      '<strong>Message:</strong> ' +
+      '<strong>Token:</strong> ' +
+        token +
+        '<strong>Message:</strong> ' +
         message +
         '<br /><strong>File:</strong> ' +
         file +
