@@ -26,34 +26,33 @@ handler.post(async (req, res) => {
         orderToken: token,
       }).exec();
       if (hasRates?.length) return res.json({ rates: hasRates });
-    } catch (errors) {
-      return res.status(500).json({ message: 'error finding rates', errors });
+    } catch (error) {
+      throw { message: 'error finding rates', error };
     }
 
     // 2. get rates if none found
-    const { rates, errors } = await getRates(req.body);
+    const { rates, error } = await getRates(req.body);
 
-    // 3. return errors or none found if problem
-    if (errors) {
-      return res.status(500).json({ message: 'error getting rates', errors });
+    // 3. return error or none found if problem
+    if (error) {
+      throw { message: 'error getting rates', error };
     }
     if (!rates?.length) {
-      return res
-        .status(500)
-        .json({ message: 'error getting rates (no rates)', rates });
+      throw { message: 'error getting rates (no rates)', rates };
     }
 
     // 4. save returned rates to db
     try {
       await Rate.insertMany(rates);
-    } catch (errors) {
-      return res.status(500).json({ message: 'error saving rates', errors });
+    } catch (error) {
+      throw { message: 'error saving rates', error };
     }
 
     // 5. return rates
     return res.json({ rates });
-  } catch (error) {
-    mailError(error, 'snipcart-get-rates.js');
+  } catch ({ message, error }) {
+    mailError(message, error, 'snipcart-get-rates.js');
+    return res.status(500).json({ message, error });
   } finally {
     await db.disconnectDB();
   }
