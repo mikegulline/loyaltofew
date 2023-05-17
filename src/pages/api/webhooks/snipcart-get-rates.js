@@ -28,6 +28,7 @@ handler.post(async (req, res) => {
       }).exec();
       if (hasRates?.length) return res.json({ rates: hasRates });
     } catch (error) {
+      await mailError();
       throw { message: 'error finding rates', error };
     }
 
@@ -50,10 +51,8 @@ handler.post(async (req, res) => {
     }
 
     // 5. return rates
-
     return res.json({ rates });
   } catch (error) {
-    await mailError();
     return res.status(500).json({ error });
   } finally {
     await db.disconnectDB();
