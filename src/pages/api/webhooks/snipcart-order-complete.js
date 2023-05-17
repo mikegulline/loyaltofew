@@ -10,6 +10,7 @@ import db from '@/utils/db';
 import api from '@/utils/easyPostApi';
 import Rate from '@/models/rate';
 import Order from '@/models/order';
+import mailError from '@/utils/mailError';
 
 const handler = nc();
 
@@ -44,12 +45,10 @@ handler.post(async (req, res) => {
         return res.status(500).json({ error: 'could not find rates' });
       }
     } catch (error) {
-      return res
-        .status(500)
-        .json({
-          message: 'get saved rates by orderToken and cost from db error',
-          error,
-        });
+      return res.status(500).json({
+        message: 'get saved rates by orderToken and cost from db error',
+        error,
+      });
     }
 
     // 2. get and buy rates
@@ -125,12 +124,10 @@ handler.post(async (req, res) => {
         to_address: shipping.to_address.id,
       });
     } catch (error) {
-      return res
-        .status(500)
-        .json({
-          message: 'save order token and invoice number to mongodb error',
-          error,
-        });
+      return res.status(500).json({
+        message: 'save order token and invoice number to mongodb error',
+        error,
+      });
     }
 
     // delete rates
@@ -141,6 +138,8 @@ handler.post(async (req, res) => {
     }
 
     return res.json({ message: eventName });
+  } catch (error) {
+    mailError(error, 'snipcart-order-complete.js');
   } finally {
     await db.disconnectDB();
   }
