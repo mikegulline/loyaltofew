@@ -4,7 +4,7 @@ export default function mailError(message, error, file) {
   const sgMail = require('@sendgrid/mail');
   sgMail.setApiKey(process.env.SENDGRID_FULL_API);
   const msg = {
-    to: 'mike@mikegulline.cpom',
+    to: 'mike@mikegulline.com',
     from: process.env.RETURNS_EMAIL,
     subject: `LTF: ERROR (${file})`,
     text: message,
