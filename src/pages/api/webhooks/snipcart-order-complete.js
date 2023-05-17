@@ -42,13 +42,13 @@ handler.post(async (req, res) => {
         cost: shippingFees,
       }).exec();
       if (!rates?.length) {
-        return res.status(500).json({ error: 'could not find rates' });
+        throw { error: 'could not find rates' };
       }
     } catch (error) {
-      return res.status(500).json({
+      throw {
         message: 'get saved rates by orderToken and cost from db error',
         error,
-      });
+      };
     }
 
     // 2. get and buy rates
@@ -57,18 +57,14 @@ handler.post(async (req, res) => {
 
       shipping = await shipment.buy(rates[0].rate_id);
     } catch (error) {
-      return res
-        .status(500)
-        .json({ message: 'get and buy rates error', error });
+      throw { message: 'get and buy rates error', error };
     }
 
     // 3. get tracking url from api
     try {
       tracking = await api.Tracker.retrieve(shipping.tracker.id);
     } catch (error) {
-      return res
-        .status(500)
-        .json({ message: 'getting tracking url error ', error });
+      throw { message: 'getting tracking url error ', error };
     }
     // create a 0 filled array for packing
     let a = new Array(totalItems);
@@ -109,9 +105,7 @@ handler.post(async (req, res) => {
         }
       );
     } catch (error) {
-      return res
-        .status(500)
-        .json({ message: 'save tracking info to snipcart error', error });
+      throw { message: 'save tracking info to snipcart error', error };
     }
 
     // save order token and invoice number to mongodb
@@ -124,22 +118,23 @@ handler.post(async (req, res) => {
         to_address: shipping.to_address.id,
       });
     } catch (error) {
-      return res.status(500).json({
+      throw {
         message: 'save order token and invoice number to mongodb error',
         error,
-      });
+      };
     }
 
     // delete rates
     try {
       await Rate.deleteMany({ orderToken: token });
     } catch (error) {
-      return res.status(500).json({ message: 'delete rates error', error });
+      throw { message: 'delete rates error', error };
     }
 
     return res.json({ message: eventName });
-  } catch (error) {
-    mailError(error, 'snipcart-order-complete.js');
+  } catch ({ message, error }) {
+    mailError(message, error, 'snipcart-get-rates.js');
+    return res.status(500).json({ message, error });
   } finally {
     await db.disconnectDB();
   }
