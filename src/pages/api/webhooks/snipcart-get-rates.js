@@ -49,12 +49,13 @@ handler.post(async (req, res) => {
     }
 
     // 5. return rates
-    mailError('the message', 'the error', 'snipcart-get-rates.js');
+
     return res.json({ rates });
   } catch (error) {
     // mailError(message, error, 'snipcart-get-rates.js');
     return res.status(500).json({ error });
   } finally {
+    mailError('the message', 'the error', 'snipcart-get-rates.js');
     await db.disconnectDB();
   }
 });
