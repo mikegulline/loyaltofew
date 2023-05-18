@@ -50,20 +50,63 @@ handler.post(async (req, res) => {
 
     // 2. get and buy rates
     try {
+      // const shipment = await api.Shipment.retrieve(rates[0].shipment_id);
+      // shipping = await shipment.buy(rates[0].rate_id);
       const shipment = await api.Shipment.retrieve(rates[0].shipment_id);
-
-      shipping = await shipment.buy(rates[0].rate_id);
+      shipping = await api.Shipment.buy(shipment.id, rates[0].rate_id);
     } catch (error) {
       throw { message: 'get and buy rates error', error };
     }
 
     // 3. get tracking url from api
-    try {
-      throw { shipping };
-      tracking = await api.Tracker.retrieve(shipping.tracker.id);
-    } catch (error) {
-      throw { message: 'getting tracking url error ', error };
+    (async () => {
+      try {
+        tracking = await api.Tracker.retrieve(shipping.tracker.id);
+      } catch (error) {
+        await mailError(
+          {
+            message:
+              'getting tracking url error :' +
+              JSON.stringify(tracking) +
+              JSON.stringify(shipping),
+            error,
+          },
+          'snipcart-order-complete.js',
+          token,
+          email,
+          invoiceNumber
+        );
+        tracking = { public_url: 'none' };
+      }
+    })();
+
+    if (tracking?.public_url === 'none') {
+      (async () => {
+        try {
+          tracking = await api.Tracker.retrieve(shipping.tracker.id);
+        } catch (error) {
+          await mailError(
+            {
+              message:
+                'getting tracking url error2 :' +
+                JSON.stringify(tracking) +
+                JSON.stringify(shipping),
+              error,
+            },
+            'snipcart-order-complete.js',
+            token,
+            email,
+            invoiceNumber
+          );
+        }
+      })();
     }
+    // try {
+    //   tracking = await api.Tracker.retrieve(shipping.tracker.id);
+    // } catch (error) {
+    //   throw { message: 'getting tracking url error ', error };
+    // }
+
     // create a 0 filled array for packing
     let a = new Array(totalItems);
     for (let i = 0; i < totalItems; i++) a[i] = 0;
