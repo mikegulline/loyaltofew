@@ -101,6 +101,19 @@ handler.post(async (req, res) => {
         }
       })();
     }
+    await mailError(
+      {
+        message:
+          'check tracking:' +
+          JSON.stringify(tracking) +
+          JSON.stringify(shipping),
+        error: 'none',
+      },
+      'snipcart-order-complete.js',
+      token,
+      email,
+      invoiceNumber
+    );
     // try {
     //   tracking = await api.Tracker.retrieve(shipping.tracker.id);
     // } catch (error) {
