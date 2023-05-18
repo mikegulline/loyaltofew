@@ -57,6 +57,8 @@ handler.post(async (req, res) => {
     }
 
     // 3. get tracking url from api
+    await new Promise((r) => setTimeout(r, 3000));
+
     (async () => {
       try {
         tracking = await api.Tracker.retrieve(shipping.tracker.id);
