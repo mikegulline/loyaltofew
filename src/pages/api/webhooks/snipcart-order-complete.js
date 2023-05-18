@@ -57,7 +57,7 @@ handler.post(async (req, res) => {
     }
 
     // 3. get tracking url from api
-    await new Promise((r) => setTimeout(r, 3000));
+    await new Promise((r) => setTimeout(r, 5000));
 
     try {
       try {
@@ -78,20 +78,6 @@ handler.post(async (req, res) => {
         );
       }
     } catch (error) {}
-
-    await mailError(
-      {
-        message:
-          'check tracking:' +
-          JSON.stringify(tracking) +
-          JSON.stringify(shipping),
-        error: 'none',
-      },
-      'snipcart-order-complete.js',
-      token,
-      email,
-      invoiceNumber
-    );
 
     // try {
     //   tracking = await api.Tracker.retrieve(shipping.tracker.id);

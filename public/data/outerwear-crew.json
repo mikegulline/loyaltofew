@@ -88,27 +88,27 @@
   "sizes": [
     {
       "size": "S",
-      "price": 70,
+      "price": 75,
       "dimensions": "Body Length: 26 7/8 in, Chest Width: 20 in., Sleeve Length: 23 3/4 in."
     },
     {
       "size": "M",
-      "price": 70,
+      "price": 75,
       "dimensions": "Body Length: 28 in., Chest Width: 22 in., Sleeve Length: 24 1/4 in."
     },
     {
       "size": "L",
-      "price": 70,
+      "price": 75,
       "dimensions": "Body Length: 29 1/8 in., Chest Width: 24 in., Sleeve Length: 24 3/4 in."
     },
     {
       "size": "XL",
-      "price": 70,
+      "price": 75,
       "dimensions": "Body Length: 30 1/4 in., Chest Width: 26 in., Sleeve Length: 25 1/4 in."
     },
     {
       "size": "XXL",
-      "price": 70,
+      "price": 75,
       "dimensions": "Body Length: 31 3/8 in., Chest Width: 28 in., Sleeve Length: 25 3/4 in."
     }
   ],

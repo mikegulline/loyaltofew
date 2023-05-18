@@ -52,22 +52,22 @@
   "sizes": [
     {
       "size": "S",
-      "price": 25,
+      "price": 32,
       "dimensions": "Body Length: 25 3/4 in., Chest Width: 13 5/8 in."
     },
     {
       "size": "M",
-      "price": 25,
+      "price": 32,
       "dimensions": "Body Length: 26 3/8 in., Chest Width: 14 5/8 in."
     },
     {
       "size": "L",
-      "price": 25,
+      "price": 32,
       "dimensions": "Body Length: 27 1/4 in., Chest Width: 16 1/8 in."
     },
     {
       "size": "XL",
-      "price": 25,
+      "price": 32,
       "dimensions": "Body Length: 27 3/4 in., Chest Width: 17 in."
     }
   ],

@@ -23,37 +23,37 @@ module.exports = [
         sizes: [
           {
             size: 'S',
-            price: 1,
+            price: 32,
             dimensions:
               'Body Length: 28 1/2 in., Chest Width: 18 in., Sleeve Length: 8 in.',
           },
           {
             size: 'M',
-            price: 35,
+            price: 32,
             dimensions:
               'Body Length: 29 1/2 in., Chest Width: 20 in., Sleeve Length: 8 1/4 in.',
           },
           {
             size: 'L',
-            price: 35,
+            price: 32,
             dimensions:
               'Body Length: 30 1/2 in., Chest Width: 22 in., Sleeve Length: 8 1/2 in.',
           },
           {
             size: 'XL',
-            price: 35,
+            price: 32,
             dimensions:
               'Body Length: 31 1/2 in., Chest Width: 24 in., Sleeve Length: 8 3/4 in.',
           },
           {
             size: 'XXL',
-            price: 35,
+            price: 32,
             dimensions:
               'Body Length: 32 1/2 in., Chest Width:  26 in., Sleeve Length: 9 in.',
           },
           {
             size: 'XXXL',
-            price: 35,
+            price: 32,
             dimensions:
               'Body Length: 32 1/2 in., Chest Width:  26 in., Sleeve Length: 9 in.',
             colors: ['Black', 'Gray', 'Maroon', 'Navy'],
@@ -80,33 +80,28 @@ module.exports = [
         },
         sizes: [
           {
-            size: 'XS',
-            price: 28,
-            dimensions: 'Body Length: 27 3/8 in., Chest Width: 16 1/2 in.',
-          },
-          {
             size: 'S',
-            price: 28,
+            price: 32,
             dimensions: 'Body Length: 28 3/8 in., Chest Width:  18 in.',
           },
           {
             size: 'M',
-            price: 28,
+            price: 32,
             dimensions: 'Body Length: 29 3/8 in., Chest Width:  20 in.',
           },
           {
             size: 'L',
-            price: 28,
+            price: 32,
             dimensions: 'Body Length: 30 3/8 in., Chest Width:  22 in.',
           },
           {
             size: 'XL',
-            price: 28,
+            price: 32,
             dimensions: 'Body Length: 31 3/8 in., Chest Width:  24 in.',
           },
           {
             size: 'XXL',
-            price: 30,
+            price: 32,
             dimensions: 'Body Length: 32 3/8 in., Chest Width:  26 in.',
           },
         ],
@@ -132,33 +127,40 @@ module.exports = [
         sizes: [
           {
             size: 'S',
-            price: 38,
+            price: 35,
             dimensions:
               'Body Length: 28 3/8 in., Chest Width: 18 in., Sleeve Length: 27 1/8 in.',
           },
           {
             size: 'M',
-            price: 38,
+            price: 35,
             dimensions:
               'Body Length: 29 1/2 in., Chest Width: 20 in., Sleeve Length: 27 5/8 in.',
           },
           {
             size: 'L',
-            price: 38,
+            price: 35,
             dimensions:
               'Body Length: 30 5/8 in., Chest Width: 22 in., Sleeve Length: 27 7/8 in.',
           },
           {
             size: 'XL',
-            price: 38,
+            price: 35,
             dimensions:
               'Body Length: 31 1/4 in., Chest Width: 24 in., Sleeve Length: 28 1/4 in.',
           },
           {
             size: 'XXL',
-            price: 38,
+            price: 35,
             dimensions:
               'Body Length: 32 7/8 in., Chest Width: 26 in., Sleeve Length: 28 5/8 in.',
+          },
+          {
+            size: 'XXXL',
+            price: 35,
+            dimensions:
+              'Body Length: 32 7/8 in., Chest Width: 26 in., Sleeve Length: 28 5/8 in.',
+            colors: ['Black', 'Gray'],
           },
         ],
         details: [
@@ -193,33 +195,34 @@ module.exports = [
         sizes: [
           {
             size: 'S',
-            price: 28,
+            price: 32,
             dimensions:
               'Body Length: 25 7/8 in., Chest Width: 16 1/8 in., Sleeve Length: 6 3/8 in.',
           },
           {
             size: 'M',
-            price: 28,
+            price: 32,
             dimensions:
               'Body Length: 26 1/2 in., Chest Width: 16 5/8 in., Sleeve Length: 6 5/8 in.',
           },
           {
             size: 'L',
-            price: 28,
+            price: 32,
             dimensions:
               'Body Length: 27 1/8 in., Chest Width: 17 1/8 in., Sleeve Length: 6 7/8 in.',
           },
           {
             size: 'XL',
-            price: 28,
+            price: 32,
             dimensions:
               'Body Length: 27 3/4 in., Chest Width: 17 5/8 in., Sleeve Length: 7 1/8 in.',
           },
           {
             size: 'XXL',
-            price: 30,
+            price: 32,
             dimensions:
               'Body Length: 28 1/4 in., Chest Width: 18 in., Sleeve Length: 7 3/8 in.	',
+            colors: ['Red', 'Navy'],
           },
         ],
         details: [
@@ -249,22 +252,22 @@ module.exports = [
           // },
           {
             size: 'S',
-            price: 25,
+            price: 32,
             dimensions: 'Body Length: 25 3/4 in., Chest Width: 13 5/8 in.',
           },
           {
             size: 'M',
-            price: 25,
+            price: 32,
             dimensions: 'Body Length: 26 3/8 in., Chest Width: 14 5/8 in.',
           },
           {
             size: 'L',
-            price: 25,
+            price: 32,
             dimensions: 'Body Length: 27 1/4 in., Chest Width: 16 1/8 in.',
           },
           {
             size: 'XL',
-            price: 25,
+            price: 32,
             dimensions: 'Body Length: 27 3/4 in., Chest Width: 17 in.',
           },
         ],
@@ -341,7 +344,7 @@ module.exports = [
         sizes: [
           {
             size: 'One Size Fits Most',
-            price: 30,
+            price: 32,
             dimensions:
               'Body Length: 19 3/4 in., Chest Width: 20 3/4 in., Sleeve Length: 8 5/8 in.',
           },
@@ -379,31 +382,31 @@ module.exports = [
         sizes: [
           {
             size: 'S',
-            price: 60,
+            price: 65,
             dimensions:
               'Body Length: 26 in, Chest Width: 22 in., Across Shoulder: 21 1/2 in, Armhole Depth: 11 1/2 in, Sleeve Length: 23 3/8 in.',
           },
           {
             size: 'M',
-            price: 60,
+            price: 65,
             dimensions:
               'Body Length: 27 in., Chest Width: 24 in., Across Shoulder: 23 in, Armhole Depth: 11 7/8 in, Sleeve Length: 23 7/8 in.',
           },
           {
             size: 'L',
-            price: 60,
+            price: 65,
             dimensions:
               'Body Length: 28 in., Chest Width: 26 in., Across Shoulder: 24 1/2 in, Armhole Depth: 12 1/4in, Sleeve Length: 24 3/8 in.',
           },
           {
             size: 'XL',
-            price: 60,
+            price: 65,
             dimensions:
               'Body Length: 29 in., Chest Width: 28 in., Across Shoulder: 26 in, Armhole Depth: 12 5/8in, Sleeve Length: 24 7/8 in.',
           },
           {
             size: 'XXL',
-            price: 60,
+            price: 65,
             dimensions:
               'Body Length: 30 in., Chest Width: 30 in., Across Shoulder: 27 1/2 in, Armhole Depth: 13 in, Sleeve Length: 25 3/8 in.',
           },
@@ -432,31 +435,31 @@ module.exports = [
         sizes: [
           {
             size: 'S',
-            price: 70,
+            price: 75,
             dimensions:
               'Body Length: 26 7/8 in, Chest Width: 20 in., Sleeve Length: 23 3/4 in.',
           },
           {
             size: 'M',
-            price: 70,
+            price: 75,
             dimensions:
               'Body Length: 28 in., Chest Width: 22 in., Sleeve Length: 24 1/4 in.',
           },
           {
             size: 'L',
-            price: 70,
+            price: 75,
             dimensions:
               'Body Length: 29 1/8 in., Chest Width: 24 in., Sleeve Length: 24 3/4 in.',
           },
           {
             size: 'XL',
-            price: 70,
+            price: 75,
             dimensions:
               'Body Length: 30 1/4 in., Chest Width: 26 in., Sleeve Length: 25 1/4 in.',
           },
           {
             size: 'XXL',
-            price: 70,
+            price: 75,
             dimensions:
               'Body Length: 31 3/8 in., Chest Width: 28 in., Sleeve Length: 25 3/4 in.',
           },
@@ -484,31 +487,31 @@ module.exports = [
         sizes: [
           {
             size: 'S',
-            price: 60,
+            price: 70,
             dimensions:
               'Body Length: 26 in, Chest Width: 22 in., Across Shoulder: 21 1/2 in, Armhole Depth: 11 1/2 in, Sleeve Length: 23 3/8 in.',
           },
           {
             size: 'M',
-            price: 60,
+            price: 70,
             dimensions:
               'Body Length: 27 in., Chest Width: 24 in., Across Shoulder: 23 in, Armhole Depth: 11 7/8 in, Sleeve Length: 23 7/8 in.',
           },
           {
             size: 'L',
-            price: 60,
+            price: 70,
             dimensions:
               'Body Length: 28 in., Chest Width: 26 in., Across Shoulder: 24 1/2 in, Armhole Depth: 12 1/4in, Sleeve Length: 24 3/8 in.',
           },
           {
             size: 'XL',
-            price: 60,
+            price: 70,
             dimensions:
               'Body Length: 29 in., Chest Width: 28 in., Across Shoulder: 26 in, Armhole Depth: 12 5/8in, Sleeve Length: 24 7/8 in.',
           },
           {
             size: 'XXL',
-            price: 60,
+            price: 70,
             dimensions:
               'Body Length: 30 in., Chest Width: 30 in., Across Shoulder: 27 1/2 in, Armhole Depth: 13 in, Sleeve Length: 25 3/8 in.',
           },
@@ -538,33 +541,40 @@ module.exports = [
         sizes: [
           {
             size: 'S',
-            price: 76,
+            price: 80,
             dimensions:
               'Body Length: 26 1/2 in., Chest Width: 20 1/8 in., Sleeve Length: 23 1/2 in.',
           },
           {
             size: 'M',
-            price: 76,
+            price: 80,
             dimensions:
               'Body Length: 27 3/4 in., Chest Width: 22 1/8 in., Sleeve Length: 23 7/8 in.',
           },
           {
             size: 'L',
-            price: 76,
+            price: 80,
             dimensions:
               'Body Length: 28 7/8 in., Chest Width: 24 1/8 in., Sleeve Length: 24 3/8 in.',
           },
           {
             size: 'XL',
-            price: 76,
+            price: 80,
             dimensions:
               'Body Length: 30 in., Chest Width: 26 1/8 in., Sleeve Length: 25 in.',
           },
           {
             size: 'XXL',
-            price: 78,
+            price: 80,
             dimensions:
               'Body Length: 31 1/8 in, Chest Width: 28 1/8 in., Sleeve Length: 25 1/2 in.',
+          },
+          {
+            size: 'XXXL',
+            price: 80,
+            dimensions:
+              'Body Length: 31 1/8 in, Chest Width: 28 1/8 in., Sleeve Length: 25 1/2 in.',
+            colors: ['Black'],
           },
         ],
         details: [
@@ -589,7 +599,7 @@ module.exports = [
         sizes: [
           {
             size: 'Fits All',
-            price: 20,
+            price: 30,
           },
         ],
         details: ['Made in the USA', 'Snug, comfort fit'],

@@ -17,8 +17,8 @@
   ],
   "type": "Oversized-Crop",
   "name": "Original Oversized Crop",
-  "link": "/store/womens/oversized-crop/original/black",
-  "image": "/images/products/womens/oversized-crop/WomensOversized-CropOriginalBlack.jpg",
+  "link": "/store/womens/oversized-crop/arch/black",
+  "image": "/images/products/womens/oversized-crop/WomensOversized-CropArchBlack.jpg",
   "has_image_back": true,
   "weight": 2.9,
   "meta": {
@@ -88,7 +88,7 @@
   "sizes": [
     {
       "size": "One Size Fits Most",
-      "price": 30,
+      "price": 32,
       "dimensions": "Body Length: 19 3/4 in., Chest Width: 20 3/4 in., Sleeve Length: 8 5/8 in."
     }
   ],

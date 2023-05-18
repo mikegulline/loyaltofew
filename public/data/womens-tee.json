@@ -17,8 +17,8 @@
   ],
   "type": "Tee",
   "name": "Original Tee",
-  "link": "/store/womens/tee/original/gray",
-  "image": "/images/products/womens/tee/WomensTeeOriginalGray.jpg",
+  "link": "/store/womens/tee/stenciled/gray",
+  "image": "/images/products/womens/tee/WomensTeeStenciledGray.jpg",
   "has_image_back": true,
   "weight": 3.6,
   "meta": {
@@ -88,28 +88,32 @@
   "sizes": [
     {
       "size": "S",
-      "price": 28,
+      "price": 32,
       "dimensions": "Body Length: 25 7/8 in., Chest Width: 16 1/8 in., Sleeve Length: 6 3/8 in."
     },
     {
       "size": "M",
-      "price": 28,
+      "price": 32,
       "dimensions": "Body Length: 26 1/2 in., Chest Width: 16 5/8 in., Sleeve Length: 6 5/8 in."
     },
     {
       "size": "L",
-      "price": 28,
+      "price": 32,
       "dimensions": "Body Length: 27 1/8 in., Chest Width: 17 1/8 in., Sleeve Length: 6 7/8 in."
     },
     {
       "size": "XL",
-      "price": 28,
+      "price": 32,
       "dimensions": "Body Length: 27 3/4 in., Chest Width: 17 5/8 in., Sleeve Length: 7 1/8 in."
     },
     {
       "size": "XXL",
-      "price": 30,
-      "dimensions": "Body Length: 28 1/4 in., Chest Width: 18 in., Sleeve Length: 7 3/8 in.\t"
+      "price": 32,
+      "dimensions": "Body Length: 28 1/4 in., Chest Width: 18 in., Sleeve Length: 7 3/8 in.\t",
+      "colors": [
+        "Red",
+        "Navy"
+      ]
     }
   ],
   "colors": [

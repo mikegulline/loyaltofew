@@ -17,8 +17,8 @@
   ],
   "type": "Sleeves",
   "name": "Original Long-Sleeve",
-  "link": "/store/mens/sleeves/block/black",
-  "image": "/images/products/mens/sleeves/MensSleevesBlockBlack.jpg",
+  "link": "/store/mens/sleeves/stenciled/black",
+  "image": "/images/products/mens/sleeves/MensSleevesStenciledBlack.jpg",
   "has_image_back": true,
   "weight": 9.8,
   "meta": {
@@ -88,28 +88,37 @@
   "sizes": [
     {
       "size": "S",
-      "price": 38,
+      "price": 35,
       "dimensions": "Body Length: 28 3/8 in., Chest Width: 18 in., Sleeve Length: 27 1/8 in."
     },
     {
       "size": "M",
-      "price": 38,
+      "price": 35,
       "dimensions": "Body Length: 29 1/2 in., Chest Width: 20 in., Sleeve Length: 27 5/8 in."
     },
     {
       "size": "L",
-      "price": 38,
+      "price": 35,
       "dimensions": "Body Length: 30 5/8 in., Chest Width: 22 in., Sleeve Length: 27 7/8 in."
     },
     {
       "size": "XL",
-      "price": 38,
+      "price": 35,
       "dimensions": "Body Length: 31 1/4 in., Chest Width: 24 in., Sleeve Length: 28 1/4 in."
     },
     {
       "size": "XXL",
-      "price": 38,
+      "price": 35,
       "dimensions": "Body Length: 32 7/8 in., Chest Width: 26 in., Sleeve Length: 28 5/8 in."
+    },
+    {
+      "size": "XXXL",
+      "price": 35,
+      "dimensions": "Body Length: 32 7/8 in., Chest Width: 26 in., Sleeve Length: 28 5/8 in.",
+      "colors": [
+        "Black",
+        "Gray"
+      ]
     }
   ],
   "colors": [
