@@ -28,7 +28,7 @@ handler.post(async (req, res) => {
   // set up vars
   let rates;
   let shipping;
-  let tracking;
+  let tracking = { public_url: 'none' };
   const totalItems = items.length;
 
   try {
@@ -59,7 +59,7 @@ handler.post(async (req, res) => {
     // 3. get tracking url from api
     await new Promise((r) => setTimeout(r, 3000));
 
-    (async () => {
+    try {
       try {
         tracking = await api.Tracker.retrieve(shipping.tracker.id);
       } catch (error) {
@@ -76,31 +76,9 @@ handler.post(async (req, res) => {
           email,
           invoiceNumber
         );
-        tracking = { public_url: 'none' };
       }
-    })();
+    } catch (error) {}
 
-    if (tracking?.public_url === 'none') {
-      (async () => {
-        try {
-          tracking = await api.Tracker.retrieve(shipping.tracker.id);
-        } catch (error) {
-          await mailError(
-            {
-              message:
-                'getting tracking url error2 :' +
-                JSON.stringify(tracking) +
-                JSON.stringify(shipping),
-              error,
-            },
-            'snipcart-order-complete.js',
-            token,
-            email,
-            invoiceNumber
-          );
-        }
-      })();
-    }
     await mailError(
       {
         message:
@@ -114,6 +92,7 @@ handler.post(async (req, res) => {
       email,
       invoiceNumber
     );
+
     // try {
     //   tracking = await api.Tracker.retrieve(shipping.tracker.id);
     // } catch (error) {
