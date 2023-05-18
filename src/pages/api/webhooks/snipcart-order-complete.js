@@ -50,10 +50,8 @@ handler.post(async (req, res) => {
 
     // 2. get and buy rates
     try {
-      // const shipment = await api.Shipment.retrieve(rates[0].shipment_id);
-      // shipping = await shipment.buy(rates[0].rate_id);
       const shipment = await api.Shipment.retrieve(rates[0].shipment_id);
-      shipping = await api.Shipment.buy(shipment.id, rates[0].rate_id);
+      shipping = await shipment.buy(rates[0].rate_id);
     } catch (error) {
       throw { message: 'get and buy rates error', error };
     }
