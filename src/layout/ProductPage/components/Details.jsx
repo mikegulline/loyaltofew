@@ -10,8 +10,4 @@ const Details = ({ details, thisKey = '' }) => {
   );
 };
 
-const useScreenWidth = (width) => {
-  const [w, setW] = useState(null);
-};
-
 export default Details;

@@ -74,6 +74,7 @@ const useProductInfo = (product) => {
     wrapColorLinksProps,
     sizeToggleProps,
     buttonsProps,
+    sizesState,
   };
 };
 
