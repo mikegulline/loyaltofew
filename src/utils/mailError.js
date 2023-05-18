@@ -42,9 +42,8 @@ export default async function mailError(
     ),
   };
   try {
-    await sgMail.send(msg).then(() => {
-      console.log('error email sent');
-    });
+    await sgMail.send(msg);
+    console.log('error email sent');
   } catch (error) {
     console.log(error);
   }
