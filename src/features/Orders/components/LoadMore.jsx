@@ -1,8 +1,8 @@
-import axios from 'axios';
 import { useState } from 'react';
+import apiOrders from '@/utils/api-orders';
 import FormToasts from '@/components/FormToasts';
 
-const LoadMore = ({ orders, setOrders, total, setTotal, limit }) => {
+const LoadMore = ({ orderType, orders, setOrders, total, setTotal, limit }) => {
   const [fetching, setFetching] = useState(false);
   const [error, setError] = useState('');
   const [success, setSuccess] = useState('');
@@ -12,16 +12,9 @@ const LoadMore = ({ orders, setOrders, total, setTotal, limit }) => {
       setFetching('Fetching orders…');
       setSuccess('');
       setError('');
-      const { data } = await axios.get(
-        `${process.env.NEXT_PUBLIC_BASE_URL}api/admin/orders`,
-        {
-          params: {
-            status: 'pending',
-            limit: limit,
-            offset: orders.length,
-          },
-        }
-      );
+
+      const data = await apiOrders(orderType, limit, orders.length);
+
       setTotal(data.totalItems);
       setOrders([...orders, ...data.items]);
       setFetching(false);

@@ -18,9 +18,9 @@
         {
           "name": "Original Tee",
           "type": "Tee",
-          "link": "/store/mens/tee/stamp/black",
-          "image": "/images/products/mens/tee/MensTeeStampBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ANDQ0oiIiouKitnZ2QCvr7AyLy8/Ozu2trcA+fj7BwAAGRMO9fT1APr7/HVyc398e/z8/dSZHG6zG2hRAAAAAElFTkSuQmCC",
+          "link": "/store/mens/tee/block/black",
+          "image": "/images/products/mens/tee/MensTeeBlockBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ANXV15GRlIWEiMjIygCenqBCQUJJR0exsLMA9fP2FA4KDQAA09DRAP///2lmZmtoaOjo6MrFG18Qnp67AAAAAElFTkSuQmCC",
           "logos": [
             {
               "logo": "Arch"
@@ -147,9 +147,9 @@
         {
           "name": "Original Tank",
           "type": "Tank",
-          "link": "/store/womens/tank/stamp/gray",
-          "image": "/images/products/womens/tank/WomensTankStampGray.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/5WVmKSkpvz8/wDr6+4nJCQ7NjTy8vUAtLS2EQAAGQUAtrOzAMPDxTw3NEY/O8fGxwxKGsNcuPiXAAAAAElFTkSuQmCC",
+          "link": "/store/womens/tank/original/gray",
+          "image": "/images/products/womens/tank/WomensTankOriginalGray.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/5+foK+vsf39/wDw8PRBPTtLRkL08/cA0NDREwEAFgAAxsXFANbW11RPTV5XUtLR0jldHPSEe7WlAAAAAElFTkSuQmCC",
           "logos": [
             {
               "logo": "Arch"
@@ -274,9 +274,9 @@
         {
           "name": "Original 50/50 Hoodie",
           "type": "50-50-Hoodie",
-          "link": "/store/outerwear/50-50-hoodie/original/black",
-          "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieOriginalBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/8LBxMDAwv7+/wDz8/ZkXl0/PDzW19kA6urrLigoBwEBxcXHAPb2+YaGh39/f/T093PzICM1U67vAAAAAElFTkSuQmCC",
+          "link": "/store/outerwear/50-50-hoodie/stenciled/black",
+          "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieStenciledBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP///7OztMTExP39/wDFxcdQUE9QT06+vr8AgoKCFRQQBAMAeHh3AM7O0WVlY19fX8jIyRU/GwIFRPNEAAAAAElFTkSuQmCC",
           "logos": [
             {
               "logo": "Arch"
@@ -301,9 +301,9 @@
         {
           "name": "Original Cotton Hoodie",
           "type": "Hoodie",
-          "link": "/store/outerwear/hoodie/stenciled/black",
-          "image": "/images/products/outerwear/hoodie/OuterwearHoodieStenciledBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/7S0tcXFxf39/wDHx8hSUVBRUE+/vr8AhIODFhUSBAMAenl5ANHR0WZmZWFhYMnJyhjGGzABPBmHAAAAAElFTkSuQmCC",
+          "link": "/store/outerwear/hoodie/block/black",
+          "image": "/images/products/outerwear/hoodie/OuterwearHoodieBlockBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8/rKys76+wPz8/gDf3+JHQkJAPT3Z2dwAx8fHBwEBDQoKv7/AAOfo6l9fX29vcO3t8DwaHZ60CXddAAAAAElFTkSuQmCC",
           "logos": [
             {
               "logo": "Arch"

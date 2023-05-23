@@ -1,6 +1,6 @@
-import axios from 'axios';
 import { getSession } from 'next-auth/react';
 import { Orders } from '@/features/Orders';
+import apiOrders from '@/utils/api-orders';
 
 export default function OrdersPage({ passOrders, limit, totalItems }) {
   const ordersProps = { passOrders, limit, totalItems };
@@ -18,31 +18,13 @@ export async function getServerSideProps(context) {
       },
     };
   }
-
-  let orders;
-  try {
-    orders = await axios.get(
-      `${process.env.NEXT_PUBLIC_BASE_URL}api/admin/orders`,
-      {
-        params: {
-          status: 'pending',
-          limit: 10,
-          offset: 0,
-        },
-      }
-    );
-  } catch (errors) {
-    console.log({
-      message: 'getting orders',
-      errors,
-    });
-  }
-  const { totalItems, limit, items } = orders.data;
+  const data = await apiOrders('pending', 10, 0);
+  const { totalItems, limit, items: passOrders } = data;
   return {
     props: {
       totalItems,
       limit,
-      passOrders: items,
+      passOrders,
     },
   };
 }

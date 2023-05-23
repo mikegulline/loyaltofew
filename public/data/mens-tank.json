@@ -17,8 +17,8 @@
   ],
   "type": "Tank",
   "name": "Original Tank",
-  "link": "/store/mens/tank/arch/black",
-  "image": "/images/products/mens/tank/MensTankArchBlack.jpg",
+  "link": "/store/mens/tank/original/black",
+  "image": "/images/products/mens/tank/MensTankOriginalBlack.jpg",
   "has_image_back": true,
   "weight": 5.7,
   "meta": {
