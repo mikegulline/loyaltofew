@@ -1,6 +1,7 @@
 import nc from 'next-connect';
 import api from '@/utils/easyPostApi';
 import emailTemplate from '@/email/emailTemplate';
+import mailError from '@/utils/mailError';
 import Return from '@/models/return';
 import db from '@/utils/db';
 
@@ -152,13 +153,29 @@ async function getShipping(req) {
   const { rates } = await shipment.save();
   const rate = rates.sort((a, b) => Number(a.rate) - Number(b.rate))[0];
   const shipping = await shipment.buy(rate.id);
-  const tracking = await api.Tracker.retrieve(shipping.tracker.id);
-  console.log('shipping purchased');
 
+  await new Promise((r) => setTimeout(r, 5000));
+
+  let tracking;
+
+  try {
+    tracking = await api.Tracker.retrieve(shipping.tracker.id);
+  } catch (error) {
+    await mailError(
+      {
+        message: 'error getting trackint',
+        error,
+      },
+      'return-start.js',
+      false,
+      false,
+      false
+    );
+  }
   return {
     label_url: shipping.postage_label.label_url,
     label_size: shipping.postage_label.label_size,
-    tracking_url: tracking.public_url,
+    tracking_url: tracking?.public_url,
     tracking_number: shipping.tracking_code,
     tracker_id: shipping.tracker.id,
     shipment_id: shipping.selected_rate.shipment_id,

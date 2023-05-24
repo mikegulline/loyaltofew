@@ -17,6 +17,9 @@ const orderSchema = new mongoose.Schema(
     to_address: {
       type: 'String',
     },
+    tracker_id: {
+      type: 'String',
+    },
   },
   {
     timestamps: true,

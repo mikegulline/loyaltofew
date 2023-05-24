@@ -135,6 +135,7 @@ handler.post(async (req, res) => {
         parcel: shipping.parcel.id,
         from_address: shipping.from_address.id,
         to_address: shipping.to_address.id,
+        tracker_id: shipping.tracker.id,
       });
     } catch (error) {
       throw { message: 'save order token and invoice', error };
