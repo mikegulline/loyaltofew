@@ -7,8 +7,8 @@ export default async function mail(info, subject) {
     to: 'mike@mikegulline.com',
     from: 'orders@loyaltofew.com',
     subject: `LTF: ${subject}`,
-    text: JSON.stringify(info),
-    html: emailTemplate(JSON.stringify(info)),
+    text: info,
+    html: emailTemplate(info),
   };
   try {
     await sgMail.send(msg);
