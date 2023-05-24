@@ -46,3 +46,5 @@ const getOrderToken = async (id) => {
   }
   return null;
 };
+
+export default handler;
