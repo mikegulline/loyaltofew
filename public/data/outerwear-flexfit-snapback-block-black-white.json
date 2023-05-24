@@ -1,0 +1,60 @@
+{
+  "id": "outerwearflexfit-snapbackblockblack-white",
+  "name": "Flexfit Snapback with Block Design",
+  "link": "/store/outerwear/flexfit-snapback/block",
+  "image": "/images/products/outerwear/flexfit-snapback/OuterwearFlexfit-SnapbackBlockBlack-White.jpg",
+  "imageBack": "/images/products/outerwear/flexfit-snapback/OuterwearFlexfit-SnapbackBackBlack-White.jpg",
+  "has_image_back": false,
+  "color": "Black-White",
+  "logo": "Block",
+  "weight": 14.4,
+  "meta": {
+    "title": "Flexfit Snapback Hat",
+    "description": "Flex-fit lining with adjustable snapback. Poly-spandex blend with performance mesh."
+  },
+  "colors": [
+    "Black-White",
+    "Gray-White",
+    "Navy-White"
+  ],
+  "logos": [
+    {
+      "logo": "Block",
+      "link": "/store/outerwear/flexfit-snapback/block/black-white",
+      "image": "/images/products/outerwear/flexfit-snapback/OuterwearFlexfit-SnapbackBlockBlack-White.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr6/6SkqK+yt/7+/wC6v8YfKjYyTGDK1N0AiYyRAAMQDiY4oq25AMTDxbGvtKqqr8DDyRBiHOrELC7qAAAAAElFTkSuQmCC"
+    }
+  ],
+  "sizes": [
+    {
+      "size": "Adjustable",
+      "price": 30
+    }
+  ],
+  "details": [
+    "Stitched in the USA",
+    "Flex-fit lining with adjustable snapback",
+    "Poly-spandex blend with performance mesh"
+  ],
+  "type": "Flexfit-Snapback",
+  "breadcrumbs": [
+    [
+      "Store",
+      "/store"
+    ],
+    [
+      "Outerwear",
+      "/store/outerwear"
+    ],
+    [
+      "Flexfit Snapback",
+      "/store/outerwear/flexfit-snapback"
+    ],
+    [
+      "Block (Black-White)",
+      ""
+    ]
+  ],
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr6/6SkqK+yt/7+/wC6v8YfKjYyTGDK1N0AiYyRAAMQDiY4oq25AMTDxbGvtKqqr8DDyRBiHOrELC7qAAAAAElFTkSuQmCC",
+  "name_root": "Flexfit Snapback"
+}

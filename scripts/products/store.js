@@ -605,15 +605,15 @@ module.exports = [
         details: ['Made in the USA', 'Snug, comfort fit'],
       },
       {
-        type: 'Snapback',
-        product: 'Trucker Snapback',
+        type: 'Flexfit-Snapback',
+        product: 'Flexfit Snapback',
         has_image_back: false,
         logos: ['Block'],
         colors: ['Black-White', 'Gray-White', 'Navy-White'],
         tags: ['Accessories'],
         weight: 14.4,
         meta: {
-          title: 'Trucker Snapback Hat',
+          title: 'Flexfit Snapback Hat',
           description:
             'Flex-fit lining with adjustable snapback. Poly-spandex blend with performance mesh.',
         },

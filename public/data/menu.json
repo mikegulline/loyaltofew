@@ -5,15 +5,15 @@
     "subMenu": [
       {
         "name": "Original Tee",
-        "location": "/store/mens/tee/original/black"
+        "location": "/store/mens/tee/block/black"
       },
       {
         "name": "Original Tank",
-        "location": "/store/mens/tank/block/black"
+        "location": "/store/mens/tank/stamp/black"
       },
       {
         "name": "Original Long-Sleeve",
-        "location": "/store/mens/sleeves/stenciled/black"
+        "location": "/store/mens/sleeves/original/black"
       }
     ]
   },
@@ -23,11 +23,11 @@
     "subMenu": [
       {
         "name": "Original Tee",
-        "location": "/store/womens/tee/block/gray"
+        "location": "/store/womens/tee/arch/gray"
       },
       {
         "name": "Original Tank",
-        "location": "/store/womens/tank/arch/gray"
+        "location": "/store/womens/tank/stenciled/gray"
       },
       {
         "name": "Original Oversized Crop",
@@ -41,27 +41,27 @@
     "subMenu": [
       {
         "name": "Original 50/50 Crew",
-        "location": "/store/outerwear/50-50-crew/original/black"
+        "location": "/store/outerwear/50-50-crew/block/black"
       },
       {
         "name": "Original Cotton Crew",
-        "location": "/store/outerwear/crew/block/black"
+        "location": "/store/outerwear/crew/stamp/black"
       },
       {
         "name": "Original 50/50 Hoodie",
-        "location": "/store/outerwear/50-50-hoodie/stamp/black"
+        "location": "/store/outerwear/50-50-hoodie/arch/black"
       },
       {
         "name": "Original Cotton Hoodie",
-        "location": "/store/outerwear/hoodie/original/black"
+        "location": "/store/outerwear/hoodie/arch/black"
       },
       {
         "name": "Knit Beanie",
         "location": "/store/outerwear/beanie/block/black"
       },
       {
-        "name": "Trucker Snapback",
-        "location": "/store/outerwear/snapback/block/black-white"
+        "name": "Flexfit Snapback",
+        "location": "/store/outerwear/flexfit-snapback/block/black-white"
       }
     ]
   },

@@ -197,13 +197,13 @@
       ]
     },
     {
-      "name": "Trucker Snapback",
-      "link": "/store/outerwear/snapback",
+      "name": "Flexfit Snapback",
+      "link": "/store/outerwear/flexfit-snapback",
       "logos": [
         {
           "logo": "Block",
-          "link": "/store/outerwear/snapback/block",
-          "image": "/images/products/outerwear/snapback/OuterwearSnapbackBlockBlack-White.jpg",
+          "link": "/store/outerwear/flexfit-snapback/block",
+          "image": "/images/products/outerwear/flexfit-snapback/OuterwearFlexfit-SnapbackBlockBlack-White.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr6/6SkqK+yt/7+/wC6v8YfKjYyTGDK1N0AiYyRAAMQDiY4oq25AMTDxbGvtKqqr8DDyRBiHOrELC7qAAAAAElFTkSuQmCC"
         }
       ],
