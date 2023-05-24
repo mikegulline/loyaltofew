@@ -9,10 +9,10 @@ handler.post(async (req, res) => {
   res.status(200).json({ message: 'check' });
 });
 
-handler.get(async (req, res) => {
-  await mail(JSON.stringify(req.body), 'easypost-tracking.js');
+// handler.get(async (req, res) => {
+//   await mail(JSON.stringify(req.body), 'easypost-tracking.js');
 
-  res.status(200).json({ message: 'check' });
-});
+//   res.status(200).json({ message: 'check' });
+// });
 
 export default handler;
