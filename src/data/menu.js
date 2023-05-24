@@ -35,8 +35,8 @@ export const outerwearMenu = [
   },
   { name: 'Knit Beanie', location: '/store/outerwear/beanie/block/black' },
   {
-    name: 'Trucker Snapback',
-    location: '/store/outerwear/snapback/block/black-white',
+    name: 'Flexfit Snapback',
+    location: '/store/outerwear/flexfit-snapback/block/black-white',
   },
 ];
 
