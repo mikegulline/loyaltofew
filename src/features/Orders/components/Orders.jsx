@@ -44,14 +44,17 @@ export default function Orders({ passOrders, limit, totalItems }) {
     [current, orders, total]
   );
 
-  const Overlay = () =>
-    current != null ? (
-      <ProcessOrder
-        orders={orders}
-        current={current}
-        nextClose={updateOrdersNextClose}
-      />
-    ) : null;
+  const Overlay = useCallback(
+    () =>
+      current != null ? (
+        <ProcessOrder
+          orders={orders}
+          current={current}
+          nextClose={updateOrdersNextClose}
+        />
+      ) : null,
+    [orders, current, updateOrdersNextClose]
+  );
 
   const headerProps = {
     orders,
