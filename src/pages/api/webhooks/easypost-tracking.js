@@ -10,7 +10,7 @@ handler.post(async (req, res) => {
 });
 
 handler.get(async (req, res) => {
-  await mail('test', 'easypost-tracking.js');
+  await mail(req, 'easypost-tracking.js');
 
   res.status(200).json({ message: 'check' });
 });
