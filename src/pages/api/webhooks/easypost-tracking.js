@@ -8,31 +8,29 @@ import db from '@/utils/db';
 const handler = nc();
 
 handler.post(async (req, res) => {
-  const { id, object, status, tracking_details } = req.body;
+  // const { id, object, status, tracking_details } = req.body;
 
-  if (tracking_details?.length === 1) {
-    const orderToken = getOrderToken(id);
-  }
+  // if (tracking_details?.length === 1) {
+  //   const orderToken = getOrderToken(id);
+  // }
 
-  if (status === 'out_for_delivery') {
-  }
+  // if (status === 'out_for_delivery') {
+  // }
 
-  if (status === 'delivered') {
-  }
+  // if (status === 'delivered') {
+  // }
 
   await mailError(
     {
-      message:
-        'easypost tracking :' +
-        JSON.stringify({ req, id, object, status, tracking_details }),
-      error: none,
+      message: 'easypost tracking :' + JSON.stringify({ req }),
+      error: 'none',
     },
     'easypost-tracking.js',
     false,
     false,
     false
   );
-  res.statusCode(200);
+  res.status(200).json({ message: 'check' });
 });
 
 const getOrderToken = async (id) => {
