@@ -52,7 +52,8 @@ handler.post(async (req, res) => {
 
     const message = mailMessage(order, tracking_details, public_url);
 
-    await mail(message, 'easypost-tracking.js');
+    await mail(order.email, 'LTF Order Tracking Update', message);
+    await mail('mike@mikegulline.com', 'easypost-tracking.js', message);
   }
 
   res.status(200).json({ message: 'check' });
