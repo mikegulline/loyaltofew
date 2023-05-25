@@ -22,21 +22,23 @@ handler.post(async (req, res) => {
 
   const { order, error: tokenError } = await getOrderByToken(orderToken);
 
-  await mail(
-    JSON.stringify({
-      description,
-      result: {
-        id,
-        status,
-        status_detail,
-        est_delivery_date,
-        tracking_details,
-        orderToken,
-        email: order.email,
-      },
-    }),
-    'easypost-tracking.js'
-  );
+  if (order) {
+    await mail(
+      JSON.stringify({
+        description,
+        result: {
+          id,
+          status,
+          status_detail,
+          est_delivery_date,
+          tracking_details,
+          orderToken,
+          email: order.email,
+        },
+      }),
+      'easypost-tracking.js'
+    );
+  }
 
   res.status(200).json({ message: 'check' });
 });
