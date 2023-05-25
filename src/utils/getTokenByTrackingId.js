@@ -1,13 +1,12 @@
 import Order from '@/models/order';
 import db from '@/utils/db';
 
-const getTokenByInvoiceNumber = async (invoiceNumber) => {
-  const findOrder = { invoiceNumber: invoiceNumber.toUpperCase() };
+const getTokenByTrackingId = async (tracker_id) => {
   try {
     await db.connectDB();
-    const order = await Order.findOne(findOrder, 'orderToken').exec();
+    const order = await Order.findOne({ tracker_id }, 'orderToken').exec();
     await db.disconnectDB();
-    console.log(order);
+
     if (!order) {
       const sendError = {
         orderToken: null,
@@ -27,4 +26,4 @@ const getTokenByInvoiceNumber = async (invoiceNumber) => {
   }
 };
 
-export default getTokenByInvoiceNumber;
+export default getTokenByTrackingId;

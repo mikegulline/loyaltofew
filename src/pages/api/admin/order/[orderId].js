@@ -7,7 +7,7 @@ import emailTemplate from '@/email/emailTemplate';
 
 const handler = new nc();
 
-// get order info from snipcart
+// get order info from snipcart by invoice number
 handler.get(async (req, res) => {
   const { orderId: invoiceNumber } = req.query;
   const { orderToken, error } = await getTokenByInvoiceNumber(invoiceNumber);
