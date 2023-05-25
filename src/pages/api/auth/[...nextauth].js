@@ -9,7 +9,7 @@ import User from '@/models/user';
 import db from '@/utils/db';
 
 export const authOptions = {
-  adapter: MongoDBAdapter(clientPromise),
+  // adapter: MongoDBAdapter(clientPromise),
   providers: [
     CredentialsProvider({
       name: 'Credentials',
@@ -19,11 +19,10 @@ export const authOptions = {
       },
       async authorize(credentials, req) {
         try {
+          await db.connectDB();
           const email = credentials.email;
           const password = credentials.password;
-          await db.connectDB();
           const user = await User.findOne({ email });
-          await db.disconnectDB();
           if (user) {
             return await SignInUser({ password, user });
           } else {
@@ -34,6 +33,8 @@ export const authOptions = {
             '[...nextauth].js authOptions: profiders: authorize',
             err
           );
+        } finally {
+          await db.disconnectDB();
         }
       },
     }),
@@ -43,13 +44,14 @@ export const authOptions = {
       try {
         await db.connectDB();
         let user = await User.findById(token.sub);
-        await db.disconnectDB();
         session.user._id = token.sub || user._id.toString();
         session.user.role = user.role || 'user';
         session.user.emailVerified = user.emailVerified;
         return session;
       } catch (err) {
-        console.error('[...nextauth].js authOptions: callbacks: sessions', err);
+        // console.error('[...nextauth].js authOptions: callbacks: sessions', err);
+      } finally {
+        await db.disconnectDB();
       }
     },
   },

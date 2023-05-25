@@ -2,12 +2,13 @@ import nc from 'next-connect';
 import mail from '@/utils/mail';
 import getTokenByTrackingId from '@/utils/getTokenByTrackingId';
 import getOrderByToken from '@/utils/getOrderByToken';
+import handleProcessOrder from '@/utils/handleProcessOrder';
 
 const handler = nc();
 
 handler.post(async (req, res) => {
   const {
-    result: { id, status, tracking_details, public_url },
+    result: { id, status: currentStatus, tracking_details, public_url },
   } = req.body;
 
   // get SC order token from Mongo by Tracking Id
@@ -28,11 +29,26 @@ handler.post(async (req, res) => {
     ];
 
     //return if bad status
-    const noStatus = statusArray.indexOf(status) == -1;
+    const noStatus = statusArray.indexOf(currentStatus) == -1;
     if (noStatus) return res.status(200).json({ message: 'continue' });
     //return if no tracking details
     const noTracking = !tracking_details.length;
     if (noTracking) return res.status(200).json({ message: 'continue' });
+
+    //updated status in SC
+    const inTransit =
+      currentStatus === 'in_transit' && order.status === 'Pending';
+    if (currentStatus === 'delivered' || inTransit) {
+      const status = inTransit ? 'Shipped' : 'Delivered';
+      const update = {
+        status,
+        metadata: {
+          ...order.metadata,
+          status,
+        },
+      };
+      await handleProcessOrder(orderToken, update);
+    }
 
     const message = mailMessage(order, tracking_details, public_url);
 

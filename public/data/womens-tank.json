@@ -17,8 +17,8 @@
   ],
   "type": "Tank",
   "name": "Original Tank",
-  "link": "/store/womens/tank/original/gray",
-  "image": "/images/products/womens/tank/WomensTankOriginalGray.jpg",
+  "link": "/store/womens/tank/stenciled/gray",
+  "image": "/images/products/womens/tank/WomensTankStenciledGray.jpg",
   "has_image_back": true,
   "weight": 2.6,
   "meta": {
