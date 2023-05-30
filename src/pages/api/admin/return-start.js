@@ -114,8 +114,7 @@ function textEmail(carrier, invoice_number, refund, label_url) {
   We will notify you by email when your refund has been issued.
   
   Thank you for being a loyal customer,
-  Matt Sagoian
-  Owner, Loyal To Few®
+  Loyal To Few®
   
   Shipping Label URL: ${label_url}`;
 }
@@ -137,7 +136,7 @@ function htmlEmail(carrier, invoice_number, refund, label_url, items) {
   )}.</p>
   <p>We will notify you by email when your refund has been issued.</p>
   ${items}
-  <p>Thank you for being a loyal customer,<br/>Matt Sagoian<br/>Owner, Loyal To Few®</p>
+  <p>Thank you for being a loyal customer,<br/>Loyal To Few®</p>
   <p>If you are having trouble finding the shipping label in this email, please <a href="${label_url}">click here to view your shipping label online</a>.</p>
   <center><a href="${label_url}"><img src="${label_url}" alt="shipping label" style="width: 350px; max-width: 100%; height: auto" /></a></center>`;
   return emailTemplate(body);

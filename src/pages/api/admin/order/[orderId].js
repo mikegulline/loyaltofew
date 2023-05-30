@@ -90,23 +90,19 @@ function textEmail(tracking_url, invoice_number) {
   return `
 Order Packed (${invoice_number})
 
-Your order has been packed and will be shipped either today or tomorrow.
-    
-You may track your package using the following URL.
+Your order is packaged and out the door for delivery, click here for tracking information. Please note that it may take up to 24 hours to reflect on the carrier's site.
 
 ${tracking_url}
 
 Thank you for being a loyal customer,
-Matt Sagoian
-Owner, Loyal To Few®`;
+Loyal To Few®`;
 }
 
 function htmlEmail(tracking_url, invoice_number) {
   const body = `
   <h2>Order Packed (${invoice_number})</h2>
-  <p>Your order has been packed and will be shipped either today or tomorrow.</p>
-  <p>You may click here to <a href="${tracking_url}" title="Click here to track your package">track your package</a>.</p>
-  <p>Thank you for being a loyal customer,<br/>Matt Sagoian<br/>Owner, Loyal To Few®</p>`;
+  <p>Your order is packaged and out the door for delivery, <a href="${tracking_url}" title="Click here to track your package">click here</a> for tracking information. Please note that it may take up to 24 hours to reflect on the carrier's site.</p>
+  <p>Thank you for being a loyal customer,<br/>Loyal To Few®</p>`;
   return emailTemplate(body);
 }
 

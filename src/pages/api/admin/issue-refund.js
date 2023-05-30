@@ -119,8 +119,7 @@ A refund has been issued to your credit card in the amount of $${amount.toFixed(
   )}.
 
 Thank you for being a loyal customer,
-Matt Sagoian
-Owner, Loyal To Few®`;
+Loyal To Few®`;
 }
 
 function htmlEmail(amount, invoice_number) {
@@ -130,7 +129,7 @@ function htmlEmail(amount, invoice_number) {
   <p>A refund has been issued to your credit card in the amount of $${amount.toFixed(
     2
   )}.</p>
-  <p>Thank you for being a loyal customer,<br/>Matt Sagoian<br/>Owner, Loyal To Few®</p>`;
+  <p>Thank you for being a loyal customer,<br/>Loyal To Few®</p>`;
   return emailTemplate(body);
 }
 
