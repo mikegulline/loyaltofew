@@ -25,23 +25,23 @@ export default function Orders({ passOrders, limit, totalItems }) {
   const updateOrdersNextClose = useCallback(
     (orderToUpdate, next) => {
       let updateOrders = orders.map((order, i) =>
-        current === i ? orderToUpdate : order
+        orderToUpdate.token === order.token ? orderToUpdate : order
       );
 
       let isNext = next;
 
-      if (orderToUpdate.status === 'Shipped') {
+      if (orderToUpdate.status === 'Shipped' && orderType === 'pending') {
         updateOrders = updateOrders.filter(
           (order) => order.status !== 'Shipped'
         );
         isNext = next > 0 ? 0 : next;
         setTotal(total - 1);
+        console.log('s', total);
       }
-
       setOrders(updateOrders);
       setCurrent(next ? current + isNext : null);
     },
-    [current, orders, total]
+    [current, orders, total, orderType]
   );
 
   const Overlay = useCallback(
