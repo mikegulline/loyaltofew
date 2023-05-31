@@ -30,18 +30,18 @@ export default function Orders({ passOrders, limit, totalItems }) {
 
       let isNext = next;
 
-      if (orderToUpdate.status === 'Shipped' && orderType === 'pending') {
-        updateOrders = updateOrders.filter(
-          (order) => order.status !== 'Shipped'
-        );
-        isNext = next > 0 ? 0 : next;
-        setTotal(total - 1);
-        console.log('s', total);
-      }
+      // if (orderToUpdate.status === 'Shipped' && orderType === 'pending') {
+      //   updateOrders = updateOrders.filter(
+      //     (order) => order.status !== 'Shipped'
+      //   );
+      //   isNext = next > 0 ? 0 : next;
+      //   setTotal(total - 1);
+      //   console.log('s', total);
+      // }
       setOrders(updateOrders);
       setCurrent(next ? current + isNext : null);
     },
-    [current, orders, total, orderType]
+    [current, orders]
   );
 
   const Overlay = useCallback(

@@ -1,13 +1,7 @@
 import { useRef } from 'react';
 import { useReactToPrint } from 'react-to-print';
 import Image from 'next/image';
-import {
-  SlClose,
-  SlCheck,
-  SlArrowDownCircle,
-  SlPlane,
-  SlGrid,
-} from 'react-icons/sl';
+import { SlClose, SlCheck, SlArrowDownCircle, SlGrid } from 'react-icons/sl';
 
 const Print = ({ image, handleUpdate, metadata }) => {
   const componentRef = useRef(null);
@@ -15,7 +9,6 @@ const Print = ({ image, handleUpdate, metadata }) => {
     content: () => componentRef.current,
   });
   const update = {
-    status: 'Pending',
     metadata: { ...metadata, status: 'Label Printed' },
   };
   const isPacked =
@@ -26,7 +19,6 @@ const Print = ({ image, handleUpdate, metadata }) => {
     metadata.status === 'Label Printed' || metadata.status === 'Shipped';
 
   const disable = !isPacked;
-  // const disable = !isPacked || isPrinted;
 
   return (
     <>
@@ -72,7 +64,6 @@ const Close = ({ handleClose }) => {
 
 const Packed = ({ handleUpdate, metadata }) => {
   const update = {
-    status: 'Pending',
     metadata: {
       ...metadata,
       status: 'Packed',
@@ -94,30 +85,6 @@ const Packed = ({ handleUpdate, metadata }) => {
       }`}
     >
       Packed {isPacked ? <SlCheck /> : <SlGrid />}
-    </button>
-  );
-};
-
-const Shipped = ({ handleUpdate, metadata }) => {
-  const update = {
-    status: 'Shipped',
-    metadata: { ...metadata, status: 'Shipped' },
-  };
-  const disabled =
-    metadata.status !== 'Label Printed' || metadata.status === 'Shipped';
-  const isShipped = metadata.status === 'Shipped';
-  const ship = true;
-  return (
-    <button
-      disabled={disabled}
-      onClick={async () => await handleUpdate(update, ship)}
-      className={`flex items-center gap-2  disabled:text-black disabled:opacity-25 ${
-        isShipped
-          ? 'border-green-600 bg-green-100 text-green-600 hover:border-green-600 hover:bg-green-100 hover:text-green-600'
-          : 'hover:bg-black  hover:text-white disabled:bg-white'
-      }`}
-    >
-      Shipped {isShipped ? <SlCheck /> : <SlPlane />}
     </button>
   );
 };
@@ -161,7 +128,6 @@ const Buttons = {
   Back,
   Packed,
   Print,
-  Shipped,
   Next,
 };
 

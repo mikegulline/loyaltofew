@@ -66,20 +66,14 @@ handler.post(async (req, res) => {
 const mailMessage = (order, tracking_details, public_url) => {
   const info = tracking_details[tracking_details.length - 1];
 
-  const desc = info.description
-    ? `
-
-${info.description}`
-    : '';
-
   return `
-LTF Order Update for ${order.email}
+<p>LTF Order Update for ${order.email}</p>
 
-${info.message}${desc}
+<p>${info.message} ${info.description}</p>
 
-You can track your shipment status here <a href="${public_url}">${public_url}</a>
+<p>You can track your shipment status here <a href="${public_url}">${public_url}</a></p>
 
-Loyal to Few
+<p>Loyal to Few</p>
   `;
 };
 

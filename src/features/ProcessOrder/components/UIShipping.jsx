@@ -19,7 +19,7 @@ const UIShipping = ({
         metadata={metadata}
         image={label_url}
       />
-      <Buttons.Shipped handleUpdate={updateOrder} metadata={metadata} />
+      {/* <Buttons.Shipped handleUpdate={updateOrder} metadata={metadata} /> */}
     </div>
     <div className='w-20'>
       <Buttons.Next
