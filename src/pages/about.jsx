@@ -23,13 +23,13 @@ const About = () => {
         </P>
 
         <P>
-          Sometimes in life, we realize that we have let people in who don't
-          want the best for you, who take and never give. Surrounding ourselves
-          with family and a small circle of friends who will remain in our
-          corner no matter how difficult the circumstances has become our
+          Sometimes in life, we realize that we have let people in who
+          don&apos;t want the best for you, who take and never give. Surrounding
+          ourselves with family and a small circle of friends who will remain in
+          our corner no matter how difficult the circumstances has become our
           trademarked way of life. We trim the fat, divorce the bullshit, and
-          don't waste time or energy on people who hinder our personal growth
-          and success.
+          don&apos;t waste time or energy on people who hinder our personal
+          growth and success.
         </P>
 
         <P>
