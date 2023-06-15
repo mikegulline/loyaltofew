@@ -36,3 +36,13 @@ const OrderItems = ({ items, metadata, updateOrder }) => {
 };
 
 export default OrderItems;
+
+// const snipcartStatus = {
+//   InProgress: 'shopping on site',
+//   Processed: 'order placed',
+//   Pending: 'order packed and ready for delievery',
+//   Shipped: 'order shipped',
+//   Delivered: 'order delivered',
+//   // Disputed: '',
+//   // Cancelled: ''
+// };
