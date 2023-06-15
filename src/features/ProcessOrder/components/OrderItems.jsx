@@ -10,7 +10,7 @@ const OrderItems = ({ items, metadata, updateOrder }) => {
               updatePacked.reduce((acc, cur) => Number(acc + cur), [0]) ===
               updatePacked.length - 1
                 ? 'Packed'
-                : 'Pending';
+                : 'Processed';
             updatePacked[i] = 1;
             updateOrder({
               metadata: {

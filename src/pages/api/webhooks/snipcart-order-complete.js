@@ -91,7 +91,7 @@ handler.post(async (req, res) => {
     // 4. save tracking info to snipcart
     try {
       const trackingForSnipcart = {
-        status: 'Pending',
+        status: 'Processed',
         trackingNumber: shipping.tracking_code,
         trackingUrl: tracking?.public_url,
         metadata: {
@@ -108,7 +108,7 @@ handler.post(async (req, res) => {
           tracking_url: tracking?.public_url,
           label_url: shipping.postage_label.label_url,
           label_size: shipping.postage_label.label_size,
-          status: 'Pending',
+          status: 'Processed',
           packed: a,
         },
       };
