@@ -54,7 +54,6 @@ handler.put(async (req, res) => {
         },
       }
     );
-    console.log('update metadata');
     return res.status(200).json({ data });
   } catch (errors) {
     console.log({ passData, errors });

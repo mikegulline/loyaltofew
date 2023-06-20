@@ -5,6 +5,8 @@ import LoadMore from './LoadMore';
 import OrdersList from './OrdersList';
 import Header from './Header';
 import apiOrders from '@/utils/api-orders';
+import PrintPackingSlips from './PrintPackingSlips';
+import handleProcessOrder from '@/utils/handleProcessOrder';
 
 export default function Orders({ passOrders, limit, totalItems }) {
   const [orderType, setOrderType] = useState('Processed');
@@ -19,6 +21,29 @@ export default function Orders({ passOrders, limit, totalItems }) {
       setOrders(data.items);
     })();
   }, [orderType, limit]);
+
+  const printPackingSlipsCallback = useCallback(async () => {
+    const newOrders = [];
+    for (const order of orders) {
+      if (!order.metadata?.print_packing_slip) {
+        const { data } = await handleProcessOrder(order.token, {
+          ...order,
+          metadata: { ...order.metadata, print_packing_slip: true },
+        });
+        newOrders.push({ ...data });
+      } else {
+        newOrders.push({ ...order });
+      }
+    }
+    setOrders(newOrders);
+    return;
+  }, [orders]);
+
+  // const waitHere = (time) => {
+  //   return new Promise((resolve) => {
+  //     setTimeout(resolve, time);
+  //   });
+  // };
 
   // update orders state
   // set current order
@@ -75,13 +100,23 @@ export default function Orders({ passOrders, limit, totalItems }) {
     setTotal,
     limit,
   };
-
   return (
     <Container size='xs' className='pb-20'>
       <Overlay />
       <Header {...headerProps} />
       <OrdersList {...ordersListProps} />
-      <LoadMore {...loadMoreProps} />
+      <div className='flex justify-center '>
+        <LoadMore {...loadMoreProps} />
+        {orderType === 'Processed' && (
+          <PrintPackingSlips
+            orders={orders}
+            callback={printPackingSlipsCallback}
+            className='ml-3'
+          >
+            Print Packing Slips
+          </PrintPackingSlips>
+        )}
+      </div>
     </Container>
   );
 }

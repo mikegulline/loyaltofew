@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
+import PrintPackingSlips from './PrintPackingSlips';
 
 const OrdersList = ({ orders, setCurrent }) => {
   const heightRef = useRef(null);
@@ -36,14 +37,24 @@ const OrdersList = ({ orders, setCurrent }) => {
                   onClick={() => {
                     setCurrent(i);
                   }}
-                  className={`flex cursor-pointer items-center gap-4 rounded border p-4 hover:border-green-600 hover:bg-green-100`}
+                  className={`flex h-20 cursor-pointer items-center gap-4 rounded border px-4 hover:border-green-600 hover:bg-green-100`}
                 >
                   <div className='w-20'>
                     <strong>{invoiceNumber}</strong>
                   </div>
-                  <div className='w-36 truncate'>{shippingAddressName}</div>
+                  <div className='w-36 truncate'>
+                    {shippingAddressName}
+                    {order.metadata?.print_packing_slip ? (
+                      <div className='text-xs text-gray-400'>
+                        Packing Slip Printed
+                      </div>
+                    ) : (
+                      ''
+                    )}
+                  </div>
                   <div className='w-16'>{shippingAddressProvince}</div>
                   <div>Items: {totalItems}</div>
+                  <div></div>
 
                   <div className='flex grow justify-end'>
                     ${finalGrandTotal}

@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import apiOrders from '@/utils/api-orders';
 import FormToasts from '@/components/FormToasts';
-import PrintPackingSlips from './PrintPackingSlips';
 
 const LoadMore = ({ orderType, orders, setOrders, total, setTotal, limit }) => {
   const [fetching, setFetching] = useState(false);
@@ -42,16 +41,13 @@ const LoadMore = ({ orderType, orders, setOrders, total, setTotal, limit }) => {
 
   return (
     <>
-      <div className='flex justify-center '>
-        <button
-          disabled={disabled}
-          onClick={() => handleLoadMore()}
-          className='flex items-center gap-2 hover:bg-black  hover:text-white disabled:bg-white disabled:text-black disabled:opacity-25'
-        >
-          Load More {loadMore > 0 && loadMore}
-        </button>
-        {orderType === 'Processed' && <PrintPackingSlips orders={orders} />}
-      </div>
+      <button
+        disabled={disabled}
+        onClick={() => handleLoadMore()}
+        className='flex items-center gap-2 hover:bg-black  hover:text-white disabled:bg-white disabled:text-black disabled:opacity-25'
+      >
+        Load More {loadMore > 0 && loadMore}
+      </button>
       <FormToasts {...formToastsProps} />
     </>
   );

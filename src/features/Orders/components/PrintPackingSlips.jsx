@@ -3,22 +3,31 @@ import { useReactToPrint } from 'react-to-print';
 import LogoSVG from '@/public/logos/ltf-logo.svg';
 // import handleProcessOrder from '@/utils/handleProcessOrder';
 
-export default function PrintPackingSlips({ orders, callback }) {
+export default function PrintPackingSlips({
+  as,
+  orders,
+  callback,
+  children,
+  className,
+}) {
   const componentRef = useRef(null);
   const handlePrint = useReactToPrint({
     content: () => componentRef.current,
   });
-  console.log(orders);
+
+  const Component = as || 'button';
+
   return (
     <>
-      <button
+      <Component
         onClick={async () => {
+          if (callback) await callback();
           handlePrint();
         }}
-        className='ml-3'
+        className={className && className}
       >
-        Print Packing Slips
-      </button>
+        {children}
+      </Component>
       <div className='hidden'>
         <div ref={componentRef} className=''>
           {orders.map((order) => (
