@@ -2,6 +2,7 @@ import Buttons from './Buttons';
 
 const UIShipping = ({
   current,
+  orderType,
   total,
   metadata,
   updateOrder,
@@ -13,13 +14,17 @@ const UIShipping = ({
       <Buttons.Back disable={current === 0} handleNext={handleNextClose} />
     </div>
     <div className='flex grow justify-center gap-3 '>
-      <Buttons.Packed handleUpdate={updateOrder} metadata={metadata} />
+      {orderType === 'Processed' && (
+        <Buttons.Packed handleUpdate={updateOrder} metadata={metadata} />
+      )}
       <Buttons.Print
         handleUpdate={updateOrder}
         metadata={metadata}
         image={label_url}
       />
-      {/* <Buttons.Shipped handleUpdate={updateOrder} metadata={metadata} /> */}
+      {orderType === 'Processed' && (
+        <Buttons.Pending handleUpdate={updateOrder} metadata={metadata} />
+      )}
     </div>
     <div className='w-20'>
       <Buttons.Next

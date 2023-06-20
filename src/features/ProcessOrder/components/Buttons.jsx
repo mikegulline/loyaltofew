@@ -15,10 +15,9 @@ const Print = ({ image, handleUpdate, metadata }) => {
     metadata.packed.reduce((acc, cur) => Number(acc + cur), [0]) ===
     metadata.packed.length;
 
-  const isPrinted =
-    metadata.status === 'Label Printed' || metadata.status === 'Shipped';
+  const isPrinted = metadata.status === 'Label Printed';
 
-  const disable = !isPacked;
+  const isDisabled = !isPacked;
 
   return (
     <>
@@ -34,7 +33,7 @@ const Print = ({ image, handleUpdate, metadata }) => {
         </div>
       </div>
       <button
-        disabled={disable}
+        disabled={isDisabled}
         onClick={async () => {
           handlePrint();
           await handleUpdate(update);
@@ -58,6 +57,35 @@ const Close = ({ handleClose }) => {
       className='bg flex h-14 w-14 cursor-pointer items-center justify-center rounded-full border-none bg-[#d61818] text-xl text-white outline-0 hover:bg-black'
     >
       <SlClose />
+    </button>
+  );
+};
+
+const Pending = ({ handleUpdate, metadata }) => {
+  const update = {
+    status: 'Pending',
+    metadata: {
+      ...metadata,
+    },
+  };
+  const isPacked =
+    metadata.packed.reduce((acc, cur) => Number(acc + cur), [0]) ===
+    metadata.packed.length;
+
+  const isDisabled = metadata.status !== 'Label Printed';
+
+  console.log(metadata);
+  return (
+    <button
+      disabled={isDisabled}
+      onClick={async () => await handleUpdate(update)}
+      className={`flex items-center gap-2  disabled:text-black disabled:opacity-25 ${
+        !isDisabled
+          ? 'border-green-600 bg-green-100 text-green-600 hover:border-green-600 hover:bg-green-100 hover:text-green-600'
+          : 'hover:bg-black  hover:text-white disabled:bg-white'
+      }`}
+    >
+      Ready to Ship
     </button>
   );
 };
@@ -128,6 +156,7 @@ const Buttons = {
   Back,
   Packed,
   Print,
+  Pending,
   Next,
 };
 

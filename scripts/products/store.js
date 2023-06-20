@@ -373,7 +373,7 @@ module.exports = [
         logos: ['Arch', 'Block', 'Original', 'Stamp', 'Stenciled'],
         colors: ['Black'],
         tags: ['Tops'],
-        weight: 9.8,
+        weight: 34.3,
         meta: {
           title: 'Original 50/50 Crew (Unisex)',
           description:
@@ -426,7 +426,7 @@ module.exports = [
         logos: ['Arch', 'Block', 'Original', 'Stamp', 'Stenciled'],
         colors: ['Black', 'Navy', 'Green', 'Dolphin'],
         tags: ['Tops'],
-        weight: 9.8,
+        weight: 34.3,
         meta: {
           title: 'Original Cotton Crew (Unisex)',
           description:
@@ -611,7 +611,7 @@ module.exports = [
         logos: ['Block'],
         colors: ['Black-White', 'Gray-White', 'Navy-White'],
         tags: ['Accessories'],
-        weight: 14.4,
+        weight: 18.5,
         meta: {
           title: 'Flexfit Snapback Hat',
           description:

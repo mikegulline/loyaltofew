@@ -5,7 +5,12 @@ import UIShipping from './UIShipping';
 import Wrapper from './Wrapper';
 import Header from './Header';
 
-export default function ProcessOrder({ orders, current, nextClose }) {
+export default function ProcessOrder({
+  orderType,
+  orders,
+  current,
+  nextClose,
+}) {
   const order = orders[current];
   const total = orders.length;
 
@@ -44,6 +49,7 @@ export default function ProcessOrder({ orders, current, nextClose }) {
 
   const uiShippingProps = {
     current,
+    orderType,
     total,
     metadata,
     updateOrder,

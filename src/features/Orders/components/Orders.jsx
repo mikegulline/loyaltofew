@@ -7,7 +7,7 @@ import Header from './Header';
 import apiOrders from '@/utils/api-orders';
 
 export default function Orders({ passOrders, limit, totalItems }) {
-  const [orderType, setOrderType] = useState('pending');
+  const [orderType, setOrderType] = useState('Processed');
   const [orders, setOrders] = useState(passOrders);
   const [current, setCurrent] = useState(null);
   const [total, setTotal] = useState(totalItems);
@@ -30,24 +30,24 @@ export default function Orders({ passOrders, limit, totalItems }) {
 
       let isNext = next;
 
-      // if (orderToUpdate.status === 'Shipped' && orderType === 'pending') {
-      //   updateOrders = updateOrders.filter(
-      //     (order) => order.status !== 'Shipped'
-      //   );
-      //   isNext = next > 0 ? 0 : next;
-      //   setTotal(total - 1);
-      //   console.log('s', total);
-      // }
+      if (orderToUpdate.status === 'Pending' && orderType === 'Processed') {
+        updateOrders = updateOrders.filter(
+          (order) => order.status !== 'Pending'
+        );
+        isNext = next > 0 ? 0 : next;
+        setTotal(total - 1);
+      }
       setOrders(updateOrders);
       setCurrent(next ? current + isNext : null);
     },
-    [current, orders]
+    [current, orders, total, orderType]
   );
 
   const Overlay = useCallback(
     () =>
       current != null ? (
         <ProcessOrder
+          orderType={orderType}
           orders={orders}
           current={current}
           nextClose={updateOrdersNextClose}
