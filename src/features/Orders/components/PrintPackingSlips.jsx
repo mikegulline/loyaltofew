@@ -82,9 +82,10 @@ export default function PrintPackingSlips({ orders, callback }) {
                   <strong>Returns / Exchanges:</strong>
                 </p>
                 <p className=''>
-                  If for some reason, you aren't 100% satisfied with your order
-                  and need to initiate a return / exchange, please visit our
-                  automated return process at <u>www.loyaltofew.com/orders</u>
+                  If for some reason, you aren&rsquo;t 100% satisfied with your
+                  order and need to initiate a return / exchange, please visit
+                  our automated return process at{' '}
+                  <u>www.loyaltofew.com/orders</u>
                 </p>
               </div>
             </div>
