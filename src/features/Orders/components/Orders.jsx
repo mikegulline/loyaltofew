@@ -53,7 +53,7 @@ export default function Orders({ passOrders, limit, totalItems }) {
           nextClose={updateOrdersNextClose}
         />
       ) : null,
-    [orders, current, updateOrdersNextClose]
+    [orders, current, updateOrdersNextClose, orderType]
   );
 
   const headerProps = {
