@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import apiOrders from '@/utils/api-orders';
 import FormToasts from '@/components/FormToasts';
+import PrintPackingSlips from './PrintPackingSlips';
 
 const LoadMore = ({ orderType, orders, setOrders, total, setTotal, limit }) => {
   const [fetching, setFetching] = useState(false);
@@ -49,6 +50,7 @@ const LoadMore = ({ orderType, orders, setOrders, total, setTotal, limit }) => {
         >
           Load More {loadMore > 0 && loadMore}
         </button>
+        {orderType === 'Processed' && <PrintPackingSlips orders={orders} />}
       </div>
       <FormToasts {...formToastsProps} />
     </>
