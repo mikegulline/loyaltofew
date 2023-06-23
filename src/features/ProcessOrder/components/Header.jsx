@@ -1,7 +1,7 @@
 import { H1 } from '@/components/Type';
 import Buttons from './Buttons';
 
-const Header = ({ currentOrder, handleNextClose }) => {
+const Header = ({ currentOrder, handleNextClose, orderType }) => {
   const {
     finalGrandTotal,
     items,
@@ -23,8 +23,8 @@ const Header = ({ currentOrder, handleNextClose }) => {
   const date = new Date(creationDate);
   return (
     <div className='mb-10  border-b-4 border-red-600 pb-6'>
-      <div className=' absolute left-0 top-0 w-full bg-gray-800 text-center  text-sm text-white'>
-        SHIPPING
+      <div className=' absolute left-0 top-0 w-full bg-gray-800 text-center text-sm  uppercase text-white'>
+        SHIPPING: {orderType}
       </div>
       <H1 className='mb-4 flex items-center gap-1 text-gray-800 '>
         <span className='flex-1'>{invoiceNumber}</span>

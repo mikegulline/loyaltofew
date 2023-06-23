@@ -224,7 +224,11 @@ const getColor = (useCategory, useType, useLogo, useColor) => {
     ' ',
     ''
   );
-  const id = imageSlug.toLowerCase();
+  const idSlug = `${category.category}:${type.type}:${color}:${logo}`.replace(
+    ' ',
+    ''
+  );
+  const id = idSlug.toLowerCase();
   const imageRoot = `/images/products/${category.category.toLowerCase()}/${type.type.toLowerCase()}/`;
   const image = `${imageColorRoot}${color}.jpg`;
   const imageBack = `${imageColorBackRoot}${color}.jpg`;

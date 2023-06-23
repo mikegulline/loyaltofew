@@ -39,6 +39,7 @@ export default function ProcessOrder({
   const headerProps = {
     currentOrder,
     handleNextClose,
+    orderType,
   };
 
   const orderItemsProps = {

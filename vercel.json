@@ -1,0 +1,8 @@
+{
+  "crons": [
+    {
+      "path": "/api/webhooks/inventory-chron",
+      "schedule": "10 10 * * *"
+    }
+  ]
+}
