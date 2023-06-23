@@ -5,7 +5,7 @@ import mail from '@/utils/mail';
 export default async function handler(req, res) {
   const today = new Date();
   const hours = today.getHours() - 7;
-  const canRun = hours === 0;
+  const canRun = hours === 12;
 
   if (!process.env.CHRON) {
     console.log('no chron');
@@ -68,7 +68,7 @@ export default async function handler(req, res) {
     <p>Keep it up, Champ!</p>
     <p>LTF Robot</p>
     `;
-
+    console.log('sending emails');
     await mail(process.env.RETURNS_EMAIL, subject, message);
     await mail('mike@mikegulline.com', subject, message);
 
