@@ -5,7 +5,7 @@ import mail from '@/utils/mail';
 export default async function handler(req, res) {
   const today = new Date();
   const hours = today.getHours() - 7;
-  const canRun = hours === 12;
+  const canRun = hours === 0;
 
   if (!process.env.CHRON) return res.status(200).json({ message: 'no chron' });
 
