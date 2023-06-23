@@ -1,11 +1,16 @@
-import nc from 'next-connect';
 import Order from '@/models/order';
 import db from '@/utils/db';
 import mail from '@/utils/mail';
 
-const handler = nc();
+export default async function handler(req, res) {
+  const today = new Date();
+  const hours = today.getHours();
+  const canRun = hours === 11;
 
-handler.get(async (req, res) => {
+  if (!process.env.CHRON) return res.status(200).json({ message: 'no chron' });
+
+  if (!canRun) return res.status(200).json({ message: 'bad time', hours });
+
   let subject, message;
   try {
     await db.connectDB();
@@ -24,7 +29,7 @@ handler.get(async (req, res) => {
       <p>LTF Robot</p>
       `;
 
-      await mail(process.env.RETURNS_EMAIL, subject, message);
+      // await mail(process.env.RETURNS_EMAIL, subject, message);
       await mail('mike@mikegulline.com', subject, message);
 
       return res.status(200).json({ message: 'update sent' });
@@ -58,7 +63,7 @@ handler.get(async (req, res) => {
     <p>LTF Robot</p>
     `;
 
-    await mail(process.env.RETURNS_EMAIL, subject, message);
+    // await mail(process.env.RETURNS_EMAIL, subject, message);
     await mail('mike@mikegulline.com', subject, message);
 
     return res.status(200).json({ message: 'update sent' });
@@ -67,6 +72,4 @@ handler.get(async (req, res) => {
   } finally {
     await db.disconnectDB();
   }
-});
-
-export default handler;
+}
