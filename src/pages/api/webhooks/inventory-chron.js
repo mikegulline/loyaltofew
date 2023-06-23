@@ -17,6 +17,11 @@ export default async function handler(req, res) {
     return res.status(200).json({ message: 'bad time', hours });
   }
 
+  if (!process.env.RETURNS_EMAIL) {
+    console.log('no returns email');
+    return res.status(200).json({ message: 'bad email' });
+  }
+
   let subject, message;
   try {
     await db.connectDB();
