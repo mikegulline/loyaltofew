@@ -111,7 +111,7 @@ export default function Orders({ passOrders, limit, totalItems }) {
           <PrintPackingSlips
             orders={orders}
             callback={printPackingSlipsCallback}
-            className='ml-3'
+            className='ml-3 disabled:opacity-25'
           >
             Print Packing Slips
           </PrintPackingSlips>

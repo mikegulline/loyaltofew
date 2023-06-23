@@ -17,9 +17,12 @@ export default function PrintPackingSlips({
 
   const Component = as || 'button';
 
+  const isDisabled = orders.length === 0;
+
   return (
     <>
       <Component
+        disabled={isDisabled}
         onClick={async () => {
           if (callback) await callback();
           handlePrint();
@@ -27,9 +30,24 @@ export default function PrintPackingSlips({
         className={className && className}
       >
         {children}
+        {isDisabled}
       </Component>
       <div className='hidden'>
         <div ref={componentRef} className=''>
+          <div
+            style={{
+              width: '8.5in',
+              height: '11in',
+              padding: '1in',
+              border: '1px solid #000',
+            }}
+            className='flex flex-col justify-between'
+          >
+            <div>
+              <Inventory orders={orders} />
+            </div>
+            <div></div>
+          </div>
           {orders.map((order) => (
             <div
               key={`print${order.token}`}
@@ -104,3 +122,49 @@ export default function PrintPackingSlips({
     </>
   );
 }
+
+const Inventory = ({ orders }) => {
+  const returnOrders = {};
+  let countOrders = 0;
+
+  orders.map(({ items }) => {
+    items.map(({ id, quantity }) => {
+      const baseId = convertId(id);
+      countOrders += quantity;
+      if (baseId in returnOrders) {
+        returnOrders[baseId] += quantity;
+      } else {
+        returnOrders[baseId] = quantity;
+      }
+    });
+  });
+
+  let htmlOrders = [];
+
+  for (const key in returnOrders) {
+    htmlOrders.push(`- (${returnOrders[key]}) ${key}`);
+  }
+
+  return (
+    <>
+      <h1 className='mb-6 text-xl font-bold'>LTF Inventory Update</h1>
+      <p className='mb-6'>You got {countOrders} orders in the past 24hrs!</p>
+      <p className='mb-6'>
+        <strong>Time to place an order for:</strong>
+      </p>
+      <div className='mb-6'>
+        {htmlOrders.map((order) => (
+          <p key={order}>{order}</p>
+        ))}
+      </div>
+      <p>Keep it up, Champ!</p>
+      <p>LTF Robot</p>
+    </>
+  );
+};
+
+const convertId = (id) => {
+  const splitId = id.split(':');
+  splitId.splice(-2, 1);
+  return splitId.join(':');
+};
