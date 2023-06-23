@@ -7,9 +7,15 @@ export default async function handler(req, res) {
   const hours = today.getHours() - 7;
   const canRun = hours === 0;
 
-  if (!process.env.CHRON) return res.status(200).json({ message: 'no chron' });
+  if (!process.env.CHRON) {
+    console.log('no chron');
+    return res.status(200).json({ message: 'no chron' });
+  }
 
-  if (!canRun) return res.status(200).json({ message: 'bad time', hours });
+  if (!canRun) {
+    console.log('bad time ' + hours);
+    return res.status(200).json({ message: 'bad time', hours });
+  }
 
   let subject, message;
   try {
