@@ -7,39 +7,28 @@ import handleProcessOrder from '@/utils/handleProcessOrder';
 const handler = nc();
 
 handler.post(async (req, res) => {
-  const {
-    previous_attributes,
-    result: { id, status: currentStatus, public_url },
-  } = req.body;
+  const prevStatus = req.body?.previous_attributes?.status;
+  const resultStatus = req.body?.result.status;
+  let shipped = false;
+  let delivered = false;
 
-  // status types
-  const noStatus = !previous_attributes?.status;
-
-  const isShipped =
-    (previous_attributes.status === 'unknown' ||
-      previous_attributes.status === 'pre_transit') &&
-    currentStatus === 'in_transit';
-
-  const isOutForDelivery =
-    (previous_attributes.status === 'in_transit' ||
-      previous_attributes.status === 'pre_transit') &&
-    currentStatus === 'out_for_delivery';
-
-  const isDelivered =
-    (previous_attributes.status === 'out_for_delivery' ||
-      previous_attributes.status === 'in_transit') &&
-    currentStatus === 'delivered';
-
-  // act on status
-  if (noStatus) {
-    return res.status(200).json({ message: 'nothing to do' });
+  if (resultStatus === 'unknown') {
+    return res.status(200).json({ message: 'prev unknown' });
+  }
+  if (resultStatus === 'pre_transit') {
+    return res.status(200).json({ message: 'pre_transit' });
+  }
+  if (resultStatus === 'out_for_delivery') {
+    return res.status(200).json({ message: 'out_for_delivery' });
+  }
+  if (resultStatus === 'in_transit' && prevStatus === 'pre_transit') {
+    shipped = true;
+  }
+  if (resultStatus === 'delivered' && prevStatus === 'out_for_delivery') {
+    delivered = true;
   }
 
-  if (isOutForDelivery) {
-    return res.status(200).json({ message: 'nothing to do' });
-  }
-
-  if (isShipped || isDelivered) {
+  if (shipped || delivered) {
     // get order token info from sc
     const { orderToken, error } = await getTokenByTrackingId(id);
     // return if error
@@ -63,7 +52,7 @@ handler.post(async (req, res) => {
     <p>Loyal to Few</p>
       `;
 
-    if (isDelivered) {
+    if (delivered) {
       status = 'Delivered';
       subject = 'Your order was delivered';
       message = `

@@ -32,7 +32,7 @@ export default function PrintPackingSlips({
         {children}
         {isDisabled}
       </Component>
-      <div className='hidden'>
+      <div className=''>
         <div ref={componentRef} className=''>
           <div
             style={{
