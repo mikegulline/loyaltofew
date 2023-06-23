@@ -29,7 +29,7 @@ export default async function handler(req, res) {
       <p>LTF Robot</p>
       `;
 
-      // await mail(process.env.RETURNS_EMAIL, subject, message);
+      await mail(process.env.RETURNS_EMAIL, subject, message);
       await mail('mike@mikegulline.com', subject, message);
 
       return res.status(200).json({ message: 'update sent' });
@@ -63,7 +63,7 @@ export default async function handler(req, res) {
     <p>LTF Robot</p>
     `;
 
-    // await mail(process.env.RETURNS_EMAIL, subject, message);
+    await mail(process.env.RETURNS_EMAIL, subject, message);
     await mail('mike@mikegulline.com', subject, message);
 
     return res.status(200).json({ message: 'update sent' });
