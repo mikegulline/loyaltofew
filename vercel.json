@@ -2,7 +2,7 @@
   "crons": [
     {
       "path": "/api/webhooks/inventory-chron",
-      "schedule": "55 11 * * *"
+      "schedule": "*/5 * * * *"
     }
   ]
 }
