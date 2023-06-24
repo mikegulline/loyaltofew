@@ -23,18 +23,12 @@ export default function Orders({ passOrders, limit, totalItems }) {
   }, [orderType, limit]);
 
   const printPackingSlipsCallback = useCallback(async () => {
-    const newOrders = [];
     for (const order of orders) {
-      if (!order.metadata?.print_packing_slip) {
-        const { data } = await handleProcessOrder(order.token, {
-          ...order,
-          status: 'Pending',
-          metadata: { ...order.metadata, print_packing_slip: true },
-        });
-        newOrders.push({ ...data });
-      } else {
-        newOrders.push({ ...order });
-      }
+      const { data } = await handleProcessOrder(order.token, {
+        ...order,
+        status: 'Pending',
+        metadata: { ...order.metadata, print_packing_slip: true },
+      });
     }
     setOrders([]);
     return;

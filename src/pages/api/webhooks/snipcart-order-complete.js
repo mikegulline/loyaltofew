@@ -1,9 +1,10 @@
 //Snipcart order complete webhook endpoint
 //find rates in MongoDB
 //purchase shipping from Easypost
+//delete rates placeholder
 //update Snipcart with shipping infos
 //save orderToken, invoiceId, (more?) to MongoDB
-//delete rates placeholder
+
 import nc from 'next-connect';
 import axios from 'axios';
 import db from '@/utils/db';
@@ -56,8 +57,15 @@ handler.post(async (req, res) => {
       throw { message: 'get and buy rates error', error };
     }
 
+    // delete rates
+    try {
+      await Rate.deleteMany({ orderToken: token });
+    } catch (error) {
+      throw { message: 'delete rates error', error };
+    }
+
     // 3. get tracking url from api
-    await new Promise((r) => setTimeout(r, 5000));
+    await new Promise((r) => setTimeout(r, 1000));
 
     try {
       try {
@@ -138,19 +146,12 @@ handler.post(async (req, res) => {
       throw { message: 'save order token and invoice', error };
     }
 
-    // delete rates
-    try {
-      await Rate.deleteMany({ orderToken: token });
-    } catch (error) {
-      throw { message: 'delete rates error', error };
-    }
-
-    return res.json({ message: eventName });
+    return res.json({ message: eventName, from: 'snipcart-order-complete' });
   } catch (error) {
     // ROOT CATCH
     await mailError(
       error,
-      'snipcart-order-complete.js',
+      'snipcart-order-complete.js root catch',
       token,
       email,
       invoiceNumber

@@ -17,6 +17,9 @@ handler.post(async (req, res) => {
   const token = req?.body?.content?.token;
   const email = req?.body?.content?.email;
 
+  if (!token || !email)
+    return res.status(500).json({ error: 'no token/email' });
+
   try {
     // open db once and close in finally
     await db.connectDB();

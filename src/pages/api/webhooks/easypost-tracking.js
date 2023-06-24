@@ -9,6 +9,7 @@ const handler = nc();
 handler.post(async (req, res) => {
   const prevStatus = req.body?.previous_attributes?.status;
   const resultStatus = req.body?.result.status;
+  const id = req.body?.result?.id;
   let shipped = false;
   let delivered = false;
 

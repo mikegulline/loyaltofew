@@ -24,8 +24,8 @@ export default function PrintPackingSlips({
       <Component
         disabled={isDisabled}
         onClick={async () => {
-          if (callback) await callback();
           handlePrint();
+          if (callback) await callback();
         }}
         className={className && className}
       >
