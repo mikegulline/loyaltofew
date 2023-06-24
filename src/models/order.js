@@ -62,6 +62,11 @@ const itemSchema = new mongoose.Schema(
       type: Number,
       required: true,
     },
+    packed: {
+      type: Boolean,
+      required: true,
+      default: false,
+    },
   },
   {
     timestamps: true,
@@ -72,6 +77,11 @@ const orderSchema = new mongoose.Schema(
   {
     orderToken: {
       type: 'String',
+    },
+    status: {
+      type: String,
+      required: true,
+      default: 'Processed',
     },
     email: {
       type: 'String',

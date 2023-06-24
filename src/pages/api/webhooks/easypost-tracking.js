@@ -1,8 +1,13 @@
+// order tracking webhook from easypost
+// email customer and update sc
+// if SHIPPED or DELIVERED
 import nc from 'next-connect';
 import mail from '@/utils/mail';
 import getTokenByTrackingId from '@/utils/getTokenByTrackingId';
 import getOrderByToken from '@/utils/getOrderByToken';
 import handleProcessOrder from '@/utils/handleProcessOrder';
+import Order from '@/models/order';
+import db from '@/utils/db';
 
 const handler = nc();
 
@@ -13,6 +18,7 @@ handler.post(async (req, res) => {
   let shipped = false;
   let delivered = false;
 
+  // return if wrong status
   if (resultStatus === 'unknown') {
     return res.status(200).json({ message: 'prev unknown' });
   }
@@ -22,6 +28,7 @@ handler.post(async (req, res) => {
   if (resultStatus === 'out_for_delivery') {
     return res.status(200).json({ message: 'out_for_delivery' });
   }
+  //set shipped or deliered
   if (resultStatus === 'in_transit') {
     shipped = true;
   }
@@ -31,12 +38,13 @@ handler.post(async (req, res) => {
 
   if (shipped || delivered) {
     // get order token info from sc
+    // ??? mabe get order from here ???
     const { orderToken, error } = await getTokenByTrackingId(id);
     // return if error
     if (error) {
       return res.status(500).json({ error });
     }
-    // get order by order toke
+    // get order by order token
     const { order, error: tokenError } = await getOrderByToken(orderToken);
 
     if (shipped && order.status === 'Shipped') {
@@ -87,6 +95,17 @@ handler.post(async (req, res) => {
     };
     // update sc by order token
     await handleProcessOrder(orderToken, update);
+
+    // update status in mongo
+    try {
+      const filter = { orderToken };
+      const update = { status };
+      await db.connectDB();
+      await Order.findOneAndUpdate(filter, update);
+      await db.disconnectDB();
+    } catch (error) {
+      throw { message: 'update status in mongoDB', error };
+    }
 
     // send email
     await mail(order.email, subject, message);
