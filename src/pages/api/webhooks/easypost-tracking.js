@@ -7,9 +7,9 @@ import handleProcessOrder from '@/utils/handleProcessOrder';
 const handler = nc();
 
 handler.post(async (req, res) => {
-  const prevStatus = req.body?.previous_attributes?.status;
   const resultStatus = req.body?.result.status;
   const id = req.body?.result?.id;
+  const public_url = req.body?.result?.public_url;
   let shipped = false;
   let delivered = false;
 
