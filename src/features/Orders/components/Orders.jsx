@@ -36,7 +36,7 @@ export default function Orders({ passOrders, limit, totalItems }) {
         newOrders.push({ ...order });
       }
     }
-    setOrders(newOrders);
+    setOrders([]);
     return;
   }, [orders]);
 
