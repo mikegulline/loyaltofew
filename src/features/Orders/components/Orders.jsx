@@ -28,6 +28,7 @@ export default function Orders({ passOrders, limit, totalItems }) {
       if (!order.metadata?.print_packing_slip) {
         const { data } = await handleProcessOrder(order.token, {
           ...order,
+          status: 'Pending',
           metadata: { ...order.metadata, print_packing_slip: true },
         });
         newOrders.push({ ...data });

@@ -21,10 +21,10 @@ handler.post(async (req, res) => {
   if (resultStatus === 'out_for_delivery') {
     return res.status(200).json({ message: 'out_for_delivery' });
   }
-  if (resultStatus === 'in_transit' && prevStatus === 'pre_transit') {
+  if (resultStatus === 'in_transit') {
     shipped = true;
   }
-  if (resultStatus === 'delivered' && prevStatus === 'out_for_delivery') {
+  if (resultStatus === 'delivered') {
     delivered = true;
   }
 
@@ -37,6 +37,14 @@ handler.post(async (req, res) => {
     }
     // get order by order toke
     const { order, error: tokenError } = await getOrderByToken(orderToken);
+
+    if (shipped && order.status === 'Shipped') {
+      return res.status(200).json({ message: 'already shipped' });
+    }
+
+    if (delivered && order.status === 'Delivered') {
+      return res.status(200).json({ message: 'already delivered' });
+    }
 
     // default Shipped values
     // overide later if Delivered
@@ -82,10 +90,12 @@ handler.post(async (req, res) => {
     // send email
     await mail(order.email, subject, message);
     await mail('mike@mikegulline.com', subject, message);
+
+    return res.status(200).json({ message: status });
   }
 
   // respond to easypost
-  res.status(200).json({ message: 'check' });
+  return res.status(200).json({ message: 'check' });
 });
 
 export default handler;
