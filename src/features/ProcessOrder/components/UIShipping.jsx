@@ -14,9 +14,10 @@ const UIShipping = ({
       <Buttons.Back disable={current === 0} handleNext={handleNextClose} />
     </div>
     <div className='flex grow justify-center gap-3 '>
-      {orderType === 'Processed' && (
-        <Buttons.Packed handleUpdate={updateOrder} metadata={metadata} />
-      )}
+      {orderType === 'Processed' ||
+        (orderType === 'Pending' && (
+          <Buttons.Packed handleUpdate={updateOrder} metadata={metadata} />
+        ))}
       <Buttons.Print
         handleUpdate={updateOrder}
         metadata={metadata}
