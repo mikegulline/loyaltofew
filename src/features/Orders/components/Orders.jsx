@@ -7,8 +7,8 @@ import Header from './Header';
 import apiOrders from '@/utils/api-orders';
 import PrintPackingSlips from './PrintPackingSlips';
 import handleProcessOrder from '@/utils/handleProcessOrder';
-import Order from '@/models/order';
-import db from '@/utils/db';
+// import Order from '@/models/order';
+// import db from '@/utils/db';
 
 export default function Orders({ passOrders, limit, totalItems }) {
   const [orderType, setOrderType] = useState('Processed');
@@ -25,7 +25,6 @@ export default function Orders({ passOrders, limit, totalItems }) {
   }, [orderType, limit]);
 
   const printPackingSlipsCallback = useCallback(async () => {
-    await db.connectDB();
     const status = 'Pending';
     for (const order of orders) {
       const { data } = await handleProcessOrder(order.token, {
@@ -33,15 +32,14 @@ export default function Orders({ passOrders, limit, totalItems }) {
         status,
       });
 
-      try {
-        const filter = { orderToken: order.orderToken };
-        const update = { status };
-        await Order.findOneAndUpdate(filter, update);
-      } catch (error) {
-        throw { message: 'update status in mongoDB', error };
-      }
+      // try {
+      //   const filter = { orderToken: order.orderToken };
+      //   const update = { status };
+      //   await Order.findOneAndUpdate(filter, update);
+      // } catch (error) {
+      //   throw { message: 'update status in mongoDB', error };
+      // }
     }
-    await db.disconnectDB();
     setOrders([]);
     return;
   }, [orders]);

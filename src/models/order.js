@@ -76,7 +76,7 @@ const itemSchema = new mongoose.Schema(
 const orderSchema = new mongoose.Schema(
   {
     orderToken: {
-      type: 'String',
+      type: String,
     },
     status: {
       type: String,
@@ -84,22 +84,22 @@ const orderSchema = new mongoose.Schema(
       default: 'Processed',
     },
     email: {
-      type: 'String',
+      type: String,
     },
     invoiceNumber: {
-      type: 'String',
+      type: String,
     },
     parcel: {
-      type: 'String',
+      type: String,
     },
     from_address: {
-      type: 'String',
+      type: String,
     },
     to_address: {
-      type: 'String',
+      type: String,
     },
     tracker_id: {
-      type: 'String',
+      type: String,
     },
     items: [itemSchema],
   },
