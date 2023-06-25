@@ -22,9 +22,6 @@ const UIShipping = ({
         metadata={metadata}
         image={label_url}
       />
-      {orderType === 'Processed' && (
-        <Buttons.Pending handleUpdate={updateOrder} metadata={metadata} />
-      )}
     </div>
     <div className='w-20'>
       <Buttons.Next

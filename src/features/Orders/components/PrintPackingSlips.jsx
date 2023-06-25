@@ -1,7 +1,6 @@
 import { useRef } from 'react';
 import { useReactToPrint } from 'react-to-print';
 import LogoSVG from '@/public/logos/ltf-logo.svg';
-// import handleProcessOrder from '@/utils/handleProcessOrder';
 
 export default function PrintPackingSlips({
   as,

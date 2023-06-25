@@ -1,9 +1,11 @@
+// get orders from api
+// ???UPDATE to get returns as well
 import axios from 'axios';
- 
+
 export default async function apiOrders(status, limit, offset) {
   try {
     const { data } = await axios.get(
-      `${process.env.NEXT_PUBLIC_BASE_URL}api/admin/orders`,
+      `${process.env.NEXT_PUBLIC_BASE_URL}api/orders/get-orders`,
       {
         params: {
           status,

@@ -1,25 +1,25 @@
 import nc from 'next-connect';
-import getOrderByToken from '@/utils/getOrderByToken';
-import getTokenByInvoiceNumber from '@/utils/getTokenByInvoiceNumber';
+import updateOrderByToken from '@/utils/updateOrderByToken';
+import getOrderByInvoice from '@/utils/getOrderByInvoice';
 
 const handler = nc();
 
 handler.get(async (req, res) => {
-  const invoiceNumber = 'LTF1017';
-  const { orderToken, error: invoiceError } = await getTokenByInvoiceNumber(
-    invoiceNumber
-  );
-  const { order, error: tokenError } = await getOrderByToken(orderToken);
+  const invoiceNumber = 'LTF1022';
 
-  res.status(200).json({ invoiceError, tokenError, order });
+  const { order, error } = await getOrderByInvoice(invoiceNumber);
+
+  const orderToken = order.token;
+
+  const updatedOrder = await updateOrderByToken(orderToken, {
+    ...order,
+    metadata: {
+      ...order.metadata,
+      print_packing_slip: !order.metadata?.print_packing_slip,
+    },
+  });
+
+  res.status(200).json({ updatedOrder, error, order });
 });
-
-// handler.get(async (req, res) => {
-//   const token = 'bb45f8cc-6ac9-4ae7-b21e-4d15b2993297';
-
-//   const { error, order } = await getOrderByToken(token);
-
-//   res.status(200).json({ error, order });
-// });
 
 export default handler;

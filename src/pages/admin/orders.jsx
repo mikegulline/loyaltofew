@@ -1,6 +1,6 @@
 import { getSession } from 'next-auth/react';
 import { Orders } from '@/features/Orders';
-import apiOrders from '@/utils/api-orders';
+import apiOrders from '@/utils/getOrders';
 
 export default function OrdersPage(props) {
   // const ordersProps = { passOrders, limit, totalItems };

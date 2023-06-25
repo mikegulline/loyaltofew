@@ -6,19 +6,26 @@
 //save orderToken, invoiceId, (more?) to MongoDB
 
 import nc from 'next-connect';
-import axios from 'axios';
 import db from '@/utils/db';
 import api from '@/utils/easyPostApi';
 import Rate from '@/models/rate';
 import Order from '@/models/order';
 import mailError from '@/utils/mailError';
+import updateOrderByToken from '@/utils/updateOrderByToken';
 
 const handler = nc();
 
 handler.post(async (req, res) => {
   const {
     eventName,
-    content: { items, token, shippingFees, email, invoiceNumber },
+    content: {
+      items,
+      token,
+      shippingFees,
+      email,
+      invoiceNumber,
+      billingAddressName,
+    },
   } = { ...req.body };
 
   // return early if not order.completed webhook
@@ -114,17 +121,7 @@ handler.post(async (req, res) => {
           packed: a,
         },
       };
-      const secret = process.env.SNIPCART_SECRET + ':';
-      await axios.put(
-        `https://app.snipcart.com/api/orders/${token}`,
-        trackingForSnipcart,
-        {
-          headers: {
-            Authorization: `Basic ${btoa(secret)}`,
-            Accept: 'application/json',
-          },
-        }
-      );
+      await updateOrderByToken(token, trackingForSnipcart);
     } catch (error) {
       throw { message: 'save tracking info to snipcart error', error };
     }
@@ -135,6 +132,7 @@ handler.post(async (req, res) => {
       await Order.create({
         invoiceNumber,
         email,
+        name: billingAddressName,
         orderToken: token,
         parcel: shipping.parcel.id,
         from_address: shipping.from_address.id,

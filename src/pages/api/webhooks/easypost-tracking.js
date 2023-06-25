@@ -5,7 +5,7 @@ import nc from 'next-connect';
 import mail from '@/utils/mail';
 import getTokenByTrackingId from '@/utils/getTokenByTrackingId';
 import getOrderByToken from '@/utils/getOrderByToken';
-import handleProcessOrder from '@/utils/handleProcessOrder';
+import updateOrderByToken from '@/utils/updateOrderByToken';
 import Order from '@/models/order';
 import db from '@/utils/db';
 
@@ -94,7 +94,7 @@ handler.post(async (req, res) => {
       },
     };
     // update sc by order token
-    await handleProcessOrder(orderToken, update);
+    await updateOrderByToken(orderToken, update);
 
     // update status in mongo
     try {

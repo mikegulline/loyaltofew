@@ -1,3 +1,5 @@
+// ???UPDATE
+// refactor axios calls to contorler functions
 import { useState, useEffect } from 'react';
 import { getSession } from 'next-auth/react';
 import axios from 'axios';
@@ -24,7 +26,9 @@ export default function Returns({ passReturns }) {
             setOrder(data.order);
             console.log('update order');
           }
-        } catch (error) {}
+        } catch (error) {
+          console.log(error);
+        }
       }
     };
     getOrder();

@@ -1,15 +1,18 @@
+// api for getting orders
+// currently getting from SnipCart
+// ???UPDATE to get from mongoDB
 import nc from 'next-connect';
 import axios from 'axios';
 
 const handler = new nc();
 
 handler.get(async (req, res) => {
-  const { limit, offset, status = 'all' } = req.query;
-  const sendStatus = status === 'all' ? `` : `&status=${status}`;
+  const { limit, offset, status } = req.query;
+
   try {
     const secret = process.env.SNIPCART_SECRET + ':';
     const { data } = await axios.get(
-      `https://app.snipcart.com/api/orders?offset=${offset}&limit=${limit}${sendStatus}`,
+      `https://app.snipcart.com/api/orders?offset=${offset}&limit=${limit}&status=${status}`,
       {
         headers: {
           Authorization: `Basic ${btoa(secret)}`,

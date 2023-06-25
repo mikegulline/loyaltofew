@@ -61,35 +61,6 @@ const Close = ({ handleClose }) => {
   );
 };
 
-const Pending = ({ handleUpdate, metadata }) => {
-  const update = {
-    status: 'Pending',
-    metadata: {
-      ...metadata,
-    },
-  };
-  const isPacked =
-    metadata.packed.reduce((acc, cur) => Number(acc + cur), [0]) ===
-    metadata.packed.length;
-
-  const isDisabled = metadata.status !== 'Label Printed';
-
-  console.log(metadata);
-  return (
-    <button
-      disabled={isDisabled}
-      onClick={async () => await handleUpdate(update)}
-      className={`flex items-center gap-2  disabled:text-black disabled:opacity-25 ${
-        !isDisabled
-          ? 'border-green-600 bg-green-100 text-green-600 hover:border-green-600 hover:bg-green-100 hover:text-green-600'
-          : 'hover:bg-black  hover:text-white disabled:bg-white'
-      }`}
-    >
-      Ready to Ship
-    </button>
-  );
-};
-
 const Packed = ({ handleUpdate, metadata }) => {
   const update = {
     metadata: {
@@ -156,7 +127,6 @@ const Buttons = {
   Back,
   Packed,
   Print,
-  Pending,
   Next,
 };
 

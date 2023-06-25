@@ -14,7 +14,7 @@ export default async function mail(email, subject, message) {
     await sgMail.send(msg);
     console.log('mail sent');
   } catch (error) {
-    console.log(error);
+    console.log({ error, message: 'mail send error mail.js' });
   }
   return;
 }

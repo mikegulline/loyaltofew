@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react';
-import handleProcessOrder from '@/utils/handleProcessOrder';
+import updateOrderByToken from '@/utils/updateOrderByToken';
 import OrderItems from './OrderItems';
 import UIShipping from './UIShipping';
 import Wrapper from './Wrapper';
@@ -23,9 +23,9 @@ export default function ProcessOrder({
   } = currentOrder;
 
   const updateOrder = useCallback(
-    async (update, ship = null) => {
+    async (update) => {
       setCurrentOrder({ ...currentOrder, ...update });
-      const { data } = await handleProcessOrder(token, update, ship);
+      const { data } = await updateOrderByToken(token, update);
       return data;
     },
     [token, currentOrder]

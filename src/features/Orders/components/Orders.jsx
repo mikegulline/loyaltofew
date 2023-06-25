@@ -4,9 +4,9 @@ import { ProcessOrder } from '../../ProcessOrder';
 import LoadMore from './LoadMore';
 import OrdersList from './OrdersList';
 import Header from './Header';
-import apiOrders from '@/utils/api-orders';
+import apiOrders from '@/utils/getOrders';
 import PrintPackingSlips from './PrintPackingSlips';
-import handleProcessOrder from '@/utils/handleProcessOrder';
+import updateOrderByToken from '@/utils/updateOrderByToken';
 // import Order from '@/models/order';
 // import db from '@/utils/db';
 
@@ -15,6 +15,7 @@ export default function Orders({ passOrders, limit, totalItems }) {
   const [orders, setOrders] = useState(passOrders);
   const [current, setCurrent] = useState(null);
   const [total, setTotal] = useState(totalItems);
+  const [update, setUpdate] = useState(0);
 
   useEffect(() => {
     (async () => {
@@ -22,12 +23,12 @@ export default function Orders({ passOrders, limit, totalItems }) {
       setTotal(data.totalItems);
       setOrders(data.items);
     })();
-  }, [orderType, limit]);
+  }, [orderType, limit, update]);
 
   const printPackingSlipsCallback = useCallback(async () => {
     const status = 'Pending';
     for (const order of orders) {
-      const { data } = await handleProcessOrder(order.token, {
+      const { data } = await updateOrderByToken(order.token, {
         ...order,
         status,
       });
@@ -41,6 +42,7 @@ export default function Orders({ passOrders, limit, totalItems }) {
       // }
     }
     setOrders([]);
+    setUpdate((u) => u + 1);
     return;
   }, [orders]);
 

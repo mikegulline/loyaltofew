@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import apiOrders from '@/utils/api-orders';
+import apiOrders from '@/utils/getOrders';
 import FormToasts from '@/components/FormToasts';
 
 const LoadMore = ({ orderType, orders, setOrders, total, setTotal, limit }) => {

@@ -1,15 +1,12 @@
-// Get order info from Snipcart by InvoiceNumber
-// Used in pages/admin/returns/
+// Get single order by orderToken API
+// called from getOrderByToken.js ONLY
 import nc from 'next-connect';
 import axios from 'axios';
 
 const handler = new nc();
 
-// get order info from snipcart by orderToken
 handler.get(async (req, res) => {
   const { orderToken } = req.query;
-
-  let error;
 
   if (orderToken) {
     try {

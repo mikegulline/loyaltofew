@@ -1,5 +1,7 @@
 import mongoose from 'mongoose';
 
+// const returnSchema = new mongoose.Schema({}, { timestamps: true });
+
 const itemSchema = new mongoose.Schema(
   {
     name: {
@@ -83,6 +85,9 @@ const orderSchema = new mongoose.Schema(
       required: true,
       default: 'Processed',
     },
+    name: {
+      type: String,
+    },
     email: {
       type: String,
     },
@@ -101,6 +106,8 @@ const orderSchema = new mongoose.Schema(
     tracker_id: {
       type: String,
     },
+    shipping: {},
+    returns: [],
     items: [itemSchema],
   },
   {

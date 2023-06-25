@@ -1,7 +1,9 @@
+// (GET) get order by orderToken
+// api/order/get-order/[orderToken].js
 import axios from 'axios';
 
-const getOrderByToken = async (token) => {
-  const apiEndPoint = `${process.env.NEXT_PUBLIC_BASE_URL}api/admin/order-by-token/${token}`;
+const getOrderByToken = async (orderToken) => {
+  const apiEndPoint = `${process.env.NEXT_PUBLIC_BASE_URL}api/order/get-order/${orderToken}`;
   try {
     const { data } = await axios.get(apiEndPoint);
     return data;
