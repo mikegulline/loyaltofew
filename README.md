@@ -1,34 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Welcome to [loyaltofew.com](https://loyaltofew.com/) "A Trademarked Way Of Life."
 
-## Getting Started
+# Loyal To Few®
 
-First, run the development server:
+## Shop Now 
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- [Mens](https://www.loyaltofew.com/store/mens)
+— [Womens](https://www.loyaltofew.com/store/womens)
+— [Outerwear](https://www.loyaltofew.com/store/outerware)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## About
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Loyal To Few® is a family-owned business started by a retired firefighter/paramedic and his older, much smarter brother. What began as a mindset for survival, turned into a tattoo, and eventually evolved into a one-of-a-kind clothing brand that men and women of all ages who have overcome adversity can relate to.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Sometimes in life, we realize that we have let people in who don't want the best for you, who take and never give. Surrounding ourselves with family and a small circle of friends who will remain in our corner no matter how difficult the circumstances has become our trademarked way of life. We trim the fat, divorce the bullshit, and don't waste time or energy on people who hinder our personal growth and success.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+A life with hardships is inevitable, but you can meet any challenge if you surround yourself with people who have your best interests in mind and will never turn their backs on you. When the dust settles and you see the ones still standing by our side, you have found your Loyal to Few®.
 
-## Learn More
+## Contact Us
 
-To learn more about Next.js, take a look at the following resources:
+Get in touch with Loyal To Few® and start living "A Trademarked Way Of Life."
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Contact](https://www.loyaltofew.com/contact) - Let's talk!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Orders & Returns
 
-## Deploy on Vercel
+Orders will be processed and shipped within 5-7 business days. You will receive an email confirmation once the order is received, as well as an email with tracking information once the shipment is sent.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Returns / Exchanges must be within 30 days of receiving your order.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To return an item, please fill the required information on our [Contact](https://www.loyaltofew.com/contact) page including your name, email address, order number and reason for the return. Once that information is submitted, we will email you a shipping label for your return. Once we receive the item, we will review the order and issue a refund.
+
+To exchange an item, please place a new order for the correct item. Once the new order is placed, please go to our contact page and fill out the required information including your name, email address, order number and the reason for the exchange. Once that information is submitted, we will email you a return shipping label for your exchange. Once we receive the original item, we will review the order and issue a refund.
