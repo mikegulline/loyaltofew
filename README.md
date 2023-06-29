@@ -1,4 +1,4 @@
-Welcome to [loyaltofew.com](https://loyaltofew.com/) "A Trademarked Way Of Life."
+Welcome to [loyaltofew.com](https://loyaltofew.com/) *"A Trademarked Way Of Life."*
 
 # Loyal To Few®
 
