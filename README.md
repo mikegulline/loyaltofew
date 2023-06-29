@@ -4,8 +4,6 @@ Welcome to [loyaltofew.com](https://loyaltofew.com/) *"A Trademarked Way Of Life
 
 # Loyal To Few®
 
-## About
-
 Loyal To Few® is a family-owned business started by a retired firefighter/paramedic and his older, much smarter brother. What began as a mindset for survival, turned into a tattoo, and eventually evolved into a one-of-a-kind clothing brand that men and women of all ages who have overcome adversity can relate to.
 
 Sometimes in life, we realize that we have let people in who don't want the best for you, who take and never give. Surrounding ourselves with family and a small circle of friends who will remain in our corner no matter how difficult the circumstances has become our trademarked way of life. We trim the fat, divorce the bullshit, and don't waste time or energy on people who hinder our personal growth and success.
