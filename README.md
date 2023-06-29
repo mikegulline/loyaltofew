@@ -1,5 +1,7 @@
 Welcome to [loyaltofew.com](https://loyaltofew.com/) *"A Trademarked Way Of Life."*
 
+![Loyal to Few®]([image.jpg](https://www.loyaltofew.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fabout-page.a10025d7.jpg&w=3840&q=75))
+
 # Loyal To Few®
 
 ## About
