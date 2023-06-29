@@ -5,8 +5,8 @@ Welcome to [loyaltofew.com](https://loyaltofew.com/) "A Trademarked Way Of Life.
 ## Shop Now 
 
 - [Mens](https://www.loyaltofew.com/store/mens)
-— [Womens](https://www.loyaltofew.com/store/womens)
-— [Outerwear](https://www.loyaltofew.com/store/outerware)
+- [Womens](https://www.loyaltofew.com/store/womens)
+- [Outerwear](https://www.loyaltofew.com/store/outerware)
 
 ## About
 
