@@ -45,7 +45,7 @@ export const mainMenu = [
   { name: 'Mens', location: '/store/mens', subMenu: mensMenu },
   { name: 'Womens', location: '/store/womens', subMenu: womensMenu },
   { name: 'Outerwear', location: '/store/outerwear', subMenu: outerwearMenu },
-  { name: 'About', location: '/about' },
+  { name: 'Our Stroy', location: '/our-story' },
   { name: 'Contact', location: '/contact' },
   { name: 'Orders', location: '/orders' },
 ];
@@ -82,7 +82,7 @@ export const footerShopMenu = [
 
 export const footerSiteMenu = [
   { name: 'Home', location: '/' },
-  { name: 'About', location: '/about' },
+  { name: 'Our Story', location: '/our-story' },
   { name: 'Contact', location: '/contact' },
   { name: 'Orders', location: '/orders' },
 ];
