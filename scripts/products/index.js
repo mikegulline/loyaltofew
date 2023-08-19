@@ -29,7 +29,7 @@ try {
   );
 
   const menuRest = [
-    { name: 'About', location: '/about' },
+    { name: 'Our Story', location: '/our-story' },
     { name: 'Contact', location: '/contact' },
     { name: 'Orders', location: '/orders' },
   ];
