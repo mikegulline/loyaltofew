@@ -45,7 +45,7 @@ export const mainMenu = [
   { name: 'Mens', location: '/store/mens', subMenu: mensMenu },
   { name: 'Womens', location: '/store/womens', subMenu: womensMenu },
   { name: 'Outerwear', location: '/store/outerwear', subMenu: outerwearMenu },
-  { name: 'Our Stroy', location: '/our-story' },
+  { name: 'Our Story', location: '/our-story' },
   { name: 'Contact', location: '/contact' },
   { name: 'Orders', location: '/orders' },
 ];
