@@ -15,36 +15,32 @@ const OurStory = () => {
         <H1 className=' text-gray-800'>Our Story</H1>
 
         <P>
-          Loyal To Few® is a family-owned business started by two brothers — the
-          younger, a retired firefighter paramedic, and the older, a former
-          troublemaker turned successful entrepreneur/businessman. What began as
-          a mindset turned into a tattoo, and evolved into a one-of-a-kind
-          clothing brand that anyone who has overcome adversity can relate to.
+          Loyal To Few® is a family-owned business started by two brothers from
+          southern California — the younger, a retired firefighter paramedic,
+          and the older, a former troublemaker turned successful entrepreneur.
+          What began as a mindset turned into a tattoo, and evolved into a
+          one-of-a-kind clothing brand that anyone who has overcome adversity
+          can relate to.
         </P>
-
         <P>
           We were raised by our parents with the tenets that seem to be of a
-          dying breed in today&rsquo;s society - respect, discipline, hard work,
-          mental and physical fortitude, loyalty. Taught to give respect if you
-          want to get it, to address adults as Sir or Ma&rsquo;am, to say please
-          and thank you, to hold doors open. Taught to stay sharp, always be
-          aware of your surroundings and of people&rsquo;s motives - just
-          because they say they want the best for you, it ain&rsquo;t always the
-          case.{' '}
+          dying breed today - respect, discipline, hard work, mental and
+          physical fortitude, loyalty. Taught to give respect if you want to get
+          it, to address adults as Sir or Ma&rsquo;am, to say please and thank
+          you, to hold doors open. Taught to stay sharp, always be aware of your
+          surroundings and of people&rsquo;s motives - just because they say
+          they want the best for you, it isn&rsquo;t always the case.
         </P>
-
         <P>
           Starting young, we experienced adversities that would knock the
           average man off his path — sexual abuse, drug & alcohol abuse, jail,
           addiction, divorce, the deaths of loved ones from cancer, suicide, and
-          street life. You name it, chances are we&rsquo;ve probably been
-          through it. But we never brought our issues to the work break room or
+          street life. But we never brought our issues to the work break room or
           blasted them on social media looking for feedback from strangers. We
           found trusted mentors who had overcome the same hurdles and stayed
           within our closeknit family and small circle of friends who knew us
-          best, loved us the most, and had our best interests in mind.{' '}
+          best, loved us the most, and had our best interests in mind.
         </P>
-
         <P>
           Sometimes in life, we realize we have let people in who don&rsquo;t
           want the best for us, who take and never give. Other times, we have
@@ -56,7 +52,6 @@ const OurStory = () => {
           divorce the bullshit, and don&rsquo;t waste time or energy on people
           who hinder our personal growth and success.
         </P>
-
         <P>
           LTF Clothing Brand represents the blood, the sweat, and the tears of
           the inner struggles we all deal with on an everyday basis. It
@@ -68,10 +63,8 @@ const OurStory = () => {
           what&rsquo;s the point? A life with hardships is inevitable, but you
           can meet any challenge if you surround yourself with people who have
           your best interests in mind and will never turn their backs on you.
-          When the dust settles and you see the ones still standing by your
-          side, you have found your Loyal to Few®.
+          They are your Loyal to Few!
         </P>
-
         <P>
           <strong>Thank you for your support</strong> — We look forward to
           paving the way for others like us. As our business grows, so will the
