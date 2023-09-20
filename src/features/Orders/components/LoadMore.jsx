@@ -2,7 +2,15 @@ import { useState } from 'react';
 import apiOrders from '@/utils/getOrders';
 import FormToasts from '@/components/FormToasts';
 //
-const LoadMore = ({ orderType, orders, setOrders, total, setTotal, limit }) => {
+const LoadMore = ({
+  children,
+  orderType,
+  orders,
+  setOrders,
+  total,
+  setTotal,
+  limit,
+}) => {
   const [fetching, setFetching] = useState(false);
   const [error, setError] = useState('');
   const [success, setSuccess] = useState('');
@@ -39,15 +47,20 @@ const LoadMore = ({ orderType, orders, setOrders, total, setTotal, limit }) => {
     success,
   };
 
+  const PassedComponent = () => children;
+
   return (
     <>
-      <button
-        disabled={disabled}
-        onClick={() => handleLoadMore()}
-        className='flex items-center gap-2 hover:bg-black  hover:text-white disabled:bg-white disabled:text-black disabled:opacity-25'
-      >
-        Load More {loadMore > 0 && loadMore}
-      </button>
+      <div className='flex justify-center '>
+        <button
+          disabled={disabled}
+          onClick={() => handleLoadMore()}
+          className='flex items-center gap-2 hover:bg-black  hover:text-white disabled:bg-white disabled:text-black disabled:opacity-25'
+        >
+          Load More {loadMore > 0 && loadMore}
+        </button>
+        <PassedComponent />
+      </div>
       <FormToasts {...formToastsProps} />
     </>
   );

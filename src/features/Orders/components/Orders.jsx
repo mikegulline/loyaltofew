@@ -112,8 +112,8 @@ export default function Orders({ passOrders, limit, totalItems }) {
       <Overlay />
       <Header {...headerProps} />
       <OrdersList {...ordersListProps} />
-      <div className='flex justify-center '>
-        <LoadMore {...loadMoreProps} />
+
+      <LoadMore {...loadMoreProps}>
         {orderType === 'Processed' && (
           <PrintPackingSlips
             orders={orders}
@@ -123,7 +123,8 @@ export default function Orders({ passOrders, limit, totalItems }) {
             Print Packing Slips
           </PrintPackingSlips>
         )}
-      </div>
+      </LoadMore>
     </Container>
   );
 }
+//
