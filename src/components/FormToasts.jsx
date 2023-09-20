@@ -1,5 +1,5 @@
 import { SlRefresh, SlCheck } from 'react-icons/sl';
-
+ 
 const FormToasts = ({ fetching, error, success }) => {
   return (
     <div
