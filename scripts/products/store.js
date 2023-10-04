@@ -3,8 +3,9 @@ module.exports = [
     category: 'Mens',
     name: 'Mens',
     meta: {
-      title: 'Loyal To Few® (LTF) Mens Clothing',
-      description: '',
+      title: 'Mens-American made t-shirts, tank-tops and long-sleeves',
+      description:
+        'The most comfortable 50/50 tees, 100% cotton long-sleeves and tank-tops all designed, produced and printed in the USA.',
     },
     products: [
       {
@@ -175,8 +176,9 @@ module.exports = [
     category: 'Womens',
     name: 'Womens',
     meta: {
-      title: 'Loyal To Few® (LTF) Womens Clothing',
-      description: '',
+      title: 'Womens-American made tees, crop-tops and racer-back tanks',
+      description:
+        'Choose from our 50/50 tees, 100% cotton crop-tops or tri-blend racer-back tanks that are all designed, produced and printed in the USA.',
     },
     products: [
       {
@@ -362,8 +364,9 @@ module.exports = [
     category: 'Outerwear',
     name: 'Outerwear',
     meta: {
-      title: 'Loyal To Few® (LTF) Outerwear',
-      description: '',
+      title: 'Outerwear-Crew Neck Sweatshirts, Hoodies, Beanies & Hats',
+      description:
+        'Loyal To Few American made 100% cotton or 50/50 crew neck sweaters, hoodies & beanies keeping you warm year-round. Flex-fit snapback hats stitched in the USA.',
     },
     products: [
       {

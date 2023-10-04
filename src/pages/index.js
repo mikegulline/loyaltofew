@@ -11,8 +11,11 @@ export default function Home({ categories }) {
   return (
     <div>
       <Head>
-        <title>Loyal To Few®</title>
-        <meta name='description' content='A Trademarked Way Of Life.' />
+        <title>Loyal To Few®-A Trademarked Way of Life. Made in the USA</title>
+        <meta
+          name='description'
+          content='American made streetwear for those who keep a small circle of family & friends that will never turn their backs on you.'
+        />
       </Head>
       <Breadcrumbs links={breadcrumbs} />
       <Container size='large'>

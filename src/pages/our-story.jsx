@@ -7,8 +7,8 @@ const OurStory = () => {
   return (
     <>
       <SEO
-        title='Loyal To Few®—Our Story'
-        description='Learn more about Loyal To Few® and start living "A Trademarked Way Of Life."'
+        title='Our Story-How we became Loyal To Few®, an American brand.'
+        description='Surrounded by family and a small circle of friends who will remain in our corner, no matter how difficult the circumstances is how we became Loyal To Few®.'
       />
 
       <InfoSplit image={image}>

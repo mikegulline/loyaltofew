@@ -8,8 +8,8 @@ const Contact = () => {
   return (
     <>
       <SEO
-        title='Contact Loyal To Few®'
-        description='Get in touch with Loyal To Few® and start living "A Trademarked Way Of Life."'
+        title='Contact-Get in touch with Loyal To Few®'
+        description='Use our automated order return system on our Contact page or email orders@loyaltofew.com with any questions about our American made clothing brand.'
       />
 
       <InfoSplit image={image}>
