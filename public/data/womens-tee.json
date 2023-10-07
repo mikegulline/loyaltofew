@@ -17,8 +17,8 @@
   ],
   "type": "Tee",
   "name": "Original Tee",
-  "link": "/store/womens/tee/block/gray",
-  "image": "/images/products/womens/tee/WomensTeeBlockGray.jpg",
+  "link": "/store/womens/tee/arch/gray",
+  "image": "/images/products/womens/tee/WomensTeeArchGray.jpg",
   "has_image_back": true,
   "weight": 3.6,
   "meta": {
@@ -119,7 +119,6 @@
   "colors": [
     "Gray",
     "Baby-Blue",
-    "Blue",
     "Navy",
     "Maroon",
     "Red"

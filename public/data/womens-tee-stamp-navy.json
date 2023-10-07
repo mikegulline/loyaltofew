@@ -15,7 +15,6 @@
   "colors": [
     "Gray",
     "Baby-Blue",
-    "Blue",
     "Navy",
     "Maroon",
     "Red"
@@ -25,31 +24,31 @@
       "logo": "Arch",
       "link": "/store/womens/tee/arch/navy",
       "image": "/images/products/womens/tee/WomensTeeArchNavy.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APb2/21whXJzg/z8/wDq6fU0NE47OlDh4esA9vb9FQ8iCAAV2NjeAPz8/19ecVxbbPb2/RVDHaiJaTAbAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO7v+Hx+lXl6j/X1/ADq7fYtM1MzM1Dl5e8A/f7/GRo5BgAm0NHdAPr7/3Fxh2NlfeLk7SE4HiFa2hiyAAAAAElFTkSuQmCC"
     },
     {
       "logo": "Block",
       "link": "/store/womens/tee/block/navy",
       "image": "/images/products/womens/tee/WomensTeeBlockNavy.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO7u91xdbl1dbPLy+wDV1+IlJDYwLTzQ0NoA/Pz/BgARDQMO3t7jAP7+/z8+TSYmMunp7tQfGu6wtGM2AAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPElEQVR4nGN4++57eeWEwpLOr1//MDx99t7ZNdnOPurevZcMv3//l5GxZGRQPnX6BoiTmdUQE1f28PE7AB5FHemuvZfoAAAAAElFTkSuQmCC"
     },
     {
       "logo": "Original",
       "link": "/store/womens/tee/original/navy",
       "image": "/images/products/womens/tee/WomensTeeOriginalNavy.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APLz+3V2iYGBkfj5/wDk5e82NE8zNE3a2uQA9vb+CQAdCwMb8/H3APj5/15db2Ffbfz7/xkWHeafwUZMAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOrr84SHn4GCl/Hy+QDq6/U0N1ouLk/l5e4A/Pz/GBk6BQAmz9HcAPb3/nl5j21uheDh6ibsHlu2rAReAAAAAElFTkSuQmCC"
     },
     {
       "logo": "Stamp",
       "link": "/store/womens/tee/stamp/navy",
       "image": "/images/products/womens/tee/WomensTeeStampNavy.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APb5/2RqgWFlePL0/ADr7PYnKT0vLT/U1d4A////DwYXDAAQ2djeAPr6/1VVZkRCUObm6/aNHD5ghsUKAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO7v+Ht+lHh4j/X1/ADq7PQ3O1k4OFbk4+4A/f7/GRo5BQAlzc/bAPr7/3Fxh2RnfeLk7SQdHjebCY4BAAAAAElFTkSuQmCC"
     },
     {
       "logo": "Stenciled",
       "link": "/store/womens/tee/stenciled/navy",
       "image": "/images/products/womens/tee/WomensTeeStenciledNavy.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOnq9Xd6k3V2jPHx/ADn6PI/QmJCQWDf4OwA+/z/Gxw8BwAmzM7bAPb2/mBielRWcNja5h7NHbcrifn2AAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO3v+H+AmX19k/X1/ADr7PY1OFc3N1Tl5e8A/v7/GBk4BQAlztHcAPr7/3V1iWhpgOPl7ShnHmL4QFAIAAAAAElFTkSuQmCC"
     }
   ],
   "sizes": [
@@ -107,6 +106,6 @@
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APb5/2RqgWFlePL0/ADr7PYnKT0vLT/U1d4A////DwYXDAAQ2djeAPr6/1VVZkRCUObm6/aNHD5ghsUKAAAAAElFTkSuQmCC",
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO7v+Ht+lHh4j/X1/ADq7PQ3O1k4OFbk4+4A/f7/GRo5BQAlzc/bAPr7/3Fxh2RnfeLk7SQdHjebCY4BAAAAAElFTkSuQmCC",
   "name_root": "Original Tee"
 }
