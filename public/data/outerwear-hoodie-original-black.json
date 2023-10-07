@@ -23,13 +23,13 @@
       "logo": "Arch",
       "link": "/store/outerwear/hoodie/arch/black",
       "image": "/images/products/outerwear/hoodie/OuterwearHoodieArchBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8/sC+wLOytv3+/wDd3d9OS04/PEHMzc8Ay8vNEg4TAwEFr6+yAOfn6VZWWmNiZeLi5DuEHSxvIcayAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/crJycjHx/z9/wDZ2dpeVVJSSUPFwsIAqaSkHxMIDgAAgXt5AOPi5IN8endzbs3MzT4cHOTDTCGhAAAAAElFTkSuQmCC"
     },
     {
       "logo": "Block",
       "link": "/store/outerwear/hoodie/block/black",
       "image": "/images/products/outerwear/hoodie/OuterwearHoodieBlockBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8/rKys76+wPz8/gDf3+JHQkJAPT3Z2dwAx8fHBwEBDQoKv7/AAOfo6l9fX29vcO3t8DwaHZ60CXddAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/8fFxsXExP39/wDX1tdhWVVTS0bAvb0Ao6CfIBQJEQAAenV0AOLi4314dXJtac7KyzekHI5j34rHAAAAAElFTkSuQmCC"
     },
     {
       "logo": "Original",
@@ -41,13 +41,13 @@
       "logo": "Stamp",
       "link": "/store/outerwear/hoodie/stamp/black",
       "image": "/images/products/outerwear/hoodie/OuterwearHoodieStampBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8/62tsLu7vvv7/QDOztA2MTJBPT7Z2d0AwsLFBAAACwgIysnLAO3t8GhoaHR0dejo6ivgHVi+/+B/AAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/cnHyMfGx/z9/wDY2NpcVE9PRkDCwcEApqOjHhMHDwAAf3h3AOPj5IF6eHdxbc/LzTkjHLQJXHySAAAAAElFTkSuQmCC"
     },
     {
       "logo": "Stenciled",
       "link": "/store/outerwear/hoodie/stenciled/black",
       "image": "/images/products/outerwear/hoodie/OuterwearHoodieStenciledBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/7S0tcXFxf39/wDHx8hSUVBRUE+/vr8AhIODFhUSBAMAenl5ANHR0WZmZWFhYMnJyhjGGzABPBmHAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/cjHx8XFxf39/wDX19hiWlVWTkjBv78ApKOiHhIGDwAAfXd2AOLi4395d3JwbM7LzDsFHLWcgSh2AAAAAElFTkSuQmCC"
     }
   ],
   "sizes": [
