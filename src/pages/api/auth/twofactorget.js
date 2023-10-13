@@ -20,7 +20,7 @@ handler.post(async (req, res) => {
 
     const tokenUser = await TwoFactorToken.findOne({
       token: token.toUpperCase(),
-    }).populate('user');
+    }).populate('User');
 
     if (!tokenUser)
       return res
