@@ -51,6 +51,11 @@
   ],
   "sizes": [
     {
+      "size": "XS",
+      "price": 32,
+      "dimensions": "Body Length: 25 1/8 in., Chest Width: 12 5/8 in."
+    },
+    {
       "size": "S",
       "price": 32,
       "dimensions": "Body Length: 25 3/4 in., Chest Width: 13 5/8 in."

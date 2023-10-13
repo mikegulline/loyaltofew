@@ -17,8 +17,8 @@
   ],
   "type": "Tank",
   "name": "Original Tank",
-  "link": "/store/womens/tank/stamp/gray",
-  "image": "/images/products/womens/tank/WomensTankStampGray.jpg",
+  "link": "/store/womens/tank/arch/gray",
+  "image": "/images/products/womens/tank/WomensTankArchGray.jpg",
   "has_image_back": true,
   "weight": 2.6,
   "meta": {
@@ -86,6 +86,11 @@
     }
   ],
   "sizes": [
+    {
+      "size": "XS",
+      "price": 32,
+      "dimensions": "Body Length: 25 1/8 in., Chest Width: 12 5/8 in."
+    },
     {
       "size": "S",
       "price": 32,
