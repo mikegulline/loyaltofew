@@ -18,9 +18,9 @@
         {
           "name": "Original Tee",
           "type": "Tee",
-          "link": "/store/mens/tee/stenciled/black",
-          "image": "/images/products/mens/tee/MensTeeStenciledBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOvr7qinrbKwtv7+/wDLy9BFRExEQknAwMQA29veDgwWBgMQ6OjrAOzs8IKBh359gvf2+TAsHm9KhdxaAAAAAElFTkSuQmCC",
+          "link": "/store/mens/tee/original/black",
+          "image": "/images/products/mens/tee/MensTeeOriginalBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOnu86GkrpSYne7v8wC3u8A7PUY9PULExMcA6+vsDQ0RAgICv76/AP7+/2xtbnx8fO/v8ApqHQVfivAJAAAAAElFTkSuQmCC",
           "logos": [
             {
               "logo": "Arch"
@@ -49,9 +49,9 @@
         {
           "name": "Original Tank",
           "type": "Tank",
-          "link": "/store/mens/tank/original/black",
-          "image": "/images/products/mens/tank/MensTankOriginalBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APX1+Y+QlqSmrPz8/wDAwMQyMTdKSlHa2t4Ao6OmAwEJFRMYtbW3AMLCxFVVWF1dX8vMzvuCGv1XJNqEAAAAAElFTkSuQmCC",
+          "link": "/store/mens/tank/stenciled/black",
+          "image": "/images/products/mens/tank/MensTankStenciledBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APT094OEipucovv7/wC7u74wMDZQUFbV1dgAmJibBQMIFBQXq6utALy9wENDR0tMTcfHyeQsGd/tZmn6AAAAAElFTkSuQmCC",
           "logos": [
             {
               "logo": "Arch"
@@ -76,9 +76,9 @@
         {
           "name": "Original Long-Sleeve",
           "type": "Sleeves",
-          "link": "/store/mens/sleeves/stenciled/black",
-          "image": "/images/products/mens/sleeves/MensSleevesStenciledBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APHx9IeHiZCQkP39/wB+fn85OTk7Ozt/f38Am5ubBAQEDw8PeHh4ANzc3XFxcX19ft3d36HjGNZqtjG4AAAAAElFTkSuQmCC",
+          "link": "/store/mens/sleeves/block/black",
+          "image": "/images/products/mens/sleeves/MensSleevesBlockBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr6/Jmanaipqv///wChoaFISEhTUlK9vb0AxMTCAgIABgUAysfGAO7u72BgYFxaVuLf3wXtG+kSGB/IAAAAAElFTkSuQmCC",
           "logos": [
             {
               "logo": "Arch"
@@ -114,42 +114,11 @@
       },
       "products": [
         {
-          "name": "Original Tee",
-          "type": "Tee",
-          "link": "/store/womens/tee/arch/gray",
-          "image": "/images/products/womens/tee/WomensTeeArchGray.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPUlEQVR4nGN4//FbakZhdHTS8xevGJ48eaWiZqSirHXz1l2Gnz//8gvJMTMJPH78nOH79z9+gTHWtq5ADgDXgxtUL+0AJAAAAABJRU5ErkJggg==",
-          "logos": [
-            {
-              "logo": "Arch"
-            },
-            {
-              "logo": "Block"
-            },
-            {
-              "logo": "Original"
-            },
-            {
-              "logo": "Stamp"
-            },
-            {
-              "logo": "Stenciled"
-            }
-          ],
-          "colors": [
-            "Gray",
-            "Baby-Blue",
-            "Navy",
-            "Maroon",
-            "Red"
-          ]
-        },
-        {
           "name": "Original Tank",
           "type": "Tank",
-          "link": "/store/womens/tank/stamp/gray",
-          "image": "/images/products/womens/tank/WomensTankStampGray.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/5WVmKSkpvz8/wDr6+4nJCQ7NjTy8vUAtLS2EQAAGQUAtrOzAMPDxTw3NEY/O8fGxwxKGsNcuPiXAAAAAElFTkSuQmCC",
+          "link": "/store/womens/tank/block/gray",
+          "image": "/images/products/womens/tank/WomensTankBlockGray.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/5CRkpOTlfz8/wDs7PAfHBgjIRzv7/IAvr6/DgAAEQAAsrCyAMTExDk1MjcyLL29vfQMGdIPLnIDAAAAAElFTkSuQmCC",
           "logos": [
             {
               "logo": "Arch"
@@ -176,9 +145,9 @@
         {
           "name": "Original Oversized Crop",
           "type": "Oversized-Crop",
-          "link": "/store/womens/oversized-crop/stenciled/black",
-          "image": "/images/products/womens/oversized-crop/WomensOversized-CropStenciledBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz7/ufo6unp7fz8/gCKjZMuMzkuMTiMj5UAo6etAAIPCQwVo6WrAPj3+e7u8fHx9fn4+zS7H4zIbdBaAAAAAElFTkSuQmCC",
+          "link": "/store/womens/oversized-crop/stamp/black",
+          "image": "/images/products/womens/oversized-crop/WomensOversized-CropStampBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz7/+rq7Ovs7vv7/wCMj5UrLDMtLjSTlJsApqitAgUOEBAXqaqvAPf3++7u8fLy9fn3+jl1H76IUu/4AAAAAElFTkSuQmCC",
           "logos": [
             {
               "logo": "Arch"
@@ -217,9 +186,9 @@
         {
           "name": "Original 50/50 Crew",
           "type": "50-50-Crew",
-          "link": "/store/outerwear/50-50-crew/block/black",
-          "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewBlockBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APn5/L2+xLq8wvb3+gCSlp8qLTc8PUaMkJgAjZGZAgMRAAAKeHmBAPz8/7m7vq+vtO/v8fNoHGgWpJMwAAAAAElFTkSuQmCC",
+          "link": "/store/outerwear/50-50-crew/stamp/black",
+          "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewStampBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr5/L29wrm5vvb2+gCTlZwjJSssLDKNjpQAj5CVDA0RBAIJeXl+APz8/76+wLOzt+/v8ejcHC4Baus0AAAAAElFTkSuQmCC",
           "logos": [
             {
               "logo": "Arch"
@@ -244,9 +213,9 @@
         {
           "name": "Original Cotton Crew",
           "type": "Crew",
-          "link": "/store/outerwear/crew/stenciled/black",
-          "image": "/images/products/outerwear/crew/OuterwearCrewStenciledBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/8fIzcrL0P39/wCUmqA2O0VBSFScoacAdnuCAQMMDxQeiI2UAOnq7Li4uru9vu7u8BMAHVFRYaQuAAAAAElFTkSuQmCC",
+          "link": "/store/outerwear/crew/block/black",
+          "image": "/images/products/outerwear/crew/OuterwearCrewBlockBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APn5/L2+xLq8wvb3+gCSlp8qLTc8PUaMkJgAjZGZAgMRAAAKeHmBAPz8/7m7vq+vtO/v8fNoHGgWpJMwAAAAAElFTkSuQmCC",
           "logos": [
             {
               "logo": "Arch"
@@ -274,9 +243,9 @@
         {
           "name": "Original 50/50 Hoodie",
           "type": "50-50-Hoodie",
-          "link": "/store/outerwear/50-50-hoodie/original/black",
-          "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieOriginalBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7//7OwsMC7vP7//wDQ0NFBOztCPD3S0dQAi4iLCQUJAgAEc3JzAN/e4HBqamljZMfFxxADGxTNCktkAAAAAElFTkSuQmCC",
+          "link": "/store/outerwear/50-50-hoodie/block/black",
+          "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBlockBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7//6+rqrq2t////wDNy85DPD1GQEHOzdAAgoGCEQ0QBQEHamlsAN7d32ZgYF5aW8TExQbEGpglmoRZAAAAAElFTkSuQmCC",
           "logos": [
             {
               "logo": "Arch"
@@ -301,9 +270,9 @@
         {
           "name": "Original Cotton Hoodie",
           "type": "Hoodie",
-          "link": "/store/outerwear/hoodie/arch/black",
-          "image": "/images/products/outerwear/hoodie/OuterwearHoodieArchBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/crJycjHx/z9/wDZ2dpeVVJSSUPFwsIAqaSkHxMIDgAAgXt5AOPi5IN8endzbs3MzT4cHOTDTCGhAAAAAElFTkSuQmCC",
+          "link": "/store/outerwear/hoodie/stenciled/black",
+          "image": "/images/products/outerwear/hoodie/OuterwearHoodieStenciledBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/cjHx8XFxf39/wDX19hiWlVWTkjBv78ApKOiHhIGDwAAfXd2AOLi4395d3JwbM7LzDsFHLWcgSh2AAAAAElFTkSuQmCC",
           "logos": [
             {
               "logo": "Arch"

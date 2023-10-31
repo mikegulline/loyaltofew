@@ -1,6 +1,7 @@
 import nc from 'next-connect';
 import db from '@/utils/db';
 import TwoFactorToken from '@/models/twofactortoken';
+import User from '@/models/user';
 
 const handler = nc();
 
