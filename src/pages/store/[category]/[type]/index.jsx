@@ -17,19 +17,26 @@ const Products = ({ product, breadcrumbs, name }) => {
       <StoreWrapper breadcrumbs={breadcrumbs} title={product.name}>
         {product.colors.map((color) => (
           <SlideshowGridGallery title={color} key={color}>
-            {product.logos.map((logo, i) => {
-              const { link, name, imageColorRoot, logo: logoName } = logo;
-              const buildProduct = {
-                link: `${link}/${color.toLowerCase()}`,
-                image: `${imageColorRoot}${color}.jpg`,
-                name,
-              };
-              return (
-                <GridItem key={name} product={buildProduct} index={i}>
-                  <h4 className='mt-2 font-medium'>{`${logoName} Design`}</h4>
-                </GridItem>
-              );
-            })}
+            {product.logos
+              .filter((logo) => {
+                const { colors: logoColors } = logo;
+                if (logoColors.indexOf(color) < 0) return false;
+                return true;
+              })
+              .map((logo, i) => {
+                const { link, name, imageColorRoot, logo: logoName } = logo;
+                const buildProduct = {
+                  link: `${link}/${color.toLowerCase()}`,
+                  image: `${imageColorRoot}${color}.jpg`,
+                  name,
+                };
+
+                return (
+                  <GridItem key={name} product={buildProduct} index={i}>
+                    <h4 className='mt-2 font-medium'>{`${logoName} Design`}</h4>
+                  </GridItem>
+                );
+              })}
           </SlideshowGridGallery>
         ))}
       </StoreWrapper>

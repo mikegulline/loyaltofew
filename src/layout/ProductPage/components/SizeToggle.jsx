@@ -10,32 +10,60 @@ const SizeToggle = ({ sizes, index, setIndex }) => {
         </li>
       </ul>
     );
-
+  const classState = {
+    base: ' cursor-pointer border-gray-300 text-gray-500 hover:border-gray-800 hover:bg-gray-800 hover:text-white',
+    active: ' cursor-crosshair border-red-600 bg-red-600 text-white',
+    disabled: ' border-gray-300 border-dashed text-gray-500 opacity-50',
+  };
   return (
     <ul
       className={` ${
         sizes.length > 5 ? 'grid w-[266px] grid-cols-4' : 'flex'
       } mb-4 gap-1 md:flex md:w-auto lg:mb-6`}
     >
-      {sizes.map(({ size, price }, i) => {
+      {sizes.map(({ size, price, active }, i) => {
+        let setClass = 'base';
+        let disabled = false;
+        if (!active) {
+          setClass = 'disabled';
+          disabled = true;
+        } else if (index === i) {
+          setClass = 'active';
+        }
+        const handleClick = () => setIndex(i);
         return (
-          <li
+          <DisableWrapper
             key={size}
-            onClick={() => {
-              setIndex(i);
-            }}
-            className={` flex  h-16 w-16 select-none flex-col items-center justify-center rounded border   ${
-              index === i
-                ? ' cursor-crosshair border-red-600 bg-red-600 text-white'
-                : 'cursor-pointer border-gray-300 text-gray-500 hover:border-gray-800 hover:bg-gray-800 hover:text-white'
-            }`}
+            handleClick={handleClick}
+            disabled={disabled}
+            className={` flex  h-16 w-16 select-none flex-col items-center justify-center rounded border ${classState[setClass]}`}
           >
             <div className='h-6 text-xl font-bold'>{size}</div>
             <div className='text-sm'>${price}</div>
-          </li>
+          </DisableWrapper>
         );
       })}
     </ul>
+  );
+};
+
+const DisableWrapper = ({
+  key,
+  disabled,
+  className,
+  children,
+  handleClick,
+}) => {
+  if (disabled)
+    return (
+      <li key={key} className={className}>
+        {children}
+      </li>
+    );
+  return (
+    <li onClick={handleClick} key={key} className={className}>
+      {children}
+    </li>
   );
 };
 

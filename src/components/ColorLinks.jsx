@@ -12,6 +12,7 @@ const ColorLinks = (props) => {
     scroll,
     className = ``,
     small = false,
+    activeColors = [],
   } = props;
   const alignClass = align ? `justify-${align}` : `justify-center`;
   const wrapperClasses = `flex items-center ${alignClass} ${className}`;
@@ -19,15 +20,22 @@ const ColorLinks = (props) => {
   return (
     <div className={wrapperClasses}>
       {colors.map((color) => {
+        let disableColor = false;
+        let colorClass = 'cursor-pointer';
+        if (activeColors.length && activeColors.indexOf(color) < 0) {
+          disableColor = true;
+          colorClass = 'opacity-20';
+        }
         const colorName = color.toLowerCase();
         const linkClasses = ` ${
           small ? 'w-6 h-6 lg:w-8 lg:h-8' : 'w-11 h-11'
-        } cursor-pointer flex items-center justify-center rounded mr-1  ${colorName}`;
+        }  flex items-center justify-center rounded mr-1 ${colorClass} ${colorName}`;
         const href = `${link}/${colorName}`;
 
         return (
-          <Link
+          <DisableLink
             className={linkClasses}
+            disabled={disableColor}
             key={colorName}
             href={href}
             title={color}
@@ -35,19 +43,36 @@ const ColorLinks = (props) => {
             prefetch={false}
             onClick={() => window.scrollTo(0, y)}
           >
-            <div
-              className={`relative h-4 w-4 rounded-full bg-white transition-all ${
-                currentColor === color
-                  ? 'scale-100 delay-200 duration-200 ease-out'
-                  : 'scale-0 duration-200 ease-in'
-              }`}
-            ></div>
+            <ActiveDot active={currentColor === color} />
             <div className='hidden'>{color}</div>
-          </Link>
+          </DisableLink>
         );
       })}
     </div>
   );
+};
+
+const DisableLink = ({ children, disabled, key, className, ...rest }) => {
+  if (disabled)
+    return (
+      <div key={key} className={className}>
+        {children}
+      </div>
+    );
+  return (
+    <Link key={key} className={className} {...rest}>
+      {children}
+    </Link>
+  );
+};
+
+const ActiveDot = ({ active }) => {
+  const classes = `relative h-4 w-4 rounded-full bg-white transition-all ${
+    active
+      ? 'scale-100 delay-200 duration-200 ease-out'
+      : 'scale-0 duration-200 ease-in'
+  }`;
+  return <div className={classes}></div>;
 };
 
 export default ColorLinks;

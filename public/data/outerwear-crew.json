@@ -17,13 +17,8 @@
   ],
   "type": "Crew",
   "name": "Original Cotton Crew",
-<<<<<<< HEAD
-  "link": "/store/outerwear/crew/arch/black",
-  "image": "/images/products/outerwear/crew/OuterwearCrewArchBlack.jpg",
-=======
   "link": "/store/outerwear/crew/stenciled/black",
   "image": "/images/products/outerwear/crew/OuterwearCrewStenciledBlack.jpg",
->>>>>>> colors
   "has_image_back": true,
   "weight": 34.3,
   "meta": {

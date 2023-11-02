@@ -1,7 +1,13 @@
 import { useState, useEffect } from 'react';
 
 const useProductInfo = (product) => {
-  const { name, color, colors, sizes, details, link } = product;
+  const { name, color, colors, logo, logos, sizes, details, link } = product;
+
+  const getActiveColors = () => {
+    const { colors: c } = logos.find((l) => l.logo === logo);
+    return c;
+  };
+  const [activeColors, setActiveColors] = useState(getActiveColors);
 
   // sizes array
   const [sizesState, setSizesState] = useState([]);
@@ -10,17 +16,18 @@ const useProductInfo = (product) => {
   const [index, setIndex] = useState(0);
 
   // colors array
-  const [colorsState, setColorsState] = useState([]);
+  // const [colorsState, setColorsState] = useState([]);
 
   // set sizes based on color
   useEffect(() => {
     setSizesState(
       sizes.filter((size) => {
         if ('colors' in size && !size?.colors?.includes(color)) {
-          return false;
+          size['active'] = false;
         } else {
-          return size;
+          size['active'] = true;
         }
+        return size;
       })
     );
   }, [sizes, color]);
@@ -35,9 +42,15 @@ const useProductInfo = (product) => {
   // update colors array based on size
   useEffect(() => {
     const updateColors = sizesState[index]?.colors;
-    if (updateColors) setColorsState(updateColors);
-    else setColorsState(colors);
-  }, [index, sizesState, colors]);
+    if (updateColors) {
+      setActiveColors(activeColors.filter((c) => updateColors.indexOf(c) >= 0));
+    } else {
+      setActiveColors(getActiveColors);
+    }
+    console.log(activeColors);
+    // if (updateColors) setColorsState(updateColors);
+    // else setColorsState(colors);
+  }, [index, sizesState, colors, activeColors, getActiveColors]);
 
   const titleProps = { name: `${name} (${color})` };
 
@@ -52,7 +65,8 @@ const useProductInfo = (product) => {
 
   const wrapColorLinksProps = {
     color,
-    colors: colorsState,
+    colors,
+    activeColors,
     link,
   };
 

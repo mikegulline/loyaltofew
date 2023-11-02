@@ -1,6 +1,6 @@
 import ColorLinks from '@/components/ColorLinks';
 
-const WrapColorLinks = ({ color, colors, link }) => {
+const WrapColorLinks = ({ color, colors, link, activeColors }) => {
   if (colors.length <= 1) return null;
 
   return (
@@ -12,6 +12,7 @@ const WrapColorLinks = ({ color, colors, link }) => {
         link={link}
         align='left'
         className='mb-4 lg:mb-6'
+        activeColors={activeColors}
       />
     </div>
   );

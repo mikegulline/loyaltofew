@@ -17,7 +17,12 @@ const Category = ({ products }) => {
             index={i}
           >
             <h4 className='mt-2 mb-2 font-medium'>{`${logo.logo} Design`}</h4>
-            <ColorLinks colors={colors} link={logo.link} scroll={true} small />
+            <ColorLinks
+              colors={logo.colors}
+              link={logo.link}
+              scroll={true}
+              small
+            />
           </GridItem>
         );
       })}
