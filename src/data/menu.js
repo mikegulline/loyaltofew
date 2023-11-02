@@ -7,7 +7,7 @@ export const mensMenu = [
 ];
 
 export const womensMenu = [
-  { name: 'Original Tee', location: '/store/womens/tee/arch/navy' },
+  // { name: 'Original Tee', location: '/store/womens/tee/arch/navy' },
   { name: 'Original Tank', location: '/store/womens/tank/arch/blue' },
   // { name: 'Original Crop', location: '/store/womens/crop/arch/black' },
   {

@@ -19,6 +19,11 @@
   ],
   "logos": [
     {
+      "colors": [
+        "Black-White",
+        "Gray-White",
+        "Navy-White"
+      ],
       "logo": "Block",
       "link": "/store/outerwear/flexfit-snapback/block/navy-white",
       "image": "/images/products/outerwear/flexfit-snapback/OuterwearFlexfit-SnapbackBlockNavy-White.jpg",

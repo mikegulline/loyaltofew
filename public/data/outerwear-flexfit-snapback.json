@@ -30,6 +30,11 @@
   ],
   "logos": [
     {
+      "colors": [
+        "Black-White",
+        "Gray-White",
+        "Navy-White"
+      ],
       "name": "Flexfit Snapback with Block Design",
       "link": "/store/outerwear/flexfit-snapback/block",
       "linkColor": "/store/outerwear/flexfit-snapback/block/black-white",
@@ -52,6 +57,7 @@
     "Gray-White",
     "Navy-White"
   ],
+  "colorsAlt": {},
   "details": [
     "Stitched in the USA",
     "Flex-fit lining with adjustable snapback",

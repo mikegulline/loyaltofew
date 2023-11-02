@@ -23,30 +23,45 @@
       "logos": [
         {
           "logo": "Arch",
+          "colors": [
+            "Black"
+          ],
           "link": "/store/outerwear/50-50-crew/arch",
           "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewArchBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr6/L2+wrq7wPb2+gCUlp4hJCkoKC6QkJUAj5KXDQ0RBAMHent+APz8/76+wLS1uO/v8endHDkxN8G0AAAAAElFTkSuQmCC"
         },
         {
           "logo": "Block",
+          "colors": [
+            "Black"
+          ],
           "link": "/store/outerwear/50-50-crew/block",
           "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewBlockBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APn5/L2+xLq8wvb3+gCSlp8qLTc8PUaMkJgAjZGZAgMRAAAKeHmBAPz8/7m7vq+vtO/v8fNoHGgWpJMwAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Original",
+          "colors": [
+            "Black"
+          ],
           "link": "/store/outerwear/50-50-crew/original",
           "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewOriginalBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/8PEyL7Axfn5/QCZm6IiIykhISaUlJsAlJWbCgwRAQAEfn6DAP7+/8LCxbm5u/Ly9fVrHKPXD0xkAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Stamp",
+          "colors": [
+            "Black"
+          ],
           "link": "/store/outerwear/50-50-crew/stamp",
           "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewStampBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr5/L29wrm5vvb2+gCTlZwjJSssLDKNjpQAj5CVDA0RBAIJeXl+APz8/76+wLOzt+/v8ejcHC4Baus0AAAAAElFTkSuQmCC"
         },
         {
           "logo": "Stenciled",
+          "colors": [
+            "Black"
+          ],
           "link": "/store/outerwear/50-50-crew/stenciled",
           "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewStenciledBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/8fIzcrL0P39/wCUmqA2O0VBSFScoacAdnuCAQMMDxQeiI2UAOnq7Li4uru9vu7u8BMAHVFRYaQuAAAAAElFTkSuQmCC"
@@ -62,30 +77,60 @@
       "logos": [
         {
           "logo": "Arch",
+          "colors": [
+            "Black",
+            "Navy",
+            "Green",
+            "Dolphin"
+          ],
           "link": "/store/outerwear/crew/arch",
           "image": "/images/products/outerwear/crew/OuterwearCrewArchBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr6/L2+wrq7wPb2+gCUlp4hJCkoKC6QkJUAj5KXDQ0RBAMHent+APz8/76+wLS1uO/v8endHDkxN8G0AAAAAElFTkSuQmCC"
         },
         {
           "logo": "Block",
+          "colors": [
+            "Black",
+            "Navy",
+            "Green",
+            "Dolphin"
+          ],
           "link": "/store/outerwear/crew/block",
           "image": "/images/products/outerwear/crew/OuterwearCrewBlockBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APn5/L2+xLq8wvb3+gCSlp8qLTc8PUaMkJgAjZGZAgMRAAAKeHmBAPz8/7m7vq+vtO/v8fNoHGgWpJMwAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Original",
+          "colors": [
+            "Black",
+            "Navy",
+            "Green",
+            "Dolphin"
+          ],
           "link": "/store/outerwear/crew/original",
           "image": "/images/products/outerwear/crew/OuterwearCrewOriginalBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/8PEyL7Axfn5/QCZm6IiIykhISaUlJsAlJWbCgwRAQAEfn6DAP7+/8LCxbm5u/Ly9fVrHKPXD0xkAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Stamp",
+          "colors": [
+            "Black",
+            "Navy",
+            "Green",
+            "Dolphin"
+          ],
           "link": "/store/outerwear/crew/stamp",
           "image": "/images/products/outerwear/crew/OuterwearCrewStampBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr5/L29wrm5vvb2+gCTlZwjJSssLDKNjpQAj5CVDA0RBAIJeXl+APz8/76+wLOzt+/v8ejcHC4Baus0AAAAAElFTkSuQmCC"
         },
         {
           "logo": "Stenciled",
+          "colors": [
+            "Black",
+            "Navy",
+            "Green",
+            "Dolphin"
+          ],
           "link": "/store/outerwear/crew/stenciled",
           "image": "/images/products/outerwear/crew/OuterwearCrewStenciledBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/8fIzcrL0P39/wCUmqA2O0VBSFScoacAdnuCAQMMDxQeiI2UAOnq7Li4uru9vu7u8BMAHVFRYaQuAAAAAElFTkSuQmCC"
@@ -104,30 +149,45 @@
       "logos": [
         {
           "logo": "Arch",
+          "colors": [
+            "Black"
+          ],
           "link": "/store/outerwear/50-50-hoodie/arch",
           "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieArchBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7//7Ktrby5uf///wDQzdE/OTpGQEHR0NEAhoWHDQgNBAMGbm1xAN/e32xmZmFeX8XFxwvpGt10mxVoAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Block",
+          "colors": [
+            "Black"
+          ],
           "link": "/store/outerwear/50-50-hoodie/block",
           "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBlockBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7//6+rqrq2t////wDNy85DPD1GQEHOzdAAgoGCEQ0QBQEHamlsAN7d32ZgYF5aW8TExQbEGpglmoRZAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Original",
+          "colors": [
+            "Black"
+          ],
           "link": "/store/outerwear/50-50-hoodie/original",
           "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieOriginalBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7//7OwsMC7vP7//wDQ0NFBOztCPD3S0dQAi4iLCQUJAgAEc3JzAN/e4HBqamljZMfFxxADGxTNCktkAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Stamp",
+          "colors": [
+            "Black"
+          ],
           "link": "/store/outerwear/50-50-hoodie/stamp",
           "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieStampBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv6/LOvr7m1tfv8/wDQz9NBOztCOzzMy80AiomLDggOAwEGaGdpAN3d3mplZV9bXL+/wQT6GoccfWXCAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Stenciled",
+          "colors": [
+            "Black"
+          ],
           "link": "/store/outerwear/50-50-hoodie/stenciled",
           "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieStenciledBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/LSvsbq1tvv8/wDR0NJFQEBEPj/Ny80AjIqMDwoPBAMGaWhqAN3d3mxnZmJdXcDAwgqOGsGAxc43AAAAAElFTkSuQmCC"
@@ -143,30 +203,60 @@
       "logos": [
         {
           "logo": "Arch",
+          "colors": [
+            "Black",
+            "Dolphin",
+            "Green",
+            "Navy"
+          ],
           "link": "/store/outerwear/hoodie/arch",
           "image": "/images/products/outerwear/hoodie/OuterwearHoodieArchBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/crJycjHx/z9/wDZ2dpeVVJSSUPFwsIAqaSkHxMIDgAAgXt5AOPi5IN8endzbs3MzT4cHOTDTCGhAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Block",
+          "colors": [
+            "Black",
+            "Dolphin",
+            "Green",
+            "Navy"
+          ],
           "link": "/store/outerwear/hoodie/block",
           "image": "/images/products/outerwear/hoodie/OuterwearHoodieBlockBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/8fFxsXExP39/wDX1tdhWVVTS0bAvb0Ao6CfIBQJEQAAenV0AOLi4314dXJtac7KyzekHI5j34rHAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Original",
+          "colors": [
+            "Black",
+            "Dolphin",
+            "Green",
+            "Navy"
+          ],
           "link": "/store/outerwear/hoodie/original",
           "image": "/images/products/outerwear/hoodie/OuterwearHoodieOriginalBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/crKysrIyPz+/wDb2ttfV1JORUDFw8MAqqenGg4FCwAAg319AOPi5IR/fXt2cs7Nzj9zHP0DwYyMAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Stamp",
+          "colors": [
+            "Black",
+            "Dolphin",
+            "Green",
+            "Navy"
+          ],
           "link": "/store/outerwear/hoodie/stamp",
           "image": "/images/products/outerwear/hoodie/OuterwearHoodieStampBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/cnHyMfGx/z9/wDY2NpcVE9PRkDCwcEApqOjHhMHDwAAf3h3AOPj5IF6eHdxbc/LzTkjHLQJXHySAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Stenciled",
+          "colors": [
+            "Black",
+            "Dolphin",
+            "Green",
+            "Navy"
+          ],
           "link": "/store/outerwear/hoodie/stenciled",
           "image": "/images/products/outerwear/hoodie/OuterwearHoodieStenciledBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/cjHx8XFxf39/wDX19hiWlVWTkjBv78ApKOiHhIGDwAAfXd2AOLi4395d3JwbM7LzDsFHLWcgSh2AAAAAElFTkSuQmCC"
@@ -185,6 +275,11 @@
       "logos": [
         {
           "logo": "Block",
+          "colors": [
+            "Black",
+            "Gray",
+            "Navy"
+          ],
           "link": "/store/outerwear/beanie/block",
           "image": "/images/products/outerwear/beanie/OuterwearBeanieBlockBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP///4eJjoiIjPz8/gCqq64EBAoCAgC5uboAcHF2FRMYDw4Oh4eHAJ+fpGdnbHh4fL+/wZYuF5FYS12RAAAAAElFTkSuQmCC"
@@ -202,6 +297,11 @@
       "logos": [
         {
           "logo": "Block",
+          "colors": [
+            "Black-White",
+            "Gray-White",
+            "Navy-White"
+          ],
           "link": "/store/outerwear/flexfit-snapback/block",
           "image": "/images/products/outerwear/flexfit-snapback/OuterwearFlexfit-SnapbackBlockBlack-White.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr6/6SkqK+yt/7+/wC6v8YfKjYyTGDK1N0AiYyRAAMQDiY4oq25AMTDxbGvtKqqr8DDyRBiHOrELC7qAAAAAElFTkSuQmCC"

@@ -17,8 +17,8 @@
   ],
   "type": "Hoodie",
   "name": "Original Cotton Hoodie",
-  "link": "/store/outerwear/hoodie/original/black",
-  "image": "/images/products/outerwear/hoodie/OuterwearHoodieOriginalBlack.jpg",
+  "link": "/store/outerwear/hoodie/stenciled/black",
+  "image": "/images/products/outerwear/hoodie/OuterwearHoodieStenciledBlack.jpg",
   "has_image_back": false,
   "weight": 34.3,
   "meta": {
@@ -30,6 +30,12 @@
   ],
   "logos": [
     {
+      "colors": [
+        "Black",
+        "Dolphin",
+        "Green",
+        "Navy"
+      ],
       "name": "Original Cotton Hoodie with Arch Design",
       "link": "/store/outerwear/hoodie/arch",
       "linkColor": "/store/outerwear/hoodie/arch/black",
@@ -41,6 +47,12 @@
       "logo": "Arch"
     },
     {
+      "colors": [
+        "Black",
+        "Dolphin",
+        "Green",
+        "Navy"
+      ],
       "name": "Original Cotton Hoodie with Block Design",
       "link": "/store/outerwear/hoodie/block",
       "linkColor": "/store/outerwear/hoodie/block/black",
@@ -52,6 +64,12 @@
       "logo": "Block"
     },
     {
+      "colors": [
+        "Black",
+        "Dolphin",
+        "Green",
+        "Navy"
+      ],
       "name": "Original Cotton Hoodie with Original Design",
       "link": "/store/outerwear/hoodie/original",
       "linkColor": "/store/outerwear/hoodie/original/black",
@@ -63,6 +81,12 @@
       "logo": "Original"
     },
     {
+      "colors": [
+        "Black",
+        "Dolphin",
+        "Green",
+        "Navy"
+      ],
       "name": "Original Cotton Hoodie with Stamp Design",
       "link": "/store/outerwear/hoodie/stamp",
       "linkColor": "/store/outerwear/hoodie/stamp/black",
@@ -74,6 +98,12 @@
       "logo": "Stamp"
     },
     {
+      "colors": [
+        "Black",
+        "Dolphin",
+        "Green",
+        "Navy"
+      ],
       "name": "Original Cotton Hoodie with Stenciled Design",
       "link": "/store/outerwear/hoodie/stenciled",
       "linkColor": "/store/outerwear/hoodie/stenciled/black",
@@ -126,6 +156,7 @@
     "Green",
     "Navy"
   ],
+  "colorsAlt": {},
   "details": [
     "Designed, produced & printed in the USA",
     "100% US-grown, pre-washed, no-shrink cotton",

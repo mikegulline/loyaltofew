@@ -19,30 +19,55 @@
   ],
   "logos": [
     {
+      "colors": [
+        "Gray",
+        "Blue",
+        "Maroon"
+      ],
       "logo": "Arch",
       "link": "/store/womens/tank/arch/gray",
       "image": "/images/products/womens/tank/WomensTankArchGray.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/5+fo56eoPr6/QDs7O48ODRAOzjm5ecAr62vEgAAGwsAqqenAMDAwElFQTkzLba0tg8/Gn4yMVIRAAAAAElFTkSuQmCC"
     },
     {
+      "colors": [
+        "Gray",
+        "Blue",
+        "Maroon"
+      ],
       "logo": "Block",
       "link": "/store/womens/tank/block/gray",
       "image": "/images/products/womens/tank/WomensTankBlockGray.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/5CRkpOTlfz8/wDs7PAfHBgjIRzv7/IAvr6/DgAAEQAAsrCyAMTExDk1MjcyLL29vfQMGdIPLnIDAAAAAElFTkSuQmCC"
     },
     {
+      "colors": [
+        "Gray",
+        "Blue",
+        "Maroon"
+      ],
       "logo": "Original",
       "link": "/store/womens/tank/original/gray",
       "image": "/images/products/womens/tank/WomensTankOriginalGray.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/5+foK+vsf39/wDw8PRBPTtLRkL08/cA0NDREwEAFgAAxsXFANbW11RPTV5XUtLR0jldHPSEe7WlAAAAAElFTkSuQmCC"
     },
     {
+      "colors": [
+        "Gray",
+        "Blue",
+        "Maroon"
+      ],
       "logo": "Stamp",
       "link": "/store/womens/tank/stamp/gray",
       "image": "/images/products/womens/tank/WomensTankStampGray.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/5WVmKSkpvz8/wDr6+4nJCQ7NjTy8vUAtLS2EQAAGQUAtrOzAMPDxTw3NEY/O8fGxwxKGsNcuPiXAAAAAElFTkSuQmCC"
     },
     {
+      "colors": [
+        "Gray",
+        "Blue",
+        "Maroon"
+      ],
       "logo": "Stenciled",
       "link": "/store/womens/tank/stenciled/gray",
       "image": "/images/products/womens/tank/WomensTankStenciledGray.jpg",
@@ -50,6 +75,11 @@
     }
   ],
   "sizes": [
+    {
+      "size": "XS",
+      "price": 32,
+      "dimensions": "Body Length: 25 1/8 in., Chest Width: 12 5/8 in."
+    },
     {
       "size": "S",
       "price": 32,

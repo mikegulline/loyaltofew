@@ -21,30 +21,52 @@
   ],
   "logos": [
     {
-      "logo": "Arch",
-      "link": "/store/mens/tee/arch/navy",
-      "image": "/images/products/mens/tee/MensTeeArchNavy.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AObm7qOfr5qYotnZ3gCysr08OEtCPEq2tLwA7OvwHhgpEQAUzszQAPz7/42KlImFi+no7QYwHYvxq8zcAAAAAElFTkSuQmCC"
-    },
-    {
+      "colors": [
+        "Black",
+        "Gray",
+        "Green",
+        "Maroon",
+        "Navy"
+      ],
       "logo": "Block",
       "link": "/store/mens/tee/block/navy",
       "image": "/images/products/mens/tee/MensTeeBlockNavy.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ANHR2YOCjnl2gMTCxwCnp7I4NUZBPUmjoqkA+fj8DwUVCwAP2NfbAP7+/2BfaGFdZeXk57nRGuJllcbyAAAAAElFTkSuQmCC"
     },
     {
+      "colors": [
+        "Black",
+        "Gray",
+        "Green",
+        "Maroon",
+        "Navy"
+      ],
       "logo": "Original",
       "link": "/store/mens/tee/original/navy",
       "image": "/images/products/mens/tee/MensTeeOriginalNavy.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AMnJ0YWEk397isLByACnp7IzMEY3NEi1tL0A9PP2EgogCwAW1dTYAPz8/2Rib3Judufn7b2gG0lI6/FPAAAAAElFTkSuQmCC"
     },
     {
+      "colors": [
+        "Black",
+        "Gray",
+        "Green",
+        "Maroon",
+        "Navy"
+      ],
       "logo": "Stamp",
       "link": "/store/mens/tee/stamp/navy",
       "image": "/images/products/mens/tee/MensTeeStampNavy.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ANjY342LmoaBjsbGzQClpbAyLUI9OEizsrsA7u7xBwAXDgAW3t3iAPz8/3d2gnx3gOzr7s51G/IkHmk6AAAAAElFTkSuQmCC"
     },
     {
+      "colors": [
+        "Black",
+        "Gray",
+        "Green",
+        "Maroon",
+        "Navy"
+      ],
       "logo": "Stenciled",
       "link": "/store/mens/tee/stenciled/navy",
       "image": "/images/products/mens/tee/MensTeeStenciledNavy.jpg",

@@ -19,6 +19,11 @@
   ],
   "logos": [
     {
+      "colors": [
+        "Black",
+        "Gray",
+        "Navy"
+      ],
       "logo": "Block",
       "link": "/store/outerwear/beanie/block/black",
       "image": "/images/products/outerwear/beanie/OuterwearBeanieBlockBlack.jpg",

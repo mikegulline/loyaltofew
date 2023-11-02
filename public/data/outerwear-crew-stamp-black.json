@@ -20,30 +20,60 @@
   ],
   "logos": [
     {
+      "colors": [
+        "Black",
+        "Navy",
+        "Green",
+        "Dolphin"
+      ],
       "logo": "Arch",
       "link": "/store/outerwear/crew/arch/black",
       "image": "/images/products/outerwear/crew/OuterwearCrewArchBlack.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr6/L2+wrq7wPb2+gCUlp4hJCkoKC6QkJUAj5KXDQ0RBAMHent+APz8/76+wLS1uO/v8endHDkxN8G0AAAAAElFTkSuQmCC"
     },
     {
+      "colors": [
+        "Black",
+        "Navy",
+        "Green",
+        "Dolphin"
+      ],
       "logo": "Block",
       "link": "/store/outerwear/crew/block/black",
       "image": "/images/products/outerwear/crew/OuterwearCrewBlockBlack.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APn5/L2+xLq8wvb3+gCSlp8qLTc8PUaMkJgAjZGZAgMRAAAKeHmBAPz8/7m7vq+vtO/v8fNoHGgWpJMwAAAAAElFTkSuQmCC"
     },
     {
+      "colors": [
+        "Black",
+        "Navy",
+        "Green",
+        "Dolphin"
+      ],
       "logo": "Original",
       "link": "/store/outerwear/crew/original/black",
       "image": "/images/products/outerwear/crew/OuterwearCrewOriginalBlack.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/8PEyL7Axfn5/QCZm6IiIykhISaUlJsAlJWbCgwRAQAEfn6DAP7+/8LCxbm5u/Ly9fVrHKPXD0xkAAAAAElFTkSuQmCC"
     },
     {
+      "colors": [
+        "Black",
+        "Navy",
+        "Green",
+        "Dolphin"
+      ],
       "logo": "Stamp",
       "link": "/store/outerwear/crew/stamp/black",
       "image": "/images/products/outerwear/crew/OuterwearCrewStampBlack.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr5/L29wrm5vvb2+gCTlZwjJSssLDKNjpQAj5CVDA0RBAIJeXl+APz8/76+wLOzt+/v8ejcHC4Baus0AAAAAElFTkSuQmCC"
     },
     {
+      "colors": [
+        "Black",
+        "Navy",
+        "Green",
+        "Dolphin"
+      ],
       "logo": "Stenciled",
       "link": "/store/outerwear/crew/stenciled/black",
       "image": "/images/products/outerwear/crew/OuterwearCrewStenciledBlack.jpg",

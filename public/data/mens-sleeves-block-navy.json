@@ -19,30 +19,55 @@
   ],
   "logos": [
     {
+      "colors": [
+        "Black",
+        "Gray",
+        "Navy"
+      ],
       "logo": "Arch",
       "link": "/store/mens/sleeves/arch/navy",
       "image": "/images/products/mens/sleeves/MensSleevesArchNavy.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP37/5WUp5ybqf7+/wCgnq89OlxEQFqvrLUApaSwCQAkEw4pwcDGAOXl619dcHJwffDw8vuXHBp9n1D4AAAAAElFTkSuQmCC"
     },
     {
+      "colors": [
+        "Black",
+        "Gray",
+        "Navy"
+      ],
       "logo": "Block",
       "link": "/store/mens/sleeves/block/navy",
       "image": "/images/products/mens/sleeves/MensSleevesBlockNavy.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APj3/pSSnpiVn/7+/wCmpa5VVGJZVWK9u8IAwL3FBwAZDgUY0M3QANbV21tZZlxaYuDe4AmyHBfM4D8TAAAAAElFTkSuQmCC"
     },
     {
+      "colors": [
+        "Black",
+        "Gray",
+        "Navy"
+      ],
       "logo": "Original",
       "link": "/store/mens/sleeves/original/navy",
       "image": "/images/products/mens/sleeves/MensSleevesOriginalNavy.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APj4/ZiUqaCerf7+/wC0ssA5M1k6NFTBv8cAsrK8CQAnCAAiuri+AMbFzlxZbmlmdc3M0QAuG3HqIoedAAAAAElFTkSuQmCC"
     },
     {
+      "colors": [
+        "Black",
+        "Gray",
+        "Navy"
+      ],
       "logo": "Stamp",
       "link": "/store/mens/sleeves/stamp/navy",
       "image": "/images/products/mens/sleeves/MensSleevesStampNavy.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8/5qYqaims/78/wCsq7dBPVpST2a2tLwAzMzUFAwoBQAas6+2AO/v9Ghndn16hefm6BmOHRNBlYkPAAAAAElFTkSuQmCC"
     },
     {
+      "colors": [
+        "Black",
+        "Gray",
+        "Navy"
+      ],
       "logo": "Stenciled",
       "link": "/store/mens/sleeves/stenciled/navy",
       "image": "/images/products/mens/sleeves/MensSleevesStenciledNavy.jpg",

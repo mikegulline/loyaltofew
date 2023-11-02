@@ -114,6 +114,7 @@
       },
       "products": [
         {
+<<<<<<< HEAD
           "name": "Original Tee",
           "type": "Tee",
           "link": "/store/womens/tee/stamp/gray",
@@ -145,6 +146,8 @@
           ]
         },
         {
+=======
+>>>>>>> colors
           "name": "Original Tank",
           "type": "Tank",
           "link": "/store/womens/tank/stenciled/gray",
@@ -217,9 +220,15 @@
         {
           "name": "Original 50/50 Crew",
           "type": "50-50-Crew",
+<<<<<<< HEAD
           "link": "/store/outerwear/50-50-crew/original/black",
           "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewOriginalBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/8PEyL7Axfn5/QCZm6IiIykhISaUlJsAlJWbCgwRAQAEfn6DAP7+/8LCxbm5u/Ly9fVrHKPXD0xkAAAAAElFTkSuQmCC",
+=======
+          "link": "/store/outerwear/50-50-crew/stenciled/black",
+          "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewStenciledBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/8fIzcrL0P39/wCUmqA2O0VBSFScoacAdnuCAQMMDxQeiI2UAOnq7Li4uru9vu7u8BMAHVFRYaQuAAAAAElFTkSuQmCC",
+>>>>>>> colors
           "logos": [
             {
               "logo": "Arch"
@@ -274,9 +283,9 @@
         {
           "name": "Original 50/50 Hoodie",
           "type": "50-50-Hoodie",
-          "link": "/store/outerwear/50-50-hoodie/original/black",
-          "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieOriginalBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7//7OwsMC7vP7//wDQ0NFBOztCPD3S0dQAi4iLCQUJAgAEc3JzAN/e4HBqamljZMfFxxADGxTNCktkAAAAAElFTkSuQmCC",
+          "link": "/store/outerwear/50-50-hoodie/stenciled/black",
+          "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieStenciledBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/LSvsbq1tvv8/wDR0NJFQEBEPj/Ny80AjIqMDwoPBAMGaWhqAN3d3mxnZmJdXcDAwgqOGsGAxc43AAAAAElFTkSuQmCC",
           "logos": [
             {
               "logo": "Arch"
@@ -301,9 +310,9 @@
         {
           "name": "Original Cotton Hoodie",
           "type": "Hoodie",
-          "link": "/store/outerwear/hoodie/arch/black",
-          "image": "/images/products/outerwear/hoodie/OuterwearHoodieArchBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/crJycjHx/z9/wDZ2dpeVVJSSUPFwsIAqaSkHxMIDgAAgXt5AOPi5IN8endzbs3MzT4cHOTDTCGhAAAAAElFTkSuQmCC",
+          "link": "/store/outerwear/hoodie/stenciled/black",
+          "image": "/images/products/outerwear/hoodie/OuterwearHoodieStenciledBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/cjHx8XFxf39/wDX19hiWlVWTkjBv78ApKOiHhIGDwAAfXd2AOLi4395d3JwbM7LzDsFHLWcgSh2AAAAAElFTkSuQmCC",
           "logos": [
             {
               "logo": "Arch"

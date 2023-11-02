@@ -20,30 +20,60 @@
   ],
   "logos": [
     {
+      "colors": [
+        "Black",
+        "Dolphin",
+        "Baby-Blue",
+        "Mauve"
+      ],
       "logo": "Arch",
       "link": "/store/womens/oversized-crop/arch/mauve",
       "image": "/images/products/womens/oversized-crop/WomensOversized-CropArchMauve.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7//+3s8Orq7P7//wCVio01HyI4ISWViowAvLa4HQAAJAoOrKOmAPv7/vb2+vr7+/z9/zvsIAec2CRxAAAAAElFTkSuQmCC"
     },
     {
+      "colors": [
+        "Black",
+        "Dolphin",
+        "Baby-Blue",
+        "Mauve"
+      ],
       "logo": "Block",
       "link": "/store/womens/oversized-crop/block/mauve",
       "image": "/images/products/womens/oversized-crop/WomensOversized-CropBlockMauve.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7//+rp6+jn6f7//wCMgYU6JSg6JSiOgYMAtq+yHgACJxEVppyeAPz9//T09/b2+fz9/zOLH7lN3Ri6AAAAAElFTkSuQmCC"
     },
     {
+      "colors": [
+        "Black",
+        "Dolphin",
+        "Baby-Blue",
+        "Mauve"
+      ],
       "logo": "Original",
       "link": "/store/womens/oversized-crop/original/mauve",
       "image": "/images/products/womens/oversized-crop/WomensOversized-CropOriginalMauve.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7//+7u8u3t7/7//wCajpI8Jik3ICSajpAAwbu9HgAAIwMIsKeqAPv7/vn5/Pz9//v7/0XdIF3V/xKAAAAAAElFTkSuQmCC"
     },
     {
+      "colors": [
+        "Black",
+        "Dolphin",
+        "Baby-Blue",
+        "Mauve"
+      ],
       "logo": "Stamp",
       "link": "/store/womens/oversized-crop/stamp/mauve",
       "image": "/images/products/womens/oversized-crop/WomensOversized-CropStampMauve.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APn5/Obm6eLi5Pj5/ACJgIIwGh0zHCCKf4AAsaqsHQAAIgUNoJaaAPX1+Ozs7/Hy9vb29xpNHrANC1JSAAAAAElFTkSuQmCC"
     },
     {
+      "colors": [
+        "Black",
+        "Dolphin",
+        "Baby-Blue",
+        "Mauve"
+      ],
       "logo": "Stenciled",
       "link": "/store/womens/oversized-crop/stenciled/mauve",
       "image": "/images/products/womens/oversized-crop/WomensOversized-CropStenciledMauve.jpg",

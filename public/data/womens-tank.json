@@ -17,8 +17,13 @@
   ],
   "type": "Tank",
   "name": "Original Tank",
+<<<<<<< HEAD
   "link": "/store/womens/tank/stamp/gray",
   "image": "/images/products/womens/tank/WomensTankStampGray.jpg",
+=======
+  "link": "/store/womens/tank/stenciled/gray",
+  "image": "/images/products/womens/tank/WomensTankStenciledGray.jpg",
+>>>>>>> colors
   "has_image_back": true,
   "weight": 2.6,
   "meta": {
@@ -30,6 +35,11 @@
   ],
   "logos": [
     {
+      "colors": [
+        "Gray",
+        "Blue",
+        "Maroon"
+      ],
       "name": "Original Tank with Arch Design",
       "link": "/store/womens/tank/arch",
       "linkColor": "/store/womens/tank/arch/gray",
@@ -41,6 +51,11 @@
       "logo": "Arch"
     },
     {
+      "colors": [
+        "Gray",
+        "Blue",
+        "Maroon"
+      ],
       "name": "Original Tank with Block Design",
       "link": "/store/womens/tank/block",
       "linkColor": "/store/womens/tank/block/gray",
@@ -52,6 +67,11 @@
       "logo": "Block"
     },
     {
+      "colors": [
+        "Gray",
+        "Blue",
+        "Maroon"
+      ],
       "name": "Original Tank with Original Design",
       "link": "/store/womens/tank/original",
       "linkColor": "/store/womens/tank/original/gray",
@@ -63,6 +83,11 @@
       "logo": "Original"
     },
     {
+      "colors": [
+        "Gray",
+        "Blue",
+        "Maroon"
+      ],
       "name": "Original Tank with Stamp Design",
       "link": "/store/womens/tank/stamp",
       "linkColor": "/store/womens/tank/stamp/gray",
@@ -74,6 +99,11 @@
       "logo": "Stamp"
     },
     {
+      "colors": [
+        "Gray",
+        "Blue",
+        "Maroon"
+      ],
       "name": "Original Tank with Stenciled Design",
       "link": "/store/womens/tank/stenciled",
       "linkColor": "/store/womens/tank/stenciled/gray",
@@ -86,6 +116,11 @@
     }
   ],
   "sizes": [
+    {
+      "size": "XS",
+      "price": 32,
+      "dimensions": "Body Length: 25 1/8 in., Chest Width: 12 5/8 in."
+    },
     {
       "size": "S",
       "price": 32,
@@ -112,6 +147,7 @@
     "Blue",
     "Maroon"
   ],
+  "colorsAlt": {},
   "details": [
     "Designed, produced & printed in the USA",
     "50% polyester, 25% cotton, 25% rayon",

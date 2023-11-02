@@ -30,6 +30,11 @@
   ],
   "logos": [
     {
+      "colors": [
+        "Black",
+        "Gray",
+        "Navy"
+      ],
       "name": "Knit Beanie with Block Design",
       "link": "/store/outerwear/beanie/block",
       "linkColor": "/store/outerwear/beanie/block/black",
@@ -52,6 +57,7 @@
     "Gray",
     "Navy"
   ],
+  "colorsAlt": {},
   "details": [
     "Made in the USA",
     "Snug, comfort fit"

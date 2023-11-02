@@ -17,8 +17,8 @@
   ],
   "type": "50-50-Crew",
   "name": "Original 50/50 Crew",
-  "link": "/store/outerwear/50-50-crew/stamp/black",
-  "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewStampBlack.jpg",
+  "link": "/store/outerwear/50-50-crew/stenciled/black",
+  "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewStenciledBlack.jpg",
   "has_image_back": true,
   "weight": 34.3,
   "meta": {
@@ -30,6 +30,9 @@
   ],
   "logos": [
     {
+      "colors": [
+        "Black"
+      ],
       "name": "Original 50/50 Crew with Arch Design",
       "link": "/store/outerwear/50-50-crew/arch",
       "linkColor": "/store/outerwear/50-50-crew/arch/black",
@@ -41,6 +44,9 @@
       "logo": "Arch"
     },
     {
+      "colors": [
+        "Black"
+      ],
       "name": "Original 50/50 Crew with Block Design",
       "link": "/store/outerwear/50-50-crew/block",
       "linkColor": "/store/outerwear/50-50-crew/block/black",
@@ -52,6 +58,9 @@
       "logo": "Block"
     },
     {
+      "colors": [
+        "Black"
+      ],
       "name": "Original 50/50 Crew with Original Design",
       "link": "/store/outerwear/50-50-crew/original",
       "linkColor": "/store/outerwear/50-50-crew/original/black",
@@ -63,6 +72,9 @@
       "logo": "Original"
     },
     {
+      "colors": [
+        "Black"
+      ],
       "name": "Original 50/50 Crew with Stamp Design",
       "link": "/store/outerwear/50-50-crew/stamp",
       "linkColor": "/store/outerwear/50-50-crew/stamp/black",
@@ -74,6 +86,9 @@
       "logo": "Stamp"
     },
     {
+      "colors": [
+        "Black"
+      ],
       "name": "Original 50/50 Crew with Stenciled Design",
       "link": "/store/outerwear/50-50-crew/stenciled",
       "linkColor": "/store/outerwear/50-50-crew/stenciled/black",
@@ -115,6 +130,7 @@
   "colors": [
     "Black"
   ],
+  "colorsAlt": {},
   "details": [
     "Designed, produced & printed in the USA",
     "50% Cotton, 50% Polyester",

@@ -17,8 +17,13 @@
   ],
   "type": "Crew",
   "name": "Original Cotton Crew",
+<<<<<<< HEAD
   "link": "/store/outerwear/crew/arch/black",
   "image": "/images/products/outerwear/crew/OuterwearCrewArchBlack.jpg",
+=======
+  "link": "/store/outerwear/crew/stenciled/black",
+  "image": "/images/products/outerwear/crew/OuterwearCrewStenciledBlack.jpg",
+>>>>>>> colors
   "has_image_back": true,
   "weight": 34.3,
   "meta": {
@@ -30,6 +35,12 @@
   ],
   "logos": [
     {
+      "colors": [
+        "Black",
+        "Navy",
+        "Green",
+        "Dolphin"
+      ],
       "name": "Original Cotton Crew with Arch Design",
       "link": "/store/outerwear/crew/arch",
       "linkColor": "/store/outerwear/crew/arch/black",
@@ -41,6 +52,12 @@
       "logo": "Arch"
     },
     {
+      "colors": [
+        "Black",
+        "Navy",
+        "Green",
+        "Dolphin"
+      ],
       "name": "Original Cotton Crew with Block Design",
       "link": "/store/outerwear/crew/block",
       "linkColor": "/store/outerwear/crew/block/black",
@@ -52,6 +69,12 @@
       "logo": "Block"
     },
     {
+      "colors": [
+        "Black",
+        "Navy",
+        "Green",
+        "Dolphin"
+      ],
       "name": "Original Cotton Crew with Original Design",
       "link": "/store/outerwear/crew/original",
       "linkColor": "/store/outerwear/crew/original/black",
@@ -63,6 +86,12 @@
       "logo": "Original"
     },
     {
+      "colors": [
+        "Black",
+        "Navy",
+        "Green",
+        "Dolphin"
+      ],
       "name": "Original Cotton Crew with Stamp Design",
       "link": "/store/outerwear/crew/stamp",
       "linkColor": "/store/outerwear/crew/stamp/black",
@@ -74,6 +103,12 @@
       "logo": "Stamp"
     },
     {
+      "colors": [
+        "Black",
+        "Navy",
+        "Green",
+        "Dolphin"
+      ],
       "name": "Original Cotton Crew with Stenciled Design",
       "link": "/store/outerwear/crew/stenciled",
       "linkColor": "/store/outerwear/crew/stenciled/black",
@@ -118,6 +153,7 @@
     "Green",
     "Dolphin"
   ],
+  "colorsAlt": {},
   "details": [
     "Designed, produced & printed in the USA",
     "100% US grown, pre-washed, no-shrink cotton",

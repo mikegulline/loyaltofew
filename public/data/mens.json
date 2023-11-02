@@ -23,30 +23,62 @@
       "logos": [
         {
           "logo": "Arch",
+          "colors": [
+            "Black",
+            "Gray"
+          ],
           "link": "/store/mens/tee/arch",
           "image": "/images/products/mens/tee/MensTeeArchBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AObm656en5aWltnY2AC9vsFHR0lRT065ubkA8vL0EQ8OBQEA2NjYAPv7/3Jycm5tauPj4wKnHNcXE1ghAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Block",
+          "colors": [
+            "Black",
+            "Gray",
+            "Green",
+            "Maroon",
+            "Navy"
+          ],
           "link": "/store/mens/tee/block",
           "image": "/images/products/mens/tee/MensTeeBlockBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ANXV15GRlIWEiMjIygCenqBCQUJJR0exsLMA9fP2FA4KDQAA09DRAP///2lmZmtoaOjo6MrFG18Qnp67AAAAAElFTkSuQmCC"
         },
         {
           "logo": "Original",
+          "colors": [
+            "Black",
+            "Gray",
+            "Green",
+            "Maroon",
+            "Navy"
+          ],
           "link": "/store/mens/tee/original",
           "image": "/images/products/mens/tee/MensTeeOriginalBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOnu86GkrpSYne7v8wC3u8A7PUY9PULExMcA6+vsDQ0RAgICv76/AP7+/2xtbnx8fO/v8ApqHQVfivAJAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Stamp",
+          "colors": [
+            "Black",
+            "Gray",
+            "Green",
+            "Maroon",
+            "Navy"
+          ],
           "link": "/store/mens/tee/stamp",
           "image": "/images/products/mens/tee/MensTeeStampBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ANDQ0oiIiouKitnZ2QCvr7AyLy8/Ozu2trcA+fj7BwAAGRMO9fT1APr7/HVyc398e/z8/dSZHG6zG2hRAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Stenciled",
+          "colors": [
+            "Black",
+            "Gray",
+            "Green",
+            "Maroon",
+            "Navy"
+          ],
           "link": "/store/mens/tee/stenciled",
           "image": "/images/products/mens/tee/MensTeeStenciledBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOvr7qinrbKwtv7+/wDLy9BFRExEQknAwMQA29veDgwWBgMQ6OjrAOzs8IKBh359gvf2+TAsHm9KhdxaAAAAAElFTkSuQmCC"
@@ -66,30 +98,45 @@
       "logos": [
         {
           "logo": "Arch",
+          "colors": [
+            "Black"
+          ],
           "link": "/store/mens/tank/arch",
           "image": "/images/products/mens/tank/MensTankArchBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv6/ZiboZ+hp/39/wDV1dYxMTdDRUrd3d8AsrK0BAMLFxcZvb2/AMbGyExMTlZWVs7O0Q6oG35NAdZZAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Block",
+          "colors": [
+            "Black"
+          ],
           "link": "/store/mens/tank/block",
           "image": "/images/products/mens/tank/MensTankBlockBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/4aJj4+SmPv7/wDIys0iIygtLjfS0tYAqquuAgEKCAgOo6SnAMLCxDY4PD9AQcXFyNlPGTpp0Ej9AAAAAElFTkSuQmCC"
         },
         {
           "logo": "Original",
+          "colors": [
+            "Black"
+          ],
           "link": "/store/mens/tank/original",
           "image": "/images/products/mens/tank/MensTankOriginalBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APX1+Y+QlqSmrPz8/wDAwMQyMTdKSlHa2t4Ao6OmAwEJFRMYtbW3AMLCxFVVWF1dX8vMzvuCGv1XJNqEAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Stamp",
+          "colors": [
+            "Black"
+          ],
           "link": "/store/mens/tank/stamp",
           "image": "/images/products/mens/tank/MensTankStampBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/ZCSmaGjqPv7/wDR0dMrKzJAQEjc3N8Au7u+BQMKFxcav7/BANXV1lRUV19fYdLS1QuOG9BpWI2XAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Stenciled",
+          "colors": [
+            "Black"
+          ],
           "link": "/store/mens/tank/stenciled",
           "image": "/images/products/mens/tank/MensTankStenciledBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APT094OEipucovv7/wC7u74wMDZQUFbV1dgAmJibBQMIFBQXq6utALy9wENDR0tMTcfHyeQsGd/tZmn6AAAAAElFTkSuQmCC"
@@ -105,30 +152,55 @@
       "logos": [
         {
           "logo": "Arch",
+          "colors": [
+            "Black",
+            "Gray",
+            "Navy"
+          ],
           "link": "/store/mens/sleeves/arch",
           "image": "/images/products/mens/sleeves/MensSleevesArchBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8/pubnp6eoPz8/gCfnp44NjdFQkKrqakAxcTEBQMDAgAAw8C+AOfn6V9fYGhlY+bj4+xIGy//cNu5AAAAAElFTkSuQmCC"
         },
         {
           "logo": "Block",
+          "colors": [
+            "Black",
+            "Gray",
+            "Navy"
+          ],
           "link": "/store/mens/sleeves/block",
           "image": "/images/products/mens/sleeves/MensSleevesBlockBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr6/Jmanaipqv///wChoaFISEhTUlK9vb0AxMTCAgIABgUAysfGAO7u72BgYFxaVuLf3wXtG+kSGB/IAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Original",
+          "colors": [
+            "Black",
+            "Gray",
+            "Navy"
+          ],
           "link": "/store/mens/sleeves/original",
           "image": "/images/products/mens/sleeves/MensSleevesOriginalBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/aKnraeqsP79/wC9vLwvMjc5O0HNzc0Ara2qAAAABQMAxMLAAMPDw1RUVF9cVtfV0v+CGvRxttd1AAAAAElFTkSuQmCC"
         },
         {
           "logo": "Stamp",
+          "colors": [
+            "Black",
+            "Gray",
+            "Navy"
+          ],
           "link": "/store/mens/sleeves/stamp",
           "image": "/images/products/mens/sleeves/MensSleevesStampBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/5eanZCSlPHx8gC5ubk/Pz5ERETEw8MAwsLCAAAAAwEAxcTDAObm521tb3l4duPi4viOG++gk2WFAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Stenciled",
+          "colors": [
+            "Black",
+            "Gray",
+            "Navy"
+          ],
           "link": "/store/mens/sleeves/stenciled",
           "image": "/images/products/mens/sleeves/MensSleevesStenciledBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APHx9IeHiZCQkP39/wB+fn85OTk7Ozt/f38Am5ubBAQEDw8PeHh4ANzc3XFxcX19ft3d36HjGNZqtjG4AAAAAElFTkSuQmCC"

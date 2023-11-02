@@ -12,8 +12,19 @@ module.exports = [
         type: 'Tee',
         product: 'Original Tee',
         has_image_back: true,
-        logos: ['Arch', 'Block', 'Original', 'Stamp', 'Stenciled'],
+        logos: [
+          // 'Small Circle',
+          'Arch',
+          'Block',
+          'Original',
+          'Stamp',
+          'Stenciled',
+        ],
         colors: ['Black', 'Gray', 'Green', 'Maroon', 'Navy'],
+        colorsAlt: {
+          Arch: ['Black', 'Gray'],
+          'Small Circle': ['Black', 'Gray'],
+        },
         tags: ['Tops'],
         weight: 7,
         meta: {
@@ -181,58 +192,58 @@ module.exports = [
         'Choose from our 50/50 tees, 100% cotton crop-tops or tri-blend racer-back tanks that are all designed, produced and printed in the USA.',
     },
     products: [
-      {
-        type: 'Tee',
-        product: 'Original Tee',
-        has_image_back: true,
-        logos: ['Arch', 'Block', 'Original', 'Stamp', 'Stenciled'],
-        colors: ['Gray', 'Baby-Blue', 'Navy', 'Maroon', 'Red'],
-        tags: ['Tops'],
-        weight: 3.6,
-        meta: {
-          title: 'Womens Original Tee',
-          description:
-            '100% cotton grown on a US farm. Lightweight (4.3oz.) & durable.',
-        },
-        sizes: [
-          {
-            size: 'S',
-            price: 32,
-            dimensions:
-              'Body Length: 25 7/8 in., Chest Width: 16 1/8 in., Sleeve Length: 6 3/8 in.',
-          },
-          {
-            size: 'M',
-            price: 32,
-            dimensions:
-              'Body Length: 26 1/2 in., Chest Width: 16 5/8 in., Sleeve Length: 6 5/8 in.',
-          },
-          {
-            size: 'L',
-            price: 32,
-            dimensions:
-              'Body Length: 27 1/8 in., Chest Width: 17 1/8 in., Sleeve Length: 6 7/8 in.',
-          },
-          {
-            size: 'XL',
-            price: 32,
-            dimensions:
-              'Body Length: 27 3/4 in., Chest Width: 17 5/8 in., Sleeve Length: 7 1/8 in.',
-          },
-          {
-            size: 'XXL',
-            price: 32,
-            dimensions:
-              'Body Length: 28 1/4 in., Chest Width: 18 in., Sleeve Length: 7 3/8 in.	',
-            colors: ['Red', 'Navy'],
-          },
-        ],
-        details: [
-          'Designed, produced & printed in the USA',
-          '100% cotton grown on a US farm',
-          'Lightweight (4.3oz.) & durable',
-        ],
-      },
+      // {
+      //   type: 'Tee',
+      //   product: 'Original Tee',
+      //   has_image_back: true,
+      //   logos: ['Arch', 'Block', 'Original', 'Stamp', 'Stenciled'],
+      //   colors: ['Gray', 'Baby-Blue', 'Navy', 'Maroon', 'Red'],
+      //   tags: ['Tops'],
+      //   weight: 3.6,
+      //   meta: {
+      //     title: 'Womens Original Tee',
+      //     description:
+      //       '100% cotton grown on a US farm. Lightweight (4.3oz.) & durable.',
+      //   },
+      //   sizes: [
+      //     {
+      //       size: 'S',
+      //       price: 32,
+      //       dimensions:
+      //         'Body Length: 25 7/8 in., Chest Width: 16 1/8 in., Sleeve Length: 6 3/8 in.',
+      //     },
+      //     {
+      //       size: 'M',
+      //       price: 32,
+      //       dimensions:
+      //         'Body Length: 26 1/2 in., Chest Width: 16 5/8 in., Sleeve Length: 6 5/8 in.',
+      //     },
+      //     {
+      //       size: 'L',
+      //       price: 32,
+      //       dimensions:
+      //         'Body Length: 27 1/8 in., Chest Width: 17 1/8 in., Sleeve Length: 6 7/8 in.',
+      //     },
+      //     {
+      //       size: 'XL',
+      //       price: 32,
+      //       dimensions:
+      //         'Body Length: 27 3/4 in., Chest Width: 17 5/8 in., Sleeve Length: 7 1/8 in.',
+      //     },
+      //     {
+      //       size: 'XXL',
+      //       price: 32,
+      //       dimensions:
+      //         'Body Length: 28 1/4 in., Chest Width: 18 in., Sleeve Length: 7 3/8 in.	',
+      //       colors: ['Red', 'Navy'],
+      //     },
+      //   ],
+      //   details: [
+      //     'Designed, produced & printed in the USA',
+      //     '100% cotton grown on a US farm',
+      //     'Lightweight (4.3oz.) & durable',
+      //   ],
+      // },
       {
         type: 'Tank',
         product: 'Original Tank',
@@ -247,11 +258,11 @@ module.exports = [
             '50% polyester, 25% cotton, 25% rayon. Lightweight (3.7oz) racerback design.',
         },
         sizes: [
-          // {
-          //   size: 'XS',
-          //   price: 25,
-          //   dimensions: 'Body Length: 25 1/8 in., Chest Width: 12 5/8 in.',
-          // },
+          {
+            size: 'XS',
+            price: 32,
+            dimensions: 'Body Length: 25 1/8 in., Chest Width: 12 5/8 in.',
+          },
           {
             size: 'S',
             price: 32,
