@@ -17,8 +17,8 @@
   ],
   "type": "Sleeves",
   "name": "Original Long-Sleeve",
-  "link": "/store/mens/sleeves/arch/black",
-  "image": "/images/products/mens/sleeves/MensSleevesArchBlack.jpg",
+  "link": "/store/mens/sleeves/stenciled/black",
+  "image": "/images/products/mens/sleeves/MensSleevesStenciledBlack.jpg",
   "has_image_back": true,
   "weight": 9.8,
   "meta": {
@@ -30,6 +30,11 @@
   ],
   "logos": [
     {
+      "colors": [
+        "Black",
+        "Gray",
+        "Navy"
+      ],
       "name": "Original Long-Sleeve with Arch Design",
       "link": "/store/mens/sleeves/arch",
       "linkColor": "/store/mens/sleeves/arch/black",
@@ -41,6 +46,11 @@
       "logo": "Arch"
     },
     {
+      "colors": [
+        "Black",
+        "Gray",
+        "Navy"
+      ],
       "name": "Original Long-Sleeve with Block Design",
       "link": "/store/mens/sleeves/block",
       "linkColor": "/store/mens/sleeves/block/black",
@@ -52,6 +62,11 @@
       "logo": "Block"
     },
     {
+      "colors": [
+        "Black",
+        "Gray",
+        "Navy"
+      ],
       "name": "Original Long-Sleeve with Original Design",
       "link": "/store/mens/sleeves/original",
       "linkColor": "/store/mens/sleeves/original/black",
@@ -63,6 +78,11 @@
       "logo": "Original"
     },
     {
+      "colors": [
+        "Black",
+        "Gray",
+        "Navy"
+      ],
       "name": "Original Long-Sleeve with Stamp Design",
       "link": "/store/mens/sleeves/stamp",
       "linkColor": "/store/mens/sleeves/stamp/black",
@@ -74,6 +94,11 @@
       "logo": "Stamp"
     },
     {
+      "colors": [
+        "Black",
+        "Gray",
+        "Navy"
+      ],
       "name": "Original Long-Sleeve with Stenciled Design",
       "link": "/store/mens/sleeves/stenciled",
       "linkColor": "/store/mens/sleeves/stenciled/black",
@@ -126,6 +151,7 @@
     "Gray",
     "Navy"
   ],
+  "colorsAlt": {},
   "details": [
     "Designed, produced & printed in the USA",
     "100% cotton grown on a US farm",

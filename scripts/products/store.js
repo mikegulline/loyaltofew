@@ -13,7 +13,7 @@ module.exports = [
         product: 'Original Tee',
         has_image_back: true,
         logos: [
-          ['Small Circle', ['Black', 'Gray']],
+          // 'Small Circle',
           'Arch',
           'Block',
           'Original',
@@ -21,6 +21,10 @@ module.exports = [
           'Stenciled',
         ],
         colors: ['Black', 'Gray', 'Green', 'Maroon', 'Navy'],
+        colorsAlt: {
+          Arch: ['Black', 'Gray'],
+          'Small Circle': ['Black', 'Gray'],
+        },
         tags: ['Tops'],
         weight: 7,
         meta: {

@@ -19,30 +19,55 @@
   ],
   "logos": [
     {
+      "colors": [
+        "Gray",
+        "Blue",
+        "Maroon"
+      ],
       "logo": "Arch",
       "link": "/store/womens/tank/arch/maroon",
       "image": "/images/products/womens/tank/WomensTankArchMaroon.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv+/7ifpb6mrPv+/wDx8fVeGiZjJC309fcA29DUNwAAOgAA0sXIAOLY3GEwO3VFTOTb3UGCHVm6nyFrAAAAAElFTkSuQmCC"
     },
     {
+      "colors": [
+        "Gray",
+        "Blue",
+        "Maroon"
+      ],
       "logo": "Block",
       "link": "/store/womens/tank/block/maroon",
       "image": "/images/products/womens/tank/WomensTankBlockMaroon.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP3//7eeo7efpfr9/wDx8fRPDRlWGyT29/oA0cfKMwAANAAAx7m9ANnR1FIjLWExN9jQ0iuHHBWT5yzVAAAAAElFTkSuQmCC"
     },
     {
+      "colors": [
+        "Gray",
+        "Blue",
+        "Maroon"
+      ],
       "logo": "Original",
       "link": "/store/womens/tank/original/maroon",
       "image": "/images/products/womens/tank/WomensTankOriginalMaroon.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APn7/sOqr8u0uvv+/wDy8vZlHCh3NT78/v8A2M3POwAAPQAA3dLVAOLa3WgxPXA3PuDX2FnoHfnk26urAAAAAElFTkSuQmCC"
     },
     {
+      "colors": [
+        "Gray",
+        "Blue",
+        "Maroon"
+      ],
       "logo": "Stamp",
       "link": "/store/womens/tank/stamp/maroon",
       "image": "/images/products/womens/tank/WomensTankStampMaroon.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APn7/bKZn8Kvtfv+/wDy8fNGCRhfLTP9//8A2tHUMAAAOAAA3tbaAOHb3VcqMm1CSOPe4D5mHUolsF5VAAAAAElFTkSuQmCC"
     },
     {
+      "colors": [
+        "Gray",
+        "Blue",
+        "Maroon"
+      ],
       "logo": "Stenciled",
       "link": "/store/womens/tank/stenciled/maroon",
       "image": "/images/products/womens/tank/WomensTankStenciledMaroon.jpg",

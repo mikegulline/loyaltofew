@@ -17,30 +17,45 @@
   ],
   "logos": [
     {
+      "colors": [
+        "Black"
+      ],
       "logo": "Arch",
       "link": "/store/mens/tank/arch/black",
       "image": "/images/products/mens/tank/MensTankArchBlack.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv6/ZiboZ+hp/39/wDV1dYxMTdDRUrd3d8AsrK0BAMLFxcZvb2/AMbGyExMTlZWVs7O0Q6oG35NAdZZAAAAAElFTkSuQmCC"
     },
     {
+      "colors": [
+        "Black"
+      ],
       "logo": "Block",
       "link": "/store/mens/tank/block/black",
       "image": "/images/products/mens/tank/MensTankBlockBlack.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/4aJj4+SmPv7/wDIys0iIygtLjfS0tYAqquuAgEKCAgOo6SnAMLCxDY4PD9AQcXFyNlPGTpp0Ej9AAAAAElFTkSuQmCC"
     },
     {
+      "colors": [
+        "Black"
+      ],
       "logo": "Original",
       "link": "/store/mens/tank/original/black",
       "image": "/images/products/mens/tank/MensTankOriginalBlack.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APX1+Y+QlqSmrPz8/wDAwMQyMTdKSlHa2t4Ao6OmAwEJFRMYtbW3AMLCxFVVWF1dX8vMzvuCGv1XJNqEAAAAAElFTkSuQmCC"
     },
     {
+      "colors": [
+        "Black"
+      ],
       "logo": "Stamp",
       "link": "/store/mens/tank/stamp/black",
       "image": "/images/products/mens/tank/MensTankStampBlack.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/ZCSmaGjqPv7/wDR0dMrKzJAQEjc3N8Au7u+BQMKFxcav7/BANXV1lRUV19fYdLS1QuOG9BpWI2XAAAAAElFTkSuQmCC"
     },
     {
+      "colors": [
+        "Black"
+      ],
       "logo": "Stenciled",
       "link": "/store/mens/tank/stenciled/black",
       "image": "/images/products/mens/tank/MensTankStenciledBlack.jpg",

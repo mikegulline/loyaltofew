@@ -17,8 +17,8 @@
   ],
   "type": "50-50-Hoodie",
   "name": "Original 50/50 Hoodie",
-  "link": "/store/outerwear/50-50-hoodie/original/black",
-  "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieOriginalBlack.jpg",
+  "link": "/store/outerwear/50-50-hoodie/stenciled/black",
+  "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieStenciledBlack.jpg",
   "has_image_back": false,
   "weight": 34.3,
   "meta": {
@@ -30,6 +30,9 @@
   ],
   "logos": [
     {
+      "colors": [
+        "Black"
+      ],
       "name": "Original 50/50 Hoodie with Arch Design",
       "link": "/store/outerwear/50-50-hoodie/arch",
       "linkColor": "/store/outerwear/50-50-hoodie/arch/black",
@@ -41,6 +44,9 @@
       "logo": "Arch"
     },
     {
+      "colors": [
+        "Black"
+      ],
       "name": "Original 50/50 Hoodie with Block Design",
       "link": "/store/outerwear/50-50-hoodie/block",
       "linkColor": "/store/outerwear/50-50-hoodie/block/black",
@@ -52,6 +58,9 @@
       "logo": "Block"
     },
     {
+      "colors": [
+        "Black"
+      ],
       "name": "Original 50/50 Hoodie with Original Design",
       "link": "/store/outerwear/50-50-hoodie/original",
       "linkColor": "/store/outerwear/50-50-hoodie/original/black",
@@ -63,6 +72,9 @@
       "logo": "Original"
     },
     {
+      "colors": [
+        "Black"
+      ],
       "name": "Original 50/50 Hoodie with Stamp Design",
       "link": "/store/outerwear/50-50-hoodie/stamp",
       "linkColor": "/store/outerwear/50-50-hoodie/stamp/black",
@@ -74,6 +86,9 @@
       "logo": "Stamp"
     },
     {
+      "colors": [
+        "Black"
+      ],
       "name": "Original 50/50 Hoodie with Stenciled Design",
       "link": "/store/outerwear/50-50-hoodie/stenciled",
       "linkColor": "/store/outerwear/50-50-hoodie/stenciled/black",
@@ -115,6 +130,7 @@
   "colors": [
     "Black"
   ],
+  "colorsAlt": {},
   "details": [
     "Designed, produced & printed in the USA",
     "50% Cotton, 50% Polyester",

@@ -17,8 +17,8 @@
   ],
   "type": "Tank",
   "name": "Original Tank",
-  "link": "/store/mens/tank/original/black",
-  "image": "/images/products/mens/tank/MensTankOriginalBlack.jpg",
+  "link": "/store/mens/tank/stenciled/black",
+  "image": "/images/products/mens/tank/MensTankStenciledBlack.jpg",
   "has_image_back": true,
   "weight": 5.7,
   "meta": {
@@ -30,6 +30,9 @@
   ],
   "logos": [
     {
+      "colors": [
+        "Black"
+      ],
       "name": "Original Tank with Arch Design",
       "link": "/store/mens/tank/arch",
       "linkColor": "/store/mens/tank/arch/black",
@@ -41,6 +44,9 @@
       "logo": "Arch"
     },
     {
+      "colors": [
+        "Black"
+      ],
       "name": "Original Tank with Block Design",
       "link": "/store/mens/tank/block",
       "linkColor": "/store/mens/tank/block/black",
@@ -52,6 +58,9 @@
       "logo": "Block"
     },
     {
+      "colors": [
+        "Black"
+      ],
       "name": "Original Tank with Original Design",
       "link": "/store/mens/tank/original",
       "linkColor": "/store/mens/tank/original/black",
@@ -63,6 +72,9 @@
       "logo": "Original"
     },
     {
+      "colors": [
+        "Black"
+      ],
       "name": "Original Tank with Stamp Design",
       "link": "/store/mens/tank/stamp",
       "linkColor": "/store/mens/tank/stamp/black",
@@ -74,6 +86,9 @@
       "logo": "Stamp"
     },
     {
+      "colors": [
+        "Black"
+      ],
       "name": "Original Tank with Stenciled Design",
       "link": "/store/mens/tank/stenciled",
       "linkColor": "/store/mens/tank/stenciled/black",
@@ -115,6 +130,7 @@
   "colors": [
     "Black"
   ],
+  "colorsAlt": {},
   "details": [
     "Designed, produced & printed in the USA",
     "100% Pre-washed, no-shrink cotton",

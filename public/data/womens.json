@@ -23,30 +23,55 @@
       "logos": [
         {
           "logo": "Arch",
+          "colors": [
+            "Gray",
+            "Blue",
+            "Maroon"
+          ],
           "link": "/store/womens/tank/arch",
           "image": "/images/products/womens/tank/WomensTankArchGray.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/5+fo56eoPr6/QDs7O48ODRAOzjm5ecAr62vEgAAGwsAqqenAMDAwElFQTkzLba0tg8/Gn4yMVIRAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Block",
+          "colors": [
+            "Gray",
+            "Blue",
+            "Maroon"
+          ],
           "link": "/store/womens/tank/block",
           "image": "/images/products/womens/tank/WomensTankBlockGray.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/5CRkpOTlfz8/wDs7PAfHBgjIRzv7/IAvr6/DgAAEQAAsrCyAMTExDk1MjcyLL29vfQMGdIPLnIDAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Original",
+          "colors": [
+            "Gray",
+            "Blue",
+            "Maroon"
+          ],
           "link": "/store/womens/tank/original",
           "image": "/images/products/womens/tank/WomensTankOriginalGray.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/5+foK+vsf39/wDw8PRBPTtLRkL08/cA0NDREwEAFgAAxsXFANbW11RPTV5XUtLR0jldHPSEe7WlAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Stamp",
+          "colors": [
+            "Gray",
+            "Blue",
+            "Maroon"
+          ],
           "link": "/store/womens/tank/stamp",
           "image": "/images/products/womens/tank/WomensTankStampGray.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/5WVmKSkpvz8/wDr6+4nJCQ7NjTy8vUAtLS2EQAAGQUAtrOzAMPDxTw3NEY/O8fGxwxKGsNcuPiXAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Stenciled",
+          "colors": [
+            "Gray",
+            "Blue",
+            "Maroon"
+          ],
           "link": "/store/womens/tank/stenciled",
           "image": "/images/products/womens/tank/WomensTankStenciledGray.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/5+fnqKfnvv8/gDu7u9BPTdMR0Dz8vQAtbW0DAAAEgcAtbW1ALW0sz45M0A9OLu7uxsdGubfdrMdAAAAAElFTkSuQmCC"
@@ -64,30 +89,60 @@
       "logos": [
         {
           "logo": "Arch",
+          "colors": [
+            "Black",
+            "Dolphin",
+            "Baby-Blue",
+            "Mauve"
+          ],
           "link": "/store/womens/oversized-crop/arch",
           "image": "/images/products/womens/oversized-crop/WomensOversized-CropArchBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP37/+vr7+zr7/v7/wCOkpgrLDMvMTaVl5wAqqqvAAMNEBEXqq2xAPb2+e7u8/Ly9vj4+z4QH+Q3oUPyAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Block",
+          "colors": [
+            "Black",
+            "Dolphin",
+            "Baby-Blue",
+            "Mauve"
+          ],
           "link": "/store/womens/oversized-crop/block",
           "image": "/images/products/womens/oversized-crop/WomensOversized-CropBlockBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz7/+fn6ujp6/v7/wCFh44tLjUsLTOMjpQAoaKnAgQODhAWo6SnAPf3+Ovr7u/v8vn5+y3mH0vAiFdgAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Original",
+          "colors": [
+            "Black",
+            "Dolphin",
+            "Baby-Blue",
+            "Mauve"
+          ],
           "link": "/store/womens/oversized-crop/original",
           "image": "/images/products/womens/oversized-crop/WomensOversized-CropOriginalBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP38/+3t8e7u8fv7/wCTl5wxMzksLzWbnKIAra+0AAENCQ4VsLG3APb2+vLy9fT09/j4+0fSID2xeUpeAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Stamp",
+          "colors": [
+            "Black",
+            "Dolphin",
+            "Baby-Blue",
+            "Mauve"
+          ],
           "link": "/store/womens/oversized-crop/stamp",
           "image": "/images/products/womens/oversized-crop/WomensOversized-CropStampBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz7/+rq7Ovs7vv7/wCMj5UrLDMtLjSTlJsApqitAgUOEBAXqaqvAPf3++7u8fLy9fn3+jl1H76IUu/4AAAAAElFTkSuQmCC"
         },
         {
           "logo": "Stenciled",
+          "colors": [
+            "Black",
+            "Dolphin",
+            "Baby-Blue",
+            "Mauve"
+          ],
           "link": "/store/womens/oversized-crop/stenciled",
           "image": "/images/products/womens/oversized-crop/WomensOversized-CropStenciledBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz7/ufo6unp7fz8/gCKjZMuMzkuMTiMj5UAo6etAAIPCQwVo6WrAPj3+e7u8fHx9fn4+zS7H4zIbdBaAAAAAElFTkSuQmCC"

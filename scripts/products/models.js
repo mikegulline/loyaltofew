@@ -3,6 +3,8 @@ const store = require('./store');
 const storeRoot = 'Store';
 const storePath = 'store';
 
+const kebab = (s) => s.replace(/ /g, '-');
+
 const modalStore = () => {
   const categories = store.map((category) => modalCategory(category));
   const breadcrumbs = [[storeRoot, `/${storePath}`]];
@@ -33,6 +35,7 @@ const modalProduct = ({
   type,
   logos: logosArray,
   colors,
+  colorsAlt = {},
   sizes,
   product: name,
   has_image_back,
@@ -41,17 +44,31 @@ const modalProduct = ({
   meta,
   tags,
 }) => {
-  const randLogo = rand(logosArray);
-  const link =
-    `/${storePath}/${category}/${type}/${randLogo}/${colors[0]}`.toLowerCase();
-  const imageSlug = `${category}${type}${randLogo}${colors[0]}`.replace(
+  // const randLogo = rand(logosArray);
+  const randLogo = logosArray[logosArray.length - 1];
+  const logoColors = colorsAlt.hasOwnProperty(randLogo)
+    ? colorsAlt[randLogo]
+    : colors;
+  const link = `/${storePath}/${category}/${type}/${kebab(randLogo)}/${
+    logoColors[0]
+  }`.toLowerCase();
+  const imageSlug = `${category}${type}${randLogo}${logoColors[0]}`.replace(
     ' ',
     ''
   );
   const image = `/images/products/${category.toLowerCase()}/${type.toLowerCase()}/${imageSlug}.jpg`;
-  const logos = logosArray.map((logo) =>
-    modalLogo({ logo, category, type, colors, name, has_image_back })
-  );
+  const logos = logosArray.map((logo) => {
+    let passColors = colorsAlt.hasOwnProperty(logo) ? colorsAlt[logo] : colors;
+
+    return modalLogo({
+      logo,
+      category,
+      type,
+      colors: passColors,
+      name,
+      has_image_back,
+    });
+  });
 
   return {
     type,
@@ -65,6 +82,7 @@ const modalProduct = ({
     logos,
     sizes,
     colors,
+    colorsAlt,
     details,
   };
 };
@@ -92,6 +110,7 @@ const modalLogo = (values) => {
   const name = `${product} with ${logo} Design`;
 
   return {
+    colors,
     name,
     link,
     linkColor,
@@ -224,10 +243,9 @@ const getColor = (useCategory, useType, useLogo, useColor) => {
     ' ',
     ''
   );
-  const idSlug = `${category.category}:${type.type}:${color}:${logo}`.replace(
-    ' ',
-    ''
-  );
+  const idSlug = `${category.category}:${type.type}:${color}:${kebab(
+    logo
+  )}`.replace(' ', '');
   const id = idSlug.toLowerCase();
   const imageRoot = `/images/products/${category.category.toLowerCase()}/${type.type.toLowerCase()}/`;
   const image = `${imageColorRoot}${color}.jpg`;
@@ -268,4 +286,5 @@ module.exports = {
   getType,
   getLogo,
   getColor,
+  kebab,
 };

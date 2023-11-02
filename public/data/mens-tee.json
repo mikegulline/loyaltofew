@@ -17,8 +17,8 @@
   ],
   "type": "Tee",
   "name": "Original Tee",
-  "link": "/store/mens/tee/original/black",
-  "image": "/images/products/mens/tee/MensTeeOriginalBlack.jpg",
+  "link": "/store/mens/tee/stenciled/black",
+  "image": "/images/products/mens/tee/MensTeeStenciledBlack.jpg",
   "has_image_back": true,
   "weight": 7,
   "meta": {
@@ -30,6 +30,10 @@
   ],
   "logos": [
     {
+      "colors": [
+        "Black",
+        "Gray"
+      ],
       "name": "Original Tee with Arch Design",
       "link": "/store/mens/tee/arch",
       "linkColor": "/store/mens/tee/arch/black",
@@ -41,6 +45,13 @@
       "logo": "Arch"
     },
     {
+      "colors": [
+        "Black",
+        "Gray",
+        "Green",
+        "Maroon",
+        "Navy"
+      ],
       "name": "Original Tee with Block Design",
       "link": "/store/mens/tee/block",
       "linkColor": "/store/mens/tee/block/black",
@@ -52,6 +63,13 @@
       "logo": "Block"
     },
     {
+      "colors": [
+        "Black",
+        "Gray",
+        "Green",
+        "Maroon",
+        "Navy"
+      ],
       "name": "Original Tee with Original Design",
       "link": "/store/mens/tee/original",
       "linkColor": "/store/mens/tee/original/black",
@@ -63,6 +81,13 @@
       "logo": "Original"
     },
     {
+      "colors": [
+        "Black",
+        "Gray",
+        "Green",
+        "Maroon",
+        "Navy"
+      ],
       "name": "Original Tee with Stamp Design",
       "link": "/store/mens/tee/stamp",
       "linkColor": "/store/mens/tee/stamp/black",
@@ -74,6 +99,13 @@
       "logo": "Stamp"
     },
     {
+      "colors": [
+        "Black",
+        "Gray",
+        "Green",
+        "Maroon",
+        "Navy"
+      ],
       "name": "Original Tee with Stenciled Design",
       "link": "/store/mens/tee/stenciled",
       "linkColor": "/store/mens/tee/stenciled/black",
@@ -130,6 +162,16 @@
     "Maroon",
     "Navy"
   ],
+  "colorsAlt": {
+    "Arch": [
+      "Black",
+      "Gray"
+    ],
+    "Small Circle": [
+      "Black",
+      "Gray"
+    ]
+  },
   "details": [
     "Designed, produced & printed in the USA",
     "Perfect 50/50 blend of cotton & polyester",

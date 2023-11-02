@@ -20,30 +20,60 @@
   ],
   "logos": [
     {
+      "colors": [
+        "Black",
+        "Dolphin",
+        "Green",
+        "Navy"
+      ],
       "logo": "Arch",
       "link": "/store/outerwear/hoodie/arch/navy",
       "image": "/images/products/outerwear/hoodie/OuterwearHoodieArchNavy.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8/ra2ubW0uf39/wCxsbVCQUZDP0O1tLUAfn6EEg8SBwABX11dANra3GxrbV9fYLm5u/VpGe2OnIeKAAAAAElFTkSuQmCC"
     },
     {
+      "colors": [
+        "Black",
+        "Dolphin",
+        "Green",
+        "Navy"
+      ],
       "logo": "Block",
       "link": "/store/outerwear/hoodie/block/navy",
       "image": "/images/products/outerwear/hoodie/OuterwearHoodieBlockNavy.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8/rS0trS0tv39/wCurrFKSE1IRUiysrIAfX2BExETBQEDW1haANra3GloalxbXLm5vPS5GdestpAHAAAAAElFTkSuQmCC"
     },
     {
+      "colors": [
+        "Black",
+        "Dolphin",
+        "Green",
+        "Navy"
+      ],
       "logo": "Original",
       "link": "/store/outerwear/hoodie/original/navy",
       "image": "/images/products/outerwear/hoodie/OuterwearHoodieOriginalNavy.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz9/re3ubm4u/39/wCysrRLSU5CQEG2trgAgYGGFxMXBwEDY19hANra3HFwcWVjZbu7vf8RGl75ZRR1AAAAAElFTkSuQmCC"
     },
     {
+      "colors": [
+        "Black",
+        "Dolphin",
+        "Green",
+        "Navy"
+      ],
       "logo": "Stamp",
       "link": "/store/outerwear/hoodie/stamp/navy",
       "image": "/images/products/outerwear/hoodie/OuterwearHoodieStampNavy.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8/rS0ubW0uf3//wCvr7RGRUpFQ0W0s7QAfn6DFhEUBwMFXVtcANra3GxqbF5dX7m5uvccGfkRtJYJAAAAAElFTkSuQmCC"
     },
     {
+      "colors": [
+        "Black",
+        "Dolphin",
+        "Green",
+        "Navy"
+      ],
       "logo": "Stenciled",
       "link": "/store/outerwear/hoodie/stenciled/navy",
       "image": "/images/products/outerwear/hoodie/OuterwearHoodieStenciledNavy.jpg",
