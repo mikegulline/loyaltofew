@@ -82,8 +82,8 @@ export async function getStaticPaths() {
   const paths = [];
   const { categories } = storeNew;
   categories.map(({ category, products }) =>
-    products.map(({ type, logos, colors }) =>
-      logos.map(({ logo }) =>
+    products.map(({ type, logos }) =>
+      logos.map(({ logo, colors }) =>
         colors.map((color) =>
           paths.push({
             params: {

@@ -7,7 +7,7 @@ const {
   kebab,
 } = require('./models.js');
 const { getPlaiceholder } = require('plaiceholder');
-
+//
 const path = require('path');
 const fs = require('fs');
 
@@ -54,7 +54,7 @@ async function storeNew() {
           await getPlaiceholder(image).then(
             ({ base64 }) => (imageBlur = base64)
           );
-          const logos = l.map(({ logo }) => ({ logo }));
+          const logos = l.map(({ logo, colors }) => ({ logo, colors }));
           return { name, type, link, image, imageBlur, logos, colors };
         }
       );
