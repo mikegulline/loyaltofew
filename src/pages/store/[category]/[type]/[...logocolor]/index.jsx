@@ -89,7 +89,10 @@ export async function getStaticPaths() {
             params: {
               category: category.toLowerCase(),
               type: type.toLowerCase(),
-              logocolor: [logo.toLowerCase(), color.toLowerCase()],
+              logocolor: [
+                logo.toLowerCase().replaceAll(' ', '-'),
+                color.toLowerCase(),
+              ],
             },
           })
         )
