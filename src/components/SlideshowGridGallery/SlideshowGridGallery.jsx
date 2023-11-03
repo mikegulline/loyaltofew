@@ -23,7 +23,10 @@ export default function SlideshowGridGallery({ title, link = null, children }) {
           </ToggleButton>
         )}
       </TitleWrapper>
-      <ToggleView showFirst={showFirstToggle}>
+      <ToggleView
+        key={`${title} ${children?.length}`}
+        showFirst={showFirstToggle}
+      >
         <Carousel>{children}</Carousel>
         <Grid>{children}</Grid>
       </ToggleView>

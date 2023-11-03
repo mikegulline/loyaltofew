@@ -1,9 +1,9 @@
 import { useState } from 'react';
 
-const Dimensions = ({ sizesState }) => {
+const Dimensions = ({ sizesArray }) => {
   const [open, setOpen] = useState(false);
 
-  if (!sizesState[0]?.dimensions) return null;
+  if (!sizesArray[0]?.dimensions) return null;
   if (!open)
     return (
       <p
@@ -30,7 +30,7 @@ const Dimensions = ({ sizesState }) => {
             <table className='w-full table-auto'>
               <thead className=' bg-gray-100'>
                 <tr>
-                  {['Size', ...sizesState[0]?.dimensions.split(', ')]?.map(
+                  {['Size', ...sizesArray[0]?.dimensions.split(', ')]?.map(
                     (info) => {
                       const [index, value] = info.split(': ');
                       return (
@@ -46,7 +46,7 @@ const Dimensions = ({ sizesState }) => {
                 </tr>
               </thead>
               <tbody>
-                {sizesState.map(({ size, dimensions }) => {
+                {sizesArray.map(({ size, dimensions }) => {
                   const tableRow = [size];
                   dimensions.split(', ').map((info) => {
                     const [index, value] = info.split(': ');

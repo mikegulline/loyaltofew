@@ -13,18 +13,18 @@ export const InfoBlock = ({ product }) => {
     detailsProps,
     wrapColorLinksProps,
     sizeToggleProps,
-    buttonsProps,
-    sizesState,
+    addToCartProps,
+    sizesArray,
   } = useProductInfo(product);
 
   return (
     <div className='mt-4 w-full px-0 xl:mt-0 xl:px-20 2xl:px-28'>
       <Title {...titleProps} />
       <Details {...detailsProps} />
-      <Dimensions sizesState={sizesState} />
+      <Dimensions sizesArray={sizesArray} />
       <WrapColorLinks {...wrapColorLinksProps} />
       <SizeToggle {...sizeToggleProps} />
-      <Buttons {...buttonsProps} />
+      <Buttons {...addToCartProps} />
     </div>
   );
 };

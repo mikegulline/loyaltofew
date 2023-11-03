@@ -1,4 +1,4 @@
-const SizeToggle = ({ sizes, index, setIndex }) => {
+const SizeToggle = ({ sizes, sizeIndex, setSizeIndex }) => {
   if (sizes.length === 1)
     return (
       <ul className='mb-4 flex w-auto shrink-0 lg:mb-6'>
@@ -27,10 +27,10 @@ const SizeToggle = ({ sizes, index, setIndex }) => {
         if (!active) {
           setClass = 'disabled';
           disabled = true;
-        } else if (index === i) {
+        } else if (sizeIndex === i) {
           setClass = 'active';
         }
-        const handleClick = () => setIndex(i);
+        const handleClick = () => setSizeIndex(i);
         return (
           <DisableWrapper
             key={size}
@@ -47,21 +47,10 @@ const SizeToggle = ({ sizes, index, setIndex }) => {
   );
 };
 
-const DisableWrapper = ({
-  key,
-  disabled,
-  className,
-  children,
-  handleClick,
-}) => {
-  if (disabled)
-    return (
-      <li key={key} className={className}>
-        {children}
-      </li>
-    );
+const DisableWrapper = ({ disabled, className, children, handleClick }) => {
+  if (disabled) return <li className={className}>{children}</li>;
   return (
-    <li onClick={handleClick} key={key} className={className}>
+    <li onClick={handleClick} className={className}>
       {children}
     </li>
   );

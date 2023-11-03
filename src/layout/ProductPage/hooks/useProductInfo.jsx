@@ -1,61 +1,69 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 
 const useProductInfo = (product) => {
   const { name, color, colors, logo, logos, sizes, details, link } = product;
 
-  const getActiveColors = () => {
+  // current color sizeIndex
+  const [sizeIndex, setSizeIndex] = useState(0);
+
+  const getActiveColors = useCallback(() => {
     const { colors: c } = logos.find((l) => l.logo === logo);
     return c;
-  };
+  }, [logos, logo]);
+
   const [activeColors, setActiveColors] = useState(getActiveColors);
 
   // sizes array
-  const [sizesState, setSizesState] = useState([]);
-
-  // current color index
-  const [index, setIndex] = useState(0);
-
-  // colors array
-  // const [colorsState, setColorsState] = useState([]);
-
-  // set sizes based on color
-  useEffect(() => {
-    setSizesState(
-      sizes.filter((size) => {
-        if ('colors' in size && !size?.colors?.includes(color)) {
-          size['active'] = false;
-        } else {
-          size['active'] = true;
-        }
-        return size;
-      })
-    );
-  }, [sizes, color]);
-
-  // update current color index if !==
-  useEffect(() => {
-    if (sizesState.length && sizesState.length - 1 < index) {
-      setIndex(sizesState.length - 1);
+  const sizesArray = sizes.filter((size) => {
+    if ('colors' in size && !size?.colors?.includes(color)) {
+      size['active'] = false;
+    } else {
+      size['active'] = true;
     }
-  }, [sizesState, index]);
+    return size;
+  });
+
+  const handleSetActiveColors = useCallback(
+    (i) => {
+      const updateColors = sizesArray[i]?.colors;
+      if (updateColors) {
+        const newColors = getActiveColors().filter(
+          (c) => updateColors.indexOf(c) >= 0
+        );
+        // setActiveColors(newColors);
+      } else {
+        setActiveColors(getActiveColors);
+        // setActiveColors(getActiveColors);
+      }
+    },
+    [getActiveColors, sizesArray]
+  );
+
+  useEffect(() => {
+    console.log('change size index');
+    handleSetActiveColors(sizeIndex);
+  }, [sizeIndex, handleSetActiveColors]);
 
   // update colors array based on size
-  useEffect(() => {
-    const updateColors = sizesState[index]?.colors;
-    if (updateColors) {
-      setActiveColors(activeColors.filter((c) => updateColors.indexOf(c) >= 0));
-    } else {
-      setActiveColors(getActiveColors);
-    }
-    console.log(activeColors);
-    // if (updateColors) setColorsState(updateColors);
-    // else setColorsState(colors);
-  }, [index, sizesState, colors, activeColors, getActiveColors]);
+  // useEffect(() => {
+  //   const updateColors = sizesArray[sizeIndex]?.colors;
+  //   if (updateColors) {
+  //     setActiveColors(
+  //       getActiveColors().filter((c) => updateColors.indexOf(c) >= 0)
+  //     );
+  //   } else {
+  //     setActiveColors(getActiveColors);
+  //   }
+  // }, [sizeIndex, sizesArray, getActiveColors]);
+
+  ////////////////////
+  ////////////////////
+  ////////////////////
 
   const titleProps = { name: `${name} (${color})` };
 
   const dimensionsProps = {
-    dimensions: sizesState[index]?.dimensions,
+    dimensions: sizesArray[sizeIndex]?.dimensions,
   };
 
   const detailsProps = {
@@ -71,14 +79,14 @@ const useProductInfo = (product) => {
   };
 
   const sizeToggleProps = {
-    sizes: sizesState,
-    index,
-    setIndex,
+    sizes: sizesArray,
+    sizeIndex,
+    setSizeIndex,
   };
 
-  const buttonsProps = {
+  const addToCartProps = {
     product,
-    index,
+    sizeIndex,
   };
 
   return {
@@ -87,8 +95,8 @@ const useProductInfo = (product) => {
     detailsProps,
     wrapColorLinksProps,
     sizeToggleProps,
-    buttonsProps,
-    sizesState,
+    addToCartProps,
+    sizesArray,
   };
 };
 

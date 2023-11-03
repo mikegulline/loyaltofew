@@ -52,15 +52,10 @@ const ColorLinks = (props) => {
   );
 };
 
-const DisableLink = ({ children, disabled, key, className, ...rest }) => {
-  if (disabled)
-    return (
-      <div key={key} className={className}>
-        {children}
-      </div>
-    );
+const DisableLink = ({ children, disabled, className, ...rest }) => {
+  if (disabled) return <div className={className}>{children}</div>;
   return (
-    <Link key={key} className={className} {...rest}>
+    <Link className={className} {...rest}>
       {children}
     </Link>
   );
