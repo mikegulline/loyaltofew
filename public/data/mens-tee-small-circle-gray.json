@@ -1,12 +1,12 @@
 {
-  "id": "mens:tee:gray:stamp",
-  "name": "Original Tee with Stamp Design",
-  "link": "/store/mens/tee/stamp",
-  "image": "/images/products/mens/tee/MensTeeStampGray.jpg",
+  "id": "mens:tee:gray:small-circle",
+  "name": "Original Tee with Small Circle Design",
+  "link": "/store/mens/tee/small-circle",
+  "image": "/images/products/mens/tee/MensTeeSmallCircleGray.jpg",
   "imageBack": "/images/products/mens/tee/MensTeeBackGray.jpg",
   "has_image_back": true,
   "color": "Gray",
-  "logo": "Stamp",
+  "logo": "Small Circle",
   "weight": 7,
   "meta": {
     "title": "Mens Original Tee",
@@ -154,10 +154,10 @@
       "/store/mens/tee"
     ],
     [
-      "Stamp (Gray)",
+      "Small Circle (Gray)",
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ANva25SUlJOTlOHh4wCwrq49OTZGREO2trgA+/n5HBYQDwMA1NLQAP///3p4doaDgPTw8e0tHM87CLrvAAAAAElFTkSuQmCC",
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ALS0uGhdZG1hab++wACwsrQqER0uEiCzs7UA6+XoBAgUAAMO4NzcAPv5+5qXmKGenv78/nuSGrXUhnDoAAAAAElFTkSuQmCC",
   "name_root": "Original Tee"
 }

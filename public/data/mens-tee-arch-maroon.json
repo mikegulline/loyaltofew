@@ -1,12 +1,12 @@
 {
-  "id": "mens:tee:green:block",
-  "name": "Original Tee with Block Design",
-  "link": "/store/mens/tee/block",
-  "image": "/images/products/mens/tee/MensTeeBlockGreen.jpg",
-  "imageBack": "/images/products/mens/tee/MensTeeBackGreen.jpg",
+  "id": "mens:tee:maroon:arch",
+  "name": "Original Tee with Arch Design",
+  "link": "/store/mens/tee/arch",
+  "image": "/images/products/mens/tee/MensTeeArchMaroon.jpg",
+  "imageBack": "/images/products/mens/tee/MensTeeBackMaroon.jpg",
   "has_image_back": true,
-  "color": "Green",
-  "logo": "Block",
+  "color": "Maroon",
+  "logo": "Arch",
   "weight": 7,
   "meta": {
     "title": "Mens Original Tee",
@@ -29,9 +29,9 @@
         "Navy"
       ],
       "logo": "Arch",
-      "link": "/store/mens/tee/arch/green",
-      "image": "/images/products/mens/tee/MensTeeArchGreen.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AMjLypGYlJKYksvNywCYnJgyOS1GTUC9v7wA0NHOAAcAICQU/v//AODj4mtvaHd6cfP188aEG5dXT2FkAAAAAElFTkSuQmCC"
+      "link": "/store/mens/tee/arch/maroon",
+      "image": "/images/products/mens/tee/MensTeeArchMaroon.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOXN0aV3fpxud9nBxQC2kpVVCRhlICvIqq8A//L0OwAANgAA4svNAP/6/aN5fZRoavrt7sFxG7yT35KuAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -42,9 +42,9 @@
         "Navy"
       ],
       "logo": "Block",
-      "link": "/store/mens/tee/block/green",
-      "image": "/images/products/mens/tee/MensTeeBlockGreen.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AN7i36Soo6espenq5wCusqxMUkBgYlO7vbkA1dbRAwYAGBoC8PHuAOjo53N1anJzZvv7+QwZHTx8o3DmAAAAAElFTkSuQmCC"
+      "link": "/store/mens/tee/block/maroon",
+      "image": "/images/products/mens/tee/MensTeeBlockMaroon.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOfU2K2Dia2GjOfT2AC9nqNfIChpKDK/n6YA+e7wNQAAMgAA4tDSAP/6/I1jZopgZPfu8OMpHDrxg5mmAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -55,9 +55,9 @@
         "Navy"
       ],
       "logo": "Original",
-      "link": "/store/mens/tee/original/green",
-      "image": "/images/products/mens/tee/MensTeeOriginalGreen.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOjp6JufmpGUjNfa1ACWmpIpMCEuNCS5urUA8PDuAwgAEBIA9PTyAPn6+mxtY3Z4a/v7+tZMG/XEa0LrAAAAAElFTkSuQmCC"
+      "link": "/store/mens/tee/original/maroon",
+      "image": "/images/products/mens/tee/MensTeeOriginalMaroon.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ANjEx6d9g7OLlOvZ3gC5mJxOABFcDSLEp60A7t/hNgAAOQAA7eDkAPfs7o1jaKB8fv/5+8tWG/KTJP76AAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -68,9 +68,9 @@
         "Navy"
       ],
       "logo": "Stamp",
-      "link": "/store/mens/tee/stamp/green",
-      "image": "/images/products/mens/tee/MensTeeStampGreen.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AObn5Z2fl6aooO/v7gCgo5s2OSZHSDa1t7EA6+vpBgoAEhMA5+fkAPr6+n+AdXt8b/j49feeHOhuCJV2AAAAAElFTkSuQmCC"
+      "link": "/store/mens/tee/stamp/maroon",
+      "image": "/images/products/mens/tee/MensTeeStampMaroon.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ANzExbSHh7uVl+XPzwDGp6V5MTB5NDO+mJYA//b2RgAAOQAA1Lu3AP/8/49jYIBPSOTQzun2G9/Lej0xAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -81,9 +81,9 @@
         "Navy"
       ],
       "logo": "Stenciled",
-      "link": "/store/mens/tee/stenciled/green",
-      "image": "/images/products/mens/tee/MensTeeStenciledGreen.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APb39q+0qrW1svr6+gDR1c5TW0lRUke/v7sA2NnUHB8PAwQAwsO+AOzs6oiJgYmJgt/f3DltHiSfLTPaAAAAAElFTkSuQmCC"
+      "link": "/store/mens/tee/stenciled/maroon",
+      "image": "/images/products/mens/tee/MensTeeStenciledMaroon.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP/q8cKSmsSXnP/u8wD43uR1JDZ8KjfVrbMA//n9SQADPAAA6c7QAP/7/6d3fqNuc//t7kNFHzKPyi1pAAAAAElFTkSuQmCC"
     }
   ],
   "sizes": [
@@ -144,10 +144,10 @@
       "/store/mens/tee"
     ],
     [
-      "Block (Green)",
+      "Arch (Maroon)",
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AN7i36Soo6espenq5wCusqxMUkBgYlO7vbkA1dbRAwYAGBoC8PHuAOjo53N1anJzZvv7+QwZHTx8o3DmAAAAAElFTkSuQmCC",
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOXN0aV3fpxud9nBxQC2kpVVCRhlICvIqq8A//L0OwAANgAA4svNAP/6/aN5fZRoavrt7sFxG7yT35KuAAAAAElFTkSuQmCC",
   "name_root": "Original Tee"
 }

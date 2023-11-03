@@ -17,8 +17,8 @@
   ],
   "type": "Tank",
   "name": "Original Tank",
-  "link": "/store/mens/tank/stenciled/black",
-  "image": "/images/products/mens/tank/MensTankStenciledBlack.jpg",
+  "link": "/store/mens/tank/small-circle/black",
+  "image": "/images/products/mens/tank/MensTankSmallCircleBlack.jpg",
   "has_image_back": true,
   "weight": 5.7,
   "meta": {
@@ -29,6 +29,20 @@
     "Tops"
   ],
   "logos": [
+    {
+      "colors": [
+        "Black"
+      ],
+      "name": "Original Tank with Small Circle Design",
+      "link": "/store/mens/tank/small-circle",
+      "linkColor": "/store/mens/tank/small-circle/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/mens/tank/MensTankBackBlack.jpg",
+      "image": "/images/products/mens/tank/MensTankSmallCircleBlack.jpg",
+      "imageColorRoot": "/images/products/mens/tank/MensTankSmallCircle",
+      "imageColorBackRoot": "/images/products/mens/tank/MensTankBack",
+      "logo": "Small Circle"
+    },
     {
       "colors": [
         "Black"

@@ -1,12 +1,12 @@
 {
-  "id": "mens:sleeves:black:stamp",
-  "name": "Original Long-Sleeve with Stamp Design",
-  "link": "/store/mens/sleeves/stamp",
-  "image": "/images/products/mens/sleeves/MensSleevesStampBlack.jpg",
+  "id": "mens:sleeves:black:small-circle",
+  "name": "Original Long-Sleeve with Small Circle Design",
+  "link": "/store/mens/sleeves/small-circle",
+  "image": "/images/products/mens/sleeves/MensSleevesSmallCircleBlack.jpg",
   "imageBack": "/images/products/mens/sleeves/MensSleevesBackBlack.jpg",
   "has_image_back": true,
   "color": "Black",
-  "logo": "Stamp",
+  "logo": "Small Circle",
   "weight": 9.8,
   "meta": {
     "title": "Mens Original Long-Sleeve",
@@ -140,10 +140,10 @@
       "/store/mens/sleeves"
     ],
     [
-      "Stamp (Black)",
+      "Small Circle (Black)",
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/5eanZCSlPHx8gC5ubk/Pz5ERETEw8MAwsLCAAAAAwEAxcTDAObm521tb3l4duPi4viOG++gk2WFAAAAAElFTkSuQmCC",
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APb0+ouBiJSFjv37/wCdl5o2Chk7FSKYlZsA1MvQHg4WCQAMnZaYAPv5/YJ3d4Z+fujj6MDjGp9FDG5kAAAAAElFTkSuQmCC",
   "name_root": "Original Long-Sleeve"
 }

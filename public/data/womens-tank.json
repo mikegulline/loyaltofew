@@ -17,8 +17,8 @@
   ],
   "type": "Tank",
   "name": "Original Tank",
-  "link": "/store/womens/tank/stenciled/gray",
-  "image": "/images/products/womens/tank/WomensTankStenciledGray.jpg",
+  "link": "/store/womens/tank/arch/gray",
+  "image": "/images/products/womens/tank/WomensTankArchGray.jpg",
   "has_image_back": true,
   "weight": 2.6,
   "meta": {
@@ -29,6 +29,20 @@
     "Tops"
   ],
   "logos": [
+    {
+      "colors": [
+        "Gray"
+      ],
+      "name": "Original Tank with Small Circle Design",
+      "link": "/store/womens/tank/small-circle",
+      "linkColor": "/store/womens/tank/small-circle/gray",
+      "has_image_back": true,
+      "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
+      "image": "/images/products/womens/tank/WomensTankSmallCircleGray.jpg",
+      "imageColorRoot": "/images/products/womens/tank/WomensTankSmallCircle",
+      "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
+      "logo": "Small Circle"
+    },
     {
       "colors": [
         "Gray",
@@ -142,7 +156,11 @@
     "Blue",
     "Maroon"
   ],
-  "colorsAlt": {},
+  "colorsAlt": {
+    "Small Circle": [
+      "Gray"
+    ]
+  },
   "details": [
     "Designed, produced & printed in the USA",
     "50% polyester, 25% cotton, 25% rayon",

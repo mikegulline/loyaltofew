@@ -21,6 +21,16 @@
     {
       "colors": [
         "Black",
+        "Gray"
+      ],
+      "logo": "Small Circle",
+      "link": "/store/mens/sleeves/small-circle/gray",
+      "image": "/images/products/mens/sleeves/MensSleevesSmallCircleGray.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOTk6m9mdWxkcubn7QB2fIYmDiMvGjB5f40AraqxAwYdAAIchoaRAP/+/5GRl4uLlO/v8nAQGN7AI4ezAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black",
         "Gray",
         "Navy"
       ],

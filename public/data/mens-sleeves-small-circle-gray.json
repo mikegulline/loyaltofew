@@ -1,12 +1,12 @@
 {
-  "id": "mens:sleeves:gray:original",
-  "name": "Original Long-Sleeve with Original Design",
-  "link": "/store/mens/sleeves/original",
-  "image": "/images/products/mens/sleeves/MensSleevesOriginalGray.jpg",
+  "id": "mens:sleeves:gray:small-circle",
+  "name": "Original Long-Sleeve with Small Circle Design",
+  "link": "/store/mens/sleeves/small-circle",
+  "image": "/images/products/mens/sleeves/MensSleevesSmallCircleGray.jpg",
   "imageBack": "/images/products/mens/sleeves/MensSleevesBackGray.jpg",
   "has_image_back": true,
   "color": "Gray",
-  "logo": "Original",
+  "logo": "Small Circle",
   "weight": 9.8,
   "meta": {
     "title": "Mens Original Long-Sleeve",
@@ -140,10 +140,10 @@
       "/store/mens/sleeves"
     ],
     [
-      "Original (Gray)",
+      "Small Circle (Gray)",
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP///5uZnp2cnv///wCtqao8OTw7OT2yrrAAu7m5DgcEDAAAy8fHANbW2FRRU11WVdza1++dGtLwkcqVAAAAAElFTkSuQmCC",
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOTk6m9mdWxkcubn7QB2fIYmDiMvGjB5f40AraqxAwYdAAIchoaRAP/+/5GRl4uLlO/v8nAQGN7AI4ezAAAAAElFTkSuQmCC",
   "name_root": "Original Long-Sleeve"
 }

@@ -22,10 +22,23 @@
       "link": "/store/mens/tee",
       "logos": [
         {
-          "logo": "Arch",
+          "logo": "Small Circle",
           "colors": [
             "Black",
             "Gray"
+          ],
+          "link": "/store/mens/tee/small-circle",
+          "image": "/images/products/mens/tee/MensTeeSmallCircleBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AN3a2pmJiZuIid/b3QCknp0yCxY8GCK5tLUA7ufnDQAHFg8S7uroAP38/5SUlJmXl/Hv8Mr4HFw9dcuuAAAAAElFTkSuQmCC"
+        },
+        {
+          "logo": "Arch",
+          "colors": [
+            "Black",
+            "Gray",
+            "Green",
+            "Maroon",
+            "Navy"
           ],
           "link": "/store/mens/tee/arch",
           "image": "/images/products/mens/tee/MensTeeArchBlack.jpg",
@@ -97,6 +110,15 @@
       "link": "/store/mens/tank",
       "logos": [
         {
+          "logo": "Small Circle",
+          "colors": [
+            "Black"
+          ],
+          "link": "/store/mens/tank/small-circle",
+          "image": "/images/products/mens/tank/MensTankSmallCircleBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz7/5Wbp6astP/+/wDd4ulIJTZHKjnZ3uUAw8XNFgYaBwAVsra+ANTU219lcVphb8nL0iHjHHbT66xOAAAAAElFTkSuQmCC"
+        },
+        {
           "logo": "Arch",
           "colors": [
             "Black"
@@ -150,6 +172,16 @@
       "name": "Original Long-Sleeve",
       "link": "/store/mens/sleeves",
       "logos": [
+        {
+          "logo": "Small Circle",
+          "colors": [
+            "Black",
+            "Gray"
+          ],
+          "link": "/store/mens/sleeves/small-circle",
+          "image": "/images/products/mens/sleeves/MensSleevesSmallCircleBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APb0+ouBiJSFjv37/wCdl5o2Chk7FSKYlZsA1MvQHg4WCQAMnZaYAPv5/YJ3d4Z+fujj6MDjGp9FDG5kAAAAAElFTkSuQmCC"
+        },
         {
           "logo": "Arch",
           "colors": [

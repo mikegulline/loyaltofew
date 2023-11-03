@@ -1,12 +1,12 @@
 {
-  "id": "womens:oversized-crop:black:stenciled",
-  "name": "Original Oversized Crop with Stenciled Design",
-  "link": "/store/womens/oversized-crop/stenciled",
-  "image": "/images/products/womens/oversized-crop/WomensOversized-CropStenciledBlack.jpg",
+  "id": "womens:oversized-crop:black:small-circle",
+  "name": "Original Oversized Crop with Small Circle Design",
+  "link": "/store/womens/oversized-crop/small-circle",
+  "image": "/images/products/womens/oversized-crop/WomensOversized-CropSmallCircleBlack.jpg",
   "imageBack": "/images/products/womens/oversized-crop/WomensOversized-CropBackBlack.jpg",
   "has_image_back": true,
   "color": "Black",
-  "logo": "Stenciled",
+  "logo": "Small Circle",
   "weight": 2.9,
   "meta": {
     "title": "Womens Original Oversized Crop",
@@ -117,10 +117,10 @@
       "/store/womens/oversized-crop"
     ],
     [
-      "Stenciled (Black)",
+      "Small Circle (Black)",
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz7/ufo6unp7fz8/gCKjZMuMzkuMTiMj5UAo6etAAIPCQwVo6WrAPj3+e7u8fHx9fn4+zS7H4zIbdBaAAAAAElFTkSuQmCC",
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+//Hz9PDy8/39/wCvrK1INDhJODusq68AtbS1IwAAJQAFsrK0APr6/dLV1dfY2Pn3+mMSIIGLCfhqAAAAAElFTkSuQmCC",
   "name_root": "Original Oversized Crop"
 }

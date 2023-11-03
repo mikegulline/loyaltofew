@@ -28,6 +28,19 @@
         "Maroon",
         "Navy"
       ],
+      "logo": "Arch",
+      "link": "/store/mens/tee/arch/navy",
+      "image": "/images/products/mens/tee/MensTeeArchNavy.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AObm7qOfr5qYotnZ3gCysr08OEtCPEq2tLwA7OvwHhgpEQAUzszQAPz7/42KlImFi+no7QYwHYvxq8zcAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black",
+        "Gray",
+        "Green",
+        "Maroon",
+        "Navy"
+      ],
       "logo": "Block",
       "link": "/store/mens/tee/block/navy",
       "image": "/images/products/mens/tee/MensTeeBlockNavy.jpg",

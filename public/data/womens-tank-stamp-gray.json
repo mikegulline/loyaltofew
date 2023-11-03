@@ -20,6 +20,15 @@
   "logos": [
     {
       "colors": [
+        "Gray"
+      ],
+      "logo": "Small Circle",
+      "link": "/store/womens/tank/small-circle/gray",
+      "image": "/images/products/womens/tank/WomensTankSmallCircleGray.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz7/5+foqSkqPz7/wDy8fc7JSk7JCry8vcAxsbJKAAAJgAFvr3CANDN0E9TVFRVVtLO0iPQHD1fMLygAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
         "Gray",
         "Blue",
         "Maroon"

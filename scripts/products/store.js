@@ -13,7 +13,7 @@ module.exports = [
         product: 'Original Tee',
         has_image_back: true,
         logos: [
-          // 'Small Circle',
+          'Small Circle',
           'Arch',
           'Block',
           'Original',
@@ -22,7 +22,6 @@ module.exports = [
         ],
         colors: ['Black', 'Gray', 'Green', 'Maroon', 'Navy'],
         colorsAlt: {
-          Arch: ['Black', 'Gray'],
           'Small Circle': ['Black', 'Gray'],
         },
         tags: ['Tops'],
@@ -81,7 +80,14 @@ module.exports = [
         type: 'Tank',
         product: 'Original Tank',
         has_image_back: true,
-        logos: ['Arch', 'Block', 'Original', 'Stamp', 'Stenciled'],
+        logos: [
+          'Small Circle',
+          'Arch',
+          'Block',
+          'Original',
+          'Stamp',
+          'Stenciled',
+        ],
         colors: ['Black'],
         tags: ['Tops'],
         weight: 5.7,
@@ -127,8 +133,18 @@ module.exports = [
         type: 'Sleeves',
         product: 'Original Long-Sleeve',
         has_image_back: true,
-        logos: ['Arch', 'Block', 'Original', 'Stamp', 'Stenciled'],
+        logos: [
+          'Small Circle',
+          'Arch',
+          'Block',
+          'Original',
+          'Stamp',
+          'Stenciled',
+        ],
         colors: ['Black', 'Gray', 'Navy'],
+        colorsAlt: {
+          'Small Circle': ['Black', 'Gray'],
+        },
         tags: ['Tops'],
         weight: 9.8,
         meta: {
@@ -248,8 +264,18 @@ module.exports = [
         type: 'Tank',
         product: 'Original Tank',
         has_image_back: true,
-        logos: ['Arch', 'Block', 'Original', 'Stamp', 'Stenciled'],
+        logos: [
+          'Small Circle',
+          'Arch',
+          'Block',
+          'Original',
+          'Stamp',
+          'Stenciled',
+        ],
         colors: ['Gray', 'Blue', 'Maroon'],
+        colorsAlt: {
+          'Small Circle': ['Gray'],
+        },
         tags: ['Tops'],
         weight: 2.6,
         meta: {
@@ -346,8 +372,18 @@ module.exports = [
         type: 'Oversized-Crop',
         has_image_back: true,
         product: 'Original Oversized Crop',
-        logos: ['Arch', 'Block', 'Original', 'Stamp', 'Stenciled'],
+        logos: [
+          'Small Circle',
+          'Arch',
+          'Block',
+          'Original',
+          'Stamp',
+          'Stenciled',
+        ],
         colors: ['Black', 'Dolphin', 'Baby-Blue', 'Mauve'],
+        colorsAlt: {
+          'Small Circle': ['Black'],
+        },
         tags: ['Tops'],
         weight: 2.9,
         meta: {

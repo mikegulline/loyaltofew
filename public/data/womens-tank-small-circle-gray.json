@@ -1,12 +1,12 @@
 {
-  "id": "womens:tank:gray:original",
-  "name": "Original Tank with Original Design",
-  "link": "/store/womens/tank/original",
-  "image": "/images/products/womens/tank/WomensTankOriginalGray.jpg",
+  "id": "womens:tank:gray:small-circle",
+  "name": "Original Tank with Small Circle Design",
+  "link": "/store/womens/tank/small-circle",
+  "image": "/images/products/womens/tank/WomensTankSmallCircleGray.jpg",
   "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
   "has_image_back": true,
   "color": "Gray",
-  "logo": "Original",
+  "logo": "Small Circle",
   "weight": 2.6,
   "meta": {
     "title": "Womens Original Tank",
@@ -130,10 +130,10 @@
       "/store/womens/tank"
     ],
     [
-      "Original (Gray)",
+      "Small Circle (Gray)",
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/5+foK+vsf39/wDw8PRBPTtLRkL08/cA0NDREwEAFgAAxsXFANbW11RPTV5XUtLR0jldHPSEe7WlAAAAAElFTkSuQmCC",
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz7/5+foqSkqPz7/wDy8fc7JSk7JCry8vcAxsbJKAAAJgAFvr3CANDN0E9TVFRVVtLO0iPQHD1fMLygAAAAAElFTkSuQmCC",
   "name_root": "Original Tank"
 }

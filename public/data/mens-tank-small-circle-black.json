@@ -1,12 +1,12 @@
 {
-  "id": "mens:tank:black:stenciled",
-  "name": "Original Tank with Stenciled Design",
-  "link": "/store/mens/tank/stenciled",
-  "image": "/images/products/mens/tank/MensTankStenciledBlack.jpg",
+  "id": "mens:tank:black:small-circle",
+  "name": "Original Tank with Small Circle Design",
+  "link": "/store/mens/tank/small-circle",
+  "image": "/images/products/mens/tank/MensTankSmallCircleBlack.jpg",
   "imageBack": "/images/products/mens/tank/MensTankBackBlack.jpg",
   "has_image_back": true,
   "color": "Black",
-  "logo": "Stenciled",
+  "logo": "Small Circle",
   "weight": 5.7,
   "meta": {
     "title": "Mens Original Tank",
@@ -118,10 +118,10 @@
       "/store/mens/tank"
     ],
     [
-      "Stenciled (Black)",
+      "Small Circle (Black)",
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APT094OEipucovv7/wC7u74wMDZQUFbV1dgAmJibBQMIFBQXq6utALy9wENDR0tMTcfHyeQsGd/tZmn6AAAAAElFTkSuQmCC",
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz7/5Wbp6astP/+/wDd4ulIJTZHKjnZ3uUAw8XNFgYaBwAVsra+ANTU219lcVphb8nL0iHjHHbT66xOAAAAAElFTkSuQmCC",
   "name_root": "Original Tank"
 }

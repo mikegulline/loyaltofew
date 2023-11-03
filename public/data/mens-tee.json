@@ -17,8 +17,8 @@
   ],
   "type": "Tee",
   "name": "Original Tee",
-  "link": "/store/mens/tee/stenciled/black",
-  "image": "/images/products/mens/tee/MensTeeStenciledBlack.jpg",
+  "link": "/store/mens/tee/arch/black",
+  "image": "/images/products/mens/tee/MensTeeArchBlack.jpg",
   "has_image_back": true,
   "weight": 7,
   "meta": {
@@ -33,6 +33,24 @@
       "colors": [
         "Black",
         "Gray"
+      ],
+      "name": "Original Tee with Small Circle Design",
+      "link": "/store/mens/tee/small-circle",
+      "linkColor": "/store/mens/tee/small-circle/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/mens/tee/MensTeeBackBlack.jpg",
+      "image": "/images/products/mens/tee/MensTeeSmallCircleBlack.jpg",
+      "imageColorRoot": "/images/products/mens/tee/MensTeeSmallCircle",
+      "imageColorBackRoot": "/images/products/mens/tee/MensTeeBack",
+      "logo": "Small Circle"
+    },
+    {
+      "colors": [
+        "Black",
+        "Gray",
+        "Green",
+        "Maroon",
+        "Navy"
       ],
       "name": "Original Tee with Arch Design",
       "link": "/store/mens/tee/arch",
@@ -163,10 +181,6 @@
     "Navy"
   ],
   "colorsAlt": {
-    "Arch": [
-      "Black",
-      "Gray"
-    ],
     "Small Circle": [
       "Black",
       "Gray"

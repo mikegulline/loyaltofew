@@ -3,7 +3,7 @@ const store = require('./store');
 const storeRoot = 'Store';
 const storePath = 'store';
 
-const kebab = (s) => s.replace(/ /g, '-');
+const kebab = (s) => s.replaceAll(' ', '-');
 
 const modalStore = () => {
   const categories = store.map((category) => modalCategory(category));
@@ -44,8 +44,8 @@ const modalProduct = ({
   meta,
   tags,
 }) => {
-  // const randLogo = rand(logosArray);
-  const randLogo = logosArray[logosArray.length - 1];
+  const randLogo = rand(logosArray);
+  // const randLogo = logosArray[logosArray.length - 1];
   const logoColors = colorsAlt.hasOwnProperty(randLogo)
     ? colorsAlt[randLogo]
     : colors;
@@ -96,9 +96,10 @@ const modalLogo = (values) => {
     name: product,
     has_image_back,
   } = values;
-  const link = `/${storePath}/${category}/${type}/${logo}`.toLowerCase();
-  const linkColor =
-    `/${storePath}/${category}/${type}/${logo}/${colors[0]}`.toLowerCase();
+  const link = `/${storePath}/${category}/${type}/${kebab(logo)}`.toLowerCase();
+  const linkColor = `/${storePath}/${category}/${type}/${kebab(logo)}/${
+    colors[0]
+  }`.toLowerCase();
   const imageDir = `/images/products/${category}/${type}`.toLowerCase();
   const imageColorBackRoot = `${imageDir}/${category}${type}Back`;
   const imageColorRoot = `${imageDir}/${category}${type}${logo}`.replace(

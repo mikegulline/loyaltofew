@@ -1,12 +1,12 @@
 {
-  "id": "mens:tee:black:arch",
-  "name": "Original Tee with Arch Design",
-  "link": "/store/mens/tee/arch",
-  "image": "/images/products/mens/tee/MensTeeArchBlack.jpg",
+  "id": "mens:tee:black:small-circle",
+  "name": "Original Tee with Small Circle Design",
+  "link": "/store/mens/tee/small-circle",
+  "image": "/images/products/mens/tee/MensTeeSmallCircleBlack.jpg",
   "imageBack": "/images/products/mens/tee/MensTeeBackBlack.jpg",
   "has_image_back": true,
   "color": "Black",
-  "logo": "Arch",
+  "logo": "Small Circle",
   "weight": 7,
   "meta": {
     "title": "Mens Original Tee",
@@ -154,10 +154,10 @@
       "/store/mens/tee"
     ],
     [
-      "Arch (Black)",
+      "Small Circle (Black)",
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AObm656en5aWltnY2AC9vsFHR0lRT065ubkA8vL0EQ8OBQEA2NjYAPv7/3Jycm5tauPj4wKnHNcXE1ghAAAAAElFTkSuQmCC",
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AN3a2pmJiZuIid/b3QCknp0yCxY8GCK5tLUA7ufnDQAHFg8S7uroAP38/5SUlJmXl/Hv8Mr4HFw9dcuuAAAAAElFTkSuQmCC",
   "name_root": "Original Tee"
 }

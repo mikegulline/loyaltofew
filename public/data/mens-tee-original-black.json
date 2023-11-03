@@ -25,6 +25,19 @@
         "Black",
         "Gray"
       ],
+      "logo": "Small Circle",
+      "link": "/store/mens/tee/small-circle/black",
+      "image": "/images/products/mens/tee/MensTeeSmallCircleBlack.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AN3a2pmJiZuIid/b3QCknp0yCxY8GCK5tLUA7ufnDQAHFg8S7uroAP38/5SUlJmXl/Hv8Mr4HFw9dcuuAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black",
+        "Gray",
+        "Green",
+        "Maroon",
+        "Navy"
+      ],
       "logo": "Arch",
       "link": "/store/mens/tee/arch/black",
       "image": "/images/products/mens/tee/MensTeeArchBlack.jpg",

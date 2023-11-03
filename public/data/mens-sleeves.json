@@ -17,8 +17,8 @@
   ],
   "type": "Sleeves",
   "name": "Original Long-Sleeve",
-  "link": "/store/mens/sleeves/stenciled/black",
-  "image": "/images/products/mens/sleeves/MensSleevesStenciledBlack.jpg",
+  "link": "/store/mens/sleeves/stamp/black",
+  "image": "/images/products/mens/sleeves/MensSleevesStampBlack.jpg",
   "has_image_back": true,
   "weight": 9.8,
   "meta": {
@@ -29,6 +29,21 @@
     "Tops"
   ],
   "logos": [
+    {
+      "colors": [
+        "Black",
+        "Gray"
+      ],
+      "name": "Original Long-Sleeve with Small Circle Design",
+      "link": "/store/mens/sleeves/small-circle",
+      "linkColor": "/store/mens/sleeves/small-circle/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/mens/sleeves/MensSleevesBackBlack.jpg",
+      "image": "/images/products/mens/sleeves/MensSleevesSmallCircleBlack.jpg",
+      "imageColorRoot": "/images/products/mens/sleeves/MensSleevesSmallCircle",
+      "imageColorBackRoot": "/images/products/mens/sleeves/MensSleevesBack",
+      "logo": "Small Circle"
+    },
     {
       "colors": [
         "Black",
@@ -151,7 +166,12 @@
     "Gray",
     "Navy"
   ],
-  "colorsAlt": {},
+  "colorsAlt": {
+    "Small Circle": [
+      "Black",
+      "Gray"
+    ]
+  },
   "details": [
     "Designed, produced & printed in the USA",
     "100% cotton grown on a US farm",

@@ -21,6 +21,15 @@
   "logos": [
     {
       "colors": [
+        "Black"
+      ],
+      "logo": "Small Circle",
+      "link": "/store/womens/oversized-crop/small-circle/black",
+      "image": "/images/products/womens/oversized-crop/WomensOversized-CropSmallCircleBlack.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+//Hz9PDy8/39/wCvrK1INDhJODusq68AtbS1IwAAJQAFsrK0APr6/dLV1dfY2Pn3+mMSIIGLCfhqAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
         "Black",
         "Dolphin",
         "Baby-Blue",
