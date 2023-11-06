@@ -18,7 +18,7 @@
   },
   "products": [
     {
-      "name": "Original Tee",
+      "name": "Tee",
       "link": "/store/mens/tee",
       "logos": [
         {
@@ -30,6 +30,19 @@
           "link": "/store/mens/tee/small-circle",
           "image": "/images/products/mens/tee/MensTeeSmallCircleBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AN3a2pmJiZuIid/b3QCknp0yCxY8GCK5tLUA7ufnDQAHFg8S7uroAP38/5SUlJmXl/Hv8Mr4HFw9dcuuAAAAAElFTkSuQmCC"
+        },
+        {
+          "logo": "Original",
+          "colors": [
+            "Black",
+            "Gray",
+            "Green",
+            "Maroon",
+            "Navy"
+          ],
+          "link": "/store/mens/tee/original",
+          "image": "/images/products/mens/tee/MensTeeOriginalBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOnu86GkrpSYne7v8wC3u8A7PUY9PULExMcA6+vsDQ0RAgICv76/AP7+/2xtbnx8fO/v8ApqHQVfivAJAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Arch",
@@ -56,19 +69,6 @@
           "link": "/store/mens/tee/block",
           "image": "/images/products/mens/tee/MensTeeBlockBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ANXV15GRlIWEiMjIygCenqBCQUJJR0exsLMA9fP2FA4KDQAA09DRAP///2lmZmtoaOjo6MrFG18Qnp67AAAAAElFTkSuQmCC"
-        },
-        {
-          "logo": "Original",
-          "colors": [
-            "Black",
-            "Gray",
-            "Green",
-            "Maroon",
-            "Navy"
-          ],
-          "link": "/store/mens/tee/original",
-          "image": "/images/products/mens/tee/MensTeeOriginalBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOnu86GkrpSYne7v8wC3u8A7PUY9PULExMcA6+vsDQ0RAgICv76/AP7+/2xtbnx8fO/v8ApqHQVfivAJAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Stamp",
@@ -106,7 +106,7 @@
       ]
     },
     {
-      "name": "Original Tank",
+      "name": "Tank",
       "link": "/store/mens/tank",
       "logos": [
         {
@@ -117,6 +117,15 @@
           "link": "/store/mens/tank/small-circle",
           "image": "/images/products/mens/tank/MensTankSmallCircleBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz7/5Wbp6astP/+/wDd4ulIJTZHKjnZ3uUAw8XNFgYaBwAVsra+ANTU219lcVphb8nL0iHjHHbT66xOAAAAAElFTkSuQmCC"
+        },
+        {
+          "logo": "Original",
+          "colors": [
+            "Black"
+          ],
+          "link": "/store/mens/tank/original",
+          "image": "/images/products/mens/tank/MensTankOriginalBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APX1+Y+QlqSmrPz8/wDAwMQyMTdKSlHa2t4Ao6OmAwEJFRMYtbW3AMLCxFVVWF1dX8vMzvuCGv1XJNqEAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Arch",
@@ -135,15 +144,6 @@
           "link": "/store/mens/tank/block",
           "image": "/images/products/mens/tank/MensTankBlockBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/4aJj4+SmPv7/wDIys0iIygtLjfS0tYAqquuAgEKCAgOo6SnAMLCxDY4PD9AQcXFyNlPGTpp0Ej9AAAAAElFTkSuQmCC"
-        },
-        {
-          "logo": "Original",
-          "colors": [
-            "Black"
-          ],
-          "link": "/store/mens/tank/original",
-          "image": "/images/products/mens/tank/MensTankOriginalBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APX1+Y+QlqSmrPz8/wDAwMQyMTdKSlHa2t4Ao6OmAwEJFRMYtbW3AMLCxFVVWF1dX8vMzvuCGv1XJNqEAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Stamp",
@@ -169,7 +169,7 @@
       ]
     },
     {
-      "name": "Original Long-Sleeve",
+      "name": "Long-Sleeve",
       "link": "/store/mens/sleeves",
       "logos": [
         {
@@ -181,6 +181,17 @@
           "link": "/store/mens/sleeves/small-circle",
           "image": "/images/products/mens/sleeves/MensSleevesSmallCircleBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APb0+ouBiJSFjv37/wCdl5o2Chk7FSKYlZsA1MvQHg4WCQAMnZaYAPv5/YJ3d4Z+fujj6MDjGp9FDG5kAAAAAElFTkSuQmCC"
+        },
+        {
+          "logo": "Original",
+          "colors": [
+            "Black",
+            "Gray",
+            "Navy"
+          ],
+          "link": "/store/mens/sleeves/original",
+          "image": "/images/products/mens/sleeves/MensSleevesOriginalBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/aKnraeqsP79/wC9vLwvMjc5O0HNzc0Ara2qAAAABQMAxMLAAMPDw1RUVF9cVtfV0v+CGvRxttd1AAAAAElFTkSuQmCC"
         },
         {
           "logo": "Arch",
@@ -203,17 +214,6 @@
           "link": "/store/mens/sleeves/block",
           "image": "/images/products/mens/sleeves/MensSleevesBlockBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr6/Jmanaipqv///wChoaFISEhTUlK9vb0AxMTCAgIABgUAysfGAO7u72BgYFxaVuLf3wXtG+kSGB/IAAAAAElFTkSuQmCC"
-        },
-        {
-          "logo": "Original",
-          "colors": [
-            "Black",
-            "Gray",
-            "Navy"
-          ],
-          "link": "/store/mens/sleeves/original",
-          "image": "/images/products/mens/sleeves/MensSleevesOriginalBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/aKnraeqsP79/wC9vLwvMjc5O0HNzc0Ara2qAAAABQMAxMLAAMPDw1RUVF9cVtfV0v+CGvRxttd1AAAAAElFTkSuQmCC"
         },
         {
           "logo": "Stamp",

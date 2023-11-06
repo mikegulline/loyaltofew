@@ -11,18 +11,18 @@
       "/store/outerwear"
     ],
     [
-      "Original Cotton Hoodie",
+      "Cotton Hoodie",
       "/store/outerwear/hoodie"
     ]
   ],
   "type": "Hoodie",
-  "name": "Original Cotton Hoodie",
-  "link": "/store/outerwear/hoodie/stamp/black",
-  "image": "/images/products/outerwear/hoodie/OuterwearHoodieStampBlack.jpg",
+  "name": "Cotton Hoodie",
+  "link": "/store/outerwear/hoodie/arch/black",
+  "image": "/images/products/outerwear/hoodie/OuterwearHoodieArchBlack.jpg",
   "has_image_back": false,
   "weight": 34.3,
   "meta": {
-    "title": "Original Cotton Hoodie (Unisex)",
+    "title": "Cotton Hoodie (Unisex)",
     "description": "Unisex. Heavyweight (14oz) over-sized fit."
   },
   "tags": [
@@ -36,41 +36,7 @@
         "Green",
         "Navy"
       ],
-      "name": "Original Cotton Hoodie with Arch Design",
-      "link": "/store/outerwear/hoodie/arch",
-      "linkColor": "/store/outerwear/hoodie/arch/black",
-      "has_image_back": false,
-      "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieBackBlack.jpg",
-      "image": "/images/products/outerwear/hoodie/OuterwearHoodieArchBlack.jpg",
-      "imageColorRoot": "/images/products/outerwear/hoodie/OuterwearHoodieArch",
-      "imageColorBackRoot": "/images/products/outerwear/hoodie/OuterwearHoodieBack",
-      "logo": "Arch"
-    },
-    {
-      "colors": [
-        "Black",
-        "Dolphin",
-        "Green",
-        "Navy"
-      ],
-      "name": "Original Cotton Hoodie with Block Design",
-      "link": "/store/outerwear/hoodie/block",
-      "linkColor": "/store/outerwear/hoodie/block/black",
-      "has_image_back": false,
-      "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieBackBlack.jpg",
-      "image": "/images/products/outerwear/hoodie/OuterwearHoodieBlockBlack.jpg",
-      "imageColorRoot": "/images/products/outerwear/hoodie/OuterwearHoodieBlock",
-      "imageColorBackRoot": "/images/products/outerwear/hoodie/OuterwearHoodieBack",
-      "logo": "Block"
-    },
-    {
-      "colors": [
-        "Black",
-        "Dolphin",
-        "Green",
-        "Navy"
-      ],
-      "name": "Original Cotton Hoodie with Original Design",
+      "name": "Cotton Hoodie with Original Design",
       "link": "/store/outerwear/hoodie/original",
       "linkColor": "/store/outerwear/hoodie/original/black",
       "has_image_back": false,
@@ -87,7 +53,41 @@
         "Green",
         "Navy"
       ],
-      "name": "Original Cotton Hoodie with Stamp Design",
+      "name": "Cotton Hoodie with Arch Design",
+      "link": "/store/outerwear/hoodie/arch",
+      "linkColor": "/store/outerwear/hoodie/arch/black",
+      "has_image_back": false,
+      "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieBackBlack.jpg",
+      "image": "/images/products/outerwear/hoodie/OuterwearHoodieArchBlack.jpg",
+      "imageColorRoot": "/images/products/outerwear/hoodie/OuterwearHoodieArch",
+      "imageColorBackRoot": "/images/products/outerwear/hoodie/OuterwearHoodieBack",
+      "logo": "Arch"
+    },
+    {
+      "colors": [
+        "Black",
+        "Dolphin",
+        "Green",
+        "Navy"
+      ],
+      "name": "Cotton Hoodie with Block Design",
+      "link": "/store/outerwear/hoodie/block",
+      "linkColor": "/store/outerwear/hoodie/block/black",
+      "has_image_back": false,
+      "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieBackBlack.jpg",
+      "image": "/images/products/outerwear/hoodie/OuterwearHoodieBlockBlack.jpg",
+      "imageColorRoot": "/images/products/outerwear/hoodie/OuterwearHoodieBlock",
+      "imageColorBackRoot": "/images/products/outerwear/hoodie/OuterwearHoodieBack",
+      "logo": "Block"
+    },
+    {
+      "colors": [
+        "Black",
+        "Dolphin",
+        "Green",
+        "Navy"
+      ],
+      "name": "Cotton Hoodie with Stamp Design",
       "link": "/store/outerwear/hoodie/stamp",
       "linkColor": "/store/outerwear/hoodie/stamp/black",
       "has_image_back": false,
@@ -104,7 +104,7 @@
         "Green",
         "Navy"
       ],
-      "name": "Original Cotton Hoodie with Stenciled Design",
+      "name": "Cotton Hoodie with Stenciled Design",
       "link": "/store/outerwear/hoodie/stenciled",
       "linkColor": "/store/outerwear/hoodie/stenciled/black",
       "has_image_back": false,

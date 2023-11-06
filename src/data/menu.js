@@ -1,36 +1,36 @@
 import { signOut } from 'next-auth/react';
 
 export const mensMenu = [
-  { name: 'Original Tee', location: '/store/mens/tee/arch/black' },
-  { name: 'Original Tank', location: '/store/mens/tank/arch/black' },
-  { name: 'Original Long-Sleeve', location: '/store/mens/sleeves/arch/black' },
+  { name: 'Tee', location: '/store/mens/tee/arch/black' },
+  { name: 'Tank', location: '/store/mens/tank/arch/black' },
+  { name: 'Long-Sleeve', location: '/store/mens/sleeves/arch/black' },
 ];
 
 export const womensMenu = [
-  // { name: 'Original Tee', location: '/store/womens/tee/arch/navy' },
-  { name: 'Original Tank', location: '/store/womens/tank/arch/blue' },
-  // { name: 'Original Crop', location: '/store/womens/crop/arch/black' },
+  // { name: 'Tee', location: '/store/womens/tee/arch/navy' },
+  { name: 'Tank', location: '/store/womens/tank/arch/blue' },
+  // { name: 'Crop', location: '/store/womens/crop/arch/black' },
   {
-    name: 'Original Oversized Crop',
+    name: 'Oversized Crop',
     location: '/store/womens/oversized-crop/arch/black',
   },
 ];
 
 export const outerwearMenu = [
   {
-    name: 'Original 50/50 Crew',
+    name: '50/50 Crew',
     location: '/store/outerwear/50-50-crew/arch/black',
   },
   {
-    name: 'Original Cotton Crew',
+    name: 'Cotton Crew',
     location: '/store/outerwear/crew/arch/black',
   },
   {
-    name: 'Original 50/50 Hoodie',
+    name: '50/50 Hoodie',
     location: '/store/outerwear/50-50-hoodie/arch/black',
   },
   {
-    name: 'Original Cotton Hoodie',
+    name: 'Cotton Hoodie',
     location: '/store/outerwear/hoodie/arch/black',
   },
   { name: 'Knit Beanie', location: '/store/outerwear/beanie/block/black' },

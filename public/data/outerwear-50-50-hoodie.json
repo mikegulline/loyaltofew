@@ -11,18 +11,18 @@
       "/store/outerwear"
     ],
     [
-      "Original 50/50 Hoodie",
+      "50/50 Hoodie",
       "/store/outerwear/50-50-hoodie"
     ]
   ],
   "type": "50-50-Hoodie",
-  "name": "Original 50/50 Hoodie",
-  "link": "/store/outerwear/50-50-hoodie/block/black",
-  "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBlockBlack.jpg",
+  "name": "50/50 Hoodie",
+  "link": "/store/outerwear/50-50-hoodie/stamp/black",
+  "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieStampBlack.jpg",
   "has_image_back": false,
   "weight": 34.3,
   "meta": {
-    "title": "Original 50/50 Hoodie (Unisex)",
+    "title": "50/50 Hoodie (Unisex)",
     "description": "Unisex. Heavyweight (14oz) over-sized fit."
   },
   "tags": [
@@ -33,35 +33,7 @@
       "colors": [
         "Black"
       ],
-      "name": "Original 50/50 Hoodie with Arch Design",
-      "link": "/store/outerwear/50-50-hoodie/arch",
-      "linkColor": "/store/outerwear/50-50-hoodie/arch/black",
-      "has_image_back": false,
-      "imageBack": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBackBlack.jpg",
-      "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieArchBlack.jpg",
-      "imageColorRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieArch",
-      "imageColorBackRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBack",
-      "logo": "Arch"
-    },
-    {
-      "colors": [
-        "Black"
-      ],
-      "name": "Original 50/50 Hoodie with Block Design",
-      "link": "/store/outerwear/50-50-hoodie/block",
-      "linkColor": "/store/outerwear/50-50-hoodie/block/black",
-      "has_image_back": false,
-      "imageBack": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBackBlack.jpg",
-      "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBlockBlack.jpg",
-      "imageColorRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBlock",
-      "imageColorBackRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBack",
-      "logo": "Block"
-    },
-    {
-      "colors": [
-        "Black"
-      ],
-      "name": "Original 50/50 Hoodie with Original Design",
+      "name": "50/50 Hoodie with Original Design",
       "link": "/store/outerwear/50-50-hoodie/original",
       "linkColor": "/store/outerwear/50-50-hoodie/original/black",
       "has_image_back": false,
@@ -75,7 +47,35 @@
       "colors": [
         "Black"
       ],
-      "name": "Original 50/50 Hoodie with Stamp Design",
+      "name": "50/50 Hoodie with Arch Design",
+      "link": "/store/outerwear/50-50-hoodie/arch",
+      "linkColor": "/store/outerwear/50-50-hoodie/arch/black",
+      "has_image_back": false,
+      "imageBack": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBackBlack.jpg",
+      "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieArchBlack.jpg",
+      "imageColorRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieArch",
+      "imageColorBackRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBack",
+      "logo": "Arch"
+    },
+    {
+      "colors": [
+        "Black"
+      ],
+      "name": "50/50 Hoodie with Block Design",
+      "link": "/store/outerwear/50-50-hoodie/block",
+      "linkColor": "/store/outerwear/50-50-hoodie/block/black",
+      "has_image_back": false,
+      "imageBack": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBackBlack.jpg",
+      "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBlockBlack.jpg",
+      "imageColorRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBlock",
+      "imageColorBackRoot": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBack",
+      "logo": "Block"
+    },
+    {
+      "colors": [
+        "Black"
+      ],
+      "name": "50/50 Hoodie with Stamp Design",
       "link": "/store/outerwear/50-50-hoodie/stamp",
       "linkColor": "/store/outerwear/50-50-hoodie/stamp/black",
       "has_image_back": false,
@@ -89,7 +89,7 @@
       "colors": [
         "Black"
       ],
-      "name": "Original 50/50 Hoodie with Stenciled Design",
+      "name": "50/50 Hoodie with Stenciled Design",
       "link": "/store/outerwear/50-50-hoodie/stenciled",
       "linkColor": "/store/outerwear/50-50-hoodie/stenciled/black",
       "has_image_back": false,

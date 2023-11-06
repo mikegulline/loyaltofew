@@ -18,7 +18,7 @@
   },
   "products": [
     {
-      "name": "Original Tank",
+      "name": "Tank",
       "link": "/store/womens/tank",
       "logos": [
         {
@@ -29,6 +29,17 @@
           "link": "/store/womens/tank/small-circle",
           "image": "/images/products/womens/tank/WomensTankSmallCircleGray.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz7/5+foqSkqPz7/wDy8fc7JSk7JCry8vcAxsbJKAAAJgAFvr3CANDN0E9TVFRVVtLO0iPQHD1fMLygAAAAAElFTkSuQmCC"
+        },
+        {
+          "logo": "Original",
+          "colors": [
+            "Gray",
+            "Blue",
+            "Maroon"
+          ],
+          "link": "/store/womens/tank/original",
+          "image": "/images/products/womens/tank/WomensTankOriginalGray.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/5+foK+vsf39/wDw8PRBPTtLRkL08/cA0NDREwEAFgAAxsXFANbW11RPTV5XUtLR0jldHPSEe7WlAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Arch",
@@ -51,17 +62,6 @@
           "link": "/store/womens/tank/block",
           "image": "/images/products/womens/tank/WomensTankBlockGray.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/5CRkpOTlfz8/wDs7PAfHBgjIRzv7/IAvr6/DgAAEQAAsrCyAMTExDk1MjcyLL29vfQMGdIPLnIDAAAAAElFTkSuQmCC"
-        },
-        {
-          "logo": "Original",
-          "colors": [
-            "Gray",
-            "Blue",
-            "Maroon"
-          ],
-          "link": "/store/womens/tank/original",
-          "image": "/images/products/womens/tank/WomensTankOriginalGray.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/5+foK+vsf39/wDw8PRBPTtLRkL08/cA0NDREwEAFgAAxsXFANbW11RPTV5XUtLR0jldHPSEe7WlAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Stamp",
@@ -93,7 +93,7 @@
       ]
     },
     {
-      "name": "Original Oversized Crop",
+      "name": "Oversized Crop",
       "link": "/store/womens/oversized-crop",
       "logos": [
         {
@@ -104,6 +104,18 @@
           "link": "/store/womens/oversized-crop/small-circle",
           "image": "/images/products/womens/oversized-crop/WomensOversized-CropSmallCircleBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+//Hz9PDy8/39/wCvrK1INDhJODusq68AtbS1IwAAJQAFsrK0APr6/dLV1dfY2Pn3+mMSIIGLCfhqAAAAAElFTkSuQmCC"
+        },
+        {
+          "logo": "Original",
+          "colors": [
+            "Black",
+            "Dolphin",
+            "Baby-Blue",
+            "Mauve"
+          ],
+          "link": "/store/womens/oversized-crop/original",
+          "image": "/images/products/womens/oversized-crop/WomensOversized-CropOriginalBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP38/+3t8e7u8fv7/wCTl5wxMzksLzWbnKIAra+0AAENCQ4VsLG3APb2+vLy9fT09/j4+0fSID2xeUpeAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Arch",
@@ -128,18 +140,6 @@
           "link": "/store/womens/oversized-crop/block",
           "image": "/images/products/womens/oversized-crop/WomensOversized-CropBlockBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz7/+fn6ujp6/v7/wCFh44tLjUsLTOMjpQAoaKnAgQODhAWo6SnAPf3+Ovr7u/v8vn5+y3mH0vAiFdgAAAAAElFTkSuQmCC"
-        },
-        {
-          "logo": "Original",
-          "colors": [
-            "Black",
-            "Dolphin",
-            "Baby-Blue",
-            "Mauve"
-          ],
-          "link": "/store/womens/oversized-crop/original",
-          "image": "/images/products/womens/oversized-crop/WomensOversized-CropOriginalBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP38/+3t8e7u8fv7/wCTl5wxMzksLzWbnKIAra+0AAENCQ4VsLG3APb2+vLy9fT09/j4+0fSID2xeUpeAAAAAElFTkSuQmCC"
         },
         {
           "logo": "Stamp",

@@ -1,6 +1,6 @@
 {
   "id": "mens:sleeves:black:original",
-  "name": "Original Long-Sleeve with Original Design",
+  "name": "Long-Sleeve with Original Design",
   "link": "/store/mens/sleeves/original",
   "image": "/images/products/mens/sleeves/MensSleevesOriginalBlack.jpg",
   "imageBack": "/images/products/mens/sleeves/MensSleevesBackBlack.jpg",
@@ -9,7 +9,7 @@
   "logo": "Original",
   "weight": 9.8,
   "meta": {
-    "title": "Mens Original Long-Sleeve",
+    "title": "Mens Long-Sleeve",
     "description": "100% cotton grown on a US farm. Lightweight (4.3oz.) & durable."
   },
   "colors": [
@@ -34,6 +34,17 @@
         "Gray",
         "Navy"
       ],
+      "logo": "Original",
+      "link": "/store/mens/sleeves/original/black",
+      "image": "/images/products/mens/sleeves/MensSleevesOriginalBlack.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/aKnraeqsP79/wC9vLwvMjc5O0HNzc0Ara2qAAAABQMAxMLAAMPDw1RUVF9cVtfV0v+CGvRxttd1AAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black",
+        "Gray",
+        "Navy"
+      ],
       "logo": "Arch",
       "link": "/store/mens/sleeves/arch/black",
       "image": "/images/products/mens/sleeves/MensSleevesArchBlack.jpg",
@@ -49,17 +60,6 @@
       "link": "/store/mens/sleeves/block/black",
       "image": "/images/products/mens/sleeves/MensSleevesBlockBlack.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr6/Jmanaipqv///wChoaFISEhTUlK9vb0AxMTCAgIABgUAysfGAO7u72BgYFxaVuLf3wXtG+kSGB/IAAAAAElFTkSuQmCC"
-    },
-    {
-      "colors": [
-        "Black",
-        "Gray",
-        "Navy"
-      ],
-      "logo": "Original",
-      "link": "/store/mens/sleeves/original/black",
-      "image": "/images/products/mens/sleeves/MensSleevesOriginalBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/aKnraeqsP79/wC9vLwvMjc5O0HNzc0Ara2qAAAABQMAxMLAAMPDw1RUVF9cVtfV0v+CGvRxttd1AAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -136,7 +136,7 @@
       "/store/mens"
     ],
     [
-      "Original Long-Sleeve",
+      "Long-Sleeve",
       "/store/mens/sleeves"
     ],
     [
@@ -145,5 +145,5 @@
     ]
   ],
   "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/aKnraeqsP79/wC9vLwvMjc5O0HNzc0Ara2qAAAABQMAxMLAAMPDw1RUVF9cVtfV0v+CGvRxttd1AAAAAElFTkSuQmCC",
-  "name_root": "Original Long-Sleeve"
+  "name_root": "Long-Sleeve"
 }

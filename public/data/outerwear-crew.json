@@ -11,18 +11,18 @@
       "/store/outerwear"
     ],
     [
-      "Original Cotton Crew",
+      "Cotton Crew",
       "/store/outerwear/crew"
     ]
   ],
   "type": "Crew",
-  "name": "Original Cotton Crew",
+  "name": "Cotton Crew",
   "link": "/store/outerwear/crew/arch/black",
   "image": "/images/products/outerwear/crew/OuterwearCrewArchBlack.jpg",
   "has_image_back": true,
   "weight": 34.3,
   "meta": {
-    "title": "Original Cotton Crew (Unisex)",
+    "title": "Cotton Crew (Unisex)",
     "description": "100% cotton grown on a US farm. Lightweight (4.3oz.) & durable."
   },
   "tags": [
@@ -36,41 +36,7 @@
         "Green",
         "Dolphin"
       ],
-      "name": "Original Cotton Crew with Arch Design",
-      "link": "/store/outerwear/crew/arch",
-      "linkColor": "/store/outerwear/crew/arch/black",
-      "has_image_back": true,
-      "imageBack": "/images/products/outerwear/crew/OuterwearCrewBackBlack.jpg",
-      "image": "/images/products/outerwear/crew/OuterwearCrewArchBlack.jpg",
-      "imageColorRoot": "/images/products/outerwear/crew/OuterwearCrewArch",
-      "imageColorBackRoot": "/images/products/outerwear/crew/OuterwearCrewBack",
-      "logo": "Arch"
-    },
-    {
-      "colors": [
-        "Black",
-        "Navy",
-        "Green",
-        "Dolphin"
-      ],
-      "name": "Original Cotton Crew with Block Design",
-      "link": "/store/outerwear/crew/block",
-      "linkColor": "/store/outerwear/crew/block/black",
-      "has_image_back": true,
-      "imageBack": "/images/products/outerwear/crew/OuterwearCrewBackBlack.jpg",
-      "image": "/images/products/outerwear/crew/OuterwearCrewBlockBlack.jpg",
-      "imageColorRoot": "/images/products/outerwear/crew/OuterwearCrewBlock",
-      "imageColorBackRoot": "/images/products/outerwear/crew/OuterwearCrewBack",
-      "logo": "Block"
-    },
-    {
-      "colors": [
-        "Black",
-        "Navy",
-        "Green",
-        "Dolphin"
-      ],
-      "name": "Original Cotton Crew with Original Design",
+      "name": "Cotton Crew with Original Design",
       "link": "/store/outerwear/crew/original",
       "linkColor": "/store/outerwear/crew/original/black",
       "has_image_back": true,
@@ -87,7 +53,41 @@
         "Green",
         "Dolphin"
       ],
-      "name": "Original Cotton Crew with Stamp Design",
+      "name": "Cotton Crew with Arch Design",
+      "link": "/store/outerwear/crew/arch",
+      "linkColor": "/store/outerwear/crew/arch/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/outerwear/crew/OuterwearCrewBackBlack.jpg",
+      "image": "/images/products/outerwear/crew/OuterwearCrewArchBlack.jpg",
+      "imageColorRoot": "/images/products/outerwear/crew/OuterwearCrewArch",
+      "imageColorBackRoot": "/images/products/outerwear/crew/OuterwearCrewBack",
+      "logo": "Arch"
+    },
+    {
+      "colors": [
+        "Black",
+        "Navy",
+        "Green",
+        "Dolphin"
+      ],
+      "name": "Cotton Crew with Block Design",
+      "link": "/store/outerwear/crew/block",
+      "linkColor": "/store/outerwear/crew/block/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/outerwear/crew/OuterwearCrewBackBlack.jpg",
+      "image": "/images/products/outerwear/crew/OuterwearCrewBlockBlack.jpg",
+      "imageColorRoot": "/images/products/outerwear/crew/OuterwearCrewBlock",
+      "imageColorBackRoot": "/images/products/outerwear/crew/OuterwearCrewBack",
+      "logo": "Block"
+    },
+    {
+      "colors": [
+        "Black",
+        "Navy",
+        "Green",
+        "Dolphin"
+      ],
+      "name": "Cotton Crew with Stamp Design",
       "link": "/store/outerwear/crew/stamp",
       "linkColor": "/store/outerwear/crew/stamp/black",
       "has_image_back": true,
@@ -104,7 +104,7 @@
         "Green",
         "Dolphin"
       ],
-      "name": "Original Cotton Crew with Stenciled Design",
+      "name": "Cotton Crew with Stenciled Design",
       "link": "/store/outerwear/crew/stenciled",
       "linkColor": "/store/outerwear/crew/stenciled/black",
       "has_image_back": true,

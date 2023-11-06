@@ -1,6 +1,6 @@
 {
   "id": "outerwear:crew:navy:arch",
-  "name": "Original Cotton Crew with Arch Design",
+  "name": "Cotton Crew with Arch Design",
   "link": "/store/outerwear/crew/arch",
   "image": "/images/products/outerwear/crew/OuterwearCrewArchNavy.jpg",
   "imageBack": "/images/products/outerwear/crew/OuterwearCrewBackNavy.jpg",
@@ -9,7 +9,7 @@
   "logo": "Arch",
   "weight": 34.3,
   "meta": {
-    "title": "Original Cotton Crew (Unisex)",
+    "title": "Cotton Crew (Unisex)",
     "description": "100% cotton grown on a US farm. Lightweight (4.3oz.) & durable."
   },
   "colors": [
@@ -19,6 +19,18 @@
     "Dolphin"
   ],
   "logos": [
+    {
+      "colors": [
+        "Black",
+        "Navy",
+        "Green",
+        "Dolphin"
+      ],
+      "logo": "Original",
+      "link": "/store/outerwear/crew/original/navy",
+      "image": "/images/products/outerwear/crew/OuterwearCrewOriginalNavy.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/8fJ0cnN1P7+/wCYn64uOU0yPlSfp7IAdX+OAAMbChgsiJKfAOnq7ba6vru/xO7v8RvzHbj++4dpAAAAAElFTkSuQmCC"
+    },
     {
       "colors": [
         "Black",
@@ -42,18 +54,6 @@
       "link": "/store/outerwear/crew/block/navy",
       "image": "/images/products/outerwear/crew/OuterwearCrewBlockNavy.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/77CysHHzv7+/wCLlaI6RFVET2GUnKgAa3aEAAUbDRorf4iUAOfo7a+yt7O3ve3u8BBSHTDgyo8RAAAAAElFTkSuQmCC"
-    },
-    {
-      "colors": [
-        "Black",
-        "Navy",
-        "Green",
-        "Dolphin"
-      ],
-      "logo": "Original",
-      "link": "/store/outerwear/crew/original/navy",
-      "image": "/images/products/outerwear/crew/OuterwearCrewOriginalNavy.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/8fJ0cnN1P7+/wCYn64uOU0yPlSfp7IAdX+OAAMbChgsiJKfAOnq7ba6vru/xO7v8RvzHbj++4dpAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -124,7 +124,7 @@
       "/store/outerwear"
     ],
     [
-      "Original Cotton Crew",
+      "Cotton Crew",
       "/store/outerwear/crew"
     ],
     [
@@ -133,5 +133,5 @@
     ]
   ],
   "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/sLGzcfK0Pv7/gCXn6ssN0s6RVidpLAAdn+MAAUbDRssipKdAOjp7bW4vLm8wu3t7xYAHYtSWPWNAAAAAElFTkSuQmCC",
-  "name_root": "Original Cotton Crew"
+  "name_root": "Cotton Crew"
 }

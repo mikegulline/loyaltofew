@@ -11,18 +11,18 @@
       "/store/mens"
     ],
     [
-      "Original Tank",
+      "Tank",
       "/store/mens/tank"
     ]
   ],
   "type": "Tank",
-  "name": "Original Tank",
-  "link": "/store/mens/tank/arch/black",
-  "image": "/images/products/mens/tank/MensTankArchBlack.jpg",
+  "name": "Tank",
+  "link": "/store/mens/tank/stamp/black",
+  "image": "/images/products/mens/tank/MensTankStampBlack.jpg",
   "has_image_back": true,
   "weight": 5.7,
   "meta": {
-    "title": "Mens Original Tank",
+    "title": "Mens Tank",
     "description": "100% Pre-washed, no-shrink cotton. Lightweight (6.5oz)  and durable"
   },
   "tags": [
@@ -33,7 +33,7 @@
       "colors": [
         "Black"
       ],
-      "name": "Original Tank with Small Circle Design",
+      "name": "Tank with Small Circle Design",
       "link": "/store/mens/tank/small-circle",
       "linkColor": "/store/mens/tank/small-circle/black",
       "has_image_back": true,
@@ -47,35 +47,7 @@
       "colors": [
         "Black"
       ],
-      "name": "Original Tank with Arch Design",
-      "link": "/store/mens/tank/arch",
-      "linkColor": "/store/mens/tank/arch/black",
-      "has_image_back": true,
-      "imageBack": "/images/products/mens/tank/MensTankBackBlack.jpg",
-      "image": "/images/products/mens/tank/MensTankArchBlack.jpg",
-      "imageColorRoot": "/images/products/mens/tank/MensTankArch",
-      "imageColorBackRoot": "/images/products/mens/tank/MensTankBack",
-      "logo": "Arch"
-    },
-    {
-      "colors": [
-        "Black"
-      ],
-      "name": "Original Tank with Block Design",
-      "link": "/store/mens/tank/block",
-      "linkColor": "/store/mens/tank/block/black",
-      "has_image_back": true,
-      "imageBack": "/images/products/mens/tank/MensTankBackBlack.jpg",
-      "image": "/images/products/mens/tank/MensTankBlockBlack.jpg",
-      "imageColorRoot": "/images/products/mens/tank/MensTankBlock",
-      "imageColorBackRoot": "/images/products/mens/tank/MensTankBack",
-      "logo": "Block"
-    },
-    {
-      "colors": [
-        "Black"
-      ],
-      "name": "Original Tank with Original Design",
+      "name": "Tank with Original Design",
       "link": "/store/mens/tank/original",
       "linkColor": "/store/mens/tank/original/black",
       "has_image_back": true,
@@ -89,7 +61,35 @@
       "colors": [
         "Black"
       ],
-      "name": "Original Tank with Stamp Design",
+      "name": "Tank with Arch Design",
+      "link": "/store/mens/tank/arch",
+      "linkColor": "/store/mens/tank/arch/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/mens/tank/MensTankBackBlack.jpg",
+      "image": "/images/products/mens/tank/MensTankArchBlack.jpg",
+      "imageColorRoot": "/images/products/mens/tank/MensTankArch",
+      "imageColorBackRoot": "/images/products/mens/tank/MensTankBack",
+      "logo": "Arch"
+    },
+    {
+      "colors": [
+        "Black"
+      ],
+      "name": "Tank with Block Design",
+      "link": "/store/mens/tank/block",
+      "linkColor": "/store/mens/tank/block/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/mens/tank/MensTankBackBlack.jpg",
+      "image": "/images/products/mens/tank/MensTankBlockBlack.jpg",
+      "imageColorRoot": "/images/products/mens/tank/MensTankBlock",
+      "imageColorBackRoot": "/images/products/mens/tank/MensTankBack",
+      "logo": "Block"
+    },
+    {
+      "colors": [
+        "Black"
+      ],
+      "name": "Tank with Stamp Design",
       "link": "/store/mens/tank/stamp",
       "linkColor": "/store/mens/tank/stamp/black",
       "has_image_back": true,
@@ -103,7 +103,7 @@
       "colors": [
         "Black"
       ],
-      "name": "Original Tank with Stenciled Design",
+      "name": "Tank with Stenciled Design",
       "link": "/store/mens/tank/stenciled",
       "linkColor": "/store/mens/tank/stenciled/black",
       "has_image_back": true,

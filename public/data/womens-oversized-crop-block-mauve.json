@@ -1,6 +1,6 @@
 {
   "id": "womens:oversized-crop:mauve:block",
-  "name": "Original Oversized Crop with Block Design",
+  "name": "Oversized Crop with Block Design",
   "link": "/store/womens/oversized-crop/block",
   "image": "/images/products/womens/oversized-crop/WomensOversized-CropBlockMauve.jpg",
   "imageBack": "/images/products/womens/oversized-crop/WomensOversized-CropBackMauve.jpg",
@@ -9,7 +9,7 @@
   "logo": "Block",
   "weight": 2.9,
   "meta": {
-    "title": "Womens Original Oversized Crop",
+    "title": "Womens Oversized Crop",
     "description": "Wide-fit, oversized, 100% cotto. One size fits most."
   },
   "colors": [
@@ -19,6 +19,18 @@
     "Mauve"
   ],
   "logos": [
+    {
+      "colors": [
+        "Black",
+        "Dolphin",
+        "Baby-Blue",
+        "Mauve"
+      ],
+      "logo": "Original",
+      "link": "/store/womens/oversized-crop/original/mauve",
+      "image": "/images/products/womens/oversized-crop/WomensOversized-CropOriginalMauve.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7//+7u8u3t7/7//wCajpI8Jik3ICSajpAAwbu9HgAAIwMIsKeqAPv7/vn5/Pz9//v7/0XdIF3V/xKAAAAAAElFTkSuQmCC"
+    },
     {
       "colors": [
         "Black",
@@ -42,18 +54,6 @@
       "link": "/store/womens/oversized-crop/block/mauve",
       "image": "/images/products/womens/oversized-crop/WomensOversized-CropBlockMauve.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7//+rp6+jn6f7//wCMgYU6JSg6JSiOgYMAtq+yHgACJxEVppyeAPz9//T09/b2+fz9/zOLH7lN3Ri6AAAAAElFTkSuQmCC"
-    },
-    {
-      "colors": [
-        "Black",
-        "Dolphin",
-        "Baby-Blue",
-        "Mauve"
-      ],
-      "logo": "Original",
-      "link": "/store/womens/oversized-crop/original/mauve",
-      "image": "/images/products/womens/oversized-crop/WomensOversized-CropOriginalMauve.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7//+7u8u3t7/7//wCajpI8Jik3ICSajpAAwbu9HgAAIwMIsKeqAPv7/vn5/Pz9//v7/0XdIF3V/xKAAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -104,7 +104,7 @@
       "/store/womens"
     ],
     [
-      "Original Oversized Crop",
+      "Oversized Crop",
       "/store/womens/oversized-crop"
     ],
     [
@@ -113,5 +113,5 @@
     ]
   ],
   "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7//+rp6+jn6f7//wCMgYU6JSg6JSiOgYMAtq+yHgACJxEVppyeAPz9//T09/b2+fz9/zOLH7lN3Ri6AAAAAElFTkSuQmCC",
-  "name_root": "Original Oversized Crop"
+  "name_root": "Oversized Crop"
 }

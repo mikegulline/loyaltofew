@@ -11,18 +11,18 @@
       "/store/mens"
     ],
     [
-      "Original Long-Sleeve",
+      "Long-Sleeve",
       "/store/mens/sleeves"
     ]
   ],
   "type": "Sleeves",
-  "name": "Original Long-Sleeve",
-  "link": "/store/mens/sleeves/stenciled/black",
-  "image": "/images/products/mens/sleeves/MensSleevesStenciledBlack.jpg",
+  "name": "Long-Sleeve",
+  "link": "/store/mens/sleeves/stamp/black",
+  "image": "/images/products/mens/sleeves/MensSleevesStampBlack.jpg",
   "has_image_back": true,
   "weight": 9.8,
   "meta": {
-    "title": "Mens Original Long-Sleeve",
+    "title": "Mens Long-Sleeve",
     "description": "100% cotton grown on a US farm. Lightweight (4.3oz.) & durable."
   },
   "tags": [
@@ -34,7 +34,7 @@
         "Black",
         "Gray"
       ],
-      "name": "Original Long-Sleeve with Small Circle Design",
+      "name": "Long-Sleeve with Small Circle Design",
       "link": "/store/mens/sleeves/small-circle",
       "linkColor": "/store/mens/sleeves/small-circle/black",
       "has_image_back": true,
@@ -50,39 +50,7 @@
         "Gray",
         "Navy"
       ],
-      "name": "Original Long-Sleeve with Arch Design",
-      "link": "/store/mens/sleeves/arch",
-      "linkColor": "/store/mens/sleeves/arch/black",
-      "has_image_back": true,
-      "imageBack": "/images/products/mens/sleeves/MensSleevesBackBlack.jpg",
-      "image": "/images/products/mens/sleeves/MensSleevesArchBlack.jpg",
-      "imageColorRoot": "/images/products/mens/sleeves/MensSleevesArch",
-      "imageColorBackRoot": "/images/products/mens/sleeves/MensSleevesBack",
-      "logo": "Arch"
-    },
-    {
-      "colors": [
-        "Black",
-        "Gray",
-        "Navy"
-      ],
-      "name": "Original Long-Sleeve with Block Design",
-      "link": "/store/mens/sleeves/block",
-      "linkColor": "/store/mens/sleeves/block/black",
-      "has_image_back": true,
-      "imageBack": "/images/products/mens/sleeves/MensSleevesBackBlack.jpg",
-      "image": "/images/products/mens/sleeves/MensSleevesBlockBlack.jpg",
-      "imageColorRoot": "/images/products/mens/sleeves/MensSleevesBlock",
-      "imageColorBackRoot": "/images/products/mens/sleeves/MensSleevesBack",
-      "logo": "Block"
-    },
-    {
-      "colors": [
-        "Black",
-        "Gray",
-        "Navy"
-      ],
-      "name": "Original Long-Sleeve with Original Design",
+      "name": "Long-Sleeve with Original Design",
       "link": "/store/mens/sleeves/original",
       "linkColor": "/store/mens/sleeves/original/black",
       "has_image_back": true,
@@ -98,7 +66,39 @@
         "Gray",
         "Navy"
       ],
-      "name": "Original Long-Sleeve with Stamp Design",
+      "name": "Long-Sleeve with Arch Design",
+      "link": "/store/mens/sleeves/arch",
+      "linkColor": "/store/mens/sleeves/arch/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/mens/sleeves/MensSleevesBackBlack.jpg",
+      "image": "/images/products/mens/sleeves/MensSleevesArchBlack.jpg",
+      "imageColorRoot": "/images/products/mens/sleeves/MensSleevesArch",
+      "imageColorBackRoot": "/images/products/mens/sleeves/MensSleevesBack",
+      "logo": "Arch"
+    },
+    {
+      "colors": [
+        "Black",
+        "Gray",
+        "Navy"
+      ],
+      "name": "Long-Sleeve with Block Design",
+      "link": "/store/mens/sleeves/block",
+      "linkColor": "/store/mens/sleeves/block/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/mens/sleeves/MensSleevesBackBlack.jpg",
+      "image": "/images/products/mens/sleeves/MensSleevesBlockBlack.jpg",
+      "imageColorRoot": "/images/products/mens/sleeves/MensSleevesBlock",
+      "imageColorBackRoot": "/images/products/mens/sleeves/MensSleevesBack",
+      "logo": "Block"
+    },
+    {
+      "colors": [
+        "Black",
+        "Gray",
+        "Navy"
+      ],
+      "name": "Long-Sleeve with Stamp Design",
       "link": "/store/mens/sleeves/stamp",
       "linkColor": "/store/mens/sleeves/stamp/black",
       "has_image_back": true,
@@ -114,7 +114,7 @@
         "Gray",
         "Navy"
       ],
-      "name": "Original Long-Sleeve with Stenciled Design",
+      "name": "Long-Sleeve with Stenciled Design",
       "link": "/store/mens/sleeves/stenciled",
       "linkColor": "/store/mens/sleeves/stenciled/black",
       "has_image_back": true,

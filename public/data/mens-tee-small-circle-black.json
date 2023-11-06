@@ -1,6 +1,6 @@
 {
   "id": "mens:tee:black:small-circle",
-  "name": "Original Tee with Small Circle Design",
+  "name": "Tee with Small Circle Design",
   "link": "/store/mens/tee/small-circle",
   "image": "/images/products/mens/tee/MensTeeSmallCircleBlack.jpg",
   "imageBack": "/images/products/mens/tee/MensTeeBackBlack.jpg",
@@ -9,7 +9,7 @@
   "logo": "Small Circle",
   "weight": 7,
   "meta": {
-    "title": "Mens Original Tee",
+    "title": "Mens Tee",
     "description": "Perfect 50/50 blend of cotton & polyester. Super-soft, lightweight (3.8oz) & durable."
   },
   "colors": [
@@ -38,6 +38,19 @@
         "Maroon",
         "Navy"
       ],
+      "logo": "Original",
+      "link": "/store/mens/tee/original/black",
+      "image": "/images/products/mens/tee/MensTeeOriginalBlack.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOnu86GkrpSYne7v8wC3u8A7PUY9PULExMcA6+vsDQ0RAgICv76/AP7+/2xtbnx8fO/v8ApqHQVfivAJAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black",
+        "Gray",
+        "Green",
+        "Maroon",
+        "Navy"
+      ],
       "logo": "Arch",
       "link": "/store/mens/tee/arch/black",
       "image": "/images/products/mens/tee/MensTeeArchBlack.jpg",
@@ -55,19 +68,6 @@
       "link": "/store/mens/tee/block/black",
       "image": "/images/products/mens/tee/MensTeeBlockBlack.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ANXV15GRlIWEiMjIygCenqBCQUJJR0exsLMA9fP2FA4KDQAA09DRAP///2lmZmtoaOjo6MrFG18Qnp67AAAAAElFTkSuQmCC"
-    },
-    {
-      "colors": [
-        "Black",
-        "Gray",
-        "Green",
-        "Maroon",
-        "Navy"
-      ],
-      "logo": "Original",
-      "link": "/store/mens/tee/original/black",
-      "image": "/images/products/mens/tee/MensTeeOriginalBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOnu86GkrpSYne7v8wC3u8A7PUY9PULExMcA6+vsDQ0RAgICv76/AP7+/2xtbnx8fO/v8ApqHQVfivAJAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -150,7 +150,7 @@
       "/store/mens"
     ],
     [
-      "Original Tee",
+      "Tee",
       "/store/mens/tee"
     ],
     [
@@ -159,5 +159,5 @@
     ]
   ],
   "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AN3a2pmJiZuIid/b3QCknp0yCxY8GCK5tLUA7ufnDQAHFg8S7uroAP38/5SUlJmXl/Hv8Mr4HFw9dcuuAAAAAElFTkSuQmCC",
-  "name_root": "Original Tee"
+  "name_root": "Tee"
 }

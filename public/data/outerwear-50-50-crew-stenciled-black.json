@@ -1,6 +1,6 @@
 {
   "id": "outerwear:50-50-crew:black:stenciled",
-  "name": "Original 50/50 Crew with Stenciled Design",
+  "name": "50/50 Crew with Stenciled Design",
   "link": "/store/outerwear/50-50-crew/stenciled",
   "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewStenciledBlack.jpg",
   "imageBack": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewBackBlack.jpg",
@@ -9,13 +9,22 @@
   "logo": "Stenciled",
   "weight": 34.3,
   "meta": {
-    "title": "Original 50/50 Crew (Unisex)",
+    "title": "50/50 Crew (Unisex)",
     "description": "100% cotton grown on a US farm. Lightweight (4.3oz.) & durable."
   },
   "colors": [
     "Black"
   ],
   "logos": [
+    {
+      "colors": [
+        "Black"
+      ],
+      "logo": "Original",
+      "link": "/store/outerwear/50-50-crew/original/black",
+      "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewOriginalBlack.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/8PEyL7Axfn5/QCZm6IiIykhISaUlJsAlJWbCgwRAQAEfn6DAP7+/8LCxbm5u/Ly9fVrHKPXD0xkAAAAAElFTkSuQmCC"
+    },
     {
       "colors": [
         "Black"
@@ -33,15 +42,6 @@
       "link": "/store/outerwear/50-50-crew/block/black",
       "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewBlockBlack.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APn5/L2+xLq8wvb3+gCSlp8qLTc8PUaMkJgAjZGZAgMRAAAKeHmBAPz8/7m7vq+vtO/v8fNoHGgWpJMwAAAAAElFTkSuQmCC"
-    },
-    {
-      "colors": [
-        "Black"
-      ],
-      "logo": "Original",
-      "link": "/store/outerwear/50-50-crew/original/black",
-      "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewOriginalBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/8PEyL7Axfn5/QCZm6IiIykhISaUlJsAlJWbCgwRAQAEfn6DAP7+/8LCxbm5u/Ly9fVrHKPXD0xkAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -107,7 +107,7 @@
       "/store/outerwear"
     ],
     [
-      "Original 50/50 Crew",
+      "50/50 Crew",
       "/store/outerwear/50-50-crew"
     ],
     [
@@ -116,5 +116,5 @@
     ]
   ],
   "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/8fIzcrL0P39/wCUmqA2O0VBSFScoacAdnuCAQMMDxQeiI2UAOnq7Li4uru9vu7u8BMAHVFRYaQuAAAAAElFTkSuQmCC",
-  "name_root": "Original 50/50 Crew"
+  "name_root": "50/50 Crew"
 }

@@ -1,6 +1,6 @@
 {
   "id": "outerwear:50-50-hoodie:black:original",
-  "name": "Original 50/50 Hoodie with Original Design",
+  "name": "50/50 Hoodie with Original Design",
   "link": "/store/outerwear/50-50-hoodie/original",
   "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieOriginalBlack.jpg",
   "imageBack": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBackBlack.jpg",
@@ -9,13 +9,22 @@
   "logo": "Original",
   "weight": 34.3,
   "meta": {
-    "title": "Original 50/50 Hoodie (Unisex)",
+    "title": "50/50 Hoodie (Unisex)",
     "description": "Unisex. Heavyweight (14oz) over-sized fit."
   },
   "colors": [
     "Black"
   ],
   "logos": [
+    {
+      "colors": [
+        "Black"
+      ],
+      "logo": "Original",
+      "link": "/store/outerwear/50-50-hoodie/original/black",
+      "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieOriginalBlack.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7//7OwsMC7vP7//wDQ0NFBOztCPD3S0dQAi4iLCQUJAgAEc3JzAN/e4HBqamljZMfFxxADGxTNCktkAAAAAElFTkSuQmCC"
+    },
     {
       "colors": [
         "Black"
@@ -33,15 +42,6 @@
       "link": "/store/outerwear/50-50-hoodie/block/black",
       "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBlockBlack.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7//6+rqrq2t////wDNy85DPD1GQEHOzdAAgoGCEQ0QBQEHamlsAN7d32ZgYF5aW8TExQbEGpglmoRZAAAAAElFTkSuQmCC"
-    },
-    {
-      "colors": [
-        "Black"
-      ],
-      "logo": "Original",
-      "link": "/store/outerwear/50-50-hoodie/original/black",
-      "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieOriginalBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7//7OwsMC7vP7//wDQ0NFBOztCPD3S0dQAi4iLCQUJAgAEc3JzAN/e4HBqamljZMfFxxADGxTNCktkAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -107,7 +107,7 @@
       "/store/outerwear"
     ],
     [
-      "Original 50/50 Hoodie",
+      "50/50 Hoodie",
       "/store/outerwear/50-50-hoodie"
     ],
     [
@@ -116,5 +116,5 @@
     ]
   ],
   "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7//7OwsMC7vP7//wDQ0NFBOztCPD3S0dQAi4iLCQUJAgAEc3JzAN/e4HBqamljZMfFxxADGxTNCktkAAAAAElFTkSuQmCC",
-  "name_root": "Original 50/50 Hoodie"
+  "name_root": "50/50 Hoodie"
 }

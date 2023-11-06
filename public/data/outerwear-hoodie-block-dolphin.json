@@ -1,6 +1,6 @@
 {
   "id": "outerwear:hoodie:dolphin:block",
-  "name": "Original Cotton Hoodie with Block Design",
+  "name": "Cotton Hoodie with Block Design",
   "link": "/store/outerwear/hoodie/block",
   "image": "/images/products/outerwear/hoodie/OuterwearHoodieBlockDolphin.jpg",
   "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieBackDolphin.jpg",
@@ -9,7 +9,7 @@
   "logo": "Block",
   "weight": 34.3,
   "meta": {
-    "title": "Original Cotton Hoodie (Unisex)",
+    "title": "Cotton Hoodie (Unisex)",
     "description": "Unisex. Heavyweight (14oz) over-sized fit."
   },
   "colors": [
@@ -19,6 +19,18 @@
     "Navy"
   ],
   "logos": [
+    {
+      "colors": [
+        "Black",
+        "Dolphin",
+        "Green",
+        "Navy"
+      ],
+      "logo": "Original",
+      "link": "/store/outerwear/hoodie/original/dolphin",
+      "image": "/images/products/outerwear/hoodie/OuterwearHoodieOriginalDolphin.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/7SztMbGx/7+/wDu7vFUTktXVFHu7u8Azs3OEQEAEQEA0M3OAPT09313c3ZuaPb2+GTRH1TiSJ5UAAAAAElFTkSuQmCC"
+    },
     {
       "colors": [
         "Black",
@@ -42,18 +54,6 @@
       "link": "/store/outerwear/hoodie/block/dolphin",
       "image": "/images/products/outerwear/hoodie/OuterwearHoodieBlockDolphin.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/ry8vs3O0fz8/wDs7O5ZVVJZVE/m5ecAxMTEEgMAEQAAvbu7AOjn6VxVU2pkXuvr7F9WHlEQ9fgQAAAAAElFTkSuQmCC"
-    },
-    {
-      "colors": [
-        "Black",
-        "Dolphin",
-        "Green",
-        "Navy"
-      ],
-      "logo": "Original",
-      "link": "/store/outerwear/hoodie/original/dolphin",
-      "image": "/images/products/outerwear/hoodie/OuterwearHoodieOriginalDolphin.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/7SztMbGx/7+/wDu7vFUTktXVFHu7u8Azs3OEQEAEQEA0M3OAPT09313c3ZuaPb2+GTRH1TiSJ5UAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -132,7 +132,7 @@
       "/store/outerwear"
     ],
     [
-      "Original Cotton Hoodie",
+      "Cotton Hoodie",
       "/store/outerwear/hoodie"
     ],
     [
@@ -141,5 +141,5 @@
     ]
   ],
   "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/ry8vs3O0fz8/wDs7O5ZVVJZVE/m5ecAxMTEEgMAEQAAvbu7AOjn6VxVU2pkXuvr7F9WHlEQ9fgQAAAAAElFTkSuQmCC",
-  "name_root": "Original Cotton Hoodie"
+  "name_root": "Cotton Hoodie"
 }

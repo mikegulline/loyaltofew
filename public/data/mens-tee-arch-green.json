@@ -1,6 +1,6 @@
 {
   "id": "mens:tee:green:arch",
-  "name": "Original Tee with Arch Design",
+  "name": "Tee with Arch Design",
   "link": "/store/mens/tee/arch",
   "image": "/images/products/mens/tee/MensTeeArchGreen.jpg",
   "imageBack": "/images/products/mens/tee/MensTeeBackGreen.jpg",
@@ -9,7 +9,7 @@
   "logo": "Arch",
   "weight": 7,
   "meta": {
-    "title": "Mens Original Tee",
+    "title": "Mens Tee",
     "description": "Perfect 50/50 blend of cotton & polyester. Super-soft, lightweight (3.8oz) & durable."
   },
   "colors": [
@@ -20,6 +20,19 @@
     "Navy"
   ],
   "logos": [
+    {
+      "colors": [
+        "Black",
+        "Gray",
+        "Green",
+        "Maroon",
+        "Navy"
+      ],
+      "logo": "Original",
+      "link": "/store/mens/tee/original/green",
+      "image": "/images/products/mens/tee/MensTeeOriginalGreen.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOjp6JufmpGUjNfa1ACWmpIpMCEuNCS5urUA8PDuAwgAEBIA9PTyAPn6+mxtY3Z4a/v7+tZMG/XEa0LrAAAAAElFTkSuQmCC"
+    },
     {
       "colors": [
         "Black",
@@ -45,19 +58,6 @@
       "link": "/store/mens/tee/block/green",
       "image": "/images/products/mens/tee/MensTeeBlockGreen.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AN7i36Soo6espenq5wCusqxMUkBgYlO7vbkA1dbRAwYAGBoC8PHuAOjo53N1anJzZvv7+QwZHTx8o3DmAAAAAElFTkSuQmCC"
-    },
-    {
-      "colors": [
-        "Black",
-        "Gray",
-        "Green",
-        "Maroon",
-        "Navy"
-      ],
-      "logo": "Original",
-      "link": "/store/mens/tee/original/green",
-      "image": "/images/products/mens/tee/MensTeeOriginalGreen.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOjp6JufmpGUjNfa1ACWmpIpMCEuNCS5urUA8PDuAwgAEBIA9PTyAPn6+mxtY3Z4a/v7+tZMG/XEa0LrAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -140,7 +140,7 @@
       "/store/mens"
     ],
     [
-      "Original Tee",
+      "Tee",
       "/store/mens/tee"
     ],
     [
@@ -149,5 +149,5 @@
     ]
   ],
   "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AMjLypGYlJKYksvNywCYnJgyOS1GTUC9v7wA0NHOAAcAICQU/v//AODj4mtvaHd6cfP188aEG5dXT2FkAAAAAElFTkSuQmCC",
-  "name_root": "Original Tee"
+  "name_root": "Tee"
 }

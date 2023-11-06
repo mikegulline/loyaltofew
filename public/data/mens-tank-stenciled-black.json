@@ -1,6 +1,6 @@
 {
   "id": "mens:tank:black:stenciled",
-  "name": "Original Tank with Stenciled Design",
+  "name": "Tank with Stenciled Design",
   "link": "/store/mens/tank/stenciled",
   "image": "/images/products/mens/tank/MensTankStenciledBlack.jpg",
   "imageBack": "/images/products/mens/tank/MensTankBackBlack.jpg",
@@ -9,7 +9,7 @@
   "logo": "Stenciled",
   "weight": 5.7,
   "meta": {
-    "title": "Mens Original Tank",
+    "title": "Mens Tank",
     "description": "100% Pre-washed, no-shrink cotton. Lightweight (6.5oz)  and durable"
   },
   "colors": [
@@ -29,6 +29,15 @@
       "colors": [
         "Black"
       ],
+      "logo": "Original",
+      "link": "/store/mens/tank/original/black",
+      "image": "/images/products/mens/tank/MensTankOriginalBlack.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APX1+Y+QlqSmrPz8/wDAwMQyMTdKSlHa2t4Ao6OmAwEJFRMYtbW3AMLCxFVVWF1dX8vMzvuCGv1XJNqEAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black"
+      ],
       "logo": "Arch",
       "link": "/store/mens/tank/arch/black",
       "image": "/images/products/mens/tank/MensTankArchBlack.jpg",
@@ -42,15 +51,6 @@
       "link": "/store/mens/tank/block/black",
       "image": "/images/products/mens/tank/MensTankBlockBlack.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/4aJj4+SmPv7/wDIys0iIygtLjfS0tYAqquuAgEKCAgOo6SnAMLCxDY4PD9AQcXFyNlPGTpp0Ej9AAAAAElFTkSuQmCC"
-    },
-    {
-      "colors": [
-        "Black"
-      ],
-      "logo": "Original",
-      "link": "/store/mens/tank/original/black",
-      "image": "/images/products/mens/tank/MensTankOriginalBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APX1+Y+QlqSmrPz8/wDAwMQyMTdKSlHa2t4Ao6OmAwEJFRMYtbW3AMLCxFVVWF1dX8vMzvuCGv1XJNqEAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -114,7 +114,7 @@
       "/store/mens"
     ],
     [
-      "Original Tank",
+      "Tank",
       "/store/mens/tank"
     ],
     [
@@ -123,5 +123,5 @@
     ]
   ],
   "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APT094OEipucovv7/wC7u74wMDZQUFbV1dgAmJibBQMIFBQXq6utALy9wENDR0tMTcfHyeQsGd/tZmn6AAAAAElFTkSuQmCC",
-  "name_root": "Original Tank"
+  "name_root": "Tank"
 }

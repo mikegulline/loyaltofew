@@ -1,6 +1,6 @@
 {
   "id": "womens:tank:blue:original",
-  "name": "Original Tank with Original Design",
+  "name": "Tank with Original Design",
   "link": "/store/womens/tank/original",
   "image": "/images/products/womens/tank/WomensTankOriginalBlue.jpg",
   "imageBack": "/images/products/womens/tank/WomensTankBackBlue.jpg",
@@ -9,7 +9,7 @@
   "logo": "Original",
   "weight": 2.6,
   "meta": {
-    "title": "Womens Original Tank",
+    "title": "Womens Tank",
     "description": "50% polyester, 25% cotton, 25% rayon. Lightweight (3.7oz) racerback design."
   },
   "colors": [
@@ -18,6 +18,17 @@
     "Maroon"
   ],
   "logos": [
+    {
+      "colors": [
+        "Gray",
+        "Blue",
+        "Maroon"
+      ],
+      "logo": "Original",
+      "link": "/store/womens/tank/original/blue",
+      "image": "/images/products/womens/tank/WomensTankOriginalBlue.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPUlEQVR4nGP48+f3vEUHVq09+vPnD4bPnz4bWeWa2+SAONev32dgMGJmMLx+/R7DzVuPXV0LYqKrbty4BwBR0x5Cio2RBwAAAABJRU5ErkJggg=="
+    },
     {
       "colors": [
         "Gray",
@@ -39,17 +50,6 @@
       "link": "/store/womens/tank/block/blue",
       "image": "/images/products/womens/tank/WomensTankBlockBlue.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7+42SqqGkufv7+wDp6e0iKFA5PF709PUAvLzICgAgEQQgt7fBANHR2CwxUUhIYdTU2iKkHBzBZ+vOAAAAAElFTkSuQmCC"
-    },
-    {
-      "colors": [
-        "Gray",
-        "Blue",
-        "Maroon"
-      ],
-      "logo": "Original",
-      "link": "/store/womens/tank/original/blue",
-      "image": "/images/products/womens/tank/WomensTankOriginalBlue.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPUlEQVR4nGP48+f3vEUHVq09+vPnD4bPnz4bWeWa2+SAONev32dgMGJmMLx+/R7DzVuPXV0LYqKrbty4BwBR0x5Cio2RBwAAAABJRU5ErkJggg=="
     },
     {
       "colors": [
@@ -117,7 +117,7 @@
       "/store/womens"
     ],
     [
-      "Original Tank",
+      "Tank",
       "/store/womens/tank"
     ],
     [
@@ -126,5 +126,5 @@
     ]
   ],
   "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPUlEQVR4nGP48+f3vEUHVq09+vPnD4bPnz4bWeWa2+SAONev32dgMGJmMLx+/R7DzVuPXV0LYqKrbty4BwBR0x5Cio2RBwAAAABJRU5ErkJggg==",
-  "name_root": "Original Tank"
+  "name_root": "Tank"
 }

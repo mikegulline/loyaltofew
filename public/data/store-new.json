@@ -16,17 +16,27 @@
       },
       "products": [
         {
-          "name": "Original Tee",
+          "name": "Tee",
           "type": "Tee",
-          "link": "/store/mens/tee/arch/black",
-          "image": "/images/products/mens/tee/MensTeeArchBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AObm656en5aWltnY2AC9vsFHR0lRT065ubkA8vL0EQ8OBQEA2NjYAPv7/3Jycm5tauPj4wKnHNcXE1ghAAAAAElFTkSuQmCC",
+          "link": "/store/mens/tee/stenciled/black",
+          "image": "/images/products/mens/tee/MensTeeStenciledBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOvr7qinrbKwtv7+/wDLy9BFRExEQknAwMQA29veDgwWBgMQ6OjrAOzs8IKBh359gvf2+TAsHm9KhdxaAAAAAElFTkSuQmCC",
           "logos": [
             {
               "logo": "Small Circle",
               "colors": [
                 "Black",
                 "Gray"
+              ]
+            },
+            {
+              "logo": "Original",
+              "colors": [
+                "Black",
+                "Gray",
+                "Green",
+                "Maroon",
+                "Navy"
               ]
             },
             {
@@ -41,16 +51,6 @@
             },
             {
               "logo": "Block",
-              "colors": [
-                "Black",
-                "Gray",
-                "Green",
-                "Maroon",
-                "Navy"
-              ]
-            },
-            {
-              "logo": "Original",
               "colors": [
                 "Black",
                 "Gray",
@@ -89,14 +89,20 @@
           ]
         },
         {
-          "name": "Original Tank",
+          "name": "Tank",
           "type": "Tank",
-          "link": "/store/mens/tank/small-circle/black",
-          "image": "/images/products/mens/tank/MensTankSmallCircleBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz7/5Wbp6astP/+/wDd4ulIJTZHKjnZ3uUAw8XNFgYaBwAVsra+ANTU219lcVphb8nL0iHjHHbT66xOAAAAAElFTkSuQmCC",
+          "link": "/store/mens/tank/arch/black",
+          "image": "/images/products/mens/tank/MensTankArchBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv6/ZiboZ+hp/39/wDV1dYxMTdDRUrd3d8AsrK0BAMLFxcZvb2/AMbGyExMTlZWVs7O0Q6oG35NAdZZAAAAAElFTkSuQmCC",
           "logos": [
             {
               "logo": "Small Circle",
+              "colors": [
+                "Black"
+              ]
+            },
+            {
+              "logo": "Original",
               "colors": [
                 "Black"
               ]
@@ -109,12 +115,6 @@
             },
             {
               "logo": "Block",
-              "colors": [
-                "Black"
-              ]
-            },
-            {
-              "logo": "Original",
               "colors": [
                 "Black"
               ]
@@ -137,7 +137,7 @@
           ]
         },
         {
-          "name": "Original Long-Sleeve",
+          "name": "Long-Sleeve",
           "type": "Sleeves",
           "link": "/store/mens/sleeves/stenciled/black",
           "image": "/images/products/mens/sleeves/MensSleevesStenciledBlack.jpg",
@@ -151,6 +151,14 @@
               ]
             },
             {
+              "logo": "Original",
+              "colors": [
+                "Black",
+                "Gray",
+                "Navy"
+              ]
+            },
+            {
               "logo": "Arch",
               "colors": [
                 "Black",
@@ -160,14 +168,6 @@
             },
             {
               "logo": "Block",
-              "colors": [
-                "Black",
-                "Gray",
-                "Navy"
-              ]
-            },
-            {
-              "logo": "Original",
               "colors": [
                 "Black",
                 "Gray",
@@ -209,16 +209,24 @@
       },
       "products": [
         {
-          "name": "Original Tank",
+          "name": "Tank",
           "type": "Tank",
-          "link": "/store/womens/tank/original/gray",
-          "image": "/images/products/womens/tank/WomensTankOriginalGray.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/5+foK+vsf39/wDw8PRBPTtLRkL08/cA0NDREwEAFgAAxsXFANbW11RPTV5XUtLR0jldHPSEe7WlAAAAAElFTkSuQmCC",
+          "link": "/store/womens/tank/block/gray",
+          "image": "/images/products/womens/tank/WomensTankBlockGray.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/5CRkpOTlfz8/wDs7PAfHBgjIRzv7/IAvr6/DgAAEQAAsrCyAMTExDk1MjcyLL29vfQMGdIPLnIDAAAAAElFTkSuQmCC",
           "logos": [
             {
               "logo": "Small Circle",
               "colors": [
                 "Gray"
+              ]
+            },
+            {
+              "logo": "Original",
+              "colors": [
+                "Gray",
+                "Blue",
+                "Maroon"
               ]
             },
             {
@@ -231,14 +239,6 @@
             },
             {
               "logo": "Block",
-              "colors": [
-                "Gray",
-                "Blue",
-                "Maroon"
-              ]
-            },
-            {
-              "logo": "Original",
               "colors": [
                 "Gray",
                 "Blue",
@@ -269,16 +269,25 @@
           ]
         },
         {
-          "name": "Original Oversized Crop",
+          "name": "Oversized Crop",
           "type": "Oversized-Crop",
-          "link": "/store/womens/oversized-crop/original/black",
-          "image": "/images/products/womens/oversized-crop/WomensOversized-CropOriginalBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP38/+3t8e7u8fv7/wCTl5wxMzksLzWbnKIAra+0AAENCQ4VsLG3APb2+vLy9fT09/j4+0fSID2xeUpeAAAAAElFTkSuQmCC",
+          "link": "/store/womens/oversized-crop/stamp/black",
+          "image": "/images/products/womens/oversized-crop/WomensOversized-CropStampBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz7/+rq7Ovs7vv7/wCMj5UrLDMtLjSTlJsApqitAgUOEBAXqaqvAPf3++7u8fLy9fn3+jl1H76IUu/4AAAAAElFTkSuQmCC",
           "logos": [
             {
               "logo": "Small Circle",
               "colors": [
                 "Black"
+              ]
+            },
+            {
+              "logo": "Original",
+              "colors": [
+                "Black",
+                "Dolphin",
+                "Baby-Blue",
+                "Mauve"
               ]
             },
             {
@@ -292,15 +301,6 @@
             },
             {
               "logo": "Block",
-              "colors": [
-                "Black",
-                "Dolphin",
-                "Baby-Blue",
-                "Mauve"
-              ]
-            },
-            {
-              "logo": "Original",
               "colors": [
                 "Black",
                 "Dolphin",
@@ -346,12 +346,18 @@
       },
       "products": [
         {
-          "name": "Original 50/50 Crew",
+          "name": "50/50 Crew",
           "type": "50-50-Crew",
-          "link": "/store/outerwear/50-50-crew/original/black",
-          "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewOriginalBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/8PEyL7Axfn5/QCZm6IiIykhISaUlJsAlJWbCgwRAQAEfn6DAP7+/8LCxbm5u/Ly9fVrHKPXD0xkAAAAAElFTkSuQmCC",
+          "link": "/store/outerwear/50-50-crew/arch/black",
+          "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewArchBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr6/L2+wrq7wPb2+gCUlp4hJCkoKC6QkJUAj5KXDQ0RBAMHent+APz8/76+wLS1uO/v8endHDkxN8G0AAAAAElFTkSuQmCC",
           "logos": [
+            {
+              "logo": "Original",
+              "colors": [
+                "Black"
+              ]
+            },
             {
               "logo": "Arch",
               "colors": [
@@ -360,12 +366,6 @@
             },
             {
               "logo": "Block",
-              "colors": [
-                "Black"
-              ]
-            },
-            {
-              "logo": "Original",
               "colors": [
                 "Black"
               ]
@@ -388,12 +388,21 @@
           ]
         },
         {
-          "name": "Original Cotton Crew",
+          "name": "Cotton Crew",
           "type": "Crew",
-          "link": "/store/outerwear/crew/arch/black",
-          "image": "/images/products/outerwear/crew/OuterwearCrewArchBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr6/L2+wrq7wPb2+gCUlp4hJCkoKC6QkJUAj5KXDQ0RBAMHent+APz8/76+wLS1uO/v8endHDkxN8G0AAAAAElFTkSuQmCC",
+          "link": "/store/outerwear/crew/block/black",
+          "image": "/images/products/outerwear/crew/OuterwearCrewBlockBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APn5/L2+xLq8wvb3+gCSlp8qLTc8PUaMkJgAjZGZAgMRAAAKeHmBAPz8/7m7vq+vtO/v8fNoHGgWpJMwAAAAAElFTkSuQmCC",
           "logos": [
+            {
+              "logo": "Original",
+              "colors": [
+                "Black",
+                "Navy",
+                "Green",
+                "Dolphin"
+              ]
+            },
             {
               "logo": "Arch",
               "colors": [
@@ -405,15 +414,6 @@
             },
             {
               "logo": "Block",
-              "colors": [
-                "Black",
-                "Navy",
-                "Green",
-                "Dolphin"
-              ]
-            },
-            {
-              "logo": "Original",
               "colors": [
                 "Black",
                 "Navy",
@@ -448,12 +448,18 @@
           ]
         },
         {
-          "name": "Original 50/50 Hoodie",
+          "name": "50/50 Hoodie",
           "type": "50-50-Hoodie",
           "link": "/store/outerwear/50-50-hoodie/original/black",
           "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieOriginalBlack.jpg",
           "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7//7OwsMC7vP7//wDQ0NFBOztCPD3S0dQAi4iLCQUJAgAEc3JzAN/e4HBqamljZMfFxxADGxTNCktkAAAAAElFTkSuQmCC",
           "logos": [
+            {
+              "logo": "Original",
+              "colors": [
+                "Black"
+              ]
+            },
             {
               "logo": "Arch",
               "colors": [
@@ -462,12 +468,6 @@
             },
             {
               "logo": "Block",
-              "colors": [
-                "Black"
-              ]
-            },
-            {
-              "logo": "Original",
               "colors": [
                 "Black"
               ]
@@ -490,12 +490,21 @@
           ]
         },
         {
-          "name": "Original Cotton Hoodie",
+          "name": "Cotton Hoodie",
           "type": "Hoodie",
-          "link": "/store/outerwear/hoodie/stenciled/black",
-          "image": "/images/products/outerwear/hoodie/OuterwearHoodieStenciledBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/cjHx8XFxf39/wDX19hiWlVWTkjBv78ApKOiHhIGDwAAfXd2AOLi4395d3JwbM7LzDsFHLWcgSh2AAAAAElFTkSuQmCC",
+          "link": "/store/outerwear/hoodie/original/black",
+          "image": "/images/products/outerwear/hoodie/OuterwearHoodieOriginalBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/crKysrIyPz+/wDb2ttfV1JORUDFw8MAqqenGg4FCwAAg319AOPi5IR/fXt2cs7Nzj9zHP0DwYyMAAAAAElFTkSuQmCC",
           "logos": [
+            {
+              "logo": "Original",
+              "colors": [
+                "Black",
+                "Dolphin",
+                "Green",
+                "Navy"
+              ]
+            },
             {
               "logo": "Arch",
               "colors": [
@@ -507,15 +516,6 @@
             },
             {
               "logo": "Block",
-              "colors": [
-                "Black",
-                "Dolphin",
-                "Green",
-                "Navy"
-              ]
-            },
-            {
-              "logo": "Original",
               "colors": [
                 "Black",
                 "Dolphin",

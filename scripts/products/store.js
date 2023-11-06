@@ -10,13 +10,13 @@ module.exports = [
     products: [
       {
         type: 'Tee',
-        product: 'Original Tee',
+        product: 'Tee',
         has_image_back: true,
         logos: [
           'Small Circle',
+          'Original',
           'Arch',
           'Block',
-          'Original',
           'Stamp',
           'Stenciled',
         ],
@@ -27,7 +27,7 @@ module.exports = [
         tags: ['Tops'],
         weight: 7,
         meta: {
-          title: 'Mens Original Tee',
+          title: 'Mens Tee',
           description:
             'Perfect 50/50 blend of cotton & polyester. Super-soft, lightweight (3.8oz) & durable.',
         },
@@ -78,13 +78,13 @@ module.exports = [
       },
       {
         type: 'Tank',
-        product: 'Original Tank',
+        product: 'Tank',
         has_image_back: true,
         logos: [
           'Small Circle',
+          'Original',
           'Arch',
           'Block',
-          'Original',
           'Stamp',
           'Stenciled',
         ],
@@ -92,7 +92,7 @@ module.exports = [
         tags: ['Tops'],
         weight: 5.7,
         meta: {
-          title: 'Mens Original Tank',
+          title: 'Mens Tank',
           description:
             '100% Pre-washed, no-shrink cotton. Lightweight (6.5oz)  and durable',
         },
@@ -131,13 +131,13 @@ module.exports = [
       },
       {
         type: 'Sleeves',
-        product: 'Original Long-Sleeve',
+        product: 'Long-Sleeve',
         has_image_back: true,
         logos: [
           'Small Circle',
+          'Original',
           'Arch',
           'Block',
-          'Original',
           'Stamp',
           'Stenciled',
         ],
@@ -148,7 +148,7 @@ module.exports = [
         tags: ['Tops'],
         weight: 9.8,
         meta: {
-          title: 'Mens Original Long-Sleeve',
+          title: 'Mens Long-Sleeve',
           description:
             '100% cotton grown on a US farm. Lightweight (4.3oz.) & durable.',
         },
@@ -210,14 +210,14 @@ module.exports = [
     products: [
       // {
       //   type: 'Tee',
-      //   product: 'Original Tee',
+      //   product: 'Tee',
       //   has_image_back: true,
-      //   logos: ['Arch', 'Block', 'Original', 'Stamp', 'Stenciled'],
+      //   logos: ['Original', 'Arch', 'Block', 'Stamp', 'Stenciled'],
       //   colors: ['Gray', 'Baby-Blue', 'Navy', 'Maroon', 'Red'],
       //   tags: ['Tops'],
       //   weight: 3.6,
       //   meta: {
-      //     title: 'Womens Original Tee',
+      //     title: 'Womens Tee',
       //     description:
       //       '100% cotton grown on a US farm. Lightweight (4.3oz.) & durable.',
       //   },
@@ -262,13 +262,13 @@ module.exports = [
       // },
       {
         type: 'Tank',
-        product: 'Original Tank',
+        product: 'Tank',
         has_image_back: true,
         logos: [
           'Small Circle',
+          'Original',
           'Arch',
           'Block',
-          'Original',
           'Stamp',
           'Stenciled',
         ],
@@ -279,7 +279,7 @@ module.exports = [
         tags: ['Tops'],
         weight: 2.6,
         meta: {
-          title: 'Womens Original Tank',
+          title: 'Womens Tank',
           description:
             '50% polyester, 25% cotton, 25% rayon. Lightweight (3.7oz) racerback design.',
         },
@@ -318,14 +318,14 @@ module.exports = [
       },
       // {
       //   type: 'Crop',
-      //   product: 'Original Crop',
+      //   product: 'Crop',
       //   has_image_back: true,
-      //   logos: ['Arch', 'Block', 'Original', 'Stamp'],
+      //   logos: ['Original', 'Arch', 'Block', 'Stamp'],
       //   colors: ['Black', 'Gray', 'Navy', 'Red'],
       //   tags: ['Tops'],
       //   weight: 2.9,
       //   meta: {
-      //     title: 'Womens Original Crop',
+      //     title: 'Womens Crop',
       //     description:
       //       'Raw hem, riibbed crew-neck & short sleeves. 100% US Lightweight cotton (4.3oz).',
       //   },
@@ -371,12 +371,12 @@ module.exports = [
       {
         type: 'Oversized-Crop',
         has_image_back: true,
-        product: 'Original Oversized Crop',
+        product: 'Oversized Crop',
         logos: [
           'Small Circle',
+          'Original',
           'Arch',
           'Block',
-          'Original',
           'Stamp',
           'Stenciled',
         ],
@@ -387,7 +387,7 @@ module.exports = [
         tags: ['Tops'],
         weight: 2.9,
         meta: {
-          title: 'Womens Original Oversized Crop',
+          title: 'Womens Oversized Crop',
           description: 'Wide-fit, oversized, 100% cotto. One size fits most.',
         },
         sizes: [
@@ -418,14 +418,14 @@ module.exports = [
     products: [
       {
         type: '50-50-Crew',
-        product: 'Original 50/50 Crew',
+        product: '50/50 Crew',
         has_image_back: true,
-        logos: ['Arch', 'Block', 'Original', 'Stamp', 'Stenciled'],
+        logos: ['Original', 'Arch', 'Block', 'Stamp', 'Stenciled'],
         colors: ['Black'],
         tags: ['Tops'],
         weight: 34.3,
         meta: {
-          title: 'Original 50/50 Crew (Unisex)',
+          title: '50/50 Crew (Unisex)',
           description:
             '100% cotton grown on a US farm. Lightweight (4.3oz.) & durable.',
         },
@@ -471,14 +471,14 @@ module.exports = [
       },
       {
         type: 'Crew',
-        product: 'Original Cotton Crew',
+        product: 'Cotton Crew',
         has_image_back: true,
-        logos: ['Arch', 'Block', 'Original', 'Stamp', 'Stenciled'],
+        logos: ['Original', 'Arch', 'Block', 'Stamp', 'Stenciled'],
         colors: ['Black', 'Navy', 'Green', 'Dolphin'],
         tags: ['Tops'],
         weight: 34.3,
         meta: {
-          title: 'Original Cotton Crew (Unisex)',
+          title: 'Cotton Crew (Unisex)',
           description:
             '100% cotton grown on a US farm. Lightweight (4.3oz.) & durable.',
         },
@@ -524,14 +524,14 @@ module.exports = [
 
       {
         type: '50-50-Hoodie',
-        product: 'Original 50/50 Hoodie',
+        product: '50/50 Hoodie',
         has_image_back: false,
-        logos: ['Arch', 'Block', 'Original', 'Stamp', 'Stenciled'],
+        logos: ['Original', 'Arch', 'Block', 'Stamp', 'Stenciled'],
         colors: ['Black'],
         tags: ['Tops'],
         weight: 34.3,
         meta: {
-          title: 'Original 50/50 Hoodie (Unisex)',
+          title: '50/50 Hoodie (Unisex)',
           description: 'Unisex. Heavyweight (14oz) over-sized fit.',
         },
         sizes: [
@@ -577,14 +577,14 @@ module.exports = [
       },
       {
         type: 'Hoodie',
-        product: 'Original Cotton Hoodie',
+        product: 'Cotton Hoodie',
         has_image_back: false,
-        logos: ['Arch', 'Block', 'Original', 'Stamp', 'Stenciled'],
+        logos: ['Original', 'Arch', 'Block', 'Stamp', 'Stenciled'],
         colors: ['Black', 'Dolphin', 'Green', 'Navy'],
         tags: ['Tops'],
         weight: 34.3,
         meta: {
-          title: 'Original Cotton Hoodie (Unisex)',
+          title: 'Cotton Hoodie (Unisex)',
           description: 'Unisex. Heavyweight (14oz) over-sized fit.',
         },
 

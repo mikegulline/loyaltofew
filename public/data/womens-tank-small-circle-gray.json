@@ -1,6 +1,6 @@
 {
   "id": "womens:tank:gray:small-circle",
-  "name": "Original Tank with Small Circle Design",
+  "name": "Tank with Small Circle Design",
   "link": "/store/womens/tank/small-circle",
   "image": "/images/products/womens/tank/WomensTankSmallCircleGray.jpg",
   "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
@@ -9,7 +9,7 @@
   "logo": "Small Circle",
   "weight": 2.6,
   "meta": {
-    "title": "Womens Original Tank",
+    "title": "Womens Tank",
     "description": "50% polyester, 25% cotton, 25% rayon. Lightweight (3.7oz) racerback design."
   },
   "colors": [
@@ -33,6 +33,17 @@
         "Blue",
         "Maroon"
       ],
+      "logo": "Original",
+      "link": "/store/womens/tank/original/gray",
+      "image": "/images/products/womens/tank/WomensTankOriginalGray.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/5+foK+vsf39/wDw8PRBPTtLRkL08/cA0NDREwEAFgAAxsXFANbW11RPTV5XUtLR0jldHPSEe7WlAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Gray",
+        "Blue",
+        "Maroon"
+      ],
       "logo": "Arch",
       "link": "/store/womens/tank/arch/gray",
       "image": "/images/products/womens/tank/WomensTankArchGray.jpg",
@@ -48,17 +59,6 @@
       "link": "/store/womens/tank/block/gray",
       "image": "/images/products/womens/tank/WomensTankBlockGray.jpg",
       "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/5CRkpOTlfz8/wDs7PAfHBgjIRzv7/IAvr6/DgAAEQAAsrCyAMTExDk1MjcyLL29vfQMGdIPLnIDAAAAAElFTkSuQmCC"
-    },
-    {
-      "colors": [
-        "Gray",
-        "Blue",
-        "Maroon"
-      ],
-      "logo": "Original",
-      "link": "/store/womens/tank/original/gray",
-      "image": "/images/products/womens/tank/WomensTankOriginalGray.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/5+foK+vsf39/wDw8PRBPTtLRkL08/cA0NDREwEAFgAAxsXFANbW11RPTV5XUtLR0jldHPSEe7WlAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -126,7 +126,7 @@
       "/store/womens"
     ],
     [
-      "Original Tank",
+      "Tank",
       "/store/womens/tank"
     ],
     [
@@ -135,5 +135,5 @@
     ]
   ],
   "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz7/5+foqSkqPz7/wDy8fc7JSk7JCry8vcAxsbJKAAAJgAFvr3CANDN0E9TVFRVVtLO0iPQHD1fMLygAAAAAElFTkSuQmCC",
-  "name_root": "Original Tank"
+  "name_root": "Tank"
 }
