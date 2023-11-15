@@ -1,6 +1,6 @@
 {
   "id": "mens:tank:black:stamp",
-  "name": "Tank with Stamp Design",
+  "name": "Cotton Tank with Stamp Design",
   "link": "/store/mens/tank/stamp",
   "image": "/images/products/mens/tank/MensTankStampBlack.jpg",
   "imageBack": "/images/products/mens/tank/MensTankBackBlack.jpg",
@@ -9,9 +9,10 @@
   "logo": "Stamp",
   "weight": 5.7,
   "meta": {
-    "title": "Mens Tank",
+    "title": "Mens Cotton Tank",
     "description": "100% Pre-washed, no-shrink cotton. Lightweight (6.5oz)  and durable"
   },
+  "irl": [],
   "colors": [
     "Black"
   ],
@@ -114,7 +115,7 @@
       "/store/mens"
     ],
     [
-      "Tank",
+      "Cotton Tank",
       "/store/mens/tank"
     ],
     [
@@ -123,5 +124,5 @@
     ]
   ],
   "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/ZCSmaGjqPv7/wDR0dMrKzJAQEjc3N8Au7u+BQMKFxcav7/BANXV1lRUV19fYdLS1QuOG9BpWI2XAAAAAElFTkSuQmCC",
-  "name_root": "Tank"
+  "name_root": "Cotton Tank"
 }

@@ -1,6 +1,6 @@
 {
   "id": "mens:tank:black:original",
-  "name": "Tank with Original Design",
+  "name": "Cotton Tank with Original Design",
   "link": "/store/mens/tank/original",
   "image": "/images/products/mens/tank/MensTankOriginalBlack.jpg",
   "imageBack": "/images/products/mens/tank/MensTankBackBlack.jpg",
@@ -9,9 +9,10 @@
   "logo": "Original",
   "weight": 5.7,
   "meta": {
-    "title": "Mens Tank",
+    "title": "Mens Cotton Tank",
     "description": "100% Pre-washed, no-shrink cotton. Lightweight (6.5oz)  and durable"
   },
+  "irl": [],
   "colors": [
     "Black"
   ],
@@ -114,7 +115,7 @@
       "/store/mens"
     ],
     [
-      "Tank",
+      "Cotton Tank",
       "/store/mens/tank"
     ],
     [
@@ -123,5 +124,5 @@
     ]
   ],
   "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APX1+Y+QlqSmrPz8/wDAwMQyMTdKSlHa2t4Ao6OmAwEJFRMYtbW3AMLCxFVVWF1dX8vMzvuCGv1XJNqEAAAAAElFTkSuQmCC",
-  "name_root": "Tank"
+  "name_root": "Cotton Tank"
 }

@@ -1,6 +1,6 @@
 {
   "id": "mens:sleeves:navy:stenciled",
-  "name": "Long-Sleeve with Stenciled Design",
+  "name": "Cotton Long-Sleeve with Stenciled Design",
   "link": "/store/mens/sleeves/stenciled",
   "image": "/images/products/mens/sleeves/MensSleevesStenciledNavy.jpg",
   "imageBack": "/images/products/mens/sleeves/MensSleevesBackNavy.jpg",
@@ -9,9 +9,23 @@
   "logo": "Stenciled",
   "weight": 9.8,
   "meta": {
-    "title": "Mens Long-Sleeve",
+    "title": "Mens Cotton Long-Sleeve (Unisex)",
     "description": "100% cotton grown on a US farm. Lightweight (4.3oz.) & durable."
   },
+  "irl": [
+    {
+      "image": "/images/irl/MensSleeves-1.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOz//9f4/832/+T//wDR3ttjcHdkeH/E1dAA2N7dFC9JAAQWcndsAO/2/1RieUhQUa+yooxaHoJLEY87AAAAAElFTkSuQmCC"
+    },
+    {
+      "image": "/images/irl/MensSleeves-2.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO3//6jI2J7J5d75/wDH0tslO1NUcYTK3t8Axc7XByE9AAYJjpSJAObt9klab15lYra3rUO4HPAPZsg9AAAAAElFTkSuQmCC"
+    },
+    {
+      "image": "/images/irl/MensSleeves-3.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APT9/9bu9Z6jkd/k3wDo7uuAg3tKRzfY3NUAz8/FERIKAQEB4eDZAOnu621xb1ZdXuvw7l72HsSYn/fPAAAAAElFTkSuQmCC"
+    }
+  ],
   "colors": [
     "Black",
     "Gray",
@@ -126,7 +140,7 @@
       "/store/mens"
     ],
     [
-      "Long-Sleeve",
+      "Cotton Long-Sleeve",
       "/store/mens/sleeves"
     ],
     [
@@ -135,5 +149,5 @@
     ]
   ],
   "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/46Pr4qMrO/v/ACHiLA0N2w5PGx1dpgAtrbRAQ1AAAAzgIKfAOrr92ptinl8ltfY59pfGwUdXyw3AAAAAElFTkSuQmCC",
-  "name_root": "Long-Sleeve"
+  "name_root": "Cotton Long-Sleeve"
 }

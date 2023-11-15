@@ -12,6 +12,16 @@
     "title": "Flexfit Snapback Hat",
     "description": "Flex-fit lining with adjustable snapback. Poly-spandex blend with performance mesh."
   },
+  "irl": [
+    {
+      "image": "/images/irl/OuterwearFlexfit-Snapback-1.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AMjHxrq4tLG0rPf48QCfo6OefHmHcnD6/vgAZE9SOAAAJwACraWoAKiUj3I8Rlo3Qby0sQbOGlCLS+moAAAAAElFTkSuQmCC"
+    },
+    {
+      "image": "/images/irl/OuterwearFlexfit-Snapback-2.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOTj4pGSibG0p/v7+ADs7uuTjYSIioHw9PIA9/f4ZTIzUzQ1+v//ANS9wy0AACkAC9rQ1XZaHrq3OWGYAAAAAElFTkSuQmCC"
+    }
+  ],
   "colors": [
     "Black-White",
     "Gray-White",

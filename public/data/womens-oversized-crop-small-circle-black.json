@@ -1,6 +1,6 @@
 {
   "id": "womens:oversized-crop:black:small-circle",
-  "name": "Oversized Crop with Small Circle Design",
+  "name": "Cotton Oversized Crop with Small Circle Design",
   "link": "/store/womens/oversized-crop/small-circle",
   "image": "/images/products/womens/oversized-crop/WomensOversized-CropSmallCircleBlack.jpg",
   "imageBack": "/images/products/womens/oversized-crop/WomensOversized-CropBackBlack.jpg",
@@ -9,9 +9,19 @@
   "logo": "Small Circle",
   "weight": 2.9,
   "meta": {
-    "title": "Womens Oversized Crop",
-    "description": "Wide-fit, oversized, 100% cotto. One size fits most."
+    "title": "Womens Cotton Oversized Crop",
+    "description": "Wide-fit, oversized, 100% cotton. One size fits most."
   },
+  "irl": [
+    {
+      "image": "/images/irl/WomensOversized-Crop-1.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOL//6Pf/6fp/975/wDI1dxpZ2o0PUmvurIArqiRHwAAEwAAtratAN/p0UlWTVVyfNjv7kEHHP6ow5q1AAAAAElFTkSuQmCC"
+    },
+    {
+      "image": "/images/irl/WomensOversized-Crop-2.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ANH7/6zc/57O9M7//wC/1t51gItGTVu+2OIAn5mFHCIrAAAXsaWUAMjUrnqCeFZhbdje0kxuHWmhOqAXAAAAAElFTkSuQmCC"
+    }
+  ],
   "colors": [
     "Black",
     "Dolphin",
@@ -113,7 +123,7 @@
       "/store/womens"
     ],
     [
-      "Oversized Crop",
+      "Cotton Oversized Crop",
       "/store/womens/oversized-crop"
     ],
     [
@@ -122,5 +132,5 @@
     ]
   ],
   "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+//Hz9PDy8/39/wCvrK1INDhJODusq68AtbS1IwAAJQAFsrK0APr6/dLV1dfY2Pn3+mMSIIGLCfhqAAAAAElFTkSuQmCC",
-  "name_root": "Oversized Crop"
+  "name_root": "Cotton Oversized Crop"
 }

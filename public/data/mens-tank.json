@@ -11,20 +11,21 @@
       "/store/mens"
     ],
     [
-      "Tank",
+      "Cotton Tank",
       "/store/mens/tank"
     ]
   ],
   "type": "Tank",
-  "name": "Tank",
-  "link": "/store/mens/tank/stamp/black",
-  "image": "/images/products/mens/tank/MensTankStampBlack.jpg",
+  "name": "Cotton Tank",
+  "link": "/store/mens/tank/stenciled/black",
+  "image": "/images/products/mens/tank/MensTankStenciledBlack.jpg",
   "has_image_back": true,
   "weight": 5.7,
   "meta": {
-    "title": "Mens Tank",
+    "title": "Mens Cotton Tank",
     "description": "100% Pre-washed, no-shrink cotton. Lightweight (6.5oz)  and durable"
   },
+  "irl": [],
   "tags": [
     "Tops"
   ],
@@ -33,7 +34,7 @@
       "colors": [
         "Black"
       ],
-      "name": "Tank with Small Circle Design",
+      "name": "Cotton Tank with Small Circle Design",
       "link": "/store/mens/tank/small-circle",
       "linkColor": "/store/mens/tank/small-circle/black",
       "has_image_back": true,
@@ -47,7 +48,7 @@
       "colors": [
         "Black"
       ],
-      "name": "Tank with Original Design",
+      "name": "Cotton Tank with Original Design",
       "link": "/store/mens/tank/original",
       "linkColor": "/store/mens/tank/original/black",
       "has_image_back": true,
@@ -61,7 +62,7 @@
       "colors": [
         "Black"
       ],
-      "name": "Tank with Arch Design",
+      "name": "Cotton Tank with Arch Design",
       "link": "/store/mens/tank/arch",
       "linkColor": "/store/mens/tank/arch/black",
       "has_image_back": true,
@@ -75,7 +76,7 @@
       "colors": [
         "Black"
       ],
-      "name": "Tank with Block Design",
+      "name": "Cotton Tank with Block Design",
       "link": "/store/mens/tank/block",
       "linkColor": "/store/mens/tank/block/black",
       "has_image_back": true,
@@ -89,7 +90,7 @@
       "colors": [
         "Black"
       ],
-      "name": "Tank with Stamp Design",
+      "name": "Cotton Tank with Stamp Design",
       "link": "/store/mens/tank/stamp",
       "linkColor": "/store/mens/tank/stamp/black",
       "has_image_back": true,
@@ -103,7 +104,7 @@
       "colors": [
         "Black"
       ],
-      "name": "Tank with Stenciled Design",
+      "name": "Cotton Tank with Stenciled Design",
       "link": "/store/mens/tank/stenciled",
       "linkColor": "/store/mens/tank/stenciled/black",
       "has_image_back": true,

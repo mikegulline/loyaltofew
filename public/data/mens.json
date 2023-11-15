@@ -18,7 +18,7 @@
   },
   "products": [
     {
-      "name": "Tee",
+      "name": "50/50 Tee",
       "link": "/store/mens/tee",
       "logos": [
         {
@@ -103,10 +103,24 @@
         "Green",
         "Maroon",
         "Navy"
+      ],
+      "irl": [
+        {
+          "image": "/images/irl/MensTee-1.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AK6ysLGxqffy4+jl4ADe4dqFgHN2YVW5ubcA5N7UOSkdBwAUwr+8AP/67YVwXEQ/RN3OxEMbHdWHy73LAAAAAElFTkSuQmCC"
+        },
+        {
+          "image": "/images/irl/MensTee-2.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO3u7ebj2P/98Pb18QDd3tlUTk9oY2W9vbUA//rsEgALJx4r7uTYAP/122JRSnpqZPHh0YkkH+lh3QJiAAAAAElFTkSuQmCC"
+        },
+        {
+          "image": "/images/irl/MensTee-3.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APT8/5ufjnh2Wd3eygDKy8RISjQqKBLEwK8AxL61HR8SAggA29XOAN3h5FJVVE9LRvLw69IpGpGjTGqvAAAAAElFTkSuQmCC"
+        }
       ]
     },
     {
-      "name": "Tank",
+      "name": "Cotton Tank",
       "link": "/store/mens/tank",
       "logos": [
         {
@@ -166,10 +180,11 @@
       ],
       "colors": [
         "Black"
-      ]
+      ],
+      "irl": []
     },
     {
-      "name": "Long-Sleeve",
+      "name": "Cotton Long-Sleeve",
       "link": "/store/mens/sleeves",
       "logos": [
         {
@@ -242,6 +257,20 @@
         "Black",
         "Gray",
         "Navy"
+      ],
+      "irl": [
+        {
+          "image": "/images/irl/MensSleeves-1.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOz//9f4/832/+T//wDR3ttjcHdkeH/E1dAA2N7dFC9JAAQWcndsAO/2/1RieUhQUa+yooxaHoJLEY87AAAAAElFTkSuQmCC"
+        },
+        {
+          "image": "/images/irl/MensSleeves-2.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO3//6jI2J7J5d75/wDH0tslO1NUcYTK3t8Axc7XByE9AAYJjpSJAObt9klab15lYra3rUO4HPAPZsg9AAAAAElFTkSuQmCC"
+        },
+        {
+          "image": "/images/irl/MensSleeves-3.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APT9/9bu9Z6jkd/k3wDo7uuAg3tKRzfY3NUAz8/FERIKAQEB4eDZAOnu621xb1ZdXuvw7l72HsSYn/fPAAAAAElFTkSuQmCC"
+        }
       ]
     }
   ]

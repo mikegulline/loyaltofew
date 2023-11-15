@@ -1,6 +1,6 @@
 {
   "id": "mens:tee:maroon:block",
-  "name": "Tee with Block Design",
+  "name": "50/50 Tee with Block Design",
   "link": "/store/mens/tee/block",
   "image": "/images/products/mens/tee/MensTeeBlockMaroon.jpg",
   "imageBack": "/images/products/mens/tee/MensTeeBackMaroon.jpg",
@@ -9,9 +9,23 @@
   "logo": "Block",
   "weight": 7,
   "meta": {
-    "title": "Mens Tee",
+    "title": "Mens 50/50 Tee (Unisex)",
     "description": "Perfect 50/50 blend of cotton & polyester. Super-soft, lightweight (3.8oz) & durable."
   },
+  "irl": [
+    {
+      "image": "/images/irl/MensTee-1.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AK6ysLGxqffy4+jl4ADe4dqFgHN2YVW5ubcA5N7UOSkdBwAUwr+8AP/67YVwXEQ/RN3OxEMbHdWHy73LAAAAAElFTkSuQmCC"
+    },
+    {
+      "image": "/images/irl/MensTee-2.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO3u7ebj2P/98Pb18QDd3tlUTk9oY2W9vbUA//rsEgALJx4r7uTYAP/122JRSnpqZPHh0YkkH+lh3QJiAAAAAElFTkSuQmCC"
+    },
+    {
+      "image": "/images/irl/MensTee-3.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APT8/5ufjnh2Wd3eygDKy8RISjQqKBLEwK8AxL61HR8SAggA29XOAN3h5FJVVE9LRvLw69IpGpGjTGqvAAAAAElFTkSuQmCC"
+    }
+  ],
   "colors": [
     "Black",
     "Gray",
@@ -140,7 +154,7 @@
       "/store/mens"
     ],
     [
-      "Tee",
+      "50/50 Tee",
       "/store/mens/tee"
     ],
     [
@@ -149,5 +163,5 @@
     ]
   ],
   "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOfU2K2Dia2GjOfT2AC9nqNfIChpKDK/n6YA+e7wNQAAMgAA4tDSAP/6/I1jZopgZPfu8OMpHDrxg5mmAAAAAElFTkSuQmCC",
-  "name_root": "Tee"
+  "name_root": "50/50 Tee"
 }

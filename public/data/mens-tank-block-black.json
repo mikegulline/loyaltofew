@@ -1,6 +1,6 @@
 {
   "id": "mens:tank:black:block",
-  "name": "Tank with Block Design",
+  "name": "Cotton Tank with Block Design",
   "link": "/store/mens/tank/block",
   "image": "/images/products/mens/tank/MensTankBlockBlack.jpg",
   "imageBack": "/images/products/mens/tank/MensTankBackBlack.jpg",
@@ -9,9 +9,10 @@
   "logo": "Block",
   "weight": 5.7,
   "meta": {
-    "title": "Mens Tank",
+    "title": "Mens Cotton Tank",
     "description": "100% Pre-washed, no-shrink cotton. Lightweight (6.5oz)  and durable"
   },
+  "irl": [],
   "colors": [
     "Black"
   ],
@@ -114,7 +115,7 @@
       "/store/mens"
     ],
     [
-      "Tank",
+      "Cotton Tank",
       "/store/mens/tank"
     ],
     [
@@ -123,5 +124,5 @@
     ]
   ],
   "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/4aJj4+SmPv7/wDIys0iIygtLjfS0tYAqquuAgEKCAgOo6SnAMLCxDY4PD9AQcXFyNlPGTpp0Ej9AAAAAElFTkSuQmCC",
-  "name_root": "Tank"
+  "name_root": "Cotton Tank"
 }

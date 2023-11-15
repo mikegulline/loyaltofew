@@ -42,6 +42,7 @@ const modalProduct = ({
   details,
   weight,
   meta,
+  irl: actionShots,
   tags,
 }) => {
   const randLogo = rand(logosArray);
@@ -70,6 +71,11 @@ const modalProduct = ({
     });
   });
 
+  const irl = actionShots.map((img) => {
+    const irlRoot = '/images/irl/';
+    return irlRoot + img;
+  });
+
   return {
     type,
     name,
@@ -78,6 +84,7 @@ const modalProduct = ({
     has_image_back,
     weight,
     meta,
+    irl,
     tags,
     logos,
     sizes,
@@ -185,6 +192,7 @@ const getLogo = (useCategory, useType, useLogo) => {
     breadcrumbs,
     weight,
     meta,
+    irl,
     tags,
     logos,
     has_image_back,
@@ -201,6 +209,7 @@ const getLogo = (useCategory, useType, useLogo) => {
     tags,
     weight,
     meta,
+    irl,
     sizes,
     colors,
     logos,
@@ -233,6 +242,7 @@ const getColor = (useCategory, useType, useLogo, useColor) => {
     breadcrumbs,
     weight,
     meta,
+    irl,
     tags,
     logos,
     imageColorRoot,
@@ -268,6 +278,7 @@ const getColor = (useCategory, useType, useLogo, useColor) => {
     logo,
     weight,
     meta,
+    irl,
     colors,
     logos,
     sizes,

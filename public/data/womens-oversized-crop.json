@@ -11,20 +11,30 @@
       "/store/womens"
     ],
     [
-      "Oversized Crop",
+      "Cotton Oversized Crop",
       "/store/womens/oversized-crop"
     ]
   ],
   "type": "Oversized-Crop",
-  "name": "Oversized Crop",
+  "name": "Cotton Oversized Crop",
   "link": "/store/womens/oversized-crop/stenciled/black",
   "image": "/images/products/womens/oversized-crop/WomensOversized-CropStenciledBlack.jpg",
   "has_image_back": true,
   "weight": 2.9,
   "meta": {
-    "title": "Womens Oversized Crop",
-    "description": "Wide-fit, oversized, 100% cotto. One size fits most."
+    "title": "Womens Cotton Oversized Crop",
+    "description": "Wide-fit, oversized, 100% cotton. One size fits most."
   },
+  "irl": [
+    {
+      "image": "/images/irl/WomensOversized-Crop-1.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOL//6Pf/6fp/975/wDI1dxpZ2o0PUmvurIArqiRHwAAEwAAtratAN/p0UlWTVVyfNjv7kEHHP6ow5q1AAAAAElFTkSuQmCC"
+    },
+    {
+      "image": "/images/irl/WomensOversized-Crop-2.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ANH7/6zc/57O9M7//wC/1t51gItGTVu+2OIAn5mFHCIrAAAXsaWUAMjUrnqCeFZhbdje0kxuHWmhOqAXAAAAAElFTkSuQmCC"
+    }
+  ],
   "tags": [
     "Tops"
   ],
@@ -33,7 +43,7 @@
       "colors": [
         "Black"
       ],
-      "name": "Oversized Crop with Small Circle Design",
+      "name": "Cotton Oversized Crop with Small Circle Design",
       "link": "/store/womens/oversized-crop/small-circle",
       "linkColor": "/store/womens/oversized-crop/small-circle/black",
       "has_image_back": true,
@@ -50,7 +60,7 @@
         "Baby-Blue",
         "Mauve"
       ],
-      "name": "Oversized Crop with Original Design",
+      "name": "Cotton Oversized Crop with Original Design",
       "link": "/store/womens/oversized-crop/original",
       "linkColor": "/store/womens/oversized-crop/original/black",
       "has_image_back": true,
@@ -67,7 +77,7 @@
         "Baby-Blue",
         "Mauve"
       ],
-      "name": "Oversized Crop with Arch Design",
+      "name": "Cotton Oversized Crop with Arch Design",
       "link": "/store/womens/oversized-crop/arch",
       "linkColor": "/store/womens/oversized-crop/arch/black",
       "has_image_back": true,
@@ -84,7 +94,7 @@
         "Baby-Blue",
         "Mauve"
       ],
-      "name": "Oversized Crop with Block Design",
+      "name": "Cotton Oversized Crop with Block Design",
       "link": "/store/womens/oversized-crop/block",
       "linkColor": "/store/womens/oversized-crop/block/black",
       "has_image_back": true,
@@ -101,7 +111,7 @@
         "Baby-Blue",
         "Mauve"
       ],
-      "name": "Oversized Crop with Stamp Design",
+      "name": "Cotton Oversized Crop with Stamp Design",
       "link": "/store/womens/oversized-crop/stamp",
       "linkColor": "/store/womens/oversized-crop/stamp/black",
       "has_image_back": true,
@@ -118,7 +128,7 @@
         "Baby-Blue",
         "Mauve"
       ],
-      "name": "Oversized Crop with Stenciled Design",
+      "name": "Cotton Oversized Crop with Stenciled Design",
       "link": "/store/womens/oversized-crop/stenciled",
       "linkColor": "/store/womens/oversized-crop/stenciled/black",
       "has_image_back": true,

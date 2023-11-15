@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { SlRefresh } from 'react-icons/sl';
 import Image from 'next/image';
 import styles from './HeroImage.module.css';
+import Irl from './Irl';
 
 const HeroImage = ({ product }) => {
   const {
@@ -13,7 +14,9 @@ const HeroImage = ({ product }) => {
     name,
     imageBack,
     has_image_back,
+    irl,
   } = product;
+  const [irlImage, setIrlImage] = useState(null);
 
   const [showBack, setShowBack] = useState(false);
   const [animate, setAnimate] = useState(0);
@@ -35,55 +38,89 @@ const HeroImage = ({ product }) => {
     setShowBack,
     setAnimate,
   };
-
   return (
-    <div id='hero-image' className='image-wrapper relative'>
-      <div className='relative overflow-hidden rounded bg-[#e5e5e7]'>
-        {loading && <Spinner />}
-        <div
-          className={
-            loading
-              ? 'scale-110 opacity-0'
-              : 'scale-100 opacity-100 transition-all duration-300 ease-out'
-          }
-        >
-          <Image
-            src={image}
-            alt={name}
-            placeholder='blur'
-            blurDataURL={imageBlur}
-            priority={true}
-            width='744'
-            height='744'
-            onLoadingComplete={(e) => setLoading(false)}
-            className={`${showBack ? styles.image_off : styles.image_on} ${
-              styles.image_front
-            } ${
-              animate ? styles.animate : ''
-            } max-width-100 block h-auto border-0 bg-[#e5e5e7] outline-none xl:max-w-[606px] 2xl:max-w-[734px]`}
-          />
-          {has_image_back && (
+    <div className='relative pb-28 lg:pr-28 lg:pb-0'>
+      <Irl
+        images={irl}
+        name={name}
+        current={irlImage}
+        handleSetImage={setIrlImage}
+      />
+      <div id='hero-image' className='image-wrapper relative'>
+        <div className='relative overflow-hidden rounded bg-[#e5e5e7]'>
+          {loading && <Spinner />}
+          <div
+            className={
+              loading
+                ? 'scale-110 opacity-0'
+                : 'scale-100 opacity-100 transition-all duration-300 ease-out'
+            }
+          >
             <Image
-              src={imageBack}
+              src={image}
               alt={name}
+              placeholder='blur'
+              blurDataURL={imageBlur}
+              priority={true}
               width='744'
               height='744'
-              className={`${showBack ? styles.image_on : styles.image_off} ${
+              onLoadingComplete={(e) => setLoading(false)}
+              className={`${showBack ? styles.image_off : styles.image_on} ${
+                styles.image_front
+              } ${
                 animate ? styles.animate : ''
-              } max-width-100 absolute top-0 block h-auto border-0 bg-[#e5e5e7] outline-none xl:max-w-[606px] 2xl:max-w-[734px]`}
+              } max-width-100 block h-auto border-0 bg-[#e5e5e7] outline-none xl:max-w-[606px] 2xl:max-w-[734px]`}
             />
-          )}
+            {has_image_back && (
+              <Image
+                src={imageBack}
+                alt={name}
+                width='744'
+                height='744'
+                className={`${showBack ? styles.image_on : styles.image_off} ${
+                  animate ? styles.animate : ''
+                } max-width-100 absolute top-0 block h-auto border-0 bg-[#e5e5e7] outline-none xl:max-w-[606px] 2xl:max-w-[734px]`}
+              />
+            )}
+          </div>
         </div>
-      </div>
-      <div className={styles.wrapper_view_back_button}>
-        {/* <WrapColorLinks {...wrapColorLinksProps} /> */}
-        <div className='flex-grow' />
-        {has_image_back && <ToggleView {...toggleViewProps} />}
+        <div className={styles.wrapper_view_back_button}>
+          {/* <WrapColorLinks {...wrapColorLinksProps} /> */}
+          <div className='flex-grow' />
+          {has_image_back && <ToggleView {...toggleViewProps} />}
+        </div>
+        <div
+          className={`${
+            irlImage
+              ? 'absolute z-10 cursor-pointer  bg-[#e5e5e7]'
+              : 'absolute '
+          } top-0 h-full w-full overflow-hidden rounded `}
+          onClick={() => setIrlImage(null)}
+        >
+          {irl?.map(({ image, imageBlur }, i) => {
+            return (
+              <Image
+                key={`main ${name} ${i}`}
+                src={image}
+                alt={`${name} ${i}`}
+                width='744'
+                height='744'
+                placeholder='blur'
+                blurDataURL={imageBlur}
+                className={`${
+                  image === irlImage
+                    ? 'block scale-100 opacity-100'
+                    : 'scale-90 opacity-0'
+                }  absolute transition-all duration-500`}
+              />
+            );
+          })}
+        </div>
       </div>
     </div>
   );
 };
-
+///
 const Spinner = () => {
   return (
     <div className=' absolute top-0 left-0 flex h-full w-full items-center justify-center'>

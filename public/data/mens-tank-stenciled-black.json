@@ -1,6 +1,6 @@
 {
   "id": "mens:tank:black:stenciled",
-  "name": "Tank with Stenciled Design",
+  "name": "Cotton Tank with Stenciled Design",
   "link": "/store/mens/tank/stenciled",
   "image": "/images/products/mens/tank/MensTankStenciledBlack.jpg",
   "imageBack": "/images/products/mens/tank/MensTankBackBlack.jpg",
@@ -9,9 +9,10 @@
   "logo": "Stenciled",
   "weight": 5.7,
   "meta": {
-    "title": "Mens Tank",
+    "title": "Mens Cotton Tank",
     "description": "100% Pre-washed, no-shrink cotton. Lightweight (6.5oz)  and durable"
   },
+  "irl": [],
   "colors": [
     "Black"
   ],
@@ -114,7 +115,7 @@
       "/store/mens"
     ],
     [
-      "Tank",
+      "Cotton Tank",
       "/store/mens/tank"
     ],
     [
@@ -123,5 +124,5 @@
     ]
   ],
   "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APT094OEipucovv7/wC7u74wMDZQUFbV1dgAmJibBQMIFBQXq6utALy9wENDR0tMTcfHyeQsGd/tZmn6AAAAAElFTkSuQmCC",
-  "name_root": "Tank"
+  "name_root": "Cotton Tank"
 }

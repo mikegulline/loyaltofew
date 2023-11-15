@@ -1,1 +1,1 @@
-export default logos = ['Arch', 'Block', 'Original', 'Stamp', 'Stenciled'];
+export default logos = ['Original', 'Arch', 'Block', 'Stamp', 'Stenciled'];

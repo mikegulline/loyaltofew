@@ -1,18 +1,26 @@
 import { signOut } from 'next-auth/react';
 
 export const mensMenu = [
-  { name: 'Tee', location: '/store/mens/tee/arch/black' },
-  { name: 'Tank', location: '/store/mens/tank/arch/black' },
-  { name: 'Long-Sleeve', location: '/store/mens/sleeves/arch/black' },
+  { name: '50/50 Tee', location: '/store/mens/tee/arch/black' },
+  { name: 'Cotton Tank', location: '/store/mens/tank/arch/black' },
+  {
+    name: 'Cotton Long-Sleeve',
+    location: '/store/mens/sleeves/arch/black',
+  },
 ];
 
 export const womensMenu = [
   // { name: 'Tee', location: '/store/womens/tee/arch/navy' },
-  { name: 'Tank', location: '/store/womens/tank/arch/blue' },
+  { name: 'Tri-Blend Tank', location: '/store/womens/tank/arch/blue' },
   // { name: 'Crop', location: '/store/womens/crop/arch/black' },
   {
-    name: 'Oversized Crop',
+    name: 'Cotton Oversized Crop',
     location: '/store/womens/oversized-crop/arch/black',
+  },
+  { name: '50/50 Tee', location: '/store/mens/tee/arch/black' },
+  {
+    name: 'Cotton Long-Sleeve',
+    location: '/store/mens/sleeves/arch/black',
   },
 ];
 

@@ -12,6 +12,16 @@
     "title": "Knit Beanie",
     "description": "Snug, comfort fit. Fits all."
   },
+  "irl": [
+    {
+      "image": "/images/irl/OuterwearBeanie-1.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APP181tdXYWHhfv7+wDT2thYOTR+aGPY4d8Ann2DOAAAIwABvbm9ALiXn1MnODMZJK2jpNgTGM//CXZsAAAAAElFTkSuQmCC"
+    },
+    {
+      "image": "/images/irl/OuterwearBeanie-2.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP/x0v/lp//ho//70gCnqZRoXEB6ZlHSyLgAb3VpBgQBGxkRrq6eAKOin0pLTjg7OqWmnxjKGf1qNoM2AAAAAElFTkSuQmCC"
+    }
+  ],
   "colors": [
     "Black",
     "Gray",

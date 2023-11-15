@@ -18,7 +18,7 @@
   },
   "products": [
     {
-      "name": "Tank",
+      "name": "Tri-Blend Tank",
       "link": "/store/womens/tank",
       "logos": [
         {
@@ -90,10 +90,20 @@
         "Gray",
         "Blue",
         "Maroon"
+      ],
+      "irl": [
+        {
+          "image": "/images/irl/WomensTank-1.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO7k2NG9nvvqwP/86gCtraM7KxlqSDbIvLQAg4R3DwAAJRAKsqSdALGtpkZDPzczM6uqo/bjGR0glQ5UAAAAAElFTkSuQmCC"
+        },
+        {
+          "image": "/images/irl/WomensTank-2.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOT//9D8/8Hv/9f9/wDC3uSTqrZoeo3I6vYArLCqPUdPAAYcXmleAPP4/36Lnyg2RXZ+fJrbHoPzKUJRAAAAAElFTkSuQmCC"
+        }
       ]
     },
     {
-      "name": "Oversized Crop",
+      "name": "Cotton Oversized Crop",
       "link": "/store/womens/oversized-crop",
       "logos": [
         {
@@ -171,6 +181,16 @@
         "Dolphin",
         "Baby-Blue",
         "Mauve"
+      ],
+      "irl": [
+        {
+          "image": "/images/irl/WomensOversized-Crop-1.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOL//6Pf/6fp/975/wDI1dxpZ2o0PUmvurIArqiRHwAAEwAAtratAN/p0UlWTVVyfNjv7kEHHP6ow5q1AAAAAElFTkSuQmCC"
+        },
+        {
+          "image": "/images/irl/WomensOversized-Crop-2.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ANH7/6zc/57O9M7//wC/1t51gItGTVu+2OIAn5mFHCIrAAAXsaWUAMjUrnqCeFZhbdje0kxuHWmhOqAXAAAAAElFTkSuQmCC"
+        }
       ]
     }
   ]

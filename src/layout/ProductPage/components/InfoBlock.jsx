@@ -16,9 +16,9 @@ export const InfoBlock = ({ product }) => {
     addToCartProps,
     sizesArray,
   } = useProductInfo(product);
-
+  //
   return (
-    <div className='mt-4 w-full px-0 xl:mt-0 xl:px-20 2xl:px-28'>
+    <div className='mt-4 w-full px-0 xl:mt-0 xl:px-20 2xl:px-20'>
       <Title {...titleProps} />
       <Details {...detailsProps} />
       <Dimensions sizesArray={sizesArray} />

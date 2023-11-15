@@ -1,6 +1,6 @@
 {
   "id": "mens:tank:black:arch",
-  "name": "Tank with Arch Design",
+  "name": "Cotton Tank with Arch Design",
   "link": "/store/mens/tank/arch",
   "image": "/images/products/mens/tank/MensTankArchBlack.jpg",
   "imageBack": "/images/products/mens/tank/MensTankBackBlack.jpg",
@@ -9,9 +9,10 @@
   "logo": "Arch",
   "weight": 5.7,
   "meta": {
-    "title": "Mens Tank",
+    "title": "Mens Cotton Tank",
     "description": "100% Pre-washed, no-shrink cotton. Lightweight (6.5oz)  and durable"
   },
+  "irl": [],
   "colors": [
     "Black"
   ],
@@ -114,7 +115,7 @@
       "/store/mens"
     ],
     [
-      "Tank",
+      "Cotton Tank",
       "/store/mens/tank"
     ],
     [
@@ -123,5 +124,5 @@
     ]
   ],
   "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv6/ZiboZ+hp/39/wDV1dYxMTdDRUrd3d8AsrK0BAMLFxcZvb2/AMbGyExMTlZWVs7O0Q6oG35NAdZZAAAAAElFTkSuQmCC",
-  "name_root": "Tank"
+  "name_root": "Cotton Tank"
 }

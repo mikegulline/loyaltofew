@@ -10,7 +10,7 @@ module.exports = [
     products: [
       {
         type: 'Tee',
-        product: 'Tee',
+        product: '50/50 Tee',
         has_image_back: true,
         logos: [
           'Small Circle',
@@ -27,10 +27,11 @@ module.exports = [
         tags: ['Tops'],
         weight: 7,
         meta: {
-          title: 'Mens Tee',
+          title: 'Mens 50/50 Tee (Unisex)',
           description:
             'Perfect 50/50 blend of cotton & polyester. Super-soft, lightweight (3.8oz) & durable.',
         },
+        irl: ['MensTee-1.jpg', 'MensTee-2.jpg', 'MensTee-3.jpg'],
         sizes: [
           {
             size: 'S',
@@ -74,11 +75,12 @@ module.exports = [
           'Designed, produced & printed in the USA',
           'Perfect 50/50 blend of cotton & polyester',
           'Super-soft, lightweight (3.8oz) & durable',
+          'Unisex, check size chart',
         ],
       },
       {
         type: 'Tank',
-        product: 'Tank',
+        product: 'Cotton Tank',
         has_image_back: true,
         logos: [
           'Small Circle',
@@ -92,10 +94,11 @@ module.exports = [
         tags: ['Tops'],
         weight: 5.7,
         meta: {
-          title: 'Mens Tank',
+          title: 'Mens Cotton Tank',
           description:
             '100% Pre-washed, no-shrink cotton. Lightweight (6.5oz)  and durable',
         },
+        irl: [],
         sizes: [
           {
             size: 'S',
@@ -131,7 +134,7 @@ module.exports = [
       },
       {
         type: 'Sleeves',
-        product: 'Long-Sleeve',
+        product: 'Cotton Long-Sleeve',
         has_image_back: true,
         logos: [
           'Small Circle',
@@ -148,10 +151,11 @@ module.exports = [
         tags: ['Tops'],
         weight: 9.8,
         meta: {
-          title: 'Mens Long-Sleeve',
+          title: 'Mens Cotton Long-Sleeve (Unisex)',
           description:
             '100% cotton grown on a US farm. Lightweight (4.3oz.) & durable.',
         },
+        irl: ['MensSleeves-1.jpg', 'MensSleeves-2.jpg', 'MensSleeves-3.jpg'],
         sizes: [
           {
             size: 'S',
@@ -195,6 +199,7 @@ module.exports = [
           'Designed, produced & printed in the USA',
           '100% cotton grown on a US farm',
           'Lightweight (4.3oz.) & durable',
+          'Unisex, check size chart',
         ],
       },
     ],
@@ -262,7 +267,7 @@ module.exports = [
       // },
       {
         type: 'Tank',
-        product: 'Tank',
+        product: 'Tri-Blend Tank',
         has_image_back: true,
         logos: [
           'Small Circle',
@@ -279,10 +284,11 @@ module.exports = [
         tags: ['Tops'],
         weight: 2.6,
         meta: {
-          title: 'Womens Tank',
+          title: 'Womens Tri-Blend Tank',
           description:
             '50% polyester, 25% cotton, 25% rayon. Lightweight (3.7oz) racerback design.',
         },
+        irl: ['WomensTank-1.jpg', 'WomensTank-2.jpg'],
         sizes: [
           {
             size: 'XS',
@@ -371,7 +377,7 @@ module.exports = [
       {
         type: 'Oversized-Crop',
         has_image_back: true,
-        product: 'Oversized Crop',
+        product: 'Cotton Oversized Crop',
         logos: [
           'Small Circle',
           'Original',
@@ -387,9 +393,10 @@ module.exports = [
         tags: ['Tops'],
         weight: 2.9,
         meta: {
-          title: 'Womens Oversized Crop',
-          description: 'Wide-fit, oversized, 100% cotto. One size fits most.',
+          title: 'Womens Cotton Oversized Crop',
+          description: 'Wide-fit, oversized, 100% cotton. One size fits most.',
         },
+        irl: ['WomensOversized-Crop-1.jpg', 'WomensOversized-Crop-2.jpg'],
         sizes: [
           {
             size: 'One Size Fits Most',
@@ -429,6 +436,11 @@ module.exports = [
           description:
             '100% cotton grown on a US farm. Lightweight (4.3oz.) & durable.',
         },
+        irl: [
+          'Outerwear50-50-Crew-1.jpg',
+          'Outerwear50-50-Crew-2.jpg',
+          'Outerwear50-50-Crew-3.jpg',
+        ],
         sizes: [
           {
             size: 'S',
@@ -482,6 +494,12 @@ module.exports = [
           description:
             '100% cotton grown on a US farm. Lightweight (4.3oz.) & durable.',
         },
+        irl: [
+          'OuterwearCrew-1.jpg',
+          'OuterwearCrew-2.jpg',
+          'OuterwearCrew-3.jpg',
+          'OuterwearCrew-4.jpg',
+        ],
         sizes: [
           {
             size: 'S',
@@ -534,6 +552,7 @@ module.exports = [
           title: '50/50 Hoodie (Unisex)',
           description: 'Unisex. Heavyweight (14oz) over-sized fit.',
         },
+        irl: ['Outerwear50-50-Hoodie-1.jpg'],
         sizes: [
           {
             size: 'S',
@@ -587,7 +606,11 @@ module.exports = [
           title: 'Cotton Hoodie (Unisex)',
           description: 'Unisex. Heavyweight (14oz) over-sized fit.',
         },
-
+        irl: [
+          'OuterwearHoodie-1.jpg',
+          'OuterwearHoodie-2.jpg',
+          'OuterwearHoodie-3.jpg',
+        ],
         sizes: [
           {
             size: 'S',
@@ -646,6 +669,7 @@ module.exports = [
           title: 'Knit Beanie',
           description: 'Snug, comfort fit. Fits all.',
         },
+        irl: ['OuterwearBeanie-1.jpg', 'OuterwearBeanie-2.jpg'],
         sizes: [
           {
             size: 'Fits All',
@@ -667,10 +691,13 @@ module.exports = [
           description:
             'Flex-fit lining with adjustable snapback. Poly-spandex blend with performance mesh.',
         },
+        irl: [
+          'OuterwearFlexfit-Snapback-1.jpg',
+          'OuterwearFlexfit-Snapback-2.jpg',
+        ],
         sizes: [
           {
             size: 'Adjustable',
-
             price: 30,
           },
         ],

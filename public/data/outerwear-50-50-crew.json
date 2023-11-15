@@ -25,6 +25,20 @@
     "title": "50/50 Crew (Unisex)",
     "description": "100% cotton grown on a US farm. Lightweight (4.3oz.) & durable."
   },
+  "irl": [
+    {
+      "image": "/images/irl/Outerwear50-50-Crew-1.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO/x68zFvsvEu+708wD4/fiMgHVTRzyxvbgAra2kGRseAAIM1dfXALmzqV1WVV1aXN/Wy03yHTXUoVl3AAAAAElFTkSuQmCC"
+    },
+    {
+      "image": "/images/irl/Outerwear50-50-Crew-2.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APT19djQy9LUzN7l4AD5//+CdnFYWU+UqZ8AzM3IAAIVFh4p7vX3AOrf1Hl5f3Jxcurj1GvRH1b2vgLXAAAAAElFTkSuQmCC"
+    },
+    {
+      "image": "/images/irl/Outerwear50-50-Crew-3.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APbv4+jevO/nvv/86QDo4M1+d1iEelbv5dAAqq6qAAcODxgYvr67AMfFwlFSTkBGQ8jJw2ozHYafmDriAAAAAElFTkSuQmCC"
+    }
+  ],
   "tags": [
     "Tops"
   ],

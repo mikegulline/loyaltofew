@@ -17,14 +17,20 @@
   ],
   "type": "50-50-Hoodie",
   "name": "50/50 Hoodie",
-  "link": "/store/outerwear/50-50-hoodie/stamp/black",
-  "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieStampBlack.jpg",
+  "link": "/store/outerwear/50-50-hoodie/stenciled/black",
+  "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieStenciledBlack.jpg",
   "has_image_back": false,
   "weight": 34.3,
   "meta": {
     "title": "50/50 Hoodie (Unisex)",
     "description": "Unisex. Heavyweight (14oz) over-sized fit."
   },
+  "irl": [
+    {
+      "image": "/images/irl/Outerwear50-50-Hoodie-1.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APbp0tnKqvPerv/91QDKwKpTU0lxaFXWx64AfIaAAAcRFSEon5+fALS0q09QUk5UVKqrpxtMGraja5OWAAAAAElFTkSuQmCC"
+    }
+  ],
   "tags": [
     "Tops"
   ],

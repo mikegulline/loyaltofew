@@ -1,6 +1,6 @@
 {
   "id": "womens:tank:blue:stamp",
-  "name": "Tank with Stamp Design",
+  "name": "Tri-Blend Tank with Stamp Design",
   "link": "/store/womens/tank/stamp",
   "image": "/images/products/womens/tank/WomensTankStampBlue.jpg",
   "imageBack": "/images/products/womens/tank/WomensTankBackBlue.jpg",
@@ -9,9 +9,19 @@
   "logo": "Stamp",
   "weight": 2.6,
   "meta": {
-    "title": "Womens Tank",
+    "title": "Womens Tri-Blend Tank",
     "description": "50% polyester, 25% cotton, 25% rayon. Lightweight (3.7oz) racerback design."
   },
+  "irl": [
+    {
+      "image": "/images/irl/WomensTank-1.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO7k2NG9nvvqwP/86gCtraM7KxlqSDbIvLQAg4R3DwAAJRAKsqSdALGtpkZDPzczM6uqo/bjGR0glQ5UAAAAAElFTkSuQmCC"
+    },
+    {
+      "image": "/images/irl/WomensTank-2.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOT//9D8/8Hv/9f9/wDC3uSTqrZoeo3I6vYArLCqPUdPAAYcXmleAPP4/36Lnyg2RXZ+fJrbHoPzKUJRAAAAAElFTkSuQmCC"
+    }
+  ],
   "colors": [
     "Gray",
     "Blue",
@@ -117,7 +127,7 @@
       "/store/womens"
     ],
     [
-      "Tank",
+      "Tri-Blend Tank",
       "/store/womens/tank"
     ],
     [
@@ -126,5 +136,5 @@
     ]
   ],
   "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APX19o+Urbu9zPv7+wDg4OYPHUxNTnH8/PsAurnGBwAkFRAp0NDXANfX3jQ6YFVVbdra3jXGHS9qH9iwAAAAAElFTkSuQmCC",
-  "name_root": "Tank"
+  "name_root": "Tri-Blend Tank"
 }

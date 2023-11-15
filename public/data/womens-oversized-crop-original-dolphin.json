@@ -1,6 +1,6 @@
 {
   "id": "womens:oversized-crop:dolphin:original",
-  "name": "Oversized Crop with Original Design",
+  "name": "Cotton Oversized Crop with Original Design",
   "link": "/store/womens/oversized-crop/original",
   "image": "/images/products/womens/oversized-crop/WomensOversized-CropOriginalDolphin.jpg",
   "imageBack": "/images/products/womens/oversized-crop/WomensOversized-CropBackDolphin.jpg",
@@ -9,9 +9,19 @@
   "logo": "Original",
   "weight": 2.9,
   "meta": {
-    "title": "Womens Oversized Crop",
-    "description": "Wide-fit, oversized, 100% cotto. One size fits most."
+    "title": "Womens Cotton Oversized Crop",
+    "description": "Wide-fit, oversized, 100% cotton. One size fits most."
   },
+  "irl": [
+    {
+      "image": "/images/irl/WomensOversized-Crop-1.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOL//6Pf/6fp/975/wDI1dxpZ2o0PUmvurIArqiRHwAAEwAAtratAN/p0UlWTVVyfNjv7kEHHP6ow5q1AAAAAElFTkSuQmCC"
+    },
+    {
+      "image": "/images/irl/WomensOversized-Crop-2.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ANH7/6zc/57O9M7//wC/1t51gItGTVu+2OIAn5mFHCIrAAAXsaWUAMjUrnqCeFZhbdje0kxuHWmhOqAXAAAAAElFTkSuQmCC"
+    }
+  ],
   "colors": [
     "Black",
     "Dolphin",
@@ -104,7 +114,7 @@
       "/store/womens"
     ],
     [
-      "Oversized Crop",
+      "Cotton Oversized Crop",
       "/store/womens/oversized-crop"
     ],
     [
@@ -113,5 +123,5 @@
     ]
   ],
   "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8/ezs8O7u8fv7/QCPkpktLjovMDucn6UAtba8AAASAwIVp6iuAPn5/PHx9Pb2+fn5/EWAIC7T7s/qAAAAAElFTkSuQmCC",
-  "name_root": "Oversized Crop"
+  "name_root": "Cotton Oversized Crop"
 }

@@ -17,14 +17,28 @@
   ],
   "type": "Hoodie",
   "name": "Cotton Hoodie",
-  "link": "/store/outerwear/hoodie/arch/black",
-  "image": "/images/products/outerwear/hoodie/OuterwearHoodieArchBlack.jpg",
+  "link": "/store/outerwear/hoodie/original/black",
+  "image": "/images/products/outerwear/hoodie/OuterwearHoodieOriginalBlack.jpg",
   "has_image_back": false,
   "weight": 34.3,
   "meta": {
     "title": "Cotton Hoodie (Unisex)",
     "description": "Unisex. Heavyweight (14oz) over-sized fit."
   },
+  "irl": [
+    {
+      "image": "/images/irl/OuterwearHoodie-1.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AK+um4F/W4h5Wr23qwDMzrJQUy8IBQCus6YA2dvZeHl4b29o//32ALzCyJujpJaYlufo6LVLHNFJz1hVAAAAAElFTkSuQmCC"
+    },
+    {
+      "image": "/images/irl/OuterwearHoodie-2.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AMvLysXAtfDo2/f38QCYnptJQTihlIb7//sAn5GFCwQAICcp3t/YAOfVwlxWU25wbuzk2zqUHbMAcki4AAAAAElFTkSuQmCC"
+    },
+    {
+      "image": "/images/irl/OuterwearHoodie-3.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APnq0t7Hm/PYnP/91QDOw61VTTdeUDjXx68AjJKLAAcBBREQpqaiAL27sk5NRTk9ObW0rwrIGg7ma+KgAAAAAElFTkSuQmCC"
+    }
+  ],
   "tags": [
     "Tops"
   ],

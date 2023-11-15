@@ -12,6 +12,12 @@
     "title": "50/50 Hoodie (Unisex)",
     "description": "Unisex. Heavyweight (14oz) over-sized fit."
   },
+  "irl": [
+    {
+      "image": "/images/irl/Outerwear50-50-Hoodie-1.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APbp0tnKqvPerv/91QDKwKpTU0lxaFXWx64AfIaAAAcRFSEon5+fALS0q09QUk5UVKqrpxtMGraja5OWAAAAAElFTkSuQmCC"
+    }
+  ],
   "colors": [
     "Black"
   ],

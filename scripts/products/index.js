@@ -43,19 +43,38 @@ try {
   console.log('DONE: write menu.json');
 }
 
+const irlMemo = {};
 // /public/data/store-new.json
 async function storeNew() {
   const filePath = path.join(__dirname, '../../public/data/store-new.json');
   const categories = store.categories.map(
     async ({ category, name, link, meta, products: processProds }) => {
       const products = processProds.map(
-        async ({ name, type, link, image, logos: l, colors }) => {
+        async ({
+          name,
+          type,
+          link,
+          image,
+          logos: l,
+          colors,
+          irl: actionShots,
+        }) => {
           let imageBlur = '';
           await getPlaiceholder(image).then(
             ({ base64 }) => (imageBlur = base64)
           );
+          const irl = [];
+          for (const img of actionShots) {
+            let imgBlur = '';
+            await getPlaiceholder(img).then(({ base64 }) => (imgBlur = base64));
+            irl.push({
+              image: img,
+              imageBlur: imgBlur,
+            });
+          }
+          irlMemo[category + type] = irl;
           const logos = l.map(({ logo, colors }) => ({ logo, colors }));
-          return { name, type, link, image, imageBlur, logos, colors };
+          return { name, type, link, image, imageBlur, logos, colors, irl };
         }
       );
       return await Promise.all(products).then((res) => ({
@@ -81,15 +100,6 @@ async function storeNew() {
     );
   });
 }
-(async () => {
-  try {
-    await storeNew();
-  } catch (err) {
-    console.log('write store-new.json', err);
-  } finally {
-    console.log('DONE: write store-new.json');
-  }
-})();
 
 // /public/data/mens.json
 
@@ -122,6 +132,7 @@ async function categoryNew() {
           link: `${category.link}/${type}`.toLocaleLowerCase(),
           logos: res,
           colors,
+          irl: irlMemo[cat + type],
         }));
       }
     );
@@ -140,15 +151,6 @@ async function categoryNew() {
   });
   return await Promise.all(op);
 }
-(async () => {
-  try {
-    await categoryNew();
-  } catch (err) {
-    console.log('write category.json', err);
-  } finally {
-    console.log('DONE: write category.json');
-  }
-})();
 
 // /public/data/mens-tee.json
 async function typeNew() {
@@ -159,13 +161,16 @@ async function typeNew() {
         `../../public/data/${category.toLowerCase()}-${type.toLowerCase()}.json`
       );
 
+      const passInfos = getType(category, type);
+      passInfos.irl = irlMemo[category + type];
+
       fs.writeFileSync(
         filePath,
         JSON.stringify(
           {
             function: 'getType(category, type)',
             output: `/public/data/${category.toLowerCase()}-${type.toLowerCase()}.json`,
-            ...getType(category, type),
+            ...passInfos,
           },
           null,
           2
@@ -176,15 +181,6 @@ async function typeNew() {
   });
   return await Promise.all(op);
 }
-(async () => {
-  try {
-    await typeNew();
-  } catch (err) {
-    console.log('write types.json', err);
-  } finally {
-    console.log('DONE: write types.json');
-  }
-})();
 
 // /public/data/mens-tee-stamp-green.json
 const myMemo = {};
@@ -206,6 +202,7 @@ async function productNew() {
           );
           //
           let processProds = getColor(category, type, logo, color);
+          processProds.irl = irlMemo[category + type];
 
           await getPlaiceholder(processProds.image).then(
             ({ base64 }) =>
@@ -262,6 +259,12 @@ async function productNew() {
 }
 (async () => {
   try {
+    await storeNew();
+    console.log('DONE: write store-new.json');
+    await categoryNew();
+    console.log('DONE: write category.json');
+    await typeNew();
+    console.log('DONE: write types.json');
     await productNew();
   } catch (err) {
     console.log('write productNew', err);

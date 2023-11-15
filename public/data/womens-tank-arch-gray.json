@@ -1,6 +1,6 @@
 {
   "id": "womens:tank:gray:arch",
-  "name": "Tank with Arch Design",
+  "name": "Tri-Blend Tank with Arch Design",
   "link": "/store/womens/tank/arch",
   "image": "/images/products/womens/tank/WomensTankArchGray.jpg",
   "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
@@ -9,9 +9,19 @@
   "logo": "Arch",
   "weight": 2.6,
   "meta": {
-    "title": "Womens Tank",
+    "title": "Womens Tri-Blend Tank",
     "description": "50% polyester, 25% cotton, 25% rayon. Lightweight (3.7oz) racerback design."
   },
+  "irl": [
+    {
+      "image": "/images/irl/WomensTank-1.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO7k2NG9nvvqwP/86gCtraM7KxlqSDbIvLQAg4R3DwAAJRAKsqSdALGtpkZDPzczM6uqo/bjGR0glQ5UAAAAAElFTkSuQmCC"
+    },
+    {
+      "image": "/images/irl/WomensTank-2.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOT//9D8/8Hv/9f9/wDC3uSTqrZoeo3I6vYArLCqPUdPAAYcXmleAPP4/36Lnyg2RXZ+fJrbHoPzKUJRAAAAAElFTkSuQmCC"
+    }
+  ],
   "colors": [
     "Gray",
     "Blue",
@@ -126,7 +136,7 @@
       "/store/womens"
     ],
     [
-      "Tank",
+      "Tri-Blend Tank",
       "/store/womens/tank"
     ],
     [
@@ -135,5 +145,5 @@
     ]
   ],
   "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/5+fo56eoPr6/QDs7O48ODRAOzjm5ecAr62vEgAAGwsAqqenAMDAwElFQTkzLba0tg8/Gn4yMVIRAAAAAElFTkSuQmCC",
-  "name_root": "Tank"
+  "name_root": "Tri-Blend Tank"
 }

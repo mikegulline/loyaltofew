@@ -12,6 +12,24 @@
     "title": "Cotton Crew (Unisex)",
     "description": "100% cotton grown on a US farm. Lightweight (4.3oz.) & durable."
   },
+  "irl": [
+    {
+      "image": "/images/irl/OuterwearCrew-1.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP/78/fn0v/23P/87wDU1cx/eG2LhXTT08IAoqmhAAQMNDMjsa2XAM3NzlpZYGxpZdPSwYZDHrSXEJuZAAAAAElFTkSuQmCC"
+    },
+    {
+      "image": "/images/irl/OuterwearCrew-2.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AN/c13Z1bc7Kwvv79gDFwLZBNyt0bWP3/PsAfGhWBggOAAYPsrStAMGwn0JAP2RmZdbOxOkXGie96zfYAAAAAElFTkSuQmCC"
+    },
+    {
+      "image": "/images/irl/OuterwearCrew-3.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ANTOyMi+sqKfmvLz8QC9ubRhW1lraF/3/fsAoZqTAAMZLTU+1NPLAODItH54eXJzd+DVxiKEHVLCQwCqAAAAAElFTkSuQmCC"
+    },
+    {
+      "image": "/images/irl/OuterwearCrew-4.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APb//8PMxZOUhN3h2gDf4992eHBIRjvNzcMAy8vIGR4kAAEHzMrGAOrs62JjZ1ZUUurp5TXVHW+mO4IlAAAAAElFTkSuQmCC"
+    }
+  ],
   "colors": [
     "Black",
     "Navy",
