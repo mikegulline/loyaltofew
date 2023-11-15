@@ -16,7 +16,7 @@ const HeroImage = ({ product }) => {
     has_image_back,
     irl,
   } = product;
-  const [irlImage, setIrlImage] = useState(null);
+  const [irlImage, setIrlImage] = useState(image);
 
   const [showBack, setShowBack] = useState(false);
   const [animate, setAnimate] = useState(0);
@@ -38,14 +38,18 @@ const HeroImage = ({ product }) => {
     setShowBack,
     setAnimate,
   };
+  let imageThumbs;
+  if (has_image_back) {
+    imageThumbs = [
+      { image, imageBlur },
+      { image: imageBack, imageBlur: null },
+      ...irl,
+    ];
+  } else {
+    imageThumbs = [{ image, imageBlur }, ...irl];
+  }
   return (
-    <div className='relative pb-28 lg:pr-28 lg:pb-0'>
-      <Irl
-        images={irl}
-        name={name}
-        current={irlImage}
-        handleSetImage={setIrlImage}
-      />
+    <div className='relative lg:pr-28 lg:pb-0'>
       <div id='hero-image' className='image-wrapper relative'>
         <div className='relative overflow-hidden rounded bg-[#e5e5e7]'>
           {loading && <Spinner />}
@@ -71,33 +75,15 @@ const HeroImage = ({ product }) => {
                 animate ? styles.animate : ''
               } max-width-100 block h-auto border-0 bg-[#e5e5e7] outline-none xl:max-w-[606px] 2xl:max-w-[734px]`}
             />
-            {has_image_back && (
-              <Image
-                src={imageBack}
-                alt={name}
-                width='744'
-                height='744'
-                className={`${showBack ? styles.image_on : styles.image_off} ${
-                  animate ? styles.animate : ''
-                } max-width-100 absolute top-0 block h-auto border-0 bg-[#e5e5e7] outline-none xl:max-w-[606px] 2xl:max-w-[734px]`}
-              />
-            )}
           </div>
         </div>
-        <div className={styles.wrapper_view_back_button}>
-          {/* <WrapColorLinks {...wrapColorLinksProps} /> */}
-          <div className='flex-grow' />
-          {has_image_back && <ToggleView {...toggleViewProps} />}
-        </div>
+
         <div
           className={`${
-            irlImage
-              ? 'absolute z-10 cursor-pointer  bg-[#e5e5e7]'
-              : 'absolute '
+            !loading ? 'absolute  bg-[#e5e5e7]' : 'absolute '
           } top-0 h-full w-full overflow-hidden rounded `}
-          onClick={() => setIrlImage(null)}
         >
-          {irl?.map(({ image, imageBlur }, i) => {
+          {imageThumbs?.map(({ image, imageBlur }, i) => {
             return (
               <Image
                 key={`main ${name} ${i}`}
@@ -105,8 +91,8 @@ const HeroImage = ({ product }) => {
                 alt={`${name} ${i}`}
                 width='744'
                 height='744'
-                placeholder='blur'
-                blurDataURL={imageBlur}
+                // placeholder='blur'
+                // blurDataURL={imageBlur}
                 className={`${
                   image === irlImage
                     ? 'block scale-100 opacity-100'
@@ -117,6 +103,12 @@ const HeroImage = ({ product }) => {
           })}
         </div>
       </div>
+      <Irl
+        images={imageThumbs}
+        name={name}
+        current={irlImage}
+        handleSetImage={setIrlImage}
+      />
     </div>
   );
 };
