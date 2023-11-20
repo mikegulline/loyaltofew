@@ -9,7 +9,7 @@ import User from '@/models/user';
 import db from '@/utils/db';
 
 export const authOptions = {
-  // adapter: MongoDBAdapter(clientPromise),
+  adapter: MongoDBAdapter(clientPromise),
   providers: [
     CredentialsProvider({
       name: 'Credentials',
@@ -49,7 +49,7 @@ export const authOptions = {
         session.user.emailVerified = user.emailVerified;
         return session;
       } catch (err) {
-        // console.error('[...nextauth].js authOptions: callbacks: sessions', err);
+        console.error('[...nextauth].js authOptions: callbacks: sessions', err);
       } finally {
         await db.disconnectDB();
       }
