@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document';
+import Script from 'next/script';
 
 export default function Document() {
   return (
@@ -26,6 +27,11 @@ export default function Document() {
         />
         <Main />
         <NextScript />
+        <Script
+          async
+          data-id='101434434'
+          src='//static.getclicky.com/js'
+        ></Script>
       </body>
     </Html>
   );

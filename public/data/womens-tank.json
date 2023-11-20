@@ -17,8 +17,8 @@
   ],
   "type": "Tank",
   "name": "Tri-Blend Tank",
-  "link": "/store/womens/tank/original/gray",
-  "image": "/images/products/womens/tank/WomensTankOriginalGray.jpg",
+  "link": "/store/womens/tank/small-circle/gray",
+  "image": "/images/products/womens/tank/WomensTankSmallCircleGray.jpg",
   "has_image_back": true,
   "weight": 2.6,
   "meta": {
