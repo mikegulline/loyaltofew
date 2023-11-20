@@ -5,15 +5,15 @@
     "subMenu": [
       {
         "name": "50/50 Tee",
-        "location": "/store/mens/tee/stamp/black"
+        "location": "/store/mens/tee/arch/black"
       },
       {
         "name": "Cotton Tank",
-        "location": "/store/mens/tank/block/black"
+        "location": "/store/mens/tank/small-circle/black"
       },
       {
         "name": "Cotton Long-Sleeve",
-        "location": "/store/mens/sleeves/small-circle/black"
+        "location": "/store/mens/sleeves/stenciled/black"
       }
     ]
   },
@@ -23,11 +23,11 @@
     "subMenu": [
       {
         "name": "Tri-Blend Tank",
-        "location": "/store/womens/tank/small-circle/gray"
+        "location": "/store/womens/tank/original/gray"
       },
       {
         "name": "Cotton Oversized Crop",
-        "location": "/store/womens/oversized-crop/small-circle/black"
+        "location": "/store/womens/oversized-crop/block/black"
       }
     ]
   },
@@ -41,15 +41,15 @@
       },
       {
         "name": "Cotton Crew",
-        "location": "/store/outerwear/crew/stamp/black"
+        "location": "/store/outerwear/crew/original/black"
       },
       {
         "name": "50/50 Hoodie",
-        "location": "/store/outerwear/50-50-hoodie/original/black"
+        "location": "/store/outerwear/50-50-hoodie/block/black"
       },
       {
         "name": "Cotton Hoodie",
-        "location": "/store/outerwear/hoodie/block/black"
+        "location": "/store/outerwear/hoodie/arch/black"
       },
       {
         "name": "Knit Beanie",
