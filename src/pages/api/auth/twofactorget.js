@@ -32,7 +32,7 @@ handler.post(async (req, res) => {
     //delete any tokens by user._id
     await TwoFactorToken.deleteMany({ user: tokenUser.user._id });
     //return instructions
-    return res.status(400).json({ success: true, message: 'Token validated.' });
+    return res.status(200).json({ success: true, message: 'Token validated.' });
   } catch (error) {
     res.status(500).json({ success: false, message: error.message });
   } finally {
