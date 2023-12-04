@@ -361,3 +361,15 @@ select[multiple] {
   background-color: #111827;
   box-shadow: none;
 }
+
+.snipcart-summary-fees__item.snipcart-summary-fees__discounts.snipcart__font--slim {
+  font-weight: bold;
+  color: #47a83a;
+  background: #effbee;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 -5px;
+  border-bottom: 1px solid #c3d7c0;
+}
