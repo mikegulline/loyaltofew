@@ -373,3 +373,14 @@ select[multiple] {
   margin: 0 -5px;
   border-bottom: 1px solid #c3d7c0;
 }
+
+.snipcart-summary-fees__item.snipcart-summary-fees__discounts.snipcart__font--slim
+  svg {
+  background: #fff;
+  border-radius: 50%;
+}
+
+.snipcart-summary-fees__item.snipcart-summary-fees__discounts.snipcart__font--slim
+  path {
+  fill: #4aa93e;
+}
