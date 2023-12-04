@@ -11,6 +11,7 @@ const Buttons = ({ product, sizeIndex }) => {
         data-item-name={`${name} (${color}) ${s.size}`}
         data-item-url={`${link}/${color.toLowerCase()}`}
         data-item-weight={weight}
+        data-item-categories='all'
         className={`${
           i != sizeIndex ? 'hidden ' : ''
         } snipcart-add-item font-lighter rounded border border-gray-900 bg-gray-900 text-lg text-white hover:border-red-600 hover:bg-red-600`}
