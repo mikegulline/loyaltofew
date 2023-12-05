@@ -1,13 +1,16 @@
 const path = require('path');
 const fs = require('fs');
 const store = require('./store');
+const { kebab } = require('./models.js');
 
 const getLink = (baseUrl, category, type, logo, color) =>
-  `${baseUrl}store/${category}/${type}/${logo}/${color}`.toLowerCase();
+  `${baseUrl}store/${category}/${kebab(type)}/${kebab(logo)}/${kebab(
+    color
+  )}`.toLowerCase();
 
 const getImageLink = (baseUrl, category, type, logo, color) =>
-  `${baseUrl}images/products/${category}/${type}/`.toLowerCase() +
-  `${category}${type}${logo}${color}.jpg`.replace(/ /g, '-');
+  `${baseUrl}images/products/${category}/${kebab(type)}/`.toLowerCase() +
+  `${category}${type}${logo}${color}.jpg`.replace(/ /g, '');
 
 const getTitle = (product, logo, color, size) =>
   `${product} With ${logo} Design (${color}) ${size}`;
@@ -31,39 +34,57 @@ const getGender = (type) => {
 const fileOutput = [];
 const baseUrl = 'https://www.loyaltofew.com/';
 store.map(({ name: category, products }) => {
-  products.map(({ product, type, weight, meta, logos, colors, sizes }) => {
-    logos.map((logo) => {
-      colors.map((color) => {
-        sizes.map(({ size, price }) => {
-          const { description } = meta;
-          const item_group_id = getGroupId(category, type, logo, color);
-          const id = getId(category, type, logo, color, size);
-          const title = getTitle(product, logo, color, size);
-          const link = getLink(baseUrl, category, type, logo, color);
-          const image_link = getImageLink(baseUrl, category, type, logo, color);
-          const gender = getGender(type);
-          const build = {
-            item_group_id,
-            id,
-            title,
-            description: description.replace(/,/g, '&comma;'),
-            availability: 'in stock',
-            condition: 'new',
-            price: `${price} USD`,
-            link,
-            image_link,
-            brand: 'Loyal to Few®',
-            gender,
-            color,
-            size,
-            age_group: 'adult',
-            shipping_weight: weight,
-          };
-          fileOutput.push(build);
+  products.map(
+    ({ product, type, weight, meta, logos, colors, colorsAlt, sizes }) => {
+      logos.map((logo) => {
+        colors.map((color) => {
+          sizes.map(({ size, price, ...rest }) => {
+            const { description } = meta;
+            const item_group_id = getGroupId(category, type, logo, color);
+            const id = getId(category, type, logo, color, size);
+            const title = getTitle(product, logo, color, size);
+            const link = getLink(baseUrl, category, type, logo, color);
+            const image_link = getImageLink(
+              baseUrl,
+              category,
+              type,
+              logo,
+              color
+            );
+            const gender = getGender(type);
+            const build = {
+              item_group_id,
+              id,
+              title,
+              description: description.replace(/,/g, '&comma;'),
+              availability: 'in stock',
+              condition: 'new',
+              price: `${price} USD`,
+              link,
+              image_link,
+              brand: 'Loyal to Few®',
+              gender,
+              color,
+              size,
+              age_group: 'adult',
+              shipping_weight: weight,
+            };
+            if (rest?.colors && !rest.colors.includes(color)) {
+              console.log('skip', id);
+            } else if (
+              colorsAlt &&
+              colorsAlt[logo] &&
+              !colorsAlt[logo].includes(color)
+            ) {
+              console.log('2nd skip', id);
+            } else {
+              fileOutput.push(build);
+            }
+          });
         });
       });
-    });
-  });
+    }
+  );
 });
 
 const csvKeys = Object.keys(fileOutput[0]).join(', ') + '\n';

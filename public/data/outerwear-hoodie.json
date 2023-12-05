@@ -17,8 +17,8 @@
   ],
   "type": "Hoodie",
   "name": "Cotton Hoodie",
-  "link": "/store/outerwear/hoodie/block/black",
-  "image": "/images/products/outerwear/hoodie/OuterwearHoodieBlockBlack.jpg",
+  "link": "/store/outerwear/hoodie/stenciled/black",
+  "image": "/images/products/outerwear/hoodie/OuterwearHoodieStenciledBlack.jpg",
   "has_image_back": false,
   "weight": 34.3,
   "meta": {
