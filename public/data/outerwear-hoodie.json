@@ -17,8 +17,8 @@
   ],
   "type": "Hoodie",
   "name": "Cotton Hoodie",
-  "link": "/store/outerwear/hoodie/stenciled/black",
-  "image": "/images/products/outerwear/hoodie/OuterwearHoodieStenciledBlack.jpg",
+  "link": "/store/outerwear/hoodie/block/black",
+  "image": "/images/products/outerwear/hoodie/OuterwearHoodieBlockBlack.jpg",
   "has_image_back": false,
   "weight": 34.3,
   "meta": {
@@ -50,7 +50,7 @@
         "Green",
         "Navy"
       ],
-      "name": "Cotton Hoodie with Original Design",
+      "name": "Cotton Hoodie with Original",
       "link": "/store/outerwear/hoodie/original",
       "linkColor": "/store/outerwear/hoodie/original/black",
       "has_image_back": false,
@@ -67,7 +67,7 @@
         "Green",
         "Navy"
       ],
-      "name": "Cotton Hoodie with Arch Design",
+      "name": "Cotton Hoodie with Arch",
       "link": "/store/outerwear/hoodie/arch",
       "linkColor": "/store/outerwear/hoodie/arch/black",
       "has_image_back": false,
@@ -84,7 +84,7 @@
         "Green",
         "Navy"
       ],
-      "name": "Cotton Hoodie with Block Design",
+      "name": "Cotton Hoodie with Block",
       "link": "/store/outerwear/hoodie/block",
       "linkColor": "/store/outerwear/hoodie/block/black",
       "has_image_back": false,
@@ -101,7 +101,7 @@
         "Green",
         "Navy"
       ],
-      "name": "Cotton Hoodie with Stamp Design",
+      "name": "Cotton Hoodie with Stamp",
       "link": "/store/outerwear/hoodie/stamp",
       "linkColor": "/store/outerwear/hoodie/stamp/black",
       "has_image_back": false,
@@ -118,7 +118,7 @@
         "Green",
         "Navy"
       ],
-      "name": "Cotton Hoodie with Stenciled Design",
+      "name": "Cotton Hoodie with Stenciled",
       "link": "/store/outerwear/hoodie/stenciled",
       "linkColor": "/store/outerwear/hoodie/stenciled/black",
       "has_image_back": false,

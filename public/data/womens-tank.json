@@ -17,8 +17,8 @@
   ],
   "type": "Tank",
   "name": "Tri-Blend Tank",
-  "link": "/store/womens/tank/original/gray",
-  "image": "/images/products/womens/tank/WomensTankOriginalGray.jpg",
+  "link": "/store/womens/tank/block/gray",
+  "image": "/images/products/womens/tank/WomensTankBlockGray.jpg",
   "has_image_back": true,
   "weight": 2.6,
   "meta": {
@@ -43,7 +43,7 @@
       "colors": [
         "Gray"
       ],
-      "name": "Tri-Blend Tank with Small Circle Design",
+      "name": "Tri-Blend Tank with Small Circle",
       "link": "/store/womens/tank/small-circle",
       "linkColor": "/store/womens/tank/small-circle/gray",
       "has_image_back": true,
@@ -59,7 +59,7 @@
         "Blue",
         "Maroon"
       ],
-      "name": "Tri-Blend Tank with Original Design",
+      "name": "Tri-Blend Tank with Original",
       "link": "/store/womens/tank/original",
       "linkColor": "/store/womens/tank/original/gray",
       "has_image_back": true,
@@ -75,7 +75,7 @@
         "Blue",
         "Maroon"
       ],
-      "name": "Tri-Blend Tank with Arch Design",
+      "name": "Tri-Blend Tank with Arch",
       "link": "/store/womens/tank/arch",
       "linkColor": "/store/womens/tank/arch/gray",
       "has_image_back": true,
@@ -91,7 +91,7 @@
         "Blue",
         "Maroon"
       ],
-      "name": "Tri-Blend Tank with Block Design",
+      "name": "Tri-Blend Tank with Block",
       "link": "/store/womens/tank/block",
       "linkColor": "/store/womens/tank/block/gray",
       "has_image_back": true,
@@ -107,7 +107,7 @@
         "Blue",
         "Maroon"
       ],
-      "name": "Tri-Blend Tank with Stamp Design",
+      "name": "Tri-Blend Tank with Stamp",
       "link": "/store/womens/tank/stamp",
       "linkColor": "/store/womens/tank/stamp/gray",
       "has_image_back": true,
@@ -123,7 +123,7 @@
         "Blue",
         "Maroon"
       ],
-      "name": "Tri-Blend Tank with Stenciled Design",
+      "name": "Tri-Blend Tank with Stenciled",
       "link": "/store/womens/tank/stenciled",
       "linkColor": "/store/womens/tank/stenciled/gray",
       "has_image_back": true,

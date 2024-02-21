@@ -17,8 +17,8 @@
   ],
   "type": "50-50-Crew",
   "name": "50/50 Crew",
-  "link": "/store/outerwear/50-50-crew/stenciled/black",
-  "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewStenciledBlack.jpg",
+  "link": "/store/outerwear/50-50-crew/original/black",
+  "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewOriginalBlack.jpg",
   "has_image_back": true,
   "weight": 34.3,
   "meta": {
@@ -47,7 +47,7 @@
       "colors": [
         "Black"
       ],
-      "name": "50/50 Crew with Original Design",
+      "name": "50/50 Crew with Original",
       "link": "/store/outerwear/50-50-crew/original",
       "linkColor": "/store/outerwear/50-50-crew/original/black",
       "has_image_back": true,
@@ -61,7 +61,7 @@
       "colors": [
         "Black"
       ],
-      "name": "50/50 Crew with Arch Design",
+      "name": "50/50 Crew with Arch",
       "link": "/store/outerwear/50-50-crew/arch",
       "linkColor": "/store/outerwear/50-50-crew/arch/black",
       "has_image_back": true,
@@ -75,7 +75,7 @@
       "colors": [
         "Black"
       ],
-      "name": "50/50 Crew with Block Design",
+      "name": "50/50 Crew with Block",
       "link": "/store/outerwear/50-50-crew/block",
       "linkColor": "/store/outerwear/50-50-crew/block/black",
       "has_image_back": true,
@@ -89,7 +89,7 @@
       "colors": [
         "Black"
       ],
-      "name": "50/50 Crew with Stamp Design",
+      "name": "50/50 Crew with Stamp",
       "link": "/store/outerwear/50-50-crew/stamp",
       "linkColor": "/store/outerwear/50-50-crew/stamp/black",
       "has_image_back": true,
@@ -103,7 +103,7 @@
       "colors": [
         "Black"
       ],
-      "name": "50/50 Crew with Stenciled Design",
+      "name": "50/50 Crew with Stenciled",
       "link": "/store/outerwear/50-50-crew/stenciled",
       "linkColor": "/store/outerwear/50-50-crew/stenciled/black",
       "has_image_back": true,

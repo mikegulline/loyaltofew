@@ -17,8 +17,8 @@
   ],
   "type": "Sleeves",
   "name": "Cotton Long-Sleeve",
-  "link": "/store/mens/sleeves/arch/black",
-  "image": "/images/products/mens/sleeves/MensSleevesArchBlack.jpg",
+  "link": "/store/mens/sleeves/block/black",
+  "image": "/images/products/mens/sleeves/MensSleevesBlockBlack.jpg",
   "has_image_back": true,
   "weight": 9.8,
   "meta": {
@@ -48,7 +48,7 @@
         "Black",
         "Gray"
       ],
-      "name": "Cotton Long-Sleeve with Small Circle Design",
+      "name": "Cotton Long-Sleeve with Small Circle",
       "link": "/store/mens/sleeves/small-circle",
       "linkColor": "/store/mens/sleeves/small-circle/black",
       "has_image_back": true,
@@ -64,7 +64,7 @@
         "Gray",
         "Navy"
       ],
-      "name": "Cotton Long-Sleeve with Original Design",
+      "name": "Cotton Long-Sleeve with Original",
       "link": "/store/mens/sleeves/original",
       "linkColor": "/store/mens/sleeves/original/black",
       "has_image_back": true,
@@ -80,7 +80,7 @@
         "Gray",
         "Navy"
       ],
-      "name": "Cotton Long-Sleeve with Arch Design",
+      "name": "Cotton Long-Sleeve with Arch",
       "link": "/store/mens/sleeves/arch",
       "linkColor": "/store/mens/sleeves/arch/black",
       "has_image_back": true,
@@ -96,7 +96,7 @@
         "Gray",
         "Navy"
       ],
-      "name": "Cotton Long-Sleeve with Block Design",
+      "name": "Cotton Long-Sleeve with Block",
       "link": "/store/mens/sleeves/block",
       "linkColor": "/store/mens/sleeves/block/black",
       "has_image_back": true,
@@ -112,7 +112,7 @@
         "Gray",
         "Navy"
       ],
-      "name": "Cotton Long-Sleeve with Stamp Design",
+      "name": "Cotton Long-Sleeve with Stamp",
       "link": "/store/mens/sleeves/stamp",
       "linkColor": "/store/mens/sleeves/stamp/black",
       "has_image_back": true,
@@ -128,7 +128,7 @@
         "Gray",
         "Navy"
       ],
-      "name": "Cotton Long-Sleeve with Stenciled Design",
+      "name": "Cotton Long-Sleeve with Stenciled",
       "link": "/store/mens/sleeves/stenciled",
       "linkColor": "/store/mens/sleeves/stenciled/black",
       "has_image_back": true,

@@ -12,7 +12,7 @@ const LogoGallery = ({ product }) => {
         {product.logos.map((logo, i) => {
           const { link, image, imageBlur, logo: logoName } = logo;
           const current = product.logo === logo.logo;
-          const name = `${product.name_root} with ${logoName} Design (${product.color})`;
+          const name = `${product.name_root} with ${logoName} (${product.color})`;
           const buildProduct = {
             link,
             image,
@@ -22,7 +22,7 @@ const LogoGallery = ({ product }) => {
           return (
             <GridItem key={name} product={buildProduct} scroll={true} index={i}>
               <GridItemSelectDot current={current} />
-              <h4 className='mt-2 font-medium'>{`${logoName} Design`}</h4>
+              <h4 className='mt-2 font-medium'>{`${logoName}`}</h4>
             </GridItem>
           );
         })}

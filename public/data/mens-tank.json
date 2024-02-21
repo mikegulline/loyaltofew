@@ -17,8 +17,8 @@
   ],
   "type": "Tank",
   "name": "Cotton Tank",
-  "link": "/store/mens/tank/block/black",
-  "image": "/images/products/mens/tank/MensTankBlockBlack.jpg",
+  "link": "/store/mens/tank/arch/black",
+  "image": "/images/products/mens/tank/MensTankArchBlack.jpg",
   "has_image_back": true,
   "weight": 5.7,
   "meta": {
@@ -34,7 +34,7 @@
       "colors": [
         "Black"
       ],
-      "name": "Cotton Tank with Small Circle Design",
+      "name": "Cotton Tank with Small Circle",
       "link": "/store/mens/tank/small-circle",
       "linkColor": "/store/mens/tank/small-circle/black",
       "has_image_back": true,
@@ -48,7 +48,7 @@
       "colors": [
         "Black"
       ],
-      "name": "Cotton Tank with Original Design",
+      "name": "Cotton Tank with Original",
       "link": "/store/mens/tank/original",
       "linkColor": "/store/mens/tank/original/black",
       "has_image_back": true,
@@ -62,7 +62,7 @@
       "colors": [
         "Black"
       ],
-      "name": "Cotton Tank with Arch Design",
+      "name": "Cotton Tank with Arch",
       "link": "/store/mens/tank/arch",
       "linkColor": "/store/mens/tank/arch/black",
       "has_image_back": true,
@@ -76,7 +76,7 @@
       "colors": [
         "Black"
       ],
-      "name": "Cotton Tank with Block Design",
+      "name": "Cotton Tank with Block",
       "link": "/store/mens/tank/block",
       "linkColor": "/store/mens/tank/block/black",
       "has_image_back": true,
@@ -90,7 +90,7 @@
       "colors": [
         "Black"
       ],
-      "name": "Cotton Tank with Stamp Design",
+      "name": "Cotton Tank with Stamp",
       "link": "/store/mens/tank/stamp",
       "linkColor": "/store/mens/tank/stamp/black",
       "has_image_back": true,
@@ -104,7 +104,7 @@
       "colors": [
         "Black"
       ],
-      "name": "Cotton Tank with Stenciled Design",
+      "name": "Cotton Tank with Stenciled",
       "link": "/store/mens/tank/stenciled",
       "linkColor": "/store/mens/tank/stenciled/black",
       "has_image_back": true,

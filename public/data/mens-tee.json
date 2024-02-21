@@ -17,8 +17,8 @@
   ],
   "type": "Tee",
   "name": "50/50 Tee",
-  "link": "/store/mens/tee/original/black",
-  "image": "/images/products/mens/tee/MensTeeOriginalBlack.jpg",
+  "link": "/store/mens/tee/small-circle/black",
+  "image": "/images/products/mens/tee/MensTeeSmallCircleBlack.jpg",
   "has_image_back": true,
   "weight": 7,
   "meta": {
@@ -48,7 +48,7 @@
         "Black",
         "Gray"
       ],
-      "name": "50/50 Tee with Small Circle Design",
+      "name": "50/50 Tee with Small Circle",
       "link": "/store/mens/tee/small-circle",
       "linkColor": "/store/mens/tee/small-circle/black",
       "has_image_back": true,
@@ -66,7 +66,7 @@
         "Maroon",
         "Navy"
       ],
-      "name": "50/50 Tee with Original Design",
+      "name": "50/50 Tee with Original",
       "link": "/store/mens/tee/original",
       "linkColor": "/store/mens/tee/original/black",
       "has_image_back": true,
@@ -84,7 +84,7 @@
         "Maroon",
         "Navy"
       ],
-      "name": "50/50 Tee with Arch Design",
+      "name": "50/50 Tee with Arch",
       "link": "/store/mens/tee/arch",
       "linkColor": "/store/mens/tee/arch/black",
       "has_image_back": true,
@@ -102,7 +102,7 @@
         "Maroon",
         "Navy"
       ],
-      "name": "50/50 Tee with Block Design",
+      "name": "50/50 Tee with Block",
       "link": "/store/mens/tee/block",
       "linkColor": "/store/mens/tee/block/black",
       "has_image_back": true,
@@ -120,7 +120,7 @@
         "Maroon",
         "Navy"
       ],
-      "name": "50/50 Tee with Stamp Design",
+      "name": "50/50 Tee with Stamp",
       "link": "/store/mens/tee/stamp",
       "linkColor": "/store/mens/tee/stamp/black",
       "has_image_back": true,
@@ -138,7 +138,7 @@
         "Maroon",
         "Navy"
       ],
-      "name": "50/50 Tee with Stenciled Design",
+      "name": "50/50 Tee with Stenciled",
       "link": "/store/mens/tee/stenciled",
       "linkColor": "/store/mens/tee/stenciled/black",
       "has_image_back": true,

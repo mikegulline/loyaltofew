@@ -33,7 +33,7 @@ const Products = ({ product, breadcrumbs, name }) => {
 
                 return (
                   <GridItem key={name} product={buildProduct} index={i}>
-                    <h4 className='mt-2 font-medium'>{`${logoName} Design`}</h4>
+                    <h4 className='mt-2 font-medium'>{`${logoName}`}</h4>
                   </GridItem>
                 );
               })}

@@ -13,7 +13,7 @@ const getImageLink = (baseUrl, category, type, logo, color) =>
   `${category}${type}${logo}${color}.jpg`.replace(/ /g, '');
 
 const getTitle = (product, logo, color, size) =>
-  `${product} With ${logo} Design (${color}) ${size}`;
+  `${product} With ${logo} (${color}) ${size}`;
 
 const getGroupId = (category, type, logo, color) =>
   `${[category, type, color, logo].join(':').toLocaleLowerCase()}`.replace(
@@ -63,6 +63,7 @@ store.map(({ name: category, products }) => {
               link,
               image_link,
               brand: 'Loyal to Few®',
+              quantity_to_sell_on_facebook: '1000',
               gender,
               color,
               size,
@@ -87,12 +88,12 @@ store.map(({ name: category, products }) => {
   );
 });
 
-const csvKeys = Object.keys(fileOutput[0]).join(', ') + '\n';
+const csvKeys = Object.keys(fileOutput[0]).join(',') + '\n';
 
 const filePath = path.join(__dirname, `../../public/csv/ig.csv`);
 
 const fileOutputToString = fileOutput.reduce((acc, cur) => {
-  return (acc += Object.values(cur).join(', ') + '\n');
+  return (acc += Object.values(cur).join(',') + '\n');
 }, csvKeys);
 
 fs.writeFileSync(filePath, fileOutputToString, 'utf8');

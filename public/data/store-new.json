@@ -105,9 +105,9 @@
         {
           "name": "Cotton Tank",
           "type": "Tank",
-          "link": "/store/mens/tank/block/black",
-          "image": "/images/products/mens/tank/MensTankBlockBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/4aJj4+SmPv7/wDIys0iIygtLjfS0tYAqquuAgEKCAgOo6SnAMLCxDY4PD9AQcXFyNlPGTpp0Ej9AAAAAElFTkSuQmCC",
+          "link": "/store/mens/tank/small-circle/black",
+          "image": "/images/products/mens/tank/MensTankSmallCircleBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz7/5Wbp6astP/+/wDd4ulIJTZHKjnZ3uUAw8XNFgYaBwAVsra+ANTU219lcVphb8nL0iHjHHbT66xOAAAAAElFTkSuQmCC",
           "logos": [
             {
               "logo": "Small Circle",
@@ -154,9 +154,9 @@
         {
           "name": "Cotton Long-Sleeve",
           "type": "Sleeves",
-          "link": "/store/mens/sleeves/original/black",
-          "image": "/images/products/mens/sleeves/MensSleevesOriginalBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/aKnraeqsP79/wC9vLwvMjc5O0HNzc0Ara2qAAAABQMAxMLAAMPDw1RUVF9cVtfV0v+CGvRxttd1AAAAAElFTkSuQmCC",
+          "link": "/store/mens/sleeves/small-circle/black",
+          "image": "/images/products/mens/sleeves/MensSleevesSmallCircleBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APb0+ouBiJSFjv37/wCdl5o2Chk7FSKYlZsA1MvQHg4WCQAMnZaYAPv5/YJ3d4Z+fujj6MDjGp9FDG5kAAAAAElFTkSuQmCC",
           "logos": [
             {
               "logo": "Small Circle",
@@ -240,9 +240,9 @@
         {
           "name": "Tri-Blend Tank",
           "type": "Tank",
-          "link": "/store/womens/tank/arch/gray",
-          "image": "/images/products/womens/tank/WomensTankArchGray.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/5+fo56eoPr6/QDs7O48ODRAOzjm5ecAr62vEgAAGwsAqqenAMDAwElFQTkzLba0tg8/Gn4yMVIRAAAAAElFTkSuQmCC",
+          "link": "/store/womens/tank/block/gray",
+          "image": "/images/products/womens/tank/WomensTankBlockGray.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/5CRkpOTlfz8/wDs7PAfHBgjIRzv7/IAvr6/DgAAEQAAsrCyAMTExDk1MjcyLL29vfQMGdIPLnIDAAAAAElFTkSuQmCC",
           "logos": [
             {
               "logo": "Small Circle",
@@ -310,9 +310,9 @@
         {
           "name": "Cotton Oversized Crop",
           "type": "Oversized-Crop",
-          "link": "/store/womens/oversized-crop/small-circle/black",
-          "image": "/images/products/womens/oversized-crop/WomensOversized-CropSmallCircleBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+//Hz9PDy8/39/wCvrK1INDhJODusq68AtbS1IwAAJQAFsrK0APr6/dLV1dfY2Pn3+mMSIIGLCfhqAAAAAElFTkSuQmCC",
+          "link": "/store/womens/oversized-crop/arch/black",
+          "image": "/images/products/womens/oversized-crop/WomensOversized-CropArchBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP37/+vr7+zr7/v7/wCOkpgrLDMvMTaVl5wAqqqvAAMNEBEXqq2xAPb2+e7u8/Ly9vj4+z4QH+Q3oUPyAAAAAElFTkSuQmCC",
           "logos": [
             {
               "logo": "Small Circle",
@@ -397,9 +397,9 @@
         {
           "name": "50/50 Crew",
           "type": "50-50-Crew",
-          "link": "/store/outerwear/50-50-crew/arch/black",
-          "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewArchBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr6/L2+wrq7wPb2+gCUlp4hJCkoKC6QkJUAj5KXDQ0RBAMHent+APz8/76+wLS1uO/v8endHDkxN8G0AAAAAElFTkSuQmCC",
+          "link": "/store/outerwear/50-50-crew/stamp/black",
+          "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewStampBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr5/L29wrm5vvb2+gCTlZwjJSssLDKNjpQAj5CVDA0RBAIJeXl+APz8/76+wLOzt+/v8ejcHC4Baus0AAAAAElFTkSuQmCC",
           "logos": [
             {
               "logo": "Original",
@@ -453,9 +453,9 @@
         {
           "name": "Cotton Crew",
           "type": "Crew",
-          "link": "/store/outerwear/crew/arch/black",
-          "image": "/images/products/outerwear/crew/OuterwearCrewArchBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr6/L2+wrq7wPb2+gCUlp4hJCkoKC6QkJUAj5KXDQ0RBAMHent+APz8/76+wLS1uO/v8endHDkxN8G0AAAAAElFTkSuQmCC",
+          "link": "/store/outerwear/crew/original/black",
+          "image": "/images/products/outerwear/crew/OuterwearCrewOriginalBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/8PEyL7Axfn5/QCZm6IiIykhISaUlJsAlJWbCgwRAQAEfn6DAP7+/8LCxbm5u/Ly9fVrHKPXD0xkAAAAAElFTkSuQmCC",
           "logos": [
             {
               "logo": "Original",
@@ -531,9 +531,9 @@
         {
           "name": "50/50 Hoodie",
           "type": "50-50-Hoodie",
-          "link": "/store/outerwear/50-50-hoodie/block/black",
-          "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBlockBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7//6+rqrq2t////wDNy85DPD1GQEHOzdAAgoGCEQ0QBQEHamlsAN7d32ZgYF5aW8TExQbEGpglmoRZAAAAAElFTkSuQmCC",
+          "link": "/store/outerwear/50-50-hoodie/stamp/black",
+          "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieStampBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv6/LOvr7m1tfv8/wDQz9NBOztCOzzMy80AiomLDggOAwEGaGdpAN3d3mplZV9bXL+/wQT6GoccfWXCAAAAAElFTkSuQmCC",
           "logos": [
             {
               "logo": "Original",
@@ -579,9 +579,9 @@
         {
           "name": "Cotton Hoodie",
           "type": "Hoodie",
-          "link": "/store/outerwear/hoodie/stamp/black",
-          "image": "/images/products/outerwear/hoodie/OuterwearHoodieStampBlack.jpg",
-          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/cnHyMfGx/z9/wDY2NpcVE9PRkDCwcEApqOjHhMHDwAAf3h3AOPj5IF6eHdxbc/LzTkjHLQJXHySAAAAAElFTkSuQmCC",
+          "link": "/store/outerwear/hoodie/block/black",
+          "image": "/images/products/outerwear/hoodie/OuterwearHoodieBlockBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/8fFxsXExP39/wDX1tdhWVVTS0bAvb0Ao6CfIBQJEQAAenV0AOLi4314dXJtac7KyzekHI5j34rHAAAAAElFTkSuQmCC",
           "logos": [
             {
               "logo": "Original",

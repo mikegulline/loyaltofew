@@ -1,50 +1,50 @@
 import { signOut } from 'next-auth/react';
 
 export const mensMenu = [
-  { name: '50/50 Tee', location: '/store/mens/tee/arch/black' },
-  { name: 'Cotton Tank', location: '/store/mens/tank/arch/black' },
+  { name: '50/50 Tee', location: '/store/mens/tee/' },
+  { name: 'Cotton Tank', location: '/store/mens/tank/' },
   {
     name: 'Cotton Long-Sleeve',
-    location: '/store/mens/sleeves/arch/black',
+    location: '/store/mens/sleeves/',
   },
 ];
 
 export const womensMenu = [
   // { name: 'Tee', location: '/store/womens/tee/arch/navy' },
-  { name: 'Tri-Blend Tank', location: '/store/womens/tank/arch/blue' },
-  // { name: 'Crop', location: '/store/womens/crop/arch/black' },
+  { name: 'Tri-Blend Tank', location: '/store/womens/tank/' },
+  // { name: 'Crop', location: '/store/womens/crop/' },
   {
     name: 'Cotton Oversized Crop',
-    location: '/store/womens/oversized-crop/arch/black',
+    location: '/store/womens/oversized-crop/',
   },
-  { name: '50/50 Tee', location: '/store/mens/tee/arch/black' },
+  { name: '50/50 Tee', location: '/store/mens/tee/' },
   {
     name: 'Cotton Long-Sleeve',
-    location: '/store/mens/sleeves/arch/black',
+    location: '/store/mens/sleeves/',
   },
 ];
 
 export const outerwearMenu = [
   {
     name: '50/50 Crew',
-    location: '/store/outerwear/50-50-crew/arch/black',
+    location: '/store/outerwear/50-50-crew/',
   },
   {
     name: 'Cotton Crew',
-    location: '/store/outerwear/crew/arch/black',
+    location: '/store/outerwear/crew/',
   },
   {
     name: '50/50 Hoodie',
-    location: '/store/outerwear/50-50-hoodie/arch/black',
+    location: '/store/outerwear/50-50-hoodie/',
   },
   {
     name: 'Cotton Hoodie',
-    location: '/store/outerwear/hoodie/arch/black',
+    location: '/store/outerwear/hoodie/',
   },
-  { name: 'Knit Beanie', location: '/store/outerwear/beanie/block/black' },
+  { name: 'Knit Beanie', location: '/store/outerwear/beanie/' },
   {
     name: 'Flexfit Snapback',
-    location: '/store/outerwear/flexfit-snapback/block/black-white',
+    location: '/store/outerwear/flexfit-snapback/',
   },
 ];
 

@@ -90,7 +90,7 @@ const modalLogo = (values) => {
   );
   const imageBack = `${imageColorBackRoot}${colors[0]}.jpg`;
   const image = `${imageColorRoot}${colors[0]}.jpg`;
-  const name = `${product} with ${logo} Design`;
+  const name = `${product} with ${logo}`;
 
   return {
     name,
