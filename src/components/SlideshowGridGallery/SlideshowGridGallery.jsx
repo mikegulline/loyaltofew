@@ -17,7 +17,7 @@ export default function SlideshowGridGallery({ title, link = null, children }) {
         {children?.length > 3 && (
           <ToggleButton handleClick={setShowFirstToggle}>
             <ToggleView showFirst={showFirstToggle}>
-              <>Show Grid</>
+              <>Show All {children.length}</>
               <>Show Slideshow</>
             </ToggleView>
           </ToggleButton>
