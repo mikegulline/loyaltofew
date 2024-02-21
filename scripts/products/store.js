@@ -137,6 +137,10 @@ module.exports = [
         product: 'Cotton Long-Sleeve',
         has_image_back: true,
         logos: [
+          'Disassociated',
+          'Family First',
+          'Remain True',
+          'Business',
           'Small Circle',
           'Original',
           'Arch',
@@ -147,6 +151,9 @@ module.exports = [
         colors: ['Black', 'Gray', 'Navy'],
         colorsAlt: {
           'Small Circle': ['Black', 'Gray'],
+          'Family First': ['Black', 'Gray'],
+          'Remain True': ['Black', 'Gray'],
+          Business: ['Black', 'Gray'],
         },
         tags: ['Tops'],
         weight: 9.8,

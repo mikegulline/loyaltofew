@@ -9,11 +9,11 @@
       },
       {
         "name": "Cotton Tank",
-        "location": "/store/mens/tank/small-circle/black"
+        "location": "/store/mens/tank/original/black"
       },
       {
         "name": "Cotton Long-Sleeve",
-        "location": "/store/mens/sleeves/small-circle/black"
+        "location": "/store/mens/sleeves/family-first/black"
       }
     ]
   },
@@ -23,7 +23,7 @@
     "subMenu": [
       {
         "name": "Tri-Blend Tank",
-        "location": "/store/womens/tank/block/gray"
+        "location": "/store/womens/tank/arch/gray"
       },
       {
         "name": "Cotton Oversized Crop",
@@ -37,11 +37,11 @@
     "subMenu": [
       {
         "name": "50/50 Crew",
-        "location": "/store/outerwear/50-50-crew/stamp/black"
+        "location": "/store/outerwear/50-50-crew/block/black"
       },
       {
         "name": "Cotton Crew",
-        "location": "/store/outerwear/crew/original/black"
+        "location": "/store/outerwear/crew/arch/black"
       },
       {
         "name": "50/50 Hoodie",

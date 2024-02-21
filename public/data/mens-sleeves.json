@@ -17,8 +17,8 @@
   ],
   "type": "Sleeves",
   "name": "Cotton Long-Sleeve",
-  "link": "/store/mens/sleeves/block/black",
-  "image": "/images/products/mens/sleeves/MensSleevesBlockBlack.jpg",
+  "link": "/store/mens/sleeves/small-circle/black",
+  "image": "/images/products/mens/sleeves/MensSleevesSmallCircleBlack.jpg",
   "has_image_back": true,
   "weight": 9.8,
   "meta": {
@@ -43,6 +43,67 @@
     "Tops"
   ],
   "logos": [
+    {
+      "colors": [
+        "Black",
+        "Gray",
+        "Navy"
+      ],
+      "name": "Cotton Long-Sleeve with Disassociated",
+      "link": "/store/mens/sleeves/disassociated",
+      "linkColor": "/store/mens/sleeves/disassociated/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/mens/sleeves/MensSleevesBackBlack.jpg",
+      "image": "/images/products/mens/sleeves/MensSleevesDisassociatedBlack.jpg",
+      "imageColorRoot": "/images/products/mens/sleeves/MensSleevesDisassociated",
+      "imageColorBackRoot": "/images/products/mens/sleeves/MensSleevesBack",
+      "logo": "Disassociated"
+    },
+    {
+      "colors": [
+        "Black",
+        "Gray"
+      ],
+      "name": "Cotton Long-Sleeve with Family First",
+      "link": "/store/mens/sleeves/family-first",
+      "linkColor": "/store/mens/sleeves/family-first/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/mens/sleeves/MensSleevesBackBlack.jpg",
+      "image": "/images/products/mens/sleeves/MensSleevesFamilyFirstBlack.jpg",
+      "imageColorRoot": "/images/products/mens/sleeves/MensSleevesFamilyFirst",
+      "imageColorBackRoot": "/images/products/mens/sleeves/MensSleevesBack",
+      "logo": "Family First"
+    },
+    {
+      "colors": [
+        "Black",
+        "Gray"
+      ],
+      "name": "Cotton Long-Sleeve with Remain True",
+      "link": "/store/mens/sleeves/remain-true",
+      "linkColor": "/store/mens/sleeves/remain-true/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/mens/sleeves/MensSleevesBackBlack.jpg",
+      "image": "/images/products/mens/sleeves/MensSleevesRemainTrueBlack.jpg",
+      "imageColorRoot": "/images/products/mens/sleeves/MensSleevesRemainTrue",
+      "imageColorBackRoot": "/images/products/mens/sleeves/MensSleevesBack",
+      "logo": "Remain True"
+    },
+    {
+      "colors": [
+        "Black",
+        "Gray"
+      ],
+      "name": "Cotton Long-Sleeve with Business",
+      "link": "/store/mens/sleeves/business",
+      "linkColor": "/store/mens/sleeves/business/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/mens/sleeves/MensSleevesBackBlack.jpg",
+      "image": "/images/products/mens/sleeves/MensSleevesBusinessBlack.jpg",
+      "imageColorRoot": "/images/products/mens/sleeves/MensSleevesBusiness",
+      "imageColorBackRoot": "/images/products/mens/sleeves/MensSleevesBack",
+      "logo": "Business"
+    },
     {
       "colors": [
         "Black",
@@ -182,6 +243,18 @@
   ],
   "colorsAlt": {
     "Small Circle": [
+      "Black",
+      "Gray"
+    ],
+    "Family First": [
+      "Black",
+      "Gray"
+    ],
+    "Remain True": [
+      "Black",
+      "Gray"
+    ],
+    "Business": [
       "Black",
       "Gray"
     ]

@@ -1,0 +1,165 @@
+{
+  "id": "mens:sleeves:navy:disassociated",
+  "name": "Cotton Long-Sleeve with Disassociated",
+  "link": "/store/mens/sleeves/disassociated",
+  "image": "/images/products/mens/sleeves/MensSleevesDisassociatedNavy.jpg",
+  "imageBack": "/images/products/mens/sleeves/MensSleevesBackNavy.jpg",
+  "has_image_back": true,
+  "color": "Navy",
+  "logo": "Disassociated",
+  "weight": 9.8,
+  "meta": {
+    "title": "Mens Cotton Long-Sleeve (Unisex)",
+    "description": "100% cotton grown on a US farm. Lightweight (4.3oz.) & durable."
+  },
+  "irl": [
+    {
+      "image": "/images/irl/MensSleeves-1.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOz//9f4/832/+T//wDR3ttjcHdkeH/E1dAA2N7dFC9JAAQWcndsAO/2/1RieUhQUa+yooxaHoJLEY87AAAAAElFTkSuQmCC"
+    },
+    {
+      "image": "/images/irl/MensSleeves-2.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO3//6jI2J7J5d75/wDH0tslO1NUcYTK3t8Axc7XByE9AAYJjpSJAObt9klab15lYra3rUO4HPAPZsg9AAAAAElFTkSuQmCC"
+    },
+    {
+      "image": "/images/irl/MensSleeves-3.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APT9/9bu9Z6jkd/k3wDo7uuAg3tKRzfY3NUAz8/FERIKAQEB4eDZAOnu621xb1ZdXuvw7l72HsSYn/fPAAAAAElFTkSuQmCC"
+    }
+  ],
+  "colors": [
+    "Black",
+    "Gray",
+    "Navy"
+  ],
+  "logos": [
+    {
+      "colors": [
+        "Black",
+        "Gray",
+        "Navy"
+      ],
+      "logo": "Disassociated",
+      "link": "/store/mens/sleeves/disassociated/navy",
+      "image": "/images/products/mens/sleeves/MensSleevesDisassociatedNavy.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APX2+2Vrd3N4hf3+/wCQkp8lKz8wN0qSlqMAycvVCw8nAAAasrS/APv9/290hHp9jPT1+rttGxFHb4hDAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black",
+        "Gray",
+        "Navy"
+      ],
+      "logo": "Original",
+      "link": "/store/mens/sleeves/original/navy",
+      "image": "/images/products/mens/sleeves/MensSleevesOriginalNavy.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APj4/ZiUqaCerf7+/wC0ssA5M1k6NFTBv8cAsrK8CQAnCAAiuri+AMbFzlxZbmlmdc3M0QAuG3HqIoedAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black",
+        "Gray",
+        "Navy"
+      ],
+      "logo": "Arch",
+      "link": "/store/mens/sleeves/arch/navy",
+      "image": "/images/products/mens/sleeves/MensSleevesArchNavy.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP37/5WUp5ybqf7+/wCgnq89OlxEQFqvrLUApaSwCQAkEw4pwcDGAOXl619dcHJwffDw8vuXHBp9n1D4AAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black",
+        "Gray",
+        "Navy"
+      ],
+      "logo": "Block",
+      "link": "/store/mens/sleeves/block/navy",
+      "image": "/images/products/mens/sleeves/MensSleevesBlockNavy.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APj3/pSSnpiVn/7+/wCmpa5VVGJZVWK9u8IAwL3FBwAZDgUY0M3QANbV21tZZlxaYuDe4AmyHBfM4D8TAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black",
+        "Gray",
+        "Navy"
+      ],
+      "logo": "Stamp",
+      "link": "/store/mens/sleeves/stamp/navy",
+      "image": "/images/products/mens/sleeves/MensSleevesStampNavy.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8/5qYqaims/78/wCsq7dBPVpST2a2tLwAzMzUFAwoBQAas6+2AO/v9Ghndn16hefm6BmOHRNBlYkPAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black",
+        "Gray",
+        "Navy"
+      ],
+      "logo": "Stenciled",
+      "link": "/store/mens/sleeves/stenciled/navy",
+      "image": "/images/products/mens/sleeves/MensSleevesStenciledNavy.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/46Pr4qMrO/v/ACHiLA0N2w5PGx1dpgAtrbRAQ1AAAAzgIKfAOrr92ptinl8ltfY59pfGwUdXyw3AAAAAElFTkSuQmCC"
+    }
+  ],
+  "sizes": [
+    {
+      "size": "S",
+      "price": 35,
+      "dimensions": "Body Length: 28 3/8 in., Chest Width: 18 in., Sleeve Length: 27 1/8 in."
+    },
+    {
+      "size": "M",
+      "price": 35,
+      "dimensions": "Body Length: 29 1/2 in., Chest Width: 20 in., Sleeve Length: 27 5/8 in."
+    },
+    {
+      "size": "L",
+      "price": 35,
+      "dimensions": "Body Length: 30 5/8 in., Chest Width: 22 in., Sleeve Length: 27 7/8 in."
+    },
+    {
+      "size": "XL",
+      "price": 35,
+      "dimensions": "Body Length: 31 1/4 in., Chest Width: 24 in., Sleeve Length: 28 1/4 in."
+    },
+    {
+      "size": "XXL",
+      "price": 35,
+      "dimensions": "Body Length: 32 7/8 in., Chest Width: 26 in., Sleeve Length: 28 5/8 in."
+    },
+    {
+      "size": "XXXL",
+      "price": 35,
+      "dimensions": "Body Length: 32 7/8 in., Chest Width: 26 in., Sleeve Length: 28 5/8 in.",
+      "colors": [
+        "Black",
+        "Gray"
+      ]
+    }
+  ],
+  "details": [
+    "Designed, produced & printed in the USA",
+    "100% cotton grown on a US farm",
+    "Lightweight (4.3oz.) & durable",
+    "Unisex, check size chart"
+  ],
+  "type": "Sleeves",
+  "breadcrumbs": [
+    [
+      "Store",
+      "/store"
+    ],
+    [
+      "Mens",
+      "/store/mens"
+    ],
+    [
+      "Cotton Long-Sleeve",
+      "/store/mens/sleeves"
+    ],
+    [
+      "Disassociated (Navy)",
+      ""
+    ]
+  ],
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APX2+2Vrd3N4hf3+/wCQkp8lKz8wN0qSlqMAycvVCw8nAAAasrS/APv9/290hHp9jPT1+rttGxFHb4hDAAAAAElFTkSuQmCC",
+  "name_root": "Cotton Long-Sleeve"
+}
