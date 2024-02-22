@@ -1,0 +1,151 @@
+{
+  "id": "womens:tank:maroon:disassociated",
+  "name": "Tri-Blend Tank with Disassociated",
+  "link": "/store/womens/tank/disassociated",
+  "image": "/images/products/womens/tank/WomensTankDisassociatedMaroon.jpg",
+  "imageBack": "/images/products/womens/tank/WomensTankBackMaroon.jpg",
+  "has_image_back": true,
+  "color": "Maroon",
+  "logo": "Disassociated",
+  "weight": 2.6,
+  "meta": {
+    "title": "Womens Tri-Blend Tank",
+    "description": "50% polyester, 25% cotton, 25% rayon. Lightweight (3.7oz) racerback design."
+  },
+  "irl": [
+    {
+      "image": "/images/irl/WomensTank-1.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO7k2NG9nvvqwP/86gCtraM7KxlqSDbIvLQAg4R3DwAAJRAKsqSdALGtpkZDPzczM6uqo/bjGR0glQ5UAAAAAElFTkSuQmCC"
+    },
+    {
+      "image": "/images/irl/WomensTank-2.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOT//9D8/8Hv/9f9/wDC3uSTqrZoeo3I6vYArLCqPUdPAAYcXmleAPP4/36Lnyg2RXZ+fJrbHoPzKUJRAAAAAElFTkSuQmCC"
+    }
+  ],
+  "colors": [
+    "Gray",
+    "Blue",
+    "Maroon"
+  ],
+  "logos": [
+    {
+      "colors": [
+        "Gray",
+        "Blue",
+        "Maroon"
+      ],
+      "logo": "Disassociated",
+      "link": "/store/womens/tank/disassociated/maroon",
+      "image": "/images/products/womens/tank/WomensTankDisassociatedMaroon.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APn7/6eUm7Sjqfj6/ADs6+5BESBEFyXo5+sAs6WpJgAAJwAAuq6yAL60uUokL103Q8rCxwesGoMp4G49AAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Gray",
+        "Blue",
+        "Maroon"
+      ],
+      "logo": "Original",
+      "link": "/store/womens/tank/original/maroon",
+      "image": "/images/products/womens/tank/WomensTankOriginalMaroon.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APn7/sOqr8u0uvv+/wDy8vZlHCh3NT78/v8A2M3POwAAPQAA3dLVAOLa3WgxPXA3PuDX2FnoHfnk26urAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Gray",
+        "Blue",
+        "Maroon"
+      ],
+      "logo": "Arch",
+      "link": "/store/womens/tank/arch/maroon",
+      "image": "/images/products/womens/tank/WomensTankArchMaroon.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv+/7ifpb6mrPv+/wDx8fVeGiZjJC309fcA29DUNwAAOgAA0sXIAOLY3GEwO3VFTOTb3UGCHVm6nyFrAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Gray",
+        "Blue",
+        "Maroon"
+      ],
+      "logo": "Block",
+      "link": "/store/womens/tank/block/maroon",
+      "image": "/images/products/womens/tank/WomensTankBlockMaroon.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP3//7eeo7efpfr9/wDx8fRPDRlWGyT29/oA0cfKMwAANAAAx7m9ANnR1FIjLWExN9jQ0iuHHBWT5yzVAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Gray",
+        "Blue",
+        "Maroon"
+      ],
+      "logo": "Stamp",
+      "link": "/store/womens/tank/stamp/maroon",
+      "image": "/images/products/womens/tank/WomensTankStampMaroon.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APn7/bKZn8Kvtfv+/wDy8fNGCRhfLTP9//8A2tHUMAAAOAAA3tbaAOHb3VcqMm1CSOPe4D5mHUolsF5VAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Gray",
+        "Blue",
+        "Maroon"
+      ],
+      "logo": "Stenciled",
+      "link": "/store/womens/tank/stenciled/maroon",
+      "image": "/images/products/womens/tank/WomensTankStenciledMaroon.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APj8/7GOlL2gpfj8/wDr6etuIy55NT7u7vEAwqquQgAAPAAAuaOnAMq6vmwuNmw1O83AwikQG8su6qPtAAAAAElFTkSuQmCC"
+    }
+  ],
+  "sizes": [
+    {
+      "size": "XS",
+      "price": 32,
+      "dimensions": "Body Length: 25 1/8 in., Chest Width: 12 5/8 in."
+    },
+    {
+      "size": "S",
+      "price": 32,
+      "dimensions": "Body Length: 25 3/4 in., Chest Width: 13 5/8 in."
+    },
+    {
+      "size": "M",
+      "price": 32,
+      "dimensions": "Body Length: 26 3/8 in., Chest Width: 14 5/8 in."
+    },
+    {
+      "size": "L",
+      "price": 32,
+      "dimensions": "Body Length: 27 1/4 in., Chest Width: 16 1/8 in."
+    },
+    {
+      "size": "XL",
+      "price": 32,
+      "dimensions": "Body Length: 27 3/4 in., Chest Width: 17 in."
+    }
+  ],
+  "details": [
+    "Designed, produced & printed in the USA",
+    "50% polyester, 25% cotton, 25% rayon",
+    "Lightweight (3.7oz) racerback design"
+  ],
+  "type": "Tank",
+  "breadcrumbs": [
+    [
+      "Store",
+      "/store"
+    ],
+    [
+      "Womens",
+      "/store/womens"
+    ],
+    [
+      "Tri-Blend Tank",
+      "/store/womens/tank"
+    ],
+    [
+      "Disassociated (Maroon)",
+      ""
+    ]
+  ],
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APn7/6eUm7Sjqfj6/ADs6+5BESBEFyXo5+sAs6WpJgAAJwAAuq6yAL60uUokL103Q8rCxwesGoMp4G49AAAAAElFTkSuQmCC",
+  "name_root": "Tri-Blend Tank"
+}

@@ -1,0 +1,139 @@
+{
+  "id": "womens:oversized-crop:mauve:disassociated",
+  "name": "Cotton Oversized Crop with Disassociated",
+  "link": "/store/womens/oversized-crop/disassociated",
+  "image": "/images/products/womens/oversized-crop/WomensOversized-CropDisassociatedMauve.jpg",
+  "imageBack": "/images/products/womens/oversized-crop/WomensOversized-CropBackMauve.jpg",
+  "has_image_back": true,
+  "color": "Mauve",
+  "logo": "Disassociated",
+  "weight": 2.9,
+  "meta": {
+    "title": "Womens Cotton Oversized Crop",
+    "description": "Wide-fit, oversized, 100% cotton. One size fits most."
+  },
+  "irl": [
+    {
+      "image": "/images/irl/WomensOversized-Crop-1.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOL//6Pf/6fp/975/wDI1dxpZ2o0PUmvurIArqiRHwAAEwAAtratAN/p0UlWTVVyfNjv7kEHHP6ow5q1AAAAAElFTkSuQmCC"
+    },
+    {
+      "image": "/images/irl/WomensOversized-Crop-2.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ANH7/6zc/57O9M7//wC/1t51gItGTVu+2OIAn5mFHCIrAAAXsaWUAMjUrnqCeFZhbdje0kxuHWmhOqAXAAAAAElFTkSuQmCC"
+    }
+  ],
+  "colors": [
+    "Black",
+    "Dolphin",
+    "Baby-Blue",
+    "Mauve"
+  ],
+  "logos": [
+    {
+      "colors": [
+        "Black",
+        "Dolphin",
+        "Baby-Blue",
+        "Mauve"
+      ],
+      "logo": "Disassociated",
+      "link": "/store/womens/oversized-crop/disassociated/mauve",
+      "image": "/images/products/womens/oversized-crop/WomensOversized-CropDisassociatedMauve.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APn7/d/f4trY2/Hy9gCRg4YnDRIiAACHeX0Ap5yiMxYcPSImsqqtAPj5/O/w8/Dw9PPz9g7NHr72MTbEAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black",
+        "Dolphin",
+        "Baby-Blue",
+        "Mauve"
+      ],
+      "logo": "Original",
+      "link": "/store/womens/oversized-crop/original/mauve",
+      "image": "/images/products/womens/oversized-crop/WomensOversized-CropOriginalMauve.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7//+7u8u3t7/7//wCajpI8Jik3ICSajpAAwbu9HgAAIwMIsKeqAPv7/vn5/Pz9//v7/0XdIF3V/xKAAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black",
+        "Dolphin",
+        "Baby-Blue",
+        "Mauve"
+      ],
+      "logo": "Arch",
+      "link": "/store/womens/oversized-crop/arch/mauve",
+      "image": "/images/products/womens/oversized-crop/WomensOversized-CropArchMauve.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7//+3s8Orq7P7//wCVio01HyI4ISWViowAvLa4HQAAJAoOrKOmAPv7/vb2+vr7+/z9/zvsIAec2CRxAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black",
+        "Dolphin",
+        "Baby-Blue",
+        "Mauve"
+      ],
+      "logo": "Block",
+      "link": "/store/womens/oversized-crop/block/mauve",
+      "image": "/images/products/womens/oversized-crop/WomensOversized-CropBlockMauve.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7//+rp6+jn6f7//wCMgYU6JSg6JSiOgYMAtq+yHgACJxEVppyeAPz9//T09/b2+fz9/zOLH7lN3Ri6AAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black",
+        "Dolphin",
+        "Baby-Blue",
+        "Mauve"
+      ],
+      "logo": "Stamp",
+      "link": "/store/womens/oversized-crop/stamp/mauve",
+      "image": "/images/products/womens/oversized-crop/WomensOversized-CropStampMauve.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APn5/Obm6eLi5Pj5/ACJgIIwGh0zHCCKf4AAsaqsHQAAIgUNoJaaAPX1+Ozs7/Hy9vb29xpNHrANC1JSAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black",
+        "Dolphin",
+        "Baby-Blue",
+        "Mauve"
+      ],
+      "logo": "Stenciled",
+      "link": "/store/womens/oversized-crop/stenciled/mauve",
+      "image": "/images/products/womens/oversized-crop/WomensOversized-CropStenciledMauve.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/ufm6eLh4/r7/gCJfoA8Jik9KCuFeH0AsqqtHAAAIQYLnpSXAPf3+u7u8fP09fj5/CL6Hv56ATtpAAAAAElFTkSuQmCC"
+    }
+  ],
+  "sizes": [
+    {
+      "size": "One Size Fits Most",
+      "price": 32,
+      "dimensions": "Body Length: 19 3/4 in., Chest Width: 20 3/4 in., Sleeve Length: 8 5/8 in."
+    }
+  ],
+  "details": [
+    "Designed, produced & printed in the USA",
+    "Wide-fit",
+    "Oversized",
+    "100% cotton"
+  ],
+  "type": "Oversized-Crop",
+  "breadcrumbs": [
+    [
+      "Store",
+      "/store"
+    ],
+    [
+      "Womens",
+      "/store/womens"
+    ],
+    [
+      "Cotton Oversized Crop",
+      "/store/womens/oversized-crop"
+    ],
+    [
+      "Disassociated (Mauve)",
+      ""
+    ]
+  ],
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APn7/d/f4trY2/Hy9gCRg4YnDRIiAACHeX0Ap5yiMxYcPSImsqqtAPj5/O/w8/Dw9PPz9g7NHr72MTbEAAAAAElFTkSuQmCC",
+  "name_root": "Cotton Oversized Crop"
+}

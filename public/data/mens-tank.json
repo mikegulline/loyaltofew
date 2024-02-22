@@ -17,8 +17,8 @@
   ],
   "type": "Tank",
   "name": "Cotton Tank",
-  "link": "/store/mens/tank/small-circle/black",
-  "image": "/images/products/mens/tank/MensTankSmallCircleBlack.jpg",
+  "link": "/store/mens/tank/stenciled/black",
+  "image": "/images/products/mens/tank/MensTankStenciledBlack.jpg",
   "has_image_back": true,
   "weight": 5.7,
   "meta": {
@@ -30,6 +30,62 @@
     "Tops"
   ],
   "logos": [
+    {
+      "colors": [
+        "Black"
+      ],
+      "name": "Cotton Tank with Disassociated",
+      "link": "/store/mens/tank/disassociated",
+      "linkColor": "/store/mens/tank/disassociated/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/mens/tank/MensTankBackBlack.jpg",
+      "image": "/images/products/mens/tank/MensTankDisassociatedBlack.jpg",
+      "imageColorRoot": "/images/products/mens/tank/MensTankDisassociated",
+      "imageColorBackRoot": "/images/products/mens/tank/MensTankBack",
+      "logo": "Disassociated"
+    },
+    {
+      "colors": [
+        "Black"
+      ],
+      "name": "Cotton Tank with Family First",
+      "link": "/store/mens/tank/family-first",
+      "linkColor": "/store/mens/tank/family-first/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/mens/tank/MensTankBackBlack.jpg",
+      "image": "/images/products/mens/tank/MensTankFamilyFirstBlack.jpg",
+      "imageColorRoot": "/images/products/mens/tank/MensTankFamilyFirst",
+      "imageColorBackRoot": "/images/products/mens/tank/MensTankBack",
+      "logo": "Family First"
+    },
+    {
+      "colors": [
+        "Black"
+      ],
+      "name": "Cotton Tank with Remain True",
+      "link": "/store/mens/tank/remain-true",
+      "linkColor": "/store/mens/tank/remain-true/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/mens/tank/MensTankBackBlack.jpg",
+      "image": "/images/products/mens/tank/MensTankRemainTrueBlack.jpg",
+      "imageColorRoot": "/images/products/mens/tank/MensTankRemainTrue",
+      "imageColorBackRoot": "/images/products/mens/tank/MensTankBack",
+      "logo": "Remain True"
+    },
+    {
+      "colors": [
+        "Black"
+      ],
+      "name": "Cotton Tank with Business",
+      "link": "/store/mens/tank/business",
+      "linkColor": "/store/mens/tank/business/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/mens/tank/MensTankBackBlack.jpg",
+      "image": "/images/products/mens/tank/MensTankBusinessBlack.jpg",
+      "imageColorRoot": "/images/products/mens/tank/MensTankBusiness",
+      "imageColorBackRoot": "/images/products/mens/tank/MensTankBack",
+      "logo": "Business"
+    },
     {
       "colors": [
         "Black"

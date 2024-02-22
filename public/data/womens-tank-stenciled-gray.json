@@ -30,6 +30,44 @@
   "logos": [
     {
       "colors": [
+        "Gray",
+        "Blue",
+        "Maroon"
+      ],
+      "logo": "Disassociated",
+      "link": "/store/womens/tank/disassociated/gray",
+      "image": "/images/products/womens/tank/WomensTankDisassociatedGray.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8/pOTlpWXmvn5+gDk5OcMEBUXGh3l5egAra2vAAUHAgwPsbG0ALe3uT1ARDU4PLq7veKvGVAPWy4EAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Gray"
+      ],
+      "logo": "Family First",
+      "link": "/store/womens/tank/family-first/gray",
+      "image": "/images/products/womens/tank/WomensTankFamilyFirstGray.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/46Qk5OUmPr6/ADm5+sTExMfHyHr7O4AqKuwIQEAGQAAra+0ALm6vUFBQ09PVMXGyuq2GfvDGkEDAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Gray"
+      ],
+      "logo": "Remain True",
+      "link": "/store/womens/tank/remain-true/gray",
+      "image": "/images/products/womens/tank/WomensTankRemainTrueGray.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz9/5GRkpubnP39/wDk4+QPIC0RJDLc29wAq6iqAAUiAAUkoJ+gAL2+wklKTldXXMbHyu0KGiQ8SRN0AAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Gray"
+      ],
+      "logo": "Business",
+      "link": "/store/womens/tank/business/gray",
+      "image": "/images/products/womens/tank/WomensTankBusinessGray.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP/+/5ebo5Wao/38/gDw8vZVRSJHNhHc3eIAvsDFLBYAHAAAlpecAL29vjc8Rz5CT7GysxDqGpmxQYoAAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
         "Gray"
       ],
       "logo": "Small Circle",

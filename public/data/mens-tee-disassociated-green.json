@@ -1,0 +1,181 @@
+{
+  "id": "mens:tee:green:disassociated",
+  "name": "50/50 Tee with Disassociated",
+  "link": "/store/mens/tee/disassociated",
+  "image": "/images/products/mens/tee/MensTeeDisassociatedGreen.jpg",
+  "imageBack": "/images/products/mens/tee/MensTeeBackGreen.jpg",
+  "has_image_back": true,
+  "color": "Green",
+  "logo": "Disassociated",
+  "weight": 7,
+  "meta": {
+    "title": "Mens 50/50 Tee (Unisex)",
+    "description": "Perfect 50/50 blend of cotton & polyester. Super-soft, lightweight (3.8oz) & durable."
+  },
+  "irl": [
+    {
+      "image": "/images/irl/MensTee-1.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AK6ysLGxqffy4+jl4ADe4dqFgHN2YVW5ubcA5N7UOSkdBwAUwr+8AP/67YVwXEQ/RN3OxEMbHdWHy73LAAAAAElFTkSuQmCC"
+    },
+    {
+      "image": "/images/irl/MensTee-2.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO3u7ebj2P/98Pb18QDd3tlUTk9oY2W9vbUA//rsEgALJx4r7uTYAP/122JRSnpqZPHh0YkkH+lh3QJiAAAAAElFTkSuQmCC"
+    },
+    {
+      "image": "/images/irl/MensTee-3.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APT8/5ufjnh2Wd3eygDKy8RISjQqKBLEwK8AxL61HR8SAggA29XOAN3h5FJVVE9LRvLw69IpGpGjTGqvAAAAAElFTkSuQmCC"
+    }
+  ],
+  "colors": [
+    "Black",
+    "Gray",
+    "Green",
+    "Maroon",
+    "Navy"
+  ],
+  "logos": [
+    {
+      "colors": [
+        "Black",
+        "Gray",
+        "Green",
+        "Maroon",
+        "Navy"
+      ],
+      "logo": "Disassociated",
+      "link": "/store/mens/tee/disassociated/green",
+      "image": "/images/products/mens/tee/MensTeeDisassociatedGreen.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPUlEQVR4nGO4/+hx+4T+yraWU+cuMEybP59VRkJATWnynDkM377/YpEWZ+BjBsn8/v1v8uzZc5Ysefv+IwCruRtqzSm6JgAAAABJRU5ErkJggg=="
+    },
+    {
+      "colors": [
+        "Black",
+        "Gray",
+        "Green",
+        "Maroon",
+        "Navy"
+      ],
+      "logo": "Original",
+      "link": "/store/mens/tee/original/green",
+      "image": "/images/products/mens/tee/MensTeeOriginalGreen.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOjp6JufmpGUjNfa1ACWmpIpMCEuNCS5urUA8PDuAwgAEBIA9PTyAPn6+mxtY3Z4a/v7+tZMG/XEa0LrAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black",
+        "Gray",
+        "Green",
+        "Maroon",
+        "Navy"
+      ],
+      "logo": "Arch",
+      "link": "/store/mens/tee/arch/green",
+      "image": "/images/products/mens/tee/MensTeeArchGreen.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AMjLypGYlJKYksvNywCYnJgyOS1GTUC9v7wA0NHOAAcAICQU/v//AODj4mtvaHd6cfP188aEG5dXT2FkAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black",
+        "Gray",
+        "Green",
+        "Maroon",
+        "Navy"
+      ],
+      "logo": "Block",
+      "link": "/store/mens/tee/block/green",
+      "image": "/images/products/mens/tee/MensTeeBlockGreen.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AN7i36Soo6espenq5wCusqxMUkBgYlO7vbkA1dbRAwYAGBoC8PHuAOjo53N1anJzZvv7+QwZHTx8o3DmAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black",
+        "Gray",
+        "Green",
+        "Maroon",
+        "Navy"
+      ],
+      "logo": "Stamp",
+      "link": "/store/mens/tee/stamp/green",
+      "image": "/images/products/mens/tee/MensTeeStampGreen.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AObn5Z2fl6aooO/v7gCgo5s2OSZHSDa1t7EA6+vpBgoAEhMA5+fkAPr6+n+AdXt8b/j49feeHOhuCJV2AAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black",
+        "Gray",
+        "Green",
+        "Maroon",
+        "Navy"
+      ],
+      "logo": "Stenciled",
+      "link": "/store/mens/tee/stenciled/green",
+      "image": "/images/products/mens/tee/MensTeeStenciledGreen.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APb39q+0qrW1svr6+gDR1c5TW0lRUke/v7sA2NnUHB8PAwQAwsO+AOzs6oiJgYmJgt/f3DltHiSfLTPaAAAAAElFTkSuQmCC"
+    }
+  ],
+  "sizes": [
+    {
+      "size": "S",
+      "price": 32,
+      "dimensions": "Body Length: 28 1/2 in., Chest Width: 18 in., Sleeve Length: 8 in."
+    },
+    {
+      "size": "M",
+      "price": 32,
+      "dimensions": "Body Length: 29 1/2 in., Chest Width: 20 in., Sleeve Length: 8 1/4 in."
+    },
+    {
+      "size": "L",
+      "price": 32,
+      "dimensions": "Body Length: 30 1/2 in., Chest Width: 22 in., Sleeve Length: 8 1/2 in."
+    },
+    {
+      "size": "XL",
+      "price": 32,
+      "dimensions": "Body Length: 31 1/2 in., Chest Width: 24 in., Sleeve Length: 8 3/4 in."
+    },
+    {
+      "size": "XXL",
+      "price": 32,
+      "dimensions": "Body Length: 32 1/2 in., Chest Width:  26 in., Sleeve Length: 9 in."
+    },
+    {
+      "size": "XXXL",
+      "price": 32,
+      "dimensions": "Body Length: 32 1/2 in., Chest Width:  26 in., Sleeve Length: 9 in.",
+      "colors": [
+        "Black",
+        "Gray",
+        "Maroon",
+        "Navy"
+      ]
+    }
+  ],
+  "details": [
+    "Designed, produced & printed in the USA",
+    "Perfect 50/50 blend of cotton & polyester",
+    "Super-soft, lightweight (3.8oz) & durable",
+    "Unisex, check size chart"
+  ],
+  "type": "Tee",
+  "breadcrumbs": [
+    [
+      "Store",
+      "/store"
+    ],
+    [
+      "Mens",
+      "/store/mens"
+    ],
+    [
+      "50/50 Tee",
+      "/store/mens/tee"
+    ],
+    [
+      "Disassociated (Green)",
+      ""
+    ]
+  ],
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPUlEQVR4nGO4/+hx+4T+yraWU+cuMEybP59VRkJATWnynDkM377/YpEWZ+BjBsn8/v1v8uzZc5Ysefv+IwCruRtqzSm6JgAAAABJRU5ErkJggg==",
+  "name_root": "50/50 Tee"
+}

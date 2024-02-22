@@ -1,0 +1,187 @@
+{
+  "id": "womens:tank:gray:disassociated",
+  "name": "Tri-Blend Tank with Disassociated",
+  "link": "/store/womens/tank/disassociated",
+  "image": "/images/products/womens/tank/WomensTankDisassociatedGray.jpg",
+  "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
+  "has_image_back": true,
+  "color": "Gray",
+  "logo": "Disassociated",
+  "weight": 2.6,
+  "meta": {
+    "title": "Womens Tri-Blend Tank",
+    "description": "50% polyester, 25% cotton, 25% rayon. Lightweight (3.7oz) racerback design."
+  },
+  "irl": [
+    {
+      "image": "/images/irl/WomensTank-1.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO7k2NG9nvvqwP/86gCtraM7KxlqSDbIvLQAg4R3DwAAJRAKsqSdALGtpkZDPzczM6uqo/bjGR0glQ5UAAAAAElFTkSuQmCC"
+    },
+    {
+      "image": "/images/irl/WomensTank-2.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOT//9D8/8Hv/9f9/wDC3uSTqrZoeo3I6vYArLCqPUdPAAYcXmleAPP4/36Lnyg2RXZ+fJrbHoPzKUJRAAAAAElFTkSuQmCC"
+    }
+  ],
+  "colors": [
+    "Gray",
+    "Blue",
+    "Maroon"
+  ],
+  "logos": [
+    {
+      "colors": [
+        "Gray",
+        "Blue",
+        "Maroon"
+      ],
+      "logo": "Disassociated",
+      "link": "/store/womens/tank/disassociated/gray",
+      "image": "/images/products/womens/tank/WomensTankDisassociatedGray.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8/pOTlpWXmvn5+gDk5OcMEBUXGh3l5egAra2vAAUHAgwPsbG0ALe3uT1ARDU4PLq7veKvGVAPWy4EAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Gray"
+      ],
+      "logo": "Family First",
+      "link": "/store/womens/tank/family-first/gray",
+      "image": "/images/products/womens/tank/WomensTankFamilyFirstGray.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/46Qk5OUmPr6/ADm5+sTExMfHyHr7O4AqKuwIQEAGQAAra+0ALm6vUFBQ09PVMXGyuq2GfvDGkEDAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Gray"
+      ],
+      "logo": "Remain True",
+      "link": "/store/womens/tank/remain-true/gray",
+      "image": "/images/products/womens/tank/WomensTankRemainTrueGray.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz9/5GRkpubnP39/wDk4+QPIC0RJDLc29wAq6iqAAUiAAUkoJ+gAL2+wklKTldXXMbHyu0KGiQ8SRN0AAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Gray"
+      ],
+      "logo": "Business",
+      "link": "/store/womens/tank/business/gray",
+      "image": "/images/products/womens/tank/WomensTankBusinessGray.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP/+/5ebo5Wao/38/gDw8vZVRSJHNhHc3eIAvsDFLBYAHAAAlpecAL29vjc8Rz5CT7GysxDqGpmxQYoAAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Gray"
+      ],
+      "logo": "Small Circle",
+      "link": "/store/womens/tank/small-circle/gray",
+      "image": "/images/products/womens/tank/WomensTankSmallCircleGray.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz7/5+foqSkqPz7/wDy8fc7JSk7JCry8vcAxsbJKAAAJgAFvr3CANDN0E9TVFRVVtLO0iPQHD1fMLygAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Gray",
+        "Blue",
+        "Maroon"
+      ],
+      "logo": "Original",
+      "link": "/store/womens/tank/original/gray",
+      "image": "/images/products/womens/tank/WomensTankOriginalGray.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/5+foK+vsf39/wDw8PRBPTtLRkL08/cA0NDREwEAFgAAxsXFANbW11RPTV5XUtLR0jldHPSEe7WlAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Gray",
+        "Blue",
+        "Maroon"
+      ],
+      "logo": "Arch",
+      "link": "/store/womens/tank/arch/gray",
+      "image": "/images/products/womens/tank/WomensTankArchGray.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/5+fo56eoPr6/QDs7O48ODRAOzjm5ecAr62vEgAAGwsAqqenAMDAwElFQTkzLba0tg8/Gn4yMVIRAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Gray",
+        "Blue",
+        "Maroon"
+      ],
+      "logo": "Block",
+      "link": "/store/womens/tank/block/gray",
+      "image": "/images/products/womens/tank/WomensTankBlockGray.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/5CRkpOTlfz8/wDs7PAfHBgjIRzv7/IAvr6/DgAAEQAAsrCyAMTExDk1MjcyLL29vfQMGdIPLnIDAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Gray",
+        "Blue",
+        "Maroon"
+      ],
+      "logo": "Stamp",
+      "link": "/store/womens/tank/stamp/gray",
+      "image": "/images/products/womens/tank/WomensTankStampGray.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/5WVmKSkpvz8/wDr6+4nJCQ7NjTy8vUAtLS2EQAAGQUAtrOzAMPDxTw3NEY/O8fGxwxKGsNcuPiXAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Gray",
+        "Blue",
+        "Maroon"
+      ],
+      "logo": "Stenciled",
+      "link": "/store/womens/tank/stenciled/gray",
+      "image": "/images/products/womens/tank/WomensTankStenciledGray.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/5+fnqKfnvv8/gDu7u9BPTdMR0Dz8vQAtbW0DAAAEgcAtbW1ALW0sz45M0A9OLu7uxsdGubfdrMdAAAAAElFTkSuQmCC"
+    }
+  ],
+  "sizes": [
+    {
+      "size": "XS",
+      "price": 32,
+      "dimensions": "Body Length: 25 1/8 in., Chest Width: 12 5/8 in."
+    },
+    {
+      "size": "S",
+      "price": 32,
+      "dimensions": "Body Length: 25 3/4 in., Chest Width: 13 5/8 in."
+    },
+    {
+      "size": "M",
+      "price": 32,
+      "dimensions": "Body Length: 26 3/8 in., Chest Width: 14 5/8 in."
+    },
+    {
+      "size": "L",
+      "price": 32,
+      "dimensions": "Body Length: 27 1/4 in., Chest Width: 16 1/8 in."
+    },
+    {
+      "size": "XL",
+      "price": 32,
+      "dimensions": "Body Length: 27 3/4 in., Chest Width: 17 in."
+    }
+  ],
+  "details": [
+    "Designed, produced & printed in the USA",
+    "50% polyester, 25% cotton, 25% rayon",
+    "Lightweight (3.7oz) racerback design"
+  ],
+  "type": "Tank",
+  "breadcrumbs": [
+    [
+      "Store",
+      "/store"
+    ],
+    [
+      "Womens",
+      "/store/womens"
+    ],
+    [
+      "Tri-Blend Tank",
+      "/store/womens/tank"
+    ],
+    [
+      "Disassociated (Gray)",
+      ""
+    ]
+  ],
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8/pOTlpWXmvn5+gDk5OcMEBUXGh3l5egAra2vAAUHAgwPsbG0ALe3uT1ARDU4PLq7veKvGVAPWy4EAAAAAElFTkSuQmCC",
+  "name_root": "Tri-Blend Tank"
+}

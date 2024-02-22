@@ -22,6 +22,44 @@
       "link": "/store/womens/tank",
       "logos": [
         {
+          "logo": "Disassociated",
+          "colors": [
+            "Gray",
+            "Blue",
+            "Maroon"
+          ],
+          "link": "/store/womens/tank/disassociated",
+          "image": "/images/products/womens/tank/WomensTankDisassociatedGray.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8/pOTlpWXmvn5+gDk5OcMEBUXGh3l5egAra2vAAUHAgwPsbG0ALe3uT1ARDU4PLq7veKvGVAPWy4EAAAAAElFTkSuQmCC"
+        },
+        {
+          "logo": "Family First",
+          "colors": [
+            "Gray"
+          ],
+          "link": "/store/womens/tank/family-first",
+          "image": "/images/products/womens/tank/WomensTankFamilyFirstGray.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/46Qk5OUmPr6/ADm5+sTExMfHyHr7O4AqKuwIQEAGQAAra+0ALm6vUFBQ09PVMXGyuq2GfvDGkEDAAAAAElFTkSuQmCC"
+        },
+        {
+          "logo": "Remain True",
+          "colors": [
+            "Gray"
+          ],
+          "link": "/store/womens/tank/remain-true",
+          "image": "/images/products/womens/tank/WomensTankRemainTrueGray.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz9/5GRkpubnP39/wDk4+QPIC0RJDLc29wAq6iqAAUiAAUkoJ+gAL2+wklKTldXXMbHyu0KGiQ8SRN0AAAAAElFTkSuQmCC"
+        },
+        {
+          "logo": "Business",
+          "colors": [
+            "Gray"
+          ],
+          "link": "/store/womens/tank/business",
+          "image": "/images/products/womens/tank/WomensTankBusinessGray.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP/+/5ebo5Wao/38/gDw8vZVRSJHNhHc3eIAvsDFLBYAHAAAlpecAL29vjc8Rz5CT7GysxDqGpmxQYoAAAAAAElFTkSuQmCC"
+        },
+        {
           "logo": "Small Circle",
           "colors": [
             "Gray"
@@ -106,6 +144,45 @@
       "name": "Cotton Oversized Crop",
       "link": "/store/womens/oversized-crop",
       "logos": [
+        {
+          "logo": "Disassociated",
+          "colors": [
+            "Black",
+            "Dolphin",
+            "Baby-Blue",
+            "Mauve"
+          ],
+          "link": "/store/womens/oversized-crop/disassociated",
+          "image": "/images/products/womens/oversized-crop/WomensOversized-CropDisassociatedBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/+np7ebm6Pb2+gCSk5QcHiAZGxyUlZYAra2vAAQJFxgavb7BAPn5++vr7vPy9vX1+CzUH3702e7bAAAAAElFTkSuQmCC"
+        },
+        {
+          "logo": "Family First",
+          "colors": [
+            "Black"
+          ],
+          "link": "/store/womens/oversized-crop/family-first",
+          "image": "/images/products/womens/oversized-crop/WomensOversized-CropFamilyFirstBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/+jo6+Pk5vf3+gCXmZ0PCwkHAACRkpQAxcbKGxUVIRoXxcfKAPr5/PX1+fb3/Pf3+ix5H91b8JCuAAAAAElFTkSuQmCC"
+        },
+        {
+          "logo": "Remain True",
+          "colors": [
+            "Black"
+          ],
+          "link": "/store/womens/oversized-crop/remain-true",
+          "image": "/images/products/womens/oversized-crop/WomensOversized-CropRemainTrueBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/+rp6ujn6fv7/wCZmZsKFRwJFRuUlJQAv7/ABhMbAAYUubm6APv7/+/u7/Xy8/r5/DANH6XXMyMzAAAAAElFTkSuQmCC"
+        },
+        {
+          "logo": "Business",
+          "colors": [
+            "Black"
+          ],
+          "link": "/store/womens/oversized-crop/business",
+          "image": "/images/products/womens/oversized-crop/WomensOversized-CropBusinessBlack.jpg",
+          "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP/+/+fo7ePk6vv7/wCNjpQZEgAYDwCDhIkAtLa7DAIADgAAqquwAPv6/evt8fT1+/r6/Rk3Hsa8AB3IAAAAAElFTkSuQmCC"
+        },
         {
           "logo": "Small Circle",
           "colors": [

@@ -31,6 +31,45 @@
   "logos": [
     {
       "colors": [
+        "Black",
+        "Dolphin",
+        "Baby-Blue",
+        "Mauve"
+      ],
+      "logo": "Disassociated",
+      "link": "/store/womens/oversized-crop/disassociated/black",
+      "image": "/images/products/womens/oversized-crop/WomensOversized-CropDisassociatedBlack.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/+np7ebm6Pb2+gCSk5QcHiAZGxyUlZYAra2vAAQJFxgavb7BAPn5++vr7vPy9vX1+CzUH3702e7bAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black"
+      ],
+      "logo": "Family First",
+      "link": "/store/womens/oversized-crop/family-first/black",
+      "image": "/images/products/womens/oversized-crop/WomensOversized-CropFamilyFirstBlack.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/+jo6+Pk5vf3+gCXmZ0PCwkHAACRkpQAxcbKGxUVIRoXxcfKAPr5/PX1+fb3/Pf3+ix5H91b8JCuAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black"
+      ],
+      "logo": "Remain True",
+      "link": "/store/womens/oversized-crop/remain-true/black",
+      "image": "/images/products/womens/oversized-crop/WomensOversized-CropRemainTrueBlack.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/+rp6ujn6fv7/wCZmZsKFRwJFRuUlJQAv7/ABhMbAAYUubm6APv7/+/u7/Xy8/r5/DANH6XXMyMzAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black"
+      ],
+      "logo": "Business",
+      "link": "/store/womens/oversized-crop/business/black",
+      "image": "/images/products/womens/oversized-crop/WomensOversized-CropBusinessBlack.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP/+/+fo7ePk6vv7/wCNjpQZEgAYDwCDhIkAtLa7DAIADgAAqquwAPv6/evt8fT1+/r6/Rk3Hsa8AB3IAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
         "Black"
       ],
       "logo": "Small Circle",

@@ -17,8 +17,8 @@
   ],
   "type": "Tee",
   "name": "50/50 Tee",
-  "link": "/store/mens/tee/stenciled/black",
-  "image": "/images/products/mens/tee/MensTeeStenciledBlack.jpg",
+  "link": "/store/mens/tee/business/black",
+  "image": "/images/products/mens/tee/MensTeeBusinessBlack.jpg",
   "has_image_back": true,
   "weight": 7,
   "meta": {
@@ -43,6 +43,69 @@
     "Tops"
   ],
   "logos": [
+    {
+      "colors": [
+        "Black",
+        "Gray",
+        "Green",
+        "Maroon",
+        "Navy"
+      ],
+      "name": "50/50 Tee with Disassociated",
+      "link": "/store/mens/tee/disassociated",
+      "linkColor": "/store/mens/tee/disassociated/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/mens/tee/MensTeeBackBlack.jpg",
+      "image": "/images/products/mens/tee/MensTeeDisassociatedBlack.jpg",
+      "imageColorRoot": "/images/products/mens/tee/MensTeeDisassociated",
+      "imageColorBackRoot": "/images/products/mens/tee/MensTeeBack",
+      "logo": "Disassociated"
+    },
+    {
+      "colors": [
+        "Black",
+        "Gray"
+      ],
+      "name": "50/50 Tee with Family First",
+      "link": "/store/mens/tee/family-first",
+      "linkColor": "/store/mens/tee/family-first/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/mens/tee/MensTeeBackBlack.jpg",
+      "image": "/images/products/mens/tee/MensTeeFamilyFirstBlack.jpg",
+      "imageColorRoot": "/images/products/mens/tee/MensTeeFamilyFirst",
+      "imageColorBackRoot": "/images/products/mens/tee/MensTeeBack",
+      "logo": "Family First"
+    },
+    {
+      "colors": [
+        "Black",
+        "Gray"
+      ],
+      "name": "50/50 Tee with Remain True",
+      "link": "/store/mens/tee/remain-true",
+      "linkColor": "/store/mens/tee/remain-true/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/mens/tee/MensTeeBackBlack.jpg",
+      "image": "/images/products/mens/tee/MensTeeRemainTrueBlack.jpg",
+      "imageColorRoot": "/images/products/mens/tee/MensTeeRemainTrue",
+      "imageColorBackRoot": "/images/products/mens/tee/MensTeeBack",
+      "logo": "Remain True"
+    },
+    {
+      "colors": [
+        "Black",
+        "Gray"
+      ],
+      "name": "50/50 Tee with Business",
+      "link": "/store/mens/tee/business",
+      "linkColor": "/store/mens/tee/business/black",
+      "has_image_back": true,
+      "imageBack": "/images/products/mens/tee/MensTeeBackBlack.jpg",
+      "image": "/images/products/mens/tee/MensTeeBusinessBlack.jpg",
+      "imageColorRoot": "/images/products/mens/tee/MensTeeBusiness",
+      "imageColorBackRoot": "/images/products/mens/tee/MensTeeBack",
+      "logo": "Business"
+    },
     {
       "colors": [
         "Black",
@@ -196,6 +259,18 @@
   ],
   "colorsAlt": {
     "Small Circle": [
+      "Black",
+      "Gray"
+    ],
+    "Family First": [
+      "Black",
+      "Gray"
+    ],
+    "Remain True": [
+      "Black",
+      "Gray"
+    ],
+    "Business": [
       "Black",
       "Gray"
     ]

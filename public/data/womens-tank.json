@@ -17,8 +17,8 @@
   ],
   "type": "Tank",
   "name": "Tri-Blend Tank",
-  "link": "/store/womens/tank/stamp/gray",
-  "image": "/images/products/womens/tank/WomensTankStampGray.jpg",
+  "link": "/store/womens/tank/block/gray",
+  "image": "/images/products/womens/tank/WomensTankBlockGray.jpg",
   "has_image_back": true,
   "weight": 2.6,
   "meta": {
@@ -39,6 +39,64 @@
     "Tops"
   ],
   "logos": [
+    {
+      "colors": [
+        "Gray",
+        "Blue",
+        "Maroon"
+      ],
+      "name": "Tri-Blend Tank with Disassociated",
+      "link": "/store/womens/tank/disassociated",
+      "linkColor": "/store/womens/tank/disassociated/gray",
+      "has_image_back": true,
+      "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
+      "image": "/images/products/womens/tank/WomensTankDisassociatedGray.jpg",
+      "imageColorRoot": "/images/products/womens/tank/WomensTankDisassociated",
+      "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
+      "logo": "Disassociated"
+    },
+    {
+      "colors": [
+        "Gray"
+      ],
+      "name": "Tri-Blend Tank with Family First",
+      "link": "/store/womens/tank/family-first",
+      "linkColor": "/store/womens/tank/family-first/gray",
+      "has_image_back": true,
+      "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
+      "image": "/images/products/womens/tank/WomensTankFamilyFirstGray.jpg",
+      "imageColorRoot": "/images/products/womens/tank/WomensTankFamilyFirst",
+      "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
+      "logo": "Family First"
+    },
+    {
+      "colors": [
+        "Gray"
+      ],
+      "name": "Tri-Blend Tank with Remain True",
+      "link": "/store/womens/tank/remain-true",
+      "linkColor": "/store/womens/tank/remain-true/gray",
+      "has_image_back": true,
+      "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
+      "image": "/images/products/womens/tank/WomensTankRemainTrueGray.jpg",
+      "imageColorRoot": "/images/products/womens/tank/WomensTankRemainTrue",
+      "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
+      "logo": "Remain True"
+    },
+    {
+      "colors": [
+        "Gray"
+      ],
+      "name": "Tri-Blend Tank with Business",
+      "link": "/store/womens/tank/business",
+      "linkColor": "/store/womens/tank/business/gray",
+      "has_image_back": true,
+      "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
+      "image": "/images/products/womens/tank/WomensTankBusinessGray.jpg",
+      "imageColorRoot": "/images/products/womens/tank/WomensTankBusiness",
+      "imageColorBackRoot": "/images/products/womens/tank/WomensTankBack",
+      "logo": "Business"
+    },
     {
       "colors": [
         "Gray"
@@ -168,6 +226,15 @@
   ],
   "colorsAlt": {
     "Small Circle": [
+      "Gray"
+    ],
+    "Family First": [
+      "Gray"
+    ],
+    "Remain True": [
+      "Gray"
+    ],
+    "Business": [
       "Gray"
     ]
   },

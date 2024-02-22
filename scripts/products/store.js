@@ -13,6 +13,10 @@ module.exports = [
         product: '50/50 Tee',
         has_image_back: true,
         logos: [
+          'Disassociated',
+          'Family First',
+          'Remain True',
+          'Business',
           'Small Circle',
           'Original',
           'Arch',
@@ -23,6 +27,9 @@ module.exports = [
         colors: ['Black', 'Gray', 'Green', 'Maroon', 'Navy'],
         colorsAlt: {
           'Small Circle': ['Black', 'Gray'],
+          'Family First': ['Black', 'Gray'],
+          'Remain True': ['Black', 'Gray'],
+          Business: ['Black', 'Gray'],
         },
         tags: ['Tops'],
         weight: 7,
@@ -83,6 +90,10 @@ module.exports = [
         product: 'Cotton Tank',
         has_image_back: true,
         logos: [
+          'Disassociated',
+          'Family First',
+          'Remain True',
+          'Business',
           'Small Circle',
           'Original',
           'Arch',
@@ -277,6 +288,10 @@ module.exports = [
         product: 'Tri-Blend Tank',
         has_image_back: true,
         logos: [
+          'Disassociated',
+          'Family First',
+          'Remain True',
+          'Business',
           'Small Circle',
           'Original',
           'Arch',
@@ -287,6 +302,9 @@ module.exports = [
         colors: ['Gray', 'Blue', 'Maroon'],
         colorsAlt: {
           'Small Circle': ['Gray'],
+          'Family First': ['Gray'],
+          'Remain True': ['Gray'],
+          Business: ['Gray'],
         },
         tags: ['Tops'],
         weight: 2.6,
@@ -386,6 +404,10 @@ module.exports = [
         has_image_back: true,
         product: 'Cotton Oversized Crop',
         logos: [
+          'Disassociated',
+          'Family First',
+          'Remain True',
+          'Business',
           'Small Circle',
           'Original',
           'Arch',
@@ -396,6 +418,9 @@ module.exports = [
         colors: ['Black', 'Dolphin', 'Baby-Blue', 'Mauve'],
         colorsAlt: {
           'Small Circle': ['Black'],
+          'Family First': ['Black'],
+          'Remain True': ['Black'],
+          Business: ['Black'],
         },
         tags: ['Tops'],
         weight: 2.9,

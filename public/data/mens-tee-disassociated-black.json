@@ -1,0 +1,221 @@
+{
+  "id": "mens:tee:black:disassociated",
+  "name": "50/50 Tee with Disassociated",
+  "link": "/store/mens/tee/disassociated",
+  "image": "/images/products/mens/tee/MensTeeDisassociatedBlack.jpg",
+  "imageBack": "/images/products/mens/tee/MensTeeBackBlack.jpg",
+  "has_image_back": true,
+  "color": "Black",
+  "logo": "Disassociated",
+  "weight": 7,
+  "meta": {
+    "title": "Mens 50/50 Tee (Unisex)",
+    "description": "Perfect 50/50 blend of cotton & polyester. Super-soft, lightweight (3.8oz) & durable."
+  },
+  "irl": [
+    {
+      "image": "/images/irl/MensTee-1.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AK6ysLGxqffy4+jl4ADe4dqFgHN2YVW5ubcA5N7UOSkdBwAUwr+8AP/67YVwXEQ/RN3OxEMbHdWHy73LAAAAAElFTkSuQmCC"
+    },
+    {
+      "image": "/images/irl/MensTee-2.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO3u7ebj2P/98Pb18QDd3tlUTk9oY2W9vbUA//rsEgALJx4r7uTYAP/122JRSnpqZPHh0YkkH+lh3QJiAAAAAElFTkSuQmCC"
+    },
+    {
+      "image": "/images/irl/MensTee-3.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APT8/5ufjnh2Wd3eygDKy8RISjQqKBLEwK8AxL61HR8SAggA29XOAN3h5FJVVE9LRvLw69IpGpGjTGqvAAAAAElFTkSuQmCC"
+    }
+  ],
+  "colors": [
+    "Black",
+    "Gray",
+    "Green",
+    "Maroon",
+    "Navy"
+  ],
+  "logos": [
+    {
+      "colors": [
+        "Black",
+        "Gray",
+        "Green",
+        "Maroon",
+        "Navy"
+      ],
+      "logo": "Disassociated",
+      "link": "/store/mens/tee/disassociated/black",
+      "image": "/images/products/mens/tee/MensTeeDisassociatedBlack.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO7u8Z2gpJOUmdfY2wCysrgcISghJi2PkpcA+fn7FhkfAAEP29veAP39/4eKj3l8geTk5uHDHEKI9esqAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black",
+        "Gray"
+      ],
+      "logo": "Family First",
+      "link": "/store/mens/tee/family-first/black",
+      "image": "/images/products/mens/tee/MensTeeFamilyFirstBlack.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AN3d4ZSVmJSWmtvc3wC3usArJycyKSadoacA/f3/FxkeAQIJzM3SAPv8/peaoJ2gpu3t8OM4HPiyZvt4AAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black",
+        "Gray"
+      ],
+      "logo": "Remain True",
+      "link": "/store/mens/tee/remain-true/black",
+      "image": "/images/products/mens/tee/MensTeeRemainTrueBlack.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AM7R1256gm96hs7R1wClp6sAIjoAL0imp64A9PX6AAsbAAMY3uDmAPv9/3+Ej3yDjevt8qfBGzKXZBU2AAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black",
+        "Gray"
+      ],
+      "logo": "Business",
+      "link": "/store/mens/tee/business/black",
+      "image": "/images/products/mens/tee/MensTeeBusinessBlack.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AODi55ublp6dlOXl6wCxsrsmIg41LhKnqrIA/Pz+BAkUAAIO2tvgAPf3+oGFiX2AheTl6OOBHEwNePGrAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black",
+        "Gray"
+      ],
+      "logo": "Small Circle",
+      "link": "/store/mens/tee/small-circle/black",
+      "image": "/images/products/mens/tee/MensTeeSmallCircleBlack.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AN3a2pmJiZuIid/b3QCknp0yCxY8GCK5tLUA7ufnDQAHFg8S7uroAP38/5SUlJmXl/Hv8Mr4HFw9dcuuAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black",
+        "Gray",
+        "Green",
+        "Maroon",
+        "Navy"
+      ],
+      "logo": "Original",
+      "link": "/store/mens/tee/original/black",
+      "image": "/images/products/mens/tee/MensTeeOriginalBlack.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOnu86GkrpSYne7v8wC3u8A7PUY9PULExMcA6+vsDQ0RAgICv76/AP7+/2xtbnx8fO/v8ApqHQVfivAJAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black",
+        "Gray",
+        "Green",
+        "Maroon",
+        "Navy"
+      ],
+      "logo": "Arch",
+      "link": "/store/mens/tee/arch/black",
+      "image": "/images/products/mens/tee/MensTeeArchBlack.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AObm656en5aWltnY2AC9vsFHR0lRT065ubkA8vL0EQ8OBQEA2NjYAPv7/3Jycm5tauPj4wKnHNcXE1ghAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black",
+        "Gray",
+        "Green",
+        "Maroon",
+        "Navy"
+      ],
+      "logo": "Block",
+      "link": "/store/mens/tee/block/black",
+      "image": "/images/products/mens/tee/MensTeeBlockBlack.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ANXV15GRlIWEiMjIygCenqBCQUJJR0exsLMA9fP2FA4KDQAA09DRAP///2lmZmtoaOjo6MrFG18Qnp67AAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black",
+        "Gray",
+        "Green",
+        "Maroon",
+        "Navy"
+      ],
+      "logo": "Stamp",
+      "link": "/store/mens/tee/stamp/black",
+      "image": "/images/products/mens/tee/MensTeeStampBlack.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ANDQ0oiIiouKitnZ2QCvr7AyLy8/Ozu2trcA+fj7BwAAGRMO9fT1APr7/HVyc398e/z8/dSZHG6zG2hRAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black",
+        "Gray",
+        "Green",
+        "Maroon",
+        "Navy"
+      ],
+      "logo": "Stenciled",
+      "link": "/store/mens/tee/stenciled/black",
+      "image": "/images/products/mens/tee/MensTeeStenciledBlack.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOvr7qinrbKwtv7+/wDLy9BFRExEQknAwMQA29veDgwWBgMQ6OjrAOzs8IKBh359gvf2+TAsHm9KhdxaAAAAAElFTkSuQmCC"
+    }
+  ],
+  "sizes": [
+    {
+      "size": "S",
+      "price": 32,
+      "dimensions": "Body Length: 28 1/2 in., Chest Width: 18 in., Sleeve Length: 8 in."
+    },
+    {
+      "size": "M",
+      "price": 32,
+      "dimensions": "Body Length: 29 1/2 in., Chest Width: 20 in., Sleeve Length: 8 1/4 in."
+    },
+    {
+      "size": "L",
+      "price": 32,
+      "dimensions": "Body Length: 30 1/2 in., Chest Width: 22 in., Sleeve Length: 8 1/2 in."
+    },
+    {
+      "size": "XL",
+      "price": 32,
+      "dimensions": "Body Length: 31 1/2 in., Chest Width: 24 in., Sleeve Length: 8 3/4 in."
+    },
+    {
+      "size": "XXL",
+      "price": 32,
+      "dimensions": "Body Length: 32 1/2 in., Chest Width:  26 in., Sleeve Length: 9 in."
+    },
+    {
+      "size": "XXXL",
+      "price": 32,
+      "dimensions": "Body Length: 32 1/2 in., Chest Width:  26 in., Sleeve Length: 9 in.",
+      "colors": [
+        "Black",
+        "Gray",
+        "Maroon",
+        "Navy"
+      ]
+    }
+  ],
+  "details": [
+    "Designed, produced & printed in the USA",
+    "Perfect 50/50 blend of cotton & polyester",
+    "Super-soft, lightweight (3.8oz) & durable",
+    "Unisex, check size chart"
+  ],
+  "type": "Tee",
+  "breadcrumbs": [
+    [
+      "Store",
+      "/store"
+    ],
+    [
+      "Mens",
+      "/store/mens"
+    ],
+    [
+      "50/50 Tee",
+      "/store/mens/tee"
+    ],
+    [
+      "Disassociated (Black)",
+      ""
+    ]
+  ],
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO7u8Z2gpJOUmdfY2wCysrgcISghJi2PkpcA+fn7FhkfAAEP29veAP39/4eKj3l8geTk5uHDHEKI9esqAAAAAElFTkSuQmCC",
+  "name_root": "50/50 Tee"
+}

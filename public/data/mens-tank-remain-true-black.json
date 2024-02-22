@@ -1,0 +1,164 @@
+{
+  "id": "mens:tank:black:remain-true",
+  "name": "Cotton Tank with Remain True",
+  "link": "/store/mens/tank/remain-true",
+  "image": "/images/products/mens/tank/MensTankRemainTrueBlack.jpg",
+  "imageBack": "/images/products/mens/tank/MensTankBackBlack.jpg",
+  "has_image_back": true,
+  "color": "Black",
+  "logo": "Remain True",
+  "weight": 5.7,
+  "meta": {
+    "title": "Mens Cotton Tank",
+    "description": "100% Pre-washed, no-shrink cotton. Lightweight (6.5oz)  and durable"
+  },
+  "irl": [],
+  "colors": [
+    "Black"
+  ],
+  "logos": [
+    {
+      "colors": [
+        "Black"
+      ],
+      "logo": "Disassociated",
+      "link": "/store/mens/tank/disassociated/black",
+      "image": "/images/products/mens/tank/MensTankDisassociatedBlack.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/5mZnJSUmfz8/wDZ2ds4Oj8pKzLR0dUAp6eoEBEVAQIJmJicAMXGyXFxdnd4fcTEyfsiGyoZCwi/AAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black"
+      ],
+      "logo": "Family First",
+      "link": "/store/mens/tank/family-first/black",
+      "image": "/images/products/mens/tank/MensTankFamilyFirstBlack.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8/YqNk4mMk/39/gDLy9JBNC8uIyLIytAAjo+RFgsGCgEChoeMALKyt1JXX1JXYaytstFmGNQzCU9tAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black"
+      ],
+      "logo": "Remain True",
+      "link": "/store/mens/tank/remain-true/black",
+      "image": "/images/products/mens/tank/MensTankRemainTrueBlack.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/4mJiouKjP39/wDDwcIVLT8PJzrKx8oAhYSFAAALAAAHlJSUAKKipkpKUFVWXLKzuLyqGBAR5RqdAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black"
+      ],
+      "logo": "Business",
+      "link": "/store/mens/tank/business/black",
+      "image": "/images/products/mens/tank/MensTankBusinessBlack.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP79/42Ql4iKk/z8/wDIytREORhAMwvHyM8AlJSZCwcCCAMAhoaLAKytsklMVlRWYaiqrdCmGJkA0QC9AAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black"
+      ],
+      "logo": "Small Circle",
+      "link": "/store/mens/tank/small-circle/black",
+      "image": "/images/products/mens/tank/MensTankSmallCircleBlack.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz7/5Wbp6astP/+/wDd4ulIJTZHKjnZ3uUAw8XNFgYaBwAVsra+ANTU219lcVphb8nL0iHjHHbT66xOAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black"
+      ],
+      "logo": "Original",
+      "link": "/store/mens/tank/original/black",
+      "image": "/images/products/mens/tank/MensTankOriginalBlack.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APX1+Y+QlqSmrPz8/wDAwMQyMTdKSlHa2t4Ao6OmAwEJFRMYtbW3AMLCxFVVWF1dX8vMzvuCGv1XJNqEAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black"
+      ],
+      "logo": "Arch",
+      "link": "/store/mens/tank/arch/black",
+      "image": "/images/products/mens/tank/MensTankArchBlack.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv6/ZiboZ+hp/39/wDV1dYxMTdDRUrd3d8AsrK0BAMLFxcZvb2/AMbGyExMTlZWVs7O0Q6oG35NAdZZAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black"
+      ],
+      "logo": "Block",
+      "link": "/store/mens/tank/block/black",
+      "image": "/images/products/mens/tank/MensTankBlockBlack.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/4aJj4+SmPv7/wDIys0iIygtLjfS0tYAqquuAgEKCAgOo6SnAMLCxDY4PD9AQcXFyNlPGTpp0Ej9AAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black"
+      ],
+      "logo": "Stamp",
+      "link": "/store/mens/tank/stamp/black",
+      "image": "/images/products/mens/tank/MensTankStampBlack.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/ZCSmaGjqPv7/wDR0dMrKzJAQEjc3N8Au7u+BQMKFxcav7/BANXV1lRUV19fYdLS1QuOG9BpWI2XAAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Black"
+      ],
+      "logo": "Stenciled",
+      "link": "/store/mens/tank/stenciled/black",
+      "image": "/images/products/mens/tank/MensTankStenciledBlack.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APT094OEipucovv7/wC7u74wMDZQUFbV1dgAmJibBQMIFBQXq6utALy9wENDR0tMTcfHyeQsGd/tZmn6AAAAAElFTkSuQmCC"
+    }
+  ],
+  "sizes": [
+    {
+      "size": "S",
+      "price": 32,
+      "dimensions": "Body Length: 28 3/8 in., Chest Width:  18 in."
+    },
+    {
+      "size": "M",
+      "price": 32,
+      "dimensions": "Body Length: 29 3/8 in., Chest Width:  20 in."
+    },
+    {
+      "size": "L",
+      "price": 32,
+      "dimensions": "Body Length: 30 3/8 in., Chest Width:  22 in."
+    },
+    {
+      "size": "XL",
+      "price": 32,
+      "dimensions": "Body Length: 31 3/8 in., Chest Width:  24 in."
+    },
+    {
+      "size": "XXL",
+      "price": 32,
+      "dimensions": "Body Length: 32 3/8 in., Chest Width:  26 in."
+    }
+  ],
+  "details": [
+    "Designed, produced & printed in the USA",
+    "100% Pre-washed, no-shrink cotton",
+    "Lightweight (6.5oz)  and durable"
+  ],
+  "type": "Tank",
+  "breadcrumbs": [
+    [
+      "Store",
+      "/store"
+    ],
+    [
+      "Mens",
+      "/store/mens"
+    ],
+    [
+      "Cotton Tank",
+      "/store/mens/tank"
+    ],
+    [
+      "Remain True (Black)",
+      ""
+    ]
+  ],
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/4mJiouKjP39/wDDwcIVLT8PJzrKx8oAhYSFAAALAAAHlJSUAKKipkpKUFVWXLKzuLyqGBAR5RqdAAAAAElFTkSuQmCC",
+  "name_root": "Cotton Tank"
+}

@@ -34,6 +34,17 @@
         "Blue",
         "Maroon"
       ],
+      "logo": "Disassociated",
+      "link": "/store/womens/tank/disassociated/blue",
+      "image": "/images/products/womens/tank/WomensTankDisassociatedBlue.jpg",
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz7/KSotZidq/n4+gDu7vIZKUgJHjzf3+IAubzHAA4tAAIniI2cALy+x0BJYkpTa6+zvwqjGsHl7vc3AAAAAElFTkSuQmCC"
+    },
+    {
+      "colors": [
+        "Gray",
+        "Blue",
+        "Maroon"
+      ],
       "logo": "Original",
       "link": "/store/womens/tank/original/blue",
       "image": "/images/products/womens/tank/WomensTankOriginalBlue.jpg",
