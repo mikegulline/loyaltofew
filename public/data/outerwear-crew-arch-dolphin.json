@@ -1,9 +1,9 @@
 {
-  "id": "outerwear:crew:dolphin:arch",
+  "id": "undefined:undefined:dolphin:arch",
   "name": "Cotton Crew with Arch",
   "link": "/store/outerwear/crew/arch",
   "image": "/images/products/outerwear/crew/OuterwearCrewArchDolphin.jpg",
-  "imageBack": "/images/products/outerwear/crew/OuterwearCrewBackDolphin.jpg",
+  "imageBack": "/images/products/outerwear/crew/OuterwearCrewDolphinBack.jpg",
   "has_image_back": true,
   "color": "Dolphin",
   "logo": "Arch",

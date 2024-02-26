@@ -1,9 +1,9 @@
 {
-  "id": "womens:tank:gray:remain-true",
+  "id": "undefined:undefined:gray:remain-true",
   "name": "Tri-Blend Tank with Remain True",
   "link": "/store/womens/tank/remain-true",
   "image": "/images/products/womens/tank/WomensTankRemainTrueGray.jpg",
-  "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
+  "imageBack": "/images/products/womens/tank/WomensTankRemainTrueGrayBack.jpg",
   "has_image_back": true,
   "color": "Gray",
   "logo": "Remain True",

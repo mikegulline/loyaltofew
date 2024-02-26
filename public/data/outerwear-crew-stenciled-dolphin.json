@@ -1,9 +1,9 @@
 {
-  "id": "outerwear:crew:dolphin:stenciled",
+  "id": "undefined:undefined:dolphin:stenciled",
   "name": "Cotton Crew with Stenciled",
   "link": "/store/outerwear/crew/stenciled",
   "image": "/images/products/outerwear/crew/OuterwearCrewStenciledDolphin.jpg",
-  "imageBack": "/images/products/outerwear/crew/OuterwearCrewBackDolphin.jpg",
+  "imageBack": "/images/products/outerwear/crew/OuterwearCrewDolphinBack.jpg",
   "has_image_back": true,
   "color": "Dolphin",
   "logo": "Stenciled",

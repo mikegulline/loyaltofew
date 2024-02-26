@@ -12,6 +12,7 @@ module.exports = [
         type: 'Tee',
         product: '50/50 Tee',
         has_image_back: true,
+        unique_back: ['Family First', 'Remain True', 'Business'],
         logos: [
           'Disassociated',
           'Family First',
@@ -89,6 +90,7 @@ module.exports = [
         type: 'Tank',
         product: 'Cotton Tank',
         has_image_back: true,
+        unique_back: ['Family First', 'Remain True', 'Business'],
         logos: [
           'Disassociated',
           'Family First',
@@ -147,6 +149,7 @@ module.exports = [
         type: 'Sleeves',
         product: 'Cotton Long-Sleeve',
         has_image_back: true,
+        unique_back: ['Family First', 'Remain True', 'Business'],
         logos: [
           'Disassociated',
           'Family First',
@@ -287,6 +290,7 @@ module.exports = [
         type: 'Tank',
         product: 'Tri-Blend Tank',
         has_image_back: true,
+        unique_back: ['Family First', 'Remain True', 'Business'],
         logos: [
           'Disassociated',
           'Family First',
@@ -401,8 +405,9 @@ module.exports = [
       // },
       {
         type: 'Oversized-Crop',
-        has_image_back: true,
         product: 'Cotton Oversized Crop',
+        has_image_back: true,
+        unique_back: ['Family First', 'Remain True', 'Business'],
         logos: [
           'Disassociated',
           'Family First',
@@ -418,6 +423,11 @@ module.exports = [
         colors: ['Black', 'Dolphin', 'Baby-Blue', 'Mauve'],
         colorsAlt: {
           'Small Circle': ['Black'],
+          'Family First': ['Black'],
+          'Remain True': ['Black'],
+          Business: ['Black'],
+        },
+        backAlt: {
           'Family First': ['Black'],
           'Remain True': ['Black'],
           Business: ['Black'],

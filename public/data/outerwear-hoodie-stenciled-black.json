@@ -1,9 +1,9 @@
 {
-  "id": "outerwear:hoodie:black:stenciled",
+  "id": "undefined:undefined:black:stenciled",
   "name": "Cotton Hoodie with Stenciled",
   "link": "/store/outerwear/hoodie/stenciled",
   "image": "/images/products/outerwear/hoodie/OuterwearHoodieStenciledBlack.jpg",
-  "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieBackBlack.jpg",
+  "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieBlackBack.jpg",
   "has_image_back": false,
   "color": "Black",
   "logo": "Stenciled",

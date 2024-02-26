@@ -1,9 +1,9 @@
 {
-  "id": "mens:tank:black:disassociated",
+  "id": "undefined:undefined:black:disassociated",
   "name": "Cotton Tank with Disassociated",
   "link": "/store/mens/tank/disassociated",
   "image": "/images/products/mens/tank/MensTankDisassociatedBlack.jpg",
-  "imageBack": "/images/products/mens/tank/MensTankBackBlack.jpg",
+  "imageBack": "/images/products/mens/tank/MensTankBlackBack.jpg",
   "has_image_back": true,
   "color": "Black",
   "logo": "Disassociated",

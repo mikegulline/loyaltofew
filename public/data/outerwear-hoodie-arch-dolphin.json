@@ -1,9 +1,9 @@
 {
-  "id": "outerwear:hoodie:dolphin:arch",
+  "id": "undefined:undefined:dolphin:arch",
   "name": "Cotton Hoodie with Arch",
   "link": "/store/outerwear/hoodie/arch",
   "image": "/images/products/outerwear/hoodie/OuterwearHoodieArchDolphin.jpg",
-  "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieBackDolphin.jpg",
+  "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieDolphinBack.jpg",
   "has_image_back": false,
   "color": "Dolphin",
   "logo": "Arch",

@@ -1,9 +1,9 @@
 {
-  "id": "mens:tee:maroon:stamp",
+  "id": "undefined:undefined:maroon:stamp",
   "name": "50/50 Tee with Stamp",
   "link": "/store/mens/tee/stamp",
   "image": "/images/products/mens/tee/MensTeeStampMaroon.jpg",
-  "imageBack": "/images/products/mens/tee/MensTeeBackMaroon.jpg",
+  "imageBack": "/images/products/mens/tee/MensTeeMaroonBack.jpg",
   "has_image_back": true,
   "color": "Maroon",
   "logo": "Stamp",

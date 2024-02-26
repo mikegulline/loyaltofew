@@ -1,9 +1,9 @@
 {
-  "id": "mens:sleeves:black:disassociated",
+  "id": "undefined:undefined:black:disassociated",
   "name": "Cotton Long-Sleeve with Disassociated",
   "link": "/store/mens/sleeves/disassociated",
   "image": "/images/products/mens/sleeves/MensSleevesDisassociatedBlack.jpg",
-  "imageBack": "/images/products/mens/sleeves/MensSleevesBackBlack.jpg",
+  "imageBack": "/images/products/mens/sleeves/MensSleevesBlackBack.jpg",
   "has_image_back": true,
   "color": "Black",
   "logo": "Disassociated",

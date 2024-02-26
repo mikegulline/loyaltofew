@@ -1,9 +1,9 @@
 {
-  "id": "outerwear:crew:black:stenciled",
+  "id": "undefined:undefined:black:stenciled",
   "name": "Cotton Crew with Stenciled",
   "link": "/store/outerwear/crew/stenciled",
   "image": "/images/products/outerwear/crew/OuterwearCrewStenciledBlack.jpg",
-  "imageBack": "/images/products/outerwear/crew/OuterwearCrewBackBlack.jpg",
+  "imageBack": "/images/products/outerwear/crew/OuterwearCrewBlackBack.jpg",
   "has_image_back": true,
   "color": "Black",
   "logo": "Stenciled",

@@ -1,9 +1,9 @@
 {
-  "id": "mens:tee:gray:block",
+  "id": "undefined:undefined:gray:block",
   "name": "50/50 Tee with Block",
   "link": "/store/mens/tee/block",
   "image": "/images/products/mens/tee/MensTeeBlockGray.jpg",
-  "imageBack": "/images/products/mens/tee/MensTeeBackGray.jpg",
+  "imageBack": "/images/products/mens/tee/MensTeeGrayBack.jpg",
   "has_image_back": true,
   "color": "Gray",
   "logo": "Block",

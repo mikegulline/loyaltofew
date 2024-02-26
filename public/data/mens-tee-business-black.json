@@ -1,9 +1,9 @@
 {
-  "id": "mens:tee:black:business",
+  "id": "undefined:undefined:black:business",
   "name": "50/50 Tee with Business",
   "link": "/store/mens/tee/business",
   "image": "/images/products/mens/tee/MensTeeBusinessBlack.jpg",
-  "imageBack": "/images/products/mens/tee/MensTeeBackBlack.jpg",
+  "imageBack": "/images/products/mens/tee/MensTeeBusinessBlackBack.jpg",
   "has_image_back": true,
   "color": "Black",
   "logo": "Business",

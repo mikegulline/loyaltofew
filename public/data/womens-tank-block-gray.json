@@ -1,9 +1,9 @@
 {
-  "id": "womens:tank:gray:block",
+  "id": "undefined:undefined:gray:block",
   "name": "Tri-Blend Tank with Block",
   "link": "/store/womens/tank/block",
   "image": "/images/products/womens/tank/WomensTankBlockGray.jpg",
-  "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
+  "imageBack": "/images/products/womens/tank/WomensTankGrayBack.jpg",
   "has_image_back": true,
   "color": "Gray",
   "logo": "Block",

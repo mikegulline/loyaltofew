@@ -1,9 +1,9 @@
 {
-  "id": "outerwear:crew:dolphin:original",
+  "id": "undefined:undefined:dolphin:original",
   "name": "Cotton Crew with Original",
   "link": "/store/outerwear/crew/original",
   "image": "/images/products/outerwear/crew/OuterwearCrewOriginalDolphin.jpg",
-  "imageBack": "/images/products/outerwear/crew/OuterwearCrewBackDolphin.jpg",
+  "imageBack": "/images/products/outerwear/crew/OuterwearCrewDolphinBack.jpg",
   "has_image_back": true,
   "color": "Dolphin",
   "logo": "Original",

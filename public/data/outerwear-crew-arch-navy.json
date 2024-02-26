@@ -1,9 +1,9 @@
 {
-  "id": "outerwear:crew:navy:arch",
+  "id": "undefined:undefined:navy:arch",
   "name": "Cotton Crew with Arch",
   "link": "/store/outerwear/crew/arch",
   "image": "/images/products/outerwear/crew/OuterwearCrewArchNavy.jpg",
-  "imageBack": "/images/products/outerwear/crew/OuterwearCrewBackNavy.jpg",
+  "imageBack": "/images/products/outerwear/crew/OuterwearCrewNavyBack.jpg",
   "has_image_back": true,
   "color": "Navy",
   "logo": "Arch",

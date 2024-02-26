@@ -1,9 +1,9 @@
 {
-  "id": "mens:tee:gray:business",
+  "id": "undefined:undefined:gray:business",
   "name": "50/50 Tee with Business",
   "link": "/store/mens/tee/business",
   "image": "/images/products/mens/tee/MensTeeBusinessGray.jpg",
-  "imageBack": "/images/products/mens/tee/MensTeeBackGray.jpg",
+  "imageBack": "/images/products/mens/tee/MensTeeBusinessGrayBack.jpg",
   "has_image_back": true,
   "color": "Gray",
   "logo": "Business",

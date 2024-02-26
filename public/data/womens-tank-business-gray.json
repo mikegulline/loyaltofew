@@ -1,9 +1,9 @@
 {
-  "id": "womens:tank:gray:business",
+  "id": "undefined:undefined:gray:business",
   "name": "Tri-Blend Tank with Business",
   "link": "/store/womens/tank/business",
   "image": "/images/products/womens/tank/WomensTankBusinessGray.jpg",
-  "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
+  "imageBack": "/images/products/womens/tank/WomensTankBusinessGrayBack.jpg",
   "has_image_back": true,
   "color": "Gray",
   "logo": "Business",

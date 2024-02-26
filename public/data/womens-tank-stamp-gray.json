@@ -1,9 +1,9 @@
 {
-  "id": "womens:tank:gray:stamp",
+  "id": "undefined:undefined:gray:stamp",
   "name": "Tri-Blend Tank with Stamp",
   "link": "/store/womens/tank/stamp",
   "image": "/images/products/womens/tank/WomensTankStampGray.jpg",
-  "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
+  "imageBack": "/images/products/womens/tank/WomensTankGrayBack.jpg",
   "has_image_back": true,
   "color": "Gray",
   "logo": "Stamp",

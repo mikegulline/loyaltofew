@@ -1,9 +1,9 @@
 {
-  "id": "outerwear:hoodie:green:arch",
+  "id": "undefined:undefined:green:arch",
   "name": "Cotton Hoodie with Arch",
   "link": "/store/outerwear/hoodie/arch",
   "image": "/images/products/outerwear/hoodie/OuterwearHoodieArchGreen.jpg",
-  "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieBackGreen.jpg",
+  "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieGreenBack.jpg",
   "has_image_back": false,
   "color": "Green",
   "logo": "Arch",

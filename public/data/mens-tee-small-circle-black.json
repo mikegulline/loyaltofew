@@ -1,9 +1,9 @@
 {
-  "id": "mens:tee:black:small-circle",
+  "id": "undefined:undefined:black:small-circle",
   "name": "50/50 Tee with Small Circle",
   "link": "/store/mens/tee/small-circle",
   "image": "/images/products/mens/tee/MensTeeSmallCircleBlack.jpg",
-  "imageBack": "/images/products/mens/tee/MensTeeBackBlack.jpg",
+  "imageBack": "/images/products/mens/tee/MensTeeBlackBack.jpg",
   "has_image_back": true,
   "color": "Black",
   "logo": "Small Circle",

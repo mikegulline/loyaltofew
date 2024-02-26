@@ -1,9 +1,9 @@
 {
-  "id": "outerwear:hoodie:green:stamp",
+  "id": "undefined:undefined:green:stamp",
   "name": "Cotton Hoodie with Stamp",
   "link": "/store/outerwear/hoodie/stamp",
   "image": "/images/products/outerwear/hoodie/OuterwearHoodieStampGreen.jpg",
-  "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieBackGreen.jpg",
+  "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieGreenBack.jpg",
   "has_image_back": false,
   "color": "Green",
   "logo": "Stamp",

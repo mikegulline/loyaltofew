@@ -1,9 +1,9 @@
 {
-  "id": "mens:tee:maroon:stenciled",
+  "id": "undefined:undefined:maroon:stenciled",
   "name": "50/50 Tee with Stenciled",
   "link": "/store/mens/tee/stenciled",
   "image": "/images/products/mens/tee/MensTeeStenciledMaroon.jpg",
-  "imageBack": "/images/products/mens/tee/MensTeeBackMaroon.jpg",
+  "imageBack": "/images/products/mens/tee/MensTeeMaroonBack.jpg",
   "has_image_back": true,
   "color": "Maroon",
   "logo": "Stenciled",

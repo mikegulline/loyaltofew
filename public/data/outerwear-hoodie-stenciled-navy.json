@@ -1,9 +1,9 @@
 {
-  "id": "outerwear:hoodie:navy:stenciled",
+  "id": "undefined:undefined:navy:stenciled",
   "name": "Cotton Hoodie with Stenciled",
   "link": "/store/outerwear/hoodie/stenciled",
   "image": "/images/products/outerwear/hoodie/OuterwearHoodieStenciledNavy.jpg",
-  "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieBackNavy.jpg",
+  "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieNavyBack.jpg",
   "has_image_back": false,
   "color": "Navy",
   "logo": "Stenciled",

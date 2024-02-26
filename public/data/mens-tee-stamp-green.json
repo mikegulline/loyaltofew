@@ -1,9 +1,9 @@
 {
-  "id": "mens:tee:green:stamp",
+  "id": "undefined:undefined:green:stamp",
   "name": "50/50 Tee with Stamp",
   "link": "/store/mens/tee/stamp",
   "image": "/images/products/mens/tee/MensTeeStampGreen.jpg",
-  "imageBack": "/images/products/mens/tee/MensTeeBackGreen.jpg",
+  "imageBack": "/images/products/mens/tee/MensTeeGreenBack.jpg",
   "has_image_back": true,
   "color": "Green",
   "logo": "Stamp",

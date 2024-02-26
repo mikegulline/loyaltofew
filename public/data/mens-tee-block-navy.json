@@ -1,9 +1,9 @@
 {
-  "id": "mens:tee:navy:block",
+  "id": "undefined:undefined:navy:block",
   "name": "50/50 Tee with Block",
   "link": "/store/mens/tee/block",
   "image": "/images/products/mens/tee/MensTeeBlockNavy.jpg",
-  "imageBack": "/images/products/mens/tee/MensTeeBackNavy.jpg",
+  "imageBack": "/images/products/mens/tee/MensTeeNavyBack.jpg",
   "has_image_back": true,
   "color": "Navy",
   "logo": "Block",

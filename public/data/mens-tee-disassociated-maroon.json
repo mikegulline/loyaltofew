@@ -1,9 +1,9 @@
 {
-  "id": "mens:tee:maroon:disassociated",
+  "id": "undefined:undefined:maroon:disassociated",
   "name": "50/50 Tee with Disassociated",
   "link": "/store/mens/tee/disassociated",
   "image": "/images/products/mens/tee/MensTeeDisassociatedMaroon.jpg",
-  "imageBack": "/images/products/mens/tee/MensTeeBackMaroon.jpg",
+  "imageBack": "/images/products/mens/tee/MensTeeMaroonBack.jpg",
   "has_image_back": true,
   "color": "Maroon",
   "logo": "Disassociated",

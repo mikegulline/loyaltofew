@@ -1,9 +1,9 @@
 {
-  "id": "mens:sleeves:gray:business",
+  "id": "undefined:undefined:gray:business",
   "name": "Cotton Long-Sleeve with Business",
   "link": "/store/mens/sleeves/business",
   "image": "/images/products/mens/sleeves/MensSleevesBusinessGray.jpg",
-  "imageBack": "/images/products/mens/sleeves/MensSleevesBackGray.jpg",
+  "imageBack": "/images/products/mens/sleeves/MensSleevesBusinessGrayBack.jpg",
   "has_image_back": true,
   "color": "Gray",
   "logo": "Business",

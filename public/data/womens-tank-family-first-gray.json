@@ -1,9 +1,9 @@
 {
-  "id": "womens:tank:gray:family-first",
+  "id": "undefined:undefined:gray:family-first",
   "name": "Tri-Blend Tank with Family First",
   "link": "/store/womens/tank/family-first",
   "image": "/images/products/womens/tank/WomensTankFamilyFirstGray.jpg",
-  "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
+  "imageBack": "/images/products/womens/tank/WomensTankFamilyFirstGrayBack.jpg",
   "has_image_back": true,
   "color": "Gray",
   "logo": "Family First",

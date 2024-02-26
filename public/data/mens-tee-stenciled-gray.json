@@ -1,9 +1,9 @@
 {
-  "id": "mens:tee:gray:stenciled",
+  "id": "undefined:undefined:gray:stenciled",
   "name": "50/50 Tee with Stenciled",
   "link": "/store/mens/tee/stenciled",
   "image": "/images/products/mens/tee/MensTeeStenciledGray.jpg",
-  "imageBack": "/images/products/mens/tee/MensTeeBackGray.jpg",
+  "imageBack": "/images/products/mens/tee/MensTeeGrayBack.jpg",
   "has_image_back": true,
   "color": "Gray",
   "logo": "Stenciled",

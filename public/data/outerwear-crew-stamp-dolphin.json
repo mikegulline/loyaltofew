@@ -1,9 +1,9 @@
 {
-  "id": "outerwear:crew:dolphin:stamp",
+  "id": "undefined:undefined:dolphin:stamp",
   "name": "Cotton Crew with Stamp",
   "link": "/store/outerwear/crew/stamp",
   "image": "/images/products/outerwear/crew/OuterwearCrewStampDolphin.jpg",
-  "imageBack": "/images/products/outerwear/crew/OuterwearCrewBackDolphin.jpg",
+  "imageBack": "/images/products/outerwear/crew/OuterwearCrewDolphinBack.jpg",
   "has_image_back": true,
   "color": "Dolphin",
   "logo": "Stamp",

@@ -1,9 +1,9 @@
 {
-  "id": "mens:tank:black:arch",
+  "id": "undefined:undefined:black:arch",
   "name": "Cotton Tank with Arch",
   "link": "/store/mens/tank/arch",
   "image": "/images/products/mens/tank/MensTankArchBlack.jpg",
-  "imageBack": "/images/products/mens/tank/MensTankBackBlack.jpg",
+  "imageBack": "/images/products/mens/tank/MensTankBlackBack.jpg",
   "has_image_back": true,
   "color": "Black",
   "logo": "Arch",

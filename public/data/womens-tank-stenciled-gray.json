@@ -1,9 +1,9 @@
 {
-  "id": "womens:tank:gray:stenciled",
+  "id": "undefined:undefined:gray:stenciled",
   "name": "Tri-Blend Tank with Stenciled",
   "link": "/store/womens/tank/stenciled",
   "image": "/images/products/womens/tank/WomensTankStenciledGray.jpg",
-  "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
+  "imageBack": "/images/products/womens/tank/WomensTankGrayBack.jpg",
   "has_image_back": true,
   "color": "Gray",
   "logo": "Stenciled",

@@ -1,9 +1,9 @@
 {
-  "id": "outerwear:hoodie:navy:block",
+  "id": "undefined:undefined:navy:block",
   "name": "Cotton Hoodie with Block",
   "link": "/store/outerwear/hoodie/block",
   "image": "/images/products/outerwear/hoodie/OuterwearHoodieBlockNavy.jpg",
-  "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieBackNavy.jpg",
+  "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieNavyBack.jpg",
   "has_image_back": false,
   "color": "Navy",
   "logo": "Block",

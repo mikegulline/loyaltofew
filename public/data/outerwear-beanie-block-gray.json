@@ -1,9 +1,9 @@
 {
-  "id": "outerwear:beanie:gray:block",
+  "id": "undefined:undefined:gray:block",
   "name": "Knit Beanie with Block",
   "link": "/store/outerwear/beanie/block",
   "image": "/images/products/outerwear/beanie/OuterwearBeanieBlockGray.jpg",
-  "imageBack": "/images/products/outerwear/beanie/OuterwearBeanieBackGray.jpg",
+  "imageBack": "/images/products/outerwear/beanie/OuterwearBeanieGrayBack.jpg",
   "has_image_back": false,
   "color": "Gray",
   "logo": "Block",

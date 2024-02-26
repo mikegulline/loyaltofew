@@ -1,9 +1,9 @@
 {
-  "id": "mens:sleeves:gray:original",
+  "id": "undefined:undefined:gray:original",
   "name": "Cotton Long-Sleeve with Original",
   "link": "/store/mens/sleeves/original",
   "image": "/images/products/mens/sleeves/MensSleevesOriginalGray.jpg",
-  "imageBack": "/images/products/mens/sleeves/MensSleevesBackGray.jpg",
+  "imageBack": "/images/products/mens/sleeves/MensSleevesGrayBack.jpg",
   "has_image_back": true,
   "color": "Gray",
   "logo": "Original",

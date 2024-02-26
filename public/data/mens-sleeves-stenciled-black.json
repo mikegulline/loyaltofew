@@ -1,9 +1,9 @@
 {
-  "id": "mens:sleeves:black:stenciled",
+  "id": "undefined:undefined:black:stenciled",
   "name": "Cotton Long-Sleeve with Stenciled",
   "link": "/store/mens/sleeves/stenciled",
   "image": "/images/products/mens/sleeves/MensSleevesStenciledBlack.jpg",
-  "imageBack": "/images/products/mens/sleeves/MensSleevesBackBlack.jpg",
+  "imageBack": "/images/products/mens/sleeves/MensSleevesBlackBack.jpg",
   "has_image_back": true,
   "color": "Black",
   "logo": "Stenciled",

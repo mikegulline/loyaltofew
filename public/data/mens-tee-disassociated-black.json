@@ -1,9 +1,9 @@
 {
-  "id": "mens:tee:black:disassociated",
+  "id": "undefined:undefined:black:disassociated",
   "name": "50/50 Tee with Disassociated",
   "link": "/store/mens/tee/disassociated",
   "image": "/images/products/mens/tee/MensTeeDisassociatedBlack.jpg",
-  "imageBack": "/images/products/mens/tee/MensTeeBackBlack.jpg",
+  "imageBack": "/images/products/mens/tee/MensTeeBlackBack.jpg",
   "has_image_back": true,
   "color": "Black",
   "logo": "Disassociated",

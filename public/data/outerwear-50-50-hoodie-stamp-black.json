@@ -1,9 +1,9 @@
 {
-  "id": "outerwear:50-50-hoodie:black:stamp",
+  "id": "undefined:undefined:black:stamp",
   "name": "50/50 Hoodie with Stamp",
   "link": "/store/outerwear/50-50-hoodie/stamp",
   "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieStampBlack.jpg",
-  "imageBack": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBackBlack.jpg",
+  "imageBack": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBlackBack.jpg",
   "has_image_back": false,
   "color": "Black",
   "logo": "Stamp",

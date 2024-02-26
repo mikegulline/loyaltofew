@@ -1,9 +1,9 @@
 {
-  "id": "mens:tee:navy:stenciled",
+  "id": "undefined:undefined:navy:stenciled",
   "name": "50/50 Tee with Stenciled",
   "link": "/store/mens/tee/stenciled",
   "image": "/images/products/mens/tee/MensTeeStenciledNavy.jpg",
-  "imageBack": "/images/products/mens/tee/MensTeeBackNavy.jpg",
+  "imageBack": "/images/products/mens/tee/MensTeeNavyBack.jpg",
   "has_image_back": true,
   "color": "Navy",
   "logo": "Stenciled",

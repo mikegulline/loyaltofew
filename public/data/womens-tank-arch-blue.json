@@ -1,9 +1,9 @@
 {
-  "id": "womens:tank:blue:arch",
+  "id": "undefined:undefined:blue:arch",
   "name": "Tri-Blend Tank with Arch",
   "link": "/store/womens/tank/arch",
   "image": "/images/products/womens/tank/WomensTankArchBlue.jpg",
-  "imageBack": "/images/products/womens/tank/WomensTankBackBlue.jpg",
+  "imageBack": "/images/products/womens/tank/WomensTankBlueBack.jpg",
   "has_image_back": true,
   "color": "Blue",
   "logo": "Arch",

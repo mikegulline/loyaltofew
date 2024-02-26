@@ -236,7 +236,7 @@ async function productNew() {
             myMemo[image] = logosObj;
             passLogos.push(logosObj);
           }
-          delete processProds.imageRoot;
+          // delete processProds.imageRoot;
           delete processProds.category;
           delete processProds.tags;
           fs.writeFileSync(

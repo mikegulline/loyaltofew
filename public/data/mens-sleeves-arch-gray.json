@@ -1,9 +1,9 @@
 {
-  "id": "mens:sleeves:gray:arch",
+  "id": "undefined:undefined:gray:arch",
   "name": "Cotton Long-Sleeve with Arch",
   "link": "/store/mens/sleeves/arch",
   "image": "/images/products/mens/sleeves/MensSleevesArchGray.jpg",
-  "imageBack": "/images/products/mens/sleeves/MensSleevesBackGray.jpg",
+  "imageBack": "/images/products/mens/sleeves/MensSleevesGrayBack.jpg",
   "has_image_back": true,
   "color": "Gray",
   "logo": "Arch",

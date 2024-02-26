@@ -1,9 +1,9 @@
 {
-  "id": "outerwear:hoodie:green:original",
+  "id": "undefined:undefined:green:original",
   "name": "Cotton Hoodie with Original",
   "link": "/store/outerwear/hoodie/original",
   "image": "/images/products/outerwear/hoodie/OuterwearHoodieOriginalGreen.jpg",
-  "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieBackGreen.jpg",
+  "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieGreenBack.jpg",
   "has_image_back": false,
   "color": "Green",
   "logo": "Original",

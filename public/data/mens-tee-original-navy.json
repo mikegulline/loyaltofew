@@ -1,9 +1,9 @@
 {
-  "id": "mens:tee:navy:original",
+  "id": "undefined:undefined:navy:original",
   "name": "50/50 Tee with Original",
   "link": "/store/mens/tee/original",
   "image": "/images/products/mens/tee/MensTeeOriginalNavy.jpg",
-  "imageBack": "/images/products/mens/tee/MensTeeBackNavy.jpg",
+  "imageBack": "/images/products/mens/tee/MensTeeNavyBack.jpg",
   "has_image_back": true,
   "color": "Navy",
   "logo": "Original",

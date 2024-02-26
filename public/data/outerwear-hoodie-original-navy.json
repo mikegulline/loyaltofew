@@ -1,9 +1,9 @@
 {
-  "id": "outerwear:hoodie:navy:original",
+  "id": "undefined:undefined:navy:original",
   "name": "Cotton Hoodie with Original",
   "link": "/store/outerwear/hoodie/original",
   "image": "/images/products/outerwear/hoodie/OuterwearHoodieOriginalNavy.jpg",
-  "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieBackNavy.jpg",
+  "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieNavyBack.jpg",
   "has_image_back": false,
   "color": "Navy",
   "logo": "Original",

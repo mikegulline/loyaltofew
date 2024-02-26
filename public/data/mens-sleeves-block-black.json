@@ -1,9 +1,9 @@
 {
-  "id": "mens:sleeves:black:block",
+  "id": "undefined:undefined:black:block",
   "name": "Cotton Long-Sleeve with Block",
   "link": "/store/mens/sleeves/block",
   "image": "/images/products/mens/sleeves/MensSleevesBlockBlack.jpg",
-  "imageBack": "/images/products/mens/sleeves/MensSleevesBackBlack.jpg",
+  "imageBack": "/images/products/mens/sleeves/MensSleevesBlackBack.jpg",
   "has_image_back": true,
   "color": "Black",
   "logo": "Block",

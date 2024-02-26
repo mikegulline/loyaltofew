@@ -1,9 +1,9 @@
 {
-  "id": "womens:tank:maroon:original",
+  "id": "undefined:undefined:maroon:original",
   "name": "Tri-Blend Tank with Original",
   "link": "/store/womens/tank/original",
   "image": "/images/products/womens/tank/WomensTankOriginalMaroon.jpg",
-  "imageBack": "/images/products/womens/tank/WomensTankBackMaroon.jpg",
+  "imageBack": "/images/products/womens/tank/WomensTankMaroonBack.jpg",
   "has_image_back": true,
   "color": "Maroon",
   "logo": "Original",

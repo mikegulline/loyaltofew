@@ -1,9 +1,9 @@
 {
-  "id": "mens:tee:gray:stamp",
+  "id": "undefined:undefined:gray:stamp",
   "name": "50/50 Tee with Stamp",
   "link": "/store/mens/tee/stamp",
   "image": "/images/products/mens/tee/MensTeeStampGray.jpg",
-  "imageBack": "/images/products/mens/tee/MensTeeBackGray.jpg",
+  "imageBack": "/images/products/mens/tee/MensTeeGrayBack.jpg",
   "has_image_back": true,
   "color": "Gray",
   "logo": "Stamp",

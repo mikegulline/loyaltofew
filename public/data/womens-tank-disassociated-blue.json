@@ -1,9 +1,9 @@
 {
-  "id": "womens:tank:blue:disassociated",
+  "id": "undefined:undefined:blue:disassociated",
   "name": "Tri-Blend Tank with Disassociated",
   "link": "/store/womens/tank/disassociated",
   "image": "/images/products/womens/tank/WomensTankDisassociatedBlue.jpg",
-  "imageBack": "/images/products/womens/tank/WomensTankBackBlue.jpg",
+  "imageBack": "/images/products/womens/tank/WomensTankBlueBack.jpg",
   "has_image_back": true,
   "color": "Blue",
   "logo": "Disassociated",

@@ -1,9 +1,9 @@
 {
-  "id": "mens:tank:black:remain-true",
+  "id": "undefined:undefined:black:remain-true",
   "name": "Cotton Tank with Remain True",
   "link": "/store/mens/tank/remain-true",
   "image": "/images/products/mens/tank/MensTankRemainTrueBlack.jpg",
-  "imageBack": "/images/products/mens/tank/MensTankBackBlack.jpg",
+  "imageBack": "/images/products/mens/tank/MensTankRemainTrueBlackBack.jpg",
   "has_image_back": true,
   "color": "Black",
   "logo": "Remain True",

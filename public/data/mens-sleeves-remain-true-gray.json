@@ -1,9 +1,9 @@
 {
-  "id": "mens:sleeves:gray:remain-true",
+  "id": "undefined:undefined:gray:remain-true",
   "name": "Cotton Long-Sleeve with Remain True",
   "link": "/store/mens/sleeves/remain-true",
   "image": "/images/products/mens/sleeves/MensSleevesRemainTrueGray.jpg",
-  "imageBack": "/images/products/mens/sleeves/MensSleevesBackGray.jpg",
+  "imageBack": "/images/products/mens/sleeves/MensSleevesRemainTrueGrayBack.jpg",
   "has_image_back": true,
   "color": "Gray",
   "logo": "Remain True",

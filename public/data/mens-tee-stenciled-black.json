@@ -1,9 +1,9 @@
 {
-  "id": "mens:tee:black:stenciled",
+  "id": "undefined:undefined:black:stenciled",
   "name": "50/50 Tee with Stenciled",
   "link": "/store/mens/tee/stenciled",
   "image": "/images/products/mens/tee/MensTeeStenciledBlack.jpg",
-  "imageBack": "/images/products/mens/tee/MensTeeBackBlack.jpg",
+  "imageBack": "/images/products/mens/tee/MensTeeBlackBack.jpg",
   "has_image_back": true,
   "color": "Black",
   "logo": "Stenciled",

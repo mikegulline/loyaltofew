@@ -1,9 +1,9 @@
 {
-  "id": "outerwear:hoodie:dolphin:stamp",
+  "id": "undefined:undefined:dolphin:stamp",
   "name": "Cotton Hoodie with Stamp",
   "link": "/store/outerwear/hoodie/stamp",
   "image": "/images/products/outerwear/hoodie/OuterwearHoodieStampDolphin.jpg",
-  "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieBackDolphin.jpg",
+  "imageBack": "/images/products/outerwear/hoodie/OuterwearHoodieDolphinBack.jpg",
   "has_image_back": false,
   "color": "Dolphin",
   "logo": "Stamp",

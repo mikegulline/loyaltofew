@@ -17,9 +17,14 @@
   ],
   "type": "Sleeves",
   "name": "Cotton Long-Sleeve",
-  "link": "/store/mens/sleeves/original/black",
-  "image": "/images/products/mens/sleeves/MensSleevesOriginalBlack.jpg",
+  "link": "/store/mens/sleeves/business/black",
+  "image": "/images/products/mens/sleeves/MensSleevesBusinessBlack.jpg",
   "has_image_back": true,
+  "unique_back": [
+    "Family First",
+    "Remain True",
+    "Business"
+  ],
   "weight": 9.8,
   "meta": {
     "title": "Mens Cotton Long-Sleeve (Unisex)",
@@ -53,6 +58,11 @@
       "link": "/store/mens/sleeves/disassociated",
       "linkColor": "/store/mens/sleeves/disassociated/black",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/mens/sleeves/MensSleevesBackBlack.jpg",
       "image": "/images/products/mens/sleeves/MensSleevesDisassociatedBlack.jpg",
       "imageColorRoot": "/images/products/mens/sleeves/MensSleevesDisassociated",
@@ -68,6 +78,11 @@
       "link": "/store/mens/sleeves/family-first",
       "linkColor": "/store/mens/sleeves/family-first/black",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/mens/sleeves/MensSleevesBackBlack.jpg",
       "image": "/images/products/mens/sleeves/MensSleevesFamilyFirstBlack.jpg",
       "imageColorRoot": "/images/products/mens/sleeves/MensSleevesFamilyFirst",
@@ -83,6 +98,11 @@
       "link": "/store/mens/sleeves/remain-true",
       "linkColor": "/store/mens/sleeves/remain-true/black",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/mens/sleeves/MensSleevesBackBlack.jpg",
       "image": "/images/products/mens/sleeves/MensSleevesRemainTrueBlack.jpg",
       "imageColorRoot": "/images/products/mens/sleeves/MensSleevesRemainTrue",
@@ -98,6 +118,11 @@
       "link": "/store/mens/sleeves/business",
       "linkColor": "/store/mens/sleeves/business/black",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/mens/sleeves/MensSleevesBackBlack.jpg",
       "image": "/images/products/mens/sleeves/MensSleevesBusinessBlack.jpg",
       "imageColorRoot": "/images/products/mens/sleeves/MensSleevesBusiness",
@@ -113,6 +138,11 @@
       "link": "/store/mens/sleeves/small-circle",
       "linkColor": "/store/mens/sleeves/small-circle/black",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/mens/sleeves/MensSleevesBackBlack.jpg",
       "image": "/images/products/mens/sleeves/MensSleevesSmallCircleBlack.jpg",
       "imageColorRoot": "/images/products/mens/sleeves/MensSleevesSmallCircle",
@@ -129,6 +159,11 @@
       "link": "/store/mens/sleeves/original",
       "linkColor": "/store/mens/sleeves/original/black",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/mens/sleeves/MensSleevesBackBlack.jpg",
       "image": "/images/products/mens/sleeves/MensSleevesOriginalBlack.jpg",
       "imageColorRoot": "/images/products/mens/sleeves/MensSleevesOriginal",
@@ -145,6 +180,11 @@
       "link": "/store/mens/sleeves/arch",
       "linkColor": "/store/mens/sleeves/arch/black",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/mens/sleeves/MensSleevesBackBlack.jpg",
       "image": "/images/products/mens/sleeves/MensSleevesArchBlack.jpg",
       "imageColorRoot": "/images/products/mens/sleeves/MensSleevesArch",
@@ -161,6 +201,11 @@
       "link": "/store/mens/sleeves/block",
       "linkColor": "/store/mens/sleeves/block/black",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/mens/sleeves/MensSleevesBackBlack.jpg",
       "image": "/images/products/mens/sleeves/MensSleevesBlockBlack.jpg",
       "imageColorRoot": "/images/products/mens/sleeves/MensSleevesBlock",
@@ -177,6 +222,11 @@
       "link": "/store/mens/sleeves/stamp",
       "linkColor": "/store/mens/sleeves/stamp/black",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/mens/sleeves/MensSleevesBackBlack.jpg",
       "image": "/images/products/mens/sleeves/MensSleevesStampBlack.jpg",
       "imageColorRoot": "/images/products/mens/sleeves/MensSleevesStamp",
@@ -193,6 +243,11 @@
       "link": "/store/mens/sleeves/stenciled",
       "linkColor": "/store/mens/sleeves/stenciled/black",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/mens/sleeves/MensSleevesBackBlack.jpg",
       "image": "/images/products/mens/sleeves/MensSleevesStenciledBlack.jpg",
       "imageColorRoot": "/images/products/mens/sleeves/MensSleevesStenciled",

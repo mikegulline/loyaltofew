@@ -17,9 +17,14 @@
   ],
   "type": "Tee",
   "name": "50/50 Tee",
-  "link": "/store/mens/tee/business/black",
-  "image": "/images/products/mens/tee/MensTeeBusinessBlack.jpg",
+  "link": "/store/mens/tee/small-circle/black",
+  "image": "/images/products/mens/tee/MensTeeSmallCircleBlack.jpg",
   "has_image_back": true,
+  "unique_back": [
+    "Family First",
+    "Remain True",
+    "Business"
+  ],
   "weight": 7,
   "meta": {
     "title": "Mens 50/50 Tee (Unisex)",
@@ -55,6 +60,11 @@
       "link": "/store/mens/tee/disassociated",
       "linkColor": "/store/mens/tee/disassociated/black",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/mens/tee/MensTeeBackBlack.jpg",
       "image": "/images/products/mens/tee/MensTeeDisassociatedBlack.jpg",
       "imageColorRoot": "/images/products/mens/tee/MensTeeDisassociated",
@@ -70,6 +80,11 @@
       "link": "/store/mens/tee/family-first",
       "linkColor": "/store/mens/tee/family-first/black",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/mens/tee/MensTeeBackBlack.jpg",
       "image": "/images/products/mens/tee/MensTeeFamilyFirstBlack.jpg",
       "imageColorRoot": "/images/products/mens/tee/MensTeeFamilyFirst",
@@ -85,6 +100,11 @@
       "link": "/store/mens/tee/remain-true",
       "linkColor": "/store/mens/tee/remain-true/black",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/mens/tee/MensTeeBackBlack.jpg",
       "image": "/images/products/mens/tee/MensTeeRemainTrueBlack.jpg",
       "imageColorRoot": "/images/products/mens/tee/MensTeeRemainTrue",
@@ -100,6 +120,11 @@
       "link": "/store/mens/tee/business",
       "linkColor": "/store/mens/tee/business/black",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/mens/tee/MensTeeBackBlack.jpg",
       "image": "/images/products/mens/tee/MensTeeBusinessBlack.jpg",
       "imageColorRoot": "/images/products/mens/tee/MensTeeBusiness",
@@ -115,6 +140,11 @@
       "link": "/store/mens/tee/small-circle",
       "linkColor": "/store/mens/tee/small-circle/black",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/mens/tee/MensTeeBackBlack.jpg",
       "image": "/images/products/mens/tee/MensTeeSmallCircleBlack.jpg",
       "imageColorRoot": "/images/products/mens/tee/MensTeeSmallCircle",
@@ -133,6 +163,11 @@
       "link": "/store/mens/tee/original",
       "linkColor": "/store/mens/tee/original/black",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/mens/tee/MensTeeBackBlack.jpg",
       "image": "/images/products/mens/tee/MensTeeOriginalBlack.jpg",
       "imageColorRoot": "/images/products/mens/tee/MensTeeOriginal",
@@ -151,6 +186,11 @@
       "link": "/store/mens/tee/arch",
       "linkColor": "/store/mens/tee/arch/black",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/mens/tee/MensTeeBackBlack.jpg",
       "image": "/images/products/mens/tee/MensTeeArchBlack.jpg",
       "imageColorRoot": "/images/products/mens/tee/MensTeeArch",
@@ -169,6 +209,11 @@
       "link": "/store/mens/tee/block",
       "linkColor": "/store/mens/tee/block/black",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/mens/tee/MensTeeBackBlack.jpg",
       "image": "/images/products/mens/tee/MensTeeBlockBlack.jpg",
       "imageColorRoot": "/images/products/mens/tee/MensTeeBlock",
@@ -187,6 +232,11 @@
       "link": "/store/mens/tee/stamp",
       "linkColor": "/store/mens/tee/stamp/black",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/mens/tee/MensTeeBackBlack.jpg",
       "image": "/images/products/mens/tee/MensTeeStampBlack.jpg",
       "imageColorRoot": "/images/products/mens/tee/MensTeeStamp",
@@ -205,6 +255,11 @@
       "link": "/store/mens/tee/stenciled",
       "linkColor": "/store/mens/tee/stenciled/black",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/mens/tee/MensTeeBackBlack.jpg",
       "image": "/images/products/mens/tee/MensTeeStenciledBlack.jpg",
       "imageColorRoot": "/images/products/mens/tee/MensTeeStenciled",

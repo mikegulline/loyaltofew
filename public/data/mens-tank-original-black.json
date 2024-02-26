@@ -1,9 +1,9 @@
 {
-  "id": "mens:tank:black:original",
+  "id": "undefined:undefined:black:original",
   "name": "Cotton Tank with Original",
   "link": "/store/mens/tank/original",
   "image": "/images/products/mens/tank/MensTankOriginalBlack.jpg",
-  "imageBack": "/images/products/mens/tank/MensTankBackBlack.jpg",
+  "imageBack": "/images/products/mens/tank/MensTankBlackBack.jpg",
   "has_image_back": true,
   "color": "Black",
   "logo": "Original",

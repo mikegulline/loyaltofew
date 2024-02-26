@@ -1,9 +1,9 @@
 {
-  "id": "mens:tee:gray:remain-true",
+  "id": "undefined:undefined:gray:remain-true",
   "name": "50/50 Tee with Remain True",
   "link": "/store/mens/tee/remain-true",
   "image": "/images/products/mens/tee/MensTeeRemainTrueGray.jpg",
-  "imageBack": "/images/products/mens/tee/MensTeeBackGray.jpg",
+  "imageBack": "/images/products/mens/tee/MensTeeRemainTrueGrayBack.jpg",
   "has_image_back": true,
   "color": "Gray",
   "logo": "Remain True",

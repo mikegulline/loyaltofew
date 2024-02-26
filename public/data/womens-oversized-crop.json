@@ -17,9 +17,14 @@
   ],
   "type": "Oversized-Crop",
   "name": "Cotton Oversized Crop",
-  "link": "/store/womens/oversized-crop/stamp/black",
-  "image": "/images/products/womens/oversized-crop/WomensOversized-CropStampBlack.jpg",
+  "link": "/store/womens/oversized-crop/stenciled/black",
+  "image": "/images/products/womens/oversized-crop/WomensOversized-CropStenciledBlack.jpg",
   "has_image_back": true,
+  "unique_back": [
+    "Family First",
+    "Remain True",
+    "Business"
+  ],
   "weight": 2.9,
   "meta": {
     "title": "Womens Cotton Oversized Crop",
@@ -50,6 +55,11 @@
       "link": "/store/womens/oversized-crop/disassociated",
       "linkColor": "/store/womens/oversized-crop/disassociated/black",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/womens/oversized-crop/WomensOversized-CropBackBlack.jpg",
       "image": "/images/products/womens/oversized-crop/WomensOversized-CropDisassociatedBlack.jpg",
       "imageColorRoot": "/images/products/womens/oversized-crop/WomensOversized-CropDisassociated",
@@ -64,6 +74,11 @@
       "link": "/store/womens/oversized-crop/family-first",
       "linkColor": "/store/womens/oversized-crop/family-first/black",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/womens/oversized-crop/WomensOversized-CropBackBlack.jpg",
       "image": "/images/products/womens/oversized-crop/WomensOversized-CropFamilyFirstBlack.jpg",
       "imageColorRoot": "/images/products/womens/oversized-crop/WomensOversized-CropFamilyFirst",
@@ -78,6 +93,11 @@
       "link": "/store/womens/oversized-crop/remain-true",
       "linkColor": "/store/womens/oversized-crop/remain-true/black",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/womens/oversized-crop/WomensOversized-CropBackBlack.jpg",
       "image": "/images/products/womens/oversized-crop/WomensOversized-CropRemainTrueBlack.jpg",
       "imageColorRoot": "/images/products/womens/oversized-crop/WomensOversized-CropRemainTrue",
@@ -92,6 +112,11 @@
       "link": "/store/womens/oversized-crop/business",
       "linkColor": "/store/womens/oversized-crop/business/black",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/womens/oversized-crop/WomensOversized-CropBackBlack.jpg",
       "image": "/images/products/womens/oversized-crop/WomensOversized-CropBusinessBlack.jpg",
       "imageColorRoot": "/images/products/womens/oversized-crop/WomensOversized-CropBusiness",
@@ -106,6 +131,11 @@
       "link": "/store/womens/oversized-crop/small-circle",
       "linkColor": "/store/womens/oversized-crop/small-circle/black",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/womens/oversized-crop/WomensOversized-CropBackBlack.jpg",
       "image": "/images/products/womens/oversized-crop/WomensOversized-CropSmallCircleBlack.jpg",
       "imageColorRoot": "/images/products/womens/oversized-crop/WomensOversized-CropSmallCircle",
@@ -123,6 +153,11 @@
       "link": "/store/womens/oversized-crop/original",
       "linkColor": "/store/womens/oversized-crop/original/black",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/womens/oversized-crop/WomensOversized-CropBackBlack.jpg",
       "image": "/images/products/womens/oversized-crop/WomensOversized-CropOriginalBlack.jpg",
       "imageColorRoot": "/images/products/womens/oversized-crop/WomensOversized-CropOriginal",
@@ -140,6 +175,11 @@
       "link": "/store/womens/oversized-crop/arch",
       "linkColor": "/store/womens/oversized-crop/arch/black",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/womens/oversized-crop/WomensOversized-CropBackBlack.jpg",
       "image": "/images/products/womens/oversized-crop/WomensOversized-CropArchBlack.jpg",
       "imageColorRoot": "/images/products/womens/oversized-crop/WomensOversized-CropArch",
@@ -157,6 +197,11 @@
       "link": "/store/womens/oversized-crop/block",
       "linkColor": "/store/womens/oversized-crop/block/black",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/womens/oversized-crop/WomensOversized-CropBackBlack.jpg",
       "image": "/images/products/womens/oversized-crop/WomensOversized-CropBlockBlack.jpg",
       "imageColorRoot": "/images/products/womens/oversized-crop/WomensOversized-CropBlock",
@@ -174,6 +219,11 @@
       "link": "/store/womens/oversized-crop/stamp",
       "linkColor": "/store/womens/oversized-crop/stamp/black",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/womens/oversized-crop/WomensOversized-CropBackBlack.jpg",
       "image": "/images/products/womens/oversized-crop/WomensOversized-CropStampBlack.jpg",
       "imageColorRoot": "/images/products/womens/oversized-crop/WomensOversized-CropStamp",
@@ -191,6 +241,11 @@
       "link": "/store/womens/oversized-crop/stenciled",
       "linkColor": "/store/womens/oversized-crop/stenciled/black",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/womens/oversized-crop/WomensOversized-CropBackBlack.jpg",
       "image": "/images/products/womens/oversized-crop/WomensOversized-CropStenciledBlack.jpg",
       "imageColorRoot": "/images/products/womens/oversized-crop/WomensOversized-CropStenciled",

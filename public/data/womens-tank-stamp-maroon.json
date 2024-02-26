@@ -1,9 +1,9 @@
 {
-  "id": "womens:tank:maroon:stamp",
+  "id": "undefined:undefined:maroon:stamp",
   "name": "Tri-Blend Tank with Stamp",
   "link": "/store/womens/tank/stamp",
   "image": "/images/products/womens/tank/WomensTankStampMaroon.jpg",
-  "imageBack": "/images/products/womens/tank/WomensTankBackMaroon.jpg",
+  "imageBack": "/images/products/womens/tank/WomensTankMaroonBack.jpg",
   "has_image_back": true,
   "color": "Maroon",
   "logo": "Stamp",

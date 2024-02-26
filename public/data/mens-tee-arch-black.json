@@ -1,9 +1,9 @@
 {
-  "id": "mens:tee:black:arch",
+  "id": "undefined:undefined:black:arch",
   "name": "50/50 Tee with Arch",
   "link": "/store/mens/tee/arch",
   "image": "/images/products/mens/tee/MensTeeArchBlack.jpg",
-  "imageBack": "/images/products/mens/tee/MensTeeBackBlack.jpg",
+  "imageBack": "/images/products/mens/tee/MensTeeBlackBack.jpg",
   "has_image_back": true,
   "color": "Black",
   "logo": "Arch",

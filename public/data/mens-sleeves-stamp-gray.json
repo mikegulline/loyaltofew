@@ -1,9 +1,9 @@
 {
-  "id": "mens:sleeves:gray:stamp",
+  "id": "undefined:undefined:gray:stamp",
   "name": "Cotton Long-Sleeve with Stamp",
   "link": "/store/mens/sleeves/stamp",
   "image": "/images/products/mens/sleeves/MensSleevesStampGray.jpg",
-  "imageBack": "/images/products/mens/sleeves/MensSleevesBackGray.jpg",
+  "imageBack": "/images/products/mens/sleeves/MensSleevesGrayBack.jpg",
   "has_image_back": true,
   "color": "Gray",
   "logo": "Stamp",

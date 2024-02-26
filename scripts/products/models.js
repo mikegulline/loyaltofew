@@ -4,6 +4,28 @@ const storeRoot = 'Store';
 const storePath = 'store';
 
 const kebab = (s) => s.replaceAll(' ', '-');
+const camal = (s) => s.replaceAll(/-|\s/g, '');
+const getImage = (...args) => camal(args.join(''));
+const getLink = (...args) => '/' + kebab(args.join('/')).toLowerCase();
+
+const getId = (category, type, logo, color) => {
+  return `${category.category}:${type.type}:${color}:${kebab(logo)}`
+    .replace(' ', '')
+    .toLowerCase();
+};
+
+const getImagePath = (category, type, logo, color, unique_back) => {
+  const imagePath = `/images/products/${category}/${type}/`.toLowerCase();
+  let front = `${category}${type}${logo}${color}.jpg`;
+  let back = unique_back?.includes(logo)
+    ? `${category}${type}${logo}${color}Back.jpg`
+    : `${category}${type}${color}Back.jpg`;
+
+  return {
+    image: imagePath + front.replaceAll(' ', ''),
+    imageBack: imagePath + back.replaceAll(' ', ''),
+  };
+};
 
 const modalStore = () => {
   const categories = store.map((category) => modalCategory(category));
@@ -39,6 +61,7 @@ const modalProduct = ({
   sizes,
   product: name,
   has_image_back,
+  unique_back,
   details,
   weight,
   meta,
@@ -68,6 +91,7 @@ const modalProduct = ({
       colors: passColors,
       name,
       has_image_back,
+      unique_back,
     });
   });
 
@@ -82,6 +106,7 @@ const modalProduct = ({
     link,
     image,
     has_image_back,
+    unique_back,
     weight,
     meta,
     irl,
@@ -102,6 +127,7 @@ const modalLogo = (values) => {
     colors,
     name: product,
     has_image_back,
+    unique_back,
   } = values;
   const link = `/${storePath}/${category}/${type}/${kebab(logo)}`.toLowerCase();
   const linkColor = `/${storePath}/${category}/${type}/${kebab(logo)}/${
@@ -123,6 +149,7 @@ const modalLogo = (values) => {
     link,
     linkColor,
     has_image_back,
+    unique_back,
     imageBack,
     image,
     imageColorRoot,
@@ -196,6 +223,7 @@ const getLogo = (useCategory, useType, useLogo) => {
     tags,
     logos,
     has_image_back,
+    unique_back,
   } = theType;
   const passLogo = theType['logos'].find(
     ({ logo }) => logo.toLowerCase() === useLogo.toLowerCase()
@@ -204,6 +232,7 @@ const getLogo = (useCategory, useType, useLogo) => {
   return {
     ...passLogo,
     has_image_back,
+    unique_back,
     breadcrumbRoot: [passLogo.logo, passLogo.link],
     breadcrumbs,
     tags,
@@ -248,19 +277,18 @@ const getColor = (useCategory, useType, useLogo, useColor) => {
     imageColorRoot,
     imageColorBackRoot,
     has_image_back,
+    unique_back,
   } = product;
 
-  const imageSlug = `${category.category}${type.type}${logo}${color}`.replace(
-    ' ',
-    ''
+  const id = getId(category.category, type.type, logo, color);
+
+  const { image, imageBack } = getImagePath(
+    category.category,
+    type.type,
+    logo,
+    color,
+    unique_back
   );
-  const idSlug = `${category.category}:${type.type}:${color}:${kebab(
-    logo
-  )}`.replace(' ', '');
-  const id = idSlug.toLowerCase();
-  const imageRoot = `/images/products/${category.category.toLowerCase()}/${type.type.toLowerCase()}/`;
-  const image = `${imageColorRoot}${color}.jpg`;
-  const imageBack = `${imageColorBackRoot}${color}.jpg`;
 
   const bcLast = breadcrumbs.pop();
   const bcText = `${bcLast[0]} (${color})`;
@@ -270,7 +298,6 @@ const getColor = (useCategory, useType, useLogo, useColor) => {
     id,
     name,
     link,
-    imageRoot,
     image,
     imageBack,
     has_image_back,

@@ -1,9 +1,9 @@
 {
-  "id": "mens:tee:maroon:arch",
+  "id": "undefined:undefined:maroon:arch",
   "name": "50/50 Tee with Arch",
   "link": "/store/mens/tee/arch",
   "image": "/images/products/mens/tee/MensTeeArchMaroon.jpg",
-  "imageBack": "/images/products/mens/tee/MensTeeBackMaroon.jpg",
+  "imageBack": "/images/products/mens/tee/MensTeeMaroonBack.jpg",
   "has_image_back": true,
   "color": "Maroon",
   "logo": "Arch",

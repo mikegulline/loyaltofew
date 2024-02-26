@@ -1,9 +1,9 @@
 {
-  "id": "outerwear:crew:navy:original",
+  "id": "undefined:undefined:navy:original",
   "name": "Cotton Crew with Original",
   "link": "/store/outerwear/crew/original",
   "image": "/images/products/outerwear/crew/OuterwearCrewOriginalNavy.jpg",
-  "imageBack": "/images/products/outerwear/crew/OuterwearCrewBackNavy.jpg",
+  "imageBack": "/images/products/outerwear/crew/OuterwearCrewNavyBack.jpg",
   "has_image_back": true,
   "color": "Navy",
   "logo": "Original",

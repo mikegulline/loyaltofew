@@ -1,9 +1,9 @@
 {
-  "id": "womens:tank:maroon:stenciled",
+  "id": "undefined:undefined:maroon:stenciled",
   "name": "Tri-Blend Tank with Stenciled",
   "link": "/store/womens/tank/stenciled",
   "image": "/images/products/womens/tank/WomensTankStenciledMaroon.jpg",
-  "imageBack": "/images/products/womens/tank/WomensTankBackMaroon.jpg",
+  "imageBack": "/images/products/womens/tank/WomensTankMaroonBack.jpg",
   "has_image_back": true,
   "color": "Maroon",
   "logo": "Stenciled",

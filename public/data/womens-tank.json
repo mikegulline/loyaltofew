@@ -17,9 +17,14 @@
   ],
   "type": "Tank",
   "name": "Tri-Blend Tank",
-  "link": "/store/womens/tank/block/gray",
-  "image": "/images/products/womens/tank/WomensTankBlockGray.jpg",
+  "link": "/store/womens/tank/remain-true/gray",
+  "image": "/images/products/womens/tank/WomensTankRemainTrueGray.jpg",
   "has_image_back": true,
+  "unique_back": [
+    "Family First",
+    "Remain True",
+    "Business"
+  ],
   "weight": 2.6,
   "meta": {
     "title": "Womens Tri-Blend Tank",
@@ -49,6 +54,11 @@
       "link": "/store/womens/tank/disassociated",
       "linkColor": "/store/womens/tank/disassociated/gray",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
       "image": "/images/products/womens/tank/WomensTankDisassociatedGray.jpg",
       "imageColorRoot": "/images/products/womens/tank/WomensTankDisassociated",
@@ -63,6 +73,11 @@
       "link": "/store/womens/tank/family-first",
       "linkColor": "/store/womens/tank/family-first/gray",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
       "image": "/images/products/womens/tank/WomensTankFamilyFirstGray.jpg",
       "imageColorRoot": "/images/products/womens/tank/WomensTankFamilyFirst",
@@ -77,6 +92,11 @@
       "link": "/store/womens/tank/remain-true",
       "linkColor": "/store/womens/tank/remain-true/gray",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
       "image": "/images/products/womens/tank/WomensTankRemainTrueGray.jpg",
       "imageColorRoot": "/images/products/womens/tank/WomensTankRemainTrue",
@@ -91,6 +111,11 @@
       "link": "/store/womens/tank/business",
       "linkColor": "/store/womens/tank/business/gray",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
       "image": "/images/products/womens/tank/WomensTankBusinessGray.jpg",
       "imageColorRoot": "/images/products/womens/tank/WomensTankBusiness",
@@ -105,6 +130,11 @@
       "link": "/store/womens/tank/small-circle",
       "linkColor": "/store/womens/tank/small-circle/gray",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
       "image": "/images/products/womens/tank/WomensTankSmallCircleGray.jpg",
       "imageColorRoot": "/images/products/womens/tank/WomensTankSmallCircle",
@@ -121,6 +151,11 @@
       "link": "/store/womens/tank/original",
       "linkColor": "/store/womens/tank/original/gray",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
       "image": "/images/products/womens/tank/WomensTankOriginalGray.jpg",
       "imageColorRoot": "/images/products/womens/tank/WomensTankOriginal",
@@ -137,6 +172,11 @@
       "link": "/store/womens/tank/arch",
       "linkColor": "/store/womens/tank/arch/gray",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
       "image": "/images/products/womens/tank/WomensTankArchGray.jpg",
       "imageColorRoot": "/images/products/womens/tank/WomensTankArch",
@@ -153,6 +193,11 @@
       "link": "/store/womens/tank/block",
       "linkColor": "/store/womens/tank/block/gray",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
       "image": "/images/products/womens/tank/WomensTankBlockGray.jpg",
       "imageColorRoot": "/images/products/womens/tank/WomensTankBlock",
@@ -169,6 +214,11 @@
       "link": "/store/womens/tank/stamp",
       "linkColor": "/store/womens/tank/stamp/gray",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
       "image": "/images/products/womens/tank/WomensTankStampGray.jpg",
       "imageColorRoot": "/images/products/womens/tank/WomensTankStamp",
@@ -185,6 +235,11 @@
       "link": "/store/womens/tank/stenciled",
       "linkColor": "/store/womens/tank/stenciled/gray",
       "has_image_back": true,
+      "unique_back": [
+        "Family First",
+        "Remain True",
+        "Business"
+      ],
       "imageBack": "/images/products/womens/tank/WomensTankBackGray.jpg",
       "image": "/images/products/womens/tank/WomensTankStenciledGray.jpg",
       "imageColorRoot": "/images/products/womens/tank/WomensTankStenciled",

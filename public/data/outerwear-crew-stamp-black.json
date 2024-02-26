@@ -1,9 +1,9 @@
 {
-  "id": "outerwear:crew:black:stamp",
+  "id": "undefined:undefined:black:stamp",
   "name": "Cotton Crew with Stamp",
   "link": "/store/outerwear/crew/stamp",
   "image": "/images/products/outerwear/crew/OuterwearCrewStampBlack.jpg",
-  "imageBack": "/images/products/outerwear/crew/OuterwearCrewBackBlack.jpg",
+  "imageBack": "/images/products/outerwear/crew/OuterwearCrewBlackBack.jpg",
   "has_image_back": true,
   "color": "Black",
   "logo": "Stamp",

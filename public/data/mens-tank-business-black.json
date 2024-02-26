@@ -1,9 +1,9 @@
 {
-  "id": "mens:tank:black:business",
+  "id": "undefined:undefined:black:business",
   "name": "Cotton Tank with Business",
   "link": "/store/mens/tank/business",
   "image": "/images/products/mens/tank/MensTankBusinessBlack.jpg",
-  "imageBack": "/images/products/mens/tank/MensTankBackBlack.jpg",
+  "imageBack": "/images/products/mens/tank/MensTankBusinessBlackBack.jpg",
   "has_image_back": true,
   "color": "Black",
   "logo": "Business",

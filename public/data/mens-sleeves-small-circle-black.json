@@ -1,9 +1,9 @@
 {
-  "id": "mens:sleeves:black:small-circle",
+  "id": "undefined:undefined:black:small-circle",
   "name": "Cotton Long-Sleeve with Small Circle",
   "link": "/store/mens/sleeves/small-circle",
   "image": "/images/products/mens/sleeves/MensSleevesSmallCircleBlack.jpg",
-  "imageBack": "/images/products/mens/sleeves/MensSleevesBackBlack.jpg",
+  "imageBack": "/images/products/mens/sleeves/MensSleevesBlackBack.jpg",
   "has_image_back": true,
   "color": "Black",
   "logo": "Small Circle",
