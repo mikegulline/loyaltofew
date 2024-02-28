@@ -1,1 +1,2 @@
 "predev": "node ./scripts/products/ig-csv.js",
+"predev": "node ./scripts/products/index.js",
