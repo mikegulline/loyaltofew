@@ -17,8 +17,8 @@
   ],
   "type": "Tank",
   "name": "Cotton Tank",
-  "link": "/store/mens/tank/small-circle/black",
-  "image": "/images/products/mens/tank/MensTankSmallCircleBlack.jpg",
+  "link": "/store/mens/tank",
+  "image": "/images/products/mens/tank/MensTankStampBlack.jpg",
   "has_image_back": true,
   "unique_back": [
     "Family First",

@@ -5,15 +5,15 @@
     "subMenu": [
       {
         "name": "50/50 Tee",
-        "location": "/store/mens/tee/family-first/black"
+        "location": "/store/mens/tee"
       },
       {
         "name": "Cotton Tank",
-        "location": "/store/mens/tank/original/black"
+        "location": "/store/mens/tank"
       },
       {
         "name": "Cotton Long-Sleeve",
-        "location": "/store/mens/sleeves/stenciled/black"
+        "location": "/store/mens/sleeves"
       }
     ]
   },
@@ -23,11 +23,11 @@
     "subMenu": [
       {
         "name": "Tri-Blend Tank",
-        "location": "/store/womens/tank/disassociated/gray"
+        "location": "/store/womens/tank"
       },
       {
         "name": "Cotton Oversized Crop",
-        "location": "/store/womens/oversized-crop/stenciled/black"
+        "location": "/store/womens/oversized-crop"
       }
     ]
   },
@@ -37,27 +37,27 @@
     "subMenu": [
       {
         "name": "50/50 Crew",
-        "location": "/store/outerwear/50-50-crew/block/black"
+        "location": "/store/outerwear/50-50-crew"
       },
       {
         "name": "Cotton Crew",
-        "location": "/store/outerwear/crew/block/black"
+        "location": "/store/outerwear/crew"
       },
       {
         "name": "50/50 Hoodie",
-        "location": "/store/outerwear/50-50-hoodie/arch/black"
+        "location": "/store/outerwear/50-50-hoodie"
       },
       {
         "name": "Cotton Hoodie",
-        "location": "/store/outerwear/hoodie/stamp/black"
+        "location": "/store/outerwear/hoodie"
       },
       {
         "name": "Knit Beanie",
-        "location": "/store/outerwear/beanie/block/black"
+        "location": "/store/outerwear/beanie"
       },
       {
         "name": "Flexfit Snapback",
-        "location": "/store/outerwear/flexfit-snapback/block/black-white"
+        "location": "/store/outerwear/flexfit-snapback"
       }
     ]
   },

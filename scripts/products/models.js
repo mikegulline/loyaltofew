@@ -73,9 +73,10 @@ const modalProduct = ({
   const logoColors = colorsAlt.hasOwnProperty(randLogo)
     ? colorsAlt[randLogo]
     : colors;
-  const link = `/${storePath}/${category}/${type}/${kebab(randLogo)}/${
-    logoColors[0]
-  }`.toLowerCase();
+  const link = `/${storePath}/${category}/${type}`.toLowerCase();
+  // const link = `/${storePath}/${category}/${type}/${kebab(randLogo)}/${
+  //   logoColors[0]
+  // }`.toLowerCase();
   const imageSlug = `${category}${type}${randLogo}${logoColors[0]}`.replace(
     ' ',
     ''
