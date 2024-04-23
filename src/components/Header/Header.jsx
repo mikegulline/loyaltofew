@@ -58,7 +58,9 @@ const Logo = () => {
     <div className='relative flex-grow'>
       <Link href='/' className={styles.logo} prefetch={false}>
         <LogoSVG className='fill-gray-900 hover:fill-red-600' />
-        <h1 className={styles.h1}>Loyal To Few®</h1>
+        <h1 role='heading' name='Loyal to Few' className={styles.h1}>
+          Loyal To Few®
+        </h1>
         <p className={styles.tagline}>A trademarked way of life.</p>
       </Link>
     </div>

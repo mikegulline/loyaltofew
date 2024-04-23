@@ -26,14 +26,14 @@ const Footer = () => {
   );
 };
 
-const Copyright = () => {
+export const Copyright = () => {
   return (
     <div className={`footer bg-gray-900 ${styles.copy}`}>
       <Container>
         <p className={styles.copyP}>
           &copy; {new Date().getFullYear()}{' '}
-          <Link href='/' prefetch={false}>
-            Loyal To Few®
+          <Link title='Loyal to Few®' role='link' href='/' prefetch={false}>
+            Loyal to Few®
           </Link>
           . A Trademarked Way Of Life.
         </p>

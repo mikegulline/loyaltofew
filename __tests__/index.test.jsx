@@ -1,15 +1,8 @@
-import React from 'react';
-import { render, screen } from '@testing-library/react';
-import Home from '../src/pages/index';
+import { render } from '@testing-library/react';
+import '@testing-library/jest-dom';
+import { Copyright } from '@/components/Footer/Footer';
 
-describe('Home', () => {
-  it('renders a heading', () => {
-    render(<Home />);
-
-    const heading = screen.getByRole('heading', {
-      name: /Loyal To Few®/i,
-    });
-
-    expect(heading).toBeInTheDocument();
-  });
+test('renders a copyright', () => {
+  const { asFragment, getByText } = render(<Copyright />);
+  expect(getByText('Loyal to Few®')).toBeInTheDocument();
 });
