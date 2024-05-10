@@ -201,11 +201,11 @@ export default function Carousel({ children }) {
     <div className='relative' ref={frameRef} data-see='this'>
       <div
         ref={leftRef}
-        className='absolute left-0 top-0 bottom-0 z-10 hidden w-20 bg-gradient-to-l from-transparent to-white'
+        className='pointer-events-none absolute left-0 top-0 bottom-0 z-10 hidden w-20 bg-gradient-to-l from-transparent to-white'
       ></div>
       <div
         ref={rightRef}
-        className='absolute right-0 top-0 bottom-0 z-10 hidden w-20 bg-gradient-to-r from-transparent to-white'
+        className='pointer-events-none absolute right-0 top-0 bottom-0 z-10 hidden w-20 bg-gradient-to-r from-transparent to-white'
       ></div>
       <Swiper
         slidesPerView={2}
