@@ -205,7 +205,7 @@ export default function Carousel({ children }) {
       ></div>
       <div
         ref={rightRef}
-        className='pointer-events-none absolute right-0 top-0 bottom-0 z-10 hidden w-20 bg-gradient-to-r from-transparent to-white'
+        className='pointer-events-none absolute right-0 top-0 bottom-0 z-10 w-20 bg-gradient-to-r from-transparent to-white'
       ></div>
       <Swiper
         slidesPerView={2}
