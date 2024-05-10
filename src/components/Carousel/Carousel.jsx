@@ -194,6 +194,9 @@ export default function Carousel({ children }) {
           attributeFilter: ['class'],
         });
       }
+    } else {
+      rightRef.current.classList.remove('block');
+      rightRef.current.classList.add('hidden');
     }
   }, []);
 
