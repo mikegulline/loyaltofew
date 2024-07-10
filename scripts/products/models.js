@@ -9,7 +9,7 @@ const getImage = (...args) => camal(args.join(''));
 const getLink = (...args) => '/' + kebab(args.join('/')).toLowerCase();
 
 const getId = (category, type, logo, color) => {
-  return `${category.category}:${type.type}:${color}:${kebab(logo)}`
+  return `${category}:${type}:${color}:${kebab(logo)}`
     .replace(' ', '')
     .toLowerCase();
 };
@@ -280,8 +280,8 @@ const getColor = (useCategory, useType, useLogo, useColor) => {
     has_image_back,
     unique_back,
   } = product;
-
   const id = getId(category.category, type.type, logo, color);
+  console.log(id, category.category, type.type, logo, color);
 
   const { image, imageBack } = getImagePath(
     category.category,

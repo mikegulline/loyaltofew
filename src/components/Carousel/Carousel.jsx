@@ -156,60 +156,71 @@ export default function Carousel({ children }) {
       },
     };
   }
-  const frameRef = useRef(null);
-  const rightRef = useRef(null);
-  const leftRef = useRef(null);
+  // const frameRef = useRef(null);
+  // const rightRef = useRef(null);
+  // const leftRef = useRef(null);
 
-  useEffect(() => {
-    if (frameRef?.current) {
-      const [frame] =
-        frameRef.current.getElementsByClassName('swiper-pagination');
-      if (frame) {
-        const first = frame.children[0];
-        const last = frame.children[frame.children.length - 1];
-        const observer = new MutationObserver((mutations) => {
-          const pos = {
-            first: first.classList.contains(
-              'swiper-pagination-bullet-active-main'
-            ),
-            last: last.classList.contains(
-              'swiper-pagination-bullet-active-main'
-            ),
-          };
-          if (!pos.last) {
-            rightRef.current.classList.remove('hidden');
-            rightRef.current.classList.add('block');
-            leftRef.current.classList.remove('block');
-            leftRef.current.classList.add('hidden');
-          } else {
-            rightRef.current.classList.remove('block');
-            rightRef.current.classList.add('hidden');
-            leftRef.current.classList.remove('hidden');
-            leftRef.current.classList.add('block');
-          }
-        });
+  // useEffect(() => {
+  //   if (frameRef?.current) {
+  //     const [frame] =
+  //       frameRef.current.getElementsByClassName('swiper-pagination');
+  //     if (frame) {
+  //       const first = frame.children[0];
+  //       const last = frame.children[frame.children.length - 1];
+  //       const observer = new MutationObserver((mutations) => {
+  //         //
+  //         const outer = frameRef.current.getBoundingClientRect();
+  //         const { width: w, right: r, left: l } = outer;
+  //         //
+  //         const [inner] =
+  //           frameRef.current.getElementsByClassName('swiper-wrapper');
+  //         const { width, right, left } = inner.getBoundingClientRect();
+  //         //
+  //         console.log({ w, r, l }, { width, right, left });
+  //         //
+  //         const pos = {
+  //           first: first.classList.contains(
+  //             'swiper-pagination-bullet-active-main'
+  //           ),
+  //           last: last.classList.contains(
+  //             'swiper-pagination-bullet-active-main'
+  //           ),
+  //         };
+  //         if (!pos.last) {
+  //           rightRef?.current?.classList.remove('hidden');
+  //           rightRef?.current?.classList.add('block');
+  //           leftRef?.current?.classList.remove('block');
+  //           leftRef?.current?.classList.add('hidden');
+  //         } else {
+  //           rightRef?.current?.classList.remove('block');
+  //           rightRef?.current?.classList.add('hidden');
+  //           leftRef?.current?.classList.remove('hidden');
+  //           leftRef?.current?.classList.add('block');
+  //         }
+  //       });
 
-        observer.observe(frame, {
-          attributes: true,
-          attributeFilter: ['class'],
-        });
-      }
-    } else {
-      rightRef.current.classList.remove('block');
-      rightRef.current.classList.add('hidden');
-    }
-  }, []);
+  //       observer.observe(frame, {
+  //         attributes: true,
+  //         attributeFilter: ['class'],
+  //       });
+  //     }
+  //   } else {
+  //     rightRef?.current?.classList.remove('block');
+  //     rightRef?.current?.classList.add('hidden');
+  //   }
+  // }, []);
 
   return (
-    <div className='relative' ref={frameRef} data-see='this'>
-      <div
+    // <div className='relative' ref={frameRef} data-see='this'>
+    <div className='relative' data-see='this'>
+      {/* <div
         ref={leftRef}
         className='pointer-events-none absolute left-0 top-0 bottom-0 z-10 hidden w-20 bg-gradient-to-l from-transparent to-white'
       ></div>
       <div
         ref={rightRef}
         className='pointer-events-none absolute right-0 top-0 bottom-0 z-10 w-20 bg-gradient-to-r from-transparent to-white'
-      ></div>
+      ></div> */}
       <Swiper
         slidesPerView={2}
         spaceBetween={8}
