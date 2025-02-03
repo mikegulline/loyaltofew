@@ -1,5 +1,5 @@
 {
-  "id": "undefined:undefined:black:remain-true",
+  "id": "mens:sleeves:black:remain-true",
   "name": "Cotton Long-Sleeve with Remain True",
   "link": "/store/mens/sleeves/remain-true",
   "image": "/images/products/mens/sleeves/MensSleevesRemainTrueBlack.jpg",
@@ -28,14 +28,12 @@
   ],
   "colors": [
     "Black",
-    "Gray",
     "Navy"
   ],
   "logos": [
     {
       "colors": [
         "Black",
-        "Gray",
         "Navy"
       ],
       "logo": "Disassociated",
@@ -45,8 +43,7 @@
     },
     {
       "colors": [
-        "Black",
-        "Gray"
+        "Black"
       ],
       "logo": "Family First",
       "link": "/store/mens/sleeves/family-first/black",
@@ -55,8 +52,7 @@
     },
     {
       "colors": [
-        "Black",
-        "Gray"
+        "Black"
       ],
       "logo": "Remain True",
       "link": "/store/mens/sleeves/remain-true/black",
@@ -65,8 +61,7 @@
     },
     {
       "colors": [
-        "Black",
-        "Gray"
+        "Black"
       ],
       "logo": "Business",
       "link": "/store/mens/sleeves/business/black",
@@ -75,8 +70,7 @@
     },
     {
       "colors": [
-        "Black",
-        "Gray"
+        "Black"
       ],
       "logo": "Small Circle",
       "link": "/store/mens/sleeves/small-circle/black",
@@ -86,7 +80,6 @@
     {
       "colors": [
         "Black",
-        "Gray",
         "Navy"
       ],
       "logo": "Original",
@@ -97,7 +90,6 @@
     {
       "colors": [
         "Black",
-        "Gray",
         "Navy"
       ],
       "logo": "Arch",
@@ -108,7 +100,6 @@
     {
       "colors": [
         "Black",
-        "Gray",
         "Navy"
       ],
       "logo": "Block",
@@ -119,7 +110,6 @@
     {
       "colors": [
         "Black",
-        "Gray",
         "Navy"
       ],
       "logo": "Stamp",
@@ -130,7 +120,6 @@
     {
       "colors": [
         "Black",
-        "Gray",
         "Navy"
       ],
       "logo": "Stenciled",

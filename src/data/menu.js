@@ -3,10 +3,10 @@ import { signOut } from 'next-auth/react';
 export const mensMenu = [
   { name: '50/50 Tee', location: '/store/mens/tee/' },
   { name: 'Cotton Tank', location: '/store/mens/tank/' },
-  // {
-  //   name: 'Cotton Long-Sleeve',
-  //   location: '/store/mens/sleeves/',
-  // },
+  {
+    name: 'Cotton Long-Sleeve',
+    location: '/store/mens/sleeves/',
+  },
 ];
 
 export const womensMenu = [

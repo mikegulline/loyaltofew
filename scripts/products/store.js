@@ -145,84 +145,84 @@ module.exports = [
           'Lightweight (6.5oz)  and durable',
         ],
       },
-      // {
-      //   type: 'Sleeves',
-      //   product: 'Cotton Long-Sleeve',
-      //   has_image_back: true,
-      //   unique_back: ['Family First', 'Remain True', 'Business'],
-      //   logos: [
-      //     'Disassociated',
-      //     'Family First',
-      //     'Remain True',
-      //     'Business',
-      //     'Small Circle',
-      //     'Original',
-      //     'Arch',
-      //     'Block',
-      //     'Stamp',
-      //     'Stenciled',
-      //   ],
-      //   colors: ['Black', 'Gray', 'Navy'],
-      //   colorsAlt: {
-      //     'Small Circle': ['Black', 'Gray'],
-      //     'Family First': ['Black', 'Gray'],
-      //     'Remain True': ['Black', 'Gray'],
-      //     Business: ['Black', 'Gray'],
-      //   },
-      //   tags: ['Tops'],
-      //   weight: 9.8,
-      //   meta: {
-      //     title: 'Mens Cotton Long-Sleeve (Unisex)',
-      //     description:
-      //       '100% cotton grown on a US farm. Lightweight (4.3oz.) & durable.',
-      //   },
-      //   irl: ['MensSleeves-1.jpg', 'MensSleeves-2.jpg', 'MensSleeves-3.jpg'],
-      //   sizes: [
-      //     {
-      //       size: 'S',
-      //       price: 35,
-      //       dimensions:
-      //         'Body Length: 28 3/8 in., Chest Width: 18 in., Sleeve Length: 27 1/8 in.',
-      //     },
-      //     {
-      //       size: 'M',
-      //       price: 35,
-      //       dimensions:
-      //         'Body Length: 29 1/2 in., Chest Width: 20 in., Sleeve Length: 27 5/8 in.',
-      //     },
-      //     {
-      //       size: 'L',
-      //       price: 35,
-      //       dimensions:
-      //         'Body Length: 30 5/8 in., Chest Width: 22 in., Sleeve Length: 27 7/8 in.',
-      //     },
-      //     {
-      //       size: 'XL',
-      //       price: 35,
-      //       dimensions:
-      //         'Body Length: 31 1/4 in., Chest Width: 24 in., Sleeve Length: 28 1/4 in.',
-      //     },
-      //     {
-      //       size: 'XXL',
-      //       price: 35,
-      //       dimensions:
-      //         'Body Length: 32 7/8 in., Chest Width: 26 in., Sleeve Length: 28 5/8 in.',
-      //     },
-      //     {
-      //       size: 'XXXL',
-      //       price: 35,
-      //       dimensions:
-      //         'Body Length: 32 7/8 in., Chest Width: 26 in., Sleeve Length: 28 5/8 in.',
-      //       colors: ['Black', 'Gray'],
-      //     },
-      //   ],
-      //   details: [
-      //     'Designed, produced & printed in the USA',
-      //     '100% cotton grown on a US farm',
-      //     'Lightweight (4.3oz.) & durable',
-      //     'Unisex, check size chart',
-      //   ],
-      // },
+      {
+        type: 'Sleeves',
+        product: 'Cotton Long-Sleeve',
+        has_image_back: true,
+        unique_back: ['Family First', 'Remain True', 'Business'],
+        logos: [
+          'Disassociated',
+          'Family First',
+          'Remain True',
+          'Business',
+          'Small Circle',
+          'Original',
+          'Arch',
+          'Block',
+          'Stamp',
+          'Stenciled',
+        ],
+        colors: ['Black', 'Navy'], //'Gray',
+        colorsAlt: {
+          'Small Circle': ['Black'], //'Gray',
+          'Family First': ['Black'], //'Gray',
+          'Remain True': ['Black'], //'Gray',
+          Business: ['Black'], //'Gray',
+        },
+        tags: ['Tops'],
+        weight: 9.8,
+        meta: {
+          title: 'Mens Cotton Long-Sleeve (Unisex)',
+          description:
+            '100% cotton grown on a US farm. Lightweight (4.3oz.) & durable.',
+        },
+        irl: ['MensSleeves-1.jpg', 'MensSleeves-2.jpg', 'MensSleeves-3.jpg'],
+        sizes: [
+          {
+            size: 'S',
+            price: 35,
+            dimensions:
+              'Body Length: 28 3/8 in., Chest Width: 18 in., Sleeve Length: 27 1/8 in.',
+          },
+          {
+            size: 'M',
+            price: 35,
+            dimensions:
+              'Body Length: 29 1/2 in., Chest Width: 20 in., Sleeve Length: 27 5/8 in.',
+          },
+          {
+            size: 'L',
+            price: 35,
+            dimensions:
+              'Body Length: 30 5/8 in., Chest Width: 22 in., Sleeve Length: 27 7/8 in.',
+          },
+          {
+            size: 'XL',
+            price: 35,
+            dimensions:
+              'Body Length: 31 1/4 in., Chest Width: 24 in., Sleeve Length: 28 1/4 in.',
+          },
+          {
+            size: 'XXL',
+            price: 35,
+            dimensions:
+              'Body Length: 32 7/8 in., Chest Width: 26 in., Sleeve Length: 28 5/8 in.',
+          },
+          {
+            size: 'XXXL',
+            price: 35,
+            dimensions:
+              'Body Length: 32 7/8 in., Chest Width: 26 in., Sleeve Length: 28 5/8 in.',
+            colors: ['Black', 'Gray'],
+          },
+        ],
+        details: [
+          'Designed, produced & printed in the USA',
+          '100% cotton grown on a US farm',
+          'Lightweight (4.3oz.) & durable',
+          'Unisex, check size chart',
+        ],
+      },
     ],
   },
   {

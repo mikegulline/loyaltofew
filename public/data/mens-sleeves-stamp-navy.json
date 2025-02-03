@@ -1,5 +1,5 @@
 {
-  "id": "undefined:undefined:navy:stamp",
+  "id": "mens:sleeves:navy:stamp",
   "name": "Cotton Long-Sleeve with Stamp",
   "link": "/store/mens/sleeves/stamp",
   "image": "/images/products/mens/sleeves/MensSleevesStampNavy.jpg",
@@ -28,14 +28,12 @@
   ],
   "colors": [
     "Black",
-    "Gray",
     "Navy"
   ],
   "logos": [
     {
       "colors": [
         "Black",
-        "Gray",
         "Navy"
       ],
       "logo": "Disassociated",
@@ -46,7 +44,6 @@
     {
       "colors": [
         "Black",
-        "Gray",
         "Navy"
       ],
       "logo": "Original",
@@ -57,7 +54,6 @@
     {
       "colors": [
         "Black",
-        "Gray",
         "Navy"
       ],
       "logo": "Arch",
@@ -68,7 +64,6 @@
     {
       "colors": [
         "Black",
-        "Gray",
         "Navy"
       ],
       "logo": "Block",
@@ -79,7 +74,6 @@
     {
       "colors": [
         "Black",
-        "Gray",
         "Navy"
       ],
       "logo": "Stamp",
@@ -90,7 +84,6 @@
     {
       "colors": [
         "Black",
-        "Gray",
         "Navy"
       ],
       "logo": "Stenciled",

@@ -18,7 +18,7 @@
   "type": "Sleeves",
   "name": "Cotton Long-Sleeve",
   "link": "/store/mens/sleeves",
-  "image": "/images/products/mens/sleeves/MensSleevesSmallCircleBlack.jpg",
+  "image": "/images/products/mens/sleeves/MensSleevesRemainTrueBlack.jpg",
   "has_image_back": true,
   "unique_back": [
     "Family First",
@@ -51,7 +51,6 @@
     {
       "colors": [
         "Black",
-        "Gray",
         "Navy"
       ],
       "name": "Cotton Long-Sleeve with Disassociated",
@@ -71,8 +70,7 @@
     },
     {
       "colors": [
-        "Black",
-        "Gray"
+        "Black"
       ],
       "name": "Cotton Long-Sleeve with Family First",
       "link": "/store/mens/sleeves/family-first",
@@ -91,8 +89,7 @@
     },
     {
       "colors": [
-        "Black",
-        "Gray"
+        "Black"
       ],
       "name": "Cotton Long-Sleeve with Remain True",
       "link": "/store/mens/sleeves/remain-true",
@@ -111,8 +108,7 @@
     },
     {
       "colors": [
-        "Black",
-        "Gray"
+        "Black"
       ],
       "name": "Cotton Long-Sleeve with Business",
       "link": "/store/mens/sleeves/business",
@@ -131,8 +127,7 @@
     },
     {
       "colors": [
-        "Black",
-        "Gray"
+        "Black"
       ],
       "name": "Cotton Long-Sleeve with Small Circle",
       "link": "/store/mens/sleeves/small-circle",
@@ -152,7 +147,6 @@
     {
       "colors": [
         "Black",
-        "Gray",
         "Navy"
       ],
       "name": "Cotton Long-Sleeve with Original",
@@ -173,7 +167,6 @@
     {
       "colors": [
         "Black",
-        "Gray",
         "Navy"
       ],
       "name": "Cotton Long-Sleeve with Arch",
@@ -194,7 +187,6 @@
     {
       "colors": [
         "Black",
-        "Gray",
         "Navy"
       ],
       "name": "Cotton Long-Sleeve with Block",
@@ -215,7 +207,6 @@
     {
       "colors": [
         "Black",
-        "Gray",
         "Navy"
       ],
       "name": "Cotton Long-Sleeve with Stamp",
@@ -236,7 +227,6 @@
     {
       "colors": [
         "Black",
-        "Gray",
         "Navy"
       ],
       "name": "Cotton Long-Sleeve with Stenciled",
@@ -293,25 +283,20 @@
   ],
   "colors": [
     "Black",
-    "Gray",
     "Navy"
   ],
   "colorsAlt": {
     "Small Circle": [
-      "Black",
-      "Gray"
+      "Black"
     ],
     "Family First": [
-      "Black",
-      "Gray"
+      "Black"
     ],
     "Remain True": [
-      "Black",
-      "Gray"
+      "Black"
     ],
     "Business": [
-      "Black",
-      "Gray"
+      "Black"
     ]
   },
   "details": [
