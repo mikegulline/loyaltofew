@@ -7,9 +7,15 @@ export default async function mail(email, subject, message) {
     // Check if SendGrid API key is configured
     if (!process.env.SENDGRID_FULL_API) {
       const error = new Error('SendGrid API key is not configured');
-      console.error('mail.js error:', error.message);
+      console.error('mail.js error: SENDGRID_FULL_API environment variable is missing');
       throw error;
     }
+    
+    // Log API key status (first few chars only for security)
+    const apiKeyPreview = process.env.SENDGRID_FULL_API 
+      ? `${process.env.SENDGRID_FULL_API.substring(0, 10)}...` 
+      : 'NOT SET';
+    console.log('SendGrid API key status:', apiKeyPreview);
     
     sgMail.setApiKey(process.env.SENDGRID_FULL_API);
     
@@ -42,6 +48,15 @@ export default async function mail(email, subject, message) {
       stack: error?.stack,
     };
     console.error('mail send error mail.js:', JSON.stringify(errorDetails, null, 2));
+    
+    // Handle 401 Unauthorized specifically
+    if (error?.code === 401 || error?.response?.statusCode === 401) {
+      console.error('SendGrid API key authentication failed. Please verify:');
+      console.error('1. The API key is correct in Vercel environment variables');
+      console.error('2. The API key has "Mail Send" permissions enabled');
+      console.error('3. The API key has not been revoked or regenerated');
+      throw new Error('SendGrid API authentication failed. Please check your API key configuration.');
+    }
     
     // Re-throw the error so calling code can handle it
     // Include more details if available from SendGrid
