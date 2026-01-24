@@ -80,7 +80,12 @@ handler.post(async (req, res) => {
       .status(200)
       .json({ success: true, message: `Secure token sent to ${email}.` });
   } catch (error) {
-    console.error('twofactorset.js error:', error);
+    console.error('twofactorset.js error:', {
+      message: error?.message,
+      stack: error?.stack,
+      name: error?.name,
+      email: req.body?.email,
+    });
     // Make sure db is disconnected even on error
     try {
       await db.disconnectDB();
