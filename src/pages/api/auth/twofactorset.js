@@ -52,14 +52,18 @@ handler.post(async (req, res) => {
       <p>If you did not initiate this secure login, please contact your admin ASAP.</p>
       <p>Loyal to Few®</p>
   `;
-    //////////////////////
-    //////////////////////
-    //////////////////////
-    //////////////////////
-    //////////////////////
-    //////////////////////
-    //////////////////////
-    await mail(email, subject, message);
+    
+    try {
+      await mail(email, subject, message);
+    } catch (emailError) {
+      // If email fails, delete the token we just created
+      await TwoFactorToken.deleteMany({ user: user._id });
+      console.error('Failed to send 2FA email:', emailError.message);
+      return res.status(500).json({
+        success: false,
+        message: 'Failed to send confirmation email. Please try again or contact support.',
+      });
+    }
 
     //return instructions
     return res
