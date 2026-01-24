@@ -58,7 +58,12 @@ handler.post(async (req, res) => {
     } catch (emailError) {
       // If email fails, delete the token we just created
       await TwoFactorToken.deleteMany({ user: user._id });
-      console.error('Failed to send 2FA email:', emailError.message);
+      console.error('Failed to send 2FA email:', {
+        message: emailError?.message,
+        email,
+        userId: user._id,
+      });
+      // Don't expose the actual error to the user, just log it
       return res.status(500).json({
         success: false,
         message: 'Failed to send confirmation email. Please try again or contact support.',
@@ -70,9 +75,17 @@ handler.post(async (req, res) => {
       .status(200)
       .json({ success: true, message: `Secure token sent to ${email}.` });
   } catch (error) {
-    res.status(500).json({ success: false, message: error.message });
-  } finally {
-    await db.disconnectDB();
+    console.error('twofactorset.js error:', error);
+    // Make sure db is disconnected even on error
+    try {
+      await db.disconnectDB();
+    } catch (dbError) {
+      console.error('Error disconnecting DB:', dbError);
+    }
+    return res.status(500).json({ 
+      success: false, 
+      message: error?.message || 'An error occurred. Please try again.' 
+    });
   }
 });
 

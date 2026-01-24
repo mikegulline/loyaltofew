@@ -22,14 +22,19 @@ export default async function mail(email, subject, message) {
     await sgMail.send(msg);
     console.log('mail sent to', email);
   } catch (error) {
-    console.error('mail send error mail.js:', {
-      error: error.message,
-      response: error.response?.body,
+    const errorDetails = {
+      message: error?.message || 'Unknown error',
+      code: error?.code,
+      response: error?.response?.body,
       email,
-    });
+    };
+    console.error('mail send error mail.js:', errorDetails);
+    
     // Re-throw the error so calling code can handle it
-    throw new Error(
-      `Failed to send email: ${error.message || 'Unknown error'}`
-    );
+    // Include more details if available from SendGrid
+    const errorMessage = error?.response?.body?.errors?.[0]?.message 
+      || error?.message 
+      || 'Failed to send email';
+    throw new Error(errorMessage);
   }
 }
