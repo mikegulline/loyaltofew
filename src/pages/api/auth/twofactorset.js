@@ -26,10 +26,12 @@ handler.post(async (req, res) => {
     await db.connectDB();
     const user = await User.findOne({ email });
 
-    if (!user)
+    if (!user) {
+      await db.disconnectDB();
       return res
         .status(400)
         .json({ success: false, message: 'Invalid email.' });
+    }
 
     //found user
     //delete any tokens by user._id
@@ -62,7 +64,9 @@ handler.post(async (req, res) => {
         message: emailError?.message,
         email,
         userId: user._id,
+        sendGridError: emailError?.response?.body,
       });
+      await db.disconnectDB();
       // Don't expose the actual error to the user, just log it
       return res.status(500).json({
         success: false,
@@ -71,6 +75,7 @@ handler.post(async (req, res) => {
     }
 
     //return instructions
+    await db.disconnectDB();
     return res
       .status(200)
       .json({ success: true, message: `Secure token sent to ${email}.` });
