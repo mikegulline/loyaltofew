@@ -14,18 +14,21 @@ export default function SignIn({ session, csrfToken, callbackUrl }) {
   const [step, setStep] = useState(0);
   const [email, setEmail] = useState('');
 
+  // TODO: Re-enable 2FA when email service is configured
+  // Temporarily disabled due to SendGrid free tier limit
+  // To re-enable: uncomment the 2FA steps below and change initial step back to 0
   const signInSteps = [
-    {
-      component: TwoFactorSetForm,
-      props: { next: () => setStep((step) => step + 1), setEmail },
-    },
-    {
-      component: TwoFactorGetForm,
-      props: {
-        next: () => setStep((step) => step + 1),
-        back: () => setStep(0),
-      },
-    },
+    // {
+    //   component: TwoFactorSetForm,
+    //   props: { next: () => setStep((step) => step + 1), setEmail },
+    // },
+    // {
+    //   component: TwoFactorGetForm,
+    //   props: {
+    //     next: () => setStep((step) => step + 1),
+    //     back: () => setStep(0),
+    //   },
+    // },
     {
       component: SignInForm,
       props: {

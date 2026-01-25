@@ -17,10 +17,10 @@ const initialValuesSignIn = {
   error: '',
 };
 
-export default function SignInForm({ signIn, csrfToken, callbackUrl, email }) {
+export default function SignInForm({ signIn, csrfToken, callbackUrl, email: emailProp }) {
   const [fetching, setFetching] = useState('');
   const [user, setUser] = useState(initialValuesSignIn);
-  const { password, success, error } = user;
+  const { email, password, success, error } = user;
   const router = useRouter();
 
   const handleChange = (e) => {
@@ -30,9 +30,11 @@ export default function SignInForm({ signIn, csrfToken, callbackUrl, email }) {
 
   const signInHandler = async () => {
     setFetching('Signing in…');
+    // Use email from props if provided (2FA flow), otherwise use form email
+    const emailToUse = emailProp || email;
     let options = {
       redirect: false,
-      email: email,
+      email: emailToUse,
       password: password,
     };
     const res = await signIn('credentials', options);
@@ -68,7 +70,7 @@ export default function SignInForm({ signIn, csrfToken, callbackUrl, email }) {
       <Formik
         enableReinitialize
         initialValues={{
-          email,
+          email: emailProp || email || '',
           password,
         }}
         validationSchema={loginValidation}
@@ -84,12 +86,12 @@ export default function SignInForm({ signIn, csrfToken, callbackUrl, email }) {
           >
             <input type='hidden' name='csrfToken' defaultValue={csrfToken} />
             <Input
-              type='hidden'
+              type='text'
               name='email'
               icon='email'
               placeholder='Email Address'
               onChange={handleChange}
-              value={email}
+              value={emailProp || email || ''}
             />
             <Input
               type='password'
