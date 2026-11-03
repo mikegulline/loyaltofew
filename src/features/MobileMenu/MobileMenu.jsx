@@ -27,7 +27,7 @@ export default function MobileMenu({ open, openCloseMobileMenu }) {
         }`}
       >
         <Container>
-          <div>
+          <div className='pt-10'>
             <ul
               className={`my-10 border-t border-t-gray-300 transition-all ${
                 open

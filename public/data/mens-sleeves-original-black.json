@@ -15,15 +15,15 @@
   "irl": [
     {
       "image": "/images/irl/MensSleeves-1.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOz//9f4/832/+T//wDR3ttjcHdkeH/E1dAA2N7dFC9JAAQWcndsAO/2/1RieUhQUa+yooxaHoJLEY87AAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOz//9f4/833/+T//wDR3dpga3Vjd33D1tAA2N7eFC9KAAQXcndsAPD4/1Zje0hRUq+yo4r8HoF+nt8iAAAAAElFTkSuQmCC"
     },
     {
       "image": "/images/irl/MensSleeves-2.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO3//6jI2J7J5d75/wDH0tslO1NUcYTK3t8Axc7XByE9AAYJjpSJAObt9klab15lYra3rUO4HPAPZsg9AAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO3//6jI2p7J5d75/wDH0toiOFBRcYPL3N8Axc7XCSI/AAYJjpSJAObt9kxccWBmYra3r0LaHPRDqNDVAAAAAElFTkSuQmCC"
     },
     {
       "image": "/images/irl/MensSleeves-3.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APT9/9bu9Z6jkd/k3wDo7uuAg3tKRzfY3NUAz8/FERIKAQEB4eDZAOnu621xb1ZdXuvw7l72HsSYn/fPAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APT9/9bu9p+jkt/k3wDo7ut/gXlIRTXZ29UAz9DFExQMAwMD4uDZAOnu625zcVhfX+vw7l9tHtQ1pgZmAAAAAElFTkSuQmCC"
     }
   ],
   "colors": [
@@ -39,7 +39,7 @@
       "logo": "Disassociated",
       "link": "/store/mens/sleeves/disassociated/black",
       "image": "/images/products/mens/sleeves/MensSleevesDisassociatedBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO7u8WxtcXFxc/Hx8wCOjpQkJSgnKCyNjZEAw8PHAwILAQAIysrOAOXl6F5fY3NzePz8/5LCGXjfeRcgAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APDv821ucnFyd/P09gCNjZEhIiYlJiqKio8AxMTIBQUNAgIKysrOAObm6F9gZnN1efz9/5SGGYx8i0c1AAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -48,7 +48,7 @@
       "logo": "Family First",
       "link": "/store/mens/sleeves/family-first/black",
       "image": "/images/products/mens/sleeves/MensSleevesFamilyFirstBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APT0+IWFiI+OkPv7/QB8foQ1JiE1JyOBgokArq60DQsRAwEHm5yfAPX1+YWFioCBhu7u8qmaGf6PhfsgAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APX1+YeGi5GQkv39/wB4eYEwJB00JR5+gIYAr7G1DgwTBAIInp6jAPb2+IWFi4KChe7w8qnrGgdrq4zMAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -57,7 +57,7 @@
       "logo": "Remain True",
       "link": "/store/mens/sleeves/remain-true/black",
       "image": "/images/products/mens/sleeves/MensSleevesRemainTrueBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP79/3B1fH+Fi/r6/ACZlJcNIjQOIzWSjY8AxMTHCAYLAAAAqamsAPr6/XJyeGprcNna3apgGZ4Vc0rFAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8/m51en+Eivj4+gCUkJMIHzELIDOLiIsAwsLGCwkOAAABqKirAPj4+nJyd2lqb9fX26EwGU5BXLwZAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -66,7 +66,7 @@
       "logo": "Business",
       "link": "/store/mens/sleeves/business/black",
       "image": "/images/products/mens/sleeves/MensSleevesBusinessBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APX2+5CKgpqUiPn6/QCVl6AxJQs7KguMjpcA1NTXEREaAAAMs7O2AP39/3l5fnl5f/Dw9MduGwjcz29zAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APj5/ZGMgpqUifv7/wCUlJ4tIwg3KQmKjJQA1dTXEhIcAQINtLS4AP3+/3t7f3t7f/Dx9MgSGxQmjrlUAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -75,7 +75,7 @@
       "logo": "Small Circle",
       "link": "/store/mens/sleeves/small-circle/black",
       "image": "/images/products/mens/sleeves/MensSleevesSmallCircleBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APb0+ouBiJSFjv37/wCdl5o2Chk7FSKYlZsA1MvQHg4WCQAMnZaYAPv5/YJ3d4Z+fujj6MDjGp9FDG5kAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APj1+4uBiJSGjv79/wCalJcwBRM1EB2WkpcA1c3QHQ4WBwAInZaYAPz5/IF3doR9fejk5ruAGmkSOC77AAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -85,7 +85,7 @@
       "logo": "Original",
       "link": "/store/mens/sleeves/original/black",
       "image": "/images/products/mens/sleeves/MensSleevesOriginalBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP///42RmISGjvj3+gCkpa0UGCUOER+WmqEArK20BwsZAAALlJefAOHi5n+Bi3Z4g9DR1ra9GbQ3CEwuAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/46QmISHj/X2+ACfoqkQFSMKDhuTlZ4Aq6yzCAwZAAAMlJWeAN/f5H6AiXV4gs/Q1a8mGW6HJACAAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -95,7 +95,7 @@
       "logo": "Arch",
       "link": "/store/mens/sleeves/arch/black",
       "image": "/images/products/mens/sleeves/MensSleevesArchBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APf4+56hp6anrf39/wCJi5QbHycXGySnqq8Ara+0AAIPAQMQxMTLAObn63p+hX+Biu7u8tZoGzhUjH72AAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APn5/J+iqKeqr/7+/wCIipEYHCUVGCGlp60Ar6+2AQMQAwYTxcXMAOfo7Ht/hoGCie7u8tc2G0U9C89rAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -105,7 +105,7 @@
       "logo": "Block",
       "link": "/store/mens/sleeves/block/black",
       "image": "/images/products/mens/sleeves/MensSleevesBlockBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP3+/4qMlJGUm/7+/wCNkJcbISoZHienqrIAsrO5AgoYAAMWv8DGAO/v83yAiHh8hOLj58uNGvQwHK9PAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/oiKkY+Smfz7/wCHiZIWGyUTGSOjpKwAsLK5AAgYAAEWu73CAOzt8Hl9hXd4g+Dg5bzAGmnqzZv5AAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -115,7 +115,7 @@
       "logo": "Stamp",
       "link": "/store/mens/sleeves/stamp/black",
       "image": "/images/products/mens/sleeves/MensSleevesStampBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr6/Y+Ql5+gp////wCio6oWGSMYGySpqrAAp6etAAEPAQMPu7vAAM7Q1F1gamtvd+Tl6coPGhaeZtE9AAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APj4+o6Rlp+fpvz8/wCfn6cSFyEUGSOkpa0ApKetAAMQAQYTubq/AMvN0lxgamtvd+Li5sIkGdJtessYAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -125,7 +125,7 @@
       "logo": "Stenciled",
       "link": "/store/mens/sleeves/stenciled/black",
       "image": "/images/products/mens/sleeves/MensSleevesStenciledBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APHx9IeHiZCQkP39/wB+fn85OTk7Ozt/f38Am5ubBAQEDw8PeHh4ANzc3XFxcX19ft3d36HjGNZqtjG4AAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO7u8IWFho2Nj/z8/QB4eHgzMzM3NzZ5eXkAl5eYAQEADQ0NdnZ2ANnZ2m5ucHp6etnZ25CdGC8gCN5tAAAAAElFTkSuQmCC"
     }
   ],
   "sizes": [
@@ -189,6 +189,6 @@
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP///42RmISGjvj3+gCkpa0UGCUOER+WmqEArK20BwsZAAALlJefAOHi5n+Bi3Z4g9DR1ra9GbQ3CEwuAAAAAElFTkSuQmCC",
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/46QmISHj/X2+ACfoqkQFSMKDhuTlZ4Aq6yzCAwZAAAMlJWeAN/f5H6AiXV4gs/Q1a8mGW6HJACAAAAAAElFTkSuQmCC",
   "name_root": "Cotton Long-Sleeve"
 }

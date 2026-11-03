@@ -11,7 +11,7 @@ async function connectDB() {
   }
 
   if (mongoose.connections.length > 0) {
-    connection.isConnected = mongoose.connections[0].readyState;
+    connection.isConnected = mongoose .connections[0].readyState;
     if (connection.isConnected === 1) {
       console.log('Use previous DB connection');
       return;

@@ -15,11 +15,11 @@
   "irl": [
     {
       "image": "/images/irl/WomensOversized-Crop-1.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOL//6Pf/6fp/975/wDI1dxpZ2o0PUmvurIArqiRHwAAEwAAtratAN/p0UlWTVVyfNjv7kEHHP6ow5q1AAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOL//6Ph/6fp/9/7/wDH1dxpZWkxO0atubAArqiSIAAAFQAFt7atAODp0kxWT1hzftju7kDmHQi35ATNAAAAAElFTkSuQmCC"
     },
     {
       "image": "/images/irl/WomensOversized-Crop-2.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ANH7/6zc/57O9M7//wC/1t51gItGTVu+2OIAn5mFHCIrAAAXsaWUAMjUrnqCeFZhbdje0kxuHWmhOqAXAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ANH7/67d/57Q9tD//wC/1t5yf4lDTFi91+EAn5qGHSMtAAEYsaaUAMnUrnyFelhibtjf000VHXnDi+TgAAAAAElFTkSuQmCC"
     }
   ],
   "colors": [
@@ -39,7 +39,7 @@
       "logo": "Disassociated",
       "link": "/store/womens/oversized-crop/disassociated/black",
       "image": "/images/products/womens/oversized-crop/WomensOversized-CropDisassociatedBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/+np7ebm6Pb2+gCSk5QcHiAZGxyUlZYAra2vAAQJFxgavb7BAPn5++vr7vPy9vX1+CzUH3702e7bAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/+3t8Orp7Pf3+wCMjY8UFhcOERSPkJIArK2vAAEHFRcZvb7AAPn5++np7PLx9fb2+SVTHzFGxQgVAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -48,7 +48,7 @@
       "logo": "Family First",
       "link": "/store/womens/oversized-crop/family-first/black",
       "image": "/images/products/womens/oversized-crop/WomensOversized-CropFamilyFirstBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/+jo6+Pk5vf3+gCXmZ0PCwkHAACRkpQAxcbKGxUVIRoXxcfKAPr5/PX1+fb3/Pf3+ix5H91b8JCuAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/+3u8enq7Pn5/ACXmJsQDAoIAACRkpYAx8nMJB4cKSIfyMrMAPr6/fT09/X2+/n5+jjFIEjQpTyXAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -57,7 +57,7 @@
       "logo": "Remain True",
       "link": "/store/womens/oversized-crop/remain-true/black",
       "image": "/images/products/womens/oversized-crop/WomensOversized-CropRemainTrueBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/+rp6ujn6fv7/wCZmZsKFRwJFRuUlJQAv7/ABhMbAAYUubm6APv7/+/u7/Xy8/r5/DANH6XXMyMzAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/uzr7Onn6fn5/ACRkZIACBMACBOKiosAvLu8Ag4ZAAMStbS1APj4++rp6u/t7vb2+RvFHs4yFkZJAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -66,7 +66,7 @@
       "logo": "Business",
       "link": "/store/womens/oversized-crop/business/black",
       "image": "/images/products/womens/oversized-crop/WomensOversized-CropBusinessBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP/+/+fo7ePk6vv7/wCNjpQZEgAYDwCDhIkAtLa7DAIADgAAqquwAPv6/evt8fT1+/r6/Rk3Hsa8AB3IAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPUlEQVR4nGP4/fvfi5fvnj57/fPnb4a29l4BNgZ+Roaa2kaGDZt28jKBOCtXrmP4/v33s+dv373/8v37bwAKZR4o7xBGggAAAABJRU5ErkJggg=="
     },
     {
       "colors": [
@@ -75,7 +75,7 @@
       "logo": "Small Circle",
       "link": "/store/womens/oversized-crop/small-circle/black",
       "image": "/images/products/womens/oversized-crop/WomensOversized-CropSmallCircleBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+//Hz9PDy8/39/wCvrK1INDhJODusq68AtbS1IwAAJQAFsrK0APr6/dLV1dfY2Pn3+mMSIIGLCfhqAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/vDy8+/y8/r6/ACppqhBLTBCMTWnpqgAs7KzIwAAJAEFr6+xAPf2+c/Q0NPU1PX09lOXH+M99BkLAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -87,7 +87,7 @@
       "logo": "Original",
       "link": "/store/womens/oversized-crop/original/black",
       "image": "/images/products/womens/oversized-crop/WomensOversized-CropOriginalBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP38/+3t8e7u8fv7/wCTl5wxMzksLzWbnKIAra+0AAENCQ4VsLG3APb2+vLy9fT09/j4+0fSID2xeUpeAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39//Dw8/Hx9v39/gCPkpgrLDInKC6WmJ8ArrCzAgMPDA8WsLK2APj4+fDw8/Pz9vj4+0SSIBpYSfE3AAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -99,7 +99,7 @@
       "logo": "Arch",
       "link": "/store/womens/oversized-crop/arch/black",
       "image": "/images/products/womens/oversized-crop/WomensOversized-CropArchBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP37/+vr7+zr7/v7/wCOkpgrLDMvMTaVl5wAqqqvAAMNEBEXqq2xAPb2+e7u8/Ly9vj4+z4QH+Q3oUPyAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/+7v8+7u8v39/gCLjZMlJiwpKjCRlJkAp6qvAAUOERIYq62yAPf3++3t8fHx9Pf3+zrGH77UxcxPAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -111,7 +111,7 @@
       "logo": "Block",
       "link": "/store/womens/oversized-crop/block/black",
       "image": "/images/products/womens/oversized-crop/WomensOversized-CropBlockBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz7/+fn6ujp6/v7/wCFh44tLjUsLTOMjpQAoaKnAgQODhAWo6SnAPf3+Ovr7u/v8vn5+y3mH0vAiFdgAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/+rq7uzs7/39/wB/gYclJSsiJCiFiI4An6GlAAEKCwwToaOoAPf3+unp7e3t8Pj4+yT5HuUh0bI/AAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -123,7 +123,7 @@
       "logo": "Stamp",
       "link": "/store/womens/oversized-crop/stamp/black",
       "image": "/images/products/womens/oversized-crop/WomensOversized-CropStampBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz7/+rq7Ovs7vv7/wCMj5UrLDMtLjSTlJsApqitAgUOEBAXqaqvAPf3++7u8fLy9fn3+jl1H76IUu/4AAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/+7u8e7v8v39/wCHiZAiIyojJCmOj5UAp6esAAIMDg8UqKqtAPj3+e3t7+/w8/f3+jHVH2NS3HbpAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -135,7 +135,7 @@
       "logo": "Stenciled",
       "link": "/store/womens/oversized-crop/stenciled/black",
       "image": "/images/products/womens/oversized-crop/WomensOversized-CropStenciledBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz7/ufo6unp7fz8/gCKjZMuMzkuMTiMj5UAo6etAAIPCQwVo6WrAPj3+e7u8fHx9fn4+zS7H4zIbdBaAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP79/+vr7+3t7/7+/wCGiY8pLDMoKjGIipEApaetAAQRBw0VpKarAPj4++vr7+/v8vj4+zLDH2fsZaxnAAAAAElFTkSuQmCC"
     }
   ],
   "sizes": [
@@ -170,6 +170,6 @@
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP37/+vr7+zr7/v7/wCOkpgrLDMvMTaVl5wAqqqvAAMNEBEXqq2xAPb2+e7u8/Ly9vj4+z4QH+Q3oUPyAAAAAElFTkSuQmCC",
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/+7v8+7u8v39/gCLjZMlJiwpKjCRlJkAp6qvAAUOERIYq62yAPf3++3t8fHx9Pf3+zrGH77UxcxPAAAAAElFTkSuQmCC",
   "name_root": "Cotton Oversized Crop"
 }

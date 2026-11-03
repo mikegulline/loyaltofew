@@ -18,7 +18,7 @@
   "type": "50-50-Hoodie",
   "name": "50/50 Hoodie",
   "link": "/store/outerwear/50-50-hoodie",
-  "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBlockBlack.jpg",
+  "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieArchBlack.jpg",
   "has_image_back": false,
   "weight": 34.3,
   "meta": {
@@ -28,7 +28,7 @@
   "irl": [
     {
       "image": "/images/irl/Outerwear50-50-Hoodie-1.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APbp0tnKqvPerv/91QDKwKpTU0lxaFXWx64AfIaAAAcRFSEon5+fALS0q09QUk5UVKqrpxtMGraja5OWAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APXp0trKq/Terv/91QDIvqlPT0htZVHVxa0AfYSAAAMSFSAnnqGeALayrFBRUlBUVKyspxenGp2WHbblAAAAAElFTkSuQmCC"
     }
   ],
   "tags": [

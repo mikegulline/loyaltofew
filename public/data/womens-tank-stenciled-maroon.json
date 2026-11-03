@@ -15,11 +15,11 @@
   "irl": [
     {
       "image": "/images/irl/WomensTank-1.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO7k2NG9nvvqwP/86gCtraM7KxlqSDbIvLQAg4R3DwAAJRAKsqSdALGtpkZDPzczM6uqo/bjGR0glQ5UAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO7k2NK+n/vrwf/86gCtraM6KRdpRzTIvLQAhIR4DwAAJxENsqSdALGup0hGQTk1Na6ro/e0GTRfQIxbAAAAAElFTkSuQmCC"
     },
     {
       "image": "/images/irl/WomensTank-2.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOT//9D8/8Hv/9f9/wDC3uSTqrZoeo3I6vYArLCqPUdPAAYcXmleAPP4/36Lnyg2RXZ+fJrbHoPzKUJRAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOP//9D7/8Dv/9b8/wDC3uSTqbVoeo3I7PYArLCqP0dQAAYdXGheAPT3/4CMoCo5R3Z+fZpWHovFN3xgAAAAAElFTkSuQmCC"
     }
   ],
   "colors": [
@@ -37,7 +37,7 @@
       "logo": "Disassociated",
       "link": "/store/womens/tank/disassociated/maroon",
       "image": "/images/products/womens/tank/WomensTankDisassociatedMaroon.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APn7/6eUm7Sjqfj6/ADs6+5BESBEFyXo5+sAs6WpJgAAJwAAuq6yAL60uUokL103Q8rCxwesGoMp4G49AAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APn7/6iVm7Wnq/j6/ADs7O4/Dh5BFSPo5+oAs6WpJgAAJwABuK6xAMG2uUomMV08RcrCxQfaGorbHOiBAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -48,7 +48,7 @@
       "logo": "Original",
       "link": "/store/womens/tank/original/maroon",
       "image": "/images/products/womens/tank/WomensTankOriginalMaroon.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APn7/sOqr8u0uvv+/wDy8vZlHCh3NT78/v8A2M3POwAAPQAA3dLVAOLa3WgxPXA3PuDX2FnoHfnk26urAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr7/sWtssu2u/r8/wDy8fVlGSZ1NDz8//8A2M3POwAAPgAA3dLVAOPa3Wk0PnI7QeDX2FqcHge4skszAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -59,7 +59,7 @@
       "logo": "Arch",
       "link": "/store/womens/tank/arch/maroon",
       "image": "/images/products/womens/tank/WomensTankArchMaroon.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv+/7ifpb6mrPv+/wDx8fVeGiZjJC309fcA29DUNwAAOgAA0sXIAOLY3GEwO3VFTOTb3UGCHVm6nyFrAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv+/7ifpL6mrPv+/wDx8fRZFCJfICjz9PcA2s/TNQAAOAAA0cTHAOLa22AwOnRDS+Pb3TyEHSmEZSNKAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -70,7 +70,7 @@
       "logo": "Block",
       "link": "/store/womens/tank/block/maroon",
       "image": "/images/products/womens/tank/WomensTankBlockMaroon.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP3//7eeo7efpfr9/wDx8fRPDRlWGyT29/oA0cfKMwAANAAAx7m9ANnR1FIjLWExN9jQ0iuHHBWT5yzVAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz//7efpbmgpfr8/wDx8fROCxhVGCP29/oA0cfKMwAANAAAx7m9ANnR1FQnMGMzOdjQ0it+HB+U7vKAAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -81,7 +81,7 @@
       "logo": "Stamp",
       "link": "/store/womens/tank/stamp/maroon",
       "image": "/images/products/womens/tank/WomensTankStampMaroon.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APn7/bKZn8Kvtfv+/wDy8fNGCRhfLTP9//8A2tHUMAAAOAAA3tbaAOHb3VcqMm1CSOPe4D5mHUolsF5VAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APX2+bCZn8Cvs/f5/ADt7e9DBxVcKTD5/P4A1c3QMQAAOAAA2tPVAN3X2lgqNG1CSN/a3DGDHNh1yQV5AAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -92,7 +92,7 @@
       "logo": "Stenciled",
       "link": "/store/womens/tank/stenciled/maroon",
       "image": "/images/products/womens/tank/WomensTankStenciledMaroon.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APj8/7GOlL2gpfj8/wDr6etuIy55NT7u7vEAwqquQgAAPAAAuaOnAMq6vmwuNmw1O83AwikQG8su6qPtAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APj8/7KRlr2ipvj8/wDr6ettIix5Mz3u7vIAwqquRAAAPAAAuaOnAMy9v20wN2w2PM3Awip8G9wosTJBAAAAAElFTkSuQmCC"
     }
   ],
   "sizes": [
@@ -146,6 +146,6 @@
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APj8/7GOlL2gpfj8/wDr6etuIy55NT7u7vEAwqquQgAAPAAAuaOnAMq6vmwuNmw1O83AwikQG8su6qPtAAAAAElFTkSuQmCC",
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APj8/7KRlr2ipvj8/wDr6ettIix5Mz3u7vIAwqquRAAAPAAAuaOnAMy9v20wN2w2PM3Awip8G9wosTJBAAAAAElFTkSuQmCC",
   "name_root": "Tri-Blend Tank"
 }

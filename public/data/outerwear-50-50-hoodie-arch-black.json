@@ -15,7 +15,7 @@
   "irl": [
     {
       "image": "/images/irl/Outerwear50-50-Hoodie-1.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APbp0tnKqvPerv/91QDKwKpTU0lxaFXWx64AfIaAAAcRFSEon5+fALS0q09QUk5UVKqrpxtMGraja5OWAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APXp0trKq/Terv/91QDIvqlPT0htZVHVxa0AfYSAAAMSFSAnnqGeALayrFBRUlBUVKyspxenGp2WHbblAAAAAElFTkSuQmCC"
     }
   ],
   "colors": [
@@ -29,7 +29,7 @@
       "logo": "Original",
       "link": "/store/outerwear/50-50-hoodie/original/black",
       "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieOriginalBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7//7OwsMC7vP7//wDQ0NFBOztCPD3S0dQAi4iLCQUJAgAEc3JzAN/e4HBqamljZMfFxxADGxTNCktkAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7//7WyssC9vf///wDQztI/OTpAOjvR0dQAi4iLCgYKAwEFc3JzAN/e33Fra2llZcbFxxCwGxuf5zEMAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -38,7 +38,7 @@
       "logo": "Arch",
       "link": "/store/outerwear/50-50-hoodie/arch/black",
       "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieArchBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7//7Ktrby5uf///wDQzdE/OTpGQEHR0NEAhoWHDQgNBAMGbm1xAN/e32xmZmFeX8XFxwvpGt10mxVoAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP///7Ovr765uv///wDOzc88NjZDPT3Qz9EAhoSGCwULAwADbWxvAN7d3mplZWNfYMXExQiMGrJRzNGSAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -47,7 +47,7 @@
       "logo": "Block",
       "link": "/store/outerwear/50-50-hoodie/block/black",
       "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieBlockBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7//6+rqrq2t////wDNy85DPD1GQEHOzdAAgoGCEQ0QBQEHamlsAN7d32ZgYF5aW8TExQbEGpglmoRZAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/q2pqbi1tfv8/wDJyMo+ODpBOzzLyswAgX+BEAwQAwEFaGZpANva22VgX11ZW8HAwfo4GiSAWCwmAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -56,7 +56,7 @@
       "logo": "Stamp",
       "link": "/store/outerwear/50-50-hoodie/stamp/black",
       "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieStampBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv6/LOvr7m1tfv8/wDQz9NBOztCOzzMy80AiomLDggOAwEGaGdpAN3d3mplZV9bXL+/wQT6GoccfWXCAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/7Wxsbm2tvv8/wDQz9JAOTlAOTrMy8wAi4mLDgkOBgMHaGhpAN3c3W1nZl9cXb++wQZdGpT9zM2qAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -65,7 +65,7 @@
       "logo": "Stenciled",
       "link": "/store/outerwear/50-50-hoodie/stenciled/black",
       "image": "/images/products/outerwear/50-50-hoodie/Outerwear50-50-HoodieStenciledBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/LSvsbq1tvv8/wDR0NJFQEBEPj/Ny80AjIqMDwoPBAMGaWhqAN3d3mxnZmJdXcDAwgqOGsGAxc43AAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/7Wxsbm2tvv8/wDPz9JCOzxBOjvLyssAi4mLDggOAwAEaWhpAN3c3W1mZl9cXb++wQZ+GpBZCcCRAAAAAElFTkSuQmCC"
     }
   ],
   "sizes": [
@@ -121,6 +121,6 @@
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7//7Ktrby5uf///wDQzdE/OTpGQEHR0NEAhoWHDQgNBAMGbm1xAN/e32xmZmFeX8XFxwvpGt10mxVoAAAAAElFTkSuQmCC",
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP///7Ovr765uv///wDOzc88NjZDPT3Qz9EAhoSGCwULAwADbWxvAN7d3mplZWNfYMXExQiMGrJRzNGSAAAAAElFTkSuQmCC",
   "name_root": "50/50 Hoodie"
 }

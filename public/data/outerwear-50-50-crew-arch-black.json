@@ -15,15 +15,15 @@
   "irl": [
     {
       "image": "/images/irl/Outerwear50-50-Crew-1.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO/x68zFvsvEu+708wD4/fiMgHVTRzyxvbgAra2kGRseAAIM1dfXALmzqV1WVV1aXN/Wy03yHTXUoVl3AAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO/w687HvcvFvu729AD4/fiKf3NRRDqxvbgAra2lGhwfAAQO1tnYALmzq15XVl5cXuDWzU8VHUvJDmXYAAAAAElFTkSuQmCC"
     },
     {
       "image": "/images/irl/Outerwear50-50-Crew-2.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APT19djQy9LUzN7l4AD5//+CdnFYWU+UqZ8AzM3IAAIVFh4p7vX3AOrf1Hl5f3Jxcurj1GvRH1b2vgLXAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APT19NjQzNTUzeDm4AD4//+Ac25XWE6Tp54AzM3IAAQVFx4q8Pb5AOnf1Ht6f3Jydevk12uOH2CIgcyKAAAAAElFTkSuQmCC"
     },
     {
       "image": "/images/irl/Outerwear50-50-Crew-3.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APbv4+jevO/nvv/86QDo4M1+d1iEelbv5dAAqq6qAAcODxgYvr67AMfFwlFSTkBGQ8jJw2ozHYafmDriAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APfy5uviwPPrwv//7ADr49B9dleDeVby6NIArK+sAAUODhcXwMC9AMjHxFFSUEFHQsvLxXLrHcsmETEhAAAAAElFTkSuQmCC"
     }
   ],
   "colors": [
@@ -37,7 +37,7 @@
       "logo": "Original",
       "link": "/store/outerwear/50-50-crew/original/black",
       "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewOriginalBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/8PEyL7Axfn5/QCZm6IiIykhISaUlJsAlJWbCgwRAQAEfn6DAP7+/8LCxbm5u/Ly9fVrHKPXD0xkAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP/+/8THy8LCyPv7/wCVmJ8fICYdHCOSk5kAlZacDg4SAwMFf3+EAP/+/8LCxbm5u/Hx8/akHKigtlr1AAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -46,7 +46,7 @@
       "logo": "Arch",
       "link": "/store/outerwear/50-50-crew/arch/black",
       "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewArchBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr6/L2+wrq7wPb2+gCUlp4hJCkoKC6QkJUAj5KXDQ0RBAMHent+APz8/76+wLS1uO/v8endHDkxN8G0AAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP/+/8LEx7+/xPv7/wCSlJwdHyUjJCmOjpQAkZSaDg4RAgIFfH2CAP/+/8DAwra1t/Hx8/BgHGnlB/nhAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -55,7 +55,7 @@
       "logo": "Block",
       "link": "/store/outerwear/50-50-crew/block/black",
       "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewBlockBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APn5/L2+xLq8wvb3+gCSlp8qLTc8PUaMkJgAjZGZAgMRAAAKeHmBAPz8/7m7vq+vtO/v8fNoHGgWpJMwAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7//8LEyr6/x/v7/wCRlp4mKjU7PEOMj5YAkZScBgcSAgEMfH6DAP/+/7y9v7CxtfHx9P5nHMe6zT11AAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -64,7 +64,7 @@
       "logo": "Stamp",
       "link": "/store/outerwear/50-50-crew/stamp/black",
       "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewStampBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr5/L29wrm5vvb2+gCTlZwjJSssLDKNjpQAj5CVDA0RBAIJeXl+APz8/76+wLOzt+/v8ejcHC4Baus0AAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8/76/w7u7vvj4+wCPkpkdICUmJiyKi5EAjpGVDA4QAQEHeHl/APv7/b29v7KytO7v8eT8G/rwzS+hAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -73,7 +73,7 @@
       "logo": "Stenciled",
       "link": "/store/outerwear/50-50-crew/stenciled/black",
       "image": "/images/products/outerwear/50-50-crew/Outerwear50-50-CrewStenciledBlack.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/8fIzcrL0P39/wCUmqA2O0VBSFScoacAdnuCAQMMDxQeiI2UAOnq7Li4uru9vu7u8BMAHVFRYaQuAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP7+/8jJzszO0f7+/wCSlp4yNkA9Qk6ZnqYAd3mDAAEJDxQeiI2UAOjp67e3ubu7vu7u8A7YHSO4sPV2AAAAAElFTkSuQmCC"
     }
   ],
   "sizes": [
@@ -129,6 +129,6 @@
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr6/L2+wrq7wPb2+gCUlp4hJCkoKC6QkJUAj5KXDQ0RBAMHent+APz8/76+wLS1uO/v8endHDkxN8G0AAAAAElFTkSuQmCC",
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP/+/8LEx7+/xPv7/wCSlJwdHyUjJCmOjpQAkZSaDg4RAgIFfH2CAP/+/8DAwra1t/Hx8/BgHGnlB/nhAAAAAElFTkSuQmCC",
   "name_root": "50/50 Crew"
 }

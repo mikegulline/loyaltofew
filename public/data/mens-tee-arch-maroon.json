@@ -15,15 +15,15 @@
   "irl": [
     {
       "image": "/images/irl/MensTee-1.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AK6ysLGxqffy4+jl4ADe4dqFgHN2YVW5ubcA5N7UOSkdBwAUwr+8AP/67YVwXEQ/RN3OxEMbHdWHy73LAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AK2wrbGxqfjy4+jn4ADe4dqCfnF0YVO2uLQA5N7UOSoeCQIVxcC9AP/67YZwXUZCRt7SxkFSHdwE59ciAAAAAElFTkSuQmCC"
     },
     {
       "image": "/images/irl/MensTee-2.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO3u7ebj2P/98Pb18QDd3tlUTk9oY2W9vbUA//rsEgALJx4r7uTYAP/122JRSnpqZPHh0YkkH+lh3QJiAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOfo5+Hf1v/67vTw7ADU19JMSEliXWC2tq8A/PXoDgAHJRso6ODUAP/v2GFPSXhoYu7dz3K6HyUPbi5JAAAAAElFTkSuQmCC"
     },
     {
       "image": "/images/irl/MensTee-3.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APT8/5ufjnh2Wd3eygDKy8RISjQqKBLEwK8AxL61HR8SAggA29XOAN3h5FJVVE9LRvLw69IpGpGjTGqvAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APT+/5udjnd0WdzdyQDIycJERy8mJAzBv68Aw763HR4RAAMA2tTPAN3g5FFUVE5MRfLw7cvTGlzDqJgQAAAAAElFTkSuQmCC"
     }
   ],
   "colors": [
@@ -45,7 +45,7 @@
       "logo": "Disassociated",
       "link": "/store/mens/tee/disassociated/maroon",
       "image": "/images/products/mens/tee/MensTeeDisassociatedMaroon.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APvy97Kdo5+Diuvc4QC5nqZBCBpKCR/CqK8A/fb6MgAAMgAA7ODoAP/7/Yhob5+Di//5/fOJHRMWcVIkAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP3197Kdo5+Ei+vd4wC2m6M8ARVCARnApq0A/vf7MQAAMAAA7OPoAP/7/4Znbp6Cif/5/e6LHOQTbs8JAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -58,7 +58,7 @@
       "logo": "Original",
       "link": "/store/mens/tee/original/maroon",
       "image": "/images/products/mens/tee/MensTeeOriginalMaroon.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO3i57GWoLmgqvXp7wDJtL88ABc+ABrCqrQA/fX5MAAAOAAT//z/APvy+ItlcoRicP/6/QUGHWj+E5xbAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO3j6bGWoLmgq/bt8gDItL42AA85ABXBqrIA/vf6LwAANgAT//7/APz1+YlmcoVhbv/7/wPKHV/2emkpAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -71,7 +71,7 @@
       "logo": "Arch",
       "link": "/store/mens/tee/arch/maroon",
       "image": "/images/products/mens/tee/MensTeeArchMaroon.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOjb4KqOl7eepvbq7wDRvcc8ABNGABzApK8A//v/NAAAMwAA5NbcAP/+/62Pm6iJlPry9/+NHccyG8CYAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOjb46uQmrmfqPbt8ADRvcc6AA9DABjApK8A//v/NAAAMwAA5djcAP/+/62Pm6mLlPvy9wFlHdMxaNJ4AAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -84,7 +84,7 @@
       "logo": "Block",
       "link": "/store/mens/tee/block/maroon",
       "image": "/images/products/mens/tee/MensTeeBlockMaroon.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOXY3qqMl7WbpPXp7wC7oqtCAxxKDSO7naYA8ubrMgAALwAA5NreAP/+/6KBjKmNlvz1+e3FHSxw5KYAAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOfZ4KyQmbmcpvbq7wC6oKpBABpHCiK4maMA8ebrMgAAMAAA5tvfAP/+/6KBjKmNlv32+u6rHS57FtumAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -97,7 +97,7 @@
       "logo": "Stamp",
       "link": "/store/mens/tee/stamp/maroon",
       "image": "/images/products/mens/tee/MensTeeStampMaroon.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ANbHzqGGj6yVn+fb4gC2n6k5ABY+BxuvlJ8A/vr+MQAALgAA4NLYAPbx9KKFjqeLlfTs8s4RHD23AC3vAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ANjIzqOIkq2Yoejd4wC2n6k2ABQ8Axmtk50A//v/MgABLgAA4NTZAPfx9KKFjqeLlfXu9NAgHE2D/vE7AAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -110,7 +110,7 @@
       "logo": "Stenciled",
       "link": "/store/mens/tee/stenciled/maroon",
       "image": "/images/products/mens/tee/MensTeeStenciledMaroon.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APDj6qmPm7mjrv/6/wDFsLs3ABpHFS3Eq7YA//b8KwAAMAAO+/P3AP/5/Zt9i5uBjf/7/xFzHjskdF1dAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APLl66qQm7unr//7/wDFsrk1ABdFEinEqrUA//b7LAAAMQAP/PX5AP/6/ZyAjJ2Bjf/6/xLiHkgH8yfaAAAAAElFTkSuQmCC"
     }
   ],
   "sizes": [
@@ -176,6 +176,6 @@
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOjb4KqOl7eepvbq7wDRvcc8ABNGABzApK8A//v/NAAAMwAA5NbcAP/+/62Pm6iJlPry9/+NHccyG8CYAAAAAElFTkSuQmCC",
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOjb46uQmrmfqPbt8ADRvcc6AA9DABjApK8A//v/NAAAMwAA5djcAP/+/62Pm6mLlPvy9wFlHdMxaNJ4AAAAAElFTkSuQmCC",
   "name_root": "50/50 Tee"
 }

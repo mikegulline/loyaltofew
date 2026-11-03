@@ -15,11 +15,11 @@
   "irl": [
     {
       "image": "/images/irl/OuterwearFlexfit-Snapback-1.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AMjHxrq4tLG0rPf48QCfo6OefHmHcnD6/vgAZE9SOAAAJwACraWoAKiUj3I8Rlo3Qby0sQbOGlCLS+moAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AMrIx7q4s7G0rPf48QCfo6OefHmIcm36//gAZlFSOAAAKAAFraWnAKqVkXQ9R1w4Q7y0sghXGmibelIFAAAAAElFTkSuQmCC"
     },
     {
       "image": "/images/irl/OuterwearFlexfit-Snapback-2.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOTj4pGSibG0p/v7+ADs7uuTjYSIioHw9PIA9/f4ZTIzUzQ1+v//ANS9wy0AACkAC9rQ1XZaHrq3OWGYAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOPi4Y2Oha+xpfv7+ADs7uuPi4GGh3/w9PIA9/f4Yi0vUDEy+v//ANO8wywAACgACtrQ1W6JHnpCo/h6AAAAAElFTkSuQmCC"
     }
   ],
   "colors": [
@@ -37,7 +37,7 @@
       "logo": "Block",
       "link": "/store/outerwear/flexfit-snapback/block/gray-white",
       "image": "/images/products/outerwear/flexfit-snapback/OuterwearFlexfit-SnapbackBlockGray-White.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv6+765tsLCxvz8/QCho6cSHSU9ZofG1ucAc3d6AAcNKktnpb3SAMTCwsK+vMTFys3T3SIOHiUHL3c4AAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8/cC8tsDAxfv6/ACbn6MIFBw0XYDB0uQAc3V3AAIIJUdio7vRAMTDwsC8usHDyM3U3BWFHaleGDPNAAAAAElFTkSuQmCC"
     }
   ],
   "sizes": [
@@ -70,6 +70,6 @@
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv6+765tsLCxvz8/QCho6cSHSU9ZofG1ucAc3d6AAcNKktnpb3SAMTCwsK+vMTFys3T3SIOHiUHL3c4AAAAAElFTkSuQmCC",
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8/cC8tsDAxfv6/ACbn6MIFBw0XYDB0uQAc3V3AAIIJUdio7vRAMTDwsC8usHDyM3U3BWFHaleGDPNAAAAAElFTkSuQmCC",
   "name_root": "Flexfit Snapback"
 }

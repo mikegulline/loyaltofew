@@ -15,15 +15,15 @@
   "irl": [
     {
       "image": "/images/irl/OuterwearHoodie-1.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AK+um4F/W4h5Wr23qwDMzrJQUy8IBQCus6YA2dvZeHl4b29o//32ALzCyJujpJaYlufo6LVLHNFJz1hVAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ALGvnYOBXop8Xr65rQDNz7BSVy8LBgCvs6YA29zZfH18dXNt//32AL7Fyp+kqZibmOfo6L5kHSxgfaE0AAAAAElFTkSuQmCC"
     },
     {
       "image": "/images/irl/OuterwearHoodie-2.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AMvLysXAtfDo2/f38QCYnptJQTihlIb7//sAn5GFCwQAICcp3t/YAOfVwlxWU25wbuzk2zqUHbMAcki4AAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AMrLycbAt/Ho2/f28QCVnJtFPDOfkIT7//wAn5CECQMAHyQo3d7YAOfUxFxVU25ubuzk2jZZHYssN86iAAAAAElFTkSuQmCC"
     },
     {
       "image": "/images/irl/OuterwearHoodie-3.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APnq0t7Hm/PYnP/91QDOw61VTTdeUDjXx68AjJKLAAcBBREQpqaiAL27sk5NRTk9ObW0rwrIGg7ma+KgAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APjq0t/HnPTZm//91QDNwqtQSTRaTTXWxq0AjJKLAAQABA8PpKSjALy6sk1NRjo9O7W0rwZ4GehL6raWAAAAAElFTkSuQmCC"
     }
   ],
   "colors": [
@@ -43,7 +43,7 @@
       "logo": "Original",
       "link": "/store/outerwear/hoodie/original/navy",
       "image": "/images/products/outerwear/hoodie/OuterwearHoodieOriginalNavy.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz9/re3ubm4u/39/wCysrRLSU5CQEG2trgAgYGGFxMXBwEDY19hANra3HFwcWVjZbu7vf8RGl75ZRR1AAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/7e3u7m5u/7//wCwr7JIR0s+PD60tLYAgIGFFhMWBQADYF9fANnZ23FwcWRkZbm5u/tcGjEqE/dSAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -55,7 +55,7 @@
       "logo": "Arch",
       "link": "/store/outerwear/hoodie/arch/navy",
       "image": "/images/products/outerwear/hoodie/OuterwearHoodieArchNavy.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8/ra2ubW0uf39/wCxsbVCQUZDP0O1tLUAfn6EEg8SBwABX11dANra3GxrbV9fYLm5u/VpGe2OnIeKAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz9/7a2uba2uf39/wCvr7JBP0RAPkC0s7QAf4CEFA8TCQEDX11dANra221tbWBgYrm5u/R+Ge1qXRf1AAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -67,7 +67,7 @@
       "logo": "Block",
       "link": "/store/outerwear/hoodie/block/navy",
       "image": "/images/products/outerwear/hoodie/OuterwearHoodieBlockNavy.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8/rS0trS0tv39/wCurrFKSE1IRUiysrIAfX2BExETBQEDW1haANra3GloalxbXLm5vPS5GdestpAHAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/7S0trS0tv3//wCsrK9GRUlFQUKwr7AAfHyBEQ8RBAABWlhZANnZ22loaVpaXLi4u++mGZ+BAR9nAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -79,7 +79,7 @@
       "logo": "Stamp",
       "link": "/store/outerwear/hoodie/stamp/navy",
       "image": "/images/products/outerwear/hoodie/OuterwearHoodieStampNavy.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8/rS0ubW0uf3//wCvr7RGRUpFQ0W0s7QAfn6DFhEUBwMFXVtcANra3GxqbF5dX7m5uvccGfkRtJYJAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/7S0uba0uP7//wCtrbJCQUZBPkGysbMAfX6CFA8TBwEDXFtcANnZ22ppbF5dX7m5ufIcGcaUlqHAAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -91,7 +91,7 @@
       "logo": "Stenciled",
       "link": "/store/outerwear/hoodie/stenciled/navy",
       "image": "/images/products/outerwear/hoodie/OuterwearHoodieStenciledNavy.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8/rS0uLS0uP3//wCvr7JIR0tFQ0WzsrMAfn6DEw8TBQABXFtcANrZ3Gxpal5dX7m5u/VVGeOBUWetAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP39/7S0uba0uP7//wCtrbJHRklDQUOysbIAfn+DFBIUBwEDXVxdANnZ3GxrbV9eYbm5u/WmGe9cnjHbAAAAAElFTkSuQmCC"
     }
   ],
   "sizes": [
@@ -154,6 +154,6 @@
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8/ra2ubW0uf39/wCxsbVCQUZDP0O1tLUAfn6EEg8SBwABX11dANra3GxrbV9fYLm5u/VpGe2OnIeKAAAAAElFTkSuQmCC",
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz9/7a2uba2uf39/wCvr7JBP0RAPkC0s7QAf4CEFA8TCQEDX11dANra221tbWBgYrm5u/R+Ge1qXRf1AAAAAElFTkSuQmCC",
   "name_root": "Cotton Hoodie"
 }

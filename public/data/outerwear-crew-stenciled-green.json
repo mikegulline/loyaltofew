@@ -15,19 +15,19 @@
   "irl": [
     {
       "image": "/images/irl/OuterwearCrew-1.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP/78/fn0v/23P/87wDU1cx/eG2LhXTT08IAoqmhAAQMNDMjsa2XAM3NzlpZYGxpZdPSwYZDHrSXEJuZAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AP/88/fp1P/23P/87wDU1M19dmqIgnHS0cEAoqqhAAIKNDMjr62XAM3OzltYYGxqZNXSwYRzHqPpipn7AAAAAElFTkSuQmCC"
     },
     {
       "image": "/images/irl/OuterwearCrew-2.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AN/c13Z1bc7Kwvv79gDFwLZBNyt0bWP3/PsAfGhWBggOAAYPsrStAMGwn0JAP2RmZdbOxOkXGie96zfYAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AN/c1nRybc7Kwfr79gDCvrQ8MCZwaV/4/vsAeWZVBAcMAAUNsLKrAMKvn0E/P2NkZNbOxOGSGeRnPxN2AAAAAElFTkSuQmCC"
     },
     {
       "image": "/images/irl/OuterwearCrew-3.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ANTOyMi+sqKfmvLz8QC9ubRhW1lraF/3/fsAoZqTAAMZLTU+1NPLAODItH54eXJzd+DVxiKEHVLCQwCqAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ANTNx8i+sp+fmvHz7gC6uLNdV1RpZF33/fsAn5mTAAEXKTQ90tLKAN/ItH13eHFyduDVxxwSHRg7Ip6zAAAAAElFTkSuQmCC"
     },
     {
       "image": "/images/irl/OuterwearCrew-4.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APb//8PMxZOUhN3h2gDf4992eHBIRjvNzcMAy8vIGR4kAAEHzMrGAOrs62JjZ1ZUUurp5TXVHW+mO4IlAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APb//8PNxpSUhN/i2gDf4911dmxGQznMzcIAy8vIGh8lAAMFzMrGAOrs62RlaVlUVOrp5TUjHXG5mo9WAAAAAElFTkSuQmCC"
     }
   ],
   "colors": [
@@ -47,7 +47,7 @@
       "logo": "Original",
       "link": "/store/outerwear/crew/original/green",
       "image": "/images/products/outerwear/crew/OuterwearCrewOriginalGreen.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APn5/LrAwrvCxPz8/wCBjYwPKiQUMSqUoZ8Ago6OAA8AAAsAZ3dyAPb2+r3Bwbi7vODh4t7ZG5wD32ZmAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/b3Fxb7Fxfz8/wB+i4kLJyEQLieSnp0Ag5KPABEBAA0AaHdyAPb2+bu/wra7u9/g4t9fG5PZnbWOAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -59,7 +59,7 @@
       "logo": "Arch",
       "link": "/store/outerwear/crew/arch/green",
       "image": "/images/products/outerwear/crew/OuterwearCrewArchGreen.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APj3+bS8vre/v/v7/QB5hoYSLSceOjKOnJkAfIuJAA8AAAsAYG5qAPT097e9vbK3t9zd3tQhGyAWB4GXAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APv7/be/v7rAwvz8/wB3hYQPKiQaNzCMmJUAfouLABEBAA0AYHFsAPT097a7vLK3ttzd3tY1GyXO1+W+AAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -71,7 +71,7 @@
       "logo": "Block",
       "link": "/store/outerwear/crew/block/green",
       "image": "/images/products/outerwear/crew/OuterwearCrewBlockGreen.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APj3+7S8vLS+vvv7/QB2hYIdNzEoRD2MmJUAfIuIABEBAA0AX25qAPT097i7vLK2ttzd3tkPG0YTpKnHAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr6/ba9vrjAwPz8/wBygH4YMysjPTeHlZIAeomHAA8AAA0AXmxpAPT097S5ua+1tdvd3tTCGwq/zmxzAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -83,7 +83,7 @@
       "logo": "Stamp",
       "link": "/store/outerwear/crew/stamp/green",
       "image": "/images/products/outerwear/crew/OuterwearCrewStampGreen.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APn5/LW9vbnAwPv7/AB9i4kXMSoiPDePnJsAgY6NABEBAA8AZXRwAPb2+bu/v7a7u9/g4t57G5hMxzMVAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr6/bjAwLnBwf38/gB4hYQPKyQbNzGMmJUAgI2NAA8AAA0AY3JtAPb2+Lm9vrO4ud7f4dftG0mXl3KxAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -95,7 +95,7 @@
       "logo": "Stenciled",
       "link": "/store/outerwear/crew/stenciled/green",
       "image": "/images/products/outerwear/crew/OuterwearCrewStenciledGreen.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr6/bvCwrvCwv38/wB4hoQeNzEsRT6Ll5UAfImIAA4AAAsAXGxoAPf3+re9vbG2tt/h4uIeG4QkLODcAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8/73DxL3Exv/+/wBzgYAbNC4oQTyIlJMAfoyKAA4AAA8AXWxoAPf3+ra7vLG2tt7f4OG+G3Xa3eAIAAAAAElFTkSuQmCC"
     }
   ],
   "sizes": [
@@ -150,6 +150,6 @@
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APr6/bvCwrvCwv38/wB4hoQeNzEsRT6Ll5UAfImIAA4AAAsAXGxoAPf3+re9vbG2tt/h4uIeG4QkLODcAAAAAElFTkSuQmCC",
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APz8/73DxL3Exv/+/wBzgYAbNC4oQTyIlJMAfoyKAA4AAA8AXWxoAPf3+ra7vLG2tt7f4OG+G3Xa3eAIAAAAAElFTkSuQmCC",
   "name_root": "Cotton Crew"
 }

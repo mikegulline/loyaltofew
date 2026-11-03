@@ -33,6 +33,18 @@ const Header = () => {
         openCloseMobileMenu={openCloseMobileMenu}
       />
       <AdminMenu />
+      <div className='flex h-10 fixed w-full top-0 z-50  transform items-center pt-2 overflow-hidden bg-gray-800 text-white duration-500'>
+        <Container className='h-full'>
+          <Link
+            href='https://www.instagram.com/loyaltofew'
+            className='font-light text-zinc-400 hover:text-white  hover:underline'
+            target='_blank'
+          >
+            Follow loyaltofew on Instagram
+          </Link>
+        </Container>
+      </div>
+      <div className='h-10'></div>
       <Container>
         <div className={`flex h-[85px] items-center gap-1 lg:h-[105px]`}>
           <Logo />

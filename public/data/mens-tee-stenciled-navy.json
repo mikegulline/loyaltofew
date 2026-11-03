@@ -15,15 +15,15 @@
   "irl": [
     {
       "image": "/images/irl/MensTee-1.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AK6ysLGxqffy4+jl4ADe4dqFgHN2YVW5ubcA5N7UOSkdBwAUwr+8AP/67YVwXEQ/RN3OxEMbHdWHy73LAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AK2wrbGxqfjy4+jn4ADe4dqCfnF0YVO2uLQA5N7UOSoeCQIVxcC9AP/67YZwXUZCRt7SxkFSHdwE59ciAAAAAElFTkSuQmCC"
     },
     {
       "image": "/images/irl/MensTee-2.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO3u7ebj2P/98Pb18QDd3tlUTk9oY2W9vbUA//rsEgALJx4r7uTYAP/122JRSnpqZPHh0YkkH+lh3QJiAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOfo5+Hf1v/67vTw7ADU19JMSEliXWC2tq8A/PXoDgAHJRso6ODUAP/v2GFPSXhoYu7dz3K6HyUPbi5JAAAAAElFTkSuQmCC"
     },
     {
       "image": "/images/irl/MensTee-3.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APT8/5ufjnh2Wd3eygDKy8RISjQqKBLEwK8AxL61HR8SAggA29XOAN3h5FJVVE9LRvLw69IpGpGjTGqvAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/APT+/5udjnd0WdzdyQDIycJERy8mJAzBv68Aw763HR4RAAMA2tTPAN3g5FFUVE5MRfLw7cvTGlzDqJgQAAAAAElFTkSuQmCC"
     }
   ],
   "colors": [
@@ -45,7 +45,7 @@
       "logo": "Disassociated",
       "link": "/store/mens/tee/disassociated/navy",
       "image": "/images/products/mens/tee/MensTeeDisassociatedNavy.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOzt8qeps5eYpdjZ4ACbnKggJDolKEChoq4A9PT5AQAiAQAh3NziAPv7/5ueqpucqvHx9/DAHWHbFXVKAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AO7u86mqtZmap9na4ACbm6YdIDcjJj6goK0A9PX7BAAjAQAg3N3jAPz8/52fq5ucqPHy9vG9HWdCh41NAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -58,7 +58,7 @@
       "logo": "Original",
       "link": "/store/mens/tee/original/navy",
       "image": "/images/products/mens/tee/MensTeeOriginalNavy.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOrr8pGWp5CUpOjp8AC5u8gMGDkQGDiusb4A/P3/AAAmAAAm6OvyAPX2/HF2iXZ6jvHz+fMJHPAor9HLAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPUlEQVR4nGN4/ebz5GkrJ0xZ8vLVJ4Ztu46zCBmzCxmtWb+X4e///wwMqgwMqiCZr9//FpZ1llb1fPr8EwDurRzJFk+OqwAAAABJRU5ErkJggg=="
     },
     {
       "colors": [
@@ -71,7 +71,7 @@
       "logo": "Arch",
       "link": "/store/mens/tee/arch/navy",
       "image": "/images/products/mens/tee/MensTeeArchNavy.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AObm7qOfr5qYotnZ3gCysr08OEtCPEq2tLwA7OvwHhgpEQAUzszQAPz7/42KlImFi+no7QYwHYvxq8zcAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOfn76Sir5qYo9rY3QCwr7w3M0Y9OEa0s7oA7OzxGxcoDQAS0M3QAPz8/42JlYeDiurp7QIEHWP2QtZ0AAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -84,7 +84,7 @@
       "logo": "Block",
       "link": "/store/mens/tee/block/navy",
       "image": "/images/products/mens/tee/MensTeeBlockNavy.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOPk7JebraWptuTm7gC5u8gYJEIkK0qUl6kA/P3/CxY2AAAjzc7aAP7//32DlXuAlO3u9f/VHU2TVUQtAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPUlEQVR4nGN48uzdrLlrl63a8fzFB4btO4+LKzgoanhMmrac4d///7wSFgwMKmfP3wJx6pqnVTdMefv+KwABgB1YyHK1twAAAABJRU5ErkJggg=="
     },
     {
       "colors": [
@@ -97,7 +97,7 @@
       "logo": "Stamp",
       "link": "/store/mens/tee/stamp/navy",
       "image": "/images/products/mens/tee/MensTeeStampNavy.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ANja4YOHlY+Sn+Tl7ADGx9EVHzkbJD2mqrQA/f7/AAAjAAAh4OTpAP7+/4GFlHd7iuvs8eUFHLfS97RtAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/ANna4oaIlpGUoOXm7gDGx9ERHTYXIjumqbQA/f7/AAQkAAAi4+TpAP7+/4KFlHh9i+vs8uZUHMTgDrnQAAAAAElFTkSuQmCC"
     },
     {
       "colors": [
@@ -110,7 +110,7 @@
       "logo": "Stenciled",
       "link": "/store/mens/tee/stenciled/navy",
       "image": "/images/products/mens/tee/MensTeeStenciledNavy.jpg",
-      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOrs8qClsq2xvfz9/wCtr7wOGDgeJ0ajqLYA+Pn/AAMqAAAo3+HoAPb3/n6DlYuQovr6/xAGHfPprBuUAAAAAElFTkSuQmCC"
+      "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOzt9KGlta+yv/3+/wCprLsHEjIZJUGgpbMA+Pn/AAAoAAAm3uDpAPb3/36DlYyQovv7/wxCHc+lwZtzAAAAAElFTkSuQmCC"
     }
   ],
   "sizes": [
@@ -176,6 +176,6 @@
       ""
     ]
   ],
-  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOrs8qClsq2xvfz9/wCtr7wOGDgeJ0ajqLYA+Pn/AAMqAAAo3+HoAPb3/n6DlYuQovr6/xAGHfPprBuUAAAAAElFTkSuQmCC",
+  "imageBlur": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVR4nAE0AMv/AOzt9KGlta+yv/3+/wCprLsHEjIZJUGgpbMA+Pn/AAAoAAAm3uDpAPb3/36DlYyQovv7/wxCHc+lwZtzAAAAAElFTkSuQmCC",
   "name_root": "50/50 Tee"
 }
