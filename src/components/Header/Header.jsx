@@ -33,7 +33,7 @@ const Header = () => {
         openCloseMobileMenu={openCloseMobileMenu}
       />
       <AdminMenu />
-      <div className='flex h-10 fixed w-full top-0 z-50  transform items-center pt-2 overflow-hidden bg-gray-800 text-white duration-500'>
+      <div className='flex h-10 fixed w-full top-0 z-50 text-center  transform items-center pt-2 overflow-hidden bg-gray-900 text-white duration-500'>
         <Container className='h-full'>
           <Link
             href='https://www.instagram.com/loyaltofew'
