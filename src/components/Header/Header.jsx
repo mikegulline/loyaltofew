@@ -7,6 +7,8 @@ import AdminMenu from '@/components/AdminMenu';
 import MobileMenu from '@/features/MobileMenu';
 import { SlBag, SlMenu, SlClose } from 'react-icons/sl';
 import { disablePageScroll, enablePageScroll } from 'scroll-lock';
+import { FaInstagram } from 'react-icons/fa';
+import { FaFacebook } from 'react-icons/fa';
 import styles from './Header.module.css';
 
 const Header = () => {
@@ -35,13 +37,25 @@ const Header = () => {
       <AdminMenu />
       <div className='flex h-10 fixed w-full top-0 z-50 text-center  transform items-center pt-2 overflow-hidden bg-gray-900 text-white duration-500'>
         <Container className='h-full'>
-          <Link
-            href='https://www.instagram.com/loyaltofew'
-            className='font-light text-zinc-400 hover:text-white  hover:underline'
-            target='_blank'
-          >
-            Follow loyaltofew on Instagram
-          </Link>
+          <div className='flex justify-center items-center gap-4'>
+            <Link
+              href='https://www.facebook.com/loyaltofew'
+              className='font-light text-zinc-400 hover:text-white text-lg  hover:underline'
+              target='_blank'
+              title='Follow us on Facebook'
+            >
+              <FaFacebook />
+            </Link>
+            <div>Loyal to Few</div>
+            <Link
+              href='https://www.instagram.com/loyaltofew'
+              className='font-light text-zinc-400 hover:text-white text-lg hover:underline'
+              target='_blank'
+              title='Follow us on Instagram'
+            >
+              <FaInstagram />
+            </Link>
+          </div>
         </Container>
       </div>
       <div className='h-10'></div>
